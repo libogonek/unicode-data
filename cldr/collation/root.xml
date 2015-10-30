@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.3/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 1.22 $"/>
+		<generation date="$Date: 2005/03/18 01:03:36 $"/>
+		<language type="root" /> 
+	</identity>
+		<collations validSubLocales="ga ga_IE id id_ID ms ms_BN ms_MY nl nl_BE nl_NL pt pt_BR pt_PT">
+			<default type="standard"/>
+			<collation type="standard" >
+			</collation  >
+		</collations>
+    <!-- for UCA rules please see: http://www.unicode.org/reports/tr10/ -->
+</ldml>

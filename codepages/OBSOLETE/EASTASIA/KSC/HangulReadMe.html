@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Notes for HANGUL.TXT</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="MSHTML 6.00.2800.1515" name=GENERATOR></HEAD>
+<BODY>
+
+  <H2>Notes and corrections for HANGUL.TXT</H2>
+  <P>October 13, 2005</P>
+  <P>A. The decomposition mappings in UnicodeData-1.1.5.txt are 
+  correct.<BR>
+  B. The composed Hangul syllables (Unicode 2.0 characters) derived from
+  the UnicodeData-1.1.5.txt decomposition mapping do not match the
+  Unicode 2.0 characters mapped to the corresponding Unicode 1.0/1.1
+  characters in HANGUL.TXT in all cases.<BR>
+  C. In particular, the mappings given for the Unicode 1.0/1.1 characters in rows 
+  1747, 1750, 1751, 5284, 5285, 9067, 9068, 9737, 9877, 9888 and 9916 of 
+  HANGUL.TXT are incorrect:</P>
+  <P><PRE>Row 1747 Cols.5 &amp; 6 : "- 48B3" should be "35AA 35AA" (from row 1751)
+Row 1750 Cols.5 &amp; 6 : "- 48B4" should be "- 48B3" (from row 1747)
+Row 1751 Cols.5 &amp; 6 : "- 35AA" should be "- 48B4" (from row 1750)
+Row 5284 Cols.5 &amp; 6 : "- 384E" should be "- 40BC" (from row 5285)
+Row 5285 Cols.5 &amp; 6 : "- 40BC" should be "384E 384E" (from row 5284)
+Row 9067 Cols.5 &amp; 6 : "- 436C" should be "- -" (from row 9068)
+Row 9068 Cols.5 &amp; 6 : "- -" should be "- 436C" (from row 9067)
+Row 9737 Cols.5 &amp; 6 : "- -" should be "- 43DA" (from row 9877)
+Row 9877 Cols.5 &amp; 6 : "- 43DA" should be "- -" (from row 9737)
+Row 9888 Cols.5 &amp; 6 : "- 43FB" should be "- -" (from row 9916)
+Row 9916 Cols.5 &amp; 6 : "- -" should be  "- 43FB" (from row 9888)</PRE>
+  <P></P>
+  <P>Consequently these rows should be amended to :</P>
+  <P><PRE>1747	B4D3	B4D3	93AB	35AA	35AA	B2D2	NIEUN I RIEULMIEUM
+1750	-	8899	93AE	-	48B3	B2D5	NIEUN I RIEULTHIEUTH
+1751	-	889A	93AF	-	48B4	B2D6	NIEUN I RIEULPHIEUPH
+5284	BBE5	BBE5	ABB5	-	40BC	C0A3	SSANGPIEUP I SIOS
+5285	-	98A4	ABB6	384E	384E	C0A4	SSANGPIEUP I SSANGSIOS
+9067	-	B19E	C5B8	-	-	CF6A	KHIEUKH O CIEUC
+9068	-	B19F	C5B9	-	436C	CF6B	KHIEUKH O CHIEUCH
+9737	-	B881	CA56	-	43DA	D208	THIEUTH OE SSANGSIOS
+9877	-	BA46	CAF6	-	-	D294	THIEUTH WI SSANGSIOS
+9888	-	BA4F	CB44	-	-	D29F	THIEUTH YU KIYEOKSIOS
+9916	-	BA6B	CB64	-	43FB	D2BB	THIEUTH EU KIYEOKSIOS</PRE>
+  <P></P>
+  <P>Because HANGUL.TXT is provided primarily for archival purposes, the data file itself
+  will not be corrected. Extreme care should be taken when attempting to map
+  any Korean data to Unicode 1.0 or Unicode 1.1 values.</P>
+
+</BODY></HTML>
