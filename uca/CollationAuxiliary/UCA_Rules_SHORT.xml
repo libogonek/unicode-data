@@ -1,13 +1,13 @@
 <collation>
 <!--
 # File:        UCA_Rules_SHORT.xml
-# UCA Version: 6.0.0
-# UCD Version: 6.0.0
-# Generated:   2010-10-18, 22:19:20 GMT [MD]
+# UCA Version: 6.1.0
+# UCD Version: 6.1.0
+# Generated:   2012-01-03, 21:53:26 GMT [MD]
 # For a description of the format and usage, see CollationAuxiliary.html
 
 -->
-<base uca='6.0.0/6.0.0'/>
+<base uca='6.1.0/6.1.0'/>
 <rules>
 <reset/><position at="last tertiary ignorable"/>
 
@@ -111,6 +111,7 @@
   <i>&#x601;</i>
   <i>&#x602;</i>
   <i>&#x603;</i>
+  <i>&#x604;</i>
   <i>&#x610;</i>
   <i>&#x611;</i>
   <i>&#x612;</i>
@@ -152,17 +153,28 @@
   <i>&#x749;</i>
   <i>&#x74A;</i>
   <i>&#x7FA;</i>
+  <i>&#x8EA;</i>
+  <i>&#x8EB;</i>
+  <i>&#x8EC;</i>
+  <i>&#x8ED;</i>
+  <i>&#x8EE;</i>
+  <i>&#x8EF;</i>
+  <i>&#x8F3;</i>
   <i>&#x951;</i>
   <i>&#x952;</i>
   <i>&#xF18;</i>
   <i>&#xF19;</i>
   <i>&#xF35;</i>
   <i>&#xF37;</i>
+  <i>&#xF3E;</i>
+  <i>&#xF3F;</i>
   <i>&#xF82;</i>
   <i>&#xF83;</i>
   <i>&#xF86;</i>
   <i>&#xF87;</i>
   <i>&#xFC6;</i>
+  <i>&#x17B4;</i>
+  <i>&#x17B5;</i>
   <i>&#x17D3;</i>
   <i>&#x180A;</i>
   <i>&#x180B;</i>
@@ -203,6 +215,7 @@
   <i>&#x1CE6;</i>
   <i>&#x1CE7;</i>
   <i>&#x1CE8;</i>
+  <i>&#x1CF4;</i>
   <i>&#x200B;</i>
   <i>&#x200C;</i>
   <i>&#x200D;</i>
@@ -707,7 +720,6 @@
   <i>&#x17D0;</i>
   <i>&#x17D1;</i>
   <i>&#x17DD;</i>
-  <i>&#x1BE6;</i>
   <i>&#x1DC0;</i>
   <i>&#x1DC1;</i>
   <i>&#x1DC3;</i>
@@ -858,27 +870,40 @@
   <s>&#x64B;</s>
   <t>&#xFE71;</t>
   <t>&#xFE70;</t>
+  <s>&#x8F0;</s>
+  <s>&#x8E7;</s>
   <s>&#x64C;</s>
   <t>&#xFE72;</t>
 <x>  <t>&#xFC5E;</t><extend>&#x651;</extend></x>
+  <s>&#x8F1;</s>
+  <s>&#x8E8;</s>
   <s>&#x64D;</s>
   <t>&#xFE74;</t>
 <x>  <t>&#xFC5F;</t><extend>&#x651;</extend></x>
+  <s>&#x8F2;</s>
+  <s>&#x8E9;</s>
   <s>&#x64E;</s>
   <t>&#xFE77;</t>
 <x>  <t>&#xFCF2;</t><extend>&#x651;</extend></x>
   <t>&#xFE76;</t>
 <x>  <t>&#xFC60;</t><extend>&#x651;</extend></x>
+  <s>&#x8E4;</s>
+  <s>&#x8F4;</s>
+  <s>&#x8F5;</s>
   <s>&#x64F;</s>
   <t>&#xFE79;</t>
 <x>  <t>&#xFCF3;</t><extend>&#x651;</extend></x>
   <t>&#xFE78;</t>
 <x>  <t>&#xFC61;</t><extend>&#x651;</extend></x>
+  <s>&#x8E5;</s>
+  <s>&#x8FE;</s>
   <s>&#x650;</s>
   <t>&#xFE7B;</t>
 <x>  <t>&#xFCF4;</t><extend>&#x651;</extend></x>
   <t>&#xFE7A;</t>
 <x>  <t>&#xFC62;</t><extend>&#x651;</extend></x>
+  <s>&#x8E6;</s>
+  <s>&#x8F6;</s>
   <s>&#x651;</s>
   <t>&#xFE7D;</t>
   <t>&#xFE7C;</t>
@@ -899,6 +924,13 @@
   <s>&#x65C;</s>
   <s>&#x65D;</s>
   <s>&#x65E;</s>
+  <s>&#x8F7;</s>
+  <s>&#x8F8;</s>
+  <s>&#x8FD;</s>
+  <s>&#x8FB;</s>
+  <s>&#x8FC;</s>
+  <s>&#x8F9;</s>
+  <s>&#x8FA;</s>
   <s>&#x670;</s>
   <s>&#x711;</s>
   <s>&#x730;</s>
@@ -932,71 +964,90 @@
   <s>&#xA6F0;</s>
   <s>&#xA6F1;</s>
   <s>&#x93C;</s>
+  <i>&#x9BC;</i>
+  <i>&#xA3C;</i>
+  <i>&#xABC;</i>
+  <i>&#xB3C;</i>
+  <i>&#xCBC;</i>
+  <i>&#x1B34;</i>
+  <i>&#x1BE6;</i>
+  <i>&#x1C37;</i>
+  <i>&#xA9B3;</i>
+  <i>&#x110BA;</i>
+  <i>&#x116B7;</i>
   <s>&#x900;</s>
   <i>&#x901;</i>
+  <i>&#x981;</i>
+  <i>&#xA01;</i>
+  <i>&#xA81;</i>
+  <i>&#xB01;</i>
+  <i>&#xC01;</i>
+  <i>&#x1B00;</i>
+  <i>&#x1B01;</i>
+  <i>&#xA980;</i>
+  <i>&#x11000;</i>
+  <i>&#x11080;</i>
+  <i>&#x11100;</i>
+  <i>&#x11180;</i>
   <s>&#x902;</s>
+  <i>&#x982;</i>
+  <i>&#xA02;</i>
+  <i>&#xA82;</i>
+  <i>&#xB02;</i>
+  <i>&#xB82;</i>
+  <i>&#xC02;</i>
+  <i>&#xC82;</i>
+  <i>&#xD02;</i>
+  <i>&#xD82;</i>
+  <i>&#xF7E;</i>
+  <i>&#x1036;</i>
+  <i>&#x17C6;</i>
+  <i>&#x1A74;</i>
+  <i>&#x1B02;</i>
+  <i>&#x1B80;</i>
   <i>&#x1CED;</i>
+  <i>&#xA80B;</i>
+  <i>&#xA880;</i>
+  <i>&#xA981;</i>
+  <i>&#x10A0E;</i>
+  <i>&#x11001;</i>
+  <i>&#x11081;</i>
+  <i>&#x11101;</i>
+  <i>&#x11181;</i>
+  <i>&#x116AB;</i>
   <s>&#x903;</s>
+  <i>&#x983;</i>
+  <i>&#xA03;</i>
+  <i>&#xA83;</i>
+  <i>&#xB03;</i>
+  <i>&#xC03;</i>
+  <i>&#xC83;</i>
+  <i>&#xD03;</i>
+  <i>&#xD83;</i>
+  <i>&#xF7F;</i>
+  <i>&#x1038;</i>
+  <i>&#x17C7;</i>
+  <i>&#x1B04;</i>
+  <i>&#x1B82;</i>
   <i>&#x1CF2;</i>
-  <s>&#x9BC;</s>
-  <s>&#x981;</s>
-  <s>&#x982;</s>
-  <s>&#x983;</s>
-  <s>&#xA3C;</s>
-  <s>&#xA01;</s>
-  <s>&#xA02;</s>
-  <s>&#xA03;</s>
+  <i>&#x1CF3;</i>
+  <i>&#xA881;</i>
+  <i>&#xA983;</i>
+  <i>&#x10A0F;</i>
+  <i>&#x11002;</i>
+  <i>&#x11082;</i>
+  <i>&#x11102;</i>
+  <i>&#x11182;</i>
+  <i>&#x116AC;</i>
   <s>&#xA70;</s>
   <s>&#xA71;</s>
-  <s>&#xABC;</s>
-  <s>&#xA81;</s>
-  <s>&#xA82;</s>
-  <s>&#xA83;</s>
-  <s>&#xB3C;</s>
-  <s>&#xB01;</s>
-  <s>&#xB02;</s>
-  <s>&#xB03;</s>
-  <s>&#xB82;</s>
-  <s>&#xC01;</s>
-  <s>&#xC02;</s>
-  <s>&#xC03;</s>
-  <s>&#xCBC;</s>
-  <s>&#xC82;</s>
-  <s>&#xC83;</s>
-  <s>&#xD02;</s>
-  <s>&#xD03;</s>
-  <s>&#xD82;</s>
-  <s>&#xD83;</s>
-  <s>&#x1B34;</s>
-  <s>&#x1B00;</s>
-  <s>&#x1B01;</s>
-  <s>&#x1B02;</s>
   <s>&#x1B03;</s>
-  <s>&#x1B04;</s>
-  <s>&#xA9B3;</s>
-  <s>&#xA980;</s>
-  <s>&#xA981;</s>
   <s>&#xA982;</s>
-  <s>&#xA983;</s>
-  <s>&#x1B80;</s>
   <s>&#x1B81;</s>
-  <s>&#x1B82;</s>
   <s>&#xABEC;</s>
-  <s>&#xA80B;</s>
-  <s>&#xA880;</s>
-  <s>&#xA881;</s>
-  <s>&#x11000;</s>
-  <s>&#x11001;</s>
-  <s>&#x11002;</s>
-  <s>&#x10A0E;</s>
-  <s>&#x10A0F;</s>
   <s>&#x10A38;</s>
   <s>&#x10A39;</s>
   <s>&#x10A3A;</s>
-  <s>&#x110BA;</s>
-  <s>&#x11080;</s>
-  <s>&#x11081;</s>
-  <s>&#x11082;</s>
   <s>&#xE4E;</s>
   <s>&#xE47;</s>
   <s>&#xE48;</s>
@@ -1014,22 +1065,14 @@
   <s>&#xAABF;</s>
   <s>&#xAAC1;</s>
   <s>&#xF39;</s>
-  <s>&#xF7E;</s>
-  <s>&#xF7F;</s>
-  <s>&#x1C37;</s>
   <s>&#xA92B;</s>
   <s>&#xA92C;</s>
   <s>&#xA92D;</s>
-  <s>&#x1036;</s>
   <s>&#x1037;</s>
-  <s>&#x1038;</s>
   <s>&#x108D;</s>
-  <s>&#x17C6;</s>
-  <s>&#x17C7;</s>
   <s>&#x17C8;</s>
   <s>&#x17C9;</s>
   <s>&#x17CA;</s>
-  <s>&#x1A74;</s>
   <s>&#x1A75;</s>
   <s>&#x1A76;</s>
   <s>&#x1A77;</s>
@@ -1080,7 +1123,8 @@
   <p>&#x2029;</p>
   <p> </p>
   <t>&#x3000;</t>
-  <t>&#x2002;</t>
+  <t>&#x1680;</t>
+  <i>&#x2002;</i>
   <i>&#x2003;</i>
   <i>&#x2004;</i>
   <i>&#x2005;</i>
@@ -1092,7 +1136,6 @@
   <t>&#xA0;</t>
   <i>&#x2007;</i>
   <i>&#x202F;</i>
-  <p>&#x1680;</p>
   <p>&#x203E;</p>
   <t>&#xFE49;</t>
   <i>&#xFE4A;</i>
@@ -1123,6 +1166,8 @@
   <t>&#xFE58;</t>
   <t>&#xFE31;</t>
   <p>&#x2015;</p>
+  <p>&#x2E3A;</p>
+  <p>&#x2E3B;</p>
   <p>&#x2053;</p>
   <p>&#x2E17;</p>
   <p>&#x301C;</p>
@@ -1134,6 +1179,8 @@
   <t>&#xFF0C;</t>
   <t>&#xFE50;</t>
   <t>&#xFE10;</t>
+  <p>&#x2E34;</p>
+  <p>&#x2E32;</p>
   <p>&#x55D;</p>
   <p>&#x60C;</p>
   <p>&#x60D;</p>
@@ -1157,6 +1204,7 @@
   <t>&#xFE14;</t>
   <p>&#x61B;</p>
   <p>&#x204F;</p>
+  <p>&#x2E35;</p>
   <p>&#xA6F6;</p>
   <p>:</p>
   <t>&#xFF1A;</t>
@@ -1193,6 +1241,7 @@
   <p>&#x1366;</p>
   <p>&#x1804;</p>
   <p>&#x1805;</p>
+  <p>&#xF14;</p>
   <p>&#x17D6;</p>
   <p>&#x1B5D;</p>
   <p>&#xA9C7;</p>
@@ -1227,6 +1276,8 @@
   <p>&#x2CFB;</p>
   <p>&#xA60F;</p>
   <p>&#xA6F7;</p>
+  <p>&#xAAF1;</p>
+  <p>&#x11143;</p>
   <p>&#x203D;</p>
   <p>&#x2E18;</p>
   <p>.</p>
@@ -1257,6 +1308,7 @@
   <t>&#xFE12;</t>
   <p>&#xB7;</p>
   <p>&#x2E31;</p>
+  <p>&#x2E33;</p>
   <p>&#x964;</p>
   <p>&#x965;</p>
   <p>&#xA8CE;</p>
@@ -1283,6 +1335,7 @@
   <p>&#xAA5D;</p>
   <p>&#xAA5E;</p>
   <p>&#xAA5F;</p>
+  <p>&#xAAF0;</p>
   <p>&#xABEB;</p>
   <p>&#x10A56;</p>
   <p>&#x10A57;</p>
@@ -1290,11 +1343,16 @@
   <p>&#x11048;</p>
   <p>&#x110C0;</p>
   <p>&#x110C1;</p>
+  <p>&#x11141;</p>
+  <p>&#x11142;</p>
+  <p>&#x111C5;</p>
+  <p>&#x111C6;</p>
   <p>&#x1C7E;</p>
   <p>&#x1C7F;</p>
   <p>&#x700;</p>
   <p>&#x7F7;</p>
   <p>&#x10FB;</p>
+  <p>&#x1360;</p>
   <p>&#x1368;</p>
   <p>&#x1A1E;</p>
   <p>&#x1A1F;</p>
@@ -1321,6 +1379,8 @@
   <p>&#x10B3F;</p>
   <p>&#x110BE;</p>
   <p>&#x110BF;</p>
+  <p>&#x11140;</p>
+  <p>&#x111C8;</p>
   <p>&#x2055;</p>
   <p>&#x2056;</p>
   <p>&#x2058;</p>
@@ -1340,6 +1400,7 @@
   <p>&#x1093F;</p>
   <p>&#x10100;</p>
   <p>&#x10101;</p>
+  <p>&#x10102;</p>
   <p>&#x1039F;</p>
   <p>&#x103D0;</p>
   <p>&#x1091F;</p>
@@ -1565,10 +1626,32 @@
   <p>&#x2996;</p>
   <p>&#x2997;</p>
   <p>&#x2998;</p>
+  <p>&#x27C5;</p>
+  <p>&#x27C6;</p>
+  <p>&#x27E6;</p>
+  <p>&#x27E7;</p>
+  <p>&#x27E8;</p>
+  <p>&#x27E9;</p>
+  <p>&#x27EA;</p>
+  <p>&#x27EB;</p>
   <p>&#x27EC;</p>
   <p>&#x27ED;</p>
   <p>&#x27EE;</p>
   <p>&#x27EF;</p>
+  <p>&#x2768;</p>
+  <p>&#x2769;</p>
+  <p>&#x276A;</p>
+  <p>&#x276B;</p>
+  <p>&#x276C;</p>
+  <p>&#x276D;</p>
+  <p>&#x276E;</p>
+  <p>&#x276F;</p>
+  <p>&#x2770;</p>
+  <p>&#x2771;</p>
+  <p>&#x2772;</p>
+  <p>&#x2773;</p>
+  <p>&#x2774;</p>
+  <p>&#x2775;</p>
   <p>&#x2E02;</p>
   <p>&#x2E03;</p>
   <p>&#x2E04;</p>
@@ -1637,6 +1720,14 @@
   <p>&#x301B;</p>
   <p>&#xFD3E;</p>
   <p>&#xFD3F;</p>
+  <p>&#x2016;</p>
+  <p>&#x29D8;</p>
+  <p>&#x29D9;</p>
+  <p>&#x29DA;</p>
+  <p>&#x29DB;</p>
+  <p>&#xA7;</p>
+  <p>&#x2E39;</p>
+  <p>&#xB6;</p>
   <p>&#x204B;</p>
   <p>@</p>
   <t>&#xFF20;</t>
@@ -1670,6 +1761,9 @@
   <p>&#x60A;</p>
   <p>&#x2020;</p>
   <p>&#x2021;</p>
+  <p>&#x2E36;</p>
+  <p>&#x2E37;</p>
+  <p>&#x2E38;</p>
   <p>&#x2022;</p>
   <p>&#x2023;</p>
   <p>&#x2027;</p>
@@ -1732,7 +1826,9 @@
   <p>&#xA8F8;</p>
   <p>&#xA8F9;</p>
   <p>&#xA8FA;</p>
+  <p>&#xAF0;</p>
   <p>&#xDF4;</p>
+  <p>&#xE4F;</p>
   <p>&#xE5A;</p>
   <p>&#xE5B;</p>
   <p>&#xAADE;</p>
@@ -1780,6 +1876,14 @@
   <p>&#x1AAC;</p>
   <p>&#x1AAD;</p>
   <p>&#x166D;</p>
+  <p>&#x1CC0;</p>
+  <p>&#x1CC1;</p>
+  <p>&#x1CC2;</p>
+  <p>&#x1CC3;</p>
+  <p>&#x1CC4;</p>
+  <p>&#x1CC5;</p>
+  <p>&#x1CC6;</p>
+  <p>&#x1CC7;</p>
   <p>&#x2D70;</p>
   <p>&#xA874;</p>
   <p>&#xA875;</p>
@@ -1806,34 +1910,7 @@
   <p>&#x10B39;</p>
   <p>&#x110BB;</p>
   <p>&#x110BC;</p>
-  <p>&#xE4F;</p>
-  <p>&#x2016;</p>
-  <p>&#x2768;</p>
-  <p>&#x2769;</p>
-  <p>&#x276A;</p>
-  <p>&#x276B;</p>
-  <p>&#x276C;</p>
-  <p>&#x276D;</p>
-  <p>&#x276E;</p>
-  <p>&#x276F;</p>
-  <p>&#x2770;</p>
-  <p>&#x2771;</p>
-  <p>&#x2772;</p>
-  <p>&#x2773;</p>
-  <p>&#x2774;</p>
-  <p>&#x2775;</p>
-  <p>&#x27C5;</p>
-  <p>&#x27C6;</p>
-  <p>&#x27E6;</p>
-  <p>&#x27E7;</p>
-  <p>&#x27E8;</p>
-  <p>&#x27E9;</p>
-  <p>&#x27EA;</p>
-  <p>&#x27EB;</p>
-  <p>&#x29D8;</p>
-  <p>&#x29D9;</p>
-  <p>&#x29DA;</p>
-  <p>&#x29DB;</p>
+  <p>&#x111C7;</p>
   <p>&#x10A7F;</p>
 p<variableTop/>
   <p>`</p>
@@ -1850,47 +1927,14 @@ p<variableTop/>
   <p>&#xA8;</p>
   <p>&#x2DA;</p>
   <p>&#x2DD;</p>
+  <p>&#xB8;</p>
+  <p>&#x2DB;</p>
   <p>&#x1FBD;</p>
   <i>&#x1FBF;</i>
   <p>&#x1FFE;</p>
-  <p>&#xB8;</p>
-  <p>&#x2DB;</p>
   <p>&#x1FC0;</p>
-  <p>&#xFBB2;</p>
-  <p>&#xFBB3;</p>
-  <p>&#xFBB4;</p>
-  <p>&#xFBB5;</p>
-  <p>&#xFBB6;</p>
-  <p>&#xFBB7;</p>
-  <p>&#xFBB8;</p>
-  <p>&#xFBB9;</p>
-  <p>&#xFBBA;</p>
-  <p>&#xFBBB;</p>
-  <p>&#xFBBC;</p>
-  <p>&#xFBBD;</p>
-  <p>&#xFBBE;</p>
-  <p>&#xFBBF;</p>
-  <p>&#xFBC0;</p>
-  <p>&#xFBC1;</p>
   <p>&#x309B;</p>
   <p>&#x309C;</p>
-  <p>&#xF14;</p>
-  <p>&#x1360;</p>
-  <p>&#x10102;</p>
-  <p>&#xA7;</p>
-  <p>&#xB6;</p>
-  <p>&#xA9;</p>
-  <p>&#xAE;</p>
-  <p>&#x2044;</p>
-  <p>&#x214B;</p>
-  <p>&#x2052;</p>
-  <p>&#x1940;</p>
-  <p>&#x109E;</p>
-  <p>&#x109F;</p>
-  <p>&#xAA77;</p>
-  <p>&#xAA78;</p>
-  <p>&#xAA79;</p>
-  <p>&#x17D7;</p>
   <p>&#x2B9;</p>
   <p>&#x375;</p>
   <p>&#x2BA;</p>
@@ -1994,11 +2038,29 @@ p<variableTop/>
 <x>  <t>&#x2109;</t><extend>F</extend></x>
   <p>&#x482;</p>
   <p>&#x608;</p>
+  <p>&#x1EEF0;</p>
+  <p>&#x1EEF1;</p>
   <p>&#x60E;</p>
   <p>&#x60F;</p>
   <p>&#x6DE;</p>
   <p>&#x6E9;</p>
   <p>&#xFDFD;</p>
+  <p>&#xFBB2;</p>
+  <p>&#xFBB3;</p>
+  <p>&#xFBB4;</p>
+  <p>&#xFBB5;</p>
+  <p>&#xFBB6;</p>
+  <p>&#xFBB7;</p>
+  <p>&#xFBB8;</p>
+  <p>&#xFBB9;</p>
+  <p>&#xFBBA;</p>
+  <p>&#xFBBB;</p>
+  <p>&#xFBBC;</p>
+  <p>&#xFBBD;</p>
+  <p>&#xFBBE;</p>
+  <p>&#xFBBF;</p>
+  <p>&#xFBC0;</p>
+  <p>&#xFBC1;</p>
   <p>&#x7F6;</p>
   <p>&#x9FA;</p>
   <p>&#xB70;</p>
@@ -2034,8 +2096,6 @@ p<variableTop/>
   <p>&#xF34;</p>
   <p>&#xF36;</p>
   <p>&#xF38;</p>
-  <p>&#xF3E;</p>
-  <p>&#xF3F;</p>
   <p>&#xFBE;</p>
   <p>&#xFBF;</p>
   <p>&#xFC0;</p>
@@ -2056,6 +2116,12 @@ p<variableTop/>
   <p>&#xFD6;</p>
   <p>&#xFD7;</p>
   <p>&#xFD8;</p>
+  <p>&#x1940;</p>
+  <p>&#x109E;</p>
+  <p>&#x109F;</p>
+  <p>&#xAA77;</p>
+  <p>&#xAA78;</p>
+  <p>&#xAA79;</p>
   <p>&#x19E0;</p>
   <p>&#x19E1;</p>
   <p>&#x19E2;</p>
@@ -2107,6 +2173,8 @@ p<variableTop/>
   <p>&#x1B7A;</p>
   <p>&#x1B7B;</p>
   <p>&#x1B7C;</p>
+  <p>&#xA9;</p>
+  <p>&#xAE;</p>
   <p>&#x2104;</p>
   <p>&#x2108;</p>
   <p>&#x2114;</p>
@@ -2126,7 +2194,6 @@ p<variableTop/>
   <p>&#x2144;</p>
   <p>&#x214A;</p>
   <p>&#x214C;</p>
-  <p>&#x214D;</p>
   <p>&#x214F;</p>
   <p>&#x2190;</p>
   <t>&#xFFE9;</t>
@@ -2298,9 +2365,11 @@ p<variableTop/>
   <p>&#x2212;</p>
   <t>&#x207B;</t>
   <t>&#x208B;</t>
+  <p>&#x2052;</p>
   <p>&#x2213;</p>
   <p>&#x2214;</p>
   <p>&#x2215;</p>
+  <p>&#x2044;</p>
   <p>&#x2216;</p>
   <p>&#x2217;</p>
   <p>&#x2218;</p>
@@ -2444,6 +2513,7 @@ p<variableTop/>
   <p>&#x22BA;</p>
   <p>&#x22BB;</p>
   <p>&#x22BC;</p>
+  <p>&#x214B;</p>
   <p>&#x22BD;</p>
   <p>&#x22BE;</p>
   <p>&#x22BF;</p>
@@ -3449,7 +3519,9 @@ p<variableTop/>
   <p>&#x27C8;</p>
   <p>&#x27C9;</p>
   <p>&#x27CA;</p>
+  <p>&#x27CB;</p>
   <p>&#x27CC;</p>
+  <p>&#x27CD;</p>
   <p>&#x27CE;</p>
   <p>&#x27CF;</p>
   <p>&#x27D0;</p>
@@ -5822,6 +5894,10 @@ p<variableTop/>
   <p>&#x1F53B;</p>
   <p>&#x1F53C;</p>
   <p>&#x1F53D;</p>
+  <p>&#x1F540;</p>
+  <p>&#x1F541;</p>
+  <p>&#x1F542;</p>
+  <p>&#x1F543;</p>
   <p>&#x1F550;</p>
   <p>&#x1F551;</p>
   <p>&#x1F552;</p>
@@ -5851,6 +5927,7 @@ p<variableTop/>
   <p>&#x1F5FD;</p>
   <p>&#x1F5FE;</p>
   <p>&#x1F5FF;</p>
+  <p>&#x1F600;</p>
   <p>&#x1F601;</p>
   <p>&#x1F602;</p>
   <p>&#x1F603;</p>
@@ -5867,30 +5944,42 @@ p<variableTop/>
   <p>&#x1F60E;</p>
   <p>&#x1F60F;</p>
   <p>&#x1F610;</p>
+  <p>&#x1F611;</p>
   <p>&#x1F612;</p>
   <p>&#x1F613;</p>
   <p>&#x1F614;</p>
+  <p>&#x1F615;</p>
   <p>&#x1F616;</p>
+  <p>&#x1F617;</p>
   <p>&#x1F618;</p>
+  <p>&#x1F619;</p>
   <p>&#x1F61A;</p>
+  <p>&#x1F61B;</p>
   <p>&#x1F61C;</p>
   <p>&#x1F61D;</p>
   <p>&#x1F61E;</p>
+  <p>&#x1F61F;</p>
   <p>&#x1F620;</p>
   <p>&#x1F621;</p>
   <p>&#x1F622;</p>
   <p>&#x1F623;</p>
   <p>&#x1F624;</p>
   <p>&#x1F625;</p>
+  <p>&#x1F626;</p>
+  <p>&#x1F627;</p>
   <p>&#x1F628;</p>
   <p>&#x1F629;</p>
   <p>&#x1F62A;</p>
   <p>&#x1F62B;</p>
+  <p>&#x1F62C;</p>
   <p>&#x1F62D;</p>
+  <p>&#x1F62E;</p>
+  <p>&#x1F62F;</p>
   <p>&#x1F630;</p>
   <p>&#x1F631;</p>
   <p>&#x1F632;</p>
   <p>&#x1F633;</p>
+  <p>&#x1F634;</p>
   <p>&#x1F635;</p>
   <p>&#x1F636;</p>
   <p>&#x1F637;</p>
@@ -6166,10 +6255,13 @@ p<variableTop/>
   <p>&#x971;</p>
   <p>&#xE46;</p>
   <p>&#xEC6;</p>
+  <p>&#x17D7;</p>
   <p>&#x1AA7;</p>
   <p>&#xA9CF;</p>
   <p>&#xAA70;</p>
   <p>&#xAADD;</p>
+  <p>&#xAAF3;</p>
+  <p>&#xAAF4;</p>
   <p>&#x3005;</p>
   <p>&#x303B;</p>
   <p>&#x3031;</p>
@@ -6191,6 +6283,7 @@ p<variableTop/>
   <t>&#xFFE1;</t>
   <p>&#xA5;</p>
   <t>&#xFFE5;</t>
+  <p>&#x58F;</p>
   <p>&#x60B;</p>
   <p>&#x9F2;</p>
   <p>&#x9F3;</p>
@@ -6477,6 +6570,7 @@ p<variableTop/>
   <s>&#xA900;</s>
   <s>&#x1040;</s>
   <s>&#x1090;</s>
+  <s>&#x11136;</s>
   <s>&#x17E0;</s>
   <s>&#x17F0;</s>
   <s>&#xAA50;</s>
@@ -6486,8 +6580,11 @@ p<variableTop/>
   <s>&#x1810;</s>
   <s>&#x1C50;</s>
   <s>&#xA620;</s>
+  <s>&#x110F0;</s>
   <s>&#x3007;</s>
   <s>&#x1018A;</s>
+  <s>&#x111D0;</s>
+  <s>&#x116C0;</s>
   <s>&#x11066;</s>
   <p>1</p>
   <t>&#xFF11;</t>
@@ -6607,6 +6704,7 @@ p<variableTop/>
   <s>&#xA901;</s>
   <s>&#x1041;</s>
   <s>&#x1091;</s>
+  <s>&#x11137;</s>
   <s>&#x17E1;</s>
   <s>&#x17F1;</s>
   <s>&#xAA51;</s>
@@ -6616,6 +6714,7 @@ p<variableTop/>
   <s>&#x1811;</s>
   <s>&#x1C51;</s>
   <s>&#xA621;</s>
+  <s>&#x110F1;</s>
   <s>&#x3021;</s>
   <s>&#x10107;</s>
   <s>&#x10142;</s>
@@ -6635,6 +6734,8 @@ p<variableTop/>
   <s>&#x10858;</s>
   <s>&#x10B58;</s>
   <s>&#x10B78;</s>
+  <s>&#x111D1;</s>
+  <s>&#x116C1;</s>
   <s>&#x11067;</s>
   <s>&#x11052;</s>
   <s>&#x10A40;</s>
@@ -6719,6 +6820,7 @@ p<variableTop/>
   <s>&#xA902;</s>
   <s>&#x1042;</s>
   <s>&#x1092;</s>
+  <s>&#x11138;</s>
   <s>&#x17E2;</s>
   <s>&#x17F2;</s>
   <s>&#xAA52;</s>
@@ -6728,6 +6830,7 @@ p<variableTop/>
   <s>&#x1812;</s>
   <s>&#x1C52;</s>
   <s>&#xA622;</s>
+  <s>&#x110F2;</s>
   <s>&#x3022;</s>
   <s>&#x10108;</s>
   <s>&#x1015B;</s>
@@ -6748,6 +6851,8 @@ p<variableTop/>
   <s>&#x10859;</s>
   <s>&#x10B59;</s>
   <s>&#x10B79;</s>
+  <s>&#x111D2;</s>
+  <s>&#x116C2;</s>
   <s>&#x11068;</s>
   <s>&#x11053;</s>
   <s>&#x10A41;</s>
@@ -6818,6 +6923,7 @@ p<variableTop/>
   <s>&#xA903;</s>
   <s>&#x1043;</s>
   <s>&#x1093;</s>
+  <s>&#x11139;</s>
   <s>&#x17E3;</s>
   <s>&#x17F3;</s>
   <s>&#xAA53;</s>
@@ -6827,6 +6933,7 @@ p<variableTop/>
   <s>&#x1813;</s>
   <s>&#x1C53;</s>
   <s>&#xA623;</s>
+  <s>&#x110F3;</s>
   <s>&#x3023;</s>
   <s>&#x10109;</s>
   <s>&#x12401;</s>
@@ -6847,6 +6954,8 @@ p<variableTop/>
   <s>&#x1085A;</s>
   <s>&#x10B5A;</s>
   <s>&#x10B7A;</s>
+  <s>&#x111D3;</s>
+  <s>&#x116C3;</s>
   <s>&#x11069;</s>
   <s>&#x11054;</s>
   <s>&#x10A42;</s>
@@ -6911,6 +7020,7 @@ p<variableTop/>
   <s>&#xA904;</s>
   <s>&#x1044;</s>
   <s>&#x1094;</s>
+  <s>&#x1113A;</s>
   <s>&#x17E4;</s>
   <s>&#x17F4;</s>
   <s>&#xAA54;</s>
@@ -6920,6 +7030,7 @@ p<variableTop/>
   <s>&#x1814;</s>
   <s>&#x1C54;</s>
   <s>&#xA624;</s>
+  <s>&#x110F4;</s>
   <s>&#x3024;</s>
   <s>&#x1010A;</s>
   <s>&#x12402;</s>
@@ -6939,6 +7050,8 @@ p<variableTop/>
   <i>&#x12453;</i>
   <s>&#x10B5B;</s>
   <s>&#x10B7B;</s>
+  <s>&#x111D4;</s>
+  <s>&#x116C4;</s>
   <s>&#x1106A;</s>
   <s>&#x11055;</s>
   <s>&#x10A43;</s>
@@ -6995,6 +7108,7 @@ p<variableTop/>
   <s>&#xA905;</s>
   <s>&#x1045;</s>
   <s>&#x1095;</s>
+  <s>&#x1113B;</s>
   <s>&#x17E5;</s>
   <s>&#x17F5;</s>
   <s>&#xAA55;</s>
@@ -7004,6 +7118,7 @@ p<variableTop/>
   <s>&#x1815;</s>
   <s>&#x1C55;</s>
   <s>&#xA625;</s>
+  <s>&#x110F5;</s>
   <s>&#x3025;</s>
   <s>&#x1010B;</s>
   <s>&#x10143;</s>
@@ -7023,6 +7138,8 @@ p<variableTop/>
   <i>&#x1244D;</i>
   <i>&#x12454;</i>
   <i>&#x12455;</i>
+  <s>&#x111D5;</s>
+  <s>&#x116C5;</s>
   <s>&#x1106B;</s>
   <s>&#x11056;</s>
   <s>&#x1D364;</s>
@@ -7075,6 +7192,7 @@ p<variableTop/>
   <s>&#xA906;</s>
   <s>&#x1046;</s>
   <s>&#x1096;</s>
+  <s>&#x1113C;</s>
   <s>&#x17E6;</s>
   <s>&#x17F6;</s>
   <s>&#xAA56;</s>
@@ -7084,6 +7202,7 @@ p<variableTop/>
   <s>&#x1816;</s>
   <s>&#x1C56;</s>
   <s>&#xA626;</s>
+  <s>&#x110F6;</s>
   <s>&#x3026;</s>
   <s>&#x1010C;</s>
   <s>&#x2185;</s>
@@ -7094,6 +7213,8 @@ p<variableTop/>
   <i>&#x12428;</i>
   <i>&#x12440;</i>
   <i>&#x1244E;</i>
+  <s>&#x111D6;</s>
+  <s>&#x116C6;</s>
   <s>&#x1106C;</s>
   <s>&#x11057;</s>
   <s>&#x1D365;</s>
@@ -7147,6 +7268,7 @@ p<variableTop/>
   <s>&#xA907;</s>
   <s>&#x1047;</s>
   <s>&#x1097;</s>
+  <s>&#x1113D;</s>
   <s>&#x17E7;</s>
   <s>&#x17F7;</s>
   <s>&#xAA57;</s>
@@ -7156,6 +7278,7 @@ p<variableTop/>
   <s>&#x1817;</s>
   <s>&#x1C57;</s>
   <s>&#xA627;</s>
+  <s>&#x110F7;</s>
   <s>&#x3027;</s>
   <s>&#x1010D;</s>
   <s>&#x12405;</s>
@@ -7166,6 +7289,8 @@ p<variableTop/>
   <i>&#x12441;</i>
   <i>&#x12442;</i>
   <i>&#x12443;</i>
+  <s>&#x111D7;</s>
+  <s>&#x116C7;</s>
   <s>&#x1106D;</s>
   <s>&#x11058;</s>
   <s>&#x1D366;</s>
@@ -7218,6 +7343,7 @@ p<variableTop/>
   <s>&#xA908;</s>
   <s>&#x1048;</s>
   <s>&#x1098;</s>
+  <s>&#x1113E;</s>
   <s>&#x17E8;</s>
   <s>&#x17F8;</s>
   <s>&#xAA58;</s>
@@ -7227,6 +7353,7 @@ p<variableTop/>
   <s>&#x1818;</s>
   <s>&#x1C58;</s>
   <s>&#xA628;</s>
+  <s>&#x110F8;</s>
   <s>&#x3028;</s>
   <s>&#x1010E;</s>
   <s>&#x12406;</s>
@@ -7236,6 +7363,8 @@ p<variableTop/>
   <i>&#x1242A;</i>
   <i>&#x12444;</i>
   <i>&#x12445;</i>
+  <s>&#x111D8;</s>
+  <s>&#x116C8;</s>
   <s>&#x1106E;</s>
   <s>&#x11059;</s>
   <s>&#x1D367;</s>
@@ -7287,6 +7416,7 @@ p<variableTop/>
   <s>&#xA909;</s>
   <s>&#x1049;</s>
   <s>&#x1099;</s>
+  <s>&#x1113F;</s>
   <s>&#x17E9;</s>
   <s>&#x17F9;</s>
   <s>&#xAA59;</s>
@@ -7296,6 +7426,7 @@ p<variableTop/>
   <s>&#x1819;</s>
   <s>&#x1C59;</s>
   <s>&#xA629;</s>
+  <s>&#x110F9;</s>
   <s>&#x3029;</s>
   <s>&#x1010F;</s>
   <s>&#x12407;</s>
@@ -7307,6 +7438,8 @@ p<variableTop/>
   <i>&#x12447;</i>
   <i>&#x12448;</i>
   <i>&#x12449;</i>
+  <s>&#x111D9;</s>
+  <s>&#x116C9;</s>
   <s>&#x1106F;</s>
   <s>&#x1105A;</s>
   <s>&#x1D368;</s>
@@ -7340,6 +7473,7 @@ p<variableTop/>
   <t>A</t>
   <t>&#xFF21;</t>
   <t>&#x1F1E6;</t>
+<x>  <t>&#x214D;</t><extend>/s</extend></x>
 <x>  <t>&#xA732;</t><extend>A</extend></x>
 <x>  <t>&#xA734;</t><extend>O</extend></x>
 <x>  <t>&#xA736;</t><extend>U</extend></x>
@@ -7503,6 +7637,8 @@ p<variableTop/>
   <p>&#x1D04;</p>
   <p>&#x23C;</p>
   <t>&#x23B;</t>
+  <p>&#xA793;</p>
+  <t>&#xA792;</t>
   <p>&#x188;</p>
   <t>&#x187;</t>
   <p>&#x255;</p>
@@ -7828,6 +7964,7 @@ p<variableTop/>
   <t>&#x24BD;</t>
   <i>&#x1F157;</i>
   <t>&#x2B0;</t>
+<x>  <t>&#xA7F8;</t><extend>&#x335;</extend></x>
   <t>&#x2095;</t>
 <x>  <t>&#x33CA;</t><extend>a</extend></x>
 <x>  <t>&#x3371;</t><extend>Pa</extend></x>
@@ -7842,6 +7979,7 @@ p<variableTop/>
   <p>&#x195;</p>
   <t>&#x1F6;</t>
   <p>&#x266;</p>
+  <t>&#xA7AA;</t>
   <t>&#x2B1;</t>
   <p>&#x2C68;</p>
   <t>&#x2C67;</t>
@@ -8176,6 +8314,8 @@ p<variableTop/>
   <t>&#x24C2;</t>
   <i>&#x1F15C;</i>
   <t>&#x1D50;</t>
+<x>  <t>&#x1F16A;</t><extend>c</extend></x>
+<x>  <t>&#x1F16B;</t><extend>d</extend></x>
   <t>&#x2098;</t>
 <x>  <t>&#x33A7;</t><extend>&#x2215;s</extend></x>
 <x>  <t>&#x33A8;</t><extend>&#x2215;s2</extend></x>
@@ -8337,6 +8477,7 @@ p<variableTop/>
 <x>  <t>&#x1F197;</t><extend>K</extend></x>
 <x>  <s>&#x153;</s><extend>e</extend></x>
 <x>  <t>&#x152;</t><extend>e</extend></x>
+<x>  <t>&#xA7F9;</t><extend>e</extend></x>
   <p>&#x1D0F;</p>
   <p>&#x1D11;</p>
   <p>&#x276;</p>
@@ -8970,6 +9111,8 @@ p<variableTop/>
   <t>&#x1B3;</t>
   <p>&#x1EFF;</p>
   <t>&#x1EFE;</t>
+  <p>&#x21D;</p>
+  <t>&#x21C;</t>
   <p>z</p>
   <t>&#xFF5A;</t>
   <t>&#x1DE6;</t>
@@ -9035,8 +9178,6 @@ p<variableTop/>
   <p>&#x1D9A;</p>
   <p>&#x1BA;</p>
   <p>&#x293;</p>
-  <p>&#x21D;</p>
-  <t>&#x21C;</t>
   <p>&#xFE;</p>
   <t>&#xDE;</t>
   <p>&#xA765;</p>
@@ -9580,6 +9721,8 @@ p<variableTop/>
   <t>&#x3E4;</t>
   <p>&#x3E7;</p>
   <t>&#x3E6;</t>
+  <p>&#x2CF3;</p>
+  <t>&#x2CF2;</t>
   <p>&#x2CC9;</p>
   <t>&#x2CC8;</t>
   <p>&#x3E9;</p>
@@ -9679,6 +9822,7 @@ p<variableTop/>
   <p>&#x435;&#x306;</p>
   <t>&#x415;&#x306;</t>
   <p>&#x454;</p>
+  <t>&#xA674;</t>
   <t>&#x404;</t>
   <p>&#x436;</p>
   <t>&#x2DE4;</t>
@@ -9715,6 +9859,7 @@ p<variableTop/>
   <p>&#xA683;</p>
   <t>&#xA682;</t>
   <p>&#x438;</p>
+  <t>&#xA675;</t>
   <t>&#x418;</t>
   <p>&#x48B;</p>
   <t>&#x48A;</t>
@@ -9725,6 +9870,7 @@ p<variableTop/>
   <p>&#xA647;</p>
   <t>&#xA646;</t>
   <p>&#x456;&#x308;</p>
+  <t>&#xA676;</t>
   <t>&#x406;&#x308;</t>
   <p>&#x438;&#x306;</p>
   <t>&#x418;&#x306;</t>
@@ -9851,6 +9997,7 @@ p<variableTop/>
   <t>&#x41A;&#x301;</t>
   <i>&#x41A;&#x341;</i>
   <p>&#x443;</p>
+  <t>&#xA677;</t>
   <t>&#x423;</t>
   <p>&#x443;&#x306;</p>
   <t>&#x423;&#x306;</t>
@@ -9885,6 +10032,7 @@ p<variableTop/>
   <p>&#xA695;</p>
   <t>&#xA694;</t>
   <p>&#x461;</p>
+  <t>&#xA67B;</t>
   <t>&#x460;</t>
   <p>&#x47F;</p>
   <t>&#x47E;</t>
@@ -9939,14 +10087,17 @@ p<variableTop/>
   <p>&#x2E2F;</p>
   <p>&#xA67F;</p>
   <p>&#x44A;</p>
+  <t>&#xA678;</t>
   <t>&#x42A;</t>
   <p>&#xA651;</p>
   <t>&#xA650;</t>
   <p>&#x44B;</p>
+  <t>&#xA679;</t>
   <t>&#x42B;</t>
   <p>&#x44B;&#x308;</p>
   <t>&#x42B;&#x308;</t>
   <p>&#x44C;</p>
+  <t>&#xA67A;</t>
   <t>&#x42C;</t>
   <p>&#x48D;</p>
   <t>&#x48C;</t>
@@ -9972,6 +10123,7 @@ p<variableTop/>
   <p>&#x519;</p>
   <t>&#x518;</t>
   <p>&#x465;</p>
+  <t>&#xA69F;</t>
   <t>&#x464;</t>
   <p>&#x467;</p>
   <t>&#x2DFD;</t>
@@ -10220,9 +10372,16 @@ p<variableTop/>
   <t>&#x10C5;</t>
   <p>&#x10F6;</p>
   <p>&#x10F7;</p>
+  <p>&#x2D27;</p>
+  <t>&#x10C7;</t>
   <p>&#x10F8;</p>
   <p>&#x10F9;</p>
   <p>&#x10FA;</p>
+  <p>&#x10FD;</p>
+  <p>&#x2D2D;</p>
+  <t>&#x10CD;</t>
+  <p>&#x10FE;</p>
+  <p>&#x10FF;</p>
   <p>&#x561;</p>
   <t>&#x531;</t>
   <p>&#x562;</p>
@@ -10462,8 +10621,13 @@ p<variableTop/>
 <x>  <i>&#xFC03;</i><extend>&#x649;</extend></x>
 <x>  <t>&#xFC04;</t><extend>&#x64A;</extend></x>
 <x>  <t>&#xFBF6;</t><extend>&#x6D0;</extend></x>
+  <p>&#x8A8;</p>
+  <p>&#x8A9;</p>
+  <p>&#x8AC;</p>
   <p>&#x627;</p>
 <x>  <t>&#x675;</t><extend>&#x621;</extend></x>
+  <t>&#x1EE00;</t>
+  <i>&#x1EE80;</i>
   <t>&#xFE8E;</t>
 <x>  <t>&#xFD3C;</t><extend>&#x64B;</extend></x>
   <t>&#xFE8D;</t>
@@ -10471,7 +10635,14 @@ p<variableTop/>
 <x>  <t>&#xFDF3;</t><extend>&#x643;&#x628;&#x631;</extend></x>
 <x>  <t>&#xFDF2;</t><extend>&#x644;&#x644;&#x647;</extend></x>
   <p>&#x66E;</p>
+  <t>&#x1EE1C;</t>
+  <i>&#x1EE7C;</i>
   <p>&#x628;</p>
+  <t>&#x1EE01;</t>
+  <i>&#x1EE21;</i>
+  <i>&#x1EE61;</i>
+  <i>&#x1EE81;</i>
+  <i>&#x1EEA1;</i>
   <t>&#xFE91;</t>
 <x>  <t>&#xFC9C;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFC9D;</t><extend>&#x62D;</extend></x>
@@ -10518,11 +10689,17 @@ p<variableTop/>
   <p>&#x753;</p>
   <p>&#x754;</p>
   <p>&#x755;</p>
+  <p>&#x8A0;</p>
   <p>&#x756;</p>
   <p>&#x629;</p>
   <t>&#xFE94;</t>
   <t>&#xFE93;</t>
   <p>&#x62A;</p>
+  <t>&#x1EE15;</t>
+  <i>&#x1EE35;</i>
+  <i>&#x1EE75;</i>
+  <i>&#x1EE95;</i>
+  <i>&#x1EEB5;</i>
   <t>&#xFE97;</t>
 <x>  <t>&#xFCA1;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFD50;</t><extend>&#x62C;&#x645;</extend></x>
@@ -10561,6 +10738,11 @@ p<variableTop/>
 <x>  <t>&#xFC0F;</t><extend>&#x649;</extend></x>
 <x>  <t>&#xFC10;</t><extend>&#x64A;</extend></x>
   <p>&#x62B;</p>
+  <t>&#x1EE16;</t>
+  <i>&#x1EE36;</i>
+  <i>&#x1EE76;</i>
+  <i>&#x1EE96;</i>
+  <i>&#x1EEB6;</i>
   <t>&#xFE9B;</t>
 <x>  <t>&#xFCA6;</t><extend>&#x645;</extend></x>
   <t>&#xFE9C;</t>
@@ -10596,6 +10778,12 @@ p<variableTop/>
   <t>&#xFB63;</t>
   <t>&#xFB62;</t>
   <p>&#x62C;</p>
+  <t>&#x1EE02;</t>
+  <i>&#x1EE22;</i>
+  <i>&#x1EE42;</i>
+  <i>&#x1EE62;</i>
+  <i>&#x1EE82;</i>
+  <i>&#x1EEA2;</i>
   <t>&#xFE9F;</t>
 <x>  <t>&#xFCA7;</t><extend>&#x62D;</extend></x>
 <x>  <t>&#xFCA8;</t><extend>&#x645;</extend></x>
@@ -10636,7 +10824,14 @@ p<variableTop/>
   <t>&#xFB81;</t>
   <t>&#xFB7F;</t>
   <t>&#xFB7E;</t>
+  <p>&#x8A2;</p>
   <p>&#x62D;</p>
+  <t>&#x1EE07;</t>
+  <i>&#x1EE27;</i>
+  <i>&#x1EE47;</i>
+  <i>&#x1EE67;</i>
+  <i>&#x1EE87;</i>
+  <i>&#x1EEA7;</i>
   <t>&#xFEA3;</t>
 <x>  <t>&#xFCA9;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFCAA;</t><extend>&#x645;</extend></x>
@@ -10653,6 +10848,12 @@ p<variableTop/>
 <x>  <t>&#xFCFF;</t><extend>&#x649;</extend></x>
 <x>  <t>&#xFD00;</t><extend>&#x64A;</extend></x>
   <p>&#x62E;</p>
+  <t>&#x1EE17;</t>
+  <i>&#x1EE37;</i>
+  <i>&#x1EE57;</i>
+  <i>&#x1EE77;</i>
+  <i>&#x1EE97;</i>
+  <i>&#x1EEB7;</i>
   <t>&#xFEA7;</t>
 <x>  <t>&#xFCAB;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFCAC;</t><extend>&#x645;</extend></x>
@@ -10676,9 +10877,15 @@ p<variableTop/>
   <p>&#x772;</p>
   <p>&#x77C;</p>
   <p>&#x62F;</p>
+  <t>&#x1EE03;</t>
+  <i>&#x1EE83;</i>
+  <i>&#x1EEA3;</i>
   <t>&#xFEAA;</t>
   <t>&#xFEA9;</t>
   <p>&#x630;</p>
+  <t>&#x1EE18;</t>
+  <i>&#x1EE98;</i>
+  <i>&#x1EEB8;</i>
   <t>&#xFEAC;</t>
   <t>&#xFEAB;</t>
 <x>  <t>&#xFC5B;</t><extend>&#x670;</extend></x>
@@ -10703,11 +10910,17 @@ p<variableTop/>
   <p>&#x759;</p>
   <p>&#x75A;</p>
   <p>&#x631;</p>
+  <t>&#x1EE13;</t>
+  <i>&#x1EE93;</i>
+  <i>&#x1EEB3;</i>
   <t>&#xFEAE;</t>
   <t>&#xFEAD;</t>
 <x>  <t>&#xFC5C;</t><extend>&#x670;</extend></x>
 <x>  <t>&#xFDF6;</t><extend>&#x633;&#x648;&#x644;</extend></x>
   <p>&#x632;</p>
+  <t>&#x1EE06;</t>
+  <i>&#x1EE86;</i>
+  <i>&#x1EEA6;</i>
   <t>&#xFEB0;</t>
   <t>&#xFEAF;</t>
   <p>&#x691;</p>
@@ -10728,7 +10941,14 @@ p<variableTop/>
   <p>&#x76B;</p>
   <p>&#x76C;</p>
   <p>&#x771;</p>
+  <p>&#x8AA;</p>
   <p>&#x633;</p>
+  <t>&#x1EE0E;</t>
+  <i>&#x1EE2E;</i>
+  <i>&#x1EE4E;</i>
+  <i>&#x1EE6E;</i>
+  <i>&#x1EE8E;</i>
+  <i>&#x1EEAE;</i>
   <t>&#xFEB3;</t>
 <x>  <t>&#xFCAD;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFD5D;</t><extend>&#x62C;&#x62D;</extend></x>
@@ -10764,6 +10984,12 @@ p<variableTop/>
 <x>  <t>&#xFCFB;</t><extend>&#x649;</extend></x>
 <x>  <t>&#xFCFC;</t><extend>&#x64A;</extend></x>
   <p>&#x634;</p>
+  <t>&#x1EE14;</t>
+  <i>&#x1EE34;</i>
+  <i>&#x1EE54;</i>
+  <i>&#x1EE74;</i>
+  <i>&#x1EE94;</i>
+  <i>&#x1EEB4;</i>
   <t>&#xFEB7;</t>
 <x>  <t>&#xFD2D;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFD2E;</t><extend>&#x62D;</extend></x>
@@ -10810,6 +11036,12 @@ p<variableTop/>
   <p>&#x77D;</p>
   <p>&#x77E;</p>
   <p>&#x635;</p>
+  <t>&#x1EE11;</t>
+  <i>&#x1EE31;</i>
+  <i>&#x1EE51;</i>
+  <i>&#x1EE71;</i>
+  <i>&#x1EE91;</i>
+  <i>&#x1EEB1;</i>
   <t>&#xFEBB;</t>
 <x>  <t>&#xFCB1;</t><extend>&#x62D;</extend></x>
 <x>  <t>&#xFD65;</t><extend>&#x62D;&#x62D;</extend></x>
@@ -10835,6 +11067,12 @@ p<variableTop/>
 <x>  <t>&#xFD05;</t><extend>&#x649;</extend></x>
 <x>  <t>&#xFD06;</t><extend>&#x64A;</extend></x>
   <p>&#x636;</p>
+  <t>&#x1EE19;</t>
+  <i>&#x1EE39;</i>
+  <i>&#x1EE59;</i>
+  <i>&#x1EE79;</i>
+  <i>&#x1EE99;</i>
+  <i>&#x1EEB9;</i>
   <t>&#xFEBF;</t>
 <x>  <t>&#xFCB4;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFCB5;</t><extend>&#x62D;</extend></x>
@@ -10861,6 +11099,10 @@ p<variableTop/>
   <p>&#x69E;</p>
   <p>&#x6FB;</p>
   <p>&#x637;</p>
+  <t>&#x1EE08;</t>
+  <i>&#x1EE68;</i>
+  <i>&#x1EE88;</i>
+  <i>&#x1EEA8;</i>
   <t>&#xFEC3;</t>
 <x>  <t>&#xFCB8;</t><extend>&#x62D;</extend></x>
 <x>  <t>&#xFD33;</t><extend>&#x645;</extend></x>
@@ -10879,6 +11121,10 @@ p<variableTop/>
 <x>  <t>&#xFCF5;</t><extend>&#x649;</extend></x>
 <x>  <t>&#xFCF6;</t><extend>&#x64A;</extend></x>
   <p>&#x638;</p>
+  <t>&#x1EE1A;</t>
+  <i>&#x1EE7A;</i>
+  <i>&#x1EE9A;</i>
+  <i>&#x1EEBA;</i>
   <t>&#xFEC7;</t>
 <x>  <t>&#xFCB9;</t><extend>&#x645;</extend></x>
   <t>&#xFEC8;</t>
@@ -10887,7 +11133,14 @@ p<variableTop/>
   <t>&#xFEC5;</t>
 <x>  <t>&#xFC28;</t><extend>&#x645;</extend></x>
   <p>&#x69F;</p>
+  <p>&#x8A3;</p>
   <p>&#x639;</p>
+  <t>&#x1EE0F;</t>
+  <i>&#x1EE2F;</i>
+  <i>&#x1EE4F;</i>
+  <i>&#x1EE6F;</i>
+  <i>&#x1EE8F;</i>
+  <i>&#x1EEAF;</i>
   <t>&#xFECB;</t>
 <x>  <t>&#xFCBA;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFDC4;</t><extend>&#x62C;&#x645;</extend></x>
@@ -10908,6 +11161,12 @@ p<variableTop/>
 <x>  <t>&#xFCF7;</t><extend>&#x649;</extend></x>
 <x>  <t>&#xFCF8;</t><extend>&#x64A;</extend></x>
   <p>&#x63A;</p>
+  <t>&#x1EE1B;</t>
+  <i>&#x1EE3B;</i>
+  <i>&#x1EE5B;</i>
+  <i>&#x1EE7B;</i>
+  <i>&#x1EE9B;</i>
+  <i>&#x1EEBB;</i>
   <t>&#xFECF;</t>
 <x>  <t>&#xFCBC;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFCBD;</t><extend>&#x645;</extend></x>
@@ -10929,6 +11188,11 @@ p<variableTop/>
   <p>&#x75E;</p>
   <p>&#x75F;</p>
   <p>&#x641;</p>
+  <t>&#x1EE10;</t>
+  <i>&#x1EE30;</i>
+  <i>&#x1EE70;</i>
+  <i>&#x1EE90;</i>
+  <i>&#x1EEB0;</i>
   <t>&#xFED3;</t>
 <x>  <t>&#xFCBE;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFCBF;</t><extend>&#x62D;</extend></x>
@@ -10949,6 +11213,8 @@ p<variableTop/>
 <x>  <t>&#xFC31;</t><extend>&#x649;</extend></x>
 <x>  <t>&#xFC32;</t><extend>&#x64A;</extend></x>
   <p>&#x6A1;</p>
+  <t>&#x1EE1E;</t>
+  <i>&#x1EE7E;</i>
   <p>&#x6A2;</p>
   <p>&#x6A3;</p>
   <p>&#x6A4;</p>
@@ -10956,6 +11222,7 @@ p<variableTop/>
   <t>&#xFB6D;</t>
   <t>&#xFB6B;</t>
   <t>&#xFB6A;</t>
+  <p>&#x8A4;</p>
   <p>&#x6A5;</p>
   <p>&#x6A6;</p>
   <t>&#xFB70;</t>
@@ -10965,7 +11232,15 @@ p<variableTop/>
   <p>&#x760;</p>
   <p>&#x761;</p>
   <p>&#x66F;</p>
+  <t>&#x1EE1F;</t>
+  <i>&#x1EE5F;</i>
   <p>&#x642;</p>
+  <t>&#x1EE12;</t>
+  <i>&#x1EE32;</i>
+  <i>&#x1EE52;</i>
+  <i>&#x1EE72;</i>
+  <i>&#x1EE92;</i>
+  <i>&#x1EEB2;</i>
   <t>&#xFED7;</t>
 <x>  <t>&#xFCC2;</t><extend>&#x62D;</extend></x>
 <x>  <t>&#xFCC3;</t><extend>&#x645;</extend></x>
@@ -10985,7 +11260,11 @@ p<variableTop/>
 <x>  <t>&#xFC36;</t><extend>&#x64A;</extend></x>
   <p>&#x6A7;</p>
   <p>&#x6A8;</p>
+  <p>&#x8A5;</p>
   <p>&#x643;</p>
+  <t>&#x1EE0A;</t>
+  <i>&#x1EE2A;</i>
+  <i>&#x1EE6A;</i>
   <t>&#xFEDB;</t>
 <x>  <t>&#xFCC4;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFCC5;</t><extend>&#x62D;</extend></x>
@@ -11052,6 +11331,11 @@ p<variableTop/>
   <p>&#x763;</p>
   <p>&#x764;</p>
   <p>&#x644;</p>
+  <t>&#x1EE0B;</t>
+  <i>&#x1EE2B;</i>
+  <i>&#x1EE4B;</i>
+  <i>&#x1EE8B;</i>
+  <i>&#x1EEAB;</i>
   <t>&#xFEDF;</t>
 <x>  <t>&#xFCC9;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFD83;</t><extend>&#x62C;&#x62C;</extend></x>
@@ -11098,7 +11382,13 @@ p<variableTop/>
   <p>&#x6B7;</p>
   <p>&#x6B8;</p>
   <p>&#x76A;</p>
+  <p>&#x8A6;</p>
   <p>&#x645;</p>
+  <t>&#x1EE0C;</t>
+  <i>&#x1EE2C;</i>
+  <i>&#x1EE6C;</i>
+  <i>&#x1EE8C;</i>
+  <i>&#x1EEAC;</i>
   <t>&#xFEE3;</t>
 <x>  <t>&#xFCCE;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFD8C;</t><extend>&#x62C;&#x62D;</extend></x>
@@ -11130,7 +11420,14 @@ p<variableTop/>
   <s>&#x6FE;</s>
   <p>&#x765;</p>
   <p>&#x766;</p>
+  <p>&#x8A7;</p>
   <p>&#x646;</p>
+  <t>&#x1EE0D;</t>
+  <i>&#x1EE2D;</i>
+  <i>&#x1EE4D;</i>
+  <i>&#x1EE6D;</i>
+  <i>&#x1EE8D;</i>
+  <i>&#x1EEAD;</i>
   <t>&#xFEE7;</t>
 <x>  <t>&#xFCD2;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFDB8;</t><extend>&#x62C;&#x62D;</extend></x>
@@ -11166,6 +11463,8 @@ p<variableTop/>
 <x>  <t>&#xFC4F;</t><extend>&#x649;</extend></x>
 <x>  <t>&#xFC50;</t><extend>&#x64A;</extend></x>
   <p>&#x6BA;</p>
+  <t>&#x1EE1D;</t>
+  <i>&#x1EE5D;</i>
   <t>&#xFB9F;</t>
   <t>&#xFB9E;</t>
   <p>&#x6BB;</p>
@@ -11180,6 +11479,9 @@ p<variableTop/>
   <p>&#x768;</p>
   <p>&#x769;</p>
   <p>&#x647;</p>
+  <t>&#x1EE24;</t>
+  <i>&#x1EE64;</i>
+  <i>&#x1EE84;</i>
   <t>&#xFEEB;</t>
 <x>  <t>&#xFCD9;</t><extend>&#x670;</extend></x>
 <x>  <t>&#xFCD7;</t><extend>&#x62C;</extend></x>
@@ -11211,6 +11513,9 @@ p<variableTop/>
   <p>&#x648;</p>
   <t>&#x6E5;</t>
 <x>  <t>&#x676;</t><extend>&#x621;</extend></x>
+  <t>&#x1EE05;</t>
+  <i>&#x1EE85;</i>
+  <i>&#x1EEA5;</i>
   <t>&#xFEEE;</t>
   <t>&#xFEED;</t>
 <x>  <t>&#xFDF8;</t><extend>&#x633;&#x644;&#x645;</extend></x>
@@ -11239,6 +11544,7 @@ p<variableTop/>
   <p>&#x6CF;</p>
   <p>&#x778;</p>
   <p>&#x779;</p>
+  <p>&#x8AB;</p>
   <p>&#x649;</p>
   <t>&#xFBE8;</t>
   <t>&#xFBE9;</t>
@@ -11249,6 +11555,12 @@ p<variableTop/>
   <p>&#x64A;</p>
   <t>&#x6E6;</t>
 <x>  <t>&#x678;</t><extend>&#x621;</extend></x>
+  <t>&#x1EE09;</t>
+  <i>&#x1EE29;</i>
+  <i>&#x1EE49;</i>
+  <i>&#x1EE69;</i>
+  <i>&#x1EE89;</i>
+  <i>&#x1EEA9;</i>
   <t>&#xFEF3;</t>
 <x>  <t>&#xFCDA;</t><extend>&#x62C;</extend></x>
 <x>  <t>&#xFCDB;</t><extend>&#x62D;</extend></x>
@@ -11460,6 +11772,7 @@ p<variableTop/>
   <p>&#x2D39;</p>
   <p>&#x2D3A;</p>
   <p>&#x2D3B;</p>
+  <p>&#x2D66;</p>
   <p>&#x2D3C;</p>
   <p>&#x2D3D;</p>
   <p>&#x2D3E;</p>
@@ -11484,6 +11797,7 @@ p<variableTop/>
   <p>&#x2D51;</p>
   <p>&#x2D52;</p>
   <p>&#x2D53;</p>
+  <p>&#x2D67;</p>
   <p>&#x2D54;</p>
   <p>&#x2D55;</p>
   <p>&#x2D56;</p>
@@ -12032,6 +12346,8 @@ p<variableTop/>
   <i>&#x1CEF;</i>
   <i>&#x1CF0;</i>
   <i>&#x1CF1;</i>
+  <p>&#x1CF5;</p>
+  <p>&#x1CF6;</p>
   <p>&#xA8F2;</p>
   <t>&#xA8F3;</t>
   <i>&#xA8F4;</i>
@@ -12676,6 +12992,7 @@ p<variableTop/>
   <i>&#xDDC;&#xDCA;</i>
   <p>&#xDD9;&#xDDF;</p>
   <p>&#xDCA;</p>
+  <p>&#xAAF2;</p>
   <p>&#xABC0;</p>
   <p>&#xABC1;</p>
   <p>&#xABC2;</p>
@@ -12703,6 +13020,17 @@ p<variableTop/>
   <p>&#xABD8;</p>
   <p>&#xABD9;</p>
   <p>&#xABDA;</p>
+  <p>&#xAAE0;</p>
+  <p>&#xAAE1;</p>
+  <p>&#xAAE2;</p>
+  <p>&#xAAE3;</p>
+  <p>&#xAAE4;</p>
+  <p>&#xAAE5;</p>
+  <p>&#xAAE6;</p>
+  <p>&#xAAE7;</p>
+  <p>&#xAAE8;</p>
+  <p>&#xAAE9;</p>
+  <p>&#xAAEA;</p>
   <p>&#xABE3;</p>
   <p>&#xABE4;</p>
   <p>&#xABE5;</p>
@@ -12711,6 +13039,12 @@ p<variableTop/>
   <p>&#xABE8;</p>
   <p>&#xABE9;</p>
   <p>&#xABEA;</p>
+  <p>&#xAAEB;</p>
+  <p>&#xAAEC;</p>
+  <p>&#xAAED;</p>
+  <p>&#xAAEE;</p>
+  <p>&#xAAEF;</p>
+  <p>&#xAAF5;</p>
   <p>&#xABDB;</p>
   <p>&#xABDC;</p>
   <p>&#xABDD;</p>
@@ -12720,6 +13054,7 @@ p<variableTop/>
   <p>&#xABE1;</p>
   <p>&#xABE2;</p>
   <p>&#xABED;</p>
+  <p>&#xAAF6;</p>
   <p>&#xA800;</p>
   <p>&#xA801;</p>
   <p>&#xA802;</p>
@@ -12849,9 +13184,9 @@ p<variableTop/>
   <p>&#x11097;</p>
   <p>&#x11098;</p>
   <p>&#x11099;</p>
-<x>  <t>&#x1109A;</t><extend>&#x110BA;</extend></x>
+<x>  <t>&#x1109A;</t><extend>&#x116B7;</extend></x>
   <p>&#x1109B;</p>
-<x>  <t>&#x1109C;</t><extend>&#x110BA;</extend></x>
+<x>  <t>&#x1109C;</t><extend>&#x116B7;</extend></x>
   <p>&#x1109D;</p>
   <p>&#x1109E;</p>
   <p>&#x1109F;</p>
@@ -12861,7 +13196,7 @@ p<variableTop/>
   <p>&#x110A3;</p>
   <p>&#x110A4;</p>
   <p>&#x110A5;</p>
-<x>  <t>&#x110AB;</t><extend>&#x110BA;</extend></x>
+<x>  <t>&#x110AB;</t><extend>&#x116B7;</extend></x>
   <p>&#x110A6;</p>
   <p>&#x110A7;</p>
   <p>&#x110A8;</p>
@@ -12881,7 +13216,127 @@ p<variableTop/>
   <p>&#x110B7;</p>
   <p>&#x110B8;</p>
   <p>&#x110B9;</p>
+  <p>&#x111C4;</p>
+  <p>&#x11183;</p>
+  <p>&#x11184;</p>
+  <p>&#x11185;</p>
+  <p>&#x11186;</p>
+  <p>&#x11187;</p>
+  <p>&#x11188;</p>
+  <p>&#x11189;</p>
+  <p>&#x1118A;</p>
+  <p>&#x1118B;</p>
+  <p>&#x1118C;</p>
+  <p>&#x1118D;</p>
+  <p>&#x1118E;</p>
+  <p>&#x1118F;</p>
+  <p>&#x11190;</p>
+  <p>&#x11191;</p>
+  <p>&#x11192;</p>
+  <p>&#x11193;</p>
+  <p>&#x11194;</p>
+  <p>&#x11195;</p>
+  <p>&#x11196;</p>
+  <p>&#x11197;</p>
+  <p>&#x11198;</p>
+  <p>&#x11199;</p>
+  <p>&#x1119A;</p>
+  <p>&#x1119B;</p>
+  <p>&#x1119C;</p>
+  <p>&#x1119D;</p>
+  <p>&#x1119E;</p>
+  <p>&#x1119F;</p>
+  <p>&#x111A0;</p>
+  <p>&#x111A1;</p>
+  <p>&#x111A2;</p>
+  <p>&#x111A3;</p>
+  <p>&#x111A4;</p>
+  <p>&#x111A5;</p>
+  <p>&#x111A6;</p>
+  <p>&#x111A7;</p>
+  <p>&#x111A8;</p>
+  <p>&#x111A9;</p>
+  <p>&#x111AA;</p>
+  <p>&#x111AB;</p>
+  <p>&#x111AC;</p>
+  <p>&#x111AD;</p>
+  <p>&#x111AE;</p>
+  <p>&#x111AF;</p>
+  <p>&#x111B0;</p>
+  <p>&#x111B1;</p>
+  <p>&#x111B2;</p>
+  <p>&#x111B3;</p>
+  <p>&#x111B4;</p>
+  <p>&#x111B5;</p>
+  <p>&#x111B6;</p>
+  <p>&#x111B7;</p>
+  <p>&#x111B8;</p>
+  <p>&#x111B9;</p>
+  <p>&#x111BA;</p>
+  <p>&#x111BB;</p>
+  <p>&#x111BC;</p>
+  <p>&#x111BD;</p>
+  <p>&#x111BE;</p>
+  <p>&#x111BF;</p>
+  <p>&#x111C0;</p>
+  <p>&#x111C1;</p>
+  <p>&#x111C2;</p>
+  <p>&#x111C3;</p>
+  <p>&#x11680;</p>
+  <p>&#x11681;</p>
+  <p>&#x11682;</p>
+  <p>&#x11683;</p>
+  <p>&#x11684;</p>
+  <p>&#x11685;</p>
+  <p>&#x11686;</p>
+  <p>&#x11687;</p>
+  <p>&#x11688;</p>
+  <p>&#x11689;</p>
+  <p>&#x116A8;</p>
+  <p>&#x116A7;</p>
+  <p>&#x116A9;</p>
+  <p>&#x1168A;</p>
+  <p>&#x1168B;</p>
+  <p>&#x1168C;</p>
+  <p>&#x1168D;</p>
+  <p>&#x1168E;</p>
+  <p>&#x1168F;</p>
+  <p>&#x11690;</p>
+  <p>&#x11691;</p>
+  <p>&#x11692;</p>
+  <p>&#x11693;</p>
+  <p>&#x11694;</p>
+  <p>&#x11695;</p>
+  <p>&#x11696;</p>
+  <p>&#x11697;</p>
+  <p>&#x11698;</p>
+  <p>&#x11699;</p>
+  <p>&#x1169A;</p>
+  <p>&#x1169B;</p>
+  <p>&#x1169C;</p>
+  <p>&#x1169D;</p>
+  <p>&#x1169E;</p>
+  <p>&#x1169F;</p>
+  <p>&#x116A0;</p>
+  <p>&#x116A1;</p>
+  <p>&#x116A2;</p>
+  <p>&#x116A3;</p>
+  <p>&#x116A4;</p>
+  <p>&#x116A5;</p>
+  <p>&#x116A6;</p>
+  <p>&#x116AA;</p>
+  <p>&#x116AD;</p>
+  <p>&#x116AE;</p>
+  <p>&#x116AF;</p>
+  <p>&#x116B0;</p>
+  <p>&#x116B1;</p>
+  <p>&#x116B2;</p>
+  <p>&#x116B3;</p>
+  <p>&#x116B4;</p>
+  <p>&#x116B5;</p>
+  <p>&#x116B6;</p>
   <p>&#x1B83;</p>
+  <t>&#x1BBA;</t>
   <p>&#x1B84;</p>
   <p>&#x1B85;</p>
   <p>&#x1B86;</p>
@@ -12889,6 +13344,7 @@ p<variableTop/>
   <p>&#x1B88;</p>
   <p>&#x1B89;</p>
   <p>&#x1B8A;</p>
+  <t>&#x1BBE;</t>
   <p>&#x1BAE;</p>
   <p>&#x1B8B;</p>
   <p>&#x1B8C;</p>
@@ -12904,14 +13360,20 @@ p<variableTop/>
   <p>&#x1B96;</p>
   <p>&#x1B97;</p>
   <p>&#x1B98;</p>
+  <p>&#x1BBD;</p>
   <p>&#x1B99;</p>
+  <t>&#x1BBF;</t>
+  <p>&#x1BAC;</p>
   <p>&#x1B9A;</p>
   <p>&#x1BA1;</p>
   <p>&#x1B9B;</p>
   <p>&#x1BA2;</p>
+  <p>&#x1BBB;</p>
   <p>&#x1B9C;</p>
   <p>&#x1BA3;</p>
+  <p>&#x1BBC;</p>
   <p>&#x1B9D;</p>
+  <p>&#x1BAD;</p>
   <p>&#x1B9E;</p>
   <p>&#x1B9F;</p>
   <p>&#x1BAF;</p>
@@ -12923,6 +13385,7 @@ p<variableTop/>
   <p>&#x1BA8;</p>
   <p>&#x1BA9;</p>
   <p>&#x1BAA;</p>
+  <p>&#x1BAB;</p>
   <p>&#x11005;</p>
   <p>&#x11006;</p>
   <p>&#x11007;</p>
@@ -13328,6 +13791,7 @@ p<variableTop/>
   <p>&#xE43;</p>
   <p>&#xE44;</p>
   <p>&#xE45;</p>
+  <p>&#xEDE;</p>
   <p>&#xE81;</p>
 <x>  <t>&#xEC0;&#xE81;</t><extend>&#xEC0;</extend></x>
 <x>  <t>&#xEC1;&#xE81;</t><extend>&#xEC1;</extend></x>
@@ -13370,6 +13834,7 @@ p<variableTop/>
 <x>  <t>&#xEC2;&#xE8A;</t><extend>&#xEC2;</extend></x>
 <x>  <t>&#xEC3;&#xE8A;</t><extend>&#xEC3;</extend></x>
 <x>  <t>&#xEC4;&#xE8A;</t><extend>&#xEC4;</extend></x>
+  <p>&#xEDF;</p>
   <p>&#xE8D;</p>
 <x>  <t>&#xEC0;&#xE8D;</t><extend>&#xEC0;</extend></x>
 <x>  <t>&#xEC1;&#xE8D;</t><extend>&#xEC1;</extend></x>
@@ -13906,7 +14371,7 @@ p<variableTop/>
   <p>&#xF67;</p>
   <p>&#xFB7;</p>
   <p>&#xF68;</p>
-<x>  <t>&#xF00;</t><extend>&#xF7C;&#xF7E;</extend></x>
+<x>  <t>&#xF00;</t><extend>&#xF7C;&#x116AB;</extend></x>
   <p>&#xFB8;</p>
   <p>&#xF88;</p>
   <p>&#xF8D;</p>
@@ -14475,6 +14940,58 @@ p<variableTop/>
   <p>&#xAA74;</p>
   <p>&#xAA75;</p>
   <p>&#xAA76;</p>
+  <p>&#x11103;</p>
+  <p>&#x11104;</p>
+  <p>&#x11105;</p>
+  <p>&#x11106;</p>
+  <p>&#x11107;</p>
+  <p>&#x11108;</p>
+  <p>&#x11109;</p>
+  <p>&#x1110A;</p>
+  <p>&#x1110B;</p>
+  <p>&#x1110C;</p>
+  <p>&#x1110D;</p>
+  <p>&#x1110E;</p>
+  <p>&#x1110F;</p>
+  <p>&#x11110;</p>
+  <p>&#x11111;</p>
+  <p>&#x11112;</p>
+  <p>&#x11113;</p>
+  <p>&#x11114;</p>
+  <p>&#x11115;</p>
+  <p>&#x11116;</p>
+  <p>&#x11117;</p>
+  <p>&#x11118;</p>
+  <p>&#x11119;</p>
+  <p>&#x1111A;</p>
+  <p>&#x1111B;</p>
+  <p>&#x1111C;</p>
+  <p>&#x1111D;</p>
+  <p>&#x1111E;</p>
+  <p>&#x1111F;</p>
+  <p>&#x11120;</p>
+  <p>&#x11121;</p>
+  <p>&#x11122;</p>
+  <p>&#x11123;</p>
+  <p>&#x11124;</p>
+  <p>&#x11125;</p>
+  <p>&#x11126;</p>
+  <p>&#x11127;</p>
+  <p>&#x11128;</p>
+  <p>&#x11129;</p>
+  <p>&#x1112A;</p>
+  <p>&#x1112B;</p>
+  <p>&#x1112C;</p>
+  <p>&#x1112D;</p>
+  <p>&#x1112E;</p>
+  <i>&#x11131;&#x11127;</i>
+  <p>&#x1112F;</p>
+  <i>&#x11132;&#x11127;</i>
+  <p>&#x11130;</p>
+  <p>&#x11131;</p>
+  <p>&#x11132;</p>
+  <p>&#x11133;</p>
+  <p>&#x11134;</p>
   <p>&#x1780;</p>
   <p>&#x1781;</p>
   <p>&#x1782;</p>
@@ -14528,8 +15045,6 @@ p<variableTop/>
   <p>&#x17B1;</p>
   <p>&#x17B2;</p>
   <p>&#x17B3;</p>
-  <p>&#x17B4;</p>
-  <p>&#x17B5;</p>
   <p>&#x17B6;</p>
   <p>&#x17B7;</p>
   <p>&#x17B8;</p>
@@ -19157,6 +19672,139 @@ p<variableTop/>
   <p>&#xA4F5;</p>
   <p>&#xA4F6;</p>
   <p>&#xA4F7;</p>
+  <p>&#x16F00;</p>
+  <p>&#x16F01;</p>
+  <p>&#x16F02;</p>
+  <p>&#x16F03;</p>
+  <p>&#x16F04;</p>
+  <t>&#x16F06;</t>
+  <p>&#x16F05;</p>
+  <p>&#x16F07;</p>
+  <p>&#x16F08;</p>
+  <p>&#x16F09;</p>
+  <p>&#x16F0A;</p>
+  <p>&#x16F0B;</p>
+  <p>&#x16F0C;</p>
+  <p>&#x16F0D;</p>
+  <p>&#x16F0E;</p>
+  <p>&#x16F0F;</p>
+  <p>&#x16F10;</p>
+  <t>&#x16F13;</t>
+  <p>&#x16F11;</p>
+  <p>&#x16F12;</p>
+  <p>&#x16F14;</p>
+  <p>&#x16F15;</p>
+  <p>&#x16F16;</p>
+  <p>&#x16F17;</p>
+  <p>&#x16F18;</p>
+  <p>&#x16F19;</p>
+  <p>&#x16F1A;</p>
+  <p>&#x16F1B;</p>
+  <p>&#x16F1C;</p>
+  <p>&#x16F1D;</p>
+  <p>&#x16F1E;</p>
+  <p>&#x16F1F;</p>
+  <p>&#x16F20;</p>
+  <p>&#x16F21;</p>
+  <p>&#x16F22;</p>
+  <p>&#x16F23;</p>
+  <t>&#x16F25;</t>
+  <p>&#x16F24;</p>
+  <p>&#x16F26;</p>
+  <p>&#x16F27;</p>
+  <p>&#x16F28;</p>
+  <p>&#x16F29;</p>
+  <p>&#x16F2A;</p>
+  <p>&#x16F2B;</p>
+  <p>&#x16F2C;</p>
+  <p>&#x16F2D;</p>
+  <p>&#x16F2E;</p>
+  <p>&#x16F2F;</p>
+  <p>&#x16F30;</p>
+  <p>&#x16F31;</p>
+  <p>&#x16F32;</p>
+  <p>&#x16F33;</p>
+  <p>&#x16F34;</p>
+  <p>&#x16F35;</p>
+  <p>&#x16F36;</p>
+  <p>&#x16F37;</p>
+  <p>&#x16F38;</p>
+  <p>&#x16F39;</p>
+  <p>&#x16F3A;</p>
+  <p>&#x16F3B;</p>
+  <p>&#x16F3C;</p>
+  <p>&#x16F3D;</p>
+  <t>&#x16F3F;</t>
+  <p>&#x16F3E;</p>
+  <p>&#x16F40;</p>
+  <p>&#x16F41;</p>
+  <p>&#x16F42;</p>
+  <p>&#x16F43;</p>
+  <p>&#x16F44;</p>
+  <p>&#x16F50;</p>
+  <p>&#x16F51;</p>
+  <p>&#x16F52;</p>
+  <p>&#x16F53;</p>
+  <p>&#x16F54;</p>
+  <p>&#x16F55;</p>
+  <p>&#x16F56;</p>
+  <p>&#x16F57;</p>
+  <p>&#x16F58;</p>
+  <p>&#x16F59;</p>
+  <p>&#x16F5A;</p>
+  <p>&#x16F5B;</p>
+  <p>&#x16F5C;</p>
+  <p>&#x16F5D;</p>
+  <p>&#x16F5E;</p>
+  <p>&#x16F5F;</p>
+  <p>&#x16F60;</p>
+  <p>&#x16F61;</p>
+  <p>&#x16F62;</p>
+  <p>&#x16F63;</p>
+  <p>&#x16F64;</p>
+  <p>&#x16F65;</p>
+  <p>&#x16F66;</p>
+  <p>&#x16F67;</p>
+  <p>&#x16F68;</p>
+  <p>&#x16F69;</p>
+  <p>&#x16F6A;</p>
+  <p>&#x16F6B;</p>
+  <p>&#x16F6C;</p>
+  <p>&#x16F6D;</p>
+  <p>&#x16F6E;</p>
+  <p>&#x16F6F;</p>
+  <p>&#x16F70;</p>
+  <p>&#x16F71;</p>
+  <p>&#x16F72;</p>
+  <p>&#x16F73;</p>
+  <p>&#x16F74;</p>
+  <p>&#x16F75;</p>
+  <p>&#x16F76;</p>
+  <p>&#x16F77;</p>
+  <p>&#x16F78;</p>
+  <p>&#x16F79;</p>
+  <p>&#x16F7A;</p>
+  <p>&#x16F7B;</p>
+  <p>&#x16F7C;</p>
+  <p>&#x16F7D;</p>
+  <p>&#x16F7E;</p>
+  <p>&#x16F8F;</p>
+  <p>&#x16F90;</p>
+  <p>&#x16F91;</p>
+  <p>&#x16F92;</p>
+  <p>&#x16F93;</p>
+  <p>&#x16F94;</p>
+  <p>&#x16F95;</p>
+  <p>&#x16F96;</p>
+  <p>&#x16F97;</p>
+  <p>&#x16F98;</p>
+  <p>&#x16F99;</p>
+  <p>&#x16F9A;</p>
+  <p>&#x16F9B;</p>
+  <p>&#x16F9C;</p>
+  <p>&#x16F9D;</p>
+  <p>&#x16F9E;</p>
+  <p>&#x16F9F;</p>
   <p>&#x10280;</p>
   <p>&#x10281;</p>
   <p>&#x10282;</p>
@@ -19477,6 +20125,31 @@ p<variableTop/>
   <p>&#x1049B;</p>
   <p>&#x1049C;</p>
   <p>&#x1049D;</p>
+  <p>&#x110D0;</p>
+  <p>&#x110D1;</p>
+  <p>&#x110D2;</p>
+  <p>&#x110D3;</p>
+  <p>&#x110D4;</p>
+  <p>&#x110D5;</p>
+  <p>&#x110D6;</p>
+  <p>&#x110D7;</p>
+  <p>&#x110D8;</p>
+  <p>&#x110D9;</p>
+  <p>&#x110DA;</p>
+  <p>&#x110DB;</p>
+  <p>&#x110DC;</p>
+  <p>&#x110DD;</p>
+  <p>&#x110DE;</p>
+  <p>&#x110DF;</p>
+  <p>&#x110E0;</p>
+  <p>&#x110E1;</p>
+  <p>&#x110E2;</p>
+  <p>&#x110E3;</p>
+  <p>&#x110E4;</p>
+  <p>&#x110E5;</p>
+  <p>&#x110E6;</p>
+  <p>&#x110E7;</p>
+  <p>&#x110E8;</p>
   <p>&#x10000;</p>
   <p>&#x10001;</p>
   <p>&#x10002;</p>
@@ -21913,6 +22586,64 @@ p<variableTop/>
   <p>&#x1342C;</p>
   <p>&#x1342D;</p>
   <p>&#x1342E;</p>
+  <p>&#x109A0;</p>
+  <s>&#x10980;</s>
+  <p>&#x109A1;</p>
+  <s>&#x10981;</s>
+  <p>&#x109A2;</p>
+  <s>&#x10982;</s>
+  <p>&#x109A3;</p>
+  <s>&#x10983;</s>
+  <p>&#x109A4;</p>
+  <s>&#x10984;</s>
+  <p>&#x109A5;</p>
+  <s>&#x10985;</s>
+  <p>&#x109A6;</p>
+  <s>&#x10986;</s>
+  <s>&#x10987;</s>
+  <p>&#x109A7;</p>
+  <s>&#x10988;</s>
+  <p>&#x109A8;</p>
+  <s>&#x10989;</s>
+  <p>&#x109A9;</p>
+  <s>&#x1098A;</s>
+  <s>&#x1098B;</s>
+  <p>&#x109AA;</p>
+  <s>&#x1098C;</s>
+  <s>&#x1098D;</s>
+  <p>&#x109AB;</p>
+  <s>&#x1098E;</s>
+  <s>&#x1098F;</s>
+  <p>&#x109AC;</p>
+  <s>&#x10990;</s>
+  <p>&#x109AD;</p>
+  <s>&#x10991;</s>
+  <p>&#x109AE;</p>
+  <s>&#x10992;</s>
+  <p>&#x109AF;</p>
+  <s>&#x109B0;</s>
+  <s>&#x10993;</s>
+  <s>&#x10994;</s>
+  <p>&#x109B1;</p>
+  <s>&#x10995;</s>
+  <p>&#x109B2;</p>
+  <s>&#x10996;</s>
+  <p>&#x109B3;</p>
+  <s>&#x10997;</s>
+  <p>&#x109B4;</p>
+  <s>&#x10998;</s>
+  <s>&#x10999;</s>
+  <p>&#x109B5;</p>
+  <s>&#x1099A;</s>
+  <s>&#x1099B;</s>
+  <p>&#x109B6;</p>
+  <s>&#x1099C;</s>
+  <p>&#x109B7;</p>
+  <s>&#x1099D;</s>
+  <p>&#x109BE;</p>
+  <p>&#x109BF;</p>
+  <p>&#x1099E;</p>
+  <p>&#x1099F;</p>
 <reset/>&#x4E00;
   <t>&#x2F00;</t>
   <t>&#x3280;</t>

@@ -1,7 +1,7 @@
-# Date: 2010-10-27
+# Date: 2012-02-02, 21:24:00 GMT [KW]
 #
 # Unicode Collation Algorithm
-# Copyright (c) 1991-2010 Unicode, Inc.
+# Copyright (c) 1991-2012 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 #
 # See: http://www.unicode.org/reports/tr10/
