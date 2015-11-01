@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4767 $"/>
-		<generation date="$Date: 2010-02-27 20:54:27 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 5030 $"/>
+		<generation date="$Date: 2010-08-26 13:08:30 -0500 (Thu, 26 Aug 2010) $"/>
 		<language type="ps"/>
 	</identity>
 	<fallback>fa_AF</fallback>
@@ -333,16 +333,16 @@
 		<defaultNumberingSystem>arabext</defaultNumberingSystem>
 		<symbols>
 			<decimal>,</decimal>
-			<decimal numberSystem="arabext">٫</decimal>
 			<group>.</group>
-			<group numberSystem="arabext">٬</group>
 			<percentSign>%</percentSign>
-			<percentSign numberSystem="arabext">٪</percentSign>
-			<nativeZeroDigit>0</nativeZeroDigit>
-			<nativeZeroDigit numberSystem="arabext">۰</nativeZeroDigit>
 			<minusSign>−</minusSign>
 			<exponential>E</exponential>
-			<exponential numberSystem="arabext">×۱۰^</exponential>
+		</symbols>
+		<symbols numberSystem="arabext">
+			<decimal>٫</decimal>
+			<group>٬</group>
+			<percentSign>٪</percentSign>
+			<exponential>×۱۰^</exponential>
 		</symbols>
 		<currencyFormats>
 			<currencyFormatLength>

@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4876 $"/>
-		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
+		<version number="$Revision: 5159 $"/>
+		<generation date="$Date: 2010-10-27 19:16:55 -0500 (Wed, 27 Oct 2010) $"/>
 		<language type="fr"/>
 	</identity>
 	<localeDisplayNames>
@@ -676,8 +676,6 @@
 			<script type="Phnx">phénicien</script>
 			<script type="Plrd">phonétique de Pollard</script>
 			<script type="Prti">parthe des inscriptions</script>
-			<script type="Qaai">hérité</script>
-			<script type="Qaai" alt="proposed-x1001" draft="unconfirmed">(hérité)</script>
 			<script type="Rjng">rejang</script>
 			<script type="Roro">rongorongo</script>
 			<script type="Runr">runique</script>
@@ -711,6 +709,8 @@
 			<script type="Xpeo" references="R059">cunéiforme persépolitain</script>
 			<script type="Xsux" references="R059">cunéiforme suméro-akkadien</script>
 			<script type="Yiii">yi</script>
+			<script type="Zinh">hérité</script>
+			<script type="Zinh" alt="proposed-x1001" draft="unconfirmed">(hérité)</script>
 			<script type="Zmth">notation mathématique</script>
 			<script type="Zsym">symboles</script>
 			<script type="Zxxx">non écrit</script>
@@ -1134,26 +1134,26 @@
 		<dateRangePattern>{0} – {1}</dateRangePattern>
 		<calendars>
 			<calendar type="buddhist">
-				<eras>
+				<eras> <!-- per cldrbug 2835, accept provisional & unconfirmed -->
 					<eraNames>
-						<era type="0" draft="unconfirmed">ère bouddhiste</era>
+						<era type="0">ère bouddhiste</era>
 					</eraNames>
 					<eraAbbr>
-						<era type="0" draft="unconfirmed">ère b.</era>
+						<era type="0">ère b.</era>
 					</eraAbbr>
 					<eraNarrow>
-						<era type="0" draft="provisional">E.B.</era>
+						<era type="0">E.B.</era>
 					</eraNarrow>
 				</eras>
 				<dateFormats>
-					<dateFormatLength type="full">
+					<dateFormatLength type="full"> <!-- per cldrbug 2835, accept unconfirmed, matches gregorian -->
 						<dateFormat>
-							<pattern draft="unconfirmed">EEEE d MMMM y G</pattern>
+							<pattern>EEEE d MMMM y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
-					<dateFormatLength type="long">
+					<dateFormatLength type="long"> <!-- per cldrbug 2835, accept unconfirmed, matches gregorian -->
 						<dateFormat>
-							<pattern draft="unconfirmed">d MMMM y G</pattern>
+							<pattern>d MMMM y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
@@ -1167,6 +1167,39 @@
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
+				<dateTimeFormats> <!-- per cldrbug 2835, added from gregorian and adjusted for G -->
+					<availableFormats>
+						<dateFormatItem id="d">d</dateFormatItem>
+						<dateFormatItem id="Ed">E d</dateFormatItem>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
+						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="M">L</dateFormatItem>
+						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="MEd">EEE d/M</dateFormatItem>
+						<dateFormatItem id="MMd">d/MM</dateFormatItem>
+						<dateFormatItem id="MMdd">dd/MM</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
+						<dateFormatItem id="MMMdd">dd MMM</dateFormatItem>
+						<dateFormatItem id="MMMEd">E d MMM</dateFormatItem>
+						<dateFormatItem id="MMMMEd">EEE d MMMM</dateFormatItem>
+						<dateFormatItem id="ms">mm:ss</dateFormatItem>
+						<dateFormatItem id="y">y G</dateFormatItem>
+						<dateFormatItem id="yM">M/y G</dateFormatItem>
+						<dateFormatItem id="yMEd">EEE d/M/y G</dateFormatItem>
+						<dateFormatItem id="yMMM">MMM y G</dateFormatItem>
+						<dateFormatItem id="yMMMEd">EEE d MMM y G</dateFormatItem>
+						<dateFormatItem id="yQ">'T'Q y G</dateFormatItem>
+						<dateFormatItem id="yQQQ">QQQ y G</dateFormatItem>
+						<dateFormatItem id="yyMM">MM/y G</dateFormatItem>
+						<dateFormatItem id="yyMMM">MMM y G</dateFormatItem>
+						<dateFormatItem id="yyMMMd">d MMM y G</dateFormatItem>
+						<dateFormatItem id="yyMMMEEEd">EEE d MMM y G</dateFormatItem>
+						<dateFormatItem id="yyQ">'T'Q y G</dateFormatItem>
+						<dateFormatItem id="yyQQQQ">QQQQ y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y G</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
 			</calendar>
 			<calendar type="chinese">
 				<months>
@@ -1595,7 +1628,7 @@
 				<dateTimeFormats>
 					<availableFormats>
 						<dateFormatItem id="d">d</dateFormatItem>
-						<dateFormatItem id="EEEd">d EEE</dateFormatItem>
+						<dateFormatItem id="Ed">E d</dateFormatItem>
 						<dateFormatItem id="hm" draft="unconfirmed">h:mm a</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="hms" draft="unconfirmed">h:mm:ss a</dateFormatItem>
@@ -1646,7 +1679,7 @@
 						</intervalFormatItem>
 						<intervalFormatItem id="Hm">
 							<greatestDifference id="a">HH:mm – HH:mm</greatestDifference>
-							<greatestDifference id="H">HH:mm-HH:mm</greatestDifference>
+							<greatestDifference id="H">HH:mm – HH:mm</greatestDifference>
 							<greatestDifference id="m">HH:mm – HH:mm</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hmv">
@@ -1889,6 +1922,24 @@
 			<calendar type="islamic">
 				<months>
 					<monthContext type="format">
+						<default choice="wide"/>
+						<monthWidth type="abbreviated">
+							<month type="1">Mouh.</month>
+							<month type="2">Saf.</month>
+							<month type="3">Rabiʻ-oul-A.</month>
+							<month type="4">Rabiʻ-out-T.</month>
+							<month type="5">Djoum.-l-O.</month>
+							<month type="6">Djoum.-t-T.</month>
+							<month type="7">Radj.</month>
+							<month type="8">Cha.</month>
+							<month type="9">Ram.</month>
+							<month type="10">Chaou.</month>
+							<month type="11">Dou-l-Q.</month>
+							<month type="12">Dou-l-H.</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<alias source="locale" path="../../monthContext[@type='stand-alone']/monthWidth[@type='narrow']"/>
+						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">Mouharram</month>
 							<month type="3">Rabiʻ-oul-Aououal</month>
@@ -1902,7 +1953,209 @@
 							<month type="12">Dou-l-Hidjja</month>
 						</monthWidth>
 					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='abbreviated']"/>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1">1</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='wide']"/>
+						</monthWidth>
+					</monthContext>
 				</months>
+				<eras>
+					<eraNames>
+						<alias source="locale" path="../eraAbbr"/>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">AH</era>
+					</eraAbbr>
+					<eraNarrow>
+						<alias source="locale" path="../eraAbbr"/>
+					</eraNarrow>
+				</eras>
+				<dateFormats> <!-- per cldrbug 2835, copied from buddhist -->
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE d MMMM y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d MMMM y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats> <!-- per cldrbug 2835, added from gregorian and adjusted for G -->
+					<availableFormats>
+						<dateFormatItem id="d">d</dateFormatItem>
+						<dateFormatItem id="Ed">E d</dateFormatItem>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
+						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="M">L</dateFormatItem>
+						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="MEd">EEE d/M</dateFormatItem>
+						<dateFormatItem id="MMd">d/MM</dateFormatItem>
+						<dateFormatItem id="MMdd">dd/MM</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
+						<dateFormatItem id="MMMdd">dd MMM</dateFormatItem>
+						<dateFormatItem id="MMMEd">E d MMM</dateFormatItem>
+						<dateFormatItem id="MMMMEd">EEE d MMMM</dateFormatItem>
+						<dateFormatItem id="ms">mm:ss</dateFormatItem>
+						<dateFormatItem id="yyMM">MM/y G</dateFormatItem>
+						<dateFormatItem id="yyMMM">MMM y G</dateFormatItem>
+						<dateFormatItem id="yyMMMd">d MMM y G</dateFormatItem>
+						<dateFormatItem id="yyMMMEEEd">EEE d MMM y G</dateFormatItem>
+						<dateFormatItem id="yyQ">'T'Q y G</dateFormatItem>
+						<dateFormatItem id="yyQQQQ">QQQQ y G</dateFormatItem>
+						<dateFormatItem id="yyyy">y G</dateFormatItem>
+						<dateFormatItem id="yyyyM">M/y G</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">EEE d/M/y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">MMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">EEE d MMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyQ">'T'Q y G</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">QQQ y G</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="japanese">
+				<dateFormats> <!-- per cldrbug 2835, copied from buddhist -->
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE d MMMM y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d MMMM y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats> <!-- per cldrbug 2835, added from gregorian and adjusted for G -->
+					<availableFormats>
+						<dateFormatItem id="d">d</dateFormatItem>
+						<dateFormatItem id="Ed">E d</dateFormatItem>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
+						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="M">L</dateFormatItem>
+						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="MEd">EEE d/M</dateFormatItem>
+						<dateFormatItem id="MMd">d/MM</dateFormatItem>
+						<dateFormatItem id="MMdd">dd/MM</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
+						<dateFormatItem id="MMMdd">dd MMM</dateFormatItem>
+						<dateFormatItem id="MMMEd">E d MMM</dateFormatItem>
+						<dateFormatItem id="MMMMEd">EEE d MMMM</dateFormatItem>
+						<dateFormatItem id="ms">mm:ss</dateFormatItem>
+						<dateFormatItem id="yyMM">MM/y G</dateFormatItem>
+						<dateFormatItem id="yyMMM">MMM y G</dateFormatItem>
+						<dateFormatItem id="yyMMMd">d MMM y G</dateFormatItem>
+						<dateFormatItem id="yyMMMEEEd">EEE d MMM y G</dateFormatItem>
+						<dateFormatItem id="yyQ">'T'Q y G</dateFormatItem>
+						<dateFormatItem id="yyQQQQ">QQQQ y G</dateFormatItem>
+						<dateFormatItem id="yyyy">y G</dateFormatItem>
+						<dateFormatItem id="yyyyM">M/y G</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">EEE d/M/y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">MMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">EEE d MMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyQ">'T'Q y G</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">QQQ y G</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="roc">
+				<dateFormats> <!-- per cldrbug 2835, copied from buddhist -->
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE d MMMM y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d MMMM y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d MMM, y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats> <!-- per cldrbug 2835, added from gregorian and adjusted for G -->
+					<availableFormats>
+						<dateFormatItem id="d">d</dateFormatItem>
+						<dateFormatItem id="Ed">E d</dateFormatItem>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
+						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="M">L</dateFormatItem>
+						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="MEd">EEE d/M</dateFormatItem>
+						<dateFormatItem id="MMd">d/MM</dateFormatItem>
+						<dateFormatItem id="MMdd">dd/MM</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
+						<dateFormatItem id="MMMdd">dd MMM</dateFormatItem>
+						<dateFormatItem id="MMMEd">E d MMM</dateFormatItem>
+						<dateFormatItem id="MMMMEd">EEE d MMMM</dateFormatItem>
+						<dateFormatItem id="ms">mm:ss</dateFormatItem>
+						<dateFormatItem id="yyMM">MM/y G</dateFormatItem>
+						<dateFormatItem id="yyMMM">MMM y G</dateFormatItem>
+						<dateFormatItem id="yyMMMd">d MMM y G</dateFormatItem>
+						<dateFormatItem id="yyMMMEEEd">EEE d MMM y G</dateFormatItem>
+						<dateFormatItem id="yyQ">'T'Q y G</dateFormatItem>
+						<dateFormatItem id="yyQQQQ">QQQQ y G</dateFormatItem>
+						<dateFormatItem id="yyyy">y G</dateFormatItem>
+						<dateFormatItem id="yyyyM">M/y G</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">EEE d/M/y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">MMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">EEE d MMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">MMMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyQ">'T'Q y G</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">QQQ y G</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
 			</calendar>
 		</calendars>
 		<timeZoneNames>
@@ -4512,9 +4765,9 @@
 				<displayName count="other">couronnes fortes tchécoslovaques</displayName>
 			</currency>
 			<currency type="CUC">
-				<displayName draft="provisional">peso cubain convertible</displayName>
-				<displayName count="one" draft="provisional">peso cubain convertible</displayName>
-				<displayName count="other" draft="provisional">pesos cubains convertibles</displayName>
+				<displayName>peso cubain convertible</displayName>
+				<displayName count="one">peso cubain convertible</displayName>
+				<displayName count="other">pesos cubains convertibles</displayName>
 				<symbol draft="unconfirmed">CUC</symbol>
 			</currency>
 			<currency type="CUP">
@@ -5389,9 +5642,9 @@
 				<displayName count="other">manats turkmènes</displayName>
 			</currency>
 			<currency type="TMT">
-				<displayName draft="provisional">nouveau manat turkmène</displayName>
-				<displayName count="one" draft="provisional">nouveau manat turkmène</displayName>
-				<displayName count="other" draft="provisional">nouveaux manats turkmènes</displayName>
+				<displayName>nouveau manat turkmène</displayName>
+				<displayName count="one">nouveau manat turkmène</displayName>
+				<displayName count="other">nouveaux manats turkmènes</displayName>
 			</currency>
 			<currency type="TND">
 				<displayName>dinar tunisien</displayName>

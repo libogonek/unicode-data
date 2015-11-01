@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4876 $"/>
-		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
+		<version number="$Revision: 5096 $"/>
+		<generation date="$Date: 2010-10-13 19:10:15 -0500 (Wed, 13 Oct 2010) $"/>
 		<language type="hr"/>
 	</identity>
 	<localeDisplayNames>
@@ -652,7 +652,6 @@
 			<script type="Phnx">feničko pismo</script>
 			<script type="Plrd">pollard fonetsko pismo</script>
 			<script type="Prti">pisani parthian</script>
-			<script type="Qaai">nasljedno pismo</script>
 			<script type="Rjng">rejang pismo</script>
 			<script type="Roro">rongorongo pismo</script>
 			<script type="Runr">runsko pismo</script>
@@ -686,6 +685,7 @@
 			<script type="Xpeo">staro perzijsko pismo</script>
 			<script type="Xsux">sumersko-akadsko cuneiform pismo</script>
 			<script type="Yiii">Yi pismo</script>
+			<script type="Zinh">nasljedno pismo</script>
 			<script type="Zmth">matematičko znakovlje</script>
 			<script type="Zsym">simboli</script>
 			<script type="Zxxx">nepisani jezik</script>
@@ -1378,28 +1378,28 @@
 						<dateFormatItem id="hms" alt="proposed-x1001" draft="unconfirmed">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
 						<dateFormatItem id="M" draft="provisional">L.</dateFormatItem>
-						<dateFormatItem id="Md">d.M.</dateFormatItem>
-						<dateFormatItem id="MEd">E, d.M.</dateFormatItem>
-						<dateFormatItem id="MMdd">dd.MM.</dateFormatItem>
+						<dateFormatItem id="Md">d. M.</dateFormatItem>
+						<dateFormatItem id="MEd">E, d. M.</dateFormatItem>
+						<dateFormatItem id="MMdd">dd. MM.</dateFormatItem>
 						<dateFormatItem id="MMM">LLL.</dateFormatItem>
-						<dateFormatItem id="MMMd">d.MMM.</dateFormatItem>
-						<dateFormatItem id="MMMEd">E, d.MMM.</dateFormatItem>
+						<dateFormatItem id="MMMd">d. MMM.</dateFormatItem>
+						<dateFormatItem id="MMMEd">E, d. MMM.</dateFormatItem>
 						<dateFormatItem id="MMMMd">d. MMMM</dateFormatItem>
 						<dateFormatItem id="MMMMdd">dd. MMMM</dateFormatItem>
 						<dateFormatItem id="MMMMEd">E, d. MMMM</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y.</dateFormatItem>
-						<dateFormatItem id="yM">M.yyyy.</dateFormatItem>
-						<dateFormatItem id="yMEd">EEE, d.M.y.</dateFormatItem>
-						<dateFormatItem id="yMMM">MMM.y.</dateFormatItem>
-						<dateFormatItem id="yMMMEd">EEE, d.MMM.y.</dateFormatItem>
+						<dateFormatItem id="yM">M. yyyy.</dateFormatItem>
+						<dateFormatItem id="yMEd">EEE, d. M. y.</dateFormatItem>
+						<dateFormatItem id="yMMM">MMM. y.</dateFormatItem>
+						<dateFormatItem id="yMMMEd">EEE, d. MMM. y.</dateFormatItem>
 						<dateFormatItem id="yMMMM">MMMM y.</dateFormatItem>
 						<dateFormatItem id="yQ">Q. yyyy.</dateFormatItem>
 						<dateFormatItem id="yQQQ">QQQ y.</dateFormatItem>
-						<dateFormatItem id="yyMMMEEEd">EEE, d.MMM.yy.</dateFormatItem>
+						<dateFormatItem id="yyMMMEEEd">EEE, d. MMM. yy.</dateFormatItem>
 						<dateFormatItem id="yyQ">Q yy.</dateFormatItem>
 						<dateFormatItem id="yyQQQQ">QQQQ yy.</dateFormatItem>
-						<dateFormatItem id="yyyyMM">MM.yyyy.</dateFormatItem>
+						<dateFormatItem id="yyyyMM">MM. yyyy.</dateFormatItem>
 						<dateFormatItem id="yyyyMMMM">MMMM y.</dateFormatItem>
 					</availableFormats>
 					<intervalFormats>
@@ -1500,8 +1500,8 @@
 							<greatestDifference id="y">E, dd.MMM.y. - E, dd.MMM.y.</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMM">
-							<greatestDifference id="M">MM. - MM.yyyy.</greatestDifference>
-							<greatestDifference id="y">MM.yyyy. - MM.yyyy.</greatestDifference>
+							<greatestDifference id="M">LLLL.-LLLL.y.</greatestDifference>
+							<greatestDifference id="y">LLLL.y. - LLLL.y.</greatestDifference>
 						</intervalFormatItem>
 					</intervalFormats>
 				</dateTimeFormats>
@@ -1615,6 +1615,7 @@
 				</dateFormats>
 				<dateTimeFormats>
 					<availableFormats>
+						<dateFormatItem id="Ed">E, d.</dateFormatItem>
 						<dateFormatItem id="yyyy">y. G</dateFormatItem>
 						<dateFormatItem id="yyyyM">M.y. G</dateFormatItem>
 						<dateFormatItem id="yyyyMEd">EEE, d.M.y. G</dateFormatItem>
@@ -3596,11 +3597,11 @@
 				<displayName count="other">čehoslovačkih kruna</displayName>
 			</currency>
 			<currency type="CUC">
-				<displayName draft="provisional">kubanski konvertibilni pezo</displayName>
-				<displayName count="few" draft="provisional">CUC</displayName>
-				<displayName count="many" draft="provisional">CUC</displayName>
-				<displayName count="one" draft="provisional">CUC</displayName>
-				<displayName count="other" draft="provisional">CUC</displayName>
+				<displayName>kubanski konvertibilni pezo</displayName>
+				<displayName count="few">CUC</displayName>
+				<displayName count="many">CUC</displayName>
+				<displayName count="one">CUC</displayName>
+				<displayName count="other">CUC</displayName>
 			</currency>
 			<currency type="CUP">
 				<displayName>kubanski pezo</displayName>
@@ -4772,11 +4773,11 @@
 				<displayName count="other">turkmenistanskih manata</displayName>
 			</currency>
 			<currency type="TMT">
-				<displayName draft="provisional">turkmenistanski novi manat</displayName>
-				<displayName count="few" draft="provisional">turkmenistanska nova manata</displayName>
-				<displayName count="many" draft="provisional">turkmenistanskih novih manata</displayName>
-				<displayName count="one" draft="provisional">turkmenistanski novi manat</displayName>
-				<displayName count="other" draft="provisional">turkmenistanskih novih manata</displayName>
+				<displayName>turkmenistanski novi manat</displayName>
+				<displayName count="few">turkmenistanska nova manata</displayName>
+				<displayName count="many">turkmenistanskih novih manata</displayName>
+				<displayName count="one">turkmenistanski novi manat</displayName>
+				<displayName count="other">turkmenistanskih novih manata</displayName>
 			</currency>
 			<currency type="TND">
 				<displayName>tuniski dinar</displayName>
@@ -5178,11 +5179,11 @@
 				<displayName count="other">zimbabveanskih dolara</displayName>
 			</currency>
 			<currency type="ZWL">
-				<displayName draft="provisional">zimbabveanski dolar (2009)</displayName>
-				<displayName count="few" draft="provisional">zimbabveanska dolara (2009)</displayName>
-				<displayName count="many" draft="provisional">zimbabveanskih dolara (2009)</displayName>
-				<displayName count="one" draft="provisional">zimbabveanski dolar (2009)</displayName>
-				<displayName count="other" draft="provisional">zimbabveanskih dolara (2009)</displayName>
+				<displayName>zimbabveanski dolar (2009)</displayName>
+				<displayName count="few">zimbabveanska dolara (2009)</displayName>
+				<displayName count="many">zimbabveanskih dolara (2009)</displayName>
+				<displayName count="one">zimbabveanski dolar (2009)</displayName>
+				<displayName count="other">zimbabveanskih dolara (2009)</displayName>
 			</currency>
 			<currency type="ZWR">
 				<displayName count="few" draft="provisional">zimbabveanska dolara (2008)</displayName>

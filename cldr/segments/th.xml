@@ -2,19 +2,22 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4127 $"/>
-		<generation date="$Date: 2009-05-05 18:45:39 -0500 (Tue, 05 May 2009) $"/>
+		<version number="$Revision: 5090 $"/>
+		<generation date="$Date: 2010-10-12 19:39:45 -0500 (Tue, 12 Oct 2010) $"/>
 		<language type="th"/>
 	</identity>
 	<segmentations>
 		<segmentation type="GraphemeClusterBreak">
 			<variables>
-				<!-- delete Thai/Lao postfix spacing vowels from $Extend, except for THAI CHARACTER SARA AM & LAO VOWEL SIGN AM -->
-				<variable id="$Extend">[[$Extend] - [\u0E30 \u0E32 \u0E45 \u0EB0 \u0EB2]]</variable>
-				<!-- make $Prepend empty (we delete the relevant rule below anyway) -->
+				<!-- Thai/Lao postfix spacing vowels no longer in $Extend, but want THAI CHARACTER SARA AM & LAO VOWEL SIGN AM -->
+				<variable id="$Extend">[[$Extend] + [\u0E33 \u0EB3]]</variable>
+				<!-- make $Prepend and $SpacingMark empty (we delete the relevant rules below anyway) -->
 				<variable id="$Prepend"/>
+				<variable id="$SpacingMark"/>
 			</variables>
 			<segmentRules>
+				<!-- delete rule 9.1, "× $SpacingMark" -->
+				<rule id="9.2"/>
 				<!-- delete rule 9.2, "$Prepend ×" -->
 				<rule id="9.2"/>
 			</segmentRules>

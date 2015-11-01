@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4876 $"/>
-		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
+		<version number="$Revision: 5094 $"/>
+		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
 		<language type="lt"/>
 	</identity>
 	<localeDisplayNames>
@@ -641,7 +641,6 @@
 			<script type="Phnx">foenikų</script>
 			<script type="Plrd">polard fonetinė</script>
 			<script type="Prti">rašytiniai partų</script>
-			<script type="Qaai">paveldėtas</script>
 			<script type="Rjng">rejang</script>
 			<script type="Roro">rongorongo</script>
 			<script type="Runr">runų</script>
@@ -675,6 +674,7 @@
 			<script type="Xpeo">senieji persų</script>
 			<script type="Xsux">Šumero Akado dantiraštis</script>
 			<script type="Yiii">ji</script>
+			<script type="Zinh">paveldėtas</script>
 			<script type="Zmth">matematiniai simboliai</script>
 			<script type="Zsym">simbolių</script>
 			<script type="Zxxx">neparašyta</script>

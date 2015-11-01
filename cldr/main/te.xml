@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4845 $"/>
-		<generation date="$Date: 2010-04-08 13:37:20 -0500 (Thu, 08 Apr 2010) $"/>
+		<version number="$Revision: 5094 $"/>
+		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
 		<language type="te"/>
 	</identity>
 	<localeDisplayNames>
@@ -613,7 +613,6 @@
 			<script type="Phnx">ఫోనిశియన్</script>
 			<script type="Plrd">పోల్లర్డ్ ఫోనెటిక్</script>
 			<script type="Prti">ఇంస్క్రిప్షనాల్ పార్థియన్</script>
-			<script type="Qaai">వారసత్వం</script>
 			<script type="Rjng">రేజాంగ్</script>
 			<script type="Roro">రోంగో రోంగో</script>
 			<script type="Runr">రూనిక్</script>
@@ -647,6 +646,7 @@
 			<script type="Xpeo">ప్రాచీన పర్షియన్</script>
 			<script type="Xsux">సుమేరో- అక్కడియన్ క్యునిఫార్మ్</script>
 			<script type="Yiii">యి</script>
+			<script type="Zinh">వారసత్వం</script>
 			<script type="Zmth">గణిత సంకేతలిపి</script>
 			<script type="Zsym">చిహ్నాలు</script>
 			<script type="Zxxx">లిపి లేని</script>
@@ -969,7 +969,7 @@
 	</localeDisplayNames>
 	<characters>
 		<exemplarCharacters>[అ ఆ ఇ ఈ ఉ ఊ ఋ ౠ ఌ ౡ ఎ ఏ ఐ ఒ ఓ ఔ క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ భ మ య ర ఱ ల వ శ ష స హ ఁ ం ః \u0C4D ళ \u0C3E \u0C3F \u0C40 ు ూ ృ ౄ \u0C46 \u0C47 \u0C48 \u0C4A \u0C4B \u0C4C \u0C55 \u0C56]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary">[\u200C \u200D ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ b c e g m q t]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[\u200C\u200D ౦-౯]</exemplarCharacters>
 		<exemplarCharacters type="index">[అ ఆ ఇ ఈ ఉ ఊ ఋ ౠ ఎ ఏ ఐ ఒ ఓ ఔ క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ భ మ య ర ఱ ల వ శ ష స హ ళ]</exemplarCharacters>
 		<exemplarCharacters alt="proposed-x1001" draft="unconfirmed">[అ ఆ ఇ ఈ ఉ ఊ ఋ ౠ ఎ ఏ ఐ ఒ ఓ ఔ క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ భ మ య ర ఱ ల వ శ ష స హ ళ]</exemplarCharacters>
 	</characters>

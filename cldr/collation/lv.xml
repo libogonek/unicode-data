@@ -2,12 +2,12 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4126 $"/>
-		<generation date="$Date: 2009-05-05 18:33:13 -0500 (Tue, 05 May 2009) $"/>
+		<version number="$Revision: 4936 $"/>
+		<generation date="$Date: 2010-05-27 15:56:38 -0500 (Thu, 27 May 2010) $"/>
 		<language type="lv" /> 
 	</identity>
 		<collations  validSubLocales="lv_LV">
-			<collation type="standard" >
+			<collation type="standard" references="Dzintra Kalniņa: Latvian-English Dictionary ISBN 9984-700-52-6">
 				<rules>
 					<reset before="primary">D</reset>
 					<p>č</p>
@@ -15,9 +15,6 @@
 					<reset before="primary">H</reset>
 					<p>ģ</p>
 					<t>Ģ</t>
-					<reset before="primary">J</reset>
-					<p>y</p>
-					<t>Y</t>
 					<reset before="primary">L</reset>
 					<p>ķ</p>
 					<t>Ķ</t>
@@ -37,39 +34,6 @@
 					<p>ž</p>
 					<t>Ž</t>
 				</rules>
-			</collation  >
-			<collation type="standard" draft="unconfirmed" alt="proposed">
-				<rules>
-					<reset before="primary">D</reset>
-					<p>č</p>
-					<t>Č</t>
-					<reset before="primary">H</reset>
-					<p>ģ</p>
-					<t>Ģ</t>
-<!--
-					<reset before="primary">J</reset>
-					<p>y</p>
-					<t>Y</t>
--->
-					<reset before="primary">L</reset>
-					<p>ķ</p>
-					<t>Ķ</t>
-					<reset before="primary">M</reset>
-					<p>ļ</p>
-					<t>Ļ</t>
-					<reset before="primary">O</reset>
-					<p>ņ</p>
-					<t>Ņ</t>
-					<reset before="primary">S</reset>
-					<p>ŗ</p>
-					<t>Ŗ</t>
-					<reset before="primary">T</reset>
-					<p>š</p>
-					<t>Š</t>
-					<reset before="primary">Ʒ</reset>
-					<p>ž</p>
-					<t>Ž</t>
-				</rules>
-			</collation  >
+			</collation>
 		</collations>
 </ldml>

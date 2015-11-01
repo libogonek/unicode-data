@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4876 $"/>
-		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
+		<version number="$Revision: 5209 $"/>
+		<generation date="$Date: 2010-11-19 10:49:14 -0600 (Fri, 19 Nov 2010) $"/>
 		<language type="root"/>
 	</identity>
 	<fallback/>
@@ -14,6 +14,7 @@
 		</localeDisplayPattern>
 		<measurementSystemNames>
 			<measurementSystemName type="metric">Metric</measurementSystemName>
+			<measurementSystemName type="UK">UK</measurementSystemName>
 			<measurementSystemName type="US">US</measurementSystemName>
 		</measurementSystemNames>
 		<codePatterns>
@@ -42,8 +43,12 @@
 	<characters>
 		<exemplarCharacters>[]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary">[]</exemplarCharacters>
-		<exemplarCharacters type="currencySymbol">[a b c č d e f g h i j k l ł m n o º p q r s t u v w x y z]</exemplarCharacters>
-		<exemplarCharacters type="index" draft="unconfirmed">[]</exemplarCharacters>
+        <exemplarCharacters type="punctuation">[\- , ; \: ! ? . ( ) \[ \] \{ \}]</exemplarCharacters>
+        <exemplarCharacters type="currencySymbol">[a b c č d e f g h i j k l ł m n o º p q r s t u v w x y z]</exemplarCharacters>
+        <ellipsis type="initial">…{0}</ellipsis>
+        <ellipsis type="medial">{0}…{1}</ellipsis>
+		<ellipsis type="final">{0}…</ellipsis>
+		<moreInformation>?</moreInformation>
 	</characters>
 	<delimiters>
 		<quotationStart>“</quotationStart>
@@ -1521,6 +1526,7 @@
 						<alias source="locale" path="../../../calendar[@type='gregorian']/dateTimeFormats/dateTimeFormatLength"/>
 					</dateTimeFormatLength>
 					<availableFormats>
+						<dateFormatItem id="Ed">E d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
@@ -1843,6 +1849,11 @@
 				<short>
 					<standard>CVT</standard>
 					<daylight>CVST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Casey">
+				<short>
+					<standard>CAST</standard>
 				</short>
 			</metazone>
 			<metazone type="Chamorro">
@@ -2655,6 +2666,22 @@
 					<pattern>#,##0.###</pattern>
 				</decimalFormat>
 			</decimalFormatLength>
+            <decimalFormatLength type="short">
+                <decimalFormat>
+                    <pattern type="1000">0.0K</pattern>
+                    <pattern type="10000">00K</pattern>
+                    <pattern type="100000">000K</pattern>
+                    <pattern type="1000000">0.0M</pattern>
+                    <pattern type="10000000">00M</pattern>
+                    <pattern type="100000000">000M</pattern>
+                    <pattern type="1000000000">0.0G</pattern>
+                    <pattern type="10000000000">00G</pattern>
+                    <pattern type="100000000000">000G</pattern>
+                    <pattern type="1000000000000">0.0T</pattern>
+                    <pattern type="10000000000000">00T</pattern>
+                    <pattern type="100000000000000">000T</pattern>
+                </decimalFormat>
+            </decimalFormatLength>
 		</decimalFormats>
 		<scientificFormats>
 			<scientificFormatLength>
@@ -2820,9 +2847,6 @@
 			<currency type="EEK">
 				<symbol>Ekr</symbol>
 			</currency>
-			<currency type="EGP">
-				<symbol>EG£</symbol>
-			</currency>
 			<currency type="ERN">
 				<symbol>Nfk</symbol>
 			</currency>
@@ -2903,6 +2927,7 @@
 			</currency>
 			<currency type="INR">
 				<symbol>Rs</symbol>
+				<symbol alt="new">₹</symbol>
 			</currency>
 			<currency type="ISK">
 				<symbol>Ikr</symbol>

@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4753 $"/>
-		<generation date="$Date: 2010-02-26 00:32:00 -0600 (Fri, 26 Feb 2010) $"/>
+		<version number="$Revision: 5020 $"/>
+		<generation date="$Date: 2010-08-19 00:31:44 -0500 (Thu, 19 Aug 2010) $"/>
 		<language type="ar"/>
 		<territory type="SY"/>
 	</identity>
@@ -17,8 +17,7 @@
 							<month type="2">شباط</month>
 							<month type="3">آذار</month>
 							<month type="4">نيسان</month>
-							<month type="5">نوار</month>
-							<month type="5" alt="proposed-x1001" draft="unconfirmed">أيار</month>
+							<month type="5">أيار</month>
 							<month type="6">حزيران</month>
 							<month type="7">تموز</month>
 							<month type="8">آب</month>

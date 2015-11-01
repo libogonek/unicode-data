@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4772 $"/>
-		<generation date="$Date: 2010-02-28 19:38:08 -0600 (Sun, 28 Feb 2010) $"/>
+		<version number="$Revision: 5094 $"/>
+		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
 		<language type="is"/>
 	</identity>
 	<fallback draft="unconfirmed">nn sv nb da en</fallback>
@@ -692,7 +692,6 @@
 			<script type="Ogam" draft="unconfirmed">ogham</script>
 			<script type="Orkh" draft="unconfirmed">orkhon</script>
 			<script type="Orya" draft="unconfirmed">oríja</script>
-			<script type="Qaai" draft="unconfirmed">(erfðir)</script>
 			<script type="Rjng" draft="unconfirmed">rejang</script>
 			<script type="Roro" draft="unconfirmed">rongorongo</script>
 			<script type="Runr" draft="unconfirmed">rúntégn</script>
@@ -716,6 +715,7 @@
 			<script type="Ugar" draft="unconfirmed">ugaritíska</script>
 			<script type="Vaii" draft="unconfirmed">vai</script>
 			<script type="Yiii" draft="unconfirmed">yí</script>
+			<script type="Zinh" draft="unconfirmed">(erfðir)</script>
 			<script type="Zsym" draft="unconfirmed">tákn</script>
 			<script type="Zxxx" draft="contributed">Óskrifað</script>
 			<script type="Zxxx" alt="proposed-x1001" draft="unconfirmed">(óskrifað)</script>
@@ -1107,8 +1107,7 @@
 	</layout>
 	<characters>
 		<exemplarCharacters>[a á b d ð e é f g h i í j k l m n o ó p r s t u ú v y ý þ æ ö]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary">[c q w z]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary" alt="proposed-x1001" draft="unconfirmed">[c q w x z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[c q w x z]</exemplarCharacters>
 		<exemplarCharacters type="currencySymbol" draft="contributed">[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
 		<exemplarCharacters type="currencySymbol" alt="proposed-x1001" draft="unconfirmed">[a b c č d e f g h i j k l ł m n o p q r s t u v w x y z]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="contributed">[A Á B C D Ð E É F G H I Í J K L M N O Ó P Q R S T U Ú V W X Y Ý Z Þ Æ Ö]</exemplarCharacters>

@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4876 $"/>
-		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
+		<version number="$Revision: 5109 $"/>
+		<generation date="$Date: 2010-10-15 18:03:27 -0500 (Fri, 15 Oct 2010) $"/>
 		<language type="fi"/>
 	</identity>
 	<fallback/>
@@ -630,7 +630,6 @@
 			<script type="Phnx">foinikialainen</script>
 			<script type="Plrd">Pollardin foneettinen</script>
 			<script type="Prti">piirtokirjoitusparthialainen</script>
-			<script type="Qaai">peritty</script>
 			<script type="Rjng">rejang</script>
 			<script type="Roro">rongorongo</script>
 			<script type="Runr">riimukirjoitus</script>
@@ -665,6 +664,7 @@
 			<script type="Xpeo">muinaispersialainen</script>
 			<script type="Xsux">sumerilais-akkadilainen nuolenpääkirjoitus</script>
 			<script type="Yiii">yiläinen</script>
+			<script type="Zinh">peritty</script>
 			<script type="Zmth">matemaattinen</script>
 			<script type="Zsym">symbolit</script>
 			<script type="Zxxx">kirjoittamaton</script>
@@ -1088,43 +1088,60 @@
 		<dateRangePattern>{0}–{1}</dateRangePattern>
 		<calendars>
 			<calendar type="buddhist">
-				<dateFormats>
+				<dateFormats> <!-- per cldrbug 2835, accept provisional formats, add G for short -->
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern draft="provisional">EEEE d. MMMM y G</pattern>
+							<pattern>cccc d. MMMM y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern draft="provisional">d. MMMM y G</pattern>
+							<pattern>d. MMMM y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern draft="provisional">d. MMM y G</pattern>
+							<pattern>d.M.y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern draft="provisional">d.M.y</pattern>
+							<pattern>d.M.y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
 				<dateTimeFormats>
-					<availableFormats>
-						<dateFormatItem id="hm" draft="provisional">h.mm a</dateFormatItem>
-						<dateFormatItem id="Hm" draft="provisional">H.mm</dateFormatItem>
-						<dateFormatItem id="hms" draft="provisional">h.mm.ss a</dateFormatItem>
-						<dateFormatItem id="Hms" draft="provisional">H.mm.ss</dateFormatItem>
-						<dateFormatItem id="MMMd" draft="provisional">d. MMM</dateFormatItem>
-						<dateFormatItem id="MMMEd" draft="provisional">E d. MMM</dateFormatItem>
-						<dateFormatItem id="MMMMd" draft="provisional">d. MMMM</dateFormatItem>
-						<dateFormatItem id="MMMMEd" draft="provisional">E d. MMMM</dateFormatItem>
-						<dateFormatItem id="ms" draft="provisional">mm.ss</dateFormatItem>
-						<dateFormatItem id="yMEd" draft="provisional">EEE M.d.y</dateFormatItem>
-						<dateFormatItem id="yMMM" draft="provisional">LLLL y</dateFormatItem>
-						<dateFormatItem id="yMMMEd" draft="provisional">EEE d. MMM y</dateFormatItem>
-						<dateFormatItem id="yMMMM" draft="provisional">LLLL y</dateFormatItem>
+					<availableFormats> <!-- per cldrbug 2835, accept provisional, add others from gregorian and adjust -->
+						<dateFormatItem id="d">d</dateFormatItem>
+						<dateFormatItem id="Ed">ccc d.</dateFormatItem>
+						<dateFormatItem id="Gy">y G</dateFormatItem>
+						<dateFormatItem id="H">H</dateFormatItem>
+						<dateFormatItem id="hm">h.mm a</dateFormatItem>
+						<dateFormatItem id="Hm">H.mm</dateFormatItem>
+						<dateFormatItem id="hms">h.mm.ss a</dateFormatItem>
+						<dateFormatItem id="Hms">H.mm.ss</dateFormatItem>
+						<dateFormatItem id="M">L</dateFormatItem>
+						<dateFormatItem id="Md">d.M.</dateFormatItem>
+						<dateFormatItem id="MEd">E d.M.</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMd">d. MMM</dateFormatItem>
+						<dateFormatItem id="MMMEd">E d. MMM</dateFormatItem>
+						<dateFormatItem id="ms">mm.ss</dateFormatItem>
+						<dateFormatItem id="y">y G</dateFormatItem>
+						<dateFormatItem id="yM">L.y G</dateFormatItem>
+						<dateFormatItem id="yMEd">EEE d.M.y G</dateFormatItem>
+						<dateFormatItem id="yMMM">LLLL y G</dateFormatItem>
+						<dateFormatItem id="yMMMEd">EEE d. MMM y G</dateFormatItem>
+						<dateFormatItem id="yMMMMccccd">cccc, d. MMMM y G</dateFormatItem>
+						<dateFormatItem id="yQ">Q/y G</dateFormatItem>
+						<dateFormatItem id="yQQQ">QQQ y G</dateFormatItem>
+						<dateFormatItem id="yyMM">M.y G</dateFormatItem>
+						<dateFormatItem id="yyMMM">LLLL y G</dateFormatItem>
+						<dateFormatItem id="yyQ">Q/y G</dateFormatItem>
+						<dateFormatItem id="yyyyM">M.y G</dateFormatItem>
+						<dateFormatItem id="yyyyMEEEd">EEE d.M.y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">LLLL y G</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">QQQQ y G</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 			</calendar>
@@ -1333,7 +1350,7 @@
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>EEEE d. MMMM y</pattern>
+							<pattern>cccc d. MMMM y</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
@@ -1377,7 +1394,7 @@
 				<dateTimeFormats>
 					<availableFormats>
 						<dateFormatItem id="d">d</dateFormatItem>
-						<dateFormatItem id="EEEd">EEE d.</dateFormatItem>
+						<dateFormatItem id="Ed">ccc d.</dateFormatItem>
 						<dateFormatItem id="H">H</dateFormatItem>
 						<dateFormatItem id="hm">h.mm a</dateFormatItem>
 						<dateFormatItem id="Hm">H.mm</dateFormatItem>
@@ -1642,86 +1659,147 @@
 						</monthWidth>
 					</monthContext>
 				</months>
-			</calendar>
-			<calendar type="japanese">
-				<dateFormats>
+				<dateFormats> <!-- per cldrbug 2835, copied from buddhist -->
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern draft="provisional">EEEE G y, d. MMMM</pattern>
+							<pattern>cccc d. MMMM y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern draft="provisional">G y, d. MMMM</pattern>
+							<pattern>d. MMMM y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern draft="provisional">G y, d. MMM</pattern>
+							<pattern>d.M.y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern draft="provisional">G d.M.yy</pattern>
+							<pattern>d.M.y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats> <!-- per cldrbug 2835, copied from buddhist, adjusted skeleton y length -->
+					<availableFormats>
+						<dateFormatItem id="d">d</dateFormatItem>
+						<dateFormatItem id="Ed">ccc d.</dateFormatItem>
+						<dateFormatItem id="Gy">y G</dateFormatItem>
+						<dateFormatItem id="H">H</dateFormatItem>
+						<dateFormatItem id="hm">h.mm a</dateFormatItem>
+						<dateFormatItem id="Hm">H.mm</dateFormatItem>
+						<dateFormatItem id="hms">h.mm.ss a</dateFormatItem>
+						<dateFormatItem id="Hms">H.mm.ss</dateFormatItem>
+						<dateFormatItem id="M">L</dateFormatItem>
+						<dateFormatItem id="Md">d.M.</dateFormatItem>
+						<dateFormatItem id="MEd">E d.M.</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMd">d. MMM</dateFormatItem>
+						<dateFormatItem id="MMMEd">E d. MMM</dateFormatItem>
+						<dateFormatItem id="ms">mm.ss</dateFormatItem>
+						<dateFormatItem id="y">y G</dateFormatItem>
+						<dateFormatItem id="yyyy">y G</dateFormatItem>
+						<dateFormatItem id="yyyyM">M.y G</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">EEE d.M.y G</dateFormatItem>
+						<dateFormatItem id="yyyyMM">M.y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">LLLL y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">EEE d. MMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">LLLL y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMMccccd">cccc, d. MMMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyQ">Q/y G</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">QQQ y G</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">QQQQ y G</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="japanese">
+				<dateFormats> <!-- per cldrbug 2835, accept provisional formats -->
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>cccc d. MMMM y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d. MMMM y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d.M.y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d.M.y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
 				<dateTimeFormats>
-					<availableFormats>
-						<dateFormatItem id="hm" draft="provisional">h.mm a</dateFormatItem>
-						<dateFormatItem id="Hm" draft="provisional">H.mm</dateFormatItem>
-						<dateFormatItem id="hms" draft="provisional">h.mm.ss a</dateFormatItem>
-						<dateFormatItem id="Hms" draft="provisional">H.mm.ss</dateFormatItem>
-						<dateFormatItem id="Md" draft="provisional">d.M</dateFormatItem>
-						<dateFormatItem id="MMMEd" draft="provisional">E d. MMM</dateFormatItem>
-						<dateFormatItem id="MMMMd" draft="provisional">d. MMMM</dateFormatItem>
-						<dateFormatItem id="ms" draft="provisional">mm.ss</dateFormatItem>
-						<dateFormatItem id="yyyy" draft="provisional">GGG yy</dateFormatItem>
-						<dateFormatItem id="yyyyM" draft="provisional">GGGGG M.yy</dateFormatItem>
-						<dateFormatItem id="yyyyMd" draft="provisional">GGGGG d.M.yy</dateFormatItem>
-						<dateFormatItem id="yyyyMMM" draft="provisional">GGGGG LLLL yy</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd" draft="provisional">GGGGG d. MMM yy</dateFormatItem>
+					<availableFormats> <!-- per cldrbug 2835, accept provisional formats -->
+						<dateFormatItem id="Ed">ccc d.</dateFormatItem>
+						<dateFormatItem id="Gy">y G</dateFormatItem>
+						<dateFormatItem id="hm">h.mm a</dateFormatItem>
+						<dateFormatItem id="Hm">H.mm</dateFormatItem>
+						<dateFormatItem id="hms">h.mm.ss a</dateFormatItem>
+						<dateFormatItem id="Hms">H.mm.ss</dateFormatItem>
+						<dateFormatItem id="Md">d.M</dateFormatItem>
+						<dateFormatItem id="MEd">E d.M.</dateFormatItem>
+						<dateFormatItem id="MMMEd">E d. MMM</dateFormatItem>
+						<dateFormatItem id="MMMMd">d. MMMM</dateFormatItem>
+						<dateFormatItem id="ms">mm.ss</dateFormatItem>
+						<dateFormatItem id="yyyy">y G</dateFormatItem>
+						<dateFormatItem id="yyyyM">M.y G</dateFormatItem>
+						<dateFormatItem id="yyyyMd">d.M.y G</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">E d.M.y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">LLLL yy G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">d. MMM yy G</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 			</calendar>
 			<calendar type="roc">
-				<dateFormats>
+				<dateFormats> <!-- per cldrbug 2835, accept provisional formats -->
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern draft="provisional">EEEE d. MMMM, G y</pattern>
+							<pattern>cccc d. MMMM y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern draft="provisional">d. MMMM, G y</pattern>
+							<pattern>d. MMMM y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern draft="provisional">d. MMM, G y</pattern>
+							<pattern>d.M.y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern draft="provisional">G d.M.y</pattern>
+							<pattern>d.M.y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
 				<dateTimeFormats>
-					<availableFormats>
-						<dateFormatItem id="hm" draft="provisional">h.mm a</dateFormatItem>
-						<dateFormatItem id="Hm" draft="provisional">H.mm</dateFormatItem>
-						<dateFormatItem id="hms" draft="provisional">h.mm.ss a</dateFormatItem>
-						<dateFormatItem id="Hms" draft="provisional">H.mm.ss</dateFormatItem>
-						<dateFormatItem id="Md" draft="provisional">d.M.</dateFormatItem>
-						<dateFormatItem id="MEd" draft="provisional">E d.M.</dateFormatItem>
-						<dateFormatItem id="MMMd" draft="provisional">d. MMM</dateFormatItem>
-						<dateFormatItem id="MMMEd" draft="provisional">E d. MMM</dateFormatItem>
-						<dateFormatItem id="ms" draft="provisional">mm.ss</dateFormatItem>
-						<dateFormatItem id="yyyyM" draft="provisional">G M.y</dateFormatItem>
-						<dateFormatItem id="yyyyMEd" draft="provisional">EEE d.M. G y</dateFormatItem>
-						<dateFormatItem id="yyyyMMM" draft="provisional">LLLL G y</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd" draft="provisional">EEE d. MMM G y</dateFormatItem>
+					<availableFormats> <!-- per cldrbug 2835, accept provisional formats -->
+						<dateFormatItem id="Ed">ccc d.</dateFormatItem>
+						<dateFormatItem id="Gy">y G</dateFormatItem>
+						<dateFormatItem id="hm">h.mm a</dateFormatItem>
+						<dateFormatItem id="Hm">H.mm</dateFormatItem>
+						<dateFormatItem id="hms">h.mm.ss a</dateFormatItem>
+						<dateFormatItem id="Hms">H.mm.ss</dateFormatItem>
+						<dateFormatItem id="Md">d.M.</dateFormatItem>
+						<dateFormatItem id="MEd">E d.M.</dateFormatItem>
+						<dateFormatItem id="MMMd">d. MMM</dateFormatItem>
+						<dateFormatItem id="MMMEd">E d. MMM</dateFormatItem>
+						<dateFormatItem id="ms">mm.ss</dateFormatItem>
+						<dateFormatItem id="yyyy">y G</dateFormatItem>
+						<dateFormatItem id="yyyyM">M.y G</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">E d.M.y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">LLLL y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">EEE d. MMM y G</dateFormatItem>
+						<dateFormatItem id="yyyyMd">d.M.y G</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 			</calendar>

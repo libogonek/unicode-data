@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4847 $"/>
-		<generation date="$Date: 2010-04-10 16:01:11 -0500 (Sat, 10 Apr 2010) $"/>
+		<version number="$Revision: 5094 $"/>
+		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
 		<language type="ja"/>
 	</identity>
 	<localeDisplayNames>
@@ -600,7 +600,6 @@
 			<script type="Phag">パスパ文字</script>
 			<script type="Phnx">フェニキア文字</script>
 			<script type="Plrd">ポラード音声記号</script>
-			<script type="Qaai" draft="unconfirmed">系統</script>
 			<script type="Roro">ロンゴロンゴ文字</script>
 			<script type="Runr">ルーン文字</script>
 			<script type="Sara">サラティ文字</script>
@@ -628,6 +627,7 @@
 			<script type="Xpeo">古代ペルシア文字</script>
 			<script type="Xsux">シュメール＝アッカド語楔形文字</script>
 			<script type="Yiii">イ文字</script>
+			<script type="Zinh" draft="unconfirmed">系統</script>
 			<script type="Zsym" draft="provisional">記号</script>
 			<script type="Zxxx">口承言語のコード</script>
 			<script type="Zyyy">共通コード</script>
@@ -1026,6 +1026,60 @@
 	</delimiters>
 	<dates>
 		<calendars>
+			<calendar type="buddhist">
+				<dateFormats> <!-- per cldrbug 2835, copied from roc -->
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>Gy年M月d日EEEE</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>Gy年M月d日</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>Gy/MM/dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>Gy/MM/dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats> <!-- per cldrbug 2835, copied from japanese -->
+					<availableFormats>
+						<dateFormatItem id="d">d日</dateFormatItem>
+						<dateFormatItem id="Ed">d日(EEE)</dateFormatItem>
+						<dateFormatItem id="GGGGyMd">GGGGy年M月d日</dateFormatItem>
+						<dateFormatItem id="h">ah時</dateFormatItem>
+						<dateFormatItem id="H">H時</dateFormatItem>
+						<dateFormatItem id="hm">ah:mm</dateFormatItem>
+						<dateFormatItem id="Hm">H:mm</dateFormatItem>
+						<dateFormatItem id="hms">ah:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
+						<dateFormatItem id="M">M月</dateFormatItem>
+						<dateFormatItem id="Md">M/d</dateFormatItem>
+						<dateFormatItem id="MEd">M/d(E)</dateFormatItem>
+						<dateFormatItem id="MMdd">MM/dd</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMd">M月d日</dateFormatItem>
+						<dateFormatItem id="MMMEd">M月d日(E)</dateFormatItem>
+						<dateFormatItem id="ms">mm:ss</dateFormatItem>
+						<dateFormatItem id="y">Gy年</dateFormatItem>
+						<dateFormatItem id="yyyy">Gy年</dateFormatItem>
+						<dateFormatItem id="yyyyMd">Gyy/M/d</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">Gyy/M/d(E)</dateFormatItem>
+						<dateFormatItem id="yyyyMM">Gyy/MM</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">Gy年M月</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">Gy年M月d日</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">Gy年M月d日(EEE)</dateFormatItem>
+						<dateFormatItem id="yyyyQ">Gyy/Q</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
 			<calendar type="gregorian">
 				<months>
 					<monthContext type="format">
@@ -1202,13 +1256,13 @@
 						<dateFormatItem id="Ed">d日(EEE)</dateFormatItem>
 						<dateFormatItem id="EEEd" draft="provisional">d (EEE)</dateFormatItem>
 						<dateFormatItem id="GGGGyMd">GGGGy年M月d日</dateFormatItem>
-						<dateFormatItem id="h">ah</dateFormatItem>
+						<dateFormatItem id="h">ah時</dateFormatItem>
 						<dateFormatItem id="H">H時</dateFormatItem>
 						<dateFormatItem id="hm">ah:mm</dateFormatItem>
 						<dateFormatItem id="Hm">H:mm</dateFormatItem>
 						<dateFormatItem id="hms">ah:mm:ss</dateFormatItem>
 						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
-						<dateFormatItem id="M" draft="contributed">L</dateFormatItem>
+						<dateFormatItem id="M">M月</dateFormatItem>
 						<dateFormatItem id="Md">M/d</dateFormatItem>
 						<dateFormatItem id="MEd">M/d(E)</dateFormatItem>
 						<dateFormatItem id="MMdd">MM/dd</dateFormatItem>
@@ -1216,7 +1270,7 @@
 						<dateFormatItem id="MMMd">M月d日</dateFormatItem>
 						<dateFormatItem id="MMMEd">M月d日(E)</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">y</dateFormatItem>
+						<dateFormatItem id="y">y年</dateFormatItem>
 						<dateFormatItem id="yM">y/M</dateFormatItem>
 						<dateFormatItem id="yMd">y/M/d</dateFormatItem>
 						<dateFormatItem id="yMEd">y/M/d(EEE)</dateFormatItem>
@@ -1643,12 +1697,13 @@
 					<availableFormats>
 						<dateFormatItem id="d">d日</dateFormatItem>
 						<dateFormatItem id="Ed">d日(EEE)</dateFormatItem>
-						<dateFormatItem id="h">ah</dateFormatItem>
+						<dateFormatItem id="h">ah時</dateFormatItem>
 						<dateFormatItem id="H">H時</dateFormatItem>
 						<dateFormatItem id="hm">ah:mm</dateFormatItem>
 						<dateFormatItem id="Hm">H:mm</dateFormatItem>
 						<dateFormatItem id="hms">ah:mm:ss</dateFormatItem>
 						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
+						<dateFormatItem id="M">M月</dateFormatItem>
 						<dateFormatItem id="Md">M/d</dateFormatItem>
 						<dateFormatItem id="MEd">M/d(E)</dateFormatItem>
 						<dateFormatItem id="MMMd">M月d日</dateFormatItem>
@@ -1685,15 +1740,42 @@
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>Gy/MM/dd(EE)</pattern>
+							<pattern>Gy/MM/dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>Gy/MM/dd(E)</pattern>
+							<pattern>Gy/MM/dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
+				<dateTimeFormats> <!-- per cldrbug 2835, copied from japanese -->
+					<availableFormats>
+						<dateFormatItem id="d">d日</dateFormatItem>
+						<dateFormatItem id="Ed">d日(EEE)</dateFormatItem>
+						<dateFormatItem id="h">ah時</dateFormatItem>
+						<dateFormatItem id="H">H時</dateFormatItem>
+						<dateFormatItem id="hm">ah:mm</dateFormatItem>
+						<dateFormatItem id="Hm">H:mm</dateFormatItem>
+						<dateFormatItem id="hms">ah:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
+						<dateFormatItem id="M">M月</dateFormatItem>
+						<dateFormatItem id="Md">M/d</dateFormatItem>
+						<dateFormatItem id="MEd">M/d(E)</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMd">M月d日</dateFormatItem>
+						<dateFormatItem id="MMMEd">M月d日(EEE)</dateFormatItem>
+						<dateFormatItem id="y">Gy年</dateFormatItem>
+						<dateFormatItem id="yyyy">Gy年</dateFormatItem>
+						<dateFormatItem id="yyyyMd">Gyy/M/d</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">Gyy/M/d(E)</dateFormatItem>
+						<dateFormatItem id="yyyyMM">Gyy/MM</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">Gy年M月</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">Gy年M月d日</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">Gy年M月d日(EEE)</dateFormatItem>
+						<dateFormatItem id="yyyyQ">Gyy/Q</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
 			</calendar>
 		</calendars>
 		<timeZoneNames>
@@ -3976,7 +4058,7 @@
 				<displayName>チェコスロバキア コルナ</displayName>
 			</currency>
 			<currency type="CUC">
-				<displayName draft="provisional">キューバ 兌換ペソ</displayName>
+				<displayName>キューバ 兌換ペソ</displayName>
 			</currency>
 			<currency type="CUP">
 				<displayName>キューバ ペソ</displayName>
@@ -4443,7 +4525,7 @@
 				<displayName>トルクメニスタン マナト</displayName>
 			</currency>
 			<currency type="TMT">
-				<displayName draft="provisional">トルクメニスタン 新マナト</displayName>
+				<displayName>トルクメニスタン 新マナト</displayName>
 			</currency>
 			<currency type="TND">
 				<displayName>チュニジア ディナール</displayName>
@@ -4606,38 +4688,38 @@
 				<displayName>ジンバブエ ドル</displayName>
 			</currency>
 			<currency type="ZWL">
-				<displayName draft="provisional">ジンバブエ ドル (2009)</displayName>
+				<displayName>ジンバブエ ドル (2009)</displayName>
 			</currency>
 		</currencies>
 	</numbers>
 	<units>
 		<unit type="day">
-			<unitPattern count="other">{0} 日</unitPattern>
-			<unitPattern count="other" alt="short">{0} 日</unitPattern>
+			<unitPattern count="other">{0}日</unitPattern>
+			<unitPattern count="other" alt="short">{0}日</unitPattern>
 		</unit>
 		<unit type="hour">
-			<unitPattern count="other">{0} 時間</unitPattern>
-			<unitPattern count="other" alt="short">{0} 時間</unitPattern>
+			<unitPattern count="other">{0}時間</unitPattern>
+			<unitPattern count="other" alt="short">{0}時間</unitPattern>
 		</unit>
 		<unit type="minute">
-			<unitPattern count="other">{0} 分</unitPattern>
-			<unitPattern count="other" alt="short">{0} 分</unitPattern>
+			<unitPattern count="other">{0}分</unitPattern>
+			<unitPattern count="other" alt="short">{0}分</unitPattern>
 		</unit>
 		<unit type="month">
-			<unitPattern count="other">{0} か月</unitPattern>
-			<unitPattern count="other" alt="short">{0} か月</unitPattern>
+			<unitPattern count="other">{0}か月</unitPattern>
+			<unitPattern count="other" alt="short">{0}か月</unitPattern>
 		</unit>
 		<unit type="second">
-			<unitPattern count="other">{0} 秒</unitPattern>
-			<unitPattern count="other" alt="short">{0} 秒</unitPattern>
+			<unitPattern count="other">{0}秒</unitPattern>
+			<unitPattern count="other" alt="short">{0}秒</unitPattern>
 		</unit>
 		<unit type="week">
-			<unitPattern count="other">{0} 週</unitPattern>
-			<unitPattern count="other" alt="short">{0} 週</unitPattern>
+			<unitPattern count="other">{0}週</unitPattern>
+			<unitPattern count="other" alt="short">{0}週</unitPattern>
 		</unit>
 		<unit type="year">
-			<unitPattern count="other">{0} 年</unitPattern>
-			<unitPattern count="other" alt="short">{0} 年</unitPattern>
+			<unitPattern count="other">{0}年</unitPattern>
+			<unitPattern count="other" alt="short">{0}年</unitPattern>
 		</unit>
 	</units>
 	<listPatterns>

@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4876 $"/>
-		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
+		<version number="$Revision: 5094 $"/>
+		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
 		<language type="et"/>
 	</identity>
 	<fallback draft="unconfirmed">fi en</fallback>
@@ -602,7 +602,6 @@
 			<script type="Phag">phags-pa</script>
 			<script type="Phnx">foiniikia</script>
 			<script type="Plrd">Pollardi miao</script>
-			<script type="Qaai">päritud</script>
 			<script type="Roro">rongorongo</script>
 			<script type="Runr">ruunikiri</script>
 			<script type="Sara">sarati</script>
@@ -630,6 +629,7 @@
 			<script type="Xpeo">vanapärsia</script>
 			<script type="Xsux">sumeri kiilkiri</script>
 			<script type="Yiii">jii</script>
+			<script type="Zinh">päritud</script>
 			<script type="Zsym">sümbolid</script>
 			<script type="Zsym" alt="proposed-x1001" draft="unconfirmed">sümbol</script>
 			<script type="Zxxx">kirjakeeleta</script>

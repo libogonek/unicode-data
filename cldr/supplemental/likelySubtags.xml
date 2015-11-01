@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
-    <version number="$Revision: 4785 $"/>
-    <generation date="$Date: 2010-03-02 22:03:17 -0600 (Tue, 02 Mar 2010) $"/>
+    <version number="$Revision: 5213 $"/>
+    <generation date="$Date: 2010-11-22 22:31:35 -0600 (Mon, 22 Nov 2010) $"/>
     <likelySubtags>
       <likelySubtag from="aa" to="aa_Latn_ET"/> <!--{ Afar; ?; ? } => { Afar; Latin; Ethiopia }-->
       <likelySubtag from="ab" to="ab_Cyrl_GE"/> <!--{ Abkhazian; ?; ? } => { Abkhazian; Cyrillic; Georgia }-->
@@ -29,7 +29,9 @@
       <likelySubtag from="bn" to="bn_Beng_BD"/> <!--{ Bengali; ?; ? } => { Bengali; Bengali; Bangladesh }-->
       <likelySubtag from="bo" to="bo_Tibt_CN"/> <!--{ Tibetan; ?; ? } => { Tibetan; Tibetan; China }-->
       <likelySubtag from="br" to="br_Latn_FR"/> <!--{ Breton; ?; ? } => { Breton; Latin; France }-->
+      <likelySubtag from="brx" to="brx_Deva_IN"/> <!--{ Bodo; ?; ? } => { Bodo; Devanagari; India }-->
       <likelySubtag from="bs" to="bs_Latn_BA"/> <!--{ Bosnian; ?; ? } => { Bosnian; Latin; Bosnia and Herzegovina }-->
+      <likelySubtag from="byn" to="byn_Ethi_ER"/> <!--{ Bilin; ?; ? } => { Bilin; Ethiopic; Eritrea }-->
       <likelySubtag from="ca" to="ca_Latn_ES"/> <!--{ Catalan; ?; ? } => { Catalan; Latin; Spain }-->
       <likelySubtag from="cch" to="cch_Latn_NG"/> <!--{ Atsam; ?; ? } => { Atsam; Latin; Nigeria }-->
       <likelySubtag from="ce" to="ce_Cyrl_RU"/> <!--{ Chechen; ?; ? } => { Chechen; Cyrillic; Russia }-->
@@ -90,9 +92,11 @@
       <likelySubtag from="ig" to="ig_Latn_NG"/> <!--{ Igbo; ?; ? } => { Igbo; Latin; Nigeria }-->
       <likelySubtag from="ii" to="ii_Yiii_CN"/> <!--{ Sichuan Yi; ?; ? } => { Sichuan Yi; Yi; China }-->
       <likelySubtag from="ilo" to="ilo_Latn_PH"/> <!--{ Iloko; ?; ? } => { Iloko; Latin; Philippines }-->
+      <likelySubtag from="in" to="in_Latn_ID"/> <!--{ Indonesian; ?; ? } => { Indonesian; Latin; Indonesia }-->
       <likelySubtag from="inh" to="inh_Cyrl_RU"/> <!--{ Ingush; ?; ? } => { Ingush; Cyrillic; Russia }-->
       <likelySubtag from="is" to="is_Latn_IS"/> <!--{ Icelandic; ?; ? } => { Icelandic; Latin; Iceland }-->
       <likelySubtag from="it" to="it_Latn_IT"/> <!--{ Italian; ?; ? } => { Italian; Latin; Italy }-->
+      <likelySubtag from="iw" to="iw_Hebr_IL"/> <!--{ Hebrew; ?; ? } => { Hebrew; Hebrew; Israel }-->
       <likelySubtag from="ja" to="ja_Jpan_JP"/> <!--{ Japanese; ?; ? } => { Japanese; Japanese; Japan }-->
       <likelySubtag from="jmc" to="jmc_Latn_TZ"/> <!--{ Machame; ?; ? } => { Machame; Latin; Tanzania }-->
       <likelySubtag from="jv" to="jv_Latn_ID"/> <!--{ Javanese; ?; ? } => { Javanese; Latin; Indonesia }-->
@@ -128,6 +132,7 @@
       <likelySubtag from="ku" to="ku_Arab_IQ"/> <!--{ Kurdish; ?; ? } => { Kurdish; Arabic; Iraq }-->
       <likelySubtag from="ku_Latn" to="ku_Latn_TR"/> <!--{ Kurdish; Latin; ? } => { Kurdish; Latin; Turkey }-->
       <likelySubtag from="ku_TR" to="ku_Latn_TR"/> <!--{ Kurdish; ?; Turkey } => { Kurdish; Latin; Turkey }-->
+      <likelySubtag from="ku_SY" to="ku_Latn_SY"/> <!--{ Kurdish; ?; Syria } => { Kurdish; Latin; Syria }-->
       <likelySubtag from="kum" to="kum_Cyrl_RU"/> <!--{ Kumyk; ?; ? } => { Kumyk; Cyrillic; Russia }-->
       <likelySubtag from="kw" to="kw_Latn_GB"/> <!--{ Cornish; ?; ? } => { Cornish; Latin; United Kingdom }-->
       <likelySubtag from="ky" to="ky_Cyrl_KG"/> <!--{ Kirghiz; ?; ? } => { Kirghiz; Cyrillic; Kyrgyzstan }-->
@@ -225,6 +230,7 @@
       <likelySubtag from="su" to="su_Latn_ID"/> <!--{ Sundanese; ?; ? } => { Sundanese; Latin; Indonesia }-->
       <likelySubtag from="sv" to="sv_Latn_SE"/> <!--{ Swedish; ?; ? } => { Swedish; Latin; Sweden }-->
       <likelySubtag from="sw" to="sw_Latn_TZ"/> <!--{ Swahili; ?; ? } => { Swahili; Latin; Tanzania }-->
+      <likelySubtag from="syr" to="syr_Syri_SY"/> <!--{ Syriac; ?; ? } => { Syriac; Syriac; Syria }-->
       <likelySubtag from="swb" to="swb_Arab_KM"/> <!--{ Comorian; ?; ? } => { Comorian; Arabic; Comoros }-->
       <likelySubtag from="ta" to="ta_Taml_IN"/> <!--{ Tamil; ?; ? } => { Tamil; Tamil; India }-->
       <likelySubtag from="te" to="te_Telu_IN"/> <!--{ Telugu; ?; ? } => { Telugu; Telugu; India }-->

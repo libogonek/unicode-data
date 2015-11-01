@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4876 $"/>
-		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
+		<version number="$Revision: 5096 $"/>
+		<generation date="$Date: 2010-10-13 19:10:15 -0500 (Wed, 13 Oct 2010) $"/>
 		<language type="el"/>
 	</identity>
 	<localeDisplayNames>
@@ -615,7 +615,6 @@
 			<script type="Phnx">Φοινικικό</script>
 			<script type="Plrd">Φωνητικό Πόλαρντ</script>
 			<script type="Prti">Επιγραφικό Παρθιάν</script>
-			<script type="Qaai">Κληρονομημένο</script>
 			<script type="Rjng">Ρετζάνγκ</script>
 			<script type="Roro">Ρονγκορόνγκο</script>
 			<script type="Runr">Ρουνίκ</script>
@@ -649,6 +648,7 @@
 			<script type="Xpeo">Παλαιό Περσικό</script>
 			<script type="Xsux">Σούμερο-Ακάντιαν Κουνεϊφόρμ</script>
 			<script type="Yiii">Γι</script>
+			<script type="Zinh">Κληρονομημένο</script>
 			<script type="Zmth">Μαθηματική παράσταση</script>
 			<script type="Zsym">Σύμβολα</script>
 			<script type="Zxxx">Άγραφο</script>
@@ -1275,19 +1275,17 @@
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM">M/yyyy</dateFormatItem>
 						<dateFormatItem id="yMEd">EEE, d/M/yyyy</dateFormatItem>
-						<dateFormatItem id="yMMM">MMM y</dateFormatItem>
+						<dateFormatItem id="yMMM">LLL y</dateFormatItem>
 						<dateFormatItem id="yMMMEd">EEE, d MMM y</dateFormatItem>
-						<dateFormatItem id="yMMMM">LLLL y</dateFormatItem>
 						<dateFormatItem id="yQ">y Q</dateFormatItem>
 						<dateFormatItem id="yQQQ">y QQQ</dateFormatItem>
 						<dateFormatItem id="yyMM">MM/yy</dateFormatItem>
-						<dateFormatItem id="yyMMM">MMM yy</dateFormatItem>
+						<dateFormatItem id="yyMMM">LLL yy</dateFormatItem>
 						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
 						<dateFormatItem id="yyQQQQ">QQQQ yy</dateFormatItem>
 						<dateFormatItem id="yyyy">y</dateFormatItem>
 						<dateFormatItem id="yyyyMM">MM/yyyy</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM" alt="proposed-x1001" draft="unconfirmed">LLLL y</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">LLLL y</dateFormatItem>
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback>{0} - {1}</intervalFormatFallback>
@@ -1369,8 +1367,8 @@
 							<greatestDifference id="y">E, dd MMM y - E, dd MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMM">
-							<greatestDifference id="M">MM-MM/yyyy</greatestDifference>
-							<greatestDifference id="y">MM/yyyy-MM/yyyy</greatestDifference>
+							<greatestDifference id="M">LLLL-LLLL y</greatestDifference>
+							<greatestDifference id="y" draft="contributed">LLLL y - LLLL y</greatestDifference>
 						</intervalFormatItem>
 					</intervalFormats>
 				</dateTimeFormats>
@@ -1451,11 +1449,12 @@
 				</dateFormats>
 				<dateTimeFormats>
 					<availableFormats>
+						<dateFormatItem id="Ed">E d</dateFormatItem>
 						<dateFormatItem id="Md">d/M</dateFormatItem>
 						<dateFormatItem id="MMMEd">E, d MMM</dateFormatItem>
 						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyM">MM/yy GGGGG</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">MMM yy GGGGG</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">LLL yy GGGGG</dateFormatItem>
 						<dateFormatItem id="yyyyQ">yy GGGGG Q</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
@@ -1491,6 +1490,7 @@
 				</dateFormats>
 				<dateTimeFormats>
 					<availableFormats>
+						<dateFormatItem id="Ed">E d</dateFormatItem>
 						<dateFormatItem id="Md">d/M</dateFormatItem>
 						<dateFormatItem id="MEd">E, d/M</dateFormatItem>
 						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
@@ -1498,7 +1498,7 @@
 						<dateFormatItem id="yyyy">y G</dateFormatItem>
 						<dateFormatItem id="yyyyM">M/y G</dateFormatItem>
 						<dateFormatItem id="yyyyMEd">EEE, d/M/y G</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">MMM, y G</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">LLL, y G</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">EEE, d MMM, y G</dateFormatItem>
 						<dateFormatItem id="yyyyQ">y G Q</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">QQQ y G</dateFormatItem>
@@ -3113,9 +3113,9 @@
 				<displayName alt="proposed-x1001" draft="unconfirmed">Σκληρή κορόνα Τσεχοσλοβακίας</displayName>
 			</currency>
 			<currency type="CUC">
-				<displayName draft="provisional">Μετατρέψιμο πέσο Κούβας</displayName>
-				<displayName count="one" draft="provisional">Μετατρέψιμο πέσο Κούβας</displayName>
-				<displayName count="other" draft="provisional">Μετατρέψιμα πέσο Κούβας</displayName>
+				<displayName>Μετατρέψιμο πέσο Κούβας</displayName>
+				<displayName count="one">Μετατρέψιμο πέσο Κούβας</displayName>
+				<displayName count="other">Μετατρέψιμα πέσο Κούβας</displayName>
 			</currency>
 			<currency type="CUP">
 				<displayName>Πέσο Κούβας</displayName>
@@ -3940,9 +3940,9 @@
 				<displayName count="other">μανάτ Τουρκμενιστάν</displayName>
 			</currency>
 			<currency type="TMT">
-				<displayName draft="provisional">Νέο μανάτ Τουρκμενιστάν</displayName>
-				<displayName count="one" draft="provisional">Νέο μανάτ Τουρκμενιστάν</displayName>
-				<displayName count="other" draft="provisional">Νέα μανάτ Τουρκμενιστάν</displayName>
+				<displayName>Νέο μανάτ Τουρκμενιστάν</displayName>
+				<displayName count="one">Νέο μανάτ Τουρκμενιστάν</displayName>
+				<displayName count="other">Νέα μανάτ Τουρκμενιστάν</displayName>
 			</currency>
 			<currency type="TND">
 				<displayName>Δηνάριο Τυνησίας</displayName>
@@ -4231,9 +4231,9 @@
 				<displayName count="other">δολάρια Ζιμπάμπουε</displayName>
 			</currency>
 			<currency type="ZWL">
-				<displayName draft="provisional">Δολάριο Ζιμπάμπουε (2009)</displayName>
-				<displayName count="one" draft="provisional">Δολάριο Ζιμπάμπουε (2009)</displayName>
-				<displayName count="other" draft="provisional">Δολάριο Ζιμπάμπουε (2009)</displayName>
+				<displayName>Δολάριο Ζιμπάμπουε (2009)</displayName>
+				<displayName count="one">Δολάριο Ζιμπάμπουε (2009)</displayName>
+				<displayName count="other">Δολάριο Ζιμπάμπουε (2009)</displayName>
 			</currency>
 			<currency type="ZWR">
 				<displayName count="one" draft="provisional">Δολάριο Ζιμπάμπουε (2008)</displayName>

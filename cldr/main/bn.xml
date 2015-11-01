@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4753 $"/>
-		<generation date="$Date: 2010-02-26 00:32:00 -0600 (Fri, 26 Feb 2010) $"/>
+		<version number="$Revision: 5099 $"/>
+		<generation date="$Date: 2010-10-14 17:17:26 -0500 (Thu, 14 Oct 2010) $"/>
 		<language type="bn"/>
 	</identity>
 	<localeDisplayNames>
@@ -619,7 +619,6 @@
 			<script type="Phnx" draft="contributed">ফিনিশিয়</script>
 			<script type="Plrd" draft="contributed">পোলার্ড ধ্বনিক</script>
 			<script type="Prti" draft="contributed">পার্থিয়ন</script>
-			<script type="Qaai">কাই</script>
 			<script type="Rjng">রেজ্যাঙ্গ</script>
 			<script type="Roro">রোঙ্গোরোঙ্গো</script>
 			<script type="Runr">রুনিক</script>
@@ -653,6 +652,7 @@
 			<script type="Xpeo">প্রাচীন ফার্সি</script>
 			<script type="Xsux" draft="contributed">সুমের-আক্কাদীয় কীলকরূপ</script>
 			<script type="Yiii" draft="contributed">উই</script>
+			<script type="Zinh">কাই</script>
 			<script type="Zmth" draft="contributed">গানিতিক চিহ্ন</script>
 			<script type="Zsym" draft="contributed">প্রতীকসমুহ</script>
 			<script type="Zxxx">অলিখিত</script>
@@ -1038,10 +1038,10 @@
 		</codePatterns>
 	</localeDisplayNames>
 	<characters>
-		<exemplarCharacters>[৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ \u09BC ং ঃ \u0981 ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড {ড\u09BC} ঢ {ঢ\u09BC} ণ ৎ ত থ দ ধ ন প ফ ব ভ ম য {য\u09BC} র ল শ ষ স হ ঽ া ি ী \u09C1 \u09C2 \u09C3 \u09C4 \u09E2 \u09E3 ে ৈ ো ৌ \u09CD ৗ]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary">[\u200C \u200D ৸ ৹ ৲ ৳ ৰ ৱ ৴ ৵ ৶ ৷ a d e h l m q s v y]</exemplarCharacters>
+		<exemplarCharacters>[৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ \u09BC ং ঃ \u0981 ক {ক\u09CDষ} খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড {ড\u09BC} ঢ {ঢ\u09BC} ণ ৎ ত থ দ ধ ন প ফ ব ভ ম য {য\u09BC} র ল শ ষ স হ ঽ া ি ী \u09C1 \u09C2 \u09C3 \u09C4 \u09E2 \u09E3 ে ৈ ো ৌ \u09CD ৗ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[\u200C\u200D ৴-৹ ৲ ৳ ৰ ৱ]</exemplarCharacters>
 		<exemplarCharacters type="currencySymbol">[৳]</exemplarCharacters>
-		<exemplarCharacters type="index" draft="contributed">[অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="contributed">[অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক {ক\u09CDষ} খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ]</exemplarCharacters>
 		<exemplarCharacters alt="proposed-x1001" draft="unconfirmed">[৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ \u09BC ং ঃ \u0981 ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ৎ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ া ি ী \u09C1 \u09C2 \u09C3 \u09C4 \u09E2 \u09E3 ে ৈ ো ৌ \u09CD ৗ ৷]</exemplarCharacters>
 	</characters>
 	<delimiters>
@@ -3006,7 +3006,6 @@
 			<list>;</list>
 			<percentSign>%</percentSign>
 			<nativeZeroDigit>0</nativeZeroDigit>
-			<nativeZeroDigit numberSystem="beng">০</nativeZeroDigit>
 			<patternDigit>#</patternDigit>
 			<plusSign>+</plusSign>
 			<minusSign>-</minusSign>
@@ -3014,7 +3013,10 @@
 			<perMille>‰</perMille>
 			<infinity>∞</infinity>
 			<nan>NaN</nan>
-			<nan numberSystem="beng">সংখ্যা না</nan>
+		</symbols>
+		<symbols numberSystem="beng">
+			<nativeZeroDigit>০</nativeZeroDigit>
+			<nan>সংখ্যা না</nan>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>

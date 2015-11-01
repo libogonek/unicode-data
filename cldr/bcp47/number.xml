@@ -2,8 +2,8 @@
 <!DOCTYPE ldmlBCP47 SYSTEM "../../common/dtd/ldmlBCP47.dtd">
 
 <ldmlBCP47>
-    <version number="$Revision: 4761 $"/>
-    <generation date="$Date: 2010-02-26 18:11:12 -0600 (Fri, 26 Feb 2010) $"/>
+    <version number="$Revision: 5004 $"/>
+    <generation date="$Date: 2010-08-05 09:58:29 -0500 (Thu, 05 Aug 2010) $"/>
     <keyword>
         <key name="nu" alias="numbers">
             <type name="arab"/>
@@ -19,6 +19,7 @@
             <type name="greklow"/>
             <type name="gujr"/>
             <type name="guru"/>
+            <type name="hanidec"/>
             <type name="hans"/>
             <type name="hansfin"/>
             <type name="hant"/>

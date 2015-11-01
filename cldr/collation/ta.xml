@@ -2,27 +2,18 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4263 $"/>
-		<generation date="$Date: 2009-09-22 15:39:01 -0500 (Tue, 22 Sep 2009) $"/>
+		<version number="$Revision: 5060 $"/>
+		<generation date="$Date: 2010-09-12 17:15:40 -0500 (Sun, 12 Sep 2010) $"/>
 		<language type="ta" /> 
 	</identity>
-		<collations  validSubLocales="ta_IN">
+		<collations  validSubLocales="ta_IN ta_LK">
 <collation type="standard" references=
 "University of Mardas, Tamil Lexicon">
   <settings normalization="on"/>
   <rules>
-    <reset>୦</reset>
-        <s>௦</s>
     <reset>ஔ</reset>
         <p>ஂ</p>
         <p>ஃ</p>
-    <reset>வ</reset>
-        <p>ழ</p>
-        <p>ள</p>
-        <p>ற</p>
-        <p>ன</p>
-        <p>ஜ</p>
-        <p>ஶ</p>
     <reset>ஹ</reset>
         <p>க்ஷ</p>
     <reset before="primary">க</reset>

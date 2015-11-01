@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
-	<version number="$Revision: 4818 $"/>
-	<generation date="$Date: 2010-03-22 21:12:02 -0500 (Mon, 22 Mar 2010) $"/>
+	<version number="$Revision: 5013 $"/>
+	<generation date="$Date: 2010-08-13 16:38:19 -0500 (Fri, 13 Aug 2010) $"/>
 
 	<metaZones>
 		<metazoneInfo>
@@ -55,6 +55,7 @@
 			</timezone>
 			<timezone type="Antarctica/Casey">
 				<usesMetazone to="2009-10-17 18:00" mzone="Australia_Western"/>
+				<usesMetazone to="2010-03-04 15:00" from="2009-10-17 18:00" mzone="Casey"/>
 				<usesMetazone from="2010-03-04 15:00" mzone="Australia_Western"/>
 			</timezone>
 			<timezone type="Antarctica/DumontDUrville">
@@ -1435,6 +1436,11 @@
 			<timezone type="Antarctica/Macquarie">
 				<usesMetazone to="2010-04-03 16:00" mzone="Australia_Eastern"/>
 			</timezone>
+			<timezone type="America/Bahia_Banderas">
+				<usesMetazone to="1970-01-01 08:00" mzone="America_Pacific"/>
+				<usesMetazone to="2010-04-04 09:00" from="1970-01-01 08:00" mzone="America_Mountain"/>
+				<usesMetazone from="2010-04-04 09:00" mzone="America_Central"/>
+			</timezone>
 		</metazoneInfo>
 
 		<mapTimezones type="metazones">
@@ -1549,6 +1555,7 @@
 			<mapZone other="British" territory="001" type="Europe/London"/>
 			<mapZone other="Brunei" territory="001" type="Asia/Brunei"/>
 			<mapZone other="Cape_Verde" territory="001" type="Atlantic/Cape_Verde"/>
+			<mapZone other="Casey" territory="001" type="Antarctica/Casey"/>
 			<mapZone other="Chamorro" territory="001" type="Pacific/Saipan"/>
 			<mapZone other="Chamorro" territory="GU" type="Pacific/Guam"/>
 			<mapZone other="Changbai" territory="001" type="Asia/Harbin"/>

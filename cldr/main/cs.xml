@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4753 $"/>
-		<generation date="$Date: 2010-02-26 00:32:00 -0600 (Fri, 26 Feb 2010) $"/>
+		<version number="$Revision: 4993 $"/>
+		<generation date="$Date: 2010-07-20 18:19:10 -0500 (Tue, 20 Jul 2010) $"/>
 		<language type="cs"/>
 	</identity>
 	<localeDisplayNames>
@@ -1161,15 +1161,26 @@
 				</timeFormats>
 				<dateTimeFormats>
 					<availableFormats>
+						<dateFormatItem id="d">d.</dateFormatItem>
+						<dateFormatItem id="EEEd">EEE, d.</dateFormatItem>
 						<dateFormatItem id="H">H</dateFormatItem>
 						<dateFormatItem id="Hm">H:mm</dateFormatItem>
 						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
-						<dateFormatItem id="Md" draft="provisional">d.M</dateFormatItem>
-						<dateFormatItem id="MMMMd" draft="provisional">d. MMMM</dateFormatItem>
-						<dateFormatItem id="yyQ" draft="provisional">Q yy</dateFormatItem>
-						<dateFormatItem id="yyyy" draft="provisional">y</dateFormatItem>
-						<dateFormatItem id="yyyyM" draft="provisional">M.yyyy</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM" draft="provisional">MMMM y</dateFormatItem>
+						<dateFormatItem id="Md">d.M</dateFormatItem>
+						<dateFormatItem id="MEd">E, d.M</dateFormatItem>
+						<dateFormatItem id="MMMEd">E, d. MMM</dateFormatItem>
+						<dateFormatItem id="MMMd">d. MMM</dateFormatItem>
+						<dateFormatItem id="yM">M.y</dateFormatItem>
+						<dateFormatItem id="yMEd">EEE, d.M.y</dateFormatItem>
+						<dateFormatItem id="yMMM">LLL y</dateFormatItem>
+						<dateFormatItem id="yMMMEd">EEE, d. MMM y</dateFormatItem>
+						<dateFormatItem id="yMd">d.M.y</dateFormatItem>
+						<dateFormatItem id="yQ">Q yyyy</dateFormatItem>
+						<dateFormatItem id="yQQQ">QQQ y</dateFormatItem>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+						<dateFormatItem id="yyyy">y</dateFormatItem>
+						<dateFormatItem id="yyyyM">M.yyyy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">LLLL y</dateFormatItem>
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="provisional">{0} - {1}</intervalFormatFallback>

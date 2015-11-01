@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4720 $"/>
-		<generation date="$Date: 2010-02-23 18:31:39 -0600 (Tue, 23 Feb 2010) $"/>
+		<version number="$Revision: 5030 $"/>
+		<generation date="$Date: 2010-08-26 13:08:30 -0500 (Thu, 26 Aug 2010) $"/>
 		<language type="bo"/>
 	</identity>
 	<localeDisplayNames>
@@ -402,10 +402,10 @@
 		<symbols>
 			<decimal draft="provisional">.</decimal>
 			<group draft="contributed">,</group>
-			<nativeZeroDigit draft="unconfirmed">0</nativeZeroDigit>
-			<nativeZeroDigit draft="unconfirmed" numberSystem="tibt">༠</nativeZeroDigit>
 			<nan>NaN</nan>
-			<nan numberSystem="tibt">ཨང་མེན་</nan>
+		</symbols>
+		<symbols numberSystem="tibt">
+			<nan>ཨང་མེན་</nan>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>

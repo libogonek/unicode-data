@@ -2,24 +2,10 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4126 $"/>
-		<generation date="$Date: 2009-05-05 18:33:13 -0500 (Tue, 05 May 2009) $"/>
+		<version number="$Revision: 5114 $"/>
+		<generation date="$Date: 2010-10-17 19:30:36 -0500 (Sun, 17 Oct 2010) $"/>
 		<language type="fr" /> 
 	</identity>
-	<collations  validSubLocales="fr_BE fr_CA fr_CH fr_FR fr_LU">
-		<collation type="standard" >
-			<settings backwards="on"  />
-			<rules>
-				<reset>ae</reset>
-				<s>æ</s>
-				<t>Æ</t>
-<!--
-				<reset>A</reset>
-				<x><s>Æ</s><extend>E</extend></x>
-				<reset>a</reset>
-				<x><s>æ</s><extend>e</extend></x>
--->
-			</rules>
-		</collation  >
+	<collations  validSubLocales="fr_BE fr_BF fr_BI fr_BJ fr_BL fr_CD fr_CF fr_CG fr_CH fr_CI fr_CM fr_DJ fr_FR fr_GA fr_GN fr_GP fr_GQ fr_KM fr_LU fr_MC fr_MF fr_MG fr_ML fr_MQ fr_NE fr_RE fr_RW fr_SN fr_TD fr_TG">
 	</collations>
 </ldml>

@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4876 $"/>
-		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
+		<version number="$Revision: 5094 $"/>
+		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
 		<language type="sl"/>
 	</identity>
 	<localeDisplayNames>
@@ -615,7 +615,6 @@
 			<script type="Phnx">feničanski</script>
 			<script type="Plrd">Pollardova fonetska pisava</script>
 			<script type="Prti">Prti</script>
-			<script type="Qaai">podedovan</script>
 			<script type="Rjng">Rjng</script>
 			<script type="Roro">rongorongo</script>
 			<script type="Runr">runski</script>
@@ -649,6 +648,7 @@
 			<script type="Xpeo">staroperzijski</script>
 			<script type="Xsux">sumersko-akadski klinopis</script>
 			<script type="Yiii">Yiii</script>
+			<script type="Zinh">podedovan</script>
 			<script type="Zmth">matematična znamenja</script>
 			<script type="Zsym">simboli</script>
 			<script type="Zxxx">nenapisano</script>
@@ -1054,18 +1054,18 @@
 				<months>
 					<monthContext type="format">
 						<monthWidth type="abbreviated">
-							<month type="1">jan</month>
-							<month type="2">feb</month>
-							<month type="3">mar</month>
-							<month type="4">apr</month>
+							<month type="1">jan.</month>
+							<month type="2">feb.</month>
+							<month type="3">mar.</month>
+							<month type="4">apr.</month>
 							<month type="5">maj</month>
-							<month type="6">jun</month>
-							<month type="7">jul</month>
-							<month type="8">avg</month>
-							<month type="9">sep</month>
-							<month type="10">okt</month>
-							<month type="11">nov</month>
-							<month type="12">dec</month>
+							<month type="6">jun.</month>
+							<month type="7">jul.</month>
+							<month type="8">avg.</month>
+							<month type="9">sep.</month>
+							<month type="10">okt.</month>
+							<month type="11">nov.</month>
+							<month type="12">dec.</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">januar</month>
@@ -1083,6 +1083,20 @@
 						</monthWidth>
 					</monthContext>
 					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="1">jan</month>
+							<month type="2">feb</month>
+							<month type="3">mar</month>
+							<month type="4">apr</month>
+							<month type="5">maj</month>
+							<month type="6">jun</month>
+							<month type="7">jul</month>
+							<month type="8">avg</month>
+							<month type="9">sep</month>
+							<month type="10">okt</month>
+							<month type="11">nov</month>
+							<month type="12">dec</month>
+						</monthWidth>
 						<monthWidth type="narrow">
 							<month type="1">j</month>
 							<month type="2">f</month>
@@ -1179,7 +1193,7 @@
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>d. MMM. yyyy</pattern>
+							<pattern>d. MMM yyyy</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
@@ -1213,7 +1227,7 @@
 				<dateTimeFormats>
 					<availableFormats>
 						<dateFormatItem id="d" draft="provisional">d</dateFormatItem>
-						<dateFormatItem id="EEEd" draft="provisional">EEE., d.</dateFormatItem>
+						<dateFormatItem id="Ed">E., d.</dateFormatItem>
 						<dateFormatItem id="hm" draft="provisional">h:mm a</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hm" alt="proposed-x1001" draft="unconfirmed">H:mm</dateFormatItem>
@@ -1222,21 +1236,17 @@
 						<dateFormatItem id="Hms" alt="proposed-x1001" draft="unconfirmed">H:mm:ss</dateFormatItem>
 						<dateFormatItem id="M" draft="provisional">L</dateFormatItem>
 						<dateFormatItem id="Md">d. M.</dateFormatItem>
-						<dateFormatItem id="MEd" draft="provisional">E., d/M</dateFormatItem>
+						<dateFormatItem id="MEd">E., d. MM.</dateFormatItem>
 						<dateFormatItem id="MMM" draft="provisional">LLL.</dateFormatItem>
-						<dateFormatItem id="MMMd" draft="provisional">d. MMM.</dateFormatItem>
-						<dateFormatItem id="MMMEd" draft="provisional">E., d. MMM.</dateFormatItem>
-						<dateFormatItem id="MMMMd">d. MMMM</dateFormatItem>
-						<dateFormatItem id="MMMMdd">dd. MMMM</dateFormatItem>
-						<dateFormatItem id="MMMMEd" draft="provisional">E., d. MMMM</dateFormatItem>
+						<dateFormatItem id="MMMd">d. MMM</dateFormatItem>
+						<dateFormatItem id="MMMEd">E., d. MMM</dateFormatItem>
 						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM" draft="provisional">M/yyyy</dateFormatItem>
-						<dateFormatItem id="yMEd" draft="provisional">EEE., d. M. yyyy</dateFormatItem>
-						<dateFormatItem id="yMMM" draft="provisional">MMM. y</dateFormatItem>
-						<dateFormatItem id="yMMMEd" draft="provisional">EEE., d. MMM. y</dateFormatItem>
-						<dateFormatItem id="yMMMM" draft="provisional">MMMM y</dateFormatItem>
+						<dateFormatItem id="yMEd">E., d. M. y</dateFormatItem>
+						<dateFormatItem id="yMMM">MMM y</dateFormatItem>
+						<dateFormatItem id="yMMMEd">E., d. MMM y</dateFormatItem>
 						<dateFormatItem id="yQ" draft="provisional">Q yyyy</dateFormatItem>
 						<dateFormatItem id="yQQQ" draft="provisional">y QQQ</dateFormatItem>
 						<dateFormatItem id="yyQ">Q/yy</dateFormatItem>
@@ -2135,11 +2145,11 @@
 				<displayName>češkoslovaška krona</displayName>
 			</currency>
 			<currency type="CUC">
-				<displayName draft="provisional">kubanski konvertibilni peso</displayName>
-				<displayName count="few" draft="provisional">CUC</displayName>
-				<displayName count="one" draft="provisional">CUC</displayName>
-				<displayName count="other" draft="provisional">CUC</displayName>
-				<displayName count="two" draft="provisional">CUC</displayName>
+				<displayName>kubanski konvertibilni peso</displayName>
+				<displayName count="few">CUC</displayName>
+				<displayName count="one">CUC</displayName>
+				<displayName count="other">CUC</displayName>
+				<displayName count="two">CUC</displayName>
 			</currency>
 			<currency type="CUP">
 				<displayName>kubanski peso</displayName>
@@ -2250,11 +2260,11 @@
 				<displayName>gambijski dalasi</displayName>
 			</currency>
 			<currency type="GNF">
-				<displayName draft="provisional">gvinejski frank</displayName>
-				<displayName count="few" draft="provisional">GNF</displayName>
-				<displayName count="one" draft="provisional">GNF</displayName>
-				<displayName count="other" draft="provisional">GNF</displayName>
-				<displayName count="two" draft="provisional">GNF</displayName>
+				<displayName>gvinejski frank</displayName>
+				<displayName count="few">GNF</displayName>
+				<displayName count="one">GNF</displayName>
+				<displayName count="other">GNF</displayName>
+				<displayName count="two">GNF</displayName>
 			</currency>
 			<currency type="GNS">
 				<displayName>gvinejski sili</displayName>
@@ -2632,11 +2642,11 @@
 				<displayName>turkmenski manat</displayName>
 			</currency>
 			<currency type="TMT">
-				<displayName draft="provisional">turkmenistanski novi manat</displayName>
-				<displayName count="few" draft="provisional">TMT</displayName>
-				<displayName count="one" draft="provisional">TMT</displayName>
-				<displayName count="other" draft="provisional">TMT</displayName>
-				<displayName count="two" draft="provisional">TMT</displayName>
+				<displayName>turkmenistanski novi manat</displayName>
+				<displayName count="few">TMT</displayName>
+				<displayName count="one">TMT</displayName>
+				<displayName count="other">TMT</displayName>
+				<displayName count="two">TMT</displayName>
 			</currency>
 			<currency type="TND">
 				<displayName>tunizijski dinar</displayName>

@@ -2,38 +2,41 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4126 $"/>
-		<generation date="$Date: 2009-05-05 18:33:13 -0500 (Tue, 05 May 2009) $"/>
-		<language type="sl" /> 
+		<version number="$Revision: 5022 $" />
+		<generation date="$Date: 2010-08-20 14:51:39 -0500 (Fri, 20 Aug 2010) $" />
+		<language type="sl" />
 	</identity>
-		<collations  validSubLocales="sl_SI">
-			<collation type="standard" >
-				<rules>
-					<reset>C</reset>
-					<p>č</p>
-					<t>Č</t>
-					<p>ć</p>
-					<t>Ć</t>
-					<reset>S</reset>
-					<p>š</p>
-					<t>Š</t>
-					<reset>Z</reset>
-					<p>ž</p>
-					<t>Ž</t>
-				</rules>
-			</collation  >
-			<collation type="standard" draft="unconfirmed" alt="proposed">
-				<rules>
-					<reset>C</reset>
-					<p>č</p>
-					<t>Č</t>
-					<reset>S</reset>
-					<p>š</p>
-					<t>Š</t>
-					<reset>Z</reset>
-					<p>ž</p>
-					<t>Ž</t>
-				</rules>
-			</collation  >
-		</collations>
+	<collations validSubLocales="sl_SI">
+		<collation type="standard" references="Anton Bajec: Slovar slovenskega knjižnega jezika ISBN 86-341-1111-3">
+			<rules>
+				<reset>C</reset>
+				<p>č</p>
+				<t>Č</t>
+				<p>ć</p>
+				<t>Ć</t>
+				<reset>D</reset>
+				<p>đ</p>
+				<t>Đ</t>
+				<reset>S</reset>
+				<p>š</p>
+				<t>Š</t>
+				<reset>Z</reset>
+				<p>ž</p>
+				<t>Ž</t>
+			</rules>
+		</collation>
+		<collation type="standard" draft="unconfirmed" alt="proposed">
+			<rules>
+				<reset>C</reset>
+				<p>č</p>
+				<t>Č</t>
+				<reset>S</reset>
+				<p>š</p>
+				<t>Š</t>
+				<reset>Z</reset>
+				<p>ž</p>
+				<t>Ž</t>
+			</rules>
+		</collation>
+	</collations>
 </ldml>

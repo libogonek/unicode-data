@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4876 $"/>
-		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
+		<version number="$Revision: 5094 $"/>
+		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
 		<language type="lv"/>
 	</identity>
 	<localeDisplayNames>
@@ -624,8 +624,6 @@
 			<script type="Orya">oriju</script>
 			<script type="Osma">osmaņu turku</script>
 			<script type="Phnx">feniķiešu</script>
-			<script type="Qaai">mantotā</script>
-			<script type="Qaai" alt="proposed-x1001" draft="unconfirmed">(mantotā)</script>
 			<script type="Roro">rongorongo</script>
 			<script type="Runr">rūnu raksts</script>
 			<script type="Samr">samariešu</script>
@@ -643,6 +641,8 @@
 			<script type="Xpeo">senperiešu</script>
 			<script type="Xsux">šumeru-akadiešu ķīļraksts</script>
 			<script type="Yiii">ji</script>
+			<script type="Zinh">mantotā</script>
+			<script type="Zinh" alt="proposed-x1001" draft="unconfirmed">(mantotā)</script>
 			<script type="Zmth">matemātiskais pieraksts</script>
 			<script type="Zsym">simboli</script>
 			<script type="Zxxx">bez rakstības</script>

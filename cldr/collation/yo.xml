@@ -2,12 +2,12 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4208 $"/>
-		<generation date="$Date: 2009-07-03 13:17:21 -0500 (Fri, 03 Jul 2009) $"/>
+		<version number="$Revision: 4941 $"/>
+		<generation date="$Date: 2010-05-27 16:18:04 -0500 (Thu, 27 May 2010) $"/>
 		<language type="yo"/> 
 	</identity>
-	<collations  validSubLocales="yo_NG">
-		<collation type="standard">
+	<collations validSubLocales="yo_NG">
+		<collation type="standard" references="Nigeria University Press: A dictionary of the Yoruba language ISBN 978-030-760-5">
 			<settings normalization="on"/>
                 	<rules>
 				<reset>E</reset>

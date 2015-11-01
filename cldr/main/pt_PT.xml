@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4771 $"/>
-		<generation date="$Date: 2010-02-27 23:42:19 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 5084 $"/>
+		<generation date="$Date: 2010-10-12 14:46:18 -0500 (Tue, 12 Oct 2010) $"/>
 		<language type="pt"/>
 		<territory type="PT"/>
 	</identity>
@@ -289,36 +289,33 @@
 	<dates>
 		<calendars>
 			<calendar type="buddhist">
-				<dateFormats>
+				<dateFormats> <!-- per cldrbug 2835, change to match gregorian, like the alt proposed unconfirmed -->
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>EEEE, MMMM d, y G</pattern>
-							<pattern alt="proposed-x1001" draft="unconfirmed">EEEE, d 'de' MMMM 'de' y G</pattern>
+							<pattern>EEEE, d 'de' MMMM 'de' y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>MMMM d, y G</pattern>
-							<pattern alt="proposed-x1001" draft="unconfirmed">d 'de' MMMM 'de' y G</pattern>
+							<pattern>d 'de' MMMM 'de' y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>MMM d, y G</pattern>
-							<pattern alt="proposed-x1001" draft="unconfirmed">d 'de' MMMM 'de' y G</pattern>
+							<pattern>d 'de' MMM 'de' y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>M/d/yyyy</pattern>
-							<pattern alt="proposed-x1001" draft="unconfirmed">d/M/yyyy</pattern>
+							<pattern>d/M/y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
 				<dateTimeFormats>
-					<availableFormats>
-						<dateFormatItem id="Md" draft="provisional">d-M</dateFormatItem>
-						<dateFormatItem id="MMMMd" draft="provisional">d de MMMM</dateFormatItem>
+					<availableFormats> <!-- per cldrbug 2835, added from gregorian and adjusted for G -->
+						<dateFormatItem id="yQ">QQQ 'de' y G</dateFormatItem>
+						<dateFormatItem id="yQQQ">QQQ 'de' y G</dateFormatItem>
+						<dateFormatItem id="yyQ">QQQ 'de' yy G</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 			</calendar>
@@ -422,11 +419,13 @@
 				</dateFormats>
 				<dateTimeFormats>
 					<availableFormats>
-						<dateFormatItem id="HHmmss" draft="provisional">HH:mm:ss</dateFormatItem>
-						<dateFormatItem id="hm" draft="contributed">h:mm</dateFormatItem>
-						<dateFormatItem id="Hm" draft="provisional">HH:mm</dateFormatItem>
-						<dateFormatItem id="hms" draft="contributed">h:mm:ss</dateFormatItem>
-						<dateFormatItem id="ms" draft="provisional">mm:ss</dateFormatItem>
+						<dateFormatItem id="HHmm">HH:mm</dateFormatItem>
+						<dateFormatItem id="HHmmss">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
+						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="hm">h:mm a</dateFormatItem>
+						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="yQ">QQQ 'de' yyyy</dateFormatItem>
 						<dateFormatItem id="yQQQ">QQQ 'de' y</dateFormatItem>
 						<dateFormatItem id="yyQ">QQQ 'de' yy</dateFormatItem>
@@ -460,29 +459,98 @@
 					</intervalFormats>
 				</dateTimeFormats>
 			</calendar>
-			<calendar type="japanese">
-				<dateFormats>
+			<calendar type="islamic">
+				<dateFormats> <!-- per cldrbug 2835, copy from buddhist -->
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>EEEE, MMMM d, y G</pattern>
+							<pattern>EEEE, d 'de' MMMM 'de' y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>MMMM d, y G</pattern>
+							<pattern>d 'de' MMMM 'de' y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>MMM d, y G</pattern>
+							<pattern>d 'de' MMM 'de' y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>M/d/yy</pattern>
+							<pattern>d/M/y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
+				<dateTimeFormats>
+					<availableFormats> <!-- per cldrbug 2835, added from gregorian and adjusted for G -->
+						<dateFormatItem id="yQ">QQQ 'de' y G</dateFormatItem>
+						<dateFormatItem id="yQQQ">QQQ 'de' y G</dateFormatItem>
+						<dateFormatItem id="yyQ">QQQ 'de' yy G</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="japanese">
+				<dateFormats> <!-- per cldrbug 2835, change to copy of buddhist -->
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, d 'de' MMMM 'de' y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d 'de' MMMM 'de' y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d 'de' MMM 'de' y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats>
+					<availableFormats> <!-- per cldrbug 2835, added from gregorian and adjusted for G -->
+						<dateFormatItem id="yQ">QQQ 'de' y G</dateFormatItem>
+						<dateFormatItem id="yQQQ">QQQ 'de' y G</dateFormatItem>
+						<dateFormatItem id="yyQ">QQQ 'de' yy G</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="roc">
+				<dateFormats> <!-- per cldrbug 2835, copy from buddhist -->
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>EEEE, d 'de' MMMM 'de' y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>d 'de' MMMM 'de' y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>d 'de' MMM 'de' y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>d/M/y G</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<dateTimeFormats>
+					<availableFormats> <!-- per cldrbug 2835, added from gregorian and adjusted for G -->
+						<dateFormatItem id="yQ">QQQ 'de' y G</dateFormatItem>
+						<dateFormatItem id="yQQQ">QQQ 'de' y G</dateFormatItem>
+						<dateFormatItem id="yyQ">QQQ 'de' yy G</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
 			</calendar>
 		</calendars>
 		<timeZoneNames>

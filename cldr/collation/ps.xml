@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4126 $"/>
-		<generation date="$Date: 2009-05-05 18:33:13 -0500 (Tue, 05 May 2009) $"/>
+		<version number="$Revision: 5207 $"/>
+		<generation date="$Date: 2010-11-18 15:08:20 -0600 (Thu, 18 Nov 2010) $"/>
 		<language type="ps" /> 
 	</identity>
 		<collations  validSubLocales="ps_AF">
@@ -51,7 +51,8 @@
 					<t>ىٔ</t>
 					<t>ئ</t>
 					<reset> </reset>
-					<sc>‌‍</sc>
+					<s>&#x200C;</s>
+					<s>&#x200D;</s>
 				</rules>
 			</collation  >
 		</collations>

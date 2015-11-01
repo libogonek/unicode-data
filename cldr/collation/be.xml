@@ -2,11 +2,28 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4126 $"/>
-		<generation date="$Date: 2009-05-05 18:33:13 -0500 (Tue, 05 May 2009) $"/>
-		<language type="be" /> 
+		<version number="$Revision: 4975 $"/>
+		<generation date="$Date: 2010-06-09 17:36:15 -0500 (Wed, 09 Jun 2010) $"/>
+		<language type="be"/> 
 	</identity>
-		<collations  validSubLocales="be_BY">
-      <alias source="ru" path="//ldml/collations"/>
-		</collations>
+	<collations  validSubLocales="be_BY">
+		<collation type="standard">
+			<suppress_contractions>[АаӘәГгЕеЖжЗзІіОоӨөКкЧчЫыЭэѴѵ]</suppress_contractions>
+			<!--
+				List of UCA contractions remaining after suppression:
+
+				Ё 0415 0308 CYRILLIC CAPITAL LETTER IO
+				ё 0435 0308 CYRILLIC SMALL LETTER IO
+				Й 0418 0306 CYRILLIC CAPITAL LETTER SHORT I
+				й 0438 0306 CYRILLIC SMALL LETTER SHORT I
+				Ў 0423 0306 CYRILLIC CAPITAL LETTER SHORT U
+				ў 0443 0306 CYRILLIC SMALL LETTER SHORT U
+			-->
+			<rules>
+			    <reset>Е</reset>
+			        <p>ё</p>
+			        <t>Ё</t>
+			</rules>
+		</collation>
+	</collations>
 </ldml>

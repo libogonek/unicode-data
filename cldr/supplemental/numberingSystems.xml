@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
-    <version number="$Revision: 4124 $"/>
-    <generation date="$Date: 2009-05-05 18:15:57 -0500 (Tue, 05 May 2009) $"/>
+    <version number="$Revision: 5004 $"/>
+    <generation date="$Date: 2010-08-05 09:58:29 -0500 (Thu, 05 Aug 2010) $"/>
     <numberingSystems>
         <numberingSystem id="arab" type="numeric" digits="٠١٢٣٤٥٦٧٨٩"/>
         <numberingSystem id="arabext" type="numeric" digits="۰۱۲۳۴۵۶۷۸۹"/>
@@ -17,6 +17,7 @@
         <numberingSystem id="greklow" type="algorithmic" rules="greek-lower"/>
         <numberingSystem id="gujr" type="numeric" digits="૦૧૨૩૪૫૬૭૮૯"/>
         <numberingSystem id="guru" type="numeric" digits="੦੧੨੩੪੫੬੭੮੯"/>
+        <numberingSystem id="hanidec" type="numeric" digits="〇一二三四五六七八九"/>
         <numberingSystem id="hans" type="algorithmic" rules="zh/SpelloutRules/spellout-cardinal"/>
         <numberingSystem id="hansfin" type="algorithmic" rules="zh/SpelloutRules/spellout-cardinal-financial"/>
         <numberingSystem id="hant" type="algorithmic" rules="zh_Hant/SpelloutRules/spellout-cardinal"/>

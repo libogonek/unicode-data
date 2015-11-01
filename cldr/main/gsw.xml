@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4876 $"/>
-		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
+		<version number="$Revision: 5094 $"/>
+		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
 		<language type="gsw"/>
 	</identity>
 	<fallback>de_CH</fallback>
@@ -619,7 +619,6 @@
 			<script type="Phnx">Phönizisch</script>
 			<script type="Plrd">Pollard Phonetisch</script>
 			<script type="Prti">Prti</script>
-			<script type="Qaai">G’eerbtä Schriftwärt</script>
 			<script type="Rjng">Rejang</script>
 			<script type="Roro">Rongorongo</script>
 			<script type="Runr">Runäschrift</script>
@@ -653,6 +652,7 @@
 			<script type="Xpeo">Altpersisch</script>
 			<script type="Xsux">Sumerisch-akkadischi Keilschrift</script>
 			<script type="Yiii">Yi</script>
+			<script type="Zinh">G’eerbtä Schriftwärt</script>
 			<script type="Zmth">Zmth</script>
 			<script type="Zsym">Zsym</script>
 			<script type="Zxxx">Schriftlosi Schpraach</script>
