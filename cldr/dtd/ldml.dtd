@@ -6,8 +6,8 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA FILES OR SOFTWARE.
 
 Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in these Data Files or Software without prior written authorization of the copyright holder.
-$Revision: 5424 $
-$Date: 2011-03-09 10:53:12 -0800 (Wed, 09 Mar 2011) $
+$Revision: 5813 $
+$Date: 2011-05-02 22:26:09 -0500 (Mon, 02 May 2011) $
 -->
 
 <!ELEMENT ldml (identity, (alias |(fallback*, localeDisplayNames?, layout?, characters?, delimiters?, measurement?, dates?, numbers?, units?, listPatterns?, collations?, posix?, segmentations?, rbnf?, references?, special*))) >
@@ -19,7 +19,7 @@ $Date: 2011-03-09 10:53:12 -0800 (Wed, 09 Mar 2011) $
 
 <!ELEMENT version EMPTY >
 <!ATTLIST version number CDATA #REQUIRED >
-<!ATTLIST version cldrVersion CDATA #FIXED "1.9.1" >
+<!ATTLIST version cldrVersion CDATA #FIXED "2.0" >
 
 <!ELEMENT generation EMPTY >
 <!ATTLIST generation date CDATA #REQUIRED >
@@ -175,7 +175,7 @@ $Date: 2011-03-09 10:53:12 -0800 (Wed, 09 Mar 2011) $
 <!ATTLIST measurementSystemName references CDATA #IMPLIED >
 <!ATTLIST measurementSystemName alt NMTOKENS #IMPLIED >
 
-<!ELEMENT localeDisplayPattern ( alias | (localePattern*, localeSeparator*, special*) ) >
+<!ELEMENT localeDisplayPattern ( alias | (localePattern*, localeSeparator*, localeKeyTypePattern*, special*) ) >
 <!ATTLIST localeDisplayPattern draft ( approved | contributed | provisional | unconfirmed) #IMPLIED >
 <!ATTLIST localeDisplayPattern references CDATA #IMPLIED >
 <!ATTLIST localeDisplayPattern alt NMTOKENS #IMPLIED >
@@ -189,6 +189,11 @@ $Date: 2011-03-09 10:53:12 -0800 (Wed, 09 Mar 2011) $
 <!ATTLIST localeSeparator draft ( approved | contributed | provisional | unconfirmed) #IMPLIED >
 <!ATTLIST localeSeparator references CDATA #IMPLIED >
 <!ATTLIST localeSeparator alt NMTOKENS #IMPLIED >
+
+<!ELEMENT localeKeyTypePattern ( #PCDATA ) >
+<!ATTLIST localeKeyTypePattern draft ( approved | contributed | provisional | unconfirmed) #IMPLIED >
+<!ATTLIST localeKeyTypePattern references CDATA #IMPLIED >
+<!ATTLIST localeKeyTypePattern alt NMTOKENS #IMPLIED >
 
 <!-- ######################################################### -->
 
@@ -224,7 +229,7 @@ $Date: 2011-03-09 10:53:12 -0800 (Wed, 09 Mar 2011) $
 
 <!-- ######################################################### -->
 
-<!ELEMENT characters (alias | (exemplarCharacters*, ellipsis*, moreInformation*, indexLabels*, mapping*, special*))  >
+<!ELEMENT characters (alias | (exemplarCharacters*, ellipsis*, moreInformation*, stopwords*, indexLabels*, mapping*, special*))  >
 <!ATTLIST characters draft ( approved | contributed | provisional | unconfirmed | true | false ) #IMPLIED > <!-- true and false are deprecated. -->
 
 <!ELEMENT exemplarCharacters ( #PCDATA | cp )* >
@@ -245,6 +250,14 @@ $Date: 2011-03-09 10:53:12 -0800 (Wed, 09 Mar 2011) $
 <!ATTLIST moreInformation draft ( approved | contributed | provisional | unconfirmed ) #IMPLIED >
 <!ATTLIST moreInformation references CDATA #IMPLIED >
 <!ATTLIST moreInformation alt NMTOKENS #IMPLIED >
+
+<!ELEMENT stopwords ( stopwordList* ) >
+<!ELEMENT stopwordList ( #PCDATA ) >
+<!ATTLIST stopwordList type NMTOKEN #REQUIRED >
+<!ATTLIST stopwordList draft ( approved | contributed | provisional | unconfirmed ) #IMPLIED >
+<!ATTLIST stopwordList references CDATA #IMPLIED >
+<!ATTLIST stopwordList alt NMTOKENS #IMPLIED >
+
 
 <!ELEMENT indexLabels (indexSeparator*, compressedIndexSeparator*, indexRangePattern*, indexLabelBefore*, indexLabelAfter*, indexLabel*) >
 
@@ -622,7 +635,7 @@ $Date: 2011-03-09 10:53:12 -0800 (Wed, 09 Mar 2011) $
 <!ATTLIST dateFormat validSubLocales CDATA #IMPLIED >
 
 <!ELEMENT displayName ( #PCDATA ) >
-<!ATTLIST displayName count (zero | one | two | few | many | other) #IMPLIED> <!-- only for currencies -->
+<!ATTLIST displayName count (0 | 1 | zero | one | two | few | many | other) #IMPLIED> <!-- only for currencies -->
 <!ATTLIST displayName draft ( approved | contributed | provisional | unconfirmed | true | false ) #IMPLIED > <!-- true and false are deprecated. -->
 <!ATTLIST displayName references CDATA #IMPLIED >
 <!ATTLIST displayName alt NMTOKENS #IMPLIED >
@@ -718,7 +731,7 @@ $Date: 2011-03-09 10:53:12 -0800 (Wed, 09 Mar 2011) $
 <!ATTLIST greatestDifference validSubLocales CDATA #IMPLIED >
 
 
-<!ELEMENT timeZoneNames (alias | (hourFormat*, hoursFormat*, gmtFormat*, gmtZeroFormat*, regionFormat*, fallbackFormat*, abbreviationFallback*, preferenceOrdering*, singleCountries*, default*, zone*, metazone*, special*)) >
+<!ELEMENT timeZoneNames (alias | (hourFormat*, hoursFormat*, gmtFormat*, gmtZeroFormat*, regionFormat*, fallbackFormat*, fallbackRegionFormat*, abbreviationFallback*, preferenceOrdering*, singleCountries*, default*, zone*, metazone*, special*)) >
 <!ATTLIST timeZoneNames draft ( approved | contributed | provisional | unconfirmed | true | false ) #IMPLIED > <!-- true and false are deprecated. -->
 <!ATTLIST timeZoneNames validSubLocales CDATA #IMPLIED >
 
@@ -751,6 +764,11 @@ $Date: 2011-03-09 10:53:12 -0800 (Wed, 09 Mar 2011) $
 <!ATTLIST fallbackFormat alt NMTOKENS #IMPLIED >
 <!ATTLIST fallbackFormat draft ( approved | contributed | provisional | unconfirmed | true | false ) #IMPLIED > <!-- true and false are deprecated. -->
 <!ATTLIST fallbackFormat references CDATA #IMPLIED >
+
+<!ELEMENT fallbackRegionFormat ( #PCDATA ) >
+<!ATTLIST fallbackRegionFormat alt NMTOKENS #IMPLIED >
+<!ATTLIST fallbackRegionFormat draft ( approved | contributed | provisional | unconfirmed) #IMPLIED >
+<!ATTLIST fallbackRegionFormat references CDATA #IMPLIED >
 
 <!ELEMENT abbreviationFallback EMPTY > <!-- deprecated. -->
 <!ATTLIST abbreviationFallback type ( GMT | standard ) #IMPLIED > <!-- deprecated in favor of choice -->
@@ -1116,7 +1134,7 @@ $Date: 2011-03-09 10:53:12 -0800 (Wed, 09 Mar 2011) $
 <!ATTLIST unit validSubLocales CDATA #IMPLIED >
 
 <!ELEMENT unitPattern ( #PCDATA ) >
-<!ATTLIST unitPattern count (zero | one | two | few | many | other) #REQUIRED >
+<!ATTLIST unitPattern count (0 | 1 | zero | one | two | few | many | other) #REQUIRED >
 <!ATTLIST unitPattern draft ( approved | contributed | provisional | unconfirmed ) #IMPLIED >
 <!ATTLIST unitPattern references CDATA #IMPLIED >
 <!ATTLIST unitPattern alt NMTOKENS #IMPLIED >
@@ -1169,13 +1187,14 @@ $Date: 2011-03-09 10:53:12 -0800 (Wed, 09 Mar 2011) $
 <!ATTLIST settings hiraganaQuarternary  ( on | off ) #IMPLIED >
 <!ATTLIST settings hiraganaQuaternary   ( on | off ) #IMPLIED >
 <!ATTLIST settings numeric              ( on | off ) #IMPLIED >
+<!ATTLIST settings private              ( true | false ) #IMPLIED >
 <!ATTLIST settings variableTop          CDATA #IMPLIED >
 
 <!ELEMENT suppress_contractions (  #PCDATA | cp )* >
 
 <!ELEMENT optimize ( #PCDATA | cp )* >
 
-<!ELEMENT rules (alias | ( reset, ( reset | import | p | pc |  s | sc | t | tc | q | qc | i | ic | x)* )) >
+<!ELEMENT rules (alias | ( ( reset | import ), ( reset | import | p | pc |  s | sc | t | tc | q | qc | i | ic | x)* )) >
 
 <!ELEMENT reset ( #PCDATA | cp  | first_variable| last_variable | first_tertiary_ignorable | last_tertiary_ignorable | first_secondary_ignorable | last_secondary_ignorable | first_primary_ignorable | last_primary_ignorable | first_non_ignorable | last_non_ignorable | first_trailing | last_trailing )* >
 <!ATTLIST reset before NMTOKEN #IMPLIED >

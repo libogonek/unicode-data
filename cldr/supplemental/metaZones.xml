@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
-	<version number="$Revision: 5418 $"/>
-	<generation date="$Date: 2011-03-07 13:27:20 -0800 (Mon, 07 Mar 2011) $"/>
+	<version number="$Revision: 5835 $"/>
+	<generation date="$Date: 2011-05-04 12:09:04 -0500 (Wed, 04 May 2011) $"/>
 
 	<metaZones>
 		<metazoneInfo>
@@ -773,7 +773,8 @@
 				<usesMetazone mzone="Europe_Eastern"/>
 			</timezone>
 			<timezone type="Asia/Anadyr">
-				<usesMetazone mzone="Anadyr"/>
+				<usesMetazone to="2010-03-27 14:00" mzone="Anadyr"/>
+				<usesMetazone from="2010-03-27 14:00" mzone="Magadan"/>
 			</timezone>
 			<timezone type="Asia/Aqtau">
 				<usesMetazone to="1991-12-15 19:00" mzone="Shevchenko"/>
@@ -878,7 +879,8 @@
 				<usesMetazone mzone="Afghanistan"/>
 			</timezone>
 			<timezone type="Asia/Kamchatka">
-				<usesMetazone mzone="Kamchatka"/>
+				<usesMetazone to="2010-03-27 14:00" mzone="Kamchatka"/>
+				<usesMetazone from="2010-03-27 14:00" mzone="Magadan"/>
 			</timezone>
 			<timezone type="Asia/Karachi">
 				<usesMetazone to="1971-03-25 19:00" mzone="Karachi"/>
@@ -1232,7 +1234,8 @@
 			</timezone>
 			<timezone type="Europe/Samara">
 				<usesMetazone to="1991-10-20 00:00" mzone="Kuybyshev"/>
-				<usesMetazone from="1991-10-20 00:00" mzone="Samara"/>
+				<usesMetazone from="1991-10-20 00:00" to="2010-03-27 22:00" mzone="Samara"/>
+				<usesMetazone from="2010-03-27 22:00" mzone="Moscow"/>
 			</timezone>
 			<timezone type="Europe/San_Marino">
 				<usesMetazone mzone="Europe_Central"/>
@@ -1544,7 +1547,7 @@
 			<mapZone other="Atlantic" territory="AN" type="America/Curacao"/>
 			<mapZone other="Atlantic" territory="AW" type="America/Aruba"/>
 			<mapZone other="Atlantic" territory="BB" type="America/Barbados"/>
-			<mapZone other="Atlantic" territory="BM" type="America/Bermuda"/>
+			<mapZone other="Atlantic" territory="BM" type="Atlantic/Bermuda"/>
 			<mapZone other="Atlantic" territory="DM" type="America/Dominica"/>
 			<mapZone other="Atlantic" territory="GD" type="America/Grenada"/>
 			<mapZone other="Atlantic" territory="GL" type="America/Thule"/>

@@ -2,8 +2,8 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 
 <supplementalData>
-	<version number="$Revision: 5353 $"/>
-	<generation date="$Date: 2011-02-07 21:19:50 -0800 (Mon, 07 Feb 2011) $"/>
+	<version number="$Revision: 5311 $"/>
+	<generation date="$Date: 2011-02-02 11:35:04 -0600 (Wed, 02 Feb 2011) $"/>
 
 	<windowsZones>
 		<mapTimezones>

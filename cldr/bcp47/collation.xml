@@ -3,7 +3,7 @@
 
 <ldmlBCP47>
     <version number="$Revision: 5200 $"/>
-    <generation date="$Date: 2010-11-17 15:31:32 -0800 (Wed, 17 Nov 2010) $"/>
+    <generation date="$Date: 2010-11-17 17:31:32 -0600 (Wed, 17 Nov 2010) $"/>
     <keyword>
         <key name="co" alias="collation">
             <type name="big5han"/>

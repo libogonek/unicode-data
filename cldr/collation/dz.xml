@@ -8,7 +8,7 @@ By Pema geyleg <pema_geyleg@druknet.bt>
 -->
   <identity>
 		<version number="$Revision: 5033 $"/>
-		<generation date="$Date: 2010-08-30 13:56:12 -0700 (Mon, 30 Aug 2010) $"/>
+		<generation date="$Date: 2010-08-30 15:56:12 -0500 (Mon, 30 Aug 2010) $"/>
 		<language type="dz" />
   </identity>
   <collations>

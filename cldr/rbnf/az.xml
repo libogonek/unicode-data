@@ -3,7 +3,7 @@
 <ldml>
     <identity>
         <version number="$Revision: 5067 $"/>
-        <generation date="$Date: 2010-09-28 08:33:45 -0700 (Tue, 28 Sep 2010) $"/>
+        <generation date="$Date: 2010-09-28 10:33:45 -0500 (Tue, 28 Sep 2010) $"/>
         <language type="az"/>
     </identity>
     <rbnf>

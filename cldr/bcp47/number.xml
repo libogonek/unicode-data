@@ -3,7 +3,7 @@
 
 <ldmlBCP47>
     <version number="$Revision: 5004 $"/>
-    <generation date="$Date: 2010-08-05 07:58:29 -0700 (Thu, 05 Aug 2010) $"/>
+    <generation date="$Date: 2010-08-05 09:58:29 -0500 (Thu, 05 Aug 2010) $"/>
     <keyword>
         <key name="nu" alias="numbers">
             <type name="arab"/>

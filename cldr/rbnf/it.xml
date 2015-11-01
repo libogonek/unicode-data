@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
     <identity>
-        <version number="$Revision: 4126 $"/>
-        <generation date="$Date: 2009-05-05 16:33:13 -0700 (Tue, 05 May 2009) $"/>
+        <version number="$Revision: 5857 $"/>
+        <generation date="$Date: 2011-05-06 17:07:10 -0500 (Fri, 06 May 2011) $"/>
         <language type="it"/>
     </identity>
     <rbnf>
@@ -216,14 +216,14 @@
         </rulesetGrouping>
         <rulesetGrouping type="OrdinalRules">
             <ruleset type="dord-mascabbrev" access="private">
-                <rbnfrule value="0">ᵒ;</rbnfrule>
+                <rbnfrule value="0">º;</rbnfrule>
             </ruleset>
             <ruleset type="digits-ordinal-masculine">
                 <rbnfrule value="-x">−→→;</rbnfrule>
                 <rbnfrule value="0">=#,##0==%%dord-mascabbrev=;</rbnfrule>
             </ruleset>
             <ruleset type="dord-femabbrev" access="private">
-                <rbnfrule value="0">ᵃ;</rbnfrule>
+                <rbnfrule value="0">ª;</rbnfrule>
             </ruleset>
             <ruleset type="digits-ordinal-feminine">
                 <rbnfrule value="-x">−→→;</rbnfrule>

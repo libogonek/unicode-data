@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
     <identity>
-        <version number="$Revision: 4126 $"/>
-        <generation date="$Date: 2009-05-05 16:33:13 -0700 (Tue, 05 May 2009) $"/>
+        <version number="$Revision: 5857 $"/>
+        <generation date="$Date: 2011-05-06 17:07:10 -0500 (Fri, 06 May 2011) $"/>
         <language type="fr"/>
         <territory type="BE"/>
     </identity>
@@ -127,18 +127,18 @@
         </rulesetGrouping>
         <rulesetGrouping type="OrdinalRules">
             <ruleset type="dord-mascabbrev" access="private">
-                <rbnfrule value="0">ᵉ;</rbnfrule>
-                <rbnfrule value="1">ᵉʳ;</rbnfrule>
-                <rbnfrule value="2">ᵉ;</rbnfrule>
+                <rbnfrule value="0">e;</rbnfrule>
+                <rbnfrule value="1">er;</rbnfrule>
+                <rbnfrule value="2">e;</rbnfrule>
             </ruleset>
             <ruleset type="digits-ordinal-masculine">
                 <rbnfrule value="-x">−→→;</rbnfrule>
                 <rbnfrule value="0">=#,##0==%%dord-mascabbrev=;</rbnfrule>
             </ruleset>
             <ruleset type="dord-femabbrev" access="private">
-                <rbnfrule value="0">ᵉ;</rbnfrule>
-                <rbnfrule value="1">ʳᵉ;</rbnfrule>
-                <rbnfrule value="2">ᵉ;</rbnfrule>
+                <rbnfrule value="0">e;</rbnfrule>
+                <rbnfrule value="1">re;</rbnfrule>
+                <rbnfrule value="2">e;</rbnfrule>
             </ruleset>
             <ruleset type="digits-ordinal-feminine">
                 <rbnfrule value="-x">−→→;</rbnfrule>

@@ -2,8 +2,8 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 
 <supplementalData>
-    <version number="$Revision: 5172 $"/>
-    <generation date="$Date: 2010-11-08 13:36:30 -0800 (Mon, 08 Nov 2010) $"/>
+    <version number="$Revision: 5875 $"/>
+    <generation date="$Date: 2011-05-09 15:48:07 -0500 (Mon, 09 May 2011) $"/>
     <currencyData>
         <fractions>
             <info iso4217="ADP" digits="0" rounding="0"/>
@@ -379,8 +379,9 @@ The printed version of ISO-4217:2001
             <currency iso4217="ECV" tender="false"/>
         </region>
         <region iso3166="EE">
-            <currency iso4217="EEK" from="1992-06-21"/>
-            <currency iso4217="SUR" from="1961-1-1" to="1992-06-20"/>
+            <currency iso4217="EUR" from="2011-01-01"/>
+            <currency iso4217="EEK" from="1992-06-21" to="2010-12-31"/>
+            <currency iso4217="SUR" from="1961-01-01" to="1992-06-20"/>
         </region>
         <region iso3166="EG">
             <currency iso4217="EGP" from="1885-11-14"/>
@@ -1169,21 +1170,21 @@ XXX Code for transations where no currency is involved
         <group type="143" contains="TM TJ KG KZ UZ"/> <!-- Central Asia -->
         <group type="145" contains="AE AM AZ BH CY GE IL IQ JO KW LB OM PS QA SA SY TR YE"/> <!--Western Asia -->
         <group type="015" contains="DZ EG EH LY MA SD TN EA IC"/> <!--Northern Africa -->
-        <group type="150" contains="039 151 154 155 EU"/> <!--Europe -->
+        <group type="150" contains="039 151 154 155"/> <!--Europe -->
         <group type="151" contains="BG BY CZ HU MD PL RO RU SK UA"/> <!--Eastern Europe -->
         <group type="154" contains="GG IM JE AX DK EE FI FO GB IE IM IS LT LV NO SE SJ"/> <!--Northern Europe -->
         <group type="155" contains="AT BE CH DE FR LI LU MC NL"/> <!--Western Europe -->
         <group type="017" contains="AO CD CF CG CM GA GQ ST TD"/> <!--Middle Africa -->
         <group type="018" contains="BW LS NA SZ ZA"/> <!--Southern Africa -->
-        <group type="019" contains="005 013 021 029 003 419"/> <!--Americas -->
+        <group type="019" contains="021 013 029 005"/> <!--Americas -->
         <group type="002" contains="011 014 015 017 018"/> <!--Africa -->
         <group type="021" contains="BM CA GL PM US"/> <!--Northern America -->
         <group type="029" contains="AG AI AN AW BB BL BS CU DM DO GD GP HT JM KN KY LC MF MQ MS PR TC TT VC VG VI"/> <!--Caribbean -->
-        <group type="003" contains="013 021 029"/> <!--North America -->
+        <group type="003" contains="013 021 029" grouping="true"/> <!--North America -->
         <group type="030" contains="CN HK JP KP KR MN MO TW"/> <!--Eastern Asia -->
         <group type="035" contains="BN ID KH LA MM MY PH SG TH TL VN"/> <!--South-Eastern Asia -->
         <group type="039" contains="AD AL BA ES GI GR HR IT ME MK MT RS PT SI SM VA"/> <!--Southern Europe -->
-        <group type="419" contains="005 013 029"/> <!--Latin America and the Caribbean -->
+        <group type="419" contains="005 013 029" grouping="true"/> <!--Latin America and the Caribbean -->
         <group type="005" contains="AR BO BR CL CO EC FK GF GY PE PY SR UY VE"/> <!--South America -->
         <group type="053" contains="AU NF NZ"/> <!--Australia and New Zealand -->
         <group type="054" contains="FJ NC PG SB VU"/> <!--Melanesia -->
@@ -1192,7 +1193,7 @@ XXX Code for transations where no currency is involved
         <group type="034" contains="AF BD BT IN IR LK MV NP PK"/> <!--Southern Asia -->
         <group type="009" contains="053 054 057 061 QO"/> <!--Oceania -->
         <group type="QO" contains="AQ BV CC CX GS HM IO TF UM AC CP DG TA"/> <!--Outlying Oceania -->
-        <group type="EU" contains="AT BE CY CZ DE DK EE ES FI FR GB GR HU IE IT LT LU LV MT NL PL PT SE SI SK BG RO"/> <!-- European Union, see http://europa.eu/abc/european_countries/index_en.htm -->
+        <group type="EU" contains="AT BE CY CZ DE DK EE ES FI FR GB GR HU IE IT LT LU LV MT NL PL PT SE SI SK BG RO" grouping="true"/> <!-- European Union, see http://europa.eu/abc/european_countries/index_en.htm -->
     </territoryContainment>
     <!-- Start of Generated Data: see http://unicode.org/cldr/data/tools/java/org/unicode/cldr/tool/package.html -->
 	<languageData>
@@ -1393,7 +1394,7 @@ XXX Code for transations where no currency is involved
 		<language type="fi" scripts="Latn" territories="FI"/>
 		<language type="fi" territories="SE" alt="secondary"/>
 		<language type="fil" scripts="Latn" territories="PH"/>
-		<language type="fil" scripts="Tglg" alt="secondary"/>
+		<language type="fil" scripts="Tglg" territories="PH US" alt="secondary"/>
 		<language type="fiu" scripts="Latn" alt="secondary"/>
 		<language type="fj" scripts="Latn" territories="FJ"/>
 		<language type="fo" scripts="Latn" territories="FO"/>
@@ -1856,8 +1857,6 @@ XXX Code for transations where no currency is involved
 		<language type="tk" scripts="Arab Cyrl Latn" territories="TM"/>
 		<language type="tk" territories="IR" alt="secondary"/>
 		<language type="tkl" scripts="Latn" territories="TK"/>
-		<language type="tl" scripts="Latn"/>
-		<language type="tl" territories="PH US" alt="secondary"/>
 		<language type="tli" scripts="Latn"/>
 		<language type="tmh" scripts="Latn"/>
 		<language type="tn" scripts="Latn" territories="BW ZA"/>
@@ -1868,6 +1867,8 @@ XXX Code for transations where no currency is involved
 		<language type="tr" scripts="Arab" territories="DE MK" alt="secondary"/>
 		<language type="tru" scripts="Latn"/>
 		<language type="tru" scripts="Syrc" alt="secondary"/>
+		<language type="trv" scripts="Latn"/>
+		<language type="trv" territories="TW" alt="secondary"/>
 		<language type="ts" scripts="Latn" territories="ZA"/>
 		<language type="ts" territories="MZ" alt="secondary"/>
 		<language type="tsg" scripts="Latn"/>
@@ -1906,6 +1907,7 @@ XXX Code for transations where no currency is involved
 		<language type="uz" scripts="Arab Cyrl Latn" territories="UZ"/>
 		<language type="uz" territories="AF" alt="secondary"/>
 		<language type="vai" scripts="Vaii"/>
+		<language type="vai" scripts="Latn" territories="LR" alt="secondary"/>
 		<language type="ve" scripts="Latn" territories="ZA"/>
 		<language type="vi" scripts="Latn" territories="VN"/>
 		<language type="vi" scripts="Hani" territories="US" alt="secondary"/>
@@ -3087,9 +3089,8 @@ XXX Code for transations where no currency is involved
 			<languagePopulation type="ho" writingPercent="5" populationPercent="2.1" officialStatus="official" references="R1058"/>	<!--Hiri Motu-->
 		</territory>
 		<territory type="PH" gdp="324400000000" literacyPercent="92.6" population="99900200">	<!--Philippines-->
-			<languagePopulation type="tl" populationPercent="96" officialStatus="official_regional" references="R1157"/>	<!--Tagalog-->
+			<languagePopulation type="fil" populationPercent="96" officialStatus="official" references="R1157"/>	<!--Tagalog-->
 			<languagePopulation type="en" populationPercent="64" officialStatus="official" references="R1157"/>	<!--English-->
-			<languagePopulation type="fil" populationPercent="60" officialStatus="official" references="R1028"/>	<!--Filipino-->
 			<languagePopulation type="es" populationPercent="31" officialStatus="official"/>	<!--Spanish-->
 			<languagePopulation type="ceb" writingPercent="13" populationPercent="24" officialStatus="official_regional" references="R1157"/>	<!--Cebuano-->
 			<languagePopulation type="ilo" writingPercent="10" populationPercent="9.6" officialStatus="official_regional" references="R1157"/>	<!--Iloko-->
@@ -3464,7 +3465,7 @@ XXX Code for transations where no currency is involved
 			<languagePopulation type="zh_Hant" populationPercent="0.69"/>	<!--Chinese (Traditional Han)-->
 			<languagePopulation type="fr" populationPercent="0.56"/>	<!--French-->
 			<languagePopulation type="de" populationPercent="0.47"/>	<!--German-->
-			<languagePopulation type="tl" populationPercent="0.42"/>	<!--Tagalog-->
+			<languagePopulation type="fil" populationPercent="0.42"/>	<!--Tagalog-->
 			<languagePopulation type="it" populationPercent="0.34"/>	<!--Italian-->
 			<languagePopulation type="vi" populationPercent="0.34"/>	<!--Vietnamese-->
 			<languagePopulation type="ko" populationPercent="0.3"/>	<!--Korean-->
@@ -3880,15 +3881,15 @@ XXX Code for transations where no currency is involved
     </calendarPreferenceData>
 
     <weekData>
-          <minDays count="4" territories="001" />
+          <minDays count="1" territories="001 GU UM US VI" />
+          <minDays count="4" territories="AD AN AT AX BE BG CH CZ DE DK EE ES FI FJ FO FR GB GF GP GR IE IS IT LI LT LU MC MQ NL NO PL PT RE SE SK SM VA" />
 
           <!-- Note, this firstDay is for the first day of the week in a calendar page view. -->
           <!-- The first workday of the week (after the weekend) is distinct, and can be determined as the day after the weekendEnd day.  -->
-          <!-- Currently there is no separate information for the first day of the week in local day-of-week numbering, this is inferred from firstDay.  -->
-          <firstDay day="mon"  territories="001" />
-          <firstDay day="fri"  territories="MV" />
-          <firstDay day="sat"  territories="AE AF BH DJ DZ EG ER ET IQ IR JO KE KW LY MA OM QA SA SD SO SY TN YE" />
-          <firstDay day="sun"  territories="AR AS AZ BW CA CN FO GE GL GU HK IL IN JM JP KG KR LA MH MN MO MP MT NZ PH PK SG TH TT TW UM US UZ VI ZW" />
+          <firstDay day="mon"  territories="001 AD AI AL AM AN AT AX AZ BA BE BG BM BN CH CL CM CR CY CZ DE DK EC EE ES FI FJ FO FR GB GE GF GP GR HR HU IE IS IT KG KZ LB LI LK LT LU LV MC MD ME MK MN MQ MY NL NO PL PT RE RO RS RU SE SI SK SM TJ TM TR UA UY UZ VA VN" />
+          <firstDay day="fri"  territories="BD MV" />
+          <firstDay day="sat"  territories="AE AF BH DJ DZ EG IQ IR JO KW LY MA OM QA SA SD SY YE" />
+          <firstDay day="sun"  territories="AG AR AS AU BR BS BT BW BY BZ CA CN CO DM DO ET GT GU HK HN ID IL IN JM JP KE KH KR LA MH MM MO MT MX MZ NI NP NZ PA PE PH PK PR PY SG SV TH TN TT TW UM US VE VI WS ZA ZW" />
           <firstDay day="sun"  territories="GB" alt="variant" references="Shorter Oxford Dictionary (5th edition, 2002)"/>
         
           <weekendStart day="thu"  territories="AF DZ IR OM SA YE"/>
@@ -4208,7 +4209,11 @@ XXX Code for transations where no currency is involved
         <territoryCodes type="ZW" numeric="716" alpha3="ZWE" fips10="ZI"/>
         <territoryCodes type="ZZ" numeric="999" alpha3="ZZZ" internet="AERO ARPA BIZ CAT COM COOP EDU GOV INFO INT JOBS MIL MOBI MUSEUM NAME NET ORG PRO TRAVEL"/>
     </codeMappings>
-
+	<parentLocales>
+		<parentLocale parent="root" locales="az_Cyrl ha_Arab ku_Latn mn_Mong pa_Arab shi_Tfng sr_Latn uz_Arab uz_Latn vai_Latn zh_Hant"/>
+		<parentLocale parent="es_419" locales="es_AR es_BO es_CL es_CO es_CR es_DO es_EC es_GT es_HN es_MX es_NI es_PA es_PE es_PR es_PY es_SV es_US es_UY es_VE"/>
+		<parentLocale parent="pt_PT" locales="pt_AO pt_GW pt_MZ pt_ST"/>
+	</parentLocales>
 	<references>
 		<reference type="R1000" uri="https://www.cia.gov/cia/publications/factbook/geos/aa.html">Dutch official</reference>
 		<reference type="R1001" uri="http://www.migrationinformation.org/Feature/display.cfm?ID=72">At most 6% are not fluent in English</reference>

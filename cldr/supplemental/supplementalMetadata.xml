@@ -2,8 +2,8 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 
 <supplementalData>
-    <version number="$Revision: 5353 $"/>
-    <generation date="$Date: 2011-02-07 21:19:50 -0800 (Mon, 07 Feb 2011) $"/>
+    <version number="$Revision: 5875 $"/>
+    <generation date="$Date: 2011-05-09 15:48:07 -0500 (Mon, 09 May 2011) $"/>
     <metadata>
         <attributeOrder>
 			_q access after aliases allowsParsing alpha3 alternate at attribute attributeValue attributes backwards bcp47 before caseFirst caseLevel casing characters choice code contains count date day decexp desired digits direction element elements end exclude fips10 from gdp hex hiraganaQuarternary hiraganaQuaternary id indexSource internet iso3166 iso4217 key lines list literacyPercent locales multizone mzone normalization number numberSystem numbers numeric officialStatus oneway order ordering other path percent population populationPercent priority radix registry replacement request rounding rules scripts services source start strength supported target tender territories territory territoryId time to type tzidVersion uri used value values variableTop variant variants version visibility writingPercent yeartype
@@ -49,13 +49,13 @@
             <!-- for CLDR 1.8 only - will add new language codes for Africa by hand, until we figure out how to -->
             <!-- deal with all the new language codes introduced by the latest bcp 47 --> 
             <variable id="$language" type="choice">
-                aa ab ace ach ada ady ae af afa afh ain ak akk ale alg alt am an ang anp apa ar
+                aa ab ace ach ada ady ae af afa afh agq ain ak akk ale alg alt am an ang anp apa ar
                 arc arn arp art arw as asa ast ath aus av awa ay az
                 ba bad bai bal ban bas bat be bej bem bez ber bg bh bho bi bik bin bla bm bn
                 bnt bo br bra brx bs btk bua bug byn
                 ca cad cai car cau cay cch ce ceb cel cgg ch chb chg chk chm chn cho chp chr chy cmc co
                 cop cpe cpf cpp cr crh crp cs csb cu cus cv cy
-                da dak dar dav day de del den dgr din dje doi dra dsb dua dum dv dyu dz
+                da dak dar dav day de del den dgr din dje doi dra dsb dua dum dv dyo dyu dz
                 ebu ee efi egy eka el elx en enm eo es et eu ewo
                 fa fan fat ff fi fil fiu fj fo fon fr frm fro frr frs fur fy
                 ga gaa gay gba gd gem gez gil gl gmh gn goh gon gor got grb grc gsw gu guz gv gwi
@@ -63,12 +63,12 @@
                 ia iba id ie ig ii ijo ik ilo in inc ine inh io ira iro is it iu iw
                 ja jbo ji jmc jpr jrb jv jw
                 ka kaa kab kac kaj kam kar kaw kbd kcg kde kea kfo kg kha khi kho khq ki kj kk
-                kl kln km kmb kn ko kok kos kpe kr krc krl kro kru ks ksb ksh ku kum kut kv kw ky
+                kl kln km kmb kn ko kok kos kpe kr krc krl kro kru ks ksb ksf ksh ku kum kut kv kw ky
                 la lad lag lah lam lb lez lg li ln lo lol loz lt lu lua lui lun luo lus luy lv
-                mad mag mai mak man map mas mdf mdr men mer mfe mg mga mh mi mic min mis mk
-                mkh ml mn mnc mni mno mo moh mos mr ms mt mul mun mus mwl mwr my myn myv
-                na nah nai nap naq nb nd nds ne new ng nia nic niu nl nn no nog non nqo nr nso
-                nub nv nwc ny nym nyn nyo nzi
+                mad mag mai mak man map mas mdf mdr men mer mfe mg mga mgh mh mi mic min mis mk
+                mkh ml mn mnc mni mno mo moh mos mr ms mt mua mul mun mus mwl mwr my myn myv
+                na nah nai nap naq nb nd nds ne new ng nia nic niu nl nmg nn no nog non nqo nr nso
+                nub nus nv nwc ny nym nyn nyo nzi
                 oc oj om or os osa ota oto
                 pa paa pag pal pam pap pau peo phi phn pi pl pon pra pro ps pt
                 qaa qab qac qad qae qaf qag qah qai qaj qak qal qam qan qao qap qaq qar qas qat
@@ -99,47 +99,46 @@
                 qtg qth qti qtj qtk qtl qtm qtn qto qtp qtq qtr qts qtt qtu qtv qtw qtx qty qtz
                 qu
                 raj rap rar rm rn ro roa rof rom root ru rup rw rwk
-                sa sad sah sai sal sam saq sas sat sc scn sco sd se see seh sel sem ses sg sga sgn
+                sa sad sah sai sal sam saq sas sat sbp sc scn sco sd se see seh sel sem ses sg sga sgn
                 sh shi shn si sid sio sit sk sl sla sm sma smi smj smn sms sn snk so sog son sq
-                sr srn srr ss ssa ssy st su suk sus sux sv sw swb syc syr
+                sr srn srr ss ssa ssy st su suk sus sux sv sw swb swc syc syr
                 ta tai te tem teo ter tet tg th ti tig tiv tk tkl tl tlh tli tmh tn to tog tpi
                 tr trv ts tsi tt tum tup tut tvl tw twq ty tyv tzm
                 udm ug uga uk umb und ur uz
                 vai ve vi vo vot vun
-                wa wak wal war was wen wo
+                wa wae wak wal war was wen wo
                 xal xh xog
-                yao yap yi yo yue ypk
+                yao yap yav yi yo yue ypk
                 za zap zbl zen zh znd zu zun zxx zza
             </variable>
             <variable id="$territory" type="choice">
                 001 002 003 005 009 011 013 014 015 017 018 019 021 029 030 034 035 039 053 054
                 057 061 062
-                142 143 145 150 151 154 155 172
-                419
-                AA AC AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ
-                BA BB BD BE BF BG BH BI BJ BL BM BN BO BR BS BT BU BV BW BY BZ
+                142 143 145 150 151 154 155 419
+                172 200 830
+                AC AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ
+                BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BU BV BW BY BZ
                 CA CC CD CF CG CH CI CK CL CM CN CO CP CR CS CU CV CX CY CZ
-                DD DE DG DJ DK DM DO DZ
+                DD DE DG DJ DK DM DO DY DZ
                 EA EC EE EG EH ER ES ET EU
-                FI FJ FK FM FO FR FX
+                FI FJ FK FM FO FQ FR FX
                 GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY
-                HK HM HN HR HT HU
+                HK HM HN HR HT HU HV
                 IC ID IE IL IM IN IO IQ IR IS IT
-                JE JM JO JP
+                JE JM JO JP JT
                 KE KG KH KI KM KN KP KR KW KY KZ
                 LA LB LC LI LK LR LS LT LU LV LY
-                MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
-                NA NC NE NF NG NI NL NO NP NR NT NU NZ
+                MA MC MD ME MF MG MH MI MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
+                NA NC NE NF NG NH NI NL NO NP NQ NR NT NU NZ
                 OM
-                PA PE PF PG PH PK PL PM PN PR PS PT PW PY
-                QA QM QN QO QP QQ QR QS QT QU QV QW QX QY QZ
+                PA PC PE PF PG PH PK PL PM PN PR PS PT PU PW PY PZ
+                QA QO QU
                 RE RO RS RU RW
                 SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SU SV SY SZ
                 TA TC TD TF TG TH TJ TK TL TM TN TO TP TR TT TV TW TZ
                 UA UG UM US UY UZ
                 VA VC VE VG VI VN VU
                 WF WS
-                XA XB XC XD XE XF XG XH XI XJ XK XL XM XN XO XP XQ XR XS XT XU XV XW XX XY XZ
                 YD YE YT YU
                 ZA ZM ZR ZW ZZ
             </variable>
@@ -209,7 +208,7 @@
                 JMD JOD JPY
                 KES KGS KHR KMF KPW KRH KRO KRW KWD KYD KZT
                 LAK LBP LKR LRD LSL LTL LTT LUC LUF LUL LVL LVR LYD
-				MAD MAF MCF MDC MDL MGA MGF MKD MKN MLF MMK MNT MOP MRO MTL MTP MUR MVP MVR MWK MXN
+                MAD MAF MCF MDC MDL MGA MGF MKD MKN MLF MMK MNT MOP MRO MTL MTP MUR MVP MVR MWK MXN
                 MXP MXV MYR MZE MZM MZN
                 NAD NGN NIC NIO NLG NOK NPR NZD
                 OMR
@@ -225,197 +224,194 @@
                 YDD YER YUD YUM YUN YUR
                 ZAL ZAR ZMK ZRN ZRZ ZWD ZWL ZWR
             </variable>
-			<!-- end of data generated by CountItems -->
-			<!-- start of data generated with CountItems from language tag registry + CLDR-specific items as per http://unicode.org/cldr/data/tools/java/org/unicode/cldr/tool/package.html -->
-			<variable id="$tzid" type="choice">
-				Africa/Abidjan Africa/Accra Africa/Addis_Ababa Africa/Algiers Africa/Asmera
-				Africa/Bamako Africa/Bangui Africa/Banjul Africa/Bissau Africa/Blantyre
-				Africa/Brazzaville Africa/Bujumbura
-				Africa/Cairo Africa/Casablanca Africa/Ceuta Africa/Conakry
-				Africa/Dakar Africa/Dar_es_Salaam Africa/Djibouti Africa/Douala
-				Africa/El_Aaiun
-				Africa/Freetown
-				Africa/Gaborone
-				Africa/Harare
-				Africa/Johannesburg
-				Africa/Kampala Africa/Khartoum Africa/Kigali Africa/Kinshasa
-				Africa/Lagos Africa/Libreville Africa/Lome Africa/Luanda Africa/Lubumbashi
-				Africa/Lusaka
-				Africa/Malabo Africa/Maputo Africa/Maseru Africa/Mbabane Africa/Mogadishu
-				Africa/Monrovia
-				Africa/Nairobi Africa/Ndjamena Africa/Niamey Africa/Nouakchott
-				Africa/Ouagadougou
-				Africa/Porto-Novo
-				Africa/Sao_Tome
-				Africa/Tripoli Africa/Tunis
-				Africa/Windhoek
-				America/Adak America/Anchorage America/Anguilla America/Antigua America/Araguaina
-				America/Argentina/La_Rioja
-				America/Argentina/Rio_Gallegos
-				America/Argentina/Salta America/Argentina/San_Juan America/Argentina/San_Luis
-				America/Argentina/Tucuman
-				America/Argentina/Ushuaia
-				America/Aruba America/Asuncion
-				America/Bahia America/Bahia_Banderas America/Barbados America/Belem America/Belize
-				America/Blanc-Sablon America/Boa_Vista America/Bogota America/Boise America/Buenos_Aires
-				America/Cambridge_Bay America/Campo_Grande America/Cancun America/Caracas America/Catamarca
-				America/Cayenne America/Cayman America/Chicago America/Chihuahua America/Coral_Harbour
-				America/Cordoba America/Costa_Rica America/Cuiaba America/Curacao
-				America/Danmarkshavn America/Dawson America/Dawson_Creek America/Denver America/Detroit
-				America/Dominica
-				America/Edmonton America/Eirunepe America/El_Salvador
-				America/Fortaleza
-				America/Glace_Bay America/Godthab America/Goose_Bay America/Grand_Turk America/Grenada
-				America/Guadeloupe America/Guatemala America/Guayaquil America/Guyana
-				America/Halifax America/Havana America/Hermosillo
-				America/Indiana/Knox
-				America/Indiana/Marengo
-				America/Indiana/Petersburg
-				America/Indiana/Tell_City
-				America/Indiana/Vevay America/Indiana/Vincennes
-				America/Indiana/Winamac
-				America/Indianapolis America/Inuvik America/Iqaluit
-				America/Jamaica America/Jujuy America/Juneau
-				America/Kentucky/Monticello
-				America/La_Paz America/Lima America/Los_Angeles America/Louisville
-				America/Maceio America/Managua America/Manaus America/Marigot America/Martinique
-				America/Matamoros America/Mazatlan America/Mendoza America/Menominee America/Merida
-				America/Mexico_City America/Miquelon America/Moncton America/Monterrey America/Montevideo
-				America/Montreal America/Montserrat
-				America/Nassau America/New_York America/Nipigon America/Nome America/Noronha
-				America/North_Dakota/Beulah
-				America/North_Dakota/Center
-				America/North_Dakota/New_Salem
-				America/Ojinaga
-				America/Panama America/Pangnirtung America/Paramaribo America/Phoenix America/Port-au-Prince
-				America/Port_of_Spain America/Porto_Velho America/Puerto_Rico
-				America/Rainy_River America/Rankin_Inlet America/Recife America/Regina America/Resolute
-				America/Rio_Branco
-				America/Santa_Isabel America/Santarem America/Santiago America/Santo_Domingo America/Sao_Paulo
-				America/Scoresbysund America/Shiprock America/St_Barthelemy America/St_Johns America/St_Kitts
-				America/St_Lucia America/St_Thomas America/St_Vincent America/Swift_Current
-				America/Tegucigalpa America/Thule America/Thunder_Bay America/Tijuana America/Toronto
-				America/Tortola
-				America/Vancouver
-				America/Whitehorse America/Winnipeg
-				America/Yakutat America/Yellowknife
-				Antarctica/Casey
-				Antarctica/Davis Antarctica/DumontDUrville
-				Antarctica/Macquarie Antarctica/Mawson Antarctica/McMurdo
-				Antarctica/Palmer
-				Antarctica/Rothera
-				Antarctica/South_Pole Antarctica/Syowa
-				Antarctica/Vostok
-				Arctic/Longyearbyen
-				Asia/Aden Asia/Almaty Asia/Amman Asia/Anadyr Asia/Aqtau
-				Asia/Aqtobe Asia/Ashgabat
-				Asia/Baghdad Asia/Bahrain Asia/Baku Asia/Bangkok Asia/Beirut
-				Asia/Bishkek Asia/Brunei
-				Asia/Calcutta Asia/Choibalsan Asia/Chongqing Asia/Colombo
-				Asia/Damascus Asia/Dhaka Asia/Dili Asia/Dubai Asia/Dushanbe
-				Asia/Gaza
-				Asia/Harbin Asia/Hong_Kong Asia/Hovd
-				Asia/Irkutsk
-				Asia/Jakarta Asia/Jayapura Asia/Jerusalem
-				Asia/Kabul Asia/Kamchatka Asia/Karachi Asia/Kashgar Asia/Katmandu
-				Asia/Krasnoyarsk Asia/Kuala_Lumpur Asia/Kuching Asia/Kuwait
-				Asia/Macau Asia/Magadan Asia/Makassar Asia/Manila Asia/Muscat
-				Asia/Nicosia Asia/Novokuznetsk Asia/Novosibirsk
-				Asia/Omsk Asia/Oral
-				Asia/Phnom_Penh Asia/Pontianak Asia/Pyongyang
-				Asia/Qatar Asia/Qyzylorda
-				Asia/Rangoon Asia/Riyadh
-				Asia/Saigon Asia/Sakhalin Asia/Samarkand Asia/Seoul Asia/Shanghai
-				Asia/Singapore
-				Asia/Taipei Asia/Tashkent Asia/Tbilisi Asia/Tehran Asia/Thimphu
-				Asia/Tokyo
-				Asia/Ulaanbaatar Asia/Urumqi
-				Asia/Vientiane Asia/Vladivostok
-				Asia/Yakutsk Asia/Yekaterinburg Asia/Yerevan
-				Atlantic/Azores
-				Atlantic/Bermuda
-				Atlantic/Canary Atlantic/Cape_Verde
-				Atlantic/Faeroe
-				Atlantic/Madeira
-				Atlantic/Reykjavik
-				Atlantic/South_Georgia Atlantic/St_Helena Atlantic/Stanley
-				Australia/Adelaide
-				Australia/Brisbane Australia/Broken_Hill
-				Australia/Currie
-				Australia/Darwin
-				Australia/Eucla
-				Australia/Hobart
-				Australia/Lindeman Australia/Lord_Howe
-				Australia/Melbourne
-				Australia/Perth
-				Australia/Sydney
-				CST6CDT
-				EST5EDT
-				Etc/GMT Etc/GMT+1 Etc/GMT+10 Etc/GMT+11 Etc/GMT+12
-				Etc/GMT+2 Etc/GMT+3 Etc/GMT+4 Etc/GMT+5 Etc/GMT+6
-				Etc/GMT+7 Etc/GMT+8 Etc/GMT+9 Etc/GMT-1 Etc/GMT-10
-				Etc/GMT-11 Etc/GMT-12 Etc/GMT-13 Etc/GMT-14 Etc/GMT-2
-				Etc/GMT-3 Etc/GMT-4 Etc/GMT-5 Etc/GMT-6 Etc/GMT-7
-				Etc/GMT-8 Etc/GMT-9
-				Etc/Unknown
-				Europe/Amsterdam Europe/Andorra Europe/Athens
-				Europe/Belgrade Europe/Berlin Europe/Bratislava Europe/Brussels Europe/Bucharest
-				Europe/Budapest
-				Europe/Chisinau Europe/Copenhagen
-				Europe/Dublin
-				Europe/Gibraltar Europe/Guernsey
-				Europe/Helsinki
-				Europe/Isle_of_Man Europe/Istanbul
-				Europe/Jersey
-				Europe/Kaliningrad Europe/Kiev
-				Europe/Lisbon Europe/Ljubljana Europe/London Europe/Luxembourg
-				Europe/Madrid Europe/Malta Europe/Mariehamn Europe/Minsk Europe/Monaco
-				Europe/Moscow
-				Europe/Oslo
-				Europe/Paris Europe/Podgorica Europe/Prague
-				Europe/Riga Europe/Rome
-				Europe/Samara Europe/San_Marino Europe/Sarajevo Europe/Simferopol Europe/Skopje
-				Europe/Sofia Europe/Stockholm
-				Europe/Tallinn Europe/Tirane
-				Europe/Uzhgorod
-				Europe/Vaduz Europe/Vatican Europe/Vienna Europe/Vilnius Europe/Volgograd
-				Europe/Warsaw
-				Europe/Zagreb Europe/Zaporozhye Europe/Zurich
-				Indian/Antananarivo
-				Indian/Chagos Indian/Christmas Indian/Cocos Indian/Comoro
-				Indian/Kerguelen
-				Indian/Mahe Indian/Maldives Indian/Mauritius Indian/Mayotte
-				Indian/Reunion
-				MST7MDT
-				PST8PDT
-				Pacific/Apia Pacific/Auckland
-				Pacific/Chatham
-				Pacific/Easter Pacific/Efate Pacific/Enderbury
-				Pacific/Fakaofo Pacific/Fiji Pacific/Funafuti
-				Pacific/Galapagos Pacific/Gambier Pacific/Guadalcanal Pacific/Guam
-				Pacific/Honolulu
-				Pacific/Johnston
-				Pacific/Kiritimati Pacific/Kosrae Pacific/Kwajalein
-				Pacific/Majuro Pacific/Marquesas Pacific/Midway
-				Pacific/Nauru Pacific/Niue Pacific/Norfolk Pacific/Noumea
-				Pacific/Pago_Pago Pacific/Palau Pacific/Pitcairn Pacific/Ponape Pacific/Port_Moresby
-				Pacific/Rarotonga
-				Pacific/Saipan
-				Pacific/Tahiti Pacific/Tarawa Pacific/Tongatapu Pacific/Truk
-				Pacific/Wake Pacific/Wallis
-			</variable>
-
-			<!-- end of data generated by CountItems -->
-			<variable id="$altList" type="choice">
-				variant list secondary email www short arab arabext armn armnlow beng deva ethi fullwide geor grek greklow gujr guru hans hansfin hant hantfin hebr jpan jpanfin knda khmr laoo latn mlym mong mymr new orya roman romanlow taml telu thai tibt
-			</variable>
+            <!-- end of data generated by CountItems -->
+            <variable id="$tzid" type="choice">
+                Africa/Abidjan Africa/Accra Africa/Addis_Ababa Africa/Algiers Africa/Asmera
+                Africa/Bamako Africa/Bangui Africa/Banjul Africa/Bissau Africa/Blantyre
+                Africa/Brazzaville Africa/Bujumbura
+                Africa/Cairo Africa/Casablanca Africa/Ceuta Africa/Conakry
+                Africa/Dakar Africa/Dar_es_Salaam Africa/Djibouti Africa/Douala
+                Africa/El_Aaiun
+                Africa/Freetown
+                Africa/Gaborone
+                Africa/Harare
+                Africa/Johannesburg
+                Africa/Kampala Africa/Khartoum Africa/Kigali Africa/Kinshasa
+                Africa/Lagos Africa/Libreville Africa/Lome Africa/Luanda Africa/Lubumbashi
+                Africa/Lusaka
+                Africa/Malabo Africa/Maputo Africa/Maseru Africa/Mbabane Africa/Mogadishu
+                Africa/Monrovia
+                Africa/Nairobi Africa/Ndjamena Africa/Niamey Africa/Nouakchott
+                Africa/Ouagadougou
+                Africa/Porto-Novo
+                Africa/Sao_Tome
+                Africa/Tripoli Africa/Tunis
+                Africa/Windhoek
+                America/Adak America/Anchorage America/Anguilla America/Antigua America/Araguaina
+                America/Argentina/La_Rioja
+                America/Argentina/Rio_Gallegos
+                America/Argentina/Salta America/Argentina/San_Juan America/Argentina/San_Luis
+                America/Argentina/Tucuman
+                America/Argentina/Ushuaia
+                America/Aruba America/Asuncion
+                America/Bahia America/Bahia_Banderas America/Barbados America/Belem America/Belize
+                America/Blanc-Sablon America/Boa_Vista America/Bogota America/Boise America/Buenos_Aires
+                America/Cambridge_Bay America/Campo_Grande America/Cancun America/Caracas America/Catamarca
+                America/Cayenne America/Cayman America/Chicago America/Chihuahua America/Coral_Harbour
+                America/Cordoba America/Costa_Rica America/Cuiaba America/Curacao
+                America/Danmarkshavn America/Dawson America/Dawson_Creek America/Denver America/Detroit
+                America/Dominica
+                America/Edmonton America/Eirunepe America/El_Salvador
+                America/Fortaleza
+                America/Glace_Bay America/Godthab America/Goose_Bay America/Grand_Turk America/Grenada
+                America/Guadeloupe America/Guatemala America/Guayaquil America/Guyana
+                America/Halifax America/Havana America/Hermosillo
+                America/Indiana/Knox
+                America/Indiana/Marengo
+                America/Indiana/Petersburg
+                America/Indiana/Tell_City
+                America/Indiana/Vevay America/Indiana/Vincennes
+                America/Indiana/Winamac
+                America/Indianapolis America/Inuvik America/Iqaluit
+                America/Jamaica America/Jujuy America/Juneau
+                America/Kentucky/Monticello
+                America/La_Paz America/Lima America/Los_Angeles America/Louisville
+                America/Maceio America/Managua America/Manaus America/Marigot America/Martinique
+                America/Matamoros America/Mazatlan America/Mendoza America/Menominee America/Merida
+                America/Metlakatla America/Mexico_City America/Miquelon America/Moncton America/Monterrey
+                America/Montevideo America/Montreal America/Montserrat
+                America/Nassau America/New_York America/Nipigon America/Nome America/Noronha
+                America/North_Dakota/Beulah
+                America/North_Dakota/Center
+                America/North_Dakota/New_Salem
+                America/Ojinaga
+                America/Panama America/Pangnirtung America/Paramaribo America/Phoenix America/Port-au-Prince
+                America/Port_of_Spain America/Porto_Velho America/Puerto_Rico
+                America/Rainy_River America/Rankin_Inlet America/Recife America/Regina America/Resolute
+                America/Rio_Branco
+                America/Santa_Isabel America/Santarem America/Santiago America/Santo_Domingo America/Sao_Paulo
+                America/Scoresbysund America/Shiprock America/Sitka America/St_Barthelemy America/St_Johns
+                America/St_Kitts America/St_Lucia America/St_Thomas America/St_Vincent America/Swift_Current
+                America/Tegucigalpa America/Thule America/Thunder_Bay America/Tijuana America/Toronto
+                America/Tortola
+                America/Vancouver
+                America/Whitehorse America/Winnipeg
+                America/Yakutat America/Yellowknife
+                Antarctica/Casey
+                Antarctica/Davis Antarctica/DumontDUrville
+                Antarctica/Macquarie Antarctica/Mawson Antarctica/McMurdo
+                Antarctica/Palmer
+                Antarctica/Rothera
+                Antarctica/South_Pole Antarctica/Syowa
+                Antarctica/Vostok
+                Arctic/Longyearbyen
+                Asia/Aden Asia/Almaty Asia/Amman Asia/Anadyr Asia/Aqtau
+                Asia/Aqtobe Asia/Ashgabat
+                Asia/Baghdad Asia/Bahrain Asia/Baku Asia/Bangkok Asia/Beirut
+                Asia/Bishkek Asia/Brunei
+                Asia/Calcutta Asia/Choibalsan Asia/Chongqing Asia/Colombo
+                Asia/Damascus Asia/Dhaka Asia/Dili Asia/Dubai Asia/Dushanbe
+                Asia/Gaza
+                Asia/Harbin Asia/Hong_Kong Asia/Hovd
+                Asia/Irkutsk
+                Asia/Jakarta Asia/Jayapura Asia/Jerusalem
+                Asia/Kabul Asia/Kamchatka Asia/Karachi Asia/Kashgar Asia/Katmandu
+                Asia/Krasnoyarsk Asia/Kuala_Lumpur Asia/Kuching Asia/Kuwait
+                Asia/Macau Asia/Magadan Asia/Makassar Asia/Manila Asia/Muscat
+                Asia/Nicosia Asia/Novokuznetsk Asia/Novosibirsk
+                Asia/Omsk Asia/Oral
+                Asia/Phnom_Penh Asia/Pontianak Asia/Pyongyang
+                Asia/Qatar Asia/Qyzylorda
+                Asia/Rangoon Asia/Riyadh
+                Asia/Saigon Asia/Sakhalin Asia/Samarkand Asia/Seoul Asia/Shanghai
+                Asia/Singapore
+                Asia/Taipei Asia/Tashkent Asia/Tbilisi Asia/Tehran Asia/Thimphu
+                Asia/Tokyo
+                Asia/Ulaanbaatar Asia/Urumqi
+                Asia/Vientiane Asia/Vladivostok
+                Asia/Yakutsk Asia/Yekaterinburg Asia/Yerevan
+                Atlantic/Azores
+                Atlantic/Bermuda
+                Atlantic/Canary Atlantic/Cape_Verde
+                Atlantic/Faeroe
+                Atlantic/Madeira
+                Atlantic/Reykjavik
+                Atlantic/South_Georgia Atlantic/St_Helena Atlantic/Stanley
+                Australia/Adelaide
+                Australia/Brisbane Australia/Broken_Hill
+                Australia/Currie
+                Australia/Darwin
+                Australia/Eucla
+                Australia/Hobart
+                Australia/Lindeman Australia/Lord_Howe
+                Australia/Melbourne
+                Australia/Perth
+                Australia/Sydney
+                CST6CDT
+                EST5EDT
+                Etc/GMT Etc/GMT+1 Etc/GMT+10 Etc/GMT+11 Etc/GMT+12
+                Etc/GMT+2 Etc/GMT+3 Etc/GMT+4 Etc/GMT+5 Etc/GMT+6
+                Etc/GMT+7 Etc/GMT+8 Etc/GMT+9 Etc/GMT-1 Etc/GMT-10
+                Etc/GMT-11 Etc/GMT-12 Etc/GMT-13 Etc/GMT-14 Etc/GMT-2
+                Etc/GMT-3 Etc/GMT-4 Etc/GMT-5 Etc/GMT-6 Etc/GMT-7
+                Etc/GMT-8 Etc/GMT-9
+                Etc/Unknown
+                Europe/Amsterdam Europe/Andorra Europe/Athens
+                Europe/Belgrade Europe/Berlin Europe/Bratislava Europe/Brussels Europe/Bucharest
+                Europe/Budapest
+                Europe/Chisinau Europe/Copenhagen
+                Europe/Dublin
+                Europe/Gibraltar Europe/Guernsey
+                Europe/Helsinki
+                Europe/Isle_of_Man Europe/Istanbul
+                Europe/Jersey
+                Europe/Kaliningrad Europe/Kiev
+                Europe/Lisbon Europe/Ljubljana Europe/London Europe/Luxembourg
+                Europe/Madrid Europe/Malta Europe/Mariehamn Europe/Minsk Europe/Monaco
+                Europe/Moscow
+                Europe/Oslo
+                Europe/Paris Europe/Podgorica Europe/Prague
+                Europe/Riga Europe/Rome
+                Europe/Samara Europe/San_Marino Europe/Sarajevo Europe/Simferopol Europe/Skopje
+                Europe/Sofia Europe/Stockholm
+                Europe/Tallinn Europe/Tirane
+                Europe/Uzhgorod
+                Europe/Vaduz Europe/Vatican Europe/Vienna Europe/Vilnius Europe/Volgograd
+                Europe/Warsaw
+                Europe/Zagreb Europe/Zaporozhye Europe/Zurich
+                Indian/Antananarivo
+                Indian/Chagos Indian/Christmas Indian/Cocos Indian/Comoro
+                Indian/Kerguelen
+                Indian/Mahe Indian/Maldives Indian/Mauritius Indian/Mayotte
+                Indian/Reunion
+                MST7MDT
+                PST8PDT
+                Pacific/Apia Pacific/Auckland
+                Pacific/Chatham
+                Pacific/Easter Pacific/Efate Pacific/Enderbury
+                Pacific/Fakaofo Pacific/Fiji Pacific/Funafuti
+                Pacific/Galapagos Pacific/Gambier Pacific/Guadalcanal Pacific/Guam
+                Pacific/Honolulu
+                Pacific/Johnston
+                Pacific/Kiritimati Pacific/Kosrae Pacific/Kwajalein
+                Pacific/Majuro Pacific/Marquesas Pacific/Midway
+                Pacific/Nauru Pacific/Niue Pacific/Norfolk Pacific/Noumea
+                Pacific/Pago_Pago Pacific/Palau Pacific/Pitcairn Pacific/Ponape Pacific/Port_Moresby
+                Pacific/Rarotonga
+                Pacific/Saipan
+                Pacific/Tahiti Pacific/Tarawa Pacific/Tongatapu Pacific/Truk
+                Pacific/Wake Pacific/Wallis
+            </variable>
+            <variable id="$altList" type="choice">
+                stand-alone variant list secondary email www short arab arabext armn armnlow beng deva ethi fullwide geor grek greklow gujr guru hans hansfin hant hantfin hebr jpan jpanfin knda khmr laoo latn mlym mong mymr new orya roman romanlow taml telu thai tibt
+            </variable>
             <!-- specialized lists and types -->
             <variable id="$tzidList" type="list">$tzid</variable>
             <variable id="$casing" type="choice">titlecase-words titlecase-firstword lowercase-words mixed</variable>
     
             <!-- allow may expand in future to a space separated list i.e. ((newitem)?( )?)?(verbatim)? -->
             <variable id="$allow" type="regex">(verbatim)</variable>
-            <variable id="$alt" type="regex">((variant|list|secondary|email|www|short|arab|arabext|armn|armnlow|beng|deva|ethi|fullwide|geor|grek|greklow|gujr|guru|hans|hansfin|hant|hantfin|hebr|jpan|jpanfin|knda|khmr|laoo|latn|mlym|mong|mymr|new|orya|roman|romanlow|taml|telu|thai|tibt)(-proposed.*)?|(proposed.*))</variable>
+            <variable id="$alt" type="regex">((stand-alone|variant|list|secondary|email|www|short|arab|arabext|armn|armnlow|beng|deva|ethi|fullwide|geor|grek|greklow|gujr|guru|hans|hansfin|hant|hantfin|hebr|jpan|jpanfin|knda|khmr|laoo|latn|mlym|mong|mymr|new|orya|roman|romanlow|taml|telu|thai|tibt)(-proposed.*)?|(proposed.*))</variable>
             <variable id="$append" type="choice">Era Year Quarter Month Week Day-Of-Week Day Hour Minute Second Timezone</variable>
             <variable id="$calendar" type="choice">
                 buddhist
@@ -423,19 +419,19 @@
                 ethioaa ethiopic ethiopic-amete-alem
                 gregorian gregory
                 hebrew
-                indian islamic islamic-civil islamicc
+                indian islamic islamic-civil islamicc iso8601
                 japanese
                 persian
                 roc
             </variable>
             <variable id="$collationType" type="choice">
                 big5han
-                dict dictionary direct ducet
-                gb2312 gb2312han
-                phonebk phonebook phonetic pinyin
+                dictionary direct ducet
+                gb2312han
+                phonebook phonetic pinyin
                 reformed
                 search standard stroke
-                trad traditional
+                traditional
                 unihan
             </variable>
             <variable id="$date" type="regex">200[0-9]-([0-9]|1[0-2])-([12][0-9]|3[01])</variable>
@@ -458,7 +454,7 @@
                 mlym mong mymr
                 orya
                 roman romanlow
-                taml telu thai tibt
+                taml tamldec telu thai tibt
             </variable>
             <variable id="$reference" type="regex">([R|S]|RP)[0-9]+</variable>
             <variable id="$time" type="regex">([01][0-9]|2[0-4]):[0-6][0-9]</variable>
@@ -493,7 +489,7 @@
             <attributeValues elements="info" attributes="digits" type="regex">[0-9]+</attributeValues>
             <attributeValues elements="info" attributes="iso4217">$currency</attributeValues>
             <attributeValues elements="info" attributes="rounding" type="regex">[0-9]+</attributeValues>
-            <attributeValues elements="key" attributes="type" type="choice">calendar collation currency numbers</attributeValues>
+            <attributeValues elements="key" attributes="type" type="choice">calendar collation colAlternate colBackwards colCaseFirst colCaseLevel colHiraganaQuaternary colNormalization colNumeric colStrength currency numbers timezone va variableTop x</attributeValues>
             <attributeValues elements="language" attributes="scripts">$script</attributeValues>
             <attributeValues elements="language" attributes="territories">$territory</attributeValues>
             <attributeValues elements="language" attributes="type">$locale</attributeValues>
@@ -526,8 +522,8 @@
             <attributeValues elements="supplementalData" attributes="version">$version</attributeValues>
             <attributeValues elements="territory" attributes="type">$territory</attributeValues>
             <attributeValues elements="territoryAlias" attributes="replacement type">$territory</attributeValues>
-            <attributeValues elements="type" attributes="key" type="choice">calendar collation currency numbers</attributeValues>
-            <attributeValues elements="type" attributes="type" type="choice">arab arabext arabic armn armnlow beng big5han buddhist chinese coptic deva direct ducet ethi ethiopic ethiopic-amete-alem fullwide gb2312han geor gregorian grek greklow gujr guru hans hansfin hant hantfin hebr hebrew indian islamic islamic-civil japanese jpan jpanfin knda khmr laoo latn mlym mong mymr orya persian phonebook pinyin roc roman romanlow search stroke taml telu thai tibt traditional</attributeValues>
+            <attributeValues elements="type" attributes="key" type="choice">calendar collation colAlternate colBackwards colCaseFirst colCaseLevel colHiraganaQuaternary colNormalization colNumeric colStrength currency numbers x</attributeValues>
+            <attributeValues elements="type" attributes="type" type="choice">x dictionary reformed unihan hanidec arab arabext arabic armn armnlow beng big5han buddhist chinese coptic deva direct ducet ethi ethiopic ethiopic-amete-alem fullwide gb2312han geor gregorian grek greklow gujr guru hans hansfin hant hantfin hebr hebrew identical indian islamic islamic-civil japanese jpan jpanfin knda khmr laoo latn lower mlym mong mymr no non-ignorable orya persian phonebook pinyin primary quaternary roc roman romanlow search secondary shifted stroke taml tamldec telu tertiary thai tibt traditional upper yes</attributeValues>
             <attributeValues elements="variable" attributes="id">$variableID</attributeValues>
             <attributeValues elements="variant" attributes="type">$variant</attributeValues>
             <attributeValues elements="variantAlias" attributes="replacement type">$variant</attributeValues>
@@ -590,7 +586,7 @@
 			<languageAlias type="dik" replacement="din" reason="macrolanguage"/> <!-- Southwestern Dinka ⇒ Dinka -->
 			<languageAlias type="diq" replacement="zza" reason="macrolanguage"/> <!-- Dimli ⇒ Zaza -->
 			<languageAlias type="lbk" replacement="bnc" reason="macrolanguage"/> <!-- Central Bontok ⇒ Bontok -->
-            <languageAlias type="ekk" replacement="et" reason="macrolanguage"/> <!-- Standard Estonian ⇒ Estonian -->
+			<languageAlias type="ekk" replacement="et" reason="macrolanguage"/> <!-- Standard Estonian ⇒ Estonian -->
 			<languageAlias type="emk" replacement="man" reason="macrolanguage"/> <!-- Maninkakan, Eastern ⇒ Mandingo -->
 			<languageAlias type="esk" replacement="ik" reason="macrolanguage"/> <!-- Northwest Alaska Inupiatun ⇒ Inupiaq -->
 			<languageAlias type="fat" replacement="ak" reason="macrolanguage"/> <!-- Fanti ⇒ Akan -->
@@ -607,8 +603,8 @@
 			<languageAlias type="knc" replacement="kr" reason="macrolanguage"/> <!-- Central Kanuri ⇒ Kanuri -->
 			<languageAlias type="kng" replacement="kg" reason="macrolanguage"/> <!-- Koongo ⇒ Kongo -->
 			<languageAlias type="knn" replacement="kok" reason="macrolanguage"/> <!-- Konkani (individual language) ⇒ Konkani -->
-            <languageAlias type="kpv" replacement="kv" reason="macrolanguage"/> <!-- Komi-Zyrian ⇒ Komi -->
-            <languageAlias type="lvs" replacement="lv" reason="macrolanguage"/> <!-- Standard Latvian ⇒ Latvian -->
+			<languageAlias type="kpv" replacement="kv" reason="macrolanguage"/> <!-- Komi-Zyrian ⇒ Komi -->
+			<languageAlias type="lvs" replacement="lv" reason="macrolanguage"/> <!-- Standard Latvian ⇒ Latvian -->
 			<languageAlias type="mhr" replacement="chm" reason="macrolanguage"/> <!-- Mari, Eastern ⇒ Mari (Russia) -->
 			<languageAlias type="mup" replacement="raj" reason="macrolanguage"/> <!-- Malvi ⇒ Rajasthani -->
 			<languageAlias type="mvf" replacement="mn" reason="macrolanguage"/> <!-- Mongolian, Peripheral ⇒ Mongolian -->
@@ -840,7 +836,7 @@
             <territoryAlias type="MI" replacement="UM" reason="deprecated"/> <!-- CLDR: Midway Islands -->
             <territoryAlias type="NH" replacement="VU" reason="deprecated"/> <!-- CLDR:Vanuatu -->
             <territoryAlias type="NQ" replacement="AQ" reason="deprecated"/> <!-- CLDR: Dronning Maud Land -->
-            <territoryAlias type="NT" replacement="IQ SA" reason="deprecated"/> <!-- Neutral Zone -->
+            <territoryAlias type="NT" replacement="SA IQ" reason="deprecated"/> <!-- Neutral Zone -->
             <territoryAlias type="PC" replacement="FM MH MP PW" reason="deprecated"/> <!-- CLDR: Pacific Islands Trust Territory (divided into FM, MH, MP, and PW) -->
             <territoryAlias type="PU" replacement="UM" reason="deprecated"/> <!-- CLDR: U.S. Miscellaneous Pacific Islands -->
             <territoryAlias type="PZ" replacement="PA" reason="deprecated"/> <!-- CLDR: Panama Canal Zone -->
@@ -855,7 +851,7 @@
             <territoryAlias type="YU" replacement="RS ME" reason="deprecated"/> <!-- Yugoslavia -->
             <territoryAlias type="ZR" replacement="CD" reason="deprecated"/> <!-- Zaire -->
             <territoryAlias type="062" replacement="034 143" reason="deprecated"/> <!-- South-Central Asia -->
-            <territoryAlias type="172" replacement="AM AZ BY GE KG KZ MD RU TJ TM UA UZ" reason="deprecated"/> <!-- 172 not part of BCP47 -->
+            <territoryAlias type="172" replacement="RU AM AZ BY GE KG KZ MD TJ TM UA UZ" reason="deprecated"/> <!-- 172 not part of BCP47 -->
             <territoryAlias type="200" replacement="CZ SK" reason="deprecated"/> <!-- Czechoslovakia -->
             <territoryAlias type="230" replacement="ET" reason="deprecated"/> <!-- Ethiopia (pre-1993) -->
             <territoryAlias type="280" replacement="DE" reason="deprecated"/> <!-- West Germany (pre-1990) -->
@@ -865,7 +861,6 @@
             <territoryAlias type="886" replacement="YE" reason="deprecated"/> <!-- Yemen (pre-1990) -->
             <territoryAlias type="890" replacement="RS ME SI HR MK BA" reason="deprecated"/> <!-- Yugoslavia (pre-1992) -->
             <!-- incorrect ISO code values -->
-            <territoryAlias type="AAA" replacement="AA" reason="overlong"/> <!-- null -->
             <territoryAlias type="ASC" replacement="AC" reason="overlong"/> <!-- Ascension Island -->
             <territoryAlias type="AND" replacement="AD" reason="overlong"/> <!-- Andorra -->
             <territoryAlias type="ARE" replacement="AE" reason="overlong"/> <!-- United Arab Emirates -->
@@ -900,7 +895,7 @@
             <territoryAlias type="BRA" replacement="BR" reason="overlong"/> <!-- Brazil -->
             <territoryAlias type="BHS" replacement="BS" reason="overlong"/> <!-- Bahamas -->
             <territoryAlias type="BTN" replacement="BT" reason="overlong"/> <!-- Bhutan -->
-            <territoryAlias type="BUR" replacement="MM" reason="overlong"/> <!-- null -->
+            <territoryAlias type="BUR" replacement="MM" reason="overlong"/> <!-- Burma (Myanmar) -->
             <territoryAlias type="BVT" replacement="BV" reason="overlong"/> <!-- Bouvet Island -->
             <territoryAlias type="BWA" replacement="BW" reason="overlong"/> <!-- Botswana -->
             <territoryAlias type="BLR" replacement="BY" reason="overlong"/> <!-- Belarus -->
@@ -1041,7 +1036,7 @@
             <territoryAlias type="NOR" replacement="NO" reason="overlong"/> <!-- Norway -->
             <territoryAlias type="NPL" replacement="NP" reason="overlong"/> <!-- Nepal -->
             <territoryAlias type="NRU" replacement="NR" reason="overlong"/> <!-- Nauru -->
-            <territoryAlias type="NTZ" replacement="IQ SA" reason="overlong"/> <!-- Neutral Zone -->
+            <territoryAlias type="NTZ" replacement="SA IQ" reason="overlong"/> <!-- Neutral Zone -->
             <territoryAlias type="NIU" replacement="NU" reason="overlong"/> <!-- Niue -->
             <territoryAlias type="NZL" replacement="NZ" reason="overlong"/> <!-- New Zealand -->
             <territoryAlias type="OMN" replacement="OM" reason="overlong"/> <!-- Oman -->
@@ -1060,18 +1055,6 @@
             <territoryAlias type="PLW" replacement="PW" reason="overlong"/> <!-- Palau -->
             <territoryAlias type="PRY" replacement="PY" reason="overlong"/> <!-- Paraguay -->
             <territoryAlias type="QAT" replacement="QA" reason="overlong"/> <!-- Qatar -->
-            <territoryAlias type="QMM" replacement="QM" reason="overlong"/> <!-- null -->
-            <territoryAlias type="QNN" replacement="QN" reason="overlong"/> <!-- null -->
-            <territoryAlias type="QPP" replacement="QP" reason="overlong"/> <!-- null -->
-            <territoryAlias type="QQQ" replacement="QQ" reason="overlong"/> <!-- null -->
-            <territoryAlias type="QRR" replacement="QR" reason="overlong"/> <!-- null -->
-            <territoryAlias type="QSS" replacement="QS" reason="overlong"/> <!-- null -->
-            <territoryAlias type="QTT" replacement="QT" reason="overlong"/> <!-- null -->
-            <territoryAlias type="QVV" replacement="QV" reason="overlong"/> <!-- null -->
-            <territoryAlias type="QWW" replacement="QW" reason="overlong"/> <!-- null -->
-            <territoryAlias type="QXX" replacement="QX" reason="overlong"/> <!-- null -->
-            <territoryAlias type="QYY" replacement="QY" reason="overlong"/> <!-- null -->
-            <territoryAlias type="QZZ" replacement="QZ" reason="overlong"/> <!-- null -->
             <territoryAlias type="REU" replacement="RE" reason="overlong"/> <!-- Réunion -->
             <territoryAlias type="ROU" replacement="RO" reason="overlong"/> <!-- Romania -->
             <territoryAlias type="SRB" replacement="RS" reason="overlong"/> <!-- Serbia -->
@@ -1109,7 +1092,7 @@
             <territoryAlias type="TKM" replacement="TM" reason="overlong"/> <!-- Turkmenistan -->
             <territoryAlias type="TUN" replacement="TN" reason="overlong"/> <!-- Tunisia -->
             <territoryAlias type="TON" replacement="TO" reason="overlong"/> <!-- Tonga -->
-            <territoryAlias type="TMP" replacement="TL" reason="overlong"/> <!-- null -->
+            <territoryAlias type="TMP" replacement="TL" reason="overlong"/> <!-- Timor-Leste -->
             <territoryAlias type="TUR" replacement="TR" reason="overlong"/> <!-- Turkey -->
             <territoryAlias type="TTO" replacement="TT" reason="overlong"/> <!-- Trinidad and Tobago -->
             <territoryAlias type="TUV" replacement="TV" reason="overlong"/> <!-- Tuvalu -->
@@ -1130,42 +1113,15 @@
             <territoryAlias type="VUT" replacement="VU" reason="overlong"/> <!-- Vanuatu -->
             <territoryAlias type="WLF" replacement="WF" reason="overlong"/> <!-- Wallis and Futuna -->
             <territoryAlias type="WSM" replacement="WS" reason="overlong"/> <!-- Samoa -->
-            <territoryAlias type="XAA" replacement="XA" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XBB" replacement="XB" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XCC" replacement="XC" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XDD" replacement="XD" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XEE" replacement="XE" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XFF" replacement="XF" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XGG" replacement="XG" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XHH" replacement="XH" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XII" replacement="XI" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XJJ" replacement="XJ" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XKK" replacement="XK" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XLL" replacement="XL" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XMM" replacement="XM" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XNN" replacement="XN" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XOO" replacement="XO" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XPP" replacement="XP" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XQQ" replacement="XQ" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XRR" replacement="XR" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XSS" replacement="XS" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XTT" replacement="XT" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XUU" replacement="XU" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XVV" replacement="XV" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XWW" replacement="XW" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XXX" replacement="XX" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XYY" replacement="XY" reason="overlong"/> <!-- null -->
-            <territoryAlias type="XZZ" replacement="XZ" reason="overlong"/> <!-- null -->
             <territoryAlias type="YMD" replacement="YE" reason="overlong"/> <!-- People's Democratic Republic of Yemen -->
             <territoryAlias type="YEM" replacement="YE" reason="overlong"/> <!-- Yemen -->
             <territoryAlias type="MYT" replacement="YT" reason="overlong"/> <!-- Mayotte -->
-            <territoryAlias type="YUG" replacement="RS ME" reason="overlong"/> <!-- null -->
+            <territoryAlias type="YUG" replacement="RS ME" reason="overlong"/> <!-- Yugoslavia -->
             <territoryAlias type="ZAF" replacement="ZA" reason="overlong"/> <!-- South Africa -->
             <territoryAlias type="ZMB" replacement="ZM" reason="overlong"/> <!-- Zambia -->
-            <territoryAlias type="ZAR" replacement="CD" reason="overlong"/> <!-- null -->
+            <territoryAlias type="ZAR" replacement="CD" reason="overlong"/> <!-- Zaire -->
             <territoryAlias type="ZWE" replacement="ZW" reason="overlong"/> <!-- Zimbabwe -->
             <territoryAlias type="ZZZ" replacement="ZZ" reason="overlong"/> <!-- Unknown or Invalid Region -->
-            <territoryAlias type="958" replacement="AA" reason="overlong"/> <!-- null -->
             <territoryAlias type="020" replacement="AD" reason="overlong"/> <!-- Andorra -->
             <territoryAlias type="784" replacement="AE" reason="overlong"/> <!-- United Arab Emirates -->
             <territoryAlias type="004" replacement="AF" reason="overlong"/> <!-- Afghanistan -->
@@ -1199,7 +1155,6 @@
             <territoryAlias type="076" replacement="BR" reason="overlong"/> <!-- Brazil -->
             <territoryAlias type="044" replacement="BS" reason="overlong"/> <!-- Bahamas -->
             <territoryAlias type="064" replacement="BT" reason="overlong"/> <!-- Bhutan -->
-            <territoryAlias type="104" replacement="MM" reason="overlong"/> <!-- null -->
             <territoryAlias type="074" replacement="BV" reason="overlong"/> <!-- Bouvet Island -->
             <territoryAlias type="072" replacement="BW" reason="overlong"/> <!-- Botswana -->
             <territoryAlias type="112" replacement="BY" reason="overlong"/> <!-- Belarus -->
@@ -1338,7 +1293,7 @@
             <territoryAlias type="578" replacement="NO" reason="overlong"/> <!-- Norway -->
             <territoryAlias type="524" replacement="NP" reason="overlong"/> <!-- Nepal -->
             <territoryAlias type="520" replacement="NR" reason="overlong"/> <!-- Nauru -->
-            <territoryAlias type="536" replacement="IQ SA" reason="overlong"/> <!-- Neutral Zone -->
+            <territoryAlias type="536" replacement="SA IQ" reason="overlong"/> <!-- Neutral Zone -->
             <territoryAlias type="570" replacement="NU" reason="overlong"/> <!-- Niue -->
             <territoryAlias type="554" replacement="NZ" reason="overlong"/> <!-- New Zealand -->
             <territoryAlias type="512" replacement="OM" reason="overlong"/> <!-- Oman -->
@@ -1357,18 +1312,6 @@
             <territoryAlias type="585" replacement="PW" reason="overlong"/> <!-- Palau -->
             <territoryAlias type="600" replacement="PY" reason="overlong"/> <!-- Paraguay -->
             <territoryAlias type="634" replacement="QA" reason="overlong"/> <!-- Qatar -->
-            <territoryAlias type="959" replacement="QM" reason="overlong"/> <!-- null -->
-            <territoryAlias type="960" replacement="QN" reason="overlong"/> <!-- null -->
-            <territoryAlias type="962" replacement="QP" reason="overlong"/> <!-- null -->
-            <territoryAlias type="963" replacement="QQ" reason="overlong"/> <!-- null -->
-            <territoryAlias type="964" replacement="QR" reason="overlong"/> <!-- null -->
-            <territoryAlias type="965" replacement="QS" reason="overlong"/> <!-- null -->
-            <territoryAlias type="966" replacement="QT" reason="overlong"/> <!-- null -->
-            <territoryAlias type="968" replacement="QV" reason="overlong"/> <!-- null -->
-            <territoryAlias type="969" replacement="QW" reason="overlong"/> <!-- null -->
-            <territoryAlias type="970" replacement="QX" reason="overlong"/> <!-- null -->
-            <territoryAlias type="971" replacement="QY" reason="overlong"/> <!-- null -->
-            <territoryAlias type="972" replacement="QZ" reason="overlong"/> <!-- null -->
             <territoryAlias type="638" replacement="RE" reason="overlong"/> <!-- Réunion -->
             <territoryAlias type="642" replacement="RO" reason="overlong"/> <!-- Romania -->
             <territoryAlias type="688" replacement="RS" reason="overlong"/> <!-- Serbia -->
@@ -1405,7 +1348,6 @@
             <territoryAlias type="795" replacement="TM" reason="overlong"/> <!-- Turkmenistan -->
             <territoryAlias type="788" replacement="TN" reason="overlong"/> <!-- Tunisia -->
             <territoryAlias type="776" replacement="TO" reason="overlong"/> <!-- Tonga -->
-            <territoryAlias type="626" replacement="TL" reason="overlong"/> <!-- null -->
             <territoryAlias type="792" replacement="TR" reason="overlong"/> <!-- Turkey -->
             <territoryAlias type="780" replacement="TT" reason="overlong"/> <!-- Trinidad and Tobago -->
             <territoryAlias type="798" replacement="TV" reason="overlong"/> <!-- Tuvalu -->
@@ -1426,39 +1368,11 @@
             <territoryAlias type="548" replacement="VU" reason="overlong"/> <!-- Vanuatu -->
             <territoryAlias type="876" replacement="WF" reason="overlong"/> <!-- Wallis and Futuna -->
             <territoryAlias type="882" replacement="WS" reason="overlong"/> <!-- Samoa -->
-            <territoryAlias type="973" replacement="XA" reason="overlong"/> <!-- null -->
-            <territoryAlias type="974" replacement="XB" reason="overlong"/> <!-- null -->
-            <territoryAlias type="975" replacement="XC" reason="overlong"/> <!-- null -->
-            <territoryAlias type="976" replacement="XD" reason="overlong"/> <!-- null -->
-            <territoryAlias type="977" replacement="XE" reason="overlong"/> <!-- null -->
-            <territoryAlias type="978" replacement="XF" reason="overlong"/> <!-- null -->
-            <territoryAlias type="979" replacement="XG" reason="overlong"/> <!-- null -->
-            <territoryAlias type="980" replacement="XH" reason="overlong"/> <!-- null -->
-            <territoryAlias type="981" replacement="XI" reason="overlong"/> <!-- null -->
-            <territoryAlias type="982" replacement="XJ" reason="overlong"/> <!-- null -->
-            <territoryAlias type="983" replacement="XK" reason="overlong"/> <!-- null -->
-            <territoryAlias type="984" replacement="XL" reason="overlong"/> <!-- null -->
-            <territoryAlias type="985" replacement="XM" reason="overlong"/> <!-- null -->
-            <territoryAlias type="986" replacement="XN" reason="overlong"/> <!-- null -->
-            <territoryAlias type="987" replacement="XO" reason="overlong"/> <!-- null -->
-            <territoryAlias type="988" replacement="XP" reason="overlong"/> <!-- null -->
-            <territoryAlias type="989" replacement="XQ" reason="overlong"/> <!-- null -->
-            <territoryAlias type="990" replacement="XR" reason="overlong"/> <!-- null -->
-            <territoryAlias type="991" replacement="XS" reason="overlong"/> <!-- null -->
-            <territoryAlias type="992" replacement="XT" reason="overlong"/> <!-- null -->
-            <territoryAlias type="993" replacement="XU" reason="overlong"/> <!-- null -->
-            <territoryAlias type="994" replacement="XV" reason="overlong"/> <!-- null -->
-            <territoryAlias type="995" replacement="XW" reason="overlong"/> <!-- null -->
-            <territoryAlias type="996" replacement="XX" reason="overlong"/> <!-- null -->
-            <territoryAlias type="997" replacement="XY" reason="overlong"/> <!-- null -->
-            <territoryAlias type="998" replacement="XZ" reason="overlong"/> <!-- null -->
             <territoryAlias type="720" replacement="YE" reason="overlong"/> <!-- People's Democratic Republic of Yemen -->
             <territoryAlias type="887" replacement="YE" reason="overlong"/> <!-- Yemen -->
             <territoryAlias type="175" replacement="YT" reason="overlong"/> <!-- Mayotte -->
-            <!-- <territoryAlias type="891" replacement="RS ME" reason="overlong"/>  --> <!-- null -->
             <territoryAlias type="710" replacement="ZA" reason="overlong"/> <!-- South Africa -->
             <territoryAlias type="894" replacement="ZM" reason="overlong"/> <!-- Zambia -->
-            <territoryAlias type="180" replacement="CD" reason="overlong"/> <!-- null -->
             <territoryAlias type="716" replacement="ZW" reason="overlong"/> <!-- Zimbabwe -->
             <territoryAlias type="999" replacement="ZZ" reason="overlong"/> <!-- Unknown or Invalid Region -->
             <!-- variants -->
@@ -1503,22 +1417,23 @@
         </alias>
         <deprecated>
             <!-- items deprecated in ldml.dtd -->
+            <deprecatedItems attributes="draft" values="true false"/>
             <deprecatedItems elements="monthNames monthAbbr localizedPatternChars week minDays firstDay weekendStart weekendEnd yesexpr noexpr measurement hoursFormat abbreviationFallback preferenceOrdering dateRangePattern"/>
-            <deprecatedItems attributes="standard count time"/>
+            <deprecatedItems attributes="standard time"/> <!-- 'count' was probably in a different dtd -->
             <deprecatedItems elements="variant" attributes="type" values="BOKMAL NYNORSK AALAND POLYTONI"/>
             <deprecatedItems elements="abbreviationFallback default hoursFormat localizedPatternChars mapping measurementSystem preferenceOrdering" attributes="type"/>
-            <deprecatedItems type="supplemental" elements="alternate"/>
-            <deprecatedItems type="supplemental" elements="calendar" attributes="territories"/>
-            <deprecatedItems attributes="draft" values="true false"/>
-            <deprecatedItems type="supplemental" elements="bcp47KeywordMappings mapKeys mapTypes keyMap typeMap"/>
+            <deprecatedItems type="supplementalData" elements="alternate"/>
+            <deprecatedItems type="supplementalData" elements="calendar" attributes="territories"/>
+            <deprecatedItems type="supplementalData" elements="bcp47KeywordMappings mapKeys mapTypes keyMap typeMap"/>
             <deprecatedItems elements="cldrVersion"/>
             <deprecatedItems elements="calendar" attributes="type" values="civil-arabic thai-buddhist"/>
             <deprecatedItems elements="decimal group list percentSign nativeZeroDigit patternDigit plusSign minusSign exponential perMille infinity nan currencyDecimal currencyGroup" attributes="numberSystem"/>
             <deprecatedItems elements="q qc"/>
             <deprecatedItems elements="fallback"/>
+            <deprecatedItems type="ldml" elements="references"/>
         </deprecated>
         <distinguishing>
-             <distinguishingItems attributes="key request id _q registry alt iso4217 iso3166 mzone from to type"/>
+             <distinguishingItems attributes="key request id _q registry alt iso4217 iso3166 mzone from to type numberSystem"/>
              <distinguishingItems exclude="true" elements="default measurementSystem mapping abbreviationFallback preferenceOrdering" attributes="type"/>
          </distinguishing>
         <blocking>
@@ -1551,37 +1466,36 @@
         </coverageAdditions>
         <skipDefaultLocale services="segmentation collation"/>
 		<defaultContent locales="
-			aa_ET af_ZA ak_GH am_ET ar_EG as_IN asa_TZ az_Arab_IR az_Cyrl_AZ az_Latn
-			az_Latn_AZ
-			be_BY bem_ZM bez_TZ bg_BG bm_ML bn_BD bo_CN br_FR brx_IN bs_BA byn_ER
+			aa_ET af_ZA agq_CM ak_GH am_ET ar_EG as_IN asa_TZ az_Cyrl_AZ az_Latn az_Latn_AZ
+			bas_CM be_BY bem_ZM bez_TZ bg_BG bm_ML bn_BD bo_CN br_FR brx_IN bs_BA byn_ER
 			ca_ES cch_NG cgg_UG chr_US cs_CZ cy_GB
-			da_DK dav_KE de_DE dv_MV dz_BT
-			ebu_KE ee_GH el_GR en_Dsrt_US en_US es_ES et_EE eu_ES
+			da_DK dav_KE de_DE dje_NE dua_CM dyo_SN dz_BT
+			ebu_KE ee_GH el_GR en_Dsrt_US en_US es_ES et_EE eu_ES ewo_CM
 			fa_IR ff_SN fi_FI fil_PH fo_FO fr_FR fur_IT
-			ga_IE gaa_GH gez_ET gl_ES gsw_CH gu_IN guz_KE gv_GB
-			ha_Arab_SD ha_Latn ha_Latn_NG haw_US he_IL hi_IN hr_HR hu_HU hy_AM
+			ga_IE gaa_GH gl_ES gsw_CH gu_IN guz_KE gv_GB
+			ha_Latn ha_Latn_NG haw_US he_IL hi_IN hr_HR hu_HU hy_AM
 			id_ID ig_NG ii_CN is_IS it_IT
 			ja_JP jmc_TZ
-			ka_GE kab_DZ kaj_NG kam_KE kcg_NG kde_TZ kea_CV kfo_CI khq_ML ki_KE kk_Cyrl
-			kk_Cyrl_KZ kl_GL kln_KE km_KH kn_IN ko_KR kok_IN kpe_LR ksb_TZ ksh_DE ku_Arab
-			ku_Arab_IQ ku_Latn_TR kw_GB ky_KG
-			lag_TZ lg_UG ln_CD lo_LA lt_LT luo_KE luy_KE lv_LV
-			mas_KE mer_KE mfe_MU mg_MG mi_NZ mk_MK ml_IN mn_Cyrl mn_Cyrl_MN mn_Mong_CN
-			mr_IN ms_MY mt_MT my_MM
-			naq_NA nb_NO nd_ZW nds_DE ne_NP nl_NL nn_NO nr_ZA nso_ZA ny_MW nyn_UG
+			ka_GE kab_DZ kaj_NG kam_KE kcg_NG kde_TZ kea_CV khq_ML ki_KE kk_Cyrl kk_Cyrl_KZ
+			kl_GL kln_KE km_KH kn_IN ko_KR kok_IN ksb_TZ ksf_CM ksh_DE ku_Arab ku_Arab_IQ
+			ku_Latn_TR kw_GB ky_KG
+			lag_TZ lg_UG ln_CD lo_LA lt_LT lu_CD luo_KE luy_KE lv_LV
+			mas_KE mer_KE mfe_MU mg_MG mgh_MZ mk_MK ml_IN mn_Cyrl mn_Cyrl_MN mn_Mong_CN mr_IN
+			ms_MY mt_MT mua_CM my_MM
+			naq_NA nb_NO nd_ZW nds_DE ne_NP nl_NL nmg_CM nn_NO nr_ZA nso_ZA nus_SD nyn_UG
 			oc_FR om_ET or_IN
 			pa_Arab_PK pa_Guru pa_Guru_IN pl_PL ps_AF pt_BR
-			rm_CH ro_RO rof_TZ ru_RU rw_RW rwk_TZ
-			sa_IN saq_KE se_NO seh_MZ ses_ML sg_CF shi_Latn shi_Latn_MA shi_Tfng_MA si_LK
-			sid_ET sk_SK sl_SI sn_ZW so_SO sq_AL sr_Cyrl sr_Cyrl_RS sr_Latn_RS ss_ZA ssy_ER
-			st_ZA sv_SE sw_TZ syr_SY
+			rm_CH rn_BI ro_RO rof_TZ ru_RU rw_RW rwk_TZ
+			sah_RU saq_KE sbp_TZ se_NO seh_MZ ses_ML sg_CF shi_Latn shi_Latn_MA shi_Tfng_MA
+			si_LK sid_ET sk_SK sl_SI sn_ZW so_SO sq_AL sr_Cyrl sr_Cyrl_RS sr_Latn_RS ss_ZA
+			ssy_ER st_ZA sv_SE sw_TZ swc_CD
 			ta_IN te_IN teo_UG tg_Cyrl tg_Cyrl_TJ th_TH ti_ET tig_ER tn_ZA to_TO tr_TR
-			trv_TW ts_ZA tt_RU tzm_Latn tzm_Latn_MA
-			ug_Arab ug_Arab_CN uk_UA ur_PK uz_Arab_AF uz_Cyrl uz_Cyrl_UZ uz_Latn_UZ
-			ve_ZA vi_VN vun_TZ
-			wal_ET wo_Latn wo_Latn_SN
+			trv_TW ts_ZA twq_NE tzm_Latn tzm_Latn_MA
+			uk_UA ur_PK uz_Arab_AF uz_Cyrl uz_Cyrl_UZ uz_Latn_UZ
+			vai_Latn_LR vai_Vaii vai_Vaii_LR ve_ZA vi_VN vun_TZ
+			wae_CH wal_ET
 			xh_ZA xog_UG
-			yo_NG
+			yav_CM yo_NG
 			zh_Hans zh_Hans_CN zh_Hant_TW zu_ZA"
 		/>
     </metadata>
