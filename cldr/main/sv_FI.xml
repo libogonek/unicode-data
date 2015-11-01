@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.41 $"/>
-		<generation date="$Date: 2006/06/28 01:23:33 $"/>
+		<version number="$Revision: 1.50 $"/>
+		<generation date="$Date: 2007/07/19 22:31:40 $"/>
 		<language type="sv"/>
 		<territory type="FI"/>
 	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="afa" alt="proposed-x1001" draft="unconfirmed">afro-asiatiskt språk (annat)</language>
+			<language type="cpp" alt="proposed-x1001" draft="unconfirmed">kreolspråk och pidgin, portugisiskbaserade (annat)</language>
+			<language type="crh" alt="proposed-x1001" draft="unconfirmed">krimturkiska; krimtatariska</language>
+			<language type="km" alt="proposed-x1001" draft="unconfirmed">kambodjanska; khmeriska</language>
+			<language type="nah" alt="proposed-x1001" draft="unconfirmed">nahuatl; aztekiska</language>
+			<language type="nds" alt="proposed-x1001" draft="unconfirmed">lågtyska; lågsaxiska</language>
+			<language type="oc" alt="proposed-x1001" draft="unconfirmed">provensalska (efter 1500); occitanska</language>
+			<language type="phn" alt="proposed-x1001" draft="unconfirmed">kananeiska; feniciska</language>
+			<language type="ps" alt="proposed-x1001" draft="unconfirmed">pashto; afghanska</language>
+			<language type="rw" alt="proposed-x1001" draft="unconfirmed">rwanda; kinjarwanda</language>
+			<language type="smi" alt="proposed-x1001" draft="unconfirmed">samiskt språk (annat)</language>
+		</languages>
+		<territories>
+			<territory type="UM">USA:s yttre öar</territory>
+			<territory type="UM" references="R221" alt="proposed-x1001" draft="unconfirmed">USAs yttre öar</territory>
+		</territories>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters type="auxiliary">[à ã ç é ë í ñ ó š w ÿ ü ž]</exemplarCharacters>
+	</characters>
 	<dates>
 		<calendars>
+			<calendar type="gregorian">
+				<fields>
+					<field type="dayperiod">
+						<displayName>dagsperiod</displayName>
+					</field>
+				</fields>
+			</calendar>
 			<calendar type="hebrew">
 				<months>
 					<monthContext type="format">
@@ -101,8 +130,14 @@
 			</calendar>
 		</calendars>
 	</dates>
-	<references>
-		<reference type="RP1">Finlands Statskalender 2006</reference>
-	</references>
+	<numbers>
+		<percentFormats>
+			<percentFormatLength>
+				<percentFormat>
+					<pattern alt="proposed-x1001" draft="unconfirmed">#,##0 %</pattern>
+				</percentFormat>
+			</percentFormatLength>
+		</percentFormats>
+	</numbers>
 </ldml>
 

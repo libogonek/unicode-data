@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.22 $"/>
-		<generation date="$Date: 2006/02/09 19:14:31 $"/>
+		<version number="$Revision: 1.25 $"/>
+		<generation date="$Date: 2007/07/21 15:12:54 $"/>
 		<language type="ta" /> 
 	</identity>
 		<collations  validSubLocales="ta_IN">
@@ -11,7 +11,7 @@
 				<settings normalization="on"  />
 			</collation  >
 <collation type="standard" references=
-"http://www.infitt.org/minmanjari/issue2_2/mm-unicodetngovt.html" draft="true" alt="proposed">
+"University of Mardas, Tamil Lexicon" draft="true" alt="proposed">
   <settings normalization="on"/>
   <rules>
     <reset>୦</reset>
@@ -28,8 +28,6 @@
         <p>ஶ</p>
     <reset>ஹ</reset>
         <p>க்ஷ</p>
-        <p>ஶ்ரீ</p>
-        <t>ஸ்ரீ</t>
     <reset before="primary">க</reset>
         <p>க்</p>
     <reset before="primary">ங</reset>

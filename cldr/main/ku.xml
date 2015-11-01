@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.9 $"/>
-		<generation date="$Date: 2006/06/27 23:30:54 $"/>
+		<version number="$Revision: 1.18 $"/>
+		<generation date="$Date: 2007/07/19 22:31:39 $"/>
 		<language type="ku"/>
 	</identity>
 	<localeDisplayNames>
@@ -12,6 +12,7 @@
 			<language type="en" draft="unconfirmed">îngilîzî</language>
 			<language type="ja" draft="unconfirmed">japonî</language>
 			<language type="ku" draft="unconfirmed">kurdî</language>
+			<language type="sh" draft="unconfirmed">سێربۆكرواتی</language>
 		</languages>
 		<scripts>
 			<script type="Arab" draft="unconfirmed">erebî</script>
@@ -31,7 +32,6 @@
 	</localeDisplayNames>
 	<characters>
 		<exemplarCharacters>[a-c ç d e ê f-i î j-s ş t u û v-z]</exemplarCharacters>
-		<exemplarCharacters alt="proposed-u142-1" draft="unconfirmed">[a-c ç d e ê f-i î j-s ş t u û v-z]</exemplarCharacters>
 	</characters>
 	<dates>
 		<calendars>
@@ -46,6 +46,11 @@
 							<month type="5" draft="unconfirmed">gul</month>
 							<month type="6" draft="unconfirmed">hez</month>
 							<month type="7" draft="unconfirmed">tîr</month>
+							<month type="8" draft="unconfirmed">8</month>
+							<month type="9" draft="unconfirmed">9</month>
+							<month type="10" draft="unconfirmed">10</month>
+							<month type="11" draft="unconfirmed">11</month>
+							<month type="12" draft="unconfirmed">12</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1" draft="unconfirmed">çile</month>
@@ -54,6 +59,12 @@
 							<month type="4" draft="unconfirmed">nîsan</month>
 							<month type="5" draft="unconfirmed">gulan</month>
 							<month type="6" draft="unconfirmed">hezîran</month>
+							<month type="7" draft="unconfirmed">7</month>
+							<month type="8" draft="unconfirmed">8</month>
+							<month type="9" draft="unconfirmed">9</month>
+							<month type="10" draft="unconfirmed">10</month>
+							<month type="11" draft="unconfirmed">11</month>
+							<month type="12" draft="unconfirmed">12</month>
 						</monthWidth>
 					</monthContext>
 					<monthContext type="stand-alone">
@@ -64,6 +75,12 @@
 							<month type="4" draft="unconfirmed">n</month>
 							<month type="5" draft="unconfirmed">g</month>
 							<month type="6" draft="unconfirmed">h</month>
+							<month type="7" draft="unconfirmed">7</month>
+							<month type="8" draft="unconfirmed">8</month>
+							<month type="9" draft="unconfirmed">9</month>
+							<month type="10" draft="unconfirmed">10</month>
+							<month type="11" draft="unconfirmed">11</month>
+							<month type="12" draft="unconfirmed">12</month>
 						</monthWidth>
 					</monthContext>
 				</months>
@@ -95,7 +112,8 @@
 							<day type="tue" draft="unconfirmed">s</day>
 							<day type="wed" draft="unconfirmed">ç</day>
 							<day type="thu" draft="unconfirmed">p</day>
-							<day type="fri" draft="unconfirmed">în</day>
+							<day type="fri" draft="unconfirmed">î</day>
+							<day type="fri" alt="proposed-x1001" draft="unconfirmed">în</day>
 							<day type="sat" draft="unconfirmed">ş</day>
 						</dayWidth>
 					</dayContext>
@@ -124,6 +142,60 @@
 						<era type="1" draft="unconfirmed">PZ</era>
 					</eraAbbr>
 				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern draft="unconfirmed">EEEE, yyyy MMMM dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern draft="unconfirmed">yyyy MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern draft="unconfirmed">yyyy MMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern draft="unconfirmed">yy/MM/dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss v</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<dateTimeFormatLength>
+						<dateTimeFormat>
+							<pattern draft="unconfirmed">{1} {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<availableFormats>
+						<dateFormatItem id="yyQ" draft="unconfirmed">Q yy</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
 				<fields>
 					<field type="year">
 						<displayName draft="unconfirmed">sal</displayName>
@@ -158,17 +230,22 @@
 							<month type="4" draft="unconfirmed">rebîʿulaxer</month>
 							<month type="5" draft="unconfirmed">cemazîyelewel</month>
 							<month type="6" draft="unconfirmed">cemazîyelaxer</month>
-							<month type="7" draft="unconfirmed">receb	</month>
-							<month type="8" draft="unconfirmed">şeʿban	</month>
+							<month type="7" draft="unconfirmed">receb</month>
+							<month type="8" draft="unconfirmed">şeʿban</month>
 							<month type="9" draft="unconfirmed">remezan</month>
-							<month type="10" draft="unconfirmed">şewal	</month>
-							<month type="11" draft="unconfirmed">zîlqeʿde	</month>
+							<month type="10" draft="unconfirmed">şewal</month>
+							<month type="11" draft="unconfirmed">zîlqeʿde</month>
 							<month type="12" draft="unconfirmed">zîlẖece</month>
 						</monthWidth>
 					</monthContext>
 				</months>
 			</calendar>
 		</calendars>
+		<timeZoneNames>
+			<hourFormat draft="unconfirmed">+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat draft="unconfirmed">GMT{0}</gmtFormat>
+			<regionFormat draft="unconfirmed">{0}</regionFormat>
+		</timeZoneNames>
 	</dates>
 	<posix>
 		<messages>

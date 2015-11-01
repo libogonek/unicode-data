@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.43 $"/>
-		<generation date="$Date: 2006/06/28 02:00:53 $"/>
+		<version number="$Revision: 1.53 $"/>
+		<generation date="$Date: 2007/07/21 21:12:28 $"/>
 		<language type="es"/>
 		<territory type="CL"/>
 	</identity>
 	<localeDisplayNames>
 		<languages>
-			<language type="arn" draft="provisional">mapudungun</language>
-			<language type="ira" draft="provisional">iraníes</language>
+			<language type="arn" draft="unconfirmed">mapudungun</language>
+			<language type="ira" draft="unconfirmed">iraníes</language>
 		</languages>
 		<scripts>
 			<script type="Bali">balinés</script>
 		</scripts>
 		<territories>
 			<territory type="005">Sudamérica</territory>
-			<territory type="AN" draft="provisional">Antillas Holandesas</territory>
-			<territory type="AZ" draft="provisional">Azerbayán</territory>
+			<territory type="AN" draft="unconfirmed">Antillas Holandesas</territory>
+			<territory type="AZ" draft="unconfirmed">Azerbayán</territory>
 			<territory type="EH">Sahara Occidental</territory>
-			<territory type="PS" draft="provisional">Territorio Palestino</territory>
-			<territory type="RO" draft="provisional">Rumania</territory>
-			<territory type="SA" draft="provisional">Arabia Saudita</territory>
-			<territory type="TT">Trinidad y Tobago</territory>
-			<territory type="TZ" draft="provisional">Tanzanía</territory>
+			<territory type="PS" draft="unconfirmed">Territorio Palestino</territory>
+			<territory type="RO" draft="unconfirmed">Rumania</territory>
+			<territory type="SA" draft="unconfirmed">Arabia Saudita</territory>
+			<territory type="TZ" draft="unconfirmed">Tanzanía</territory>
 		</territories>
 		<variants>
 			<variant type="1996">Ortografía alemana de 1996</variant>
 		</variants>
 		<keys>
-			<key type="currency" draft="provisional">divisa</key>
+			<key type="currency" draft="unconfirmed">divisa</key>
 		</keys>
 		<types>
 			<type type="phonebook" key="collation">orden de directorio telefónico</type>
@@ -54,7 +53,7 @@
 				<timeFormats>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern>HH:mm:ss z</pattern>
+							<pattern>HH:mm:ss v</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="long">
@@ -73,11 +72,6 @@
 						</timeFormat>
 					</timeFormatLength>
 				</timeFormats>
-				<dateTimeFormats>
-					<availableFormats>
-						<dateFormatItem id="mmss" draft="provisional">mm:ss</dateFormatItem>
-					</availableFormats>
-				</dateTimeFormats>
 			</calendar>
 		</calendars>
 	</dates>
@@ -93,9 +87,6 @@
 			<currency type="CLP">
 				<displayName>Peso Chileno</displayName>
 				<symbol>$</symbol>
-			</currency>
-			<currency type="USD">
-				<displayName>Dólar Americano</displayName>
 			</currency>
 		</currencies>
 	</numbers>

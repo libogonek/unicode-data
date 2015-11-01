@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldmlSupplemental.dtd">
+<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldmlSupplemental.dtd">
 <supplementalData>
 	<transforms>
 		<transform source="Fullwidth" target="Halfwidth" direction="both">
@@ -38,7 +38,7 @@
 			<tRule>ヺ↔ｦﾞ; # to KATAKANA LETTER VO</tRule>
 			<comment># single character</comment>
 			<tRule>！↔'!'; # from FULLWIDTH EXCLAMATION MARK</tRule>
-			<tRule>＂↔'\&quot;'; # from FULLWIDTH QUOTATION MARK</tRule>
+			<tRule>＂↔'&quot;'; # from FULLWIDTH QUOTATION MARK</tRule>
 			<tRule>＃↔'#'; # from FULLWIDTH NUMBER SIGN</tRule>
 			<tRule>＄↔'$'; # from FULLWIDTH DOLLAR SIGN</tRule>
 			<tRule>％↔'%'; # from FULLWIDTH PERCENT SIGN</tRule>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<!-- Locale Data Format
 		 Draft: 2004-08-02
 		 By Pema geyleg <pema_geyleg@druknet.bt>
 	-->
 	<identity>
-		<version number="$Revision: 1.40 $"/>
-		<generation date="$Date: 2006/06/27 23:30:53 $"/>
+		<version number="$Revision: 1.51 $"/>
+		<generation date="$Date: 2007/07/19 22:31:38 $"/>
 		<language type="dz"/>
 	</identity>
 	<localeDisplayNames>
@@ -220,6 +220,22 @@
 							<month type="12" draft="unconfirmed">སྤྱི་ཟླཝ་བཅུ་གཉིས་པ་</month>
 						</monthWidth>
 					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="narrow">
+							<month type="1" draft="unconfirmed">1</month>
+							<month type="2" draft="unconfirmed">2</month>
+							<month type="3" draft="unconfirmed">3</month>
+							<month type="4" draft="unconfirmed">4</month>
+							<month type="5" draft="unconfirmed">5</month>
+							<month type="6" draft="unconfirmed">6</month>
+							<month type="7" draft="unconfirmed">7</month>
+							<month type="8" draft="unconfirmed">8</month>
+							<month type="9" draft="unconfirmed">9</month>
+							<month type="10" draft="unconfirmed">10</month>
+							<month type="11" draft="unconfirmed">11</month>
+							<month type="12" draft="unconfirmed">12</month>
+						</monthWidth>
+					</monthContext>
 				</months>
 				<days>
 					<dayContext type="format">
@@ -242,6 +258,17 @@
 							<day type="sat" draft="unconfirmed">གཟའ་ཉི་མ་</day>
 						</dayWidth>
 					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="narrow">
+							<day type="sun" draft="unconfirmed">1</day>
+							<day type="mon" draft="unconfirmed">2</day>
+							<day type="tue" draft="unconfirmed">3</day>
+							<day type="wed" draft="unconfirmed">4</day>
+							<day type="thu" draft="unconfirmed">5</day>
+							<day type="fri" draft="unconfirmed">6</day>
+							<day type="sat" draft="unconfirmed">7</day>
+						</dayWidth>
+					</dayContext>
 				</days>
 				<quarters>
 					<quarterContext type="format">
@@ -261,8 +288,13 @@
 				</quarters>
 				<am draft="unconfirmed">སྔ་ཆ་</am>
 				<pm draft="unconfirmed">ཕྱི་ཆ་</pm>
+				<eras>
+					<eraAbbr>
+						<era type="0" draft="unconfirmed">BCE</era>
+						<era type="1" draft="unconfirmed">CE</era>
+					</eraAbbr>
+				</eras>
 				<dateFormats>
-					<default choice="long" draft="unconfirmed"/>
 					<dateFormatLength type="full">
 						<dateFormat>
 							<pattern draft="unconfirmed">སྤྱི་ལོ་yyyy ཟླ་ MMMM ཚེས་ dd</pattern>
@@ -280,7 +312,7 @@
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern draft="unconfirmed">སྤྱི་ལོ་ yyyy ཟླ་ MMM ཚེས་ dd</pattern>
+							<pattern draft="unconfirmed">སྤྱི་ལོ་ yyyy ཟླ་ MM ཚེས་ dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
@@ -288,7 +320,7 @@
 					<default choice="long" draft="unconfirmed"/>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern draft="unconfirmed">ཆུ་ཚོད་ h སྐར་མ་ mm སྐར་ཆཱ་ ss a zzzz</pattern>
+							<pattern draft="unconfirmed">ཆུ་ཚོད་ h སྐར་མ་ mm སྐར་ཆཱ་ ss a vvvv</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="long">
@@ -309,11 +341,19 @@
 				</timeFormats>
 				<dateTimeFormats>
 					<default choice="long" draft="unconfirmed"/>
+					<dateTimeFormatLength>
+						<dateTimeFormat>
+							<pattern draft="unconfirmed">{1} {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
 					<dateTimeFormatLength type="full">
 						<dateTimeFormat>
 							<pattern draft="unconfirmed">{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
+					<availableFormats>
+						<dateFormatItem id="yyQ" draft="unconfirmed">Q yy</dateFormatItem>
+					</availableFormats>
 				</dateTimeFormats>
 			</calendar>
 		</calendars>
@@ -321,27 +361,35 @@
 			 Tibetan lunar calendar
 		-->
 		<timeZoneNames>
+			<hourFormat draft="unconfirmed">+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat draft="unconfirmed">GMT{0}</gmtFormat>
+			<regionFormat draft="unconfirmed">{0}</regionFormat>
 			<zone type="Asia/Thimphu">
-				<!-- Bhutan does not use Daylight Saving Time -->
+				<exemplarCity draft="unconfirmed">ཐིམ་ཕུག</exemplarCity>
+			</zone>
+			<metazone type="Bhutan">
 				<long>
 					<!-- Bhutanese time is referred to as "BST" in Bhutan -->
 					<generic draft="unconfirmed">Bhutan Standard Time</generic>
-					<!-- TODO: This data may be in the wrong script -->
 					<standard draft="unconfirmed">Bhutan Standard Time</standard>
-					<daylight draft="unconfirmed">Bhutan Standard Time</daylight>
 				</long>
 				<short>
 					<generic draft="unconfirmed">BST</generic>
 					<standard draft="unconfirmed">BST</standard>
-					<daylight draft="unconfirmed">BST</daylight>
 				</short>
-				<exemplarCity draft="unconfirmed">ཐིམ་ཕུག</exemplarCity>
-			</zone>
+			</metazone>
 		</timeZoneNames>
 	</dates>
 	<numbers>
+		<symbols>
+			<list draft="unconfirmed">དང་</list>
+			<percentSign draft="unconfirmed">བརྒ་ཆཱ</percentSign>
+			<nativeZeroDigit draft="unconfirmed">༠</nativeZeroDigit>
+			<infinity draft="unconfirmed">གྲངས་མེད</infinity>
+			<nan draft="unconfirmed">ཨང་མད</nan>
+		</symbols>
 		<decimalFormats>
-			<decimalFormatLength type="long">
+			<decimalFormatLength>
 				<decimalFormat>
 					<pattern draft="unconfirmed">#,##,##0.###</pattern>
 				</decimalFormat>
@@ -349,26 +397,32 @@
 		</decimalFormats>
 		<scientificFormats>
 			<default choice="long" draft="unconfirmed"/>
-			<scientificFormatLength type="long">
+			<scientificFormatLength>
 				<scientificFormat>
 					<pattern draft="unconfirmed">#E+00</pattern>
 				</scientificFormat>
 			</scientificFormatLength>
 		</scientificFormats>
 		<percentFormats>
-			<percentFormatLength type="long">
+			<percentFormatLength>
 				<percentFormat>
 					<pattern draft="unconfirmed">#,##,##0 %</pattern>
 				</percentFormat>
 			</percentFormatLength>
 		</percentFormats>
 		<currencyFormats>
-			<currencyFormatLength type="long">
+			<currencyFormatLength>
 				<currencyFormat>
 					<pattern draft="unconfirmed">¤#,##,##0.00</pattern>
 				</currencyFormat>
 			</currencyFormatLength>
 		</currencyFormats>
+		<currencies>
+			<currency type="BTN">
+				<displayName draft="unconfirmed">དངུལ་ཀྲམ་</displayName>
+				<symbol draft="unconfirmed">Nu</symbol>
+			</currency>
+		</currencies>
 	</numbers>
 </ldml>
 

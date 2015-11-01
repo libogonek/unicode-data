@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.24 $"/>
-		<generation date="$Date: 2006/05/08 20:43:55 $"/>
+		<version number="$Revision: 1.26 $"/>
+		<generation date="$Date: 2007/07/10 20:27:25 $"/>
 		<language type="root" /> 
 	</identity>
 		<collations validSubLocales="ga ga_IE id id_ID ms ms_BN ms_MY nl nl_BE nl_NL pt pt_BR pt_PT">

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<!-- IDENTIFICATION of the locale -->
 	<identity>
-		<version number="$Revision: 1.19 $"/>
-		<generation date="$Date: 2006/06/28 01:23:33 $"/>
+		<version number="$Revision: 1.29 $"/>
+		<generation date="$Date: 2007/07/24 23:39:15 $"/>
 		<language type="sr"/>
 		<script type="Cyrl"/>
 		<territory type="BA"/>
 	</identity>
 	<localeDisplayNames>
 		<languages>
-			<language type="sr" draft="provisional">српски</language>
+			<language type="sr" draft="unconfirmed">српски</language>
 		</languages>
 	</localeDisplayNames>
 	<!-- CALENDAR INFORMATION.  Gregorian Only -->
@@ -37,16 +37,6 @@
 					</dayContext>
 				</days>
 				<dateFormats>
-					<dateFormatLength type="full">
-						<dateFormat>
-							<pattern>EEEE, dd. MMMM yyyy.</pattern>
-						</dateFormat>
-					</dateFormatLength>
-					<dateFormatLength type="long">
-						<dateFormat>
-							<pattern>dd. MMMM yyyy.</pattern>
-						</dateFormat>
-					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
 							<pattern>yyyy-MM-dd</pattern>
@@ -61,7 +51,7 @@
 				<timeFormats>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern>HH 'часова', mm 'минута', ss' секунди'</pattern>
+							<pattern>HH 'часова', mm 'минута', ss 'секунди' v</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="medium">
@@ -75,27 +65,11 @@
 						</timeFormat>
 					</timeFormatLength>
 				</timeFormats>
-				<dateTimeFormats>
-					<availableFormats>
-						<dateFormatItem id="MMMMdd" draft="provisional">dd. MMMM</dateFormatItem>
-						<dateFormatItem id="mmss" draft="provisional">mm:ss</dateFormatItem>
-						<dateFormatItem id="yyyyMM" draft="provisional">yyyy-MM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM" draft="provisional">MMMM yyyy.</dateFormatItem>
-					</availableFormats>
-				</dateTimeFormats>
 			</calendar>
 		</calendars>
 	</dates>
 	<!-- NUMERIC INFORMATION -->
 	<numbers>
-		<!-- MONETARY INFORMATION -->
-		<currencyFormats>
-			<currencyFormatLength>
-				<currencyFormat>
-					<pattern draft="provisional">#,##0.00 км</pattern>
-				</currencyFormat>
-			</currencyFormatLength>
-		</currencyFormats>
 		<currencies>
 			<!-- currency id as per ISO4217, three letter alphabetic code -->
 			<currency type="BAM">
@@ -108,4 +82,8 @@
 		</currencies>
 	</numbers>
 </ldml>
+<!-- Comments without bases
+
+ MONETARY INFORMATION 	 - was on: //ldml/numbers/currencyFormats 
+-->
 

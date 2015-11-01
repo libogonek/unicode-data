@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.21 $"/>
-		<generation date="$Date: 2005/10/27 09:07:12 $"/>
+		<version number="$Revision: 1.25 $"/>
+		<generation date="$Date: 2007/07/27 22:46:58 $"/>
 		<language type="fi" /> 
 	</identity>
 		<collations  validSubLocales="fi_FI">
+            <default type="phonebook"/>
 			<collation type="standard" >
 				<rules>
 					<reset>D</reset>
@@ -90,7 +91,7 @@
 				</rules>
 			</collation>
 			<!-- For the phonebook collation, the only change is to collate v and w as separate characters, i.e.: -->
-			<collation type="phonebook" draft="true">
+			<collation type="phonebook">
 				<rules>
 					<!-- D and U+0335 -->
 					<reset>D ̵</reset>

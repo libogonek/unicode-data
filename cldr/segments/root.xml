@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.3.2.1 $"/>
-		<generation date="$Date: 2007/01/04 00:14:37 $"/>
+		<version number="$Revision: 1.8 $"/>
+		<generation date="$Date: 2007/07/24 21:36:16 $"/>
 		<language type="root"/>
 	</identity>
 	<segmentations>
@@ -12,7 +12,10 @@
 				<variable id="$CR">\p{Grapheme_Cluster_Break=CR}</variable>
 				<variable id="$LF">\p{Grapheme_Cluster_Break=LF}</variable>
 				<variable id="$Control">\p{Grapheme_Cluster_Break=Control}</variable>
-				<variable id="$Extend">\p{Grapheme_Cluster_Break=Extend}</variable>
+				<variable id="$Extend">[\p{Grapheme_Cluster_Break=Extend}
+										\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}
+										\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}
+                                       </variable>
 				<variable id="$L">\p{Grapheme_Cluster_Break=L}</variable>
 				<variable id="$V">\p{Grapheme_Cluster_Break=V}</variable>
 				<variable id="$T">\p{Grapheme_Cluster_Break=T}</variable>
@@ -27,6 +30,41 @@
 				<rule id="7"> ( $LV | $V ) × ( $V | $T ) </rule>
 				<rule id="8"> ( $LVT | $T) × $T </rule>
 				<rule id="9"> × $Extend </rule>
+			</segmentRules>
+		</segmentation>
+		<segmentation type="ExtendedGraphemeClusterBreak">
+			<variables>
+				<variable id="$CR">\p{Grapheme_Cluster_Break=CR}</variable>
+				<variable id="$LF">\p{Grapheme_Cluster_Break=LF}</variable>
+				<variable id="$Control">\p{Grapheme_Cluster_Break=Control}</variable>
+				<variable id="$Extend">[\p{Grapheme_Cluster_Break=Extend}
+										\p{Mc}
+										\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}
+										\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}
+										\p{name=THAI CHARACTER SARA A}
+										\p{name=THAI CHARACTER SARA AA}
+										\p{name=THAI CHARACTER SARA AM}
+										\p{name=THAI CHARACTER LAKKHANGYAO}]
+										\</variable>
+				<!-- PrependBase & Prepend define Thai clusters.    -->
+				<!-- TODO: add Lao to this.                         -->
+				<variable id="$Prepend">[\u0e40-\u0e44]</variable>
+				<variable id="$PrependBase">[\u0E01-\\u0E2E]</variable>
+				<variable id="$L">\p{Grapheme_Cluster_Break=L}</variable>
+				<variable id="$V">\p{Grapheme_Cluster_Break=V}</variable>
+				<variable id="$T">\p{Grapheme_Cluster_Break=T}</variable>
+				<variable id="$LV">\p{Grapheme_Cluster_Break=LV}</variable>
+				<variable id="$LVT">\p{Grapheme_Cluster_Break=LVT}</variable>
+			</variables>
+			<segmentRules>
+				<rule id="3"> $CR × $LF </rule>
+				<rule id="4"> ( $Control | $CR | $LF ) ÷ </rule>
+				<rule id="5"> ÷ ( $Control | $CR | $LF ) </rule>
+				<rule id="6"> $L × ( $L | $V | $LV | $LVT ) </rule>
+				<rule id="7"> ( $LV | $V ) × ( $V | $T ) </rule>
+				<rule id="8"> ( $LVT | $T) × $T </rule>
+				<rule id="9"> × $Extend </rule>
+				<rule id="GB9a"> ($Prepend $Extend*) × $PrependBase</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="LineBreak">
@@ -207,14 +245,19 @@
 				<variable id="$GCCR">\p{Grapheme_Cluster_Break=CR}</variable>
 				<variable id="$GCLF">\p{Grapheme_Cluster_Break=LF}</variable>
 				<variable id="$GCControl">\p{Grapheme_Cluster_Break=Control}</variable>
-				<variable id="$GCExtend">\p{Grapheme_Cluster_Break=Extend}</variable>
+				<variable id="$GCExtend">\p{Grapheme_Cluster_Break=Extend}
+					\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}
+					\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}
+					</variable>
 				<!-- Normal variables -->
 				<variable id="$Format">\p{Sentence_Break=Format}</variable>
 				<variable id="$Sep">\p{Sentence_Break=Sep}</variable>
 				<variable id="$Sp">\p{Sentence_Break=Sp}</variable>
 				<variable id="$Lower">\p{Sentence_Break=Lower}</variable>
 				<variable id="$Upper">\p{Sentence_Break=Upper}</variable>
-				<variable id="$OLetter">\p{Sentence_Break=OLetter}</variable>
+				<variable id="$OLetter">[\p{Sentence_Break=OLetter}-
+					[\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}
+					\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}]]</variable>
 				<variable id="$Numeric">\p{Sentence_Break=Numeric}</variable>
 				<variable id="$ATerm">\p{Sentence_Break=ATerm}</variable>
 				<variable id="$STerm">\p{Sentence_Break=STerm}</variable>
@@ -265,11 +308,17 @@
 				<variable id="$GCCR">\p{Grapheme_Cluster_Break=CR}</variable>
 				<variable id="$GCLF">\p{Grapheme_Cluster_Break=LF}</variable>
 				<variable id="$GCControl">\p{Grapheme_Cluster_Break=Control}</variable>
-				<variable id="$GCExtend">\p{Grapheme_Cluster_Break=Extend}</variable>
+				<variable id="$GCExtend">[\p{Grapheme_Cluster_Break=Extend}
+					\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}
+					\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}]
+				</variable>
 				<variable id="$Sep">\p{Sentence_Break=Sep}</variable>
 				<!-- Now normal variables -->
 				<variable id="$Format">\p{Word_Break=Format}</variable>
-				<variable id="$Katakana">\p{Word_Break=Katakana}</variable>
+				<variable id="$Katakana">[\p{Word_Break=Katakana}-
+					[\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}
+					\p{name=HALFWIDTH KATAKANA VOICED SOUND MARK}]]
+					</variable>
 				<variable id="$ALetter">\p{Word_Break=ALetter}</variable>
 				<variable id="$MidLetter">\p{Word_Break=MidLetter}</variable>
 				<variable id="$MidNum">\p{Word_Break=MidNum}</variable>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.12 $"/>
-		<generation date="$Date: 2006/07/11 19:26:44 $"/>
+		<version number="$Revision: 1.22 $"/>
+		<generation date="$Date: 2007/07/19 22:31:39 $"/>
 		<language type="fur"/>
 	</identity>
 	<localeDisplayNames>
@@ -500,7 +500,7 @@
 			<variant type="1901" draft="unconfirmed">Ortografie todescje tradizionâl</variant>
 			<variant type="1996" draft="unconfirmed">Ortografie todescje dal 1996</variant>
 			<variant type="NEDIS" draft="unconfirmed">Dialet des valadis dal Nadison</variant>
-			<variant type="POLYTONI" draft="unconfirmed">Politoniche</variant>
+			<variant type="POLYTON" draft="unconfirmed">Politoniche</variant>
 			<variant type="REVISED" draft="unconfirmed">Ortografie revisade</variant>
 			<variant type="ROZAJ" draft="unconfirmed">Resian</variant>
 		</variants>
@@ -668,12 +668,40 @@
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss v</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
 				<dateTimeFormats>
+					<dateTimeFormatLength>
+						<dateTimeFormat>
+							<pattern draft="unconfirmed">{1} {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
 					<availableFormats>
-						<dateFormatItem id="MMMMd" draft="provisional">d MMMM</dateFormatItem>
-						<dateFormatItem id="MMd" draft="provisional">d/MM</dateFormatItem>
-						<dateFormatItem id="yyMM" draft="provisional">MM/yy</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM" draft="provisional">MMMM yyyy</dateFormatItem>
+						<dateFormatItem id="MMMMd" draft="unconfirmed">d MMMM</dateFormatItem>
+						<dateFormatItem id="MMd" draft="unconfirmed">d/MM</dateFormatItem>
+						<dateFormatItem id="yyMM" draft="unconfirmed">MM/yy</dateFormatItem>
+						<dateFormatItem id="yyQ" draft="unconfirmed">Q yy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM" draft="unconfirmed">MMMM yyyy</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 				<fields>
@@ -714,6 +742,9 @@
 			</calendar>
 		</calendars>
 		<timeZoneNames>
+			<hourFormat draft="unconfirmed">+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat draft="unconfirmed">GMT{0}</gmtFormat>
+			<regionFormat draft="unconfirmed">{0}</regionFormat>
 			<zone type="America/Sao_Paulo">
 				<exemplarCity draft="unconfirmed">San Pauli dal Brasîl</exemplarCity>
 			</zone>
@@ -775,7 +806,7 @@
 				<displayName draft="unconfirmed">Franc svuizar</displayName>
 			</currency>
 			<currency type="CNY">
-				<displayName draft="unconfirmed">Yuan Renminbi cinês	</displayName>
+				<displayName draft="unconfirmed">Yuan Renminbi cinês</displayName>
 			</currency>
 			<currency type="CSD">
 				<displayName draft="unconfirmed">Dinar serp</displayName>
@@ -863,7 +894,7 @@
 		</messages>
 	</posix>
 	<references>
-		<reference type="RP1" uri="http://en.wikipedia.org/wiki/Friulian#Writing_systems">Wikipedia on Friulian writing</reference>
+		<reference type="R069" uri="http://en.wikipedia.org/wiki/Friulian#Writing_systems">Wikipedia on Friulian writing</reference>
 	</references>
 </ldml>
 

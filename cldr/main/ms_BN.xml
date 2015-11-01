@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.31 $"/>
-		<generation date="$Date: 2006/06/27 23:30:54 $"/>
+		<version number="$Revision: 1.41 $"/>
+		<generation date="$Date: 2007/07/19 22:31:39 $"/>
 		<language type="ms"/>
 		<territory type="BN"/>
 	</identity>
@@ -16,17 +16,7 @@
 							<pattern>dd MMMM yyyy</pattern>
 						</dateFormat>
 					</dateFormatLength>
-					<dateFormatLength type="long">
-						<dateFormat>
-							<pattern>dd MMMM yyyy</pattern>
-						</dateFormat>
-					</dateFormatLength>
 					<dateFormatLength type="medium">
-						<dateFormat>
-							<pattern>dd/MM/yyyy</pattern>
-						</dateFormat>
-					</dateFormatLength>
-					<dateFormatLength type="short">
 						<dateFormat>
 							<pattern>dd/MM/yyyy</pattern>
 						</dateFormat>
@@ -35,12 +25,12 @@
 				<timeFormats>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern>h:mm:ss aa</pattern>
+							<pattern>h:mm:ss aa v</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="long">
 						<timeFormat>
-							<pattern>H:mm:ss</pattern>
+							<pattern>H:mm:ss z</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="medium">
@@ -50,20 +40,10 @@
 					</timeFormatLength>
 					<timeFormatLength type="short">
 						<timeFormat>
-							<pattern>H:mm:ss</pattern>
+							<pattern>H:mm</pattern>
 						</timeFormat>
 					</timeFormatLength>
 				</timeFormats>
-				<dateTimeFormats>
-					<availableFormats>
-						<dateFormatItem id="Hmm" draft="provisional">H:mm</dateFormatItem>
-						<dateFormatItem id="MMMMdd" draft="provisional">dd MMMM</dateFormatItem>
-						<dateFormatItem id="MMdd" draft="provisional">dd/MM</dateFormatItem>
-						<dateFormatItem id="mmss" draft="provisional">mm:ss</dateFormatItem>
-						<dateFormatItem id="yyyyMM" draft="provisional">MM/yyyy</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM" draft="provisional">MMMM yyyy</dateFormatItem>
-					</availableFormats>
-				</dateTimeFormats>
 			</calendar>
 		</calendars>
 	</dates>
@@ -72,12 +52,16 @@
 			<decimal>,</decimal>
 			<group>.</group>
 		</symbols>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>¤ #,##0.00</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
 		<currencies>
 			<currency type="BND">
 				<symbol>$</symbol>
-			</currency>
-			<currency type="USD">
-				<symbol>US$</symbol>
 			</currency>
 		</currencies>
 	</numbers>

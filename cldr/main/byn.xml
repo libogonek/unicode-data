@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.40 $"/>
-		<generation date="$Date: 2006/06/28 02:11:28 $"/>
+		<version number="$Revision: 1.49 $"/>
+		<generation date="$Date: 2007/07/19 22:31:38 $"/>
 		<language type="byn"/>
 	</identity>
 	<localeDisplayNames>
@@ -288,8 +288,9 @@
 		</territories>
 	</localeDisplayNames>
 	<characters>
-		<exemplarCharacters draft="unconfirmed">[፟ ፡ ፣-፧ ። ፠ ፨ ፲-፼ ፩-፱ ሀ-ሆ ለ-ሟ ረ-ቆ ቈ ቊ-ቍ ቐ-ቖ ቘ ቚ-ቝ በ-ኆ ኈ ኊ-ኍ ነ-ኮ ኰ ኲ-ኵ ኸ-ኾ ዀ ዂ-ዅ ወ-ዎ ዐ-ዖ ዘ-ዮ ደ-ዷ ጀ-ጎ ጐ ጒ-ጕ ጘ-ጟ ⶓ-ⶖ ጠ-ጯ ጸ-ጿ ፈ-ፗ]</exemplarCharacters>
+		<exemplarCharacters>[፟ ሀ-ሆ ለ-ሟ ረ-ቆ ቈ ቊ-ቍ ቐ-ቖ ቘ ቚ-ቝ በ-ኆ ኈ ኊ-ኍ ነ-ኮ ኰ ኲ-ኵ ኸ-ኾ ዀ ዂ-ዅ ወ-ዎ ዐ-ዖ ዘ-ዮ ደ-ዷ ጀ-ጎ ጐ ጒ-ጕ ጘ-ጟ ⶓ-ⶖ ጠ-ጯ ጸ-ጿ ፈ-ፗ]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary" draft="unconfirmed">[᎐-᎙ ሇ ⶀ ᎀ-ᎃ ⶁ ሠ-ሧ ⶂ-ⶄ ቇ ᎄ-ᎇ ⶅ-ⶇ ኇ ⶈ-ⶊ ኯ ዏ ⶋ ዯ ⶌ ዸ-ዿ ⶍ ⶎ ጏ ⶏ-ⶑ ፇ ᎈ-ᎏ ⶒ ፘ-ፚ ⶠ-ⶦ ⶨ-ⶮ ⶰ-ⶶ ⶸ-ⶾ ⷀ-ⷆ ⷈ-ⷎ ⷐ-ⷖ ⷘ-ⷞ]</exemplarCharacters>
+		<exemplarCharacters alt="proposed-x1001" draft="unconfirmed">[፟ ፡ ፣-፧ ። ፠ ፨ ፲-፼ ፩-፱ ሀ-ሆ ለ-ሟ ረ-ቆ ቈ ቊ-ቍ ቐ-ቖ ቘ ቚ-ቝ በ-ኆ ኈ ኊ-ኍ ነ-ኮ ኰ ኲ-ኵ ኸ-ኾ ዀ ዂ-ዅ ወ-ዎ ዐ-ዖ ዘ-ዮ ደ-ዷ ጀ-ጎ ጐ ጒ-ጕ ጘ-ጟ ⶓ-ⶖ ጠ-ጯ ጸ-ጿ ፈ-ፗ]</exemplarCharacters>
 	</characters>
 	<dates>
 		<calendars>
@@ -316,7 +317,8 @@
 							<month type="3" draft="unconfirmed">ክብላ</month>
 							<month type="4" draft="unconfirmed">ፋጅኺሪ</month>
 							<month type="5" draft="unconfirmed">ክቢቅሪ</month>
-							<month type="6" draft="unconfirmed">ምኪኤል ትጓ̅ኒሪ</month>
+							<month type="6">ምኪኤል ትጟኒሪ</month>
+							<month type="6" alt="proposed-x1001" draft="unconfirmed">ምኪኤል ትጓ̅ኒሪ</month>
 							<month type="7" draft="unconfirmed">ኰርኩ</month>
 							<month type="8" draft="unconfirmed">ማርያም ትሪ</month>
 							<month type="9" draft="unconfirmed">ያኸኒ መሳቅለሪ</month>
@@ -375,6 +377,22 @@
 						</dayWidth>
 					</dayContext>
 				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1" draft="unconfirmed">Q1</quarter>
+							<quarter type="2" draft="unconfirmed">Q2</quarter>
+							<quarter type="3" draft="unconfirmed">Q3</quarter>
+							<quarter type="4" draft="unconfirmed">Q4</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1" draft="unconfirmed">Q1</quarter>
+							<quarter type="2" draft="unconfirmed">Q2</quarter>
+							<quarter type="3" draft="unconfirmed">Q3</quarter>
+							<quarter type="4" draft="unconfirmed">Q4</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
 				<am draft="unconfirmed">ፋዱስ ጃብ</am>
 				<pm draft="unconfirmed">ፋዱስ ደምቢ</pm>
 				<eras>
@@ -383,14 +401,92 @@
 						<era type="1" draft="unconfirmed">ኣድ</era>
 					</eraAbbr>
 				</eras>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern draft="unconfirmed">EEEE፡ dd MMMM ግርጋ yyyy G</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">EEEE, yyyy MMMM dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern draft="unconfirmed">dd MMMM yyyy</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">yyyy MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern draft="unconfirmed">dd-MMM-yyyy</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">yyyy MMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern draft="unconfirmed">dd/MM/yy</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">yy/MM/dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>h:mm:ss a v</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">h:mm:ss a</pattern>
+							<pattern alt="proposed-x1002" draft="unconfirmed">HH:mm:ss v</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern draft="unconfirmed">h:mm:ss a z</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern draft="unconfirmed">h:mm:ss a</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern draft="unconfirmed">h:mm a</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
+				<dateTimeFormats>
+					<dateTimeFormatLength>
+						<dateTimeFormat>
+							<pattern draft="unconfirmed">{1} {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<availableFormats>
+						<dateFormatItem id="MMMMdd" draft="unconfirmed">dd MMMM</dateFormatItem>
+						<dateFormatItem id="MMdd" draft="unconfirmed">dd/MM</dateFormatItem>
+						<dateFormatItem id="yyMM" draft="unconfirmed">MM/yy</dateFormatItem>
+						<dateFormatItem id="yyQ" draft="unconfirmed">Q yy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM" draft="unconfirmed">MMMM yyyy</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
 			</calendar>
 		</calendars>
+		<timeZoneNames>
+			<hourFormat draft="unconfirmed">+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat draft="unconfirmed">GMT{0}</gmtFormat>
+			<regionFormat draft="unconfirmed">{0}</regionFormat>
+		</timeZoneNames>
 	</dates>
 	<numbers>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern draft="unconfirmed">¤#,##0.00</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
 		<currencies>
 			<currency type="BRL">
 				<displayName draft="unconfirmed">የብራዚል ሪል</displayName>
-				<symbol draft="unconfirmed">R$</symbol>
 			</currency>
 			<currency type="CNY">
 				<displayName draft="unconfirmed">የቻይና ዩአን ረንሚንቢ</displayName>
@@ -417,7 +513,6 @@
 			</currency>
 			<currency type="USD">
 				<displayName draft="unconfirmed">የአሜሪካን ዶላር</displayName>
-				<symbol draft="unconfirmed">US$</symbol>
 			</currency>
 		</currencies>
 	</numbers>

@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.38 $"/>
-		<generation date="$Date: 2006/06/27 23:30:53 $"/>
+		<version number="$Revision: 1.46 $"/>
+		<generation date="$Date: 2007/07/27 18:47:31 $"/>
 		<language type="ar"/>
 		<territory type="TN"/>
 	</identity>
-	<delimiters>
-		<quotationStart draft="unconfirmed">‘</quotationStart>
-		<quotationEnd draft="unconfirmed">’</quotationEnd>
-		<alternateQuotationStart draft="unconfirmed">&quot;</alternateQuotationStart>
-		<alternateQuotationEnd draft="unconfirmed">&quot;</alternateQuotationEnd>
-	</delimiters>
+	<localeDisplayNames>
+		<scripts>
+			<script type="Ital">اللأيطالية القديمة</script>
+		</scripts>
+	</localeDisplayNames>
 	<dates>
 		<calendars>
 			<calendar type="gregorian">
@@ -35,6 +34,7 @@
 	<numbers>
 		<symbols>
 			<nativeZeroDigit>0</nativeZeroDigit>
+			<exponential draft="provisional">E</exponential>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>

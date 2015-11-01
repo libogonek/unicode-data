@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.18 $"/>
-		<generation date="$Date: 2006/06/27 23:30:53 $"/>
+		<version number="$Revision: 1.23 $"/>
+		<generation date="$Date: 2007/07/19 22:31:38 $"/>
 		<language type="az"/>
 		<script type="Cyrl"/>
 	</identity>
 	<localeDisplayNames>
 		<languages>
-			<language type="az" draft="unconfirmed">Азәрбајҹан</language>
+			<language type="az">Азәрбајҹан</language>
 			<language type="de">алманҹа</language>
 			<language type="en">инҝилисҹә</language>
 			<language type="es">испанҹа</language>
@@ -21,7 +21,7 @@
 			<language type="zh">чинҹә</language>
 		</languages>
 		<territories>
-			<territory type="AZ" draft="unconfirmed">Азәрбајҹан</territory>
+			<territory type="AZ">Азәрбајҹан</territory>
 			<territory type="BR">Бразилија</territory>
 			<territory type="CN">Чин</territory>
 			<territory type="DE">Алманија</territory>

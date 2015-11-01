@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldmlSupplemental.dtd">
+<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldmlSupplemental.dtd">
 <supplementalData>
 	<transforms>
 		<transform source="Tamil" target="InterIndic" direction="forward" visibility="internal">
@@ -68,7 +68,7 @@
 			<tRule>௰→\uE067\uE066;          # UNMAPPED Tamil-InterIndic: NUMBER TEN</tRule>
 			<tRule>௱→\uE067\uE066\uE066;     # UNMAPPED Tamil-InterIndic: NUMBER ONE HUNDRED</tRule>
 			<tRule>௲→\uE067\uE066\uE066\uE066;# UNMAPPED Tamil-InterIndic: NUMBER ONE THOUSAND</tRule>
-			<tRule>0→\uE066;</tRule>
+			<tRule>\u0BE6→\uE066;</tRule>
 			<comment>#    :: NFC (NFD) ;</comment>
 			<comment># eof</comment>
 		</transform>

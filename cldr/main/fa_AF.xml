@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.48.2.1 $"/>
-		<generation date="$Date: 2007/01/04 00:09:46 $"/>
+		<version number="$Revision: 1.55 $"/>
+		<generation date="$Date: 2007/07/19 22:31:39 $"/>
 		<language type="fa"/>
 		<territory type="AF"/>
 	</identity>
@@ -132,7 +132,7 @@
 		</territories>
 	</localeDisplayNames>
 	<characters>
-		<exemplarCharacters type="auxiliary" references="RP1">[ٖ ٰ \u200C \u200D ټ ځ څ ډ ړ ږ ښ ګ ڼ ي]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" references="R445">[ٖ ٰ \u200C \u200D ټ ځ څ ډ ړ ږ ښ ګ ڼ ي]</exemplarCharacters>
 	</characters>
 	<dates>
 		<calendars>
@@ -276,9 +276,6 @@
 			</currency>
 		</currencies>
 	</numbers>
-	<references>
-		<reference type="RP1" uri="http://www.evertype.com/standards/af/">Computer Locale Requirements for Afghanistan</reference>
-	</references>
 </ldml>
 <!-- Old Comments. See root.xml for more info.
 URL: http://oss.software.ibm.com/cvs/icu/icu/source/data/locales/fa_AF.txt?only_with_tag=final-update-LDML

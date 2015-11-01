@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.114 $"/>
-		<generation date="$Date: 2006/10/28 02:18:53 $"/>
+		<version number="$Revision: 1.156 $"/>
+		<generation date="$Date: 2007/07/24 01:06:02 $"/>
 		<language type="en"/>
 	</identity>
 	<localeDisplayNames>
@@ -16,40 +16,48 @@
 			<language type="ady">Adyghe</language>
 			<language type="ae">Avestan</language>
 			<language type="af">Afrikaans</language>
-			<language type="afa">Afro-Asiatic (Other)</language>
+			<language type="afa">Afro-Asiatic Language</language>
+			<language type="afa" alt="proposed-x1001" draft="unconfirmed">other Afro-Asiatic language</language>
 			<language type="afh">Afrihili</language>
 			<language type="ain">Ainu</language>
 			<language type="ak">Akan</language>
 			<language type="akk">Akkadian</language>
 			<language type="ale">Aleut</language>
-			<language type="alg">Algonquian Languages</language>
+			<language type="alg">Algonquian Language</language>
+			<language type="alg" alt="proposed-x1001" draft="unconfirmed">Algonquian language</language>
 			<language type="alt">Southern Altai</language>
 			<language type="am">Amharic</language>
 			<language type="an">Aragonese</language>
-			<language type="ang">Old English (ca.450-1100)</language>
+			<language type="ang">Old English</language>
 			<language type="anp">Angika</language>
-			<language type="apa">Apache Languages</language>
+			<language type="apa">Apache Language</language>
+			<language type="apa" alt="proposed-x1001" draft="unconfirmed">Apache language</language>
 			<language type="ar">Arabic</language>
 			<language type="arc">Aramaic</language>
 			<language type="arn">Araucanian</language>
 			<language type="arp">Arapaho</language>
-			<language type="art">Artificial (Other)</language>
+			<language type="art">Artificial Language</language>
+			<language type="art" alt="proposed-x1001" draft="unconfirmed">other artificial language</language>
 			<language type="arw">Arawak</language>
 			<language type="as">Assamese</language>
 			<language type="ast">Asturian</language>
-			<language type="ath">Athapascan Languages</language>
-			<language type="aus">Australian Languages</language>
+			<language type="ath">Athapascan Language</language>
+			<language type="ath" alt="proposed-x1001" draft="unconfirmed">other Athapascan language</language>
+			<language type="aus">Australian Language</language>
+			<language type="aus" alt="proposed-x1001" draft="unconfirmed">Australian language</language>
 			<language type="av">Avaric</language>
 			<language type="awa">Awadhi</language>
 			<language type="ay">Aymara</language>
 			<language type="az">Azerbaijani</language>
 			<language type="ba">Bashkir</language>
 			<language type="bad">Banda</language>
-			<language type="bai">Bamileke Languages</language>
+			<language type="bai">Bamileke Language</language>
+			<language type="bai" alt="proposed-x1001" draft="unconfirmed">Bamileke language</language>
 			<language type="bal">Baluchi</language>
 			<language type="ban">Balinese</language>
 			<language type="bas">Basa</language>
-			<language type="bat">Baltic (Other)</language>
+			<language type="bat">Baltic Language</language>
+			<language type="bat" alt="proposed-x1001" draft="unconfirmed">other Baltic language</language>
 			<language type="be">Belarusian</language>
 			<language type="bej">Beja</language>
 			<language type="bem">Bemba</language>
@@ -74,13 +82,16 @@
 			<language type="byn">Blin</language>
 			<language type="ca">Catalan</language>
 			<language type="cad">Caddo</language>
-			<language type="cai">Central American Indian (Other)</language>
+			<language type="cai">Central American Indian Language</language>
+			<language type="cai" alt="proposed-x1001" draft="unconfirmed">other Central American Indian language</language>
 			<language type="car">Carib</language>
-			<language type="cau">Caucasian (Other)</language>
+			<language type="cau">Caucasian Language</language>
+			<language type="cau" alt="proposed-x1001" draft="unconfirmed">other Caucasian language</language>
 			<language type="cch">Atsam</language>
 			<language type="ce">Chechen</language>
 			<language type="ceb">Cebuano</language>
-			<language type="cel">Celtic (Other)</language>
+			<language type="cel">Celtic Language</language>
+			<language type="cel" alt="proposed-x1001" draft="unconfirmed">other Celtic language</language>
 			<language type="ch">Chamorro</language>
 			<language type="chb">Chibcha</language>
 			<language type="chg">Chagatai</language>
@@ -91,19 +102,25 @@
 			<language type="chp">Chipewyan</language>
 			<language type="chr">Cherokee</language>
 			<language type="chy">Cheyenne</language>
-			<language type="cmc">Chamic Languages</language>
+			<language type="cmc">Chamic Language</language>
+			<language type="cmc" alt="proposed-x1001" draft="unconfirmed">Chamic language</language>
 			<language type="co">Corsican</language>
 			<language type="cop">Coptic</language>
-			<language type="cpe">Other English-based Creoles and Pidgins</language>
-			<language type="cpf">Other French-based Creoles and Pidgins</language>
-			<language type="cpp">Other Portuguese-based Creoles and Pidgins</language>
+			<language type="cpe">English-based Creole or Pidgin</language>
+			<language type="cpe" alt="proposed-x1001" draft="unconfirmed">other English-based creole or pidgin language</language>
+			<language type="cpf">French-based Creole or Pidgin</language>
+			<language type="cpf" alt="proposed-x1001" draft="unconfirmed">other French-based creole or pidgin language</language>
+			<language type="cpp">Portuguese-based Creole or Pidgin</language>
+			<language type="cpp" alt="proposed-x1001" draft="unconfirmed">other Portuguese-based creole or pidgin language</language>
 			<language type="cr">Cree</language>
-			<language type="crh">Crimean Turkish; Crimean Tatar</language>
-			<language type="crp">Creoles and Pidgins (Other)</language>
+			<language type="crh">Crimean Turkish</language>
+			<language type="crp">Creole or Pidgin</language>
+			<language type="crp" alt="proposed-x1001" draft="unconfirmed">other creole or pidgin language</language>
 			<language type="cs">Czech</language>
 			<language type="csb">Kashubian</language>
 			<language type="cu">Church Slavic</language>
-			<language type="cus">Cushitic (Other)</language>
+			<language type="cus">Cushitic Language</language>
+			<language type="cus" alt="proposed-x1001" draft="unconfirmed">other Cushitic language</language>
 			<language type="cv">Chuvash</language>
 			<language type="cy">Welsh</language>
 			<language type="da">Danish</language>
@@ -111,12 +128,15 @@
 			<language type="dar">Dargwa</language>
 			<language type="day">Dayak</language>
 			<language type="de">German</language>
+			<language type="de_AT">Austrian German</language>
+			<language type="de_CH">Swiss High German</language>
 			<language type="del">Delaware</language>
 			<language type="den">Slave</language>
 			<language type="dgr">Dogrib</language>
 			<language type="din">Dinka</language>
 			<language type="doi">Dogri</language>
-			<language type="dra">Dravidian (Other)</language>
+			<language type="dra">Dravidian Language</language>
+			<language type="dra" alt="proposed-x1001" draft="unconfirmed">other Dravidian language</language>
 			<language type="dsb">Lower Sorbian</language>
 			<language type="dua">Duala</language>
 			<language type="dum">Middle Dutch</language>
@@ -125,14 +145,20 @@
 			<language type="dz">Dzongkha</language>
 			<language type="ee">Ewe</language>
 			<language type="efi">Efik</language>
-			<language type="egy">Egyptian (Ancient)</language>
+			<language type="egy">Ancient Egyptian</language>
 			<language type="eka">Ekajuk</language>
 			<language type="el">Greek</language>
 			<language type="elx">Elamite</language>
 			<language type="en">English</language>
+			<language type="en_AU">Australian English</language>
+			<language type="en_CA">Canadian English</language>
+			<language type="en_GB">British English</language>
+			<language type="en_US">U.S. English</language>
 			<language type="enm">Middle English</language>
 			<language type="eo">Esperanto</language>
 			<language type="es">Spanish</language>
+			<language type="es_419">Latin American Spanish</language>
+			<language type="es_ES">Iberian Spanish</language>
 			<language type="et">Estonian</language>
 			<language type="eu">Basque</language>
 			<language type="ewo">Ewondo</language>
@@ -142,11 +168,14 @@
 			<language type="ff">Fulah</language>
 			<language type="fi">Finnish</language>
 			<language type="fil">Filipino</language>
-			<language type="fiu">Finno - Ugrian (Other)</language>
+			<language type="fiu">Finno-Ugrian Language</language>
+			<language type="fiu" alt="proposed-x1001" draft="unconfirmed">other Finno-Ugrian language</language>
 			<language type="fj">Fijian</language>
 			<language type="fo">Faroese</language>
 			<language type="fon">Fon</language>
 			<language type="fr">French</language>
+			<language type="fr_CA">Canadian French</language>
+			<language type="fr_CH">Swiss French</language>
 			<language type="frm">Middle French</language>
 			<language type="fro">Old French</language>
 			<language type="frr">Northern Frisian</language>
@@ -158,7 +187,8 @@
 			<language type="gay">Gayo</language>
 			<language type="gba">Gbaya</language>
 			<language type="gd">Scottish Gaelic</language>
-			<language type="gem">Germanic (Other)</language>
+			<language type="gem">Germanic Language</language>
+			<language type="gem" alt="proposed-x1001" draft="unconfirmed">other Germanic language</language>
 			<language type="gez">Geez</language>
 			<language type="gil">Gilbertese</language>
 			<language type="gl">Galician</language>
@@ -200,12 +230,16 @@
 			<language type="ijo">Ijo</language>
 			<language type="ik">Inupiaq</language>
 			<language type="ilo">Iloko</language>
-			<language type="inc">Indic (Other)</language>
-			<language type="ine">Indo-European (Other)</language>
+			<language type="inc">Indic Language</language>
+			<language type="inc" alt="proposed-x1001" draft="unconfirmed">other Indic langauge</language>
+			<language type="ine">Indo-European Language</language>
+			<language type="ine" alt="proposed-x1001" draft="unconfirmed">other Indo-European language</language>
 			<language type="inh">Ingush</language>
 			<language type="io">Ido</language>
-			<language type="ira">Iranian (Other)</language>
-			<language type="iro">Iroquoian languages</language>
+			<language type="ira">Iranian Language</language>
+			<language type="ira" alt="proposed-x1001" draft="unconfirmed">other Iranian language</language>
+			<language type="iro">Iroquoian Language</language>
+			<language type="iro" alt="proposed-x1001" draft="unconfirmed">Iroquoian language</language>
 			<language type="is">Icelandic</language>
 			<language type="it">Italian</language>
 			<language type="iu">Inuktitut</language>
@@ -227,7 +261,8 @@
 			<language type="kfo">Koro</language>
 			<language type="kg">Kongo</language>
 			<language type="kha">Khasi</language>
-			<language type="khi">Khoisan (Other)</language>
+			<language type="khi">Khoisan Language</language>
+			<language type="khi" alt="proposed-x1001" draft="unconfirmed">other Khoisan language</language>
 			<language type="kho">Khotanese</language>
 			<language type="ki">Kikuyu</language>
 			<language type="kj">Kuanyama</language>
@@ -288,14 +323,17 @@
 			<language type="mi">Maori</language>
 			<language type="mic">Micmac</language>
 			<language type="min">Minangkabau</language>
-			<language type="mis">Miscellaneous Languages</language>
+			<language type="mis">Miscellaneous Language</language>
+			<language type="mis" alt="proposed-x1001" draft="unconfirmed">other language</language>
 			<language type="mk">Macedonian</language>
-			<language type="mkh">Mon-Khmer (Other)</language>
+			<language type="mkh">Mon-Khmer Language</language>
+			<language type="mkh" alt="proposed-x1001" draft="unconfirmed">other Mon-Khmer language</language>
 			<language type="ml">Malayalam</language>
 			<language type="mn">Mongolian</language>
 			<language type="mnc">Manchu</language>
 			<language type="mni">Manipuri</language>
-			<language type="mno">Manobo Languages</language>
+			<language type="mno">Manobo Language</language>
+			<language type="mno" alt="proposed-x1001" draft="unconfirmed">Manobo language</language>
 			<language type="mo">Moldavian</language>
 			<language type="moh">Mohawk</language>
 			<language type="mos">Mossi</language>
@@ -303,68 +341,81 @@
 			<language type="ms">Malay</language>
 			<language type="mt">Maltese</language>
 			<language type="mul">Multiple Languages</language>
-			<language type="mun">Munda Languages</language>
+			<language type="mul" alt="proposed-x1001" draft="unconfirmed">multiple languages</language>
+			<language type="mun">Munda Language</language>
+			<language type="mun" alt="proposed-x1001" draft="unconfirmed">Munda language</language>
 			<language type="mus">Creek</language>
 			<language type="mwl">Mirandese</language>
 			<language type="mwr">Marwari</language>
 			<language type="my">Burmese</language>
-			<language type="myn">Mayan languages</language>
+			<language type="myn">Mayan Language</language>
+			<language type="myn" alt="proposed-x1001" draft="unconfirmed">Mayan language</language>
 			<language type="myv">Erzya</language>
 			<language type="na">Nauru</language>
 			<language type="nah">Nahuatl</language>
-			<language type="nai">North American Indian (Other)</language>
+			<language type="nai">North American Indian Language</language>
+			<language type="nai" alt="proposed-x1001" draft="unconfirmed">other North American Indian language</language>
 			<language type="nap">Neapolitan</language>
 			<language type="nb">Norwegian Bokmål</language>
 			<language type="nd">North Ndebele</language>
-			<language type="nds">Low German; Low Saxon</language>
+			<language type="nds">Low German</language>
 			<language type="ne">Nepali</language>
 			<language type="new">Newari</language>
 			<language type="ng">Ndonga</language>
 			<language type="nia">Nias</language>
-			<language type="nic">Niger - Kordofanian (Other)</language>
+			<language type="nic">Niger-Kordofanian Language</language>
+			<language type="nic" alt="proposed-x1001" draft="unconfirmed">other Niger-Kordofanian language</language>
 			<language type="niu">Niuean</language>
 			<language type="nl">Dutch</language>
+			<language type="nl_BE">Flemish</language>
 			<language type="nn">Norwegian Nynorsk</language>
 			<language type="no">Norwegian</language>
 			<language type="nog">Nogai</language>
-			<language type="non">Norse, Old</language>
+			<language type="non">Old Norse</language>
 			<language type="nqo">N’Ko</language>
 			<language type="nr">South Ndebele</language>
 			<language type="nso">Northern Sotho</language>
-			<language type="nub">Nubian Languages</language>
+			<language type="nub">Nubian Language</language>
+			<language type="nub" alt="proposed-x1001" draft="unconfirmed">Nubian language</language>
 			<language type="nv">Navajo</language>
 			<language type="nwc">Classical Newari</language>
-			<language type="ny">Nyanja; Chichewa; Chewa</language>
+			<language type="ny">Nyanja</language>
 			<language type="nym">Nyamwezi</language>
 			<language type="nyn">Nyankole</language>
 			<language type="nyo">Nyoro</language>
 			<language type="nzi">Nzima</language>
-			<language type="oc">Occitan (post 1500); Provençal</language>
+			<language type="oc">Occitan</language>
 			<language type="oj">Ojibwa</language>
 			<language type="om">Oromo</language>
 			<language type="or">Oriya</language>
 			<language type="os">Ossetic</language>
 			<language type="osa">Osage</language>
 			<language type="ota">Ottoman Turkish</language>
-			<language type="oto">Otomian Languages</language>
+			<language type="oto">Otomian Language</language>
+			<language type="oto" alt="proposed-x1001" draft="unconfirmed">Otomian language</language>
 			<language type="pa">Punjabi</language>
-			<language type="paa">Papuan (Other)</language>
+			<language type="paa">Papuan Language</language>
+			<language type="paa" alt="proposed-x1001" draft="unconfirmed">other Papuan language</language>
 			<language type="pag">Pangasinan</language>
 			<language type="pal">Pahlavi</language>
 			<language type="pam">Pampanga</language>
 			<language type="pap">Papiamento</language>
 			<language type="pau">Palauan</language>
 			<language type="peo">Old Persian</language>
-			<language type="phi">Philippine (Other)</language>
+			<language type="phi">Philippine Language</language>
+			<language type="phi" alt="proposed-x1001" draft="unconfirmed">other Philippine language</language>
 			<language type="phn">Phoenician</language>
 			<language type="pi">Pali</language>
 			<language type="pl">Polish</language>
 			<language type="pon">Pohnpeian</language>
-			<language type="pra">Prakrit Languages</language>
+			<language type="pra">Prakrit Language</language>
+			<language type="pra" alt="proposed-x1001" draft="unconfirmed">Prakrit language</language>
 			<language type="pro">Old Provençal</language>
-			<language type="ps" references="RP1">Pashto</language>
+			<language type="ps" references="R034">Pashto</language>
 			<language type="ps" alt="variant">Pushto</language>
 			<language type="pt">Portuguese</language>
+			<language type="pt_BR">Brazilian Portuguese</language>
+			<language type="pt_PT">Iberian Portuguese</language>
 			<language type="qu">Quechua</language>
 			<language type="raj">Rajasthani</language>
 			<language type="rap">Rapanui</language>
@@ -372,17 +423,21 @@
 			<language type="rm">Rhaeto-Romance</language>
 			<language type="rn">Rundi</language>
 			<language type="ro">Romanian</language>
-			<language type="roa">Romance (Other)</language>
+			<language type="roa">Romance Language</language>
+			<language type="roa" alt="proposed-x1001" draft="unconfirmed">other Romance language</language>
 			<language type="rom">Romany</language>
 			<language type="root">Root</language>
+			<language type="root" alt="proposed-x1001" draft="unconfirmed">root</language>
 			<language type="ru">Russian</language>
 			<language type="rup">Aromanian</language>
 			<language type="rw">Kinyarwanda</language>
 			<language type="sa">Sanskrit</language>
 			<language type="sad">Sandawe</language>
 			<language type="sah">Yakut</language>
-			<language type="sai">South American Indian (Other)</language>
-			<language type="sal">Salishan languages</language>
+			<language type="sai">South American Indian Language</language>
+			<language type="sai" alt="proposed-x1001" draft="unconfirmed">other South American Indian language</language>
+			<language type="sal">Salishan Language</language>
+			<language type="sal" alt="proposed-x1001" draft="unconfirmed">Salishan language</language>
 			<language type="sam">Samaritan Aramaic</language>
 			<language type="sas">Sasak</language>
 			<language type="sat">Santali</language>
@@ -392,22 +447,28 @@
 			<language type="sd">Sindhi</language>
 			<language type="se">Northern Sami</language>
 			<language type="sel">Selkup</language>
-			<language type="sem">Semitic (Other)</language>
+			<language type="sem">Semitic Language</language>
+			<language type="sem" alt="proposed-x1001" draft="unconfirmed">other Semitic language</language>
 			<language type="sg">Sango</language>
 			<language type="sga">Old Irish</language>
-			<language type="sgn">Sign Languages</language>
+			<language type="sgn">Sign Language</language>
+			<language type="sgn" alt="proposed-x1001" draft="unconfirmed">sign language</language>
 			<language type="sh">Serbo-Croatian</language>
 			<language type="shn">Shan</language>
 			<language type="si">Sinhalese</language>
 			<language type="sid">Sidamo</language>
-			<language type="sio">Siouan Languages</language>
-			<language type="sit">Sino-Tibetan (Other)</language>
+			<language type="sio">Siouan Language</language>
+			<language type="sio" alt="proposed-x1001" draft="unconfirmed">Siouan language</language>
+			<language type="sit">Sino-Tibetan Language</language>
+			<language type="sit" alt="proposed-x1001" draft="unconfirmed">other Sino-Tibetan language</language>
 			<language type="sk">Slovak</language>
 			<language type="sl">Slovenian</language>
-			<language type="sla">Slavic (Other)</language>
+			<language type="sla">Slavic Language</language>
+			<language type="sla" alt="proposed-x1001" draft="unconfirmed">other Slavic language</language>
 			<language type="sm">Samoan</language>
 			<language type="sma">Southern Sami</language>
-			<language type="smi">Sami languages (Other)</language>
+			<language type="smi">Sami Language</language>
+			<language type="smi" alt="proposed-x1001" draft="unconfirmed">other Sami language</language>
 			<language type="smj">Lule Sami</language>
 			<language type="smn">Inari Sami</language>
 			<language type="sms">Skolt Sami</language>
@@ -421,7 +482,8 @@
 			<language type="srn">Sranan Tongo</language>
 			<language type="srr">Serer</language>
 			<language type="ss">Swati</language>
-			<language type="ssa">Nilo-Saharan (Other)</language>
+			<language type="ssa">Nilo-Saharan Language</language>
+			<language type="ssa" alt="proposed-x1001" draft="unconfirmed">other Nilo-Saharan language</language>
 			<language type="st">Southern Sotho</language>
 			<language type="su">Sundanese</language>
 			<language type="suk">Sukuma</language>
@@ -429,9 +491,11 @@
 			<language type="sux">Sumerian</language>
 			<language type="sv">Swedish</language>
 			<language type="sw">Swahili</language>
+			<language type="syc">Classical Syriac</language>
 			<language type="syr">Syriac</language>
 			<language type="ta">Tamil</language>
-			<language type="tai">Tai (Other)</language>
+			<language type="tai">Tai Language</language>
+			<language type="tai" alt="proposed-x1001" draft="unconfirmed">other Tai language</language>
 			<language type="te">Telugu</language>
 			<language type="tem">Timne</language>
 			<language type="ter">Tereno</language>
@@ -448,26 +512,29 @@
 			<language type="tli">Tlingit</language>
 			<language type="tmh">Tamashek</language>
 			<language type="tn">Tswana</language>
-			<language type="to">Tonga (Tonga Islands)</language>
-			<language type="tog">Tonga (Nyasa)</language>
+			<language type="to">Tonga</language>
+			<language type="tog">Nyasa Tonga</language>
 			<language type="tpi">Tok Pisin</language>
 			<language type="tr">Turkish</language>
 			<language type="ts">Tsonga</language>
 			<language type="tsi">Tsimshian</language>
 			<language type="tt">Tatar</language>
 			<language type="tum">Tumbuka</language>
-			<language type="tup">Tupi languages</language>
-			<language type="tut">Altaic (Other)</language>
+			<language type="tup">Tupi Language</language>
+			<language type="tup" alt="proposed-x1001" draft="unconfirmed">Tupi language</language>
+			<language type="tut">Altaic Language</language>
 			<language type="tvl">Tuvalu</language>
 			<language type="tw">Twi</language>
 			<language type="ty">Tahitian</language>
 			<language type="tyv">Tuvinian</language>
 			<language type="udm">Udmurt</language>
 			<language type="ug">Uighur</language>
+			<language type="ug" alt="variant">Uyghur</language>
 			<language type="uga">Ugaritic</language>
 			<language type="uk">Ukrainian</language>
 			<language type="umb">Umbundu</language>
 			<language type="und">Unknown or Invalid Language</language>
+			<language type="und" alt="proposed-x1001" draft="unconfirmed">unknown or invalid language</language>
 			<language type="ur">Urdu</language>
 			<language type="uz">Uzbek</language>
 			<language type="vai">Vai</language>
@@ -476,11 +543,13 @@
 			<language type="vo">Volapük</language>
 			<language type="vot">Votic</language>
 			<language type="wa">Walloon</language>
-			<language type="wak">Wakashan Languages</language>
+			<language type="wak">Wakashan Language</language>
+			<language type="wak" alt="proposed-x1001" draft="unconfirmed">Wakashan language</language>
 			<language type="wal">Walamo</language>
 			<language type="war">Waray</language>
 			<language type="was">Washo</language>
-			<language type="wen">Sorbian Languages</language>
+			<language type="wen">Sorbian Language</language>
+			<language type="wen" alt="proposed-x1001" draft="unconfirmed">Sorbian language</language>
 			<language type="wo">Wolof</language>
 			<language type="xal">Kalmyk</language>
 			<language type="xh">Xhosa</language>
@@ -488,16 +557,20 @@
 			<language type="yap">Yapese</language>
 			<language type="yi">Yiddish</language>
 			<language type="yo">Yoruba</language>
-			<language type="ypk">Yupik Languages</language>
+			<language type="ypk">Yupik Language</language>
+			<language type="ypk" alt="proposed-x1001" draft="unconfirmed">Yupik language</language>
 			<language type="za">Zhuang</language>
 			<language type="zap">Zapotec</language>
 			<language type="zen">Zenaga</language>
 			<language type="zh">Chinese</language>
+			<language type="zh_Hans">Simplified Chinese</language>
+			<language type="zh_Hant">Traditional Chinese</language>
 			<language type="znd">Zande</language>
 			<language type="zu">Zulu</language>
 			<language type="zun">Zuni</language>
-			<language type="zza">Zaza</language>
 			<language type="zxx">No linguistic content</language>
+			<language type="zxx" alt="proposed-x1001" draft="unconfirmed">no linguistic content</language>
+			<language type="zza">Zaza</language>
 		</languages>
 		<scripts>
 			<script type="Arab">Arabic</script>
@@ -511,22 +584,23 @@
 			<script type="Brai">Braille</script>
 			<script type="Bugi">Buginese</script>
 			<script type="Buhd">Buhid</script>
-			<script type="Cans">Unified Canadian Aboriginal Symbols</script>
+			<script type="Cans">Unified Canadian Aboriginal Syllabics</script>
+			<script type="Cans" alt="proposed-x1001" draft="unconfirmed">Unified Canadian Aboriginal Symbols</script>
 			<script type="Cari">Carian</script>
-			<script type="Cham" references="R1">Cham</script>
+			<script type="Cham" references="R035">Cham</script>
 			<script type="Cher">Cherokee</script>
 			<script type="Cirt">Cirth</script>
 			<script type="Copt">Coptic</script>
 			<script type="Cprt">Cypriot</script>
 			<script type="Cyrl">Cyrillic</script>
-			<script type="Cyrs">Cyrillic (Old Church Slavonic variant)</script>
+			<script type="Cyrs">Old Church Slavonic Cyrillic</script>
 			<script type="Deva">Devanagari</script>
 			<script type="Dsrt">Deseret</script>
 			<script type="Egyd">Egyptian demotic</script>
 			<script type="Egyh">Egyptian hieratic</script>
 			<script type="Egyp">Egyptian hieroglyphs</script>
 			<script type="Ethi">Ethiopic</script>
-			<script type="Geok">Khutsuri (Asomtavruli and Nuskhuri)</script>
+			<script type="Geok">Georgian Khutsuri</script>
 			<script type="Geor">Georgian</script>
 			<script type="Glag">Glagolitic</script>
 			<script type="Goth">Gothic</script>
@@ -543,21 +617,22 @@
 			<script type="Hmng">Pahawh Hmong</script>
 			<script type="Hrkt">Katakana or Hiragana</script>
 			<script type="Hung">Old Hungarian</script>
-			<script type="Inds">Indus (Harappan)</script>
+			<script type="Inds">Indus</script>
 			<script type="Ital">Old Italic</script>
-			<script type="Jpan">Japanese</script>
 			<script type="Java">Javanese</script>
+			<script type="Jpan">Japanese</script>
 			<script type="Kali">Kayah Li</script>
 			<script type="Kana">Katakana</script>
 			<script type="Khar">Kharoshthi</script>
 			<script type="Khmr">Khmer</script>
 			<script type="Knda">Kannada</script>
+			<script type="Kore">Korean</script>
 			<script type="Lana">Lanna</script>
 			<script type="Laoo">Lao</script>
-			<script type="Latf">Latin (Fraktur variant)</script>
-			<script type="Latg">Latin (Gaelic variant)</script>
+			<script type="Latf">Fraktur Latin</script>
+			<script type="Latg">Gaelic Latin</script>
 			<script type="Latn">Latin</script>
-			<script type="Lepc">Lepcha (Róng)</script>
+			<script type="Lepc">Lepcha</script>
 			<script type="Limb">Limbu</script>
 			<script type="Lina">Linear A</script>
 			<script type="Linb">Linear B</script>
@@ -568,10 +643,12 @@
 			<script type="Mero">Meroitic</script>
 			<script type="Mlym">Malayalam</script>
 			<script type="Mong">Mongolian</script>
+			<script type="Moon">Moon</script>
+			<script type="Mtei">Meitei Mayek</script>
 			<script type="Mymr">Myanmar</script>
 			<script type="Nkoo">N’Ko</script>
 			<script type="Ogam">Ogham</script>
-			<script type="Olck">Ol Chiki</script>		
+			<script type="Olck">Ol Chiki</script>
 			<script type="Orkh">Orkhon</script>
 			<script type="Orya">Oriya</script>
 			<script type="Osma">Osmanya</script>
@@ -588,22 +665,22 @@
 			<script type="Sgnw">SignWriting</script>
 			<script type="Shaw">Shavian</script>
 			<script type="Sinh">Sinhala</script>
-			<script type="Sund">Sundanese</script> 
+			<script type="Sund">Sundanese</script>
 			<script type="Sylo">Syloti Nagri</script>
 			<script type="Syrc">Syriac</script>
-			<script type="Syre">Syriac (Estrangelo variant)</script>
-			<script type="Syrj">Syriac (Western variant)</script>
-			<script type="Syrn">Syriac (Eastern variant)</script>
+			<script type="Syre">Estrangelo Syriac</script>
+			<script type="Syrj">Western Syriac</script>
+			<script type="Syrn">Eastern Syriac</script>
 			<script type="Tagb">Tagbanwa</script>
 			<script type="Tale">Tai Le</script>
 			<script type="Talu">New Tai Lue</script>
 			<script type="Taml">Tamil</script>
 			<script type="Telu">Telugu</script>
 			<script type="Teng">Tengwar</script>
-			<script type="Tfng">Tifinagh (Berber)</script>
+			<script type="Tfng">Tifinagh</script>
 			<script type="Tglg">Tagalog</script>
 			<script type="Thaa">Thaana</script>
-			<script type="Thai" references="R1">Thai</script>
+			<script type="Thai" references="R035">Thai</script>
 			<script type="Tibt">Tibetan</script>
 			<script type="Ugar">Ugaritic</script>
 			<script type="Vaii">Vai</script>
@@ -612,8 +689,10 @@
 			<script type="Xsux">Sumero-Akkadian Cuneiform</script>
 			<script type="Yiii">Yi</script>
 			<script type="Zxxx">Unwritten</script>
+			<script type="Zxxx" alt="proposed-x1001" draft="unconfirmed">unwritten</script>
 			<script type="Zyyy">Common</script>
 			<script type="Zzzz">Unknown or Invalid Script</script>
+			<script type="Zzzz" alt="proposed-x1001" draft="unconfirmed">unknown or invalid script</script>
 		</scripts>
 		<territories>
 			<territory type="001">World</territory>
@@ -689,10 +768,10 @@
 			<territory type="BY">Belarus</territory>
 			<territory type="BZ">Belize</territory>
 			<territory type="CA">Canada</territory>
-			<territory type="CC">Cocos (Keeling) Islands</territory>
-			<territory type="CD">Congo (Kinshasa)</territory>
+			<territory type="CC">Cocos Islands</territory>
+			<territory type="CD">Congo - Kinshasa</territory>
 			<territory type="CF">Central African Republic</territory>
-			<territory type="CG">Congo (Brazzaville)</territory>
+			<territory type="CG">Congo - Brazzaville</territory>
 			<territory type="CH">Switzerland</territory>
 			<territory type="CI">Ivory Coast</territory>
 			<territory type="CK">Cook Islands</territory>
@@ -701,7 +780,7 @@
 			<territory type="CN">China</territory>
 			<territory type="CO">Colombia</territory>
 			<territory type="CR">Costa Rica</territory>
-			<territory type="CS">Serbia And Montenegro</territory>
+			<territory type="CS">Serbia and Montenegro</territory>
 			<territory type="CT">Canton and Enderbury Islands</territory>
 			<territory type="CU">Cuba</territory>
 			<territory type="CV">Cape Verde</territory>
@@ -750,6 +829,7 @@
 			<territory type="GW">Guinea-Bissau</territory>
 			<territory type="GY">Guyana</territory>
 			<territory type="HK">Hong Kong SAR China</territory>
+			<territory type="HK" alt="short">Hong Kong</territory>
 			<territory type="HM">Heard Island and McDonald Islands</territory>
 			<territory type="HN">Honduras</territory>
 			<territory type="HR">Croatia</territory>
@@ -804,6 +884,7 @@
 			<territory type="MM">Myanmar</territory>
 			<territory type="MN">Mongolia</territory>
 			<territory type="MO">Macao SAR China</territory>
+			<territory type="MO" alt="short">Macao</territory>
 			<territory type="MP">Northern Mariana Islands</territory>
 			<territory type="MQ">Martinique</territory>
 			<territory type="MR">Mauritania</territory>
@@ -919,42 +1000,51 @@
 		<variants>
 			<variant type="1901">Traditional German orthography</variant>
 			<variant type="1996">German orthography of 1996</variant>
-			<variant type="BOONT">Boontling</variant>
+			<variant type="1606NICT">Late Middle French to 1606</variant>
 			<variant type="AREVELA">Eastern Armenian</variant>
-			<variant type="AREVMDA">Western Armenian</variant>
+			<variant type="BAKU1926">Unified Turkic Latin Alphabet</variant>
+			<variant type="BISKE">San Giorgio/Bila dialect</variant>
+			<variant type="BOONT">Boontling</variant>
+			<variant type="FONIPA">IPA Phonetics</variant>
+			<variant type="FONUPA">UPA Phonetics</variant>
 			<variant type="GAULISH">Gaulish</variant>
 			<variant type="GUOYU">Mandarin or Standard Chinese</variant>
 			<variant type="HAKKA">Hakka</variant>
 			<variant type="LOJBAN">Lojban</variant>
+			<variant type="MONOTON">Monotonic</variant>
 			<variant type="NEDIS">Natisone dialect</variant>
-			<variant type="POLYTONI">Polytonic</variant>
+			<variant type="NJIVA">Gniva/Njiva dialect</variant>
+			<variant type="OSOJS">Oseacco/Osojane dialect</variant>
+			<variant type="POLYTON">Polytonic</variant>
 			<variant type="POSIX">Computer</variant>
 			<variant type="REVISED">Revised Orthography</variant>
 			<variant type="ROZAJ">Resian</variant>
 			<variant type="SAAHO">Saho</variant>
 			<variant type="SCOUSE">Scouse</variant>
+			<variant type="SOLBA">Stolvizza/Solbica dialect</variant>
+			<variant type="TARASK">Taraskievica orthography</variant>
 			<variant type="XIANG">Xiang or Hunanese</variant>
 		</variants>
 		<keys>
-			<key type="calendar">Calendar</key>
-			<key type="collation">Collation</key>
-			<key type="currency">Currency</key>
+			<key type="calendar" alt="proposed-x1001" draft="unconfirmed">Calendar</key>
+			<key type="collation" alt="proposed-x1001" draft="unconfirmed">Collation</key>
+			<key type="currency" alt="proposed-x1001" draft="unconfirmed">Currency</key>
 		</keys>
 		<types>
-			<type type="big5han" key="collation">Traditional Chinese (Big5)</type>
+			<type type="big5han" key="collation">Traditional Chinese Sort Order - Big5</type>
 			<type type="buddhist" key="calendar">Buddhist Calendar</type>
 			<type type="chinese" key="calendar">Chinese Calendar</type>
-			<type type="direct" key="collation">Direct Order</type>
-			<type type="gb2312han" key="collation">Simplified Chinese (GB2312)</type>
+			<type type="direct" key="collation">Direct Sort Order</type>
+			<type type="gb2312han" key="collation">Simplified Chinese Sort Order - GB2312</type>
 			<type type="gregorian" key="calendar">Gregorian Calendar</type>
 			<type type="hebrew" key="calendar">Hebrew Calendar</type>
 			<type type="islamic" key="calendar">Islamic Calendar</type>
 			<type type="islamic-civil" key="calendar">Islamic-Civil Calendar</type>
 			<type type="japanese" key="calendar">Japanese Calendar</type>
-			<type type="phonebook" key="collation">Phonebook Order</type>
-			<type type="pinyin" key="collation">Pinyin Order</type>
-			<type type="stroke" key="collation">Stroke Order</type>
-			<type type="traditional" key="collation">Traditional</type>
+			<type type="phonebook" key="collation">Phonebook Sort Order</type>
+			<type type="pinyin" key="collation">Pinyin Sort Order</type>
+			<type type="stroke" key="collation">Stroke Sort Order</type>
+			<type type="traditional" key="collation">Traditional Sort Order</type>
 		</types>
 	</localeDisplayNames>
 	<characters>
@@ -1047,6 +1137,12 @@
 				</days>
 				<quarters>
 					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">Q1</quarter>
+							<quarter type="2">Q2</quarter>
+							<quarter type="3">Q3</quarter>
+							<quarter type="4">Q4</quarter>
+						</quarterWidth>
 						<quarterWidth type="wide">
 							<quarter type="1">1st quarter</quarter>
 							<quarter type="2">2nd quarter</quarter>
@@ -1055,6 +1151,8 @@
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
+				<am>AM</am>
+				<pm>PM</pm>
 				<eras>
 					<eraNames>
 						<era type="0">Before Christ</era>
@@ -1110,15 +1208,28 @@
 					</timeFormatLength>
 				</timeFormats>
 				<dateTimeFormats>
+					<dateTimeFormatLength>
+						<dateTimeFormat>
+							<pattern>{1} {0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
 					<availableFormats>
-						<dateFormatItem id="HHmm" draft="provisional">HH:mm</dateFormatItem>
-						<dateFormatItem id="HHmmss" draft="provisional">HH:mm:ss</dateFormatItem>
-						<dateFormatItem id="MMMMd" draft="provisional">MMMM d</dateFormatItem>
-						<dateFormatItem id="Md" draft="provisional">M/d</dateFormatItem>
-						<dateFormatItem id="mmss" draft="provisional">mm:ss</dateFormatItem>
-						<dateFormatItem id="yyMM" draft="provisional">MM/yy</dateFormatItem>
-						<dateFormatItem id="yyQQQQ" draft="provisional">QQQQ yy</dateFormatItem>
-						<dateFormatItem id="yyyyMMM" draft="provisional">MMM yyyy</dateFormatItem>
+						<dateFormatItem id="HHmm">HH:mm</dateFormatItem>
+						<dateFormatItem id="HHmmss">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
+						<dateFormatItem id="MMMMdd" draft="unconfirmed">dd MMMM</dateFormatItem>
+						<dateFormatItem id="MMMd" draft="unconfirmed">d-MMM</dateFormatItem>
+						<dateFormatItem id="MMMdd" draft="unconfirmed">dd MMM</dateFormatItem>
+						<dateFormatItem id="MMd" draft="unconfirmed">d/MM</dateFormatItem>
+						<dateFormatItem id="Md">M/d</dateFormatItem>
+						<dateFormatItem id="hhmm" draft="unconfirmed">hh:mm a</dateFormatItem>
+						<dateFormatItem id="hhmmss" draft="unconfirmed">hh:mm:ss a</dateFormatItem>
+						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
+						<dateFormatItem id="yyMM">MM/yy</dateFormatItem>
+						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
+						<dateFormatItem id="yyQQQQ">QQQQ yy</dateFormatItem>
+						<dateFormatItem id="yyyyM" draft="unconfirmed">M/yyyy</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">MMM yyyy</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 				<fields>
@@ -1134,173 +1245,103 @@
 			</calendar>
 		</calendars>
 		<timeZoneNames>
-			<zone type="America/Vancouver">
-				<long>
-					<generic>Pacific Time (CA)</generic>
-					<standard>Pacific Standard Time (CA)</standard>
-					<daylight>Pacific Daylight Time (CA)</daylight>
-				</long>
-				<short>
-					<generic>PT (CA)</generic>
-					<standard>PST (CA)</standard>
-					<daylight>PDT (CA)</daylight>
-				</short>
+			<hourFormat>+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat>{0} Time</regionFormat>
+			<zone type="Etc/Unknown">
+				<exemplarCity>Unknown</exemplarCity>
 			</zone>
-			<zone type="America/Edmonton">
-				<long>
-					<generic>Mountain Time (CA)</generic>
-					<standard>Mountain Standard Time (CA)</standard>
-					<daylight>Mountain Daylight Time (CA)</daylight>
-				</long>
-				<short>
-					<generic>MT (CA)</generic>
-					<standard>MST (CA)</standard>
-					<daylight>MDT (CA)</daylight>
-				</short>
-			</zone>
-			<zone type="America/Winnipeg">
-				<long>
-					<generic>Central Time (CA)</generic>
-					<standard>Central Standard Time (CA)</standard>
-					<daylight>Central Daylight Time (CA)</daylight>
-				</long>
-				<short>
-					<generic>CT (CA)</generic>
-					<standard>CST (CA)</standard>
-					<daylight>CDT (CA)</daylight>
-				</short>
-			</zone>
-			<zone type="America/Montreal">
-				<long>
-					<generic>Eastern Time (CA)</generic>
-					<standard>Eastern Standard Time (CA)</standard>
-					<daylight>Eastern Daylight Time (CA)</daylight>
-				</long>
-				<short>
-					<generic>ET (CA)</generic>
-					<standard>EST (CA)</standard>
-					<daylight>EDT (CA)</daylight>
-				</short>
-			</zone>
-			<zone type="America/Halifax">
-				<long>
-					<generic>Atlantic Time</generic>
-					<standard>Atlantic Standard Time</standard>
-					<daylight>Atlantic Daylight Time</daylight>
-				</long>
-				<short>
-					<generic>AT</generic>
-					<standard>AST</standard>
-					<daylight>ADT</daylight>
-				</short>
+			<zone type="Antarctica/DumontDUrville">
+				<exemplarCity>Dumont-d'Urville</exemplarCity>
 			</zone>
 			<zone type="America/St_Johns">
-				<long>
-					<generic>Newfoundland Time</generic>
-					<standard>Newfoundland Standard Time</standard>
-					<daylight>Newfoundland Daylight Time</daylight>
-				</long>
-				<short>
-					<generic>NT</generic>
-					<standard>NST</standard>
-					<daylight>NDT</daylight>
-				</short>
 				<exemplarCity>St. John’s</exemplarCity>
-			</zone>
-			<zone type="Asia/Shanghai">
-				<long>
-					<standard>China Standard Time</standard>
-					<daylight>China Daylight Time</daylight>
-				</long>
-			</zone>
-			<zone type="Europe/Paris">
-				<long>
-					<generic>Central European Time</generic>
-					<standard>Central European Standard Time</standard>
-					<daylight>Central European Daylight Time</daylight>
-				</long>
-				<short>
-					<generic>CET</generic>
-					<standard>CEST</standard>
-					<daylight>CEDT</daylight>
-				</short>
-				<exemplarCity>Paris</exemplarCity>
 			</zone>
 			<zone type="Europe/London">
 				<long>
-					<standard>Greenwich Mean Time</standard>
 					<daylight>British Summer Time</daylight>
 				</long>
 				<short>
-					<standard>GMT</standard>
 					<daylight>BST</daylight>
 				</short>
 			</zone>
 			<zone type="Europe/Dublin">
 				<long>
-					<standard>Greenwich Mean Time</standard>
 					<daylight>Irish Summer Time</daylight>
 				</long>
 				<short>
-					<standard>GMT</standard>
-					<daylight>IST</daylight>
+					<daylight>IST (Irish)</daylight>
 				</short>
-				<exemplarCity>Dublin</exemplarCity>
 			</zone>
-			<!-- Note: the following is known to be sparse, and needs to be improved in the future -->
-			<zone type="Asia/Jerusalem">
+			<metazone type="Acre">
 				<long>
-					<standard>Israel Standard Time</standard>
-					<daylight>Israel Daylight Time</daylight>
-				</long>
-				<exemplarCity>Jerusalem</exemplarCity>
-			</zone>
-			<zone type="Asia/Tokyo">
-				<long>
-					<standard>Japan Standard Time</standard>
-					<daylight>Japan Daylight Time</daylight>
+					<standard>Acre Time</standard>
+					<daylight>Acre Summer Time</daylight>
 				</long>
 				<short>
-					<standard>JST</standard>
-					<daylight>JDT</daylight>
+					<standard>ACT</standard>
+					<daylight>ACST</daylight>
 				</short>
-				<exemplarCity>Tokyo</exemplarCity>
-			</zone>
-			<zone type="Europe/Bucharest">
+			</metazone>
+			<metazone type="Afghanistan">
 				<long>
-					<standard>Eastern European Standard Time</standard>
-					<daylight>Eastern European Daylight Time</daylight>
+					<standard>Afghanistan Time</standard>
 				</long>
 				<short>
-					<standard>EET</standard>
-					<daylight>EEST</daylight>
+					<standard>AFT</standard>
 				</short>
-				<exemplarCity>Bucharest</exemplarCity>
-			</zone>
-			<zone type="Asia/Singapore">
+			</metazone>
+			<metazone type="Africa_Central">
 				<long>
-					<standard>Singapore Standard Time</standard>
-					<daylight>Singapore Standard Time</daylight>
+					<standard>Central Africa Time</standard>
 				</long>
 				<short>
-					<standard>SST</standard>
-					<daylight>SST</daylight>
+					<standard>CAT</standard>
 				</short>
-				<exemplarCity>Singapore</exemplarCity>
-			</zone>
-			<zone type="Pacific/Honolulu">
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Africa_Eastern">
 				<long>
-					<generic>Hawaii Time</generic>
-					<standard>Hawaii Standard Time</standard>
-					<daylight>Hawaii Daylight Time</daylight>
+					<standard>East Africa Time</standard>
 				</long>
 				<short>
-					<generic>HT</generic>
-					<standard>HST</standard>
-					<daylight>HDT</daylight>
+					<standard>EAT</standard>
 				</short>
-			</zone>
-			<zone type="America/Anchorage">
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Africa_Southern">
+				<long>
+					<generic>South Africa Time</generic>
+					<standard>South Africa Standard Time</standard>
+				</long>
+				<short>
+					<generic>SAT</generic>
+					<standard>SAST</standard>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Africa_Western">
+				<long>
+					<standard>West Africa Time</standard>
+					<daylight>West Africa Summer Time</daylight>
+				</long>
+				<short>
+					<standard>WAT</standard>
+					<daylight>WAST</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Aktyubinsk">
+				<long>
+					<standard>Aktyubinsk Time</standard>
+					<daylight>Aktyubinsk Summer Time</daylight>
+				</long>
+				<short>
+					<standard>AKTT</standard>
+					<daylight>AKTST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Alaska">
 				<long>
 					<generic>Alaska Time</generic>
 					<standard>Alaska Standard Time</standard>
@@ -1309,34 +1350,43 @@
 				<short>
 					<generic>AKT</generic>
 					<standard>AKST</standard>
+					<daylight>AKDT</daylight>
 				</short>
-			</zone>
-			<!-- Note: zones that don't use daylight time need further work -->
-			<zone type="America/Los_Angeles">
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Alaska_Hawaii">
 				<long>
-					<generic>Pacific Time</generic>
-					<standard>Pacific Standard Time</standard>
-					<daylight>Pacific Daylight Time</daylight>
+					<generic>Alaska-Hawaii Time</generic>
+					<standard>Alaska-Hawaii Standard Time</standard>
+					<daylight>Alaska-Hawaii Daylight Time</daylight>
 				</long>
 				<short>
-					<generic>PT</generic>
-					<standard>PST</standard>
-					<daylight>PDT</daylight>
+					<generic>AHT</generic>
+					<standard>AHST</standard>
+					<daylight>AHDT</daylight>
 				</short>
-			</zone>
-			<zone type="America/Denver">
+			</metazone>
+			<metazone type="Almaty">
 				<long>
-					<generic>Mountain Time</generic>
-					<standard>Mountain Standard Time</standard>
-					<daylight>Mountain Daylight Time</daylight>
+					<standard>Almaty Time</standard>
+					<daylight>Almaty Summer Time</daylight>
 				</long>
 				<short>
-					<generic>MT</generic>
-					<standard>MST</standard>
-					<daylight>MDT</daylight>
+					<standard>ALMT</standard>
+					<daylight>ALMST</daylight>
 				</short>
-			</zone>
-			<zone type="America/Chicago">
+			</metazone>
+			<metazone type="Amazon">
+				<long>
+					<standard>Amazon Time</standard>
+					<daylight>Amazon Summer Time</daylight>
+				</long>
+				<short>
+					<standard>AMT</standard>
+					<daylight>AMST</daylight>
+				</short>
+			</metazone>
+			<metazone type="America_Central">
 				<long>
 					<generic>Central Time</generic>
 					<standard>Central Standard Time</standard>
@@ -1347,8 +1397,9 @@
 					<standard>CST</standard>
 					<daylight>CDT</daylight>
 				</short>
-			</zone>
-			<zone type="America/New_York">
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="America_Eastern">
 				<long>
 					<generic>Eastern Time</generic>
 					<standard>Eastern Standard Time</standard>
@@ -1359,14 +1410,1603 @@
 					<standard>EST</standard>
 					<daylight>EDT</daylight>
 				</short>
-			</zone>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="America_Mountain">
+				<long>
+					<generic>Mountain Time</generic>
+					<standard>Mountain Standard Time</standard>
+					<daylight>Mountain Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>MT</generic>
+					<standard>MST</standard>
+					<daylight>MDT</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="America_Pacific">
+				<long>
+					<generic>Pacific Time</generic>
+					<standard>Pacific Standard Time</standard>
+					<daylight>Pacific Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>PT</generic>
+					<standard>PST</standard>
+					<daylight>PDT</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Anadyr">
+				<long>
+					<standard>Anadyr Time</standard>
+					<daylight>Anadyr Summer Time</daylight>
+				</long>
+				<short>
+					<standard>ANAT</standard>
+					<daylight>ANAST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Aqtau">
+				<long>
+					<standard>Aqtau Time</standard>
+					<daylight>Aqtau Summer Time</daylight>
+				</long>
+				<short>
+					<standard>AQTT (Aqtau)</standard>
+					<daylight>AQTST (Aqtau)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Aqtobe">
+				<long>
+					<standard>Aqtobe Time</standard>
+					<daylight>Aqtobe Summer Time</daylight>
+				</long>
+				<short>
+					<standard>AQTT (Aqtobe)</standard>
+					<daylight>AQTST (Aqtobe)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Arabian">
+				<long>
+					<generic>Arabian Time</generic>
+					<standard>Arabian Standard Time</standard>
+					<daylight>Arabian Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>AT (Arabian)</generic>
+					<standard>AST (Arabian)</standard>
+					<daylight>ADT (Arabian)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Argentina">
+				<long>
+					<standard>Argentina Time</standard>
+					<daylight>Argentina Summer Time</daylight>
+				</long>
+				<short>
+					<standard>ART</standard>
+					<daylight>ARST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Argentina_Western">
+				<long>
+					<standard>Western Argentina Time</standard>
+				</long>
+				<short>
+					<standard>WART</standard>
+				</short>
+			</metazone>
+			<metazone type="Armenia">
+				<long>
+					<standard>Armenia Time</standard>
+					<daylight>Armenia Summer Time</daylight>
+				</long>
+				<short>
+					<standard>AMT (Armenia)</standard>
+					<daylight>AMST (Armenia)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Ashkhabad">
+				<long>
+					<standard>Ashkhabad Time</standard>
+					<daylight>Ashkhabad Summer Time</daylight>
+				</long>
+				<short>
+					<standard>ASHT</standard>
+					<daylight>ASHST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Atlantic">
+				<long>
+					<generic>Atlantic Time</generic>
+					<standard>Atlantic Standard Time</standard>
+					<daylight>Atlantic Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>AT</generic>
+					<standard>AST</standard>
+					<daylight>ADT</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Australia_Central">
+				<long>
+					<generic>Central Australia Time</generic>
+					<standard>Australian Central Standard Time</standard>
+					<daylight>Australian Central Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>ACT</generic>
+					<standard>ACST</standard>
+					<daylight>ACDT</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Australia_CentralWestern">
+				<long>
+					<generic>Australian Central Western Time</generic>
+					<generic alt="proposed-x1001" draft="unconfirmed">Central West Time</generic>
+					<standard>Australian Central Western Standard Time</standard>
+					<standard alt="proposed-x1001" draft="unconfirmed">Western Central Standard Time</standard>
+					<daylight>Australian Central Western Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>ACWT</generic>
+					<generic alt="proposed-x1001" draft="unconfirmed">CWT</generic>
+					<standard>ACWST</standard>
+					<standard alt="proposed-x1001" draft="unconfirmed">CWST</standard>
+					<daylight>ACWDT</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Australia_Eastern">
+				<long>
+					<generic>Eastern Australia Time</generic>
+					<standard>Australian Eastern Standard Time</standard>
+					<daylight>Australian Eastern Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>AET</generic>
+					<standard>AEST</standard>
+					<daylight>AEDT</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Australia_Western">
+				<long>
+					<generic>Western Australia Time</generic>
+					<standard>Australian Western Standard Time</standard>
+					<daylight>Australian Western Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>AWT</generic>
+					<standard>AWST</standard>
+					<daylight>AWDT</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Azerbaijan">
+				<long>
+					<standard>Azerbaijan Time</standard>
+					<daylight>Azerbaijan Summer Time</daylight>
+				</long>
+				<short>
+					<standard>AZT</standard>
+					<daylight>AZST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Azores">
+				<long>
+					<standard>Azores Time</standard>
+					<daylight>Azores Summer Time</daylight>
+				</long>
+				<short>
+					<standard>AZOT</standard>
+					<daylight>AZOST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Baku">
+				<long>
+					<standard>Baku Time</standard>
+					<daylight>Baku Summer Time</daylight>
+				</long>
+				<short>
+					<standard>BAKT</standard>
+					<daylight>BAKST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Bangladesh">
+				<long>
+					<standard>Bangladesh Time</standard>
+				</long>
+				<short>
+					<standard>BDT</standard>
+				</short>
+			</metazone>
+			<metazone type="Bering">
+				<long>
+					<generic>Bering Time</generic>
+					<standard>Bering Standard Time</standard>
+					<daylight>Bering Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>BT (Bering)</generic>
+					<standard>BST (Bering)</standard>
+					<daylight>BDT (Bering)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Bhutan">
+				<long>
+					<standard>Bhutan Time</standard>
+				</long>
+				<short>
+					<standard>BTT</standard>
+				</short>
+			</metazone>
+			<metazone type="Bolivia">
+				<long>
+					<standard>Bolivia Time</standard>
+				</long>
+				<short>
+					<standard>BOT</standard>
+				</short>
+			</metazone>
+			<metazone type="Borneo">
+				<long>
+					<standard>Borneo Time</standard>
+					<daylight>Borneo Summer Time</daylight>
+				</long>
+				<short>
+					<standard>BORT</standard>
+					<daylight>BORST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Brasilia">
+				<long>
+					<standard>Brasilia Time</standard>
+					<daylight>Brasilia Summer Time</daylight>
+				</long>
+				<short>
+					<standard>BRT</standard>
+					<daylight>BRST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Brunei">
+				<long>
+					<standard>Brunei Darussalam Time</standard>
+				</long>
+				<short>
+					<standard>BNT</standard>
+				</short>
+			</metazone>
+			<metazone type="Cape_Verde">
+				<long>
+					<standard>Cape Verde Time</standard>
+					<daylight>Cape Verde Summer Time</daylight>
+				</long>
+				<short>
+					<standard>CVT</standard>
+					<daylight>CVST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Chamorro">
+				<long>
+					<generic>Chamorro Time</generic>
+					<standard>Chamorro Standard Time</standard>
+				</long>
+				<short>
+					<generic>ChT</generic>
+					<standard>ChST</standard>
+				</short>
+			</metazone>
+			<metazone type="Changbai">
+				<long>
+					<standard>Changbai Time</standard>
+				</long>
+				<short>
+					<standard>CHAT</standard>
+				</short>
+			</metazone>
+			<metazone type="Chatham">
+				<long>
+					<standard>Chatham Standard Time</standard>
+					<daylight>Chatham Daylight Time</daylight>
+				</long>
+				<short>
+					<standard>CHAST</standard>
+					<daylight>CHADT</daylight>
+				</short>
+			</metazone>
+			<metazone type="Chile">
+				<long>
+					<standard>Chile Time</standard>
+					<daylight>Chile Summer Time</daylight>
+				</long>
+				<short>
+					<standard>CLT</standard>
+					<daylight>CLST</daylight>
+				</short>
+			</metazone>
+			<metazone type="China">
+				<long>
+					<generic>China Time</generic>
+					<standard>China Standard Time</standard>
+					<daylight>China Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>CT (China)</generic>
+					<standard>CST (China)</standard>
+					<daylight>CDT (China)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Choibalsan">
+				<long>
+					<standard>Choibalsan Time</standard>
+					<daylight>Choibalsan Summer Time</daylight>
+				</long>
+				<short>
+					<standard>CHOT</standard>
+					<daylight>CHOST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Christmas">
+				<long>
+					<standard>Christmas Island Time</standard>
+				</long>
+				<short>
+					<standard>CXT</standard>
+				</short>
+			</metazone>
+			<metazone type="Cocos">
+				<long>
+					<standard>Cocos Islands Time</standard>
+				</long>
+				<short>
+					<standard>CCT</standard>
+				</short>
+			</metazone>
+			<metazone type="Colombia">
+				<long>
+					<standard>Colombia Time</standard>
+					<daylight>Colombia Summer Time</daylight>
+				</long>
+				<short>
+					<standard>COT</standard>
+					<daylight>COST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Cook">
+				<long>
+					<standard>Cook Islands Time</standard>
+					<daylight>Cook Islands Half Summer Time</daylight>
+				</long>
+				<short>
+					<standard>CKT</standard>
+					<daylight>CKHST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Cuba">
+				<long>
+					<generic>Cuba Time</generic>
+					<standard>Cuba Standard Time</standard>
+					<daylight>Cuba Daylight Time</daylight>
+				</long>
+				<short>
+					<standard>CST (Cuba)</standard>
+					<daylight>CDT (Cuba)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Dacca">
+				<long>
+					<standard>Dacca Time</standard>
+				</long>
+				<short>
+					<standard>DACT</standard>
+				</short>
+			</metazone>
+			<metazone type="Davis">
+				<long>
+					<standard>Davis Time</standard>
+				</long>
+				<short>
+					<standard>DAVT</standard>
+				</short>
+			</metazone>
+			<metazone type="DumontDUrville">
+				<long>
+					<standard>Dumont-d'Urville Time</standard>
+				</long>
+				<short>
+					<standard>DDUT</standard>
+				</short>
+			</metazone>
+			<metazone type="Dushanbe">
+				<long>
+					<standard>Dushanbe Time</standard>
+					<daylight>Dushanbe Summer Time</daylight>
+				</long>
+				<short>
+					<standard>DUST</standard>
+					<daylight>DUSST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Dutch_Guiana">
+				<long>
+					<standard>Dutch Guiana Time</standard>
+				</long>
+				<short>
+					<standard>NEGT</standard>
+				</short>
+			</metazone>
+			<metazone type="East_Timor">
+				<long>
+					<standard>East Timor Time</standard>
+				</long>
+				<short>
+					<standard>TLT</standard>
+				</short>
+			</metazone>
+			<metazone type="Easter">
+				<long>
+					<standard>Easter Island Time</standard>
+					<daylight>Easter Island Summer Time</daylight>
+				</long>
+				<short>
+					<standard>EAST</standard>
+					<daylight>EASST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Ecuador">
+				<long>
+					<standard>Ecuador Time</standard>
+				</long>
+				<short>
+					<standard>ECT</standard>
+				</short>
+			</metazone>
+			<metazone type="Europe_Central">
+				<long>
+					<standard>Central European Time</standard>
+					<daylight>Central European Summer Time</daylight>
+				</long>
+				<short>
+					<standard>CET</standard>
+					<daylight>CEST</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Europe_Eastern">
+				<long>
+					<standard>Eastern European Time</standard>
+					<daylight>Eastern European Summer Time</daylight>
+				</long>
+				<short>
+					<standard>EET</standard>
+					<daylight>EEST</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Europe_Western">
+				<long>
+					<standard>Western European Time</standard>
+					<daylight>Western European Summer Time</daylight>
+				</long>
+				<short>
+					<standard>WET</standard>
+					<daylight>WEST</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Falkland">
+				<long>
+					<standard>Falkland Islands Time</standard>
+					<daylight>Falkland Islands Summer Time</daylight>
+				</long>
+				<short>
+					<standard>FKT</standard>
+					<daylight>FKST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Fiji">
+				<long>
+					<standard>Fiji Time</standard>
+					<daylight>Fiji Summer Time</daylight>
+				</long>
+				<short>
+					<standard>FJT</standard>
+					<daylight>FJST</daylight>
+				</short>
+			</metazone>
+			<metazone type="French_Guiana">
+				<long>
+					<standard>French Guiana Time</standard>
+				</long>
+				<short>
+					<standard>GFT</standard>
+				</short>
+			</metazone>
+			<metazone type="French_Southern">
+				<long>
+					<standard>French Southern and Antarctic Time</standard>
+				</long>
+				<short>
+					<standard>TFT</standard>
+				</short>
+			</metazone>
+			<metazone type="Frunze">
+				<long>
+					<standard>Frunze Time</standard>
+					<daylight>Frunze Summer Time</daylight>
+				</long>
+				<short>
+					<standard>FRUT</standard>
+					<daylight>FRUST</daylight>
+				</short>
+			</metazone>
+			<metazone type="GMT">
+				<long>
+					<standard>Greenwich Mean Time</standard>
+				</long>
+				<short>
+					<standard>GMT</standard>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Galapagos">
+				<long>
+					<standard>Galapagos Time</standard>
+				</long>
+				<short>
+					<standard>GALT</standard>
+				</short>
+			</metazone>
+			<metazone type="Gambier">
+				<long>
+					<standard>Gambier Time</standard>
+				</long>
+				<short>
+					<standard>GAMT</standard>
+				</short>
+			</metazone>
+			<metazone type="Georgia">
+				<long>
+					<standard>Georgia Time</standard>
+					<daylight>Georgia Summer Time</daylight>
+				</long>
+				<short>
+					<standard>GET</standard>
+					<daylight>GEST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Gilbert_Islands">
+				<long>
+					<standard>Gilbert Islands Time</standard>
+				</long>
+				<short>
+					<standard>GILT</standard>
+				</short>
+			</metazone>
+			<metazone type="Greenland_Central">
+				<long>
+					<standard>Central Greenland Time</standard>
+					<daylight>Central Greenland Summer Time</daylight>
+				</long>
+				<short>
+					<standard>CGT</standard>
+					<daylight>CGST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Greenland_Eastern">
+				<long>
+					<standard>East Greenland Time</standard>
+					<daylight>East Greenland Summer Time</daylight>
+				</long>
+				<short>
+					<standard>EGT</standard>
+					<daylight>EGST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Greenland_Western">
+				<long>
+					<standard>West Greenland Time</standard>
+					<daylight>West Greenland Summer Time</daylight>
+				</long>
+				<short>
+					<standard>WGT</standard>
+					<daylight>WGST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Guam">
+				<long>
+					<standard>Guam Standard Time</standard>
+				</long>
+				<short>
+					<standard>GST (Guam)</standard>
+				</short>
+			</metazone>
+			<metazone type="Gulf">
+				<long>
+					<generic>Gulf Time</generic>
+					<standard>Gulf Standard Time</standard>
+				</long>
+				<short>
+					<generic>GT</generic>
+					<standard>GST</standard>
+				</short>
+			</metazone>
+			<metazone type="Guyana">
+				<long>
+					<standard>Guyana Time</standard>
+				</long>
+				<short>
+					<standard>GYT</standard>
+				</short>
+			</metazone>
+			<metazone type="Hawaii">
+				<long>
+					<generic>Hawaii Time</generic>
+					<standard>Hawaii Standard Time</standard>
+					<daylight>Hawaii Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>HT</generic>
+					<standard>HST</standard>
+					<daylight>HDT</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Hawaii_Aleutian">
+				<long>
+					<generic>Hawaii-Aleutian Time</generic>
+					<standard>Hawaii-Aleutian Standard Time</standard>
+					<daylight>Hawaii-Aleutian Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>HAT</generic>
+					<standard>HAST</standard>
+					<daylight>HADT</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Hong_Kong">
+				<long>
+					<standard>Hong Kong Time</standard>
+					<daylight>Hong Kong Summer Time</daylight>
+				</long>
+				<short>
+					<standard>HKT</standard>
+					<daylight>HKST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Hovd">
+				<long>
+					<standard>Hovd Time</standard>
+					<daylight>Hovd Summer Time</daylight>
+				</long>
+				<short>
+					<standard>HOVT</standard>
+					<daylight>HOVST</daylight>
+				</short>
+			</metazone>
+			<metazone type="India">
+				<long>
+					<standard>India Standard Time</standard>
+				</long>
+				<short>
+					<standard>IST</standard>
+				</short>
+			</metazone>
+			<metazone type="Indian_Ocean">
+				<long>
+					<standard>Indian Ocean Time</standard>
+				</long>
+				<short>
+					<standard>IOT</standard>
+				</short>
+			</metazone>
+			<metazone type="Indochina">
+				<long>
+					<standard>Indochina Time</standard>
+				</long>
+				<short>
+					<standard>ICT</standard>
+				</short>
+			</metazone>
+			<metazone type="Indonesia_Central">
+				<long>
+					<standard>Central Indonesia Time</standard>
+				</long>
+				<short>
+					<standard>CIT</standard>
+				</short>
+			</metazone>
+			<metazone type="Indonesia_Eastern">
+				<long>
+					<standard>Eastern Indonesia Time</standard>
+				</long>
+				<short>
+					<standard>EIT</standard>
+				</short>
+			</metazone>
+			<metazone type="Indonesia_Western">
+				<long>
+					<standard>Western Indonesia Time</standard>
+				</long>
+				<short>
+					<standard>WIT</standard>
+				</short>
+			</metazone>
+			<metazone type="Iran">
+				<long>
+					<standard>Iran Standard Time</standard>
+					<daylight>Iran Daylight Time</daylight>
+				</long>
+				<short>
+					<standard>IRST</standard>
+					<daylight>IRDT</daylight>
+				</short>
+			</metazone>
+			<metazone type="Irkutsk">
+				<long>
+					<standard>Irkutsk Time</standard>
+					<daylight>Irkutsk Summer Time</daylight>
+				</long>
+				<short>
+					<standard>IRKT</standard>
+					<daylight>IRKST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Israel">
+				<long>
+					<generic>Israel Time</generic>
+					<standard>Israel Standard Time</standard>
+					<daylight>Israel Daylight Time</daylight>
+				</long>
+				<short>
+					<standard>IST (Israel)</standard>
+					<daylight>IDT</daylight>
+				</short>
+			</metazone>
+			<metazone type="Japan">
+				<long>
+					<generic>Japan Time</generic>
+					<standard>Japan Standard Time</standard>
+					<daylight>Japan Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>JT</generic>
+					<standard>JST</standard>
+					<daylight>JDT</daylight>
+				</short>
+			</metazone>
+			<metazone type="Kamchatka">
+				<long>
+					<standard>Petropavlovsk-Kamchatski Time</standard>
+					<daylight>Petropavlovsk-Kamchatski Summer Time</daylight>
+				</long>
+				<short>
+					<standard>PETT</standard>
+					<daylight>PETST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Karachi">
+				<long>
+					<standard>Karachi Time</standard>
+				</long>
+				<short>
+					<standard>KART</standard>
+				</short>
+			</metazone>
+			<metazone type="Kashgar">
+				<long>
+					<standard>Kashgar Time</standard>
+				</long>
+				<short>
+					<standard>KAST</standard>
+				</short>
+			</metazone>
+			<metazone type="Kazakhstan_Eastern">
+				<long>
+					<generic>East Kazakhstan Time</generic>
+					<standard>East Kazakhstan Standard Time</standard>
+				</long>
+				<short>
+					<standard>EKST</standard>
+				</short>
+			</metazone>
+			<metazone type="Kazakhstan_Western">
+				<long>
+					<generic>West Kazakhstan Time</generic>
+					<standard>West Kazakhstan Standard Time</standard>
+				</long>
+				<short>
+					<standard>WKST</standard>
+				</short>
+			</metazone>
+			<metazone type="Kizilorda">
+				<long>
+					<standard>Kizilorda Time</standard>
+					<daylight>Kizilorda Summer Time</daylight>
+				</long>
+				<short>
+					<standard>KIZT</standard>
+					<daylight>KIZST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Korea">
+				<long>
+					<generic>Korean Time</generic>
+					<standard>Korean Standard Time</standard>
+					<daylight>Korean Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>KT</generic>
+					<standard>KST</standard>
+					<daylight>KDT</daylight>
+				</short>
+			</metazone>
+			<metazone type="Kosrae">
+				<long>
+					<standard>Kosrae Time</standard>
+				</long>
+				<short>
+					<standard>KOST</standard>
+				</short>
+			</metazone>
+			<metazone type="Krasnoyarsk">
+				<long>
+					<standard>Krasnoyarsk Time</standard>
+					<daylight>Krasnoyarsk Summer Time</daylight>
+				</long>
+				<short>
+					<standard>KRAT</standard>
+					<daylight>KRAST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Kuybyshev">
+				<long>
+					<standard>Kuybyshev Time</standard>
+					<daylight>Kuybyshev Summer Time</daylight>
+				</long>
+				<short>
+					<standard>KUYT</standard>
+					<daylight>KUYST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Kwajalein">
+				<long>
+					<standard>Kwajalein Time</standard>
+				</long>
+				<short>
+					<standard>KWAT</standard>
+				</short>
+			</metazone>
+			<metazone type="Kyrgystan">
+				<long>
+					<standard>Kyrgystan Time</standard>
+				</long>
+				<short>
+					<standard>KGT</standard>
+				</short>
+			</metazone>
+			<metazone type="Lanka">
+				<long>
+					<standard>Lanka Time</standard>
+				</long>
+				<short>
+					<standard>LKT</standard>
+				</short>
+			</metazone>
+			<metazone type="Line_Islands">
+				<long>
+					<standard>Line Islands Time</standard>
+				</long>
+				<short>
+					<standard>LINT</standard>
+				</short>
+			</metazone>
+			<metazone type="Long_Shu">
+				<long>
+					<standard>Long-Shu Time</standard>
+				</long>
+				<short>
+					<standard>LONT</standard>
+				</short>
+			</metazone>
+			<metazone type="Lord_Howe">
+				<long>
+					<generic>Lord Howe Time</generic>
+					<standard>Lord Howe Standard Time</standard>
+					<daylight>Lord Howe Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>LHT</generic>
+					<standard>LHST</standard>
+					<standard alt="proposed-x1001" draft="unconfirmed">LHDT</standard>
+					<daylight>LHDT</daylight>
+				</short>
+			</metazone>
+			<metazone type="Macau">
+				<long>
+					<standard>Macau Time</standard>
+					<daylight>Macau Summer Time</daylight>
+				</long>
+				<short>
+					<standard>MOT</standard>
+					<daylight>MOST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Magadan">
+				<long>
+					<standard>Magadan Time</standard>
+					<daylight>Magadan Summer Time</daylight>
+				</long>
+				<short>
+					<standard>MAGT</standard>
+					<daylight>MAGST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Malaya">
+				<long>
+					<standard>Malaya Time</standard>
+				</long>
+				<short>
+					<standard>MALT</standard>
+				</short>
+			</metazone>
+			<metazone type="Malaysia">
+				<long>
+					<standard>Malaysia Time</standard>
+				</long>
+				<short>
+					<standard>MYT</standard>
+				</short>
+			</metazone>
+			<metazone type="Maldives">
+				<long>
+					<standard>Maldives Time</standard>
+				</long>
+				<short>
+					<standard>MVT</standard>
+				</short>
+			</metazone>
+			<metazone type="Marquesas">
+				<long>
+					<standard>Marquesas Time</standard>
+				</long>
+				<short>
+					<standard>MART</standard>
+				</short>
+			</metazone>
+			<metazone type="Marshall_Islands">
+				<long>
+					<standard>Marshall Islands Time</standard>
+				</long>
+				<short>
+					<standard>MHT</standard>
+				</short>
+			</metazone>
+			<metazone type="Mauritius">
+				<long>
+					<standard>Mauritius Time</standard>
+				</long>
+				<short>
+					<standard>MUT</standard>
+				</short>
+			</metazone>
+			<metazone type="Mawson">
+				<long>
+					<standard>Mawson Time</standard>
+				</long>
+				<short>
+					<standard>MAWT</standard>
+				</short>
+			</metazone>
+			<metazone type="Mongolia">
+				<long>
+					<standard>Ulan Bator Time</standard>
+					<daylight>Ulan Bator Summer Time</daylight>
+				</long>
+				<short>
+					<standard>ULAT</standard>
+					<daylight>ULAST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Moscow">
+				<long>
+					<generic>Moscow Time</generic>
+					<standard>Moscow Standard Time</standard>
+					<daylight>Moscow Summer Time</daylight>
+				</long>
+				<short>
+					<standard>MSK</standard>
+					<daylight>MSKS</daylight>
+				</short>
+			</metazone>
+			<metazone type="Myanmar">
+				<long>
+					<standard>Myanmar Time</standard>
+				</long>
+				<short>
+					<standard>MMT</standard>
+				</short>
+			</metazone>
+			<metazone type="Nauru">
+				<long>
+					<standard>Nauru Time</standard>
+				</long>
+				<short>
+					<standard>NRT</standard>
+				</short>
+			</metazone>
+			<metazone type="Nepal">
+				<long>
+					<standard>Nepal Time</standard>
+				</long>
+				<short>
+					<standard>NPT</standard>
+				</short>
+			</metazone>
+			<metazone type="New_Caledonia">
+				<long>
+					<standard>New Caledonia Time</standard>
+					<daylight>New Caledonia Summer Time</daylight>
+				</long>
+				<short>
+					<standard>NCT</standard>
+					<daylight>NCST</daylight>
+				</short>
+			</metazone>
+			<metazone type="New_Zealand">
+				<long>
+					<generic>New Zealand Time</generic>
+					<standard>New Zealand Standard Time</standard>
+					<daylight>New Zealand Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>NZT</generic>
+					<standard>NZST</standard>
+					<daylight>NZDT</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Newfoundland">
+				<long>
+					<generic>Newfoundland Time</generic>
+					<standard>Newfoundland Standard Time</standard>
+					<daylight>Newfoundland Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>NT</generic>
+					<standard>NST</standard>
+					<daylight>NDT</daylight>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
+			</metazone>
+			<metazone type="Niue">
+				<long>
+					<standard>Niue Time</standard>
+				</long>
+				<short>
+					<standard>NUT</standard>
+				</short>
+			</metazone>
+			<metazone type="Norfolk">
+				<long>
+					<standard>Norfolk Islands Time</standard>
+				</long>
+				<short>
+					<standard>NFT</standard>
+				</short>
+			</metazone>
+			<metazone type="Noronha">
+				<long>
+					<standard>Fernando de Noronha Time</standard>
+					<daylight>Fernando de Noronha Summer Time</daylight>
+				</long>
+				<short>
+					<standard>FNT</standard>
+					<daylight>FNST</daylight>
+				</short>
+			</metazone>
+			<metazone type="North_Mariana">
+				<long>
+					<standard>North Mariana Islands Time</standard>
+				</long>
+				<short>
+					<standard>MPT</standard>
+				</short>
+			</metazone>
+			<metazone type="Novosibirsk">
+				<long>
+					<standard>Novosibirsk Time</standard>
+					<daylight>Novosibirsk Summer Time</daylight>
+				</long>
+				<short>
+					<standard>NOVT</standard>
+					<daylight>NOVST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Omsk">
+				<long>
+					<standard>Omsk Time</standard>
+					<daylight>Omsk Summer Time</daylight>
+				</long>
+				<short>
+					<standard>OMST</standard>
+					<daylight>OMSST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Pakistan">
+				<long>
+					<standard>Pakistan Time</standard>
+					<daylight>Pakistan Summer Time</daylight>
+				</long>
+				<short>
+					<standard>PKT</standard>
+					<daylight>PKST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Palau">
+				<long>
+					<standard>Palau Time</standard>
+				</long>
+				<short>
+					<standard>PWT</standard>
+				</short>
+			</metazone>
+			<metazone type="Papua_New_Guinea">
+				<long>
+					<standard>Papua New Guinea Time</standard>
+				</long>
+				<short>
+					<standard>PGT</standard>
+				</short>
+			</metazone>
+			<metazone type="Paraguay">
+				<long>
+					<standard>Paraguay Time</standard>
+					<daylight>Paraguay Summer Time</daylight>
+				</long>
+				<short>
+					<standard>PYT</standard>
+					<daylight>PYST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Peru">
+				<long>
+					<standard>Peru Time</standard>
+					<daylight>Peru Summer Time</daylight>
+				</long>
+				<short>
+					<standard>PET</standard>
+					<daylight>PEST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Philippines">
+				<long>
+					<standard>Philippine Time</standard>
+					<daylight>Philippine Summer Time</daylight>
+				</long>
+				<short>
+					<standard>PHT</standard>
+					<daylight>PHST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Phoenix_Islands">
+				<long>
+					<standard>Phoenix Islands Time</standard>
+				</long>
+				<short>
+					<standard>PHOT</standard>
+				</short>
+			</metazone>
+			<metazone type="Pierre_Miquelon">
+				<long>
+					<generic>Pierre and Miquelon Time</generic>
+					<standard>Pierre and Miquelon Standard Time</standard>
+					<daylight>Pierre and Miquelon Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>PMT</generic>
+					<standard>PMST</standard>
+					<daylight>PMDT</daylight>
+				</short>
+			</metazone>
+			<metazone type="Pitcairn">
+				<long>
+					<standard>Pitcairn Time</standard>
+				</long>
+				<short>
+					<standard>PNT</standard>
+				</short>
+			</metazone>
+			<metazone type="Ponape">
+				<long>
+					<standard>Ponape Time</standard>
+				</long>
+				<short>
+					<standard>PONT</standard>
+				</short>
+			</metazone>
+			<metazone type="Qyzylorda">
+				<long>
+					<standard>Qyzylorda Time</standard>
+					<daylight>Qyzylorda Summer Time</daylight>
+				</long>
+				<short>
+					<standard>QYZT</standard>
+					<daylight>QYZST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Reunion">
+				<long>
+					<standard>Reunion Time</standard>
+				</long>
+				<short>
+					<standard>RET</standard>
+				</short>
+			</metazone>
+			<metazone type="Rothera">
+				<long>
+					<standard>Rothera Time</standard>
+				</long>
+				<short>
+					<standard>ROTT</standard>
+				</short>
+			</metazone>
+			<metazone type="Sakhalin">
+				<long>
+					<standard>Sakhalin Time</standard>
+					<daylight>Sakhalin Summer Time</daylight>
+				</long>
+				<short>
+					<standard>SAKT</standard>
+					<daylight>SAKST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Samara">
+				<long>
+					<standard>Samara Time</standard>
+					<daylight>Samara Summer Time</daylight>
+				</long>
+				<short>
+					<standard>SAMT</standard>
+					<daylight>SAMST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Samarkand">
+				<long>
+					<standard>Samarkand Time</standard>
+					<daylight>Samarkand Summer Time</daylight>
+				</long>
+				<short>
+					<standard>SAMT (Samarkand)</standard>
+					<daylight>SAMST (Samarkand)</daylight>
+				</short>
+			</metazone>
+			<metazone type="Samoa">
+				<long>
+					<standard>Samoa Standard Time</standard>
+				</long>
+				<short>
+					<standard>SST</standard>
+				</short>
+			</metazone>
+			<metazone type="Seychelles">
+				<long>
+					<standard>Seychelles Time</standard>
+				</long>
+				<short>
+					<standard>SCT</standard>
+				</short>
+			</metazone>
+			<metazone type="Shevchenko">
+				<long>
+					<standard>Shevchenko Time</standard>
+					<daylight>Shevchenko Summer Time</daylight>
+				</long>
+				<short>
+					<standard>SHET</standard>
+					<daylight>SHEST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Singapore">
+				<long>
+					<standard>Singapore Standard Time</standard>
+				</long>
+				<short>
+					<standard>SGT</standard>
+				</short>
+			</metazone>
+			<metazone type="Solomon">
+				<long>
+					<standard>Solomon Islands Time</standard>
+				</long>
+				<short>
+					<standard>SBT</standard>
+				</short>
+			</metazone>
+			<metazone type="South_Georgia">
+				<long>
+					<standard>South Georgia Time</standard>
+				</long>
+				<short>
+					<standard>GST (S. Georgia)</standard>
+				</short>
+			</metazone>
+			<metazone type="Suriname">
+				<long>
+					<standard>Suriname Time</standard>
+				</long>
+				<short>
+					<standard>SRT</standard>
+				</short>
+			</metazone>
+			<metazone type="Sverdlovsk">
+				<long>
+					<standard>Sverdlovsk Time</standard>
+					<daylight>Sverdlovsk Summer Time</daylight>
+				</long>
+				<short>
+					<standard>SVET</standard>
+					<daylight>SVEST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Syowa">
+				<long>
+					<standard>Syowa Time</standard>
+				</long>
+				<short>
+					<standard>SYOT</standard>
+				</short>
+			</metazone>
+			<metazone type="Tahiti">
+				<long>
+					<standard>Tahiti Time</standard>
+				</long>
+				<short>
+					<standard>TAHT</standard>
+				</short>
+			</metazone>
+			<metazone type="Tajikistan">
+				<long>
+					<standard>Tajikistan Time</standard>
+				</long>
+				<short>
+					<standard>TJT</standard>
+				</short>
+			</metazone>
+			<metazone type="Tashkent">
+				<long>
+					<standard>Tashkent Time</standard>
+					<daylight>Tashkent Summer Time</daylight>
+				</long>
+				<short>
+					<standard>TAST</standard>
+					<daylight>TASST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Tbilisi">
+				<long>
+					<standard>Tbilisi Time</standard>
+					<daylight>Tbilisi Summer Time</daylight>
+				</long>
+				<short>
+					<standard>TBIT</standard>
+					<daylight>TBIST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Tokelau">
+				<long>
+					<standard>Tokelau Time</standard>
+				</long>
+				<short>
+					<standard>TKT</standard>
+				</short>
+			</metazone>
+			<metazone type="Tonga">
+				<long>
+					<standard>Tonga Time</standard>
+					<daylight>Tonga Summer Time</daylight>
+				</long>
+				<short>
+					<standard>TOT</standard>
+					<daylight>TOST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Truk">
+				<long>
+					<standard>Truk Time</standard>
+				</long>
+				<short>
+					<standard>TRUT</standard>
+				</short>
+			</metazone>
+			<metazone type="Turkey">
+				<long>
+					<standard>Turkey Time</standard>
+					<daylight>Turkey Summer Time</daylight>
+				</long>
+				<short>
+					<standard>TRT</standard>
+					<daylight>TRST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Turkmenistan">
+				<long>
+					<standard>Turkmenistan Time</standard>
+					<daylight>Turkmenistan Summer Time</daylight>
+				</long>
+				<short>
+					<standard>TMT</standard>
+					<daylight>TMST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Tuvalu">
+				<long>
+					<standard>Tuvalu Time</standard>
+				</long>
+				<short>
+					<standard>TVT</standard>
+				</short>
+			</metazone>
+			<metazone type="Uralsk">
+				<long>
+					<standard>Ural'sk Time</standard>
+					<daylight>Ural'sk Summer Time</daylight>
+				</long>
+				<short>
+					<standard>URAT</standard>
+					<daylight>URAST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Uruguay">
+				<long>
+					<standard>Uruguay Time</standard>
+					<daylight>Uruguay Summer Time</daylight>
+				</long>
+				<short>
+					<standard>UYT</standard>
+					<daylight>UYST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Urumqi">
+				<long>
+					<standard>Urumqi Time</standard>
+				</long>
+				<short>
+					<standard>URUT</standard>
+				</short>
+			</metazone>
+			<metazone type="Uzbekistan">
+				<long>
+					<standard>Uzbekistan Time</standard>
+					<daylight>Uzbekistan Summer Time</daylight>
+				</long>
+				<short>
+					<standard>UZT</standard>
+					<daylight>UZST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Vanuatu">
+				<long>
+					<standard>Vanuatu Time</standard>
+					<daylight>Vanuatu Summer Time</daylight>
+				</long>
+				<short>
+					<standard>VUT</standard>
+					<daylight>VUST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Venezuela">
+				<long>
+					<standard>Venezuela Time</standard>
+				</long>
+				<short>
+					<standard>VET</standard>
+				</short>
+			</metazone>
+			<metazone type="Vladivostok">
+				<long>
+					<standard>Vladivostok Time</standard>
+					<daylight>Vladivostok Summer Time</daylight>
+				</long>
+				<short>
+					<standard>VLAT</standard>
+					<daylight>VLAST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Volgograd">
+				<long>
+					<standard>Volgograd Time</standard>
+					<daylight>Volgograd Summer Time</daylight>
+				</long>
+				<short>
+					<standard>VOLT</standard>
+					<daylight>VOLST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Vostok">
+				<long>
+					<standard>Vostok Time</standard>
+				</long>
+				<short>
+					<standard>VOST</standard>
+				</short>
+			</metazone>
+			<metazone type="Wake">
+				<long>
+					<standard>Wake Island Time</standard>
+				</long>
+				<short>
+					<standard>WAKT</standard>
+				</short>
+			</metazone>
+			<metazone type="Wallis">
+				<long>
+					<standard>Wallis and Futuna Time</standard>
+				</long>
+				<short>
+					<standard>WFT</standard>
+				</short>
+			</metazone>
+			<metazone type="Yakutsk">
+				<long>
+					<standard>Yakutsk Time</standard>
+					<daylight>Yakutsk Summer Time</daylight>
+				</long>
+				<short>
+					<standard>YAKT</standard>
+					<daylight>YAKST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Yekaterinburg">
+				<long>
+					<standard>Yekaterinburg Time</standard>
+					<daylight>Yekaterinburg Summer Time</daylight>
+				</long>
+				<short>
+					<standard>YEKT</standard>
+					<daylight>YEKST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Yerevan">
+				<long>
+					<standard>Yerevan Time</standard>
+					<daylight>Yerevan Summer Time</daylight>
+				</long>
+				<short>
+					<standard>YERT</standard>
+					<daylight>YERST</daylight>
+				</short>
+			</metazone>
+			<metazone type="Yukon">
+				<long>
+					<generic>Yukon Time</generic>
+					<standard>Yukon Standard Time</standard>
+					<daylight>Yukon Daylight Time</daylight>
+				</long>
+				<short>
+					<generic>YT</generic>
+					<standard>YST</standard>
+					<daylight>YDT</daylight>
+				</short>
+			</metazone>
 		</timeZoneNames>
 	</dates>
 	<numbers>
+		<symbols>
+			<decimal>.</decimal>
+			<group>,</group>
+		</symbols>
 		<currencyFormats>
 			<currencyFormatLength>
 				<currencyFormat>
-					<pattern>¤#,##0.00</pattern>
+					<pattern>¤#,##0.00;(¤#,##0.00)</pattern>
+					<pattern alt="proposed-x1001" draft="unconfirmed">¤#,##0.00</pattern>
 				</currencyFormat>
 			</currencyFormatLength>
 		</currencyFormats>
@@ -1502,7 +3142,6 @@
 			</currency>
 			<currency type="BRL">
 				<displayName>Brazilian Real</displayName>
-				<symbol>R$</symbol>
 			</currency>
 			<currency type="BRN">
 				<displayName>Brazilian Cruzado Novo</displayName>
@@ -1574,7 +3213,7 @@
 				<symbol>C</symbol>
 			</currency>
 			<currency type="CSD">
-				<displayName>Serbian Dinar</displayName>
+				<displayName>Old Serbian Dinar</displayName>
 			</currency>
 			<currency type="CSK">
 				<displayName>Czechoslovak Hard Koruna</displayName>
@@ -1665,6 +3304,7 @@
 			</currency>
 			<currency type="GBP">
 				<displayName>British Pound Sterling</displayName>
+				<symbol>£</symbol>
 			</currency>
 			<currency type="GEK">
 				<displayName>Georgian Kupon Larit</displayName>
@@ -1674,7 +3314,11 @@
 				<symbol>lari</symbol>
 			</currency>
 			<currency type="GHC">
+				<displayName>Ghana Cedi (1979-2007)</displayName>
+			</currency>
+			<currency type="GHS">
 				<displayName>Ghana Cedi</displayName>
+				<symbol>GH¢</symbol>
 			</currency>
 			<currency type="GIP">
 				<displayName>Gibraltar Pound</displayName>
@@ -1714,7 +3358,8 @@
 				<symbol>HK$</symbol>
 			</currency>
 			<currency type="HNL">
-				<displayName>Hoduras Lempira</displayName>
+				<displayName>Honduras Lempira</displayName>
+				<displayName alt="proposed-x1001" draft="unconfirmed">Hoduras Lempira</displayName>
 				<symbol>L</symbol>
 			</currency>
 			<currency type="HRD">
@@ -1760,6 +3405,7 @@
 			</currency>
 			<currency type="ITL">
 				<displayName>Italian Lira</displayName>
+				<symbol>₤</symbol>
 			</currency>
 			<currency type="JMD">
 				<displayName>Jamaican Dollar</displayName>
@@ -1771,6 +3417,7 @@
 			</currency>
 			<currency type="JPY">
 				<displayName>Japanese Yen</displayName>
+				<symbol>¥</symbol>
 			</currency>
 			<currency type="KES">
 				<displayName>Kenyan Shilling</displayName>
@@ -1925,7 +3572,7 @@
 				<displayName>Old Mozambique Metical</displayName>
 				<symbol>Mt</symbol>
 			</currency>
-				<currency type="MZN">
+			<currency type="MZN">
 				<displayName>Mozambique Metical</displayName>
 				<symbol>MTn</symbol>
 			</currency>
@@ -2007,11 +3654,14 @@
 			<currency type="ROL">
 				<displayName>Old Romanian Leu</displayName>
 				<!-- FYI Lei is the plural form of Leu. The currency symbol should be considered for change too. -->
-				<symbol>=0#Old lei|1#Old leu|1&lt;Old lei</symbol>
+				<symbol choice="true">=0#Old lei|1#Old leu|1&lt;Old lei</symbol>
 			</currency>
 			<currency type="RON">
 				<displayName>Romanian Leu</displayName>
-				<symbol>=0#lei|1#leu|1&lt;lei</symbol>
+				<symbol choice="true">=0#lei|1#leu|1&lt;lei</symbol>
+			</currency>
+			<currency type="RSD">
+				<displayName>Serbian Dinar</displayName>
 			</currency>
 			<currency type="RUB">
 				<displayName>Russian Ruble</displayName>
@@ -2035,10 +3685,13 @@
 				<symbol>SR</symbol>
 			</currency>
 			<currency type="SDD">
-				<displayName>Sudanese Dinar</displayName>
+				<displayName>Old Sudanese Dinar</displayName>
+			</currency>
+			<currency type="SDG">
+				<displayName>Sudanese Pound</displayName>
 			</currency>
 			<currency type="SDP">
-				<displayName>Sudanese Pound</displayName>
+				<displayName>Old Sudanese Pound</displayName>
 			</currency>
 			<currency type="SEK">
 				<displayName>Swedish Krona</displayName>
@@ -2146,13 +3799,16 @@
 			</currency>
 			<currency type="USD">
 				<displayName>US Dollar</displayName>
-				<symbol>US$</symbol>
+				<symbol>$</symbol>
 			</currency>
 			<currency type="USN">
 				<displayName>US Dollar (Next day)</displayName>
 			</currency>
 			<currency type="USS">
 				<displayName>US Dollar (Same day)</displayName>
+			</currency>
+			<currency type="UYI">
+				<displayName>Uruguay Peso en Unidades Indexadas</displayName>
 			</currency>
 			<currency type="UYP">
 				<displayName>Uruguay Peso (1975-1993)</displayName>
@@ -2167,6 +3823,10 @@
 			<currency type="VEB">
 				<displayName>Venezuelan Bolivar</displayName>
 				<symbol>Be</symbol>
+			</currency>
+			<currency type="VEF">
+				<displayName>Venezuelan Bolivar Fuerte</displayName>
+				<symbol>BsF</symbol>
 			</currency>
 			<currency type="VND">
 				<displayName>Vietnamese Dong</displayName>
@@ -2235,7 +3895,7 @@
 				<displayName>Testing Currency Code</displayName>
 			</currency>
 			<currency type="XXX">
-				<displayName>No Currency</displayName>
+				<displayName>Unknown or Invalid Currency</displayName>
 			</currency>
 			<currency type="YDD">
 				<displayName>Yemeni Dinar</displayName>
@@ -2275,13 +3935,22 @@
 			</currency>
 		</currencies>
 	</numbers>
+	<posix>
+		<messages>
+			<yesstr>yes:y</yesstr>
+			<nostr>no:n</nostr>
+		</messages>
+	</posix>
 	<references>
-		<reference type="R01" draft="unconfirmed"/>
-		<reference type="R02" draft="provisional"/>
-		<reference type="R03" uri="http://unstats.un.org/unsd/geoinfo/">UN Geographical Names</reference>
-		<reference type="R1">Special reference used only to prevent minimalization</reference>
-		<reference type="RP1" uri="isbn:0-321-18578-1">The Unicode Standard 4.0</reference>
-		<reference type="RP2">The Economist Style Guide</reference>
+		<reference type="R032"/>
+		<reference type="R033"/>
+		<reference type="R034" uri="isbn:0-321-18578-1">The Unicode Standard 4.0</reference>
+		<reference type="R035">Special reference used only to prevent minimalization</reference>
+		<reference type="R036">The Economist Style Guide</reference>
+		<reference type="R037" uri="http://unstats.un.org/unsd/geoinfo/">UN Geographical Names</reference>
+		<reference type="R434" uri="isbn:0-19-571804-6">South African Concise Oxford Dictionary 1999</reference>
+		<reference type="RP1">National Standard of Canada, CAN/CSA-Z234.4-89: All-Numeric Dates and Times. (Reaffirmed 2000-05-25)</reference>
+		<reference type="RP2" uri="http://www.iso.org/iso/en/prods-services/popstds/currencycodeslist.html">ISO 4217</reference>
 	</references>
 </ldml>
 <!-- Comments without bases

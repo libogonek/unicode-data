@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.7 $"/>
-		<generation date="$Date: 2005/10/27 09:07:12 $"/>
+		<version number="$Revision: 1.10 $"/>
+		<generation date="$Date: 2007/07/10 20:27:25 $"/>
 		<language type="zh" /> 
 		<script type="Hant" /> 
 	</identity>
-		<collations>
+		<collations validSubLocales="zh_Hant_HK zh_Hant_MO zh_Hant_TW">
 			<default type="stroke"/>
 		</collations>
 </ldml>

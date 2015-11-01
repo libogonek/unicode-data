@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.43 $"/>
-		<generation date="$Date: 2006/06/28 01:23:32 $"/>
+		<version number="$Revision: 1.50 $"/>
+		<generation date="$Date: 2007/07/19 22:31:39 $"/>
 		<language type="en"/>
 		<territory type="SG"/>
 	</identity>
@@ -13,7 +13,8 @@
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern draft="unconfirmed">dd MMMM yyyy</pattern>
+							<pattern draft="provisional">EEEE, dd MMMM yyyy</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">dd MMMM yyyy</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
@@ -23,7 +24,8 @@
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern draft="unconfirmed">dd-MMM-yy</pattern>
+							<pattern>dd-MMM-yyyy</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">dd-MMM-yy</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
@@ -35,17 +37,20 @@
 				<timeFormats>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern draft="unconfirmed">a hh:mm:ss</pattern>
+							<pattern>a hh:mm:ss v</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">a hh:mm:ss</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="long">
 						<timeFormat>
-							<pattern draft="unconfirmed">a hh:mm:ss</pattern>
+							<pattern>a hh:mm:ss z</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">a hh:mm:ss</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="medium">
 						<timeFormat>
-							<pattern draft="unconfirmed">a hh:mm</pattern>
+							<pattern>a hh:mm:ss</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">a hh:mm</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="short">
@@ -56,21 +61,29 @@
 				</timeFormats>
 				<dateTimeFormats>
 					<availableFormats>
-						<dateFormatItem id="MMMMdd" draft="provisional">dd MMMM</dateFormatItem>
-						<dateFormatItem id="MMdd" draft="provisional">dd/MM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM" draft="provisional">MMMM yyyy</dateFormatItem>
+						<dateFormatItem id="MMdd" draft="unconfirmed">dd/MM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM" draft="unconfirmed">MMMM yyyy</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 			</calendar>
 		</calendars>
 	</dates>
 	<numbers>
+		<currencyFormats>
+			<currencyFormatLength>
+				<currencyFormat>
+					<pattern>¤#,##0.00</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
 		<currencies>
 			<currency type="SGD">
 				<symbol>$</symbol>
+				<symbol alt="proposed-x1001" draft="unconfirmed">S$</symbol>
 			</currency>
 			<currency type="USD">
 				<displayName>USD</displayName>
+				<symbol>US$</symbol>
 			</currency>
 		</currencies>
 	</numbers>

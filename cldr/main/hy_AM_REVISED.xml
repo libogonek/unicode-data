@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.38 $"/>
-		<generation date="$Date: 2006/06/27 23:30:54 $"/>
+		<version number="$Revision: 1.43 $"/>
+		<generation date="$Date: 2007/07/19 22:31:39 $"/>
 		<language type="hy"/>
 		<territory type="AM"/>
 		<variant type="REVISED"/>
 	</identity>
-	<localeDisplayNames>
-		<languages>
-			<language type="ar" draft="unconfirmed">Արաբերեն</language>
-			<language type="az" draft="unconfirmed">Ադրբեջաներեն</language>
-			<language type="fa" draft="unconfirmed">Պարսկերեն</language>
-			<language type="ka" draft="unconfirmed">Վրացերեն</language>
-			<language type="tr" draft="unconfirmed">Թուրքերեն</language>
-		</languages>
-	</localeDisplayNames>
 	<dates>
 		<calendars>
 			<calendar type="gregorian">

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.46 $"/>
-		<generation date="$Date: 2006/06/29 16:00:25 $"/>
+		<version number="$Revision: 1.52 $"/>
+		<generation date="$Date: 2007/07/19 22:31:39 $"/>
 		<language type="en"/>
 		<territory type="BE"/>
 	</identity>
@@ -18,7 +18,8 @@
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>EEE d MMM yyyy</pattern>
+							<pattern>d MMM yyyy</pattern>
+							<pattern alt="proposed-x1001" draft="unconfirmed">EEE d MMM yyyy</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
@@ -35,7 +36,7 @@
 				<timeFormats>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern>HH' h 'mm' min 'ss' s 'z</pattern>
+							<pattern>HH 'h' mm 'min' ss 's' v</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="long">
@@ -56,8 +57,7 @@
 				</timeFormats>
 				<dateTimeFormats>
 					<availableFormats>
-						<dateFormatItem id="MMMdd" draft="provisional">dd MMM</dateFormatItem>
-						<dateFormatItem id="MMdd" draft="provisional">dd/MM</dateFormatItem>
+						<dateFormatItem id="MMdd" draft="unconfirmed">dd/MM</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 			</calendar>
