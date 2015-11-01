@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldmlSupplemental.dtd">
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
 	<transforms>
-		<transform source="CanadianAboriginal" target="Latin" direction="both" draft="unconfirmed">
+		<transform source="Latin" target="CanadianAboriginal" direction="both" draft="unconfirmed">
 			<tRule>šwê ↔ ᔗ ;</tRule>
 			<tRule>šwî ↔ ᔛ ;</tRule>
 			<tRule>šwi ↔ ᔙ ;</tRule>

@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldmlSupplemental.dtd">
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 
 <supplementalData>
-    <version number="$Revision: 1.99 $"/>
-    <generation date="$Date: 2008/07/09 17:41:17 $"/>
+    <version number="$Revision: 1.129 $"/>
+    <generation date="$Date: 2009/05/05 23:15:57 $"/>
     <metadata>
         <attributeOrder>
 
-            _q type id choice key registry source target path day date version count lines characters iso4217 before from to mzone number time casing list uri digits rounding iso3166 hex request direction alternate backwards caseFirst caseLevel hiraganaQuarternary hiraganaQuaternary variableTop normalization numeric strength elements element attributes attribute aliases attributeValue contains multizone order other replacement scripts services territories territory tzidVersion value values variant variants visibility alpha3 code end exclude fips10 gdp internet literacyPercent locales officialStatus population populationPercent start used writingPercent validSubLocales standard references alt draft
-
-        </attributeOrder>
+			_q aliases alpha3 alternate attribute attributeValue attributes backwards before caseFirst caseLevel casing characters choice code contains count date day digits direction element elements end exclude fips10 from gdp hex hiraganaQuarternary hiraganaQuaternary id internet iso3166 iso4217 key lines list literacyPercent locales multizone mzone normalization number numeric officialStatus order other path population populationPercent registry replacement request rounding scripts services source start strength target territories territory time to type tzidVersion uri used value values variableTop variant variants version visibility writingPercent
+			</attributeOrder>
         <elementOrder>
 
-            ldml alternate attributeOrder attributes blockingItems calendarSystem character character-fallback codePattern codesByTerritory comment context cp deprecatedItems distinguishingItems elementOrder first_variable fractions identity info languageAlias languageCodes languageCoverage languagePopulation last_variable first_tertiary_ignorable last_tertiary_ignorable first_secondary_ignorable last_secondary_ignorable first_primary_ignorable last_primary_ignorable first_non_ignorable last_non_ignorable first_trailing last_trailing likelySubtag mapTimezones mapZone pluralRule pluralRules reference region scriptAlias scriptCoverage serialElements substitute suppress tRule telephoneCountryCode territoryAlias territoryCodes territoryCoverage currencyCoverage timezone timezoneCoverage transform usesMetazone validity alias appendItem base beforeCurrency afterCurrency currencyMatch dateFormatItem day deprecated distinguishing blocking coverageAdditions era eraNames eraAbbr eraNarrow exemplarCharacters fallback field generic greatestDifference height hourFormat hoursFormat gmtFormat intervalFormatFallback intervalFormatItem key localeDisplayNames layout localeDisplayPattern languages localePattern localeSeparator localizedPatternChars dateRangePattern calendars long mapping measurementSystem measurementSystemName messages minDays firstDay month months monthNames monthAbbr days dayNames dayAbbr orientation inList inText paperSize pattern displayName quarter quarters quotationStart quotationEnd alternateQuotationStart alternateQuotationEnd regionFormat fallbackFormat abbreviationFallback preferenceOrdering relative reset p pc rule s sc scripts segmentation settings short commonlyUsed exemplarCity singleCountries default calendar collation currency currencyFormat currencySpacing currencyFormatLength dateFormat dateFormatLength dateTimeFormat dateTimeFormatLength availableFormats appendItems dayContext dayWidth decimalFormat decimalFormatLength intervalFormats monthContext monthWidth percentFormat percentFormatLength quarterContext quarterWidth scientificFormat scientificFormatLength skipDefaultLocale defaultContent standard daylight suppress_contractions optimize rules surroundingMatch insertBetween symbol decimal group list percentSign nativeZeroDigit patternDigit plusSign minusSign exponential perMille infinity nan currencyDecimal currencyGroup symbols decimalFormats scientificFormats percentFormats currencyFormats currencies t tc q qc i ic extend territories timeFormat timeFormatLength timeZoneNames type unit unitPattern unitName variable attributeValues variables segmentRules variantAlias variants keys types measurementSystemNames codePatterns version generation currencyData language script territory territoryContainment languageData territoryInfo calendarData variant week am pm eras dateFormats timeFormats dateTimeFormats fields weekData measurementData timezoneData characters delimiters measurement dates numbers transforms metadata codeMappings likelySubtags metazoneInfo plurals telephoneCodeData units collations posix segmentations references weekendStart weekendEnd width x yesstr nostr yesexpr noexpr zone metazone special zoneAlias zoneFormatting zoneItem supplementalData
-
-        </elementOrder>
+			ldml alternate attributeOrder attributes blockingItems calendarSystem character character-fallback codePattern codesByTerritory comment context cp deprecatedItems distinguishingItems elementOrder first_variable fractions identity info languageAlias languageCodes languageCoverage languagePopulation last_variable first_tertiary_ignorable last_tertiary_ignorable first_secondary_ignorable last_secondary_ignorable first_primary_ignorable last_primary_ignorable first_non_ignorable last_non_ignorable first_trailing last_trailing likelySubtag mapTimezones mapZone numberingSystem pluralRule pluralRules reference region scriptAlias scriptCoverage serialElements substitute suppress tRule telephoneCountryCode territoryAlias territoryCodes territoryCoverage currencyCoverage timezone timezoneCoverage transform usesMetazone validity alias appendItem base beforeCurrency afterCurrency currencyMatch dateFormatItem day defaultNumberingSystem deprecated distinguishing blocking coverageAdditions era eraNames eraAbbr eraNarrow exemplarCharacters fallback field generic greatestDifference height hourFormat hoursFormat gmtFormat gmtZeroFormat intervalFormatFallback intervalFormatItem key localeDisplayNames layout localeDisplayPattern languages localePattern localeSeparator localizedPatternChars dateRangePattern calendars long mapping measurementSystem measurementSystemName messages minDays firstDay month months monthNames monthAbbr days dayNames dayAbbr orientation inList inText paperSize pattern displayName quarter quarters quotationStart quotationEnd alternateQuotationStart alternateQuotationEnd rbnfrule regionFormat fallbackFormat abbreviationFallback preferenceOrdering relative reset p pc rule ruleset rulesetGrouping s sc scripts segmentation settings short commonlyUsed exemplarCity singleCountries default calendar calendarPreference collation currency currencyFormat currencySpacing currencyFormatLength dateFormat dateFormatLength dateTimeFormat dateTimeFormatLength availableFormats appendItems dayContext dayWidth decimalFormat decimalFormatLength intervalFormats monthContext monthWidth percentFormat percentFormatLength quarterContext quarterWidth scientificFormat scientificFormatLength skipDefaultLocale defaultContent standard daylight suppress_contractions optimize rules surroundingMatch insertBetween symbol decimal group list percentSign nativeZeroDigit patternDigit plusSign minusSign exponential perMille infinity nan currencyDecimal currencyGroup symbols decimalFormats scientificFormats percentFormats currencyFormats currencies t tc q qc i ic extend territories timeFormat timeFormatLength timeZoneNames type unit unitPattern variable attributeValues variables segmentRules variantAlias variants keys types measurementSystemNames codePatterns version generation cldrVersion currencyData language script territory territoryContainment languageData territoryInfo calendarData variant week am pm eras dateFormats timeFormats dateTimeFormats fields weekData measurementData timezoneData characters delimiters measurement dates numbers transforms metadata codeMappings likelySubtags metazoneInfo plurals telephoneCodeData numberingSystems units collations posix segmentations rbnf references weekendStart weekendEnd width x yesstr nostr yesexpr noexpr zone metazone special zoneAlias zoneFormatting zoneItem supplementalData
+			</elementOrder>
         <serialElements>
 
             attributeValues base comment extend first_non_ignorable first_primary_ignorable first_secondary_ignorable first_tertiary_ignorable first_trailing first_variable i ic languagePopulation last_non_ignorable last_primary_ignorable last_secondary_ignorable last_tertiary_ignorable last_trailing last_variable optimize p pc q qc reset rules s sc settings suppress_contractions t tRule tc variable x
@@ -40,571 +38,370 @@
         </suppress>
         <validity>
             <!-- start of data generated with CountItems from language tag registry + CLDR-specific items as per http://unicode.org/cldr/data/tools/java/org/unicode/cldr/tool/package.html -->
-			<variable id="$grandfathered" type="choice">
-				art-lojban
-				cel-gaulish
-				en-GB-oed
-				i-ami i-bnn i-default i-enochian i-hak i-klingon i-lux i-mingo i-navajo i-pwn
-				i-tao i-tay i-tsu
-				no-bok no-nyn
-				sgn-BE-fr sgn-BE-nl sgn-CH-de
-				zh-cmn zh-cmn-Hans zh-cmn-Hant zh-gan zh-guoyu zh-hakka zh-min zh-min-nan
-				zh-wuu zh-xiang zh-yue
-			</variable>
-			<variable id="$language" type="choice">
-				aa ab ace ach ada ady ae af afa afh ain ak akk ale alg alt am an ang anp apa ar
-				arc arn arp art arw as ast ath aus av awa ay az
-				ba bad bai bal ban bas bat be bej bem ber bg bh bho bi bik bin bla bm bn bnt bo
-				br bra bs btk bua bug byn
-				ca cad cai car cau cch ce ceb cel ch chb chg chk chm chn cho chp chr chy cmc co
-				cop cpe cpf cpp cr crh crp cs csb cu cus cv cy
-				da dak dar day de del den dgr din doi dra dsb dua dum dv dyu dz
-				ee efi egy eka el elx en enm eo es et eu ewo
-				fa fan fat ff fi fil fiu fj fo fon fr frm fro frr frs fur fy
-				ga gaa gay gba gd gem gez gil gl gmh gn goh gon gor got grb grc gsw gu gv gwi
-				ha hai haw he hi hil him hit hmn ho hr hsb ht hu hup hy hz
-				ia iba id ie ig ii ijo ik ilo in inc ine inh io ira iro is it iu iw
-				ja jbo ji jpr jrb jv jw
-				ka kaa kab kac kaj kam kar kaw kbd kcg kfo kg kha khi kho ki kj kk kl km kmb kn
-				ko kok kos kpe kr krc krl kro kru ks ku kum kut kv kw ky
-				la lad lah lam lb lez lg li ln lo lol loz lt lu lua lui lun luo lus lv
-				mad mag mai mak man map mas mdf mdr men mg mga mh mi mic min mis mk mkh ml mn
-				mnc mni mno mo moh mos mr ms mt mul mun mus mwl mwr my myn myv
-				na nah nai nap nb nd nds ne new ng nia nic niu nl nn no nog non nqo nr nso nub
-				nv nwc ny nym nyn nyo nzi
-				oc oj om or os osa ota oto
-				pa paa pag pal pam pap pau peo phi phn pi pl pon pra pro ps pt
-				qaa qab qac qad qae qaf qag qah qai qaj qak qal qam qan qao qap qaq qar qas qat
-				qau qav qaw qax qay qaz qba qbb qbc qbd qbe qbf qbg qbh qbi qbj qbk qbl qbm qbn
-				qbo qbp qbq qbr qbs qbt qbu qbv qbw qbx qby qbz qca qcb qcc qcd qce qcf qcg qch
-				qci qcj qck qcl qcm qcn qco qcp qcq qcr qcs qct qcu qcv qcw qcx qcy qcz qda qdb
-				qdc qdd qde qdf qdg qdh qdi qdj qdk qdl qdm qdn qdo qdp qdq qdr qds qdt qdu qdv
-				qdw qdx qdy qdz qea qeb qec qed qee qef qeg qeh qei qej qek qel qem qen qeo qep
-				qeq qer qes qet qeu qev qew qex qey qez qfa qfb qfc qfd qfe qff qfg qfh qfi qfj
-				qfk qfl qfm qfn qfo qfp qfq qfr qfs qft qfu qfv qfw qfx qfy qfz qga qgb qgc qgd
-				qge qgf qgg qgh qgi qgj qgk qgl qgm qgn qgo qgp qgq qgr qgs qgt qgu qgv qgw qgx
-				qgy qgz qha qhb qhc qhd qhe qhf qhg qhh qhi qhj qhk qhl qhm qhn qho qhp qhq qhr
-				qhs qht qhu qhv qhw qhx qhy qhz qia qib qic qid qie qif qig qih qii qij qik qil
-				qim qin qio qip qiq qir qis qit qiu qiv qiw qix qiy qiz qja qjb qjc qjd qje qjf
-				qjg qjh qji qjj qjk qjl qjm qjn qjo qjp qjq qjr qjs qjt qju qjv qjw qjx qjy qjz
-				qka qkb qkc qkd qke qkf qkg qkh qki qkj qkk qkl qkm qkn qko qkp qkq qkr qks qkt
-				qku qkv qkw qkx qky qkz qla qlb qlc qld qle qlf qlg qlh qli qlj qlk qll qlm qln
-				qlo qlp qlq qlr qls qlt qlu qlv qlw qlx qly qlz qma qmb qmc qmd qme qmf qmg qmh
-				qmi qmj qmk qml qmm qmn qmo qmp qmq qmr qms qmt qmu qmv qmw qmx qmy qmz qna qnb
-				qnc qnd qne qnf qng qnh qni qnj qnk qnl qnm qnn qno qnp qnq qnr qns qnt qnu qnv
-				qnw qnx qny qnz qoa qob qoc qod qoe qof qog qoh qoi qoj qok qol qom qon qoo qop
-				qoq qor qos qot qou qov qow qox qoy qoz qpa qpb qpc qpd qpe qpf qpg qph qpi qpj
-				qpk qpl qpm qpn qpo qpp qpq qpr qps qpt qpu qpv qpw qpx qpy qpz qqa qqb qqc qqd
-				qqe qqf qqg qqh qqi qqj qqk qql qqm qqn qqo qqp qqq qqr qqs qqt qqu qqv qqw qqx
-				qqy qqz qra qrb qrc qrd qre qrf qrg qrh qri qrj qrk qrl qrm qrn qro qrp qrq qrr
-				qrs qrt qru qrv qrw qrx qry qrz qsa qsb qsc qsd qse qsf qsg qsh qsi qsj qsk qsl
-				qsm qsn qso qsp qsq qsr qss qst qsu qsv qsw qsx qsy qsz qta qtb qtc qtd qte qtf
-				qtg qth qti qtj qtk qtl qtm qtn qto qtp qtq qtr qts qtt qtu qtv qtw qtx qty qtz
-				qu
-				raj rap rar rm rn ro roa rom root ru rup rw
-				sa sad sah sai sal sam sas sat sc scn sco sd se sel sem sg sga sgn sh shn si
-				sid sio sit sk sl sla sm sma smi smj smn sms sn snk so sog son sq sr srn srr ss
-				ssa st su suk sus sux sv sw syc syr
-				ta tai te tem ter tet tg th ti tig tiv tk tkl tl tlh tli tmh tn to tog tpi tr trv
-				ts tsi tt tum tup tut tvl tw ty tyv
-				udm ug uga uk umb und ur uz
-				vai ve vi vo vot
-				wa wak wal war was wen wo
-				xal xh
-				yao yap yi yo ypk
-				za zap zbl zen zh znd zu zun zxx zza
-			</variable>
-			<variable id="$territory" type="choice">
-				001 002 003 005 009 011 013 014 015 017 018 019 021 029 030 034 035 039 053 054
-				057 061 062
-				142 143 145 150 151 154 155 172
-				419
-				AA AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ
-				BA BB BD BE BF BG BH BI BJ BL BM BN BO BR BS BT BU BV BW BY BZ
-				CA CC CD CF CG CH CI CK CL CM CN CO CR CS CU CV CX CY CZ
-				DD DE DJ DK DM DO DZ
-				EC EE EG EH ER ES ET
-				FI FJ FK FM FO FR FX
-				GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY
-				HK HM HN HR HT HU
-				ID IE IL IM IN IO IQ IR IS IT
-				JE JM JO JP
-				KE KG KH KI KM KN KP KR KW KY KZ
-				LA LB LC LI LK LR LS LT LU LV LY
-				MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
-				NA NC NE NF NG NI NL NO NP NR NT NU NZ
-				OM
-				PA PE PF PG PH PK PL PM PN PR PS PT PW PY
-				QA QM QN QO QP QQ QR QS QT QU QV QW QX QY QZ
-				RE RO RS RU RW
-				SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SU SV SY SZ
-				TC TD TF TG TH TJ TK TL TM TN TO TP TR TT TV TW TZ
-				UA UG UM US UY UZ
-				VA VC VE VG VI VN VU
-				WF WS
-				XA XB XC XD XE XF XG XH XI XJ XK XL XM XN XO XP XQ XR XS XT XU XV XW XX XY XZ
-				YD YE YT YU
-				ZA ZM ZR ZW ZZ
-			</variable>
-			<variable id="$script" type="choice">
-				Arab Armi Armn Avst
-				Bali Batk Beng Blis Bopo Brah Brai Bugi Buhd
-				Cakm Cans Cari Cham Cher Cirt Copt Cprt Cyrl Cyrs
-				Deva Dsrt
-				Egyd Egyh Egyp Ethi
-				Geok Geor Glag Goth Grek Gujr Guru
-				Hang Hani Hano Hans Hant Hebr Hira Hmng Hrkt Hung
-				Inds Ital
-				Java Jpan
-				Kali Kana Khar Khmr Knda Kore Kthi
-				Lana Laoo Latf Latg Latn Lepc Limb Lina Linb Lyci Lydi
-				Mand Mani Maya Mero Mlym Mong Moon Mtei Mymr
-				Nkoo
-				Ogam Olck Orkh Orya Osma
-				Perm Phag Phli Phlp Phlv Phnx Plrd Prti
-				Qaaa Qaab Qaac Qaad Qaae Qaaf Qaag Qaah Qaai Qaaj Qaak Qaal Qaam Qaan Qaao Qaap
-				Qaaq Qaar Qaas Qaat Qaau Qaav Qaaw Qaax Qaay Qaaz Qaba Qabb Qabc Qabd Qabe Qabf
-				Qabg Qabh Qabi Qabj Qabk Qabl Qabm Qabn Qabo Qabp Qabq Qabr Qabs Qabt Qabu Qabv
-				Qabw Qabx
-				Rjng Roro Runr
-				Samr Sara Saur Sgnw Shaw Sinh Sund Sylo Syrc Syre Syrj Syrn
-				Tagb Tale Talu Taml Tavt Telu Teng Tfng Tglg Thaa Thai Tibt
-				Ugar
-				Vaii Visp
-				Xpeo Xsux
-				Yiii
-				Zmth Zsym Zxxx Zyyy Zzzz
-			</variable>
-			<variable id="$variant" type="choice">
-				1606NICT 1694ACAD 1901 1994 1996
-				AREVELA AREVMDA
-				BAKU1926 BISKE BOONT
-				FONIPA FONUPA
-				LIPAW
-				MONOTON
-				NEDIS NJIVA
-				OSOJS
-				POLYTON POLYTONI POSIX
-				REVISED ROZAJ
-				SAAHO SCOTLAND SCOUSE SOLBA
-				TARASK
-				VALENCIA
-			</variable>
-			<!-- currency version 2008-01-25 -->
-
-			<variable id="$currency" type="choice">
-
-				ADP AED AFA AFN ALK ALL AMD ANG AOA AOK AON AOR ARA ARP ARS ARY ATS AUD AWG AZM
-
-				AZN
-
-				BAD BAM BBD BDT BEC BEF BEL BGJ BGK BGL BGM BGN BHD BIF BMD BND BOB BOP BOV BRB BRC
-
-				BRE BRL BRN BRR BSD BTN BUK BWP BYB BYR BZD
-
-				CAD CDF CHE CHF CHW CLF CLP CNX CNY COP COU CRC CSD CSJ CSK CUP CVE CYP CZK
-
-				DDM DEM DJF DKK DOP DZD
-
-				ECS ECV EEK EGP EQE ERN ESA ESB ESP ETB EUR
-
-				FIM FJD FKP FRF
-
-				GBP GEK GEL GHC GHS GIP GMD GNE GNF GNS GQE GRD GTQ GWE GWP GYD
-
-				HKD HNL HRD HRK HTG HUF
-
-				IDR IEP ILP ILR ILS INR IQD IRR ISJ ISK ITL
-
-				JMD JOD JPY
-
-				KES KGS KHR KMF KPW KRW KWD KYD KZT
-
-				LAJ LAK LBP LKR LRD LSL LSM LTL LTT LUC LUF LUL LVL LVR LYD
-
-				MAD MAF MDL MGA MGF MKD MLF MMK MNT MOP MRO MTL MTP MUR MVQ MVR MWK MXN MXP MXV
-
-				MYR MZE MZM MZN
-
-				NAD NGN NIC NIO NLG NOK NPR NZD
-
-				OMR
-
-				PAB PEH PEI PEN PES PGK PHP PKR PLN PLZ PTE PYG
-
-				QAR
-
-				RHD ROK ROL RON RSD RUB RUR RWF
-
-				SAR SBD SCR SDD SDG SDP SEK SGD SHP SIT SKK SLL SOS SRD SRG STD SUR SVC SYP SZL
-
-				THB TJR TJS TMM TND TOP TPE TRL TRY TTD TWD TZS
-
-				UAH UAK UGS UGW UGX USD USN USS UYI UYN UYP UYU UZS
-
-				VEB VEF VNC VND VUV
-
-				WST
-
-				XAF XAG XAU XBA XBB XBC XBD XCD XDR XEU XFO XFU XOF XPD XPF XPT XRE XTS XXX
-
-				YDD YER YUD YUM YUN
-
-				ZAL ZAR ZMK ZRN ZRZ ZWC ZWD
-
-			</variable>
+            <variable id="$grandfathered" type="choice">
+                art-lojban
+                cel-gaulish
+                en-GB-oed
+                i-ami i-bnn i-default i-enochian i-hak i-klingon i-lux i-mingo i-navajo i-pwn
+                i-tao i-tay i-tsu
+                no-bok no-nyn
+                sgn-BE-fr sgn-BE-nl sgn-CH-de
+                zh-cmn zh-cmn-Hans zh-cmn-Hant zh-gan zh-guoyu zh-hakka zh-min zh-min-nan
+                zh-wuu zh-xiang zh-yue
+            </variable>
+            <variable id="$language" type="choice">
+                aa ab ace ach ada ady ae af afa afh ain ak akk ale alg alt am an ang anp apa ar
+                arc arn arp art arw as ast ath aus av awa ay az
+                ba bad bai bal ban bas bat be bej bem ber bg bh bho bi bik bin bla bm bn bnt bo
+                br bra bs btk bua bug byn
+                ca cad cai car cau cch ce ceb cel ch chb chg chk chm chn cho chp chr chy cmc co
+                cop cpe cpf cpp cr crh crp cs csb cu cus cv cy
+                da dak dar day de del den dgr din doi dra dsb dua dum dv dyu dz
+                ee efi egy eka el elx en enm eo es et eu ewo
+                fa fan fat ff fi fil fiu fj fo fon fr frm fro frr frs fur fy
+                ga gaa gay gba gd gem gez gil gl gmh gn goh gon gor got grb grc gsw gu gv gwi
+                ha hai haw he hi hil him hit hmn ho hr hsb ht hu hup hy hz
+                ia iba id ie ig ii ijo ik ilo in inc ine inh io ira iro is it iu iw
+                ja jbo ji jpr jrb jv jw
+                ka kaa kab kac kaj kam kar kaw kbd kcg kfo kg kha khi kho ki kj kk kl km kmb kn
+                ko kok kos kpe kr krc krl kro kru ks ku kum kut kv kw ky
+                la lad lah lam lb lez lg li ln lo lol loz lt lu lua lui lun luo lus lv
+                mad mag mai mak man map mas mdf mdr men mg mga mh mi mic min mis mk mkh ml mn
+                mnc mni mno mo moh mos mr ms mt mul mun mus mwl mwr my myn myv
+                na nah nai nap nb nd nds ne new ng nia nic niu nl nn no nog non nqo nr nso nub
+                nv nwc ny nym nyn nyo nzi
+                oc oj om or os osa ota oto
+                pa paa pag pal pam pap pau peo phi phn pi pl pon pra pro ps pt
+                qaa qab qac qad qae qaf qag qah qai qaj qak qal qam qan qao qap qaq qar qas qat
+                qau qav qaw qax qay qaz qba qbb qbc qbd qbe qbf qbg qbh qbi qbj qbk qbl qbm qbn
+                qbo qbp qbq qbr qbs qbt qbu qbv qbw qbx qby qbz qca qcb qcc qcd qce qcf qcg qch
+                qci qcj qck qcl qcm qcn qco qcp qcq qcr qcs qct qcu qcv qcw qcx qcy qcz qda qdb
+                qdc qdd qde qdf qdg qdh qdi qdj qdk qdl qdm qdn qdo qdp qdq qdr qds qdt qdu qdv
+                qdw qdx qdy qdz qea qeb qec qed qee qef qeg qeh qei qej qek qel qem qen qeo qep
+                qeq qer qes qet qeu qev qew qex qey qez qfa qfb qfc qfd qfe qff qfg qfh qfi qfj
+                qfk qfl qfm qfn qfo qfp qfq qfr qfs qft qfu qfv qfw qfx qfy qfz qga qgb qgc qgd
+                qge qgf qgg qgh qgi qgj qgk qgl qgm qgn qgo qgp qgq qgr qgs qgt qgu qgv qgw qgx
+                qgy qgz qha qhb qhc qhd qhe qhf qhg qhh qhi qhj qhk qhl qhm qhn qho qhp qhq qhr
+                qhs qht qhu qhv qhw qhx qhy qhz qia qib qic qid qie qif qig qih qii qij qik qil
+                qim qin qio qip qiq qir qis qit qiu qiv qiw qix qiy qiz qja qjb qjc qjd qje qjf
+                qjg qjh qji qjj qjk qjl qjm qjn qjo qjp qjq qjr qjs qjt qju qjv qjw qjx qjy qjz
+                qka qkb qkc qkd qke qkf qkg qkh qki qkj qkk qkl qkm qkn qko qkp qkq qkr qks qkt
+                qku qkv qkw qkx qky qkz qla qlb qlc qld qle qlf qlg qlh qli qlj qlk qll qlm qln
+                qlo qlp qlq qlr qls qlt qlu qlv qlw qlx qly qlz qma qmb qmc qmd qme qmf qmg qmh
+                qmi qmj qmk qml qmm qmn qmo qmp qmq qmr qms qmt qmu qmv qmw qmx qmy qmz qna qnb
+                qnc qnd qne qnf qng qnh qni qnj qnk qnl qnm qnn qno qnp qnq qnr qns qnt qnu qnv
+                qnw qnx qny qnz qoa qob qoc qod qoe qof qog qoh qoi qoj qok qol qom qon qoo qop
+                qoq qor qos qot qou qov qow qox qoy qoz qpa qpb qpc qpd qpe qpf qpg qph qpi qpj
+                qpk qpl qpm qpn qpo qpp qpq qpr qps qpt qpu qpv qpw qpx qpy qpz qqa qqb qqc qqd
+                qqe qqf qqg qqh qqi qqj qqk qql qqm qqn qqo qqp qqq qqr qqs qqt qqu qqv qqw qqx
+                qqy qqz qra qrb qrc qrd qre qrf qrg qrh qri qrj qrk qrl qrm qrn qro qrp qrq qrr
+                qrs qrt qru qrv qrw qrx qry qrz qsa qsb qsc qsd qse qsf qsg qsh qsi qsj qsk qsl
+                qsm qsn qso qsp qsq qsr qss qst qsu qsv qsw qsx qsy qsz qta qtb qtc qtd qte qtf
+                qtg qth qti qtj qtk qtl qtm qtn qto qtp qtq qtr qts qtt qtu qtv qtw qtx qty qtz
+                qu
+                raj rap rar rm rn ro roa rom root ru rup rw
+                sa sad sah sai sal sam sas sat sc scn sco sd se sel sem sg sga sgn sh shn si
+                sid sio sit sk sl sla sm sma smi smj smn sms sn snk so sog son sq sr srn srr ss
+                ssa st su suk sus sux sv sw syc syr
+                ta tai te tem ter tet tg th ti tig tiv tk tkl tl tlh tli tmh tn to tog tpi tr trv
+                ts tsi tt tum tup tut tvl tw ty tyv
+                udm ug uga uk umb und ur uz
+                vai ve vi vo vot
+                wa wak wal war was wen wo
+                xal xh
+                yao yap yi yo ypk
+                za zap zbl zen zh znd zu zun zxx zza
+            </variable>
+            <variable id="$territory" type="choice">
+                001 002 003 005 009 011 013 014 015 017 018 019 021 029 030 034 035 039 053 054
+                057 061 062
+                142 143 145 150 151 154 155 172
+                419
+                AA AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ
+                BA BB BD BE BF BG BH BI BJ BL BM BN BO BR BS BT BU BV BW BY BZ
+                CA CC CD CF CG CH CI CK CL CM CN CO CR CS CU CV CX CY CZ
+                DD DE DJ DK DM DO DZ
+                EC EE EG EH ER ES ET
+                FI FJ FK FM FO FR FX
+                GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY
+                HK HM HN HR HT HU
+                ID IE IL IM IN IO IQ IR IS IT
+                JE JM JO JP
+                KE KG KH KI KM KN KP KR KW KY KZ
+                LA LB LC LI LK LR LS LT LU LV LY
+                MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
+                NA NC NE NF NG NI NL NO NP NR NT NU NZ
+                OM
+                PA PE PF PG PH PK PL PM PN PR PS PT PW PY
+                QA QM QN QO QP QQ QR QS QT QU QV QW QX QY QZ
+                RE RO RS RU RW
+                SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SU SV SY SZ
+                TC TD TF TG TH TJ TK TL TM TN TO TP TR TT TV TW TZ
+                UA UG UM US UY UZ
+                VA VC VE VG VI VN VU
+                WF WS
+                XA XB XC XD XE XF XG XH XI XJ XK XL XM XN XO XP XQ XR XS XT XU XV XW XX XY XZ
+                YD YE YT YU
+                ZA ZM ZR ZW ZZ
+            </variable>
+            <variable id="$script" type="choice">
+                Arab Armi Armn Avst
+                Bali Batk Beng Blis Bopo Brah Brai Bugi Buhd
+                Cakm Cans Cari Cham Cher Cirt Copt Cprt Cyrl Cyrs
+                Deva Dsrt
+                Egyd Egyh Egyp Ethi
+                Geok Geor Glag Goth Grek Gujr Guru
+                Hang Hani Hano Hans Hant Hebr Hira Hmng Hrkt Hung
+                Inds Ital
+                Java Jpan
+                Kali Kana Khar Khmr Knda Kore Kthi
+                Lana Laoo Latf Latg Latn Lepc Limb Lina Linb Lyci Lydi
+                Mand Mani Maya Mero Mlym Mong Moon Mtei Mymr
+                Nkoo
+                Ogam Olck Orkh Orya Osma
+                Perm Phag Phli Phlp Phlv Phnx Plrd Prti
+                Qaaa Qaab Qaac Qaad Qaae Qaaf Qaag Qaah Qaai Qaaj Qaak Qaal Qaam Qaan Qaao Qaap
+                Qaaq Qaar Qaas Qaat Qaau Qaav Qaaw Qaax Qaay Qaaz Qaba Qabb Qabc Qabd Qabe Qabf
+                Qabg Qabh Qabi Qabj Qabk Qabl Qabm Qabn Qabo Qabp Qabq Qabr Qabs Qabt Qabu Qabv
+                Qabw Qabx
+                Rjng Roro Runr
+                Samr Sara Saur Sgnw Shaw Sinh Sund Sylo Syrc Syre Syrj Syrn
+                Tagb Tale Talu Taml Tavt Telu Teng Tfng Tglg Thaa Thai Tibt
+                Ugar
+                Vaii Visp
+                Xpeo Xsux
+                Yiii
+                Zmth Zsym Zxxx Zyyy Zzzz
+            </variable>
+            <variable id="$variant" type="choice">
+                1606NICT 1694ACAD 1901 1959ACAD 1994 1996
+                AREVELA AREVMDA
+                BAKU1926 BISKE BOONT
+                FONIPA FONUPA
+                KKCOR
+                LIPAW
+                MONOTON
+                NEDIS NJIVA
+                OSOJS
+                PINYIN POLYTON POLYTONI POSIX
+                REVISED ROZAJ
+                SAAHO SCOTLAND SCOUSE SOLBA
+                TARASK
+                UCCOR UCRCOR
+                VALENCIA
+                WADEGILE
+            </variable>
+            <!-- currency version 2009-04-06 -->
+            <variable id="$currency" type="choice">
+                ADP AED AFA AFN ALK ALL AMD ANG AOA AOK AON AOR ARA ARL ARM ARP ARS ATS AUD AWG AZM AZN
+                BAD BAM BAN BBD BDT BEC BEF BEL BGL BGM BGN BGO BHD BIF BMD BND BOL BOB BOP BOV BRB BRC
+                BRE BRL BRN BRR BRZ BSD BTN BUK BWP BYB BYR BZD
+                CAD CDF CHE CHF CHW CLE CLF CLP CNX CNY COP COU CRC CSD CSK CUC CUP CVE CYP CZK
+                DDM DEM DJF DKK DOP DZD
+                ECS ECV EEK EGP ERN ESA ESB ESP ETB EUR
+                FIM FJD FKP FRF
+                GBP GEK GEL GHC GHS GIP GMD GNF GNS GQE GRD GTQ GWE GWP GYD
+                HKD HNL HRD HRK HTG HUF
+                IDR IEP ILP ILR ILS INR IQD IRR ISJ ISK ITL
+                JMD JOD JPY
+                KES KGS KHR KMF KPW KRH KRO KRW KWD KYD KZT
+                LAK LBP LKR LRD LSL LTL LTT LUC LUF LUL LVL LVR LYD
+                MAD MAF MCF MDC MDL MGA MGF MKD MKN MLF MMK MNT MOP MRO MTL MTP MUR MVP MVR MWK MXN MXP MXV
+                MYR MZE MZM MZN
+                NAD NGN NIC NIO NLG NOK NPR NZD
+                OMR
+                PAB PEI PEN PES PGK PHP PKR PLN PLZ PTE PYG
+                QAR
+                RHD ROL RON RSD RUB RUR RWF
+                SAR SBD SCR SDD SDG SDP SEK SGD SHP SIT SKK SLL SOS SRD SRG STD SUR SVC SYP SZL
+                THB TJR TJS TMM TMT TND TOP TPE TRL TRY TTD TWD TZS
+                UAH UAK UGS UGX USD USN USS UYI UYP UYU UZS
+                VEB VEF VND VNN VUV
+                WST
+                XAF XAG XAU XBA XBB XBC XBD XCD XDR XEU XFO XFU XOF XPD XPF XPT XRE XTS XXX
+                YDD YER YUD YUM YUN YUR
+                ZAL ZAR ZMK ZRN ZRZ ZWD ZWL ZWR
+            </variable>
 
 			<!-- end of data generated by CountItems -->
 			<!-- start of data generated with CountItems from language tag registry + CLDR-specific items as per http://unicode.org/cldr/data/tools/java/org/unicode/cldr/tool/package.html -->
-            <variable id="$tzid" type="choice">
-                Africa/Abidjan Africa/Accra Africa/Addis_Ababa Africa/Algiers Africa/Asmera
-
-                Africa/Bamako Africa/Bangui Africa/Banjul Africa/Bissau Africa/Blantyre
-
-                Africa/Brazzaville Africa/Bujumbura
-
-                Africa/Cairo Africa/Casablanca Africa/Ceuta Africa/Conakry
-
-                Africa/Dakar Africa/Dar_es_Salaam Africa/Djibouti Africa/Douala
-
-                Africa/El_Aaiun
-
-                Africa/Freetown
-
-                Africa/Gaborone
-
-                Africa/Harare
-
-                Africa/Johannesburg
-
-                Africa/Kampala Africa/Khartoum Africa/Kigali Africa/Kinshasa
-
-                Africa/Lagos Africa/Libreville Africa/Lome Africa/Luanda Africa/Lubumbashi
-
-                Africa/Lusaka
-
-                Africa/Malabo Africa/Maputo Africa/Maseru Africa/Mbabane Africa/Mogadishu
-
-                Africa/Monrovia
-
-                Africa/Nairobi Africa/Ndjamena Africa/Niamey Africa/Nouakchott
-
-                Africa/Ouagadougou
-
-                Africa/Porto-Novo
-
-                Africa/Sao_Tome
-
-                Africa/Tripoli Africa/Tunis
-
-                Africa/Windhoek
-
-                America/Adak America/Anchorage America/Anguilla America/Antigua
-
-                America/Araguaina
-
-                America/Argentina/ComodRivadavia
-
-                America/Argentina/La_Rioja
-
-                America/Argentina/Rio_Gallegos
-
-                America/Argentina/San_Juan America/Argentina/San_Luis
-
-                America/Argentina/Tucuman
-
-                America/Argentina/Ushuaia
-
-                America/Aruba America/Asuncion
-
-                America/Bahia America/Barbados America/Belem America/Belize
-
-                America/Blanc-Sablon America/Boa_Vista America/Bogota America/Boise
-
-                America/Buenos_Aires
-
-                America/Cambridge_Bay America/Campo_Grande America/Cancun America/Caracas
-
-                America/Catamarca America/Cayenne America/Cayman America/Chicago
-
-                America/Chihuahua America/Coral_Harbour America/Cordoba America/Costa_Rica
-
-                America/Cuiaba America/Curacao
-
-                America/Danmarkshavn America/Dawson America/Dawson_Creek America/Denver
-
-                America/Detroit America/Dominica
-
-                America/Edmonton America/Eirunepe America/El_Salvador
-
-                America/Fortaleza
-
-                America/Glace_Bay America/Godthab America/Goose_Bay America/Grand_Turk
-
-                America/Grenada America/Guadeloupe America/Guatemala America/Guayaquil
-
-                America/Guyana
-
-                America/Halifax America/Havana America/Hermosillo
-
-                America/Indiana/Knox
-
-                America/Indiana/Marengo
-
-                America/Indiana/Petersburg
-
-                America/Indiana/Tell_City
-
-                America/Indiana/Vevay America/Indiana/Vincennes
-
-                America/Indiana/Winamac
-
-                America/Indianapolis America/Inuvik America/Iqaluit
-
-                America/Jamaica America/Jujuy America/Juneau
-
-                America/Kentucky/Monticello
-
-                America/La_Paz America/Lima America/Los_Angeles America/Louisville
-
-                America/Maceio America/Managua America/Manaus America/Marigot
-
-                America/Martinique America/Mazatlan America/Mendoza America/Menominee
-
-                America/Merida America/Mexico_City America/Miquelon America/Moncton
-
-                America/Monterrey America/Montevideo America/Montreal America/Montserrat
-
-                America/Nassau America/New_York America/Nipigon America/Nome America/Noronha
-
-                America/North_Dakota/Center
-
-                America/North_Dakota/New_Salem
-
-                America/Panama America/Pangnirtung America/Paramaribo America/Phoenix
-
-                America/Port_of_Spain America/Port-au-Prince America/Porto_Velho
-
-                America/Puerto_Rico
-
-                America/Rainy_River America/Rankin_Inlet America/Recife America/Regina
-
-                America/Resolute America/Rio_Branco
-
-                America/Santarem America/Santiago America/Santo_Domingo America/Sao_Paulo
-
-                America/Scoresbysund America/Shiprock America/St_Barthelemy America/St_Johns
-
-                America/St_Kitts America/St_Lucia America/St_Thomas America/St_Vincent
-
-                America/Swift_Current
-
-                America/Tegucigalpa America/Thule America/Thunder_Bay America/Tijuana
-
-                America/Toronto America/Tortola
-
-                America/Vancouver
-
-                America/Whitehorse America/Winnipeg
-
-                America/Yakutat America/Yellowknife
-
-                Antarctica/Casey
-
-                Antarctica/Davis Antarctica/DumontDUrville
-
-                Antarctica/Mawson Antarctica/McMurdo
-
-                Antarctica/Palmer
-
-                Antarctica/Rothera
-
-                Antarctica/South_Pole Antarctica/Syowa
-
-                Antarctica/Vostok
-
-                Arctic/Longyearbyen
-
-                Asia/Aden Asia/Almaty Asia/Amman Asia/Anadyr Asia/Aqtau Asia/Aqtobe
-
-                Asia/Ashgabat
-
-                Asia/Baghdad Asia/Bahrain Asia/Baku Asia/Bangkok Asia/Beirut Asia/Bishkek
-
-                Asia/Brunei
-
-                Asia/Calcutta Asia/Choibalsan Asia/Chongqing Asia/Colombo
-
-                Asia/Damascus Asia/Dhaka Asia/Dili Asia/Dubai Asia/Dushanbe
-
-                Asia/Gaza
-
-                Asia/Harbin Asia/Hong_Kong Asia/Hovd
-
-                Asia/Irkutsk
-
-                Asia/Jakarta Asia/Jayapura Asia/Jerusalem
-
-                Asia/Kabul Asia/Kamchatka Asia/Karachi Asia/Kashgar Asia/Katmandu
-
-                Asia/Krasnoyarsk Asia/Kuala_Lumpur Asia/Kuching Asia/Kuwait
-
-                Asia/Macau Asia/Magadan Asia/Makassar Asia/Manila Asia/Muscat
-
-                Asia/Nicosia Asia/Novosibirsk
-
-                Asia/Omsk Asia/Oral
-
-                Asia/Phnom_Penh Asia/Pontianak Asia/Pyongyang
-
-                Asia/Qatar Asia/Qyzylorda
-
-                Asia/Rangoon Asia/Riyadh
-
-                Asia/Saigon Asia/Sakhalin Asia/Samarkand Asia/Seoul Asia/Shanghai
-
-                Asia/Singapore
-
-                Asia/Taipei Asia/Tashkent Asia/Tbilisi Asia/Tehran Asia/Thimphu Asia/Tokyo
-
-                Asia/Ulaanbaatar Asia/Urumqi
-
-                Asia/Vientiane Asia/Vladivostok
-
-                Asia/Yakutsk Asia/Yekaterinburg Asia/Yerevan
-
-                Atlantic/Azores
-
-                Atlantic/Bermuda
-
-                Atlantic/Canary Atlantic/Cape_Verde
-
-                Atlantic/Faeroe
-
-                Atlantic/Madeira
-
-                Atlantic/Reykjavik
-
-                Atlantic/South_Georgia Atlantic/St_Helena Atlantic/Stanley
-
-                Australia/Adelaide
-
-                Australia/Brisbane Australia/Broken_Hill
-
-                Australia/Currie
-
-                Australia/Darwin
-
-                Australia/Eucla
-
-                Australia/Hobart
-
-                Australia/Lindeman Australia/Lord_Howe
-
-                Australia/Melbourne
-
-                Australia/Perth
-
-                Australia/Sydney
-
-                Etc/GMT Etc/GMT-1 Etc/GMT-2 Etc/GMT-3 Etc/GMT-4 Etc/GMT-5 Etc/GMT-6 Etc/GMT-7
-
-                Etc/GMT-8 Etc/GMT-9 Etc/GMT-10 Etc/GMT-11 Etc/GMT-12 Etc/GMT-13 Etc/GMT-14
-
-                Etc/GMT+1 Etc/GMT+2 Etc/GMT+3 Etc/GMT+4 Etc/GMT+5 Etc/GMT+6 Etc/GMT+7 Etc/GMT+8
-
-                Etc/GMT+9 Etc/GMT+10 Etc/GMT+11 Etc/GMT+12
-
-                Etc/Unknown
-
-                Europe/Amsterdam Europe/Andorra Europe/Athens
-
-                Europe/Belgrade Europe/Berlin Europe/Bratislava Europe/Brussels
-
-                Europe/Bucharest Europe/Budapest
-
-                Europe/Chisinau Europe/Copenhagen
-
-                Europe/Dublin
-
-                Europe/Gibraltar Europe/Guernsey
-
-                Europe/Helsinki
-
-                Europe/Isle_of_Man Europe/Istanbul
-
-                Europe/Jersey
-
-                Europe/Kaliningrad Europe/Kiev
-
-                Europe/Lisbon Europe/Ljubljana Europe/London Europe/Luxembourg
-
-                Europe/Madrid Europe/Malta Europe/Mariehamn Europe/Minsk Europe/Monaco
-
-                Europe/Moscow
-
-                Europe/Oslo
-
-                Europe/Paris Europe/Podgorica Europe/Prague
-
-                Europe/Riga Europe/Rome
-
-                Europe/Samara Europe/San_Marino Europe/Sarajevo Europe/Simferopol Europe/Skopje
-
-                Europe/Sofia Europe/Stockholm
-
-                Europe/Tallinn Europe/Tirane
-
-                Europe/Uzhgorod
-
-                Europe/Vaduz Europe/Vatican Europe/Vienna Europe/Vilnius Europe/Volgograd
-
-                Europe/Warsaw
-
-                Europe/Zagreb Europe/Zaporozhye Europe/Zurich
-
-                Indian/Antananarivo
-
-                Indian/Chagos Indian/Christmas Indian/Cocos Indian/Comoro
-
-                Indian/Kerguelen
-
-                Indian/Mahe Indian/Maldives Indian/Mauritius Indian/Mayotte
-
-                Indian/Reunion
-
-                Pacific/Apia Pacific/Auckland
-
-                Pacific/Chatham
-
-                Pacific/Easter Pacific/Efate Pacific/Enderbury
-
-                Pacific/Fakaofo Pacific/Fiji Pacific/Funafuti
-
-                Pacific/Galapagos Pacific/Gambier Pacific/Guadalcanal Pacific/Guam
-
-                Pacific/Honolulu
-
-                Pacific/Johnston
-
-                Pacific/Kiritimati Pacific/Kosrae Pacific/Kwajalein
-
-                Pacific/Majuro Pacific/Marquesas Pacific/Midway
-
-                Pacific/Nauru Pacific/Niue Pacific/Norfolk Pacific/Noumea
-
-                Pacific/Pago_Pago Pacific/Palau Pacific/Pitcairn Pacific/Ponape
-
-                Pacific/Port_Moresby
-
-                Pacific/Rarotonga
-
-                Pacific/Saipan
-
-                Pacific/Tahiti Pacific/Tarawa Pacific/Tongatapu Pacific/Truk
-
-                Pacific/Wake Pacific/Wallis
-            </variable>
+			<variable id="$tzid" type="choice">
+				Africa/Abidjan Africa/Accra Africa/Addis_Ababa Africa/Algiers Africa/Asmera
+				Africa/Bamako Africa/Bangui Africa/Banjul Africa/Bissau Africa/Blantyre
+				Africa/Brazzaville Africa/Bujumbura
+				Africa/Cairo Africa/Casablanca Africa/Ceuta Africa/Conakry
+				Africa/Dakar Africa/Dar_es_Salaam Africa/Djibouti Africa/Douala
+				Africa/El_Aaiun
+				Africa/Freetown
+				Africa/Gaborone
+				Africa/Harare
+				Africa/Johannesburg
+				Africa/Kampala Africa/Khartoum Africa/Kigali Africa/Kinshasa
+				Africa/Lagos Africa/Libreville Africa/Lome Africa/Luanda Africa/Lubumbashi
+				Africa/Lusaka
+				Africa/Malabo Africa/Maputo Africa/Maseru Africa/Mbabane Africa/Mogadishu
+				Africa/Monrovia
+				Africa/Nairobi Africa/Ndjamena Africa/Niamey Africa/Nouakchott
+				Africa/Ouagadougou
+				Africa/Porto-Novo
+				Africa/Sao_Tome
+				Africa/Timbuktu Africa/Tripoli Africa/Tunis
+				Africa/Windhoek
+				America/Adak America/Anchorage America/Anguilla America/Antigua
+				America/Araguaina
+				America/Argentina/ComodRivadavia
+				America/Argentina/La_Rioja
+				America/Argentina/Rio_Gallegos
+				America/Argentina/Salta America/Argentina/San_Juan America/Argentina/San_Luis
+				America/Argentina/Tucuman
+				America/Argentina/Ushuaia
+				America/Aruba America/Asuncion
+				America/Bahia America/Barbados America/Belem America/Belize
+				America/Blanc-Sablon America/Boa_Vista America/Bogota America/Boise
+				America/Buenos_Aires
+				America/Cambridge_Bay America/Campo_Grande America/Cancun America/Caracas
+				America/Catamarca America/Cayenne America/Cayman America/Chicago
+				America/Chihuahua America/Coral_Harbour America/Cordoba America/Costa_Rica
+				America/Cuiaba America/Curacao
+				America/Danmarkshavn America/Dawson America/Dawson_Creek America/Denver
+				America/Detroit America/Dominica
+				America/Edmonton America/Eirunepe America/El_Salvador
+				America/Fortaleza
+				America/Glace_Bay America/Godthab America/Goose_Bay America/Grand_Turk
+				America/Grenada America/Guadeloupe America/Guatemala America/Guayaquil
+				America/Guyana
+				America/Halifax America/Havana America/Hermosillo
+				America/Indiana/Knox
+				America/Indiana/Marengo
+				America/Indiana/Petersburg
+				America/Indiana/Tell_City
+				America/Indiana/Vevay America/Indiana/Vincennes
+				America/Indiana/Winamac
+				America/Indianapolis America/Inuvik America/Iqaluit
+				America/Jamaica America/Jujuy America/Juneau
+				America/Kentucky/Monticello
+				America/La_Paz America/Lima America/Los_Angeles America/Louisville
+				America/Maceio America/Managua America/Manaus America/Marigot
+				America/Martinique America/Mazatlan America/Mendoza America/Menominee
+				America/Merida America/Mexico_City America/Miquelon America/Moncton
+				America/Monterrey America/Montevideo America/Montreal America/Montserrat
+				America/Nassau America/New_York America/Nipigon America/Nome America/Noronha
+				America/North_Dakota/Center
+				America/North_Dakota/New_Salem
+				America/Panama America/Pangnirtung America/Paramaribo America/Phoenix
+				America/Port_of_Spain America/Port-au-Prince America/Porto_Velho
+				America/Puerto_Rico
+				America/Rainy_River America/Rankin_Inlet America/Recife America/Regina
+				America/Resolute America/Rio_Branco
+				America/Santarem America/Santiago America/Santo_Domingo America/Sao_Paulo
+				America/Scoresbysund America/Shiprock America/St_Barthelemy America/St_Johns
+				America/St_Kitts America/St_Lucia America/St_Thomas America/St_Vincent
+				America/Swift_Current
+				America/Tegucigalpa America/Thule America/Thunder_Bay America/Tijuana
+				America/Toronto America/Tortola
+				America/Vancouver
+				America/Whitehorse America/Winnipeg
+				America/Yakutat America/Yellowknife
+				Antarctica/Casey
+				Antarctica/Davis Antarctica/DumontDUrville
+				Antarctica/Mawson Antarctica/McMurdo
+				Antarctica/Palmer
+				Antarctica/Rothera
+				Antarctica/South_Pole Antarctica/Syowa
+				Antarctica/Vostok
+				Arctic/Longyearbyen
+				Asia/Aden Asia/Almaty Asia/Amman Asia/Anadyr Asia/Aqtau Asia/Aqtobe
+				Asia/Ashgabat
+				Asia/Baghdad Asia/Bahrain Asia/Baku Asia/Bangkok Asia/Beirut Asia/Bishkek
+				Asia/Brunei
+				Asia/Calcutta Asia/Choibalsan Asia/Chongqing Asia/Colombo
+				Asia/Damascus Asia/Dhaka Asia/Dili Asia/Dubai Asia/Dushanbe
+				Asia/Gaza
+				Asia/Harbin Asia/Hong_Kong Asia/Hovd
+				Asia/Irkutsk
+				Asia/Jakarta Asia/Jayapura Asia/Jerusalem
+				Asia/Kabul Asia/Kamchatka Asia/Karachi Asia/Kashgar Asia/Katmandu
+				Asia/Krasnoyarsk Asia/Kuala_Lumpur Asia/Kuching Asia/Kuwait
+				Asia/Macau Asia/Magadan Asia/Makassar Asia/Manila Asia/Muscat
+				Asia/Nicosia Asia/Novosibirsk
+				Asia/Omsk Asia/Oral
+				Asia/Phnom_Penh Asia/Pontianak Asia/Pyongyang
+				Asia/Qatar Asia/Qyzylorda
+				Asia/Rangoon Asia/Riyadh
+				Asia/Saigon Asia/Sakhalin Asia/Samarkand Asia/Seoul Asia/Shanghai
+				Asia/Singapore
+				Asia/Taipei Asia/Tashkent Asia/Tbilisi Asia/Tehran Asia/Thimphu Asia/Tokyo
+				Asia/Ulaanbaatar Asia/Urumqi
+				Asia/Vientiane Asia/Vladivostok
+				Asia/Yakutsk Asia/Yekaterinburg Asia/Yerevan
+				Atlantic/Azores
+				Atlantic/Bermuda
+				Atlantic/Canary Atlantic/Cape_Verde
+				Atlantic/Faeroe
+				Atlantic/Madeira
+				Atlantic/Reykjavik
+				Atlantic/South_Georgia Atlantic/St_Helena Atlantic/Stanley
+				Australia/Adelaide
+				Australia/Brisbane Australia/Broken_Hill
+				Australia/Currie
+				Australia/Darwin
+				Australia/Eucla
+				Australia/Hobart
+				Australia/Lindeman Australia/Lord_Howe
+				Australia/Melbourne
+				Australia/Perth
+				Australia/Sydney
+				Etc/GMT Etc/GMT-1 Etc/GMT-2 Etc/GMT-3 Etc/GMT-4 Etc/GMT-5 Etc/GMT-6 Etc/GMT-7
+				Etc/GMT-8 Etc/GMT-9 Etc/GMT-10 Etc/GMT-11 Etc/GMT-12 Etc/GMT-13 Etc/GMT-14
+				Etc/GMT+1 Etc/GMT+2 Etc/GMT+3 Etc/GMT+4 Etc/GMT+5 Etc/GMT+6 Etc/GMT+7 Etc/GMT+8
+				Etc/GMT+9 Etc/GMT+10 Etc/GMT+11 Etc/GMT+12
+				Etc/Unknown
+				Europe/Amsterdam Europe/Andorra Europe/Athens
+				Europe/Belfast Europe/Belgrade Europe/Berlin Europe/Bratislava Europe/Brussels
+				Europe/Bucharest Europe/Budapest
+				Europe/Chisinau Europe/Copenhagen
+				Europe/Dublin
+				Europe/Gibraltar Europe/Guernsey
+				Europe/Helsinki
+				Europe/Isle_of_Man Europe/Istanbul
+				Europe/Jersey
+				Europe/Kaliningrad Europe/Kiev
+				Europe/Lisbon Europe/Ljubljana Europe/London Europe/Luxembourg
+				Europe/Madrid Europe/Malta Europe/Mariehamn Europe/Minsk Europe/Monaco
+				Europe/Moscow
+				Europe/Oslo
+				Europe/Paris Europe/Podgorica Europe/Prague
+				Europe/Riga Europe/Rome
+				Europe/Samara Europe/San_Marino Europe/Sarajevo Europe/Simferopol Europe/Skopje
+				Europe/Sofia Europe/Stockholm
+				Europe/Tallinn Europe/Tirane
+				Europe/Uzhgorod
+				Europe/Vaduz Europe/Vatican Europe/Vienna Europe/Vilnius Europe/Volgograd
+				Europe/Warsaw
+				Europe/Zagreb Europe/Zaporozhye Europe/Zurich
+				Indian/Antananarivo
+				Indian/Chagos Indian/Christmas Indian/Cocos Indian/Comoro
+				Indian/Kerguelen
+				Indian/Mahe Indian/Maldives Indian/Mauritius Indian/Mayotte
+				Indian/Reunion
+				Pacific/Apia Pacific/Auckland
+				Pacific/Chatham
+				Pacific/Easter Pacific/Efate Pacific/Enderbury
+				Pacific/Fakaofo Pacific/Fiji Pacific/Funafuti
+				Pacific/Galapagos Pacific/Gambier Pacific/Guadalcanal Pacific/Guam
+				Pacific/Honolulu
+				Pacific/Johnston
+				Pacific/Kiritimati Pacific/Kosrae Pacific/Kwajalein
+				Pacific/Majuro Pacific/Marquesas Pacific/Midway
+				Pacific/Nauru Pacific/Niue Pacific/Norfolk Pacific/Noumea
+				Pacific/Pago_Pago Pacific/Palau Pacific/Pitcairn Pacific/Ponape
+				Pacific/Port_Moresby
+				Pacific/Rarotonga
+				Pacific/Saipan
+				Pacific/Tahiti Pacific/Tarawa Pacific/Tongatapu Pacific/Truk
+				Pacific/Wake Pacific/Wallis
+				Pacific/Yap
+			</variable>
 
 			<!-- end of data generated by CountItems -->
 			<variable id="$altList" type="choice">
@@ -618,7 +415,7 @@
             <variable id="$allow" type="regex">(verbatim)</variable>
             <variable id="$alt" type="regex">((variant|list|secondary|email|www|short)(-proposed.*)?|(proposed.*))</variable>
             <variable id="$append" type="choice">Era Year Quarter Month Week Day-Of-Week Day Hour Minute Second Timezone</variable>
-            <variable id="$calendar" type="choice">buddhist coptic ethiopic chinese gregorian hebrew indian islamic islamic-civil japanese arabic civil-arabic thai-buddhist persian roc</variable>
+            <variable id="$calendar" type="choice">buddhist coptic ethiopic ethiopic-amete-alem chinese gregorian hebrew indian islamic islamic-civil japanese arabic civil-arabic thai-buddhist persian roc</variable>
             <variable id="$collationType" type="choice">big5han digits-after direct gb2312han phonebook pinyin reformed standard stroke traditional</variable>
             <variable id="$date" type="regex">200[0-9]-([0-9]|1[0-2])-([12][0-9]|3[01])</variable>
             <variable id="$double" type="regex">[0-9]+(\.[0-9]+)?</variable>
@@ -626,6 +423,7 @@
             <variable id="$fullTzid" type="notDoneYet"/>
             <variable id="$genDate" type="regex">\$.*\$</variable>
             <variable id="$locale" type="locale"/>
+            <variable id="$numberSystem" type="choice">arab arabext armn armnlow beng deva ethi fullwide geor grek greklow gujr guru hans hansfin hant hantfin hebr jpan jpanfin knda khmr laoo latn mlym mong mymr orya roman romanlow taml telu thai tibt</variable>
             <variable id="$reference" type="regex">([R|S]|RP)[0-9]+</variable>
             <variable id="$time" type="regex">([01][0-9]|2[0-4]):[0-6][0-9]</variable>
             <variable id="$uri" type="notDoneYet"/>
@@ -659,7 +457,7 @@
             <attributeValues elements="info" attributes="digits" type="regex">[0-9]+</attributeValues>
             <attributeValues elements="info" attributes="iso4217">$currency</attributeValues>
             <attributeValues elements="info" attributes="rounding" type="regex">[0-9]+</attributeValues>
-            <attributeValues elements="key" attributes="type" type="choice">calendar collation currency</attributeValues>
+            <attributeValues elements="key" attributes="type" type="choice">calendar collation currency numbers</attributeValues>
             <attributeValues elements="language" attributes="scripts">$script</attributeValues>
             <attributeValues elements="language" attributes="territories">$territory</attributeValues>
             <attributeValues elements="language" attributes="type">$locale</attributeValues>
@@ -670,6 +468,8 @@
             <attributeValues elements="mapZone" attributes="type">$tzid</attributeValues>
             <attributeValues elements="mapping" attributes="registry" type="choice">iana</attributeValues>
             <attributeValues elements="mapping" attributes="type" type="choice">utf-8</attributeValues>
+            <attributeValues elements="numberingSystem" attributes="id">$numberSystem</attributeValues>
+            <attributeValues elements="numberingSystem" attributes="type" type="choice">algorithmic numeric</attributeValues>
             <attributeValues elements="minDays" attributes="count" type="regex">[0-7]</attributeValues>
             <attributeValues elements="month" attributes="type" type="choice">1 2 3 4 5 6 7 8 9 10 11 12 13</attributeValues>
             <attributeValues elements="monthWidth dayWidth quarterWidth" attributes="type" order="given">abbreviated narrow wide</attributeValues>
@@ -690,8 +490,8 @@
             <attributeValues elements="supplementalData" attributes="version">$version</attributeValues>
             <attributeValues elements="territory" attributes="type">$territory</attributeValues>
             <attributeValues elements="territoryAlias" attributes="replacement type">$territory</attributeValues>
-            <attributeValues elements="type" attributes="key" type="choice">calendar collation currency</attributeValues>
-            <attributeValues elements="type" attributes="type" type="choice">big5han buddhist chinese direct gb2312han gregorian hebrew indian islamic islamic-civil japanese persian phonebook pinyin roc stroke traditional</attributeValues>
+            <attributeValues elements="type" attributes="key" type="choice">calendar collation currency numbers</attributeValues>
+            <attributeValues elements="type" attributes="type" type="choice">arab arabext arabic armn armnlow beng big5han buddhist chinese coptic deva direct ethi ethiopic ethiopic-amete-alem fullwide gb2312han geor gregorian grek greklow gujr guru hans hansfin hant hantfin hebr hebrew indian islamic islamic-civil japanese jpan jpanfin knda khmr laoo latn mlym mong mymr orya persian phonebook pinyin roc roman romanlow stroke taml telu thai tibt traditional</attributeValues>
             <attributeValues elements="variable" attributes="id">$variableID</attributeValues>
             <attributeValues elements="variant" attributes="type">$variant</attributeValues>
             <attributeValues elements="variantAlias" attributes="replacement type">$variant</attributeValues>
@@ -720,6 +520,7 @@
             <languageAlias type="jw" replacement="jv"/> <!-- Javanese -->
             <!-- legacy use -->
             <languageAlias type="sh" replacement="sr_Latn"/> <!-- Serbo-Croatian -->
+            <languageAlias type="mo" replacement="ro_MD"/> <!-- Moldovan -->
             <!-- default scripts -->
             <languageAlias type="sr_CS" replacement="sr_Cyrl_CS"/>
             <languageAlias type="zh_CN" replacement="zh_Hans_CN"/>
@@ -808,6 +609,7 @@
             <deprecatedItems elements="variant" attributes="type" values="BOKMAL NYNORSK AALAND POLYTONI"/>
             <deprecatedItems elements="abbreviationFallback default hoursFormat localizedPatternChars mapping measurementSystem preferenceOrdering" attributes="type"/>
             <deprecatedItems type="supplemental" elements="alternate"/>
+            <deprecatedItems type="supplemental" elements="calendar" attributes="territories"/>
             <deprecatedItems attributes="draft" values="true false"/>
         </deprecated>
         <distinguishing>
@@ -845,26 +647,26 @@
         <skipDefaultLocale services="segmentation collation"/>
 		<defaultContent locales="
 			aa_ET af_ZA ak_GH am_ET ar_EG as_IN az_Cyrl_AZ az_Latn az_Latn_AZ
-			be_BY bg_BG bn_BD bs_BA
+			be_BY bg_BG bn_BD bo_CN bs_BA
 			ca_ES cs_CZ cy_GB
 			da_DK de_DE dv_MV dz_BT
 			ee_GH el_GR en_Dsrt_US en_US es_ES et_EE eu_ES
 			fa_IR fi_FI fil_PH fo_FO fr_FR fur_IT
-			ga_IE gaa_GH gl_ES gu_IN
+			ga_IE gaa_GH gl_ES gsw_CH gu_IN
 			ha_Arab_SD ha_Latn ha_Latn_NG haw_US he_IL hi_IN hr_HR hu_HU hy_AM
 			id_ID ig_NG ii_CN is_IS it_IT
 			ja_JP
 			ka_GE kaj_NG kam_KE kk_Cyrl kk_Cyrl_KZ kl_GL km_KH kn_IN ko_KR kok_IN kpe_LR
-			ku_Arab ku_Latn_TR ky_KG
+			ku_Arab ku_Arab_IQ ku_Latn_TR ky_KG
 			ln_CD lo_LA lt_LT lv_LV
 			mk_MK ml_IN mn_Cyrl mn_Cyrl_MN mn_Mong_CN mr_IN ms_MY mt_MT my_MM
-			nb_NO ne_NP nl_NL nn_NO nr_ZA nso_ZA ny_MW
-			om_ET or_IN
+			nb_NO nds_DE ne_NP nl_NL nn_NO nr_ZA nso_ZA ny_MW
+			oc_FR om_ET or_IN
 			pa_Arab_PK pa_Guru pa_Guru_IN pl_PL ps_AF pt_BR
 			ro_RO ru_RU rw_RW
 			sa_IN se_NO si_LK sid_ET sk_SK sl_SI so_SO sq_AL sr_Cyrl sr_Cyrl_RS sr_Latn_RS
 			ss_ZA st_ZA sv_SE sw_TZ
-			ta_IN te_IN tg_Cyrl tg_Cyrl_TJ th_TH ti_ET tig_ER tn_ZA to_TO tr_TR ts_ZA tt_RU
+			ta_IN te_IN tg_Cyrl tg_Cyrl_TJ th_TH ti_ET tig_ER tn_ZA to_TO tr_TR trv_TW ts_ZA tt_RU
 			ug_Arab ug_Arab_CN uk_UA ur_PK uz_Arab_AF uz_Cyrl uz_Cyrl_UZ uz_Latn_UZ
 			ve_ZA vi_VN
 			wal_ET wo_Latn wo_Latn_SN

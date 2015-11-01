@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldmlSupplemental.dtd">
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
 	<metazoneInfo>
 		<timezone type="Europe/Andorra">
@@ -123,7 +123,14 @@
 			<usesMetazone to="2000-03-03 03:00" from="1999-10-03 03:00" mzone="Argentina_Western"/>
 			<usesMetazone to="2004-05-31 03:00" from="2000-03-03 03:00" mzone="Argentina"/>
 			<usesMetazone to="2004-07-25 04:00" from="2004-05-31 03:00" mzone="Argentina_Western"/>
-			<usesMetazone from="2004-07-25 04:00" mzone="Argentina"/>
+			<usesMetazone to="2009-03-15 03:00" from="2004-07-25 04:00" mzone="Argentina"/>
+			<!-- Disable the mapping.  See CLDR bug#2125. -->
+			<!-- <usesMetazone from="2009-03-15 03:00" mzone="Argentina_Western"/> -->
+		</timezone>
+		<timezone type="America/Argentina/Salta">
+			<usesMetazone to="1991-03-03 02:00" mzone="Argentina"/>
+			<usesMetazone to="1991-10-20 04:00" from="1991-03-03 02:00" mzone="Argentina_Western"/>
+			<usesMetazone from="1991-10-20 04:00" mzone="Argentina"/>
 		</timezone>
 		<timezone type="Pacific/Pago_Pago">
 			<usesMetazone to="1983-10-30 12:00" mzone="Bering"/>

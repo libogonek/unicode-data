@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.23 $"/>
-		<generation date="$Date: 2008/03/10 02:27:55 $"/>
+		<version number="$Revision: 1.24 $"/>
+		<generation date="$Date: 2009/05/05 23:28:47 $"/>
 		<language type="en" /> 
 	</identity>
 	<collations  validSubLocales="en_AU en_BW en_CA en_GB en_HK en_IE en_IN en_MT en_NZ en_PH en_SG en_US en_US_POSIX en_VI en_ZA en_ZW">

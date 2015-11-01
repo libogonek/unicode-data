@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml draft="unconfirmed">
 <!--
 Locale Data Format
@@ -7,8 +7,8 @@ Draft: 2004-08-02
 By Pema geyleg <pema_geyleg@druknet.bt>
 -->
   <identity>
-		<version number="$Revision: 1.17 $"/>
-		<generation date="$Date: 2008/06/12 17:39:03 $"/>
+		<version number="$Revision: 1.18 $"/>
+		<generation date="$Date: 2009/05/05 23:28:47 $"/>
 <!-- Two letter codes, if available; otherwise 3-letter codes.If bothcexist, a separate database contains the mapping. -->
     <language type="dz" />
   </identity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.5 $"/>
-		<generation date="$Date: 2008/06/10 21:01:32 $"/>
+		<version number="$Revision: 1.7 $"/>
+		<generation date="$Date: 2009/05/05 23:41:57 $"/>
 		<language type="en"/>
 		<territory type="US"/>
 		<variant type="POSIX"/>
@@ -11,7 +11,9 @@
 	<segmentations>
 		<segmentation type="WordBreak">
 			<variables>
-				<variable id="$MidLetter">[$MidLetter-\:-\,]</variable>
+				<variable id="$MidLetter">[[$MidLetter]-[\:]]</variable>
+				<variable id="$MidNumLet">[[$MidNumLet]-[.]]</variable>
+				<variable id="$MidNum">[[$MidNum] [.]]</variable>
 			</variables>
 		</segmentation>
 	</segmentations>

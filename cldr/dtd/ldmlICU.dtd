@@ -17,8 +17,8 @@ Except as contained in this notice, the name of a copyright holder shall not be 
 <!ATTLIST special icu:version CDATA #IMPLIED>
 
 <!ELEMENT icu:version EMPTY>
-<!ATTLIST icu:version icu:specialVersion  CDATA #FIXED "1.0" >
-<!ATTLIST icu:version icu:requiredLDMLVersion CDATA #FIXED "1.0" >
+<!ATTLIST icu:version icu:specialVersion  CDATA #FIXED "1.7" >
+<!ATTLIST icu:version icu:requiredLDMLVersion CDATA #FIXED "1.7" >
 
 <!-- ICU Scripts -->
 
@@ -38,35 +38,55 @@ Except as contained in this notice, the name of a copyright holder shall not be 
 <!ATTLIST icu:ruleBasedNumberFormat type NMTOKEN #IMPLIED >
 
 <!-- RBBI data -->
-<!ELEMENT icu:boundaries (alias | (icu:grapheme?, icu:word?, icu:line?, icu:sentence?, icu:title?)) >
+<!ELEMENT icu:breakIteratorData (alias | (icu:boundaries?, icu:dictionaries?)) >
+
+<!ELEMENT icu:boundaries (alias | (icu:grapheme?, icu:word?, icu:line?, icu:sentence?, icu:title?, icu:xgc?)) >
+
+<!ELEMENT icu:dictionaries (alias | (icu:dictionary?)) >
+
+<!ELEMENT icu:dictionary ( #PCDATA ) >
+<!ATTLIST icu:dictionary icu:dependency NMTOKEN #IMPLIED >
+<!ATTLIST icu:dictionary type NMTOKEN #REQUIRED >
 
 <!ELEMENT icu:grapheme ( #PCDATA ) >
-<!ATTLIST icu:grapheme icu:class NMTOKEN #REQUIRED >
+<!ATTLIST icu:grapheme icu:class NMTOKEN #IMPLIED >
 <!ATTLIST icu:grapheme icu:append NMTOKEN #IMPLIED >
-<!ATTLIST icu:grapheme icu:import NMTOKEN #REQUIRED >
+<!ATTLIST icu:grapheme icu:import NMTOKEN #IMPLIED >
+<!ATTLIST icu:grapheme icu:dependency NMTOKEN #IMPLIED >
 
 <!ELEMENT icu:word ( #PCDATA ) >
-<!ATTLIST icu:word icu:class NMTOKEN #REQUIRED >
+<!ATTLIST icu:word icu:class NMTOKEN #IMPLIED >
 <!ATTLIST icu:word icu:append NMTOKEN #IMPLIED >
-<!ATTLIST icu:word icu:import NMTOKEN #REQUIRED >
+<!ATTLIST icu:word icu:import NMTOKEN #IMPLIED >
+<!ATTLIST icu:word icu:dependency NMTOKEN #IMPLIED >
 
 <!ELEMENT icu:line ( #PCDATA ) >
-<!ATTLIST icu:line icu:class NMTOKEN #REQUIRED >
+<!ATTLIST icu:line icu:class NMTOKEN #IMPLIED >
 <!ATTLIST icu:line icu:append NMTOKEN #IMPLIED >
-<!ATTLIST icu:line icu:import NMTOKEN #REQUIRED >
+<!ATTLIST icu:line icu:import NMTOKEN #IMPLIED >
+<!ATTLIST icu:line icu:dependency NMTOKEN #IMPLIED >
 
 <!ELEMENT icu:sentence ( #PCDATA ) >
-<!ATTLIST icu:sentence icu:class NMTOKEN #REQUIRED >
+<!ATTLIST icu:sentence icu:class NMTOKEN #IMPLIED >
 <!ATTLIST icu:sentence icu:append NMTOKEN #IMPLIED >
-<!ATTLIST icu:sentence icu:import NMTOKEN #REQUIRED >
+<!ATTLIST icu:sentence icu:import NMTOKEN #IMPLIED >
+<!ATTLIST icu:sentence icu:dependency NMTOKEN #IMPLIED >
 
 <!ELEMENT icu:title ( #PCDATA ) >
-<!ATTLIST icu:title icu:class NMTOKEN #REQUIRED >
+<!ATTLIST icu:title icu:class NMTOKEN #IMPLIED >
 <!ATTLIST icu:title icu:append NMTOKEN #IMPLIED >
-<!ATTLIST icu:title icu:import NMTOKEN #REQUIRED >
+<!ATTLIST icu:title icu:import NMTOKEN #IMPLIED >
+<!ATTLIST icu:title icu:dependency NMTOKEN #IMPLIED >
 
+<!ELEMENT icu:xgc ( #PCDATA ) >
+<!ATTLIST icu:xgc icu:class NMTOKEN #IMPLIED >
+<!ATTLIST icu:xgc icu:append NMTOKEN #IMPLIED >
+<!ATTLIST icu:xgc icu:import NMTOKEN #IMPLIED >
+<!ATTLIST icu:xgc icu:dependency NMTOKEN #IMPLIED >
+
+<!--deorecated -->
 <!ELEMENT icu:breakDictionaryData EMPTY >
-<!ATTLIST icu:breakDictionaryData icu:class NMTOKEN #REQUIRED >
+<!ATTLIST icu:breakDictionaryData icu:class NMTOKEN #IMPLIED >
 <!ATTLIST icu:breakDictionaryData icu:import NMTOKEN #IMPLIED >
 <!ATTLIST icu:breakDictionaryData icu:importFile CDATA #IMPLIED >
 
@@ -79,5 +99,13 @@ Except as contained in this notice, the name of a copyright holder shall not be 
 <!ELEMENT icu:isLeapMonth ( alias | (icu:nonLeapSymbol?, icu:leapSymbol? ))>
 <!ELEMENT icu:nonLeapSymbol ( #PCDATA ) >
 <!ELEMENT icu:leapSymbol ( #PCDATA ) >
+
+<!-- UCA Rules -->
+<!ELEMENT icu:UCARules EMPTY >
+<!ATTLIST icu:UCARules icu:uca_rules CDATA #REQUIRED >
+
+<!-- Dependencies Rules -->
+<!ELEMENT icu:depends EMPTY >
+<!ATTLIST icu:depends icu:dependency CDATA #REQUIRED >
 
 <!-- ######################################################### -->

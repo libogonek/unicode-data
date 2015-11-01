@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <!--
  	Prepared by: R. Hari, Sr. IT Specialist, IBM India Ltd., India
 	Inputs from : Dr. B.L. Mohanty, Lecturer, Eastern Regional Language
@@ -9,8 +9,8 @@
 -->
 <ldml draft = "true">
 	<identity>
-		<version number="$Revision: 1.11 $"/>
-		<generation date="$Date: 2008/06/12 17:39:03 $"/>
+		<version number="$Revision: 1.12 $"/>
+		<generation date="$Date: 2009/05/05 23:28:47 $"/>
 		<language type="or" /> 
 	</identity>
 		<collations  validSubLocales="or_IN">
