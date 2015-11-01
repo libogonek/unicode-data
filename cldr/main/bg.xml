@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4769 $"/>
-		<generation date="$Date: 2010-02-27 23:03:11 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 4876 $"/>
+		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
 		<language type="bg"/>
 	</identity>
 	<localeDisplayNames>
@@ -1145,6 +1145,14 @@
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
+				<dayPeriods>
+					<dayPeriodContext type="format">
+						<dayPeriodWidth type="wide">
+							<dayPeriod type="am">пр. об.</dayPeriod>
+							<dayPeriod type="pm">сл. об.</dayPeriod>
+						</dayPeriodWidth>
+					</dayPeriodContext>
+				</dayPeriods>
 				<eras>
 					<eraNames>
 						<era type="0" draft="contributed">пр.Хр.</era>
@@ -1417,7 +1425,6 @@
 			<gmtFormat>Гриинуич{0}</gmtFormat>
 			<gmtFormat alt="proposed-x1001" draft="unconfirmed">Гринуич{0}</gmtFormat>
 			<gmtZeroFormat>Гриинуич</gmtZeroFormat>
-			<regionFormat>{0}</regionFormat>
 			<fallbackFormat>{1} ({0})</fallbackFormat>
 			<zone type="Etc/Unknown">
 				<exemplarCity>Неизвестен</exemplarCity>
@@ -2667,12 +2674,14 @@
 					<standard>Китайска часова зона</standard>
 				</long>
 				<short>
+					<generic>CT (Китай)</generic>
 					<standard>CST (Китай)</standard>
 					<daylight>CDT (Китай)</daylight>
 				</short>
 			</metazone>
 			<metazone type="Cuba">
 				<short>
+					<generic>CT (Куба)</generic>
 					<standard>CST (Куба)</standard>
 					<daylight>CDT (Куба)</daylight>
 				</short>

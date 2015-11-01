@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4786 $"/>
-		<generation date="$Date: 2010-03-03 12:27:12 -0600 (Wed, 03 Mar 2010) $"/>
+		<version number="$Revision: 4876 $"/>
+		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
 		<language type="nn"/>
 	</identity>
 	<fallback>nb da sv en</fallback>
@@ -1501,7 +1501,6 @@
 		<timeZoneNames>
 			<hourFormat>+HH:mm;-HH:mm</hourFormat>
 			<gmtFormat>GMT{0}</gmtFormat>
-			<regionFormat>{0}</regionFormat>
 			<fallbackFormat>{1} ({0})</fallbackFormat>
 			<fallbackFormat alt="proposed-x1001" draft="unconfirmed">{0} ({1})</fallbackFormat>
 			<zone type="Etc/Unknown">
@@ -1626,6 +1625,7 @@
 			</metazone>
 			<metazone type="China">
 				<short>
+					<generic>CT (Kina)</generic>
 					<standard>CST (Kina)</standard>
 					<daylight>CDT (Kina)</daylight>
 				</short>

@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4753 $"/>
-		<generation date="$Date: 2010-02-26 00:32:00 -0600 (Fri, 26 Feb 2010) $"/>
+		<version number="$Revision: 4876 $"/>
+		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
 		<language type="el"/>
 	</identity>
 	<localeDisplayNames>
@@ -1509,7 +1509,6 @@
 		<timeZoneNames>
 			<hourFormat>+HH:mm;-HH:mm</hourFormat>
 			<gmtFormat>GMT{0}</gmtFormat>
-			<regionFormat>{0}</regionFormat>
 			<zone type="Etc/Unknown">
 				<exemplarCity>Άγνωστη</exemplarCity>
 			</zone>
@@ -2695,12 +2694,14 @@
 			</metazone>
 			<metazone type="Bering">
 				<short>
+					<generic>BT (Μπερίνγκ)</generic>
 					<standard>BST (Μπερίνγκ)</standard>
 					<daylight>BDT (Μπερίνγκ)</daylight>
 				</short>
 			</metazone>
 			<metazone type="Cuba">
 				<short>
+					<generic>CT (Κούβα)</generic>
 					<standard>CST (Κούβα)</standard>
 					<daylight>CDT (Κούβα)</daylight>
 				</short>

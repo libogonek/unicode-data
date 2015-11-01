@@ -2,8 +2,8 @@
 <!DOCTYPE ldmlBCP47 SYSTEM "../../common/dtd/ldmlBCP47.dtd">
 
 <ldmlBCP47>
-    <version number="$Revision: 4788 $"/>
-    <generation date="$Date: 2010-03-03 16:35:17 -0600 (Wed, 03 Mar 2010) $"/>
+    <version number="$Revision: 4863 $"/>
+    <generation date="$Date: 2010-04-20 16:52:06 -0500 (Tue, 20 Apr 2010) $"/>
     <keyword>
         <key name="tz" alias="timezone">
             <type name="adalv" alias="Europe/Andorra"/>
@@ -49,6 +49,7 @@
             <type name="auldc" alias="Australia/Lindeman"/>
             <type name="auldh" alias="Australia/Lord_Howe Australia/LHI"/>
             <type name="aumel" alias="Australia/Melbourne Australia/Victoria"/>
+            <type name="aumqi" alias="Antarctica/Macquarie" since="1.8.1"/>
             <type name="auper" alias="Australia/Perth Australia/West"/>
             <type name="ausyd" alias="Australia/Sydney Australia/ACT Australia/Canberra Australia/NSW"/>
             <type name="awaua" alias="America/Aruba"/>

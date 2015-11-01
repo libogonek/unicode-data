@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4786 $"/>
-		<generation date="$Date: 2010-03-03 12:27:12 -0600 (Wed, 03 Mar 2010) $"/>
+		<version number="$Revision: 4876 $"/>
+		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
 		<language type="nb"/>
 	</identity>
 	<fallback>nn da sv en</fallback>
@@ -1605,7 +1605,6 @@
 		<timeZoneNames>
 			<hourFormat>+HH:mm;-HH:mm</hourFormat>
 			<gmtFormat>GMT{0}</gmtFormat>
-			<regionFormat>{0}</regionFormat>
 			<fallbackFormat>{1} ({0})</fallbackFormat>
 			<fallbackFormat alt="proposed-x1001" draft="unconfirmed">{0} ({1})</fallbackFormat>
 			<zone type="Etc/Unknown">
@@ -1861,11 +1860,6 @@
 					<daylight>Amazonas sommertid</daylight>
 				</long>
 			</metazone>
-			<metazone type="America_Central">
-				<short>
-					<generic>CT</generic>
-				</short>
-			</metazone>
 			<metazone type="Arabian">
 				<long>
 					<generic>arabisk tid</generic>
@@ -1889,9 +1883,6 @@
 					<standard>sentralaustralsk standardtid</standard>
 					<daylight>sentralaustralsk sommertid</daylight>
 				</long>
-				<short>
-					<generic>ACT</generic>
-				</short>
 			</metazone>
 			<metazone type="Australia_CentralWestern">
 				<long>
@@ -1906,9 +1897,6 @@
 					<standard>østaustralsk standardtid</standard>
 					<daylight>østaustralsk sommertid</daylight>
 				</long>
-				<short>
-					<generic>AET</generic>
-				</short>
 			</metazone>
 			<metazone type="Australia_Western">
 				<long>
@@ -1916,9 +1904,6 @@
 					<standard>vestaustralsk standardtid</standard>
 					<daylight>vestaustralsk sommertid</daylight>
 				</long>
-				<short>
-					<generic>AWT</generic>
-				</short>
 			</metazone>
 			<metazone type="Brasilia">
 				<long>
@@ -1931,7 +1916,9 @@
 					<standard>kinesisk standardtid</standard>
 				</long>
 				<short>
+					<generic>CT (Kina)</generic>
 					<standard>CST (Kina)</standard>
+					<daylight>CDT (Kina)</daylight>
 				</short>
 			</metazone>
 			<metazone type="Europe_Central">
@@ -2019,9 +2006,6 @@
 					<standard>newzealandsk standardtid</standard>
 					<daylight>newzealandsk sommertid</daylight>
 				</long>
-				<short>
-					<generic>NZT</generic>
-				</short>
 			</metazone>
 		</timeZoneNames>
 	</dates>

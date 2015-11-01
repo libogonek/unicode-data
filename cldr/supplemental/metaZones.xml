@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
-	<version number="$Revision: 4788 $"/>
-	<generation date="$Date: 2010-03-03 16:35:17 -0600 (Wed, 03 Mar 2010) $"/>
+	<version number="$Revision: 4818 $"/>
+	<generation date="$Date: 2010-03-22 21:12:02 -0500 (Mon, 22 Mar 2010) $"/>
 
 	<metaZones>
 		<metazoneInfo>
@@ -55,6 +55,7 @@
 			</timezone>
 			<timezone type="Antarctica/Casey">
 				<usesMetazone to="2009-10-17 18:00" mzone="Australia_Western"/>
+				<usesMetazone from="2010-03-04 15:00" mzone="Australia_Western"/>
 			</timezone>
 			<timezone type="Antarctica/DumontDUrville">
 				<usesMetazone mzone="DumontDUrville"/>
@@ -1430,6 +1431,9 @@
 			</timezone>
 			<timezone type="America/Santa_Isabel">
 				<usesMetazone mzone="America_Pacific"/>
+			</timezone>
+			<timezone type="Antarctica/Macquarie">
+				<usesMetazone to="2010-04-03 16:00" mzone="Australia_Eastern"/>
 			</timezone>
 		</metazoneInfo>
 

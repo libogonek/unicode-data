@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4768 $"/>
-		<generation date="$Date: 2010-02-27 21:22:52 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 4831 $"/>
+		<generation date="$Date: 2010-03-29 16:55:14 -0500 (Mon, 29 Mar 2010) $"/>
 		<language type="sw"/>
 	</identity>
 	<localeDisplayNames>
@@ -100,7 +100,7 @@
 			<language type="st" draft="unconfirmed">sesotho</language>
 			<language type="su" draft="unconfirmed">kinubi</language>
 			<language type="sv">Kiswidi</language>
-			<language type="sw">Kenya</language>
+			<language type="sw">Kiswahili</language>
 			<language type="ta">Kitamil</language>
 			<language type="te" draft="unconfirmed">kitelugu</language>
 			<language type="th">Kitailandi</language>

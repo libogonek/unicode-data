@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4765 $"/>
-		<generation date="$Date: 2010-02-27 18:03:30 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 4870 $"/>
+		<generation date="$Date: 2010-04-23 13:21:16 -0500 (Fri, 23 Apr 2010) $"/>
 		<language type="ta"/>
 	</identity>
 	<localeDisplayNames>
@@ -1051,7 +1051,7 @@
 							<month type="6">ஜூன்</month>
 							<month type="7">ஜூலை</month>
 							<month type="8">ஆகஸ்ட்</month>
-							<month type="9">செப்டம்பர்</month>
+							<month type="9">செப்டெம்ப்ர்</month>
 							<month type="10">அக்டோபர்</month>
 							<month type="11">நவம்பர்</month>
 							<month type="12">டிசம்பர்</month>

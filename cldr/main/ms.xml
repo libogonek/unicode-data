@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4768 $"/>
-		<generation date="$Date: 2010-02-27 21:22:52 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 4872 $"/>
+		<generation date="$Date: 2010-04-23 13:25:54 -0500 (Fri, 23 Apr 2010) $"/>
 		<language type="ms"/>
 	</identity>
 	<localeDisplayNames>
@@ -493,11 +493,13 @@
 						<dateFormatItem id="Hmm" draft="unconfirmed">H:mm</dateFormatItem>
 						<dateFormatItem id="Md">d-M</dateFormatItem>
 						<dateFormatItem id="MEd">E, d-M</dateFormatItem>
+						<dateFormatItem id="MMMEd">EEE, d MMM</dateFormatItem>
 						<dateFormatItem id="MMdd" draft="unconfirmed">dd/MM</dateFormatItem>
-						<dateFormatItem id="MMMMdd" draft="unconfirmed">dd MMMM</dateFormatItem>
+						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
 						<dateFormatItem id="yM">M-y</dateFormatItem>
 						<dateFormatItem id="yMEd">EEE, d-M-yyyy</dateFormatItem>
-						<dateFormatItem id="yMMMM" draft="unconfirmed">MMMM y</dateFormatItem>
+						<dateFormatItem id="yMMM">MMM y</dateFormatItem>
+						<dateFormatItem id="yMMMEd">EEE, d MMM y</dateFormatItem>
 						<dateFormatItem id="yQ" draft="unconfirmed">Q yyyy</dateFormatItem>
 					</availableFormats>
 					<intervalFormats>

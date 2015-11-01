@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4753 $"/>
-		<generation date="$Date: 2010-02-26 00:32:00 -0600 (Fri, 26 Feb 2010) $"/>
+		<version number="$Revision: 4876 $"/>
+		<generation date="$Date: 2010-04-23 13:34:02 -0500 (Fri, 23 Apr 2010) $"/>
 		<language type="fil"/>
 	</identity>
 	<localeDisplayNames>
@@ -253,7 +253,7 @@
 			<territory type="GS">South Georgia and The South Sandwich Islands</territory>
 			<territory type="GW" draft="provisional">Guinea-Bissau</territory>
 			<territory type="HK">Hong Kong SAR China</territory>
-			<territory type="HK" alt="short">Hong KOng</territory>
+			<territory type="HK" alt="short">Hong Kong</territory>
 			<territory type="HM" draft="provisional">Heard Island and McDonald Islands</territory>
 			<territory type="HN" draft="provisional">Honduras</territory>
 			<territory type="HR" draft="unconfirmed">Croatia</territory>
@@ -617,7 +617,6 @@
 		<timeZoneNames>
 			<hourFormat draft="contributed">+HH:mm;-HH:mm</hourFormat>
 			<gmtFormat draft="contributed">GMT{0}</gmtFormat>
-			<regionFormat draft="contributed">{0}</regionFormat>
 			<fallbackFormat draft="contributed">{1} ({0})</fallbackFormat>
 			<zone type="Etc/Unknown">
 				<exemplarCity draft="contributed">Unknown</exemplarCity>

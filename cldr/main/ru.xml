@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4763 $"/>
-		<generation date="$Date: 2010-02-27 01:03:37 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 4872 $"/>
+		<generation date="$Date: 2010-04-23 13:25:54 -0500 (Fri, 23 Apr 2010) $"/>
 		<language type="ru"/>
 	</identity>
 	<localeDisplayNames>
@@ -1313,21 +1313,19 @@
 						<dateFormatItem id="y" draft="contributed">y</dateFormatItem>
 						<dateFormatItem id="yM" draft="contributed">M.y</dateFormatItem>
 						<dateFormatItem id="yMEd" draft="contributed">EEE, d.M.y</dateFormatItem>
-						<dateFormatItem id="yMMM" references="RP6" draft="contributed">MMM y</dateFormatItem>
-						<dateFormatItem id="yMMM" alt="proposed-x1001" draft="unconfirmed">LLL y</dateFormatItem>
+						<dateFormatItem id="yMMM" references="RP6" draft="contributed">LLL y</dateFormatItem>
 						<dateFormatItem id="yMMMEd" references="RP6" draft="contributed">E, d MMM y</dateFormatItem>
 						<dateFormatItem id="yQ" references="RP6" draft="unconfirmed">Q y</dateFormatItem>
 						<dateFormatItem id="yQQQ" draft="contributed">y QQQ</dateFormatItem>
 						<dateFormatItem id="yyMM" draft="contributed">MM.yy</dateFormatItem>
-						<dateFormatItem id="yyMMM">MMM yy</dateFormatItem>
+						<dateFormatItem id="yyMMM">LLL yy</dateFormatItem>
 						<dateFormatItem id="yyMMM" alt="proposed-x1001" draft="unconfirmed">LLL yy</dateFormatItem>
 						<dateFormatItem id="yyMMMEEEd">EEE, d MMM yy</dateFormatItem>
 						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
 						<dateFormatItem id="yyyy">y</dateFormatItem>
 						<dateFormatItem id="yyyyLLLL">LLLL y</dateFormatItem>
 						<dateFormatItem id="yyyyMM">MM.yyyy</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM" draft="contributed">MMMM y</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM" alt="proposed-x1001" draft="unconfirmed">LLLL yyyy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM" draft="contributed">LLLL y</dateFormatItem>
 						<dateFormatItem id="yyyyQQQQ" draft="contributed">QQQQ y 'г'.</dateFormatItem>
 					</availableFormats>
 					<intervalFormats>
@@ -3059,9 +3057,6 @@
 					<standard draft="provisional">Центральноавстралийское стандартное время</standard>
 					<daylight draft="provisional">Центральноавстралийское летнее время</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">ACT</generic>
-				</short>
 			</metazone>
 			<metazone type="Australia_CentralWestern">
 				<long>
@@ -3069,9 +3064,6 @@
 					<standard draft="provisional">Центральноавстралийское западное стандартное время</standard>
 					<daylight draft="provisional">Центральноавстралийское западное летнее время</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">ACWT</generic>
-				</short>
 			</metazone>
 			<metazone type="Australia_Eastern">
 				<long>
@@ -3079,9 +3071,6 @@
 					<standard draft="provisional">Восточноавстралийское стандартное время</standard>
 					<daylight draft="provisional">Восточноавстралийское летнее время</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">AET</generic>
-				</short>
 			</metazone>
 			<metazone type="Australia_Western">
 				<long>
@@ -3089,9 +3078,6 @@
 					<standard draft="provisional">Западноавстралийское стандартное время</standard>
 					<daylight draft="provisional">Западноавстралийское летнее время</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">AWT</generic>
-				</short>
 			</metazone>
 			<metazone type="Azores">
 				<long>
@@ -3101,7 +3087,8 @@
 			</metazone>
 			<metazone type="Bering">
 				<short>
-					<standard draft="provisional">BDT (Берингов пролив)</standard>
+					<generic draft="provisional">BT (Берингов пролив)</generic>
+					<standard draft="provisional">BST (Берингов пролив)</standard>
 					<daylight draft="provisional">BDT (Берингов пролив)</daylight>
 				</short>
 			</metazone>
@@ -3128,9 +3115,6 @@
 					<generic draft="provisional">Чаморро время</generic>
 					<standard draft="provisional">Чаморро стандартное время</standard>
 				</long>
-				<short>
-					<generic draft="provisional">ChT</generic>
-				</short>
 			</metazone>
 			<metazone type="Chatham">
 				<long>
@@ -3165,6 +3149,7 @@
 			</metazone>
 			<metazone type="Cuba">
 				<short>
+					<generic draft="provisional">CT (Куба)</generic>
 					<standard draft="provisional">CST (Куба)</standard>
 					<daylight draft="provisional">CDT (Куба)</daylight>
 				</short>
@@ -3376,9 +3361,6 @@
 					<standard draft="provisional">Лорд-Хау стандартное время</standard>
 					<daylight draft="provisional">Лорд-Хау летнее время</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">LHT</generic>
-				</short>
 			</metazone>
 			<metazone type="Maldives">
 				<long>
@@ -3415,9 +3397,6 @@
 					<standard draft="provisional">Новозеландское стандартное время</standard>
 					<daylight draft="provisional">Новозеландское летнее время</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">NZT</generic>
-				</short>
 			</metazone>
 			<metazone type="Reunion">
 				<long>

@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
     <identity>
-        <version number="$Revision: 4126 $"/>
-        <generation date="$Date: 2009-05-05 18:33:13 -0500 (Tue, 05 May 2009) $"/>
+        <version number="$Revision: 4841 $"/>
+        <generation date="$Date: 2010-04-05 10:33:33 -0500 (Mon, 05 Apr 2010) $"/>
         <language type="de"/>
     </identity>
     <rbnf>
@@ -32,6 +32,9 @@
                 <rbnfrule value="11">elf;</rbnfrule>
                 <rbnfrule value="12">zwölf;</rbnfrule>
                 <rbnfrule value="13">→→zehn;</rbnfrule>
+                <rbnfrule value="16">sechzehn;</rbnfrule>
+                <rbnfrule value="17">siebzehn;</rbnfrule>
+                <rbnfrule value="18">→→zehn;</rbnfrule>
                 <rbnfrule value="20">[→%spellout-cardinal-masculine→­und­]zwanzig;</rbnfrule>
                 <rbnfrule value="30">[→%spellout-cardinal-masculine→­und­]dreißig;</rbnfrule>
                 <rbnfrule value="40">[→%spellout-cardinal-masculine→­und­]vierzig;</rbnfrule>

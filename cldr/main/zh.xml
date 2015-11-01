@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4769 $"/>
-		<generation date="$Date: 2010-02-27 23:03:11 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 4872 $"/>
+		<generation date="$Date: 2010-04-23 13:25:54 -0500 (Fri, 23 Apr 2010) $"/>
 		<language type="zh"/>
 	</identity>
 	<localeDisplayNames>
@@ -1381,10 +1381,12 @@
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="afternoon">下午</dayPeriod>
+							<dayPeriod type="am">上午</dayPeriod>
 							<dayPeriod type="earlyMorning">清晨</dayPeriod>
 							<dayPeriod type="midDay">中午</dayPeriod>
 							<dayPeriod type="morning">上午</dayPeriod>
 							<dayPeriod type="night">晚上</dayPeriod>
+							<dayPeriod type="pm">下午</dayPeriod>
 							<dayPeriod type="weeHours">凌晨</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -1956,7 +1958,7 @@
 						<dateFormatItem id="h">ah</dateFormatItem>
 						<dateFormatItem id="hm">ah:mm</dateFormatItem>
 						<dateFormatItem id="hms">ah:mm:ss</dateFormatItem>
-						<dateFormatItem id="MMMEd" draft="provisional">M月d日E</dateFormatItem>
+						<dateFormatItem id="MMMEd">M月d日E</dateFormatItem>
 						<dateFormatItem id="yyyyM">Gy-M</dateFormatItem>
 						<dateFormatItem id="yyyyMd">Gy-M-d</dateFormatItem>
 						<dateFormatItem id="yyyyMEd">Gy-M-d（EEE）</dateFormatItem>
@@ -1964,7 +1966,7 @@
 						<dateFormatItem id="yyyyMM">Gy-MM</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">Gy年MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">Gy年M月d日</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd" draft="provisional">Gy年M月d日EEE</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">Gy年M月d日EEE</dateFormatItem>
 						<dateFormatItem id="yyyyQ">Gy年第Q季度</dateFormatItem>
 						<dateFormatItem id="yyyyQ" alt="proposed-x1001" draft="unconfirmed">Gy年QQQ</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ" draft="provisional">Gy年QQQQ</dateFormatItem>
@@ -3386,9 +3388,6 @@
 					<standard>大西洋标准时间</standard>
 					<daylight>大西洋夏令时间</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">AT</generic>
-				</short>
 			</metazone>
 			<metazone type="Australia_Central">
 				<long>
@@ -3396,9 +3395,6 @@
 					<standard draft="contributed">澳大利亚中部标准时间</standard>
 					<daylight draft="contributed">澳大利亚中部夏令时间</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">ACT</generic>
-				</short>
 			</metazone>
 			<metazone type="Australia_CentralWestern">
 				<long>
@@ -3406,9 +3402,6 @@
 					<standard draft="contributed">澳大利亚中西部标准时间</standard>
 					<daylight draft="contributed">澳大利亚中西部夏令时间</daylight>
 				</long>
-				<short>
-					<generic>ACWT</generic>
-				</short>
 			</metazone>
 			<metazone type="Australia_Eastern">
 				<long>
@@ -3416,9 +3409,6 @@
 					<standard draft="contributed">澳大利亚东部标准时间</standard>
 					<daylight>澳大利亚东部夏令时间</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">AET</generic>
-				</short>
 			</metazone>
 			<metazone type="Australia_Western">
 				<long>
@@ -3426,9 +3416,6 @@
 					<standard draft="contributed">澳大利亚西部标准时间</standard>
 					<daylight>澳大利亚西部夏令时间</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">AWT</generic>
-				</short>
 			</metazone>
 			<metazone type="Azerbaijan">
 				<long>
@@ -3505,9 +3492,6 @@
 					<standard draft="contributed">查莫罗标准时区</standard>
 					<standard alt="proposed-x1001" draft="unconfirmed">查莫罗标准时间</standard>
 				</long>
-				<short>
-					<generic>ChT</generic>
-				</short>
 			</metazone>
 			<metazone type="Changbai">
 				<long>
@@ -3574,6 +3558,7 @@
 					<daylight>古巴夏令时间</daylight>
 				</long>
 				<short>
+					<generic draft="contributed">CT（古巴）</generic>
 					<standard draft="contributed">CST（古巴）</standard>
 					<daylight draft="contributed">CDT（古巴）</daylight>
 				</short>
@@ -3727,9 +3712,6 @@
 				<long>
 					<standard draft="contributed">海湾标准时间</standard>
 				</long>
-				<short>
-					<generic draft="provisional">GT</generic>
-				</short>
 			</metazone>
 			<metazone type="Guyana">
 				<long>
@@ -3811,9 +3793,6 @@
 					<standard>日本标准时间</standard>
 					<daylight>日本夏令时间</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">JT</generic>
-				</short>
 			</metazone>
 			<metazone type="Kamchatka">
 				<long>
@@ -3858,9 +3837,6 @@
 					<standard draft="contributed">韩国标准时间</standard>
 					<daylight draft="contributed">韩国夏令时间</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">KT</generic>
-				</short>
 			</metazone>
 			<metazone type="Kosrae">
 				<long>
@@ -3915,9 +3891,6 @@
 					<daylight draft="contributed">罗德毫岛夏令时间</daylight>
 					<daylight alt="proposed-x1001" draft="unconfirmed">豪勋爵岛夏令时间</daylight>
 				</long>
-				<short>
-					<generic>LHT</generic>
-				</short>
 			</metazone>
 			<metazone type="Macau">
 				<long>
@@ -4011,9 +3984,6 @@
 					<standard draft="contributed">新西兰标准时间</standard>
 					<daylight draft="contributed">新西兰夏令时间</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">NZT</generic>
-				</short>
 			</metazone>
 			<metazone type="Newfoundland">
 				<long>
@@ -4021,9 +3991,6 @@
 					<standard>纽芬兰标准时间</standard>
 					<daylight>纽芬兰夏令时间</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">NT</generic>
-				</short>
 			</metazone>
 			<metazone type="Niue">
 				<long>
@@ -4104,9 +4071,6 @@
 					<standard draft="contributed">彼得岛和米克隆岛标准时间</standard>
 					<daylight draft="contributed">彼得岛和米克隆岛夏令时间</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">PMT</generic>
-				</short>
 			</metazone>
 			<metazone type="Pitcairn">
 				<long>
@@ -4367,9 +4331,6 @@
 					<standard draft="contributed">育空标准时间</standard>
 					<daylight draft="contributed">育空夏令时间</daylight>
 				</long>
-				<short>
-					<generic draft="provisional">YT</generic>
-				</short>
 			</metazone>
 		</timeZoneNames>
 	</dates>

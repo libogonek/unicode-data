@@ -2,8 +2,8 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 
 <supplementalData>
-	<version number="$Revision: 4780 $"/>
-	<generation date="$Date: 2010-03-02 12:54:32 -0600 (Tue, 02 Mar 2010) $"/>
+	<version number="$Revision: 4827 $"/>
+	<generation date="$Date: 2010-03-26 21:19:06 -0500 (Fri, 26 Mar 2010) $"/>
     <currencyData>
         <fractions>
             <info iso4217="ADP" digits="0" rounding="0"/>
@@ -488,8 +488,8 @@ The printed version of ISO-4217:2001
             <currency iso4217="USD" from="1944-08-21"/>
         </region>
         <region iso3166="GW">
-            <currency iso4217="GWP" from="1976-02-28"/>
-            <currency iso4217="XOF" from="1997-01-01"/>
+            <currency iso4217="XOF" from="1997-03-31"/>
+            <currency iso4217="GWP" from="1976-02-28" to="1997-03-31"/>
             <currency iso4217="GWE" from="1914-01-01" to="1976-02-28"/>
         </region>
         <region iso3166="GY">
