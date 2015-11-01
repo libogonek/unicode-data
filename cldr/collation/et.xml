@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4126 $"/>
-		<generation date="$Date: 2009-05-05 18:33:13 -0500 (Tue, 05 May 2009) $"/>
+		<version number="$Revision: 6182 $"/>
+		<generation date="$Date: 2011-09-28 13:24:15 -0500 (Wed, 28 Sep 2011) $"/>
 		<language type="et" /> 
 	</identity>
 		<collations  validSubLocales="et_EE">
@@ -29,6 +29,6 @@
 					<p>ü</p>
 					<t>Ü</t>
 				</rules>
-			</collation  >
+			</collation>
 		</collations>
 </ldml>

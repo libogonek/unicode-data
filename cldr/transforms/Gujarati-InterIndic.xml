@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
-  <version number="$Revision: 4747 $"/>
-	<generation date="$Date: 2010-02-25 15:22:30 -0600 (Thu, 25 Feb 2010) $"/>
+  <version number="$Revision: 6363 $"/>
+	<generation date="$Date: 2012-01-15 22:40:02 -0600 (Sun, 15 Jan 2012) $"/>
 	<transforms>
 		<transform source="Gujarati" target="InterIndic" direction="forward" visibility="internal">
 			<comment># Gujarati-InterIndic</comment>
@@ -87,8 +87,9 @@
 			<tRule>૭→\uE06D; # DIGIT SEVEN</tRule>
 			<tRule>૮→\uE06E; # DIGIT EIGHT</tRule>
 			<tRule>૯→\uE06F; # DIGIT NINE</tRule>
-			<tRule>।→\uE064;        # DANDA</tRule>
-			<tRule>॥→\uE065;        # DOUBLE DANDA</tRule>
+			<tRule>।→\uE064; # DANDA</tRule>
+			<tRule>॥→\uE065; # DOUBLE DANDA</tRule>
+			<tRule>૰→\uE070; # ABBREVIATION SIGN</tRule>
 			<comment>#    :: NFC (NFD) ;</comment>
 			<comment># eof</comment>
 		</transform>

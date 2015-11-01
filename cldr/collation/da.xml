@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5871 $"/>
-		<generation date="$Date: 2011-05-09 01:37:05 -0500 (Mon, 09 May 2011) $"/>
+		<version number="$Revision: 6365 $"/>
+		<generation date="$Date: 2012-01-16 00:29:14 -0600 (Mon, 16 Jan 2012) $"/>
 		<language type="da" /> 
 	</identity>
 		<collations  validSubLocales="da_DK">
@@ -12,6 +12,9 @@
 				<!-- root search, suppress contractions for Thai, Lao -->
 				<suppress_contractions>[เ-ไ ເ-ໄ]</suppress_contractions>
 				<rules>
+					<!-- root search rules for Symbols -->
+					<reset>=</reset>
+					<p>≠</p>
 					<!-- root search rules for Arabic, Hebrew -->
 					<reset>ا</reset>	<!-- 0627 ARABIC LETTER ALEF -->
 							<t>ﺎ</t><t>ﺍ</t>	<!-- FE8E, FE8D: FINAL FORM, ISOLATED FORM -->
@@ -170,7 +173,7 @@
 				</rules>
 			</collation>
 			<collation type="standard" >
-				<settings caseFirst="upper"  />
+				<settings caseFirst="upper"/>
 				<rules>
 					<reset>D</reset>
 					<s>đ</s>
@@ -207,7 +210,7 @@
 					<t>Aa</t>
 					<t>AA</t>
 				</rules>
-			</collation  >
+			</collation>
 			<collation draft="unconfirmed" alt="proposed" type="standard" >
 				<settings caseFirst="upper"  />
 				<rules>

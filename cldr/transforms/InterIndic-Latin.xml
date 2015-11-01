@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
-  <version number="$Revision: 4747 $"/>
-	<generation date="$Date: 2010-02-25 15:22:30 -0600 (Thu, 25 Feb 2010) $"/>
+  <version number="$Revision: 6531 $"/>
+	<generation date="$Date: 2012-02-01 22:47:49 -0600 (Wed, 01 Feb 2012) $"/>
 	<transforms>
 		<transform source="InterIndic" target="Latin" direction="forward" visibility="internal">
 			<comment># InterIndic-Latin</comment>
@@ -127,7 +127,6 @@
 			<tRule>$dgs=\uE082;</tRule>
 			<comment>#Khanda-ta</comment>
 			<tRule>$kta=\uE083;</tRule>
-			<comment># ॰→; # UNMAPPED ABBREVIATION SIGN</comment>
 			<tRule>$depVowelAbove=[\uE03E-\uE040\uE045-\uE04C];</tRule>
 			<tRule>$depVowelBelow=[\uE041-\uE044];</tRule>
 			<comment># $x was originally called '§'; $z was '%'</comment>

@@ -2,8 +2,8 @@
 <!DOCTYPE ldmlBCP47 SYSTEM "../../common/dtd/ldmlBCP47.dtd">
 
 <ldmlBCP47>
-    <version number="$Revision: 6003 $"/>
-    <generation date="$Date: 2011-07-11 19:00:53 -0500 (Mon, 11 Jul 2011) $"/>
+    <version number="$Revision: 6438 $"/>
+    <generation date="$Date: 2012-01-25 01:30:12 -0600 (Wed, 25 Jan 2012) $"/>
     <keyword>
         <key name="tz" alias="timezone" description="Time zone key">
             <type name="adalv" alias="Europe/Andorra" description="Andorra"/>
@@ -66,6 +66,7 @@
             <type name="bmbda" alias="Atlantic/Bermuda" description="Bermuda"/>
             <type name="bnbwn" alias="Asia/Brunei" description="Brunei"/>
             <type name="bolpb" alias="America/La_Paz" description="La Paz, Bolivia"/>
+            <type name="bqkra" alias="America/Kralendijk" description="Bonaire, Sint Estatius and Saba" since="21"/>
             <type name="braux" alias="America/Araguaina" description="Araguaína, Brazil"/>
             <type name="brbel" alias="America/Belem" description="Belém, Brazil"/>
             <type name="brbvb" alias="America/Boa_Vista" description="Boa Vista, Brazil"/>
@@ -165,7 +166,7 @@
             <type name="fotho" alias="Atlantic/Faeroe Atlantic/Faroe" description="Faroe Islands"/>
             <type name="frpar" alias="Europe/Paris" description="Paris, France"/>
             <type name="galbv" alias="Africa/Libreville" description="Libreville, Gabon"/>
-            <type name="gaza" alias="Asia/Gaza" description="Gaza"/>
+            <type name="gaza" alias="Asia/Gaza" description="Gaza Strip, Palestinian Territories"/>
             <type name="gblon" alias="Europe/London Europe/Belfast GB GB-Eire" description="London, United Kingdom"/>
             <type name="gdgnd" alias="America/Grenada" description="Grenada"/>
             <type name="getbs" alias="Asia/Tbilisi" description="Tbilisi, Georgia"/>
@@ -189,6 +190,7 @@
             <type name="gugum" alias="Pacific/Guam" description="Guam"/>
             <type name="gwoxb" alias="Africa/Bissau" description="Bissau, Guinea-Bissau"/>
             <type name="gygeo" alias="America/Guyana" description="Guyana"/>
+            <type name="hebron" alias="Asia/Hebron" description="West Bank, Palestinian Territories" since="21"/>
             <type name="hkhkg" alias="Asia/Hong_Kong Hongkong" description="Hong Kong SAR China"/>
             <type name="hntgu" alias="America/Tegucigalpa" description="Tegucigalpa, Honduras"/>
             <type name="hrzag" alias="Europe/Zagreb" description="Zagreb, Croatia"/>
@@ -345,8 +347,10 @@
             <type name="sndkr" alias="Africa/Dakar" description="Dakar, Senegal"/>
             <type name="somgq" alias="Africa/Mogadishu" description="Mogadishu, Somalia"/>
             <type name="srpbm" alias="America/Paramaribo" description="Paramaribo, Suriname"/>
+            <type name="ssjub" alias="Africa/Juba" description="Juba, South Sudan" since="21"/>
             <type name="sttms" alias="Africa/Sao_Tome" description="São Tomé, São Tomé and Príncipe"/>
             <type name="svsal" alias="America/El_Salvador" description="El Salvador"/>
+            <type name="sxphi" alias="America/Lower_Princes" description="Sint Maarten" since="21"/>
             <type name="sydam" alias="Asia/Damascus" description="Damascus, Syria"/>
             <type name="szqmn" alias="Africa/Mbabane" description="Mbabane, Swaziland"/>
             <type name="tcgdt" alias="America/Grand_Turk" description="Grand Turk, Turks and Caicos Islands"/>

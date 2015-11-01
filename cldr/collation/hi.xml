@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4982 $" />
-		<generation date="$Date: 2010-06-11 16:42:37 -0500 (Fri, 11 Jun 2010) $" />
+		<version number="$Revision: 6359 $" />
+		<generation date="$Date: 2012-01-15 00:46:21 -0600 (Sun, 15 Jan 2012) $" />
 		<language type="hi" />
 	</identity>
 	<collations validSubLocales="hi_IN">
@@ -26,13 +26,5 @@
 				<p>ः</p>
 			</rules>
 		</collation>
-		<collation type="direct">
-			<!-- Not sure whether or not we stilll need the direct rules or not.  Leaving them here until we know for sure.
-			-->
-			<rules>
-				<reset><last_non_ignorable/></reset>
-				<pc>ँंःअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसह़ऽािीुूृॄॅॆेैॉॊोौ्ॐ॒॑॓॔क़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣ।॥०१२३४५६७८९॰</pc>
-			</rules>
-		</collation>
-</collations>
+	</collations>
 </ldml>

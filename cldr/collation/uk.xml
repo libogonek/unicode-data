@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4972 $"/>
-		<generation date="$Date: 2010-06-08 11:45:08 -0500 (Tue, 08 Jun 2010) $"/>
+		<version number="$Revision: 6215 $"/>
+		<generation date="$Date: 2011-10-31 18:27:28 -0500 (Mon, 31 Oct 2011) $"/>
 		<language type="uk" /> 
 	</identity>
 	<collations validSubLocales="uk_UA">
@@ -20,9 +20,6 @@
 			    <reset>Г</reset>
 			        <p>ґ</p>
 			        <t>Ґ</t>
-			    <reset>я</reset>
-			        <p>ь</p>
-			        <t>Ь</t>
 			</rules>
 		</collation>
 	</collations>

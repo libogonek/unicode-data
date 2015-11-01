@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
-  <version number="$Revision: 4747 $"/>
-	<generation date="$Date: 2010-02-25 15:22:30 -0600 (Thu, 25 Feb 2010) $"/>
+  <version number="$Revision: 6363 $"/>
+	<generation date="$Date: 2012-01-15 22:40:02 -0600 (Sun, 15 Jan 2012) $"/>
 	<transforms>
 		<transform source="InterIndic" target="Devanagari" direction="forward" visibility="internal">
 			<comment># InterIndic-Devanagari</comment>
@@ -152,7 +152,6 @@
 			<tRule>\uE081→व;  # FALLBACK FOR ORIYA LETTER WA</tRule>
 			<tRule>\uE082→ॽ;     # Devanagari Glottal Sign</tRule>
 			<tRule>\uE083→त्;  # Bengali Khanda-ta</tRule>
-			<comment>#         ॰  # UNMAPPED Devanagari-InterIndic: ABBREVIATION SIGN</comment>
 			<comment>#    :: NFC;</comment>
 			<comment># eof</comment>
 		</transform>
