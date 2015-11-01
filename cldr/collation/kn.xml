@@ -2,42 +2,24 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4126 $"/>
-		<generation date="$Date: 2009-05-05 19:33:13 -0400 (Tue, 05 May 2009) $"/>
+		<version number="$Revision: 4263 $"/>
+		<generation date="$Date: 2009-09-22 15:39:01 -0500 (Tue, 22 Sep 2009) $"/>
 		<language type="kn" /> 
 	</identity>
 		<collations  validSubLocales="kn_IN">
-			<collation type="standard" >
-				<settings normalization="on"  />
-			</collation  >
 <collation type="standard"
-references="Kittel: Kannada-English Dictionary ISBN:8120600495 http://www.eki.ee/wgrs/rom1_kn.pdf"
-draft="unconfirmed" alt="proposed">
+references="Kittel: Kannada-English Dictionary ISBN:8120600495 http://www.eki.ee/wgrs/rom1_kn.pdf">
 <settings normalization="on"/>
 <rules>
-
-<!--
-The following tailoring is an adjustment of the
-DUCET collation order for ANUSVARA and VISARGA.
-Instead of being sorted with secondary weights,
-they are collated on primary level between the
-independent vowels and the consonants.
--->
 <reset>ಔ</reset>
 <p>ಂ</p>
 <p>ಃ</p>
-
-<!--
-L2/04-102 Bug fix.
--->
 <reset>ೞ</reset>
 <p>ಽ</p>
-
 </rules>
 </collation>
 <collation type="traditional"
-references="Kittel: Kannada-English Dictionary ISBN:8120600495"
-draft="unconfirmed" alt="proposed">
+references="Kittel: Kannada-English Dictionary ISBN:8120600495">
 <settings normalization="on"/>
 <rules>
 

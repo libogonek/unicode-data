@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4126 $"/>
-		<generation date="$Date: 2009-05-05 19:33:13 -0400 (Tue, 05 May 2009) $"/>
+		<version number="$Revision: 4701 $"/>
+		<generation date="$Date: 2010-02-19 16:13:58 -0600 (Fri, 19 Feb 2010) $"/>
 		<language type="is" /> 
 	</identity>
 		<collations  validSubLocales="is_IS">
@@ -32,9 +32,7 @@
 					<reset before="primary">z</reset>
 					<p>ý</p>
 					<t>Ý</t>
-					<reset before="primary">ʒ</reset>
-					<p>þ</p>
-					<t>Þ</t>
+					<reset before="primary">ǀ</reset>
 					<p>æ</p>
 					<t>Æ</t>
 					<s>ä</s>

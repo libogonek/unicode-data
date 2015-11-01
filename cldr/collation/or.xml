@@ -7,10 +7,10 @@
 	Last update: 27/September/2004
 	UCA tailoring by Vladimir Weinstein 10/04/2004
 -->
-<ldml draft = "true">
+<ldml>
 	<identity>
-		<version number="$Revision: 4126 $"/>
-		<generation date="$Date: 2009-05-05 19:33:13 -0400 (Tue, 05 May 2009) $"/>
+		<version number="$Revision: 4263 $"/>
+		<generation date="$Date: 2009-09-22 15:39:01 -0500 (Tue, 22 Sep 2009) $"/>
 		<language type="or" /> 
 	</identity>
 		<collations  validSubLocales="or_IN">

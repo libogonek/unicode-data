@@ -7,7 +7,7 @@ escape_char /
 * see http://www.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap07.html                    *
 * Locale Name : th_TH   Codeset : UTF-8
 *************************************************************************************************
-* Copyright 1991-2009 Unicode, Inc. All rights reserved. Distributed under the Terms of Use in  *
+* Copyright 1991-2010 Unicode, Inc. All rights reserved. Distributed under the Terms of Use in  *
 * http://www.unicode.org/copyright.html.                                                        *
 *                                                                                               *
 * Permission is hereby granted, free of charge, to any person obtaining a copy of the Unicode   *
@@ -692,32 +692,32 @@ collating-element <THAI_CHARACTER_LU-THAI_CHARACTER_LAKKHANGYAO> from "<THAI_CHA
 
 * Define collation weights as symbols
 
-collating-symbol <X0001>
-collating-symbol <X0005>
-collating-symbol <X0019>
-collating-symbol <X003F>
-collating-symbol <X005C>
-collating-symbol <X005D>
-collating-symbol <X006D>
-collating-symbol <X007D>
-collating-symbol <X008D>
-collating-symbol <X008F>
-collating-symbol <X009D>
-collating-symbol <X009E>
-collating-symbol <X009F>
-collating-symbol <X00C0>
-collating-symbol <X00C4>
-collating-symbol <X00C5>
-collating-symbol <X00C6>
-collating-symbol <X00C7>
-collating-symbol <X00C8>
-collating-symbol <X00C9>
-collating-symbol <X00CA>
-collating-symbol <X00CB>
-collating-symbol <X00CC>
-collating-symbol <X00DE>
-collating-symbol <X00E0>
-collating-symbol <X00E7>
+collating-symbol <X01>
+collating-symbol <X05>
+collating-symbol <X19>
+collating-symbol <X3F>
+collating-symbol <X5C>
+collating-symbol <X5D>
+collating-symbol <X6D>
+collating-symbol <X7D>
+collating-symbol <X8D>
+collating-symbol <X8F>
+collating-symbol <X9D>
+collating-symbol <X9E>
+collating-symbol <X9F>
+collating-symbol <XC0>
+collating-symbol <XC4>
+collating-symbol <XC5>
+collating-symbol <XC6>
+collating-symbol <XC7>
+collating-symbol <XC8>
+collating-symbol <XC9>
+collating-symbol <XCA>
+collating-symbol <XCB>
+collating-symbol <XCC>
+collating-symbol <XDE>
+collating-symbol <XE0>
+collating-symbol <XE7>
 collating-symbol <X0507>
 collating-symbol <X0509>
 collating-symbol <X050B>
@@ -860,32 +860,32 @@ order_start forward;forward;forward;forward
 
 * collation weights in order
 
-<X0001>
-<X0005>
-<X0019>
-<X003F>
-<X005C>
-<X005D>
-<X006D>
-<X007D>
-<X008D>
-<X008F>
-<X009D>
-<X009E>
-<X009F>
-<X00C0>
-<X00C4>
-<X00C5>
-<X00C6>
-<X00C7>
-<X00C8>
-<X00C9>
-<X00CA>
-<X00CB>
-<X00CC>
-<X00DE>
-<X00E0>
-<X00E7>
+<X01>
+<X05>
+<X19>
+<X3F>
+<X5C>
+<X5D>
+<X6D>
+<X7D>
+<X8D>
+<X8F>
+<X9D>
+<X9E>
+<X9F>
+<XC0>
+<XC4>
+<XC5>
+<XC6>
+<XC7>
+<XC8>
+<XC9>
+<XCA>
+<XCB>
+<XCC>
+<XDE>
+<XE0>
+<XE7>
 <X0507>
 <X0509>
 <X050B>
@@ -1025,223 +1025,223 @@ order_start forward;forward;forward;forward
 
 * assignment of characters to weights
 
-<DELETE>                          IGNORE;IGNORE;IGNORE;<DELETE>
-<INFORMATION_SEPARATOR_TWO>       IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_TWO>
-<INFORMATION_SEPARATOR_ONE>       IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_ONE>
-<INFORMATION_SEPARATOR_FOUR>      IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_FOUR>
-<INFORMATION_SEPARATOR_THREE>     IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_THREE>
-<SUBSTITUTE>                      IGNORE;IGNORE;IGNORE;<SUBSTITUTE>
-<ESCAPE>                          IGNORE;IGNORE;IGNORE;<ESCAPE>
-<CANCEL>                          IGNORE;IGNORE;IGNORE;<CANCEL>
-<END_OF_MEDIUM>                   IGNORE;IGNORE;IGNORE;<END_OF_MEDIUM>
-<SYNCHRONOUS_IDLE>                IGNORE;IGNORE;IGNORE;<SYNCHRONOUS_IDLE>
-<END_OF_TRANSMISSION_BLOCK>       IGNORE;IGNORE;IGNORE;<END_OF_TRANSMISSION_BLOCK>
-<DEVICE_CONTROL_FOUR>             IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_FOUR>
-<NEGATIVE_ACKNOWLEDGE>            IGNORE;IGNORE;IGNORE;<NEGATIVE_ACKNOWLEDGE>
-<DEVICE_CONTROL_TWO>              IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_TWO>
-<DEVICE_CONTROL_THREE>            IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_THREE>
+<NULL>                            IGNORE;IGNORE;IGNORE;<NULL>
+<START_OF_HEADING>                IGNORE;IGNORE;IGNORE;<START_OF_HEADING>
+<START_OF_TEXT>                   IGNORE;IGNORE;IGNORE;<START_OF_TEXT>
+<END_OF_TEXT>                     IGNORE;IGNORE;IGNORE;<END_OF_TEXT>
+<END_OF_TRANSMISSION>             IGNORE;IGNORE;IGNORE;<END_OF_TRANSMISSION>
+<ENQUIRY>                         IGNORE;IGNORE;IGNORE;<ENQUIRY>
+<ACKNOWLEDGE>                     IGNORE;IGNORE;IGNORE;<ACKNOWLEDGE>
+<BELL>                            IGNORE;IGNORE;IGNORE;<BELL>
+<BACKSPACE>                       IGNORE;IGNORE;IGNORE;<BACKSPACE>
+<SHIFT_OUT>                       IGNORE;IGNORE;IGNORE;<SHIFT_OUT>
+<SHIFT_IN>                        IGNORE;IGNORE;IGNORE;<SHIFT_IN>
 <DATA_LINK_ESCAPE>                IGNORE;IGNORE;IGNORE;<DATA_LINK_ESCAPE>
 <DEVICE_CONTROL_ONE>              IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_ONE>
-<SHIFT_IN>                        IGNORE;IGNORE;IGNORE;<SHIFT_IN>
-<SHIFT_OUT>                       IGNORE;IGNORE;IGNORE;<SHIFT_OUT>
-<BACKSPACE>                       IGNORE;IGNORE;IGNORE;<BACKSPACE>
-<BELL>                            IGNORE;IGNORE;IGNORE;<BELL>
-<ACKNOWLEDGE>                     IGNORE;IGNORE;IGNORE;<ACKNOWLEDGE>
-<ENQUIRY>                         IGNORE;IGNORE;IGNORE;<ENQUIRY>
-<END_OF_TRANSMISSION>             IGNORE;IGNORE;IGNORE;<END_OF_TRANSMISSION>
-<END_OF_TEXT>                     IGNORE;IGNORE;IGNORE;<END_OF_TEXT>
-<START_OF_TEXT>                   IGNORE;IGNORE;IGNORE;<START_OF_TEXT>
-<START_OF_HEADING>                IGNORE;IGNORE;IGNORE;<START_OF_HEADING>
-<NULL>                            IGNORE;IGNORE;IGNORE;<NULL>
-<space>                           IGNORE;IGNORE;"<X003F><X00C4>";IGNORE
-<HYPHEN-MINUS>                    IGNORE;IGNORE;"<X003F><X00C5>";IGNORE
-<FULL_STOP>                       IGNORE;IGNORE;"<X003F><X00C6>";IGNORE
-<FULL_STOP-REVERSE_SOLIDUS-FULL_STOP> IGNORE;IGNORE;"<X003F><X00C7>";IGNORE
-<THAI_CHARACTER_PAIYANNOI>        IGNORE;IGNORE;"<X003F><X00C8>";IGNORE
-<THAI_CHARACTER_MAIYAMOK>         IGNORE;IGNORE;"<X003F><X00C9>";IGNORE
-<THAI_CHARACTER_FONGMAN>          IGNORE;IGNORE;"<X003F><X00CA>";IGNORE
-<THAI_CHARACTER_ANGKHANKHU>       IGNORE;IGNORE;"<X003F><X00CB>";IGNORE
-<THAI_CHARACTER_KHOMUT>           IGNORE;IGNORE;"<X003F><X00CC>";IGNORE
-<THAI_CHARACTER_YAMAKKAN>         IGNORE;"<X00DE><X005C>";"<X0005><X00C0>";IGNORE
-<THAI_CHARACTER_MAITAIKHU>        IGNORE;"<X00E0><X005D>";"<X0005><X00C0>";IGNORE
-<THAI_CHARACTER_MAI_EK>           IGNORE;"<X00E0><X006D>";"<X0005><X00C0>";IGNORE
-<THAI_CHARACTER_MAI_THO>          IGNORE;"<X00E0><X007D>";"<X0005><X00C0>";IGNORE
-<THAI_CHARACTER_MAI_TRI>          IGNORE;"<X00E0><X008D>";"<X0005><X00C0>";IGNORE
-<THAI_CHARACTER_MAI_CHATTAWA>     IGNORE;"<X00E0><X009D>";"<X0005><X00C0>";IGNORE
-<THAI_CHARACTER_THANTHAKHAT>      IGNORE;"<X00E0><X009E>";"<X0005><X00C0>";IGNORE
-<THAI_CHARACTER_NIKHAHIT>         IGNORE;"<X00E0><X009F>";"<X0005><X00C0>";IGNORE
-<tab>                             <X0507>;<X0005>;<X0005>;IGNORE
-<newline>                         <X0509>;<X0005>;<X0005>;IGNORE
-<vertical-tab>                    <X050B>;<X0005>;<X0005>;IGNORE
-<form-feed>                       <X050D>;<X0005>;<X0005>;IGNORE
-<carriage-return>                 <X050F>;<X0005>;<X0005>;IGNORE
-<GRAVE_ACCENT>                    <X0766>;<X0005>;<X0005>;IGNORE
-<CIRCUMFLEX_ACCENT>               <X076C>;<X0005>;<X0005>;IGNORE
-<LOW_LINE>                        <X0784>;<X0005>;<X0005>;IGNORE
-<COMMA>                           <X07B0>;<X0005>;<X0005>;IGNORE
-<SEMICOLON>                       <X07CA>;<X0005>;<X0005>;IGNORE
-<COLON>                           <X07D0>;<X0005>;<X0005>;IGNORE
-<EXCLAMATION_MARK>                <X07FC>;<X0005>;<X0005>;IGNORE
-<QUESTION_MARK>                   <X080B>;<X0005>;<X0005>;IGNORE
-<APOSTROPHE>                      <X08BF>;<X0005>;<X0005>;IGNORE
-<QUOTATION_MARK>                  <X08CD>;<X0005>;<X0005>;IGNORE
-<LEFT_PARENTHESIS>                <X08E1>;<X0005>;<X0005>;IGNORE
-<RIGHT_PARENTHESIS>               <X08E3>;<X0005>;<X0005>;IGNORE
-<LEFT_SQUARE_BRACKET>             <X08E5>;<X0005>;<X0005>;IGNORE
-<RIGHT_SQUARE_BRACKET>            <X08E7>;<X0005>;<X0005>;IGNORE
-<LEFT_CURLY_BRACKET>              <X08E9>;<X0005>;<X0005>;IGNORE
-<RIGHT_CURLY_BRACKET>             <X08EB>;<X0005>;<X0005>;IGNORE
-<COMMERCIAL_AT>                   <X0995>;<X0005>;<X0005>;IGNORE
-<ASTERISK>                        <X0997>;<X0005>;<X0005>;IGNORE
-<SOLIDUS>                         <X09A1>;<X0005>;<X0005>;IGNORE
-<REVERSE_SOLIDUS>                 <X09A5>;<X0005>;<X0005>;IGNORE
-<AMPERSAND>                       <X09A7>;<X0005>;<X0005>;IGNORE
-<NUMBER_SIGN>                     <X09AD>;<X0005>;<X0005>;IGNORE
-<PERCENT_SIGN>                    <X09AF>;<X0005>;<X0005>;IGNORE
-<PLUS_SIGN>                       <X0D67>;<X0005>;<X0005>;IGNORE
-<LESS-THAN_SIGN>                  <X0D6F>;<X0005>;<X0005>;IGNORE
-<EQUALS_SIGN>                     <X0D71>;<X0005>;<X0005>;IGNORE
-<GREATER-THAN_SIGN>               <X0D73>;<X0005>;<X0005>;IGNORE
-<VERTICAL_LINE>                   <X0D77>;<X0005>;<X0005>;IGNORE
-<TILDE>                           <X0D7D>;<X0005>;<X0005>;IGNORE
-<DOLLAR_SIGN>                     <X293E>;<X0005>;<X0005>;IGNORE
-<zero>                            <X297C>;<X0005>;<X0005>;IGNORE
-<THAI_DIGIT_ZERO>                 <X297C>;"<X0005><X00E7><X0019>";"<X0005><X0005><X00C0>";IGNORE
-<one>                             <X297E>;<X0005>;<X0005>;IGNORE
-<THAI_DIGIT_ONE>                  <X297E>;"<X0005><X00E7><X0019>";"<X0005><X0005><X00C0>";IGNORE
-<two>                             <X2980>;<X0005>;<X0005>;IGNORE
-<THAI_DIGIT_TWO>                  <X2980>;"<X0005><X00E7><X0019>";"<X0005><X0005><X00C0>";IGNORE
-<three>                           <X2982>;<X0005>;<X0005>;IGNORE
-<THAI_DIGIT_THREE>                <X2982>;"<X0005><X00E7><X0019>";"<X0005><X0005><X00C0>";IGNORE
-<four>                            <X2984>;<X0005>;<X0005>;IGNORE
-<THAI_DIGIT_FOUR>                 <X2984>;"<X0005><X00E7><X0019>";"<X0005><X0005><X00C0>";IGNORE
-<five>                            <X2986>;<X0005>;<X0005>;IGNORE
-<THAI_DIGIT_FIVE>                 <X2986>;"<X0005><X00E7><X0019>";"<X0005><X0005><X00C0>";IGNORE
-<six>                             <X2988>;<X0005>;<X0005>;IGNORE
-<THAI_DIGIT_SIX>                  <X2988>;"<X0005><X00E7><X0019>";"<X0005><X0005><X00C0>";IGNORE
-<seven>                           <X298A>;<X0005>;<X0005>;IGNORE
-<THAI_DIGIT_SEVEN>                <X298A>;"<X0005><X00E7><X0019>";"<X0005><X0005><X00C0>";IGNORE
-<eight>                           <X298C>;<X0005>;<X0005>;IGNORE
-<THAI_DIGIT_EIGHT>                <X298C>;"<X0005><X00E7><X0019>";"<X0005><X0005><X00C0>";IGNORE
-<nine>                            <X298E>;<X0005>;<X0005>;IGNORE
-<THAI_DIGIT_NINE>                 <X298E>;"<X0005><X00E7><X0019>";"<X0005><X0005><X00C0>";IGNORE
-<a>                               <X2C00>;<X0005>;<X0005>;IGNORE
-<A>                               <X2C00>;<X0005>;<X008F>;IGNORE
-<b>                               <X2E00>;<X0005>;<X0005>;IGNORE
-<B>                               <X2E00>;<X0005>;<X008F>;IGNORE
-<c>                               <X3000>;<X0005>;<X0005>;IGNORE
-<C>                               <X3000>;<X0005>;<X008F>;IGNORE
-<d>                               <X3200>;<X0005>;<X0005>;IGNORE
-<D>                               <X3200>;<X0005>;<X008F>;IGNORE
-<e>                               <X3400>;<X0005>;<X0005>;IGNORE
-<E>                               <X3400>;<X0005>;<X008F>;IGNORE
-<f>                               <X3600>;<X0005>;<X0005>;IGNORE
-<F>                               <X3600>;<X0005>;<X008F>;IGNORE
-<g>                               <X3800>;<X0005>;<X0005>;IGNORE
-<G>                               <X3800>;<X0005>;<X008F>;IGNORE
-<h>                               <X3A00>;<X0005>;<X0005>;IGNORE
-<H>                               <X3A00>;<X0005>;<X008F>;IGNORE
-<i>                               <X3C00>;<X0005>;<X0005>;IGNORE
-<I>                               <X3C00>;<X0005>;<X008F>;IGNORE
-<j>                               <X3E00>;<X0005>;<X0005>;IGNORE
-<J>                               <X3E00>;<X0005>;<X008F>;IGNORE
-<k>                               <X4000>;<X0005>;<X0005>;IGNORE
-<K>                               <X4000>;<X0005>;<X008F>;IGNORE
-<l>                               <X4200>;<X0005>;<X0005>;IGNORE
-<L>                               <X4200>;<X0005>;<X008F>;IGNORE
-<m>                               <X4400>;<X0005>;<X0005>;IGNORE
-<M>                               <X4400>;<X0005>;<X008F>;IGNORE
-<n>                               <X4600>;<X0005>;<X0005>;IGNORE
-<N>                               <X4600>;<X0005>;<X008F>;IGNORE
-<o>                               <X4800>;<X0005>;<X0005>;IGNORE
-<O>                               <X4800>;<X0005>;<X008F>;IGNORE
-<p>                               <X4A00>;<X0005>;<X0005>;IGNORE
-<P>                               <X4A00>;<X0005>;<X008F>;IGNORE
-<q>                               <X4C00>;<X0005>;<X0005>;IGNORE
-<Q>                               <X4C00>;<X0005>;<X008F>;IGNORE
-<r>                               <X4E00>;<X0005>;<X0005>;IGNORE
-<R>                               <X4E00>;<X0005>;<X008F>;IGNORE
-<s>                               <X5000>;<X0005>;<X0005>;IGNORE
-<S>                               <X5000>;<X0005>;<X008F>;IGNORE
-<t>                               <X5200>;<X0005>;<X0005>;IGNORE
-<T>                               <X5200>;<X0005>;<X008F>;IGNORE
-<u>                               <X5400>;<X0005>;<X0005>;IGNORE
-<U>                               <X5400>;<X0005>;<X008F>;IGNORE
-<v>                               <X5600>;<X0005>;<X0005>;IGNORE
-<V>                               <X5600>;<X0005>;<X008F>;IGNORE
-<w>                               <X5800>;<X0005>;<X0005>;IGNORE
-<W>                               <X5800>;<X0005>;<X008F>;IGNORE
-<x>                               <X5A00>;<X0005>;<X0005>;IGNORE
-<X>                               <X5A00>;<X0005>;<X008F>;IGNORE
-<y>                               <X5C00>;<X0005>;<X0005>;IGNORE
-<Y>                               <X5C00>;<X0005>;<X008F>;IGNORE
-<z>                               <X5E00>;<X0005>;<X0005>;IGNORE
-<Z>                               <X5E00>;<X0005>;<X008F>;IGNORE
-<THAI_CHARACTER_KO_KAI>           <X7F20>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_KHO_KHAI>         <X7F22>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_KHO_KHUAT>        <X7F24>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_KHO_KHWAI>        <X7F26>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_KHO_KHON>         <X7F28>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_KHO_RAKHANG>      <X7F2A>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_NGO_NGU>          <X7F2C>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_CHO_CHAN>         <X7F2E>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_CHO_CHING>        <X7F30>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_CHO_CHANG>        <X7F32>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SO_SO>            <X7F34>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_CHO_CHOE>         <X7F36>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_YO_YING>          <X7F38>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_DO_CHADA>         <X7F3A>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_TO_PATAK>         <X7F3C>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_THO_THAN>         <X7F3E>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_THO_NANGMONTHO>   <X7F40>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_THO_PHUTHAO>      <X7F42>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_NO_NEN>           <X7F44>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_DO_DEK>           <X7F46>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_TO_TAO>           <X7F48>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_THO_THUNG>        <X7F4A>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_THO_THAHAN>       <X7F4C>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_THO_THONG>        <X7F4E>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_NO_NU>            <X7F50>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_BO_BAIMAI>        <X7F52>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_PO_PLA>           <X7F54>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_PHO_PHUNG>        <X7F56>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_FO_FA>            <X7F58>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_PHO_PHAN>         <X7F5A>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_FO_FAN>           <X7F5C>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_PHO_SAMPHAO>      <X7F5E>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_MO_MA>            <X7F60>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_YO_YAK>           <X7F62>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_RO_RUA>           <X7F64>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_RU>               <X7F66>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_RU-THAI_CHARACTER_LAKKHANGYAO> <X7F67>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_LO_LING>          <X7F68>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_LU>               <X7F6A>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_LU-THAI_CHARACTER_LAKKHANGYAO> <X7F6B>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_WO_WAEN>          <X7F6C>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SO_SALA>          <X7F6E>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SO_RUSI>          <X7F70>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SO_SUA>           <X7F72>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_HO_HIP>           <X7F74>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_LO_CHULA>         <X7F76>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_O_ANG>            <X7F78>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_HO_NOKHUK>        <X7F7A>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_A>           <X7F7E>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_MAI_HAN-AKAT>     <X7F80>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_AA>          <X7F82>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_AM>          <X7F84>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_I>           <X7F86>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_II>          <X7F88>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_UE>          <X7F8A>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_UEE>         <X7F8C>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_U>           <X7F8E>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_UU>          <X7F90>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_PHINTHU>          <X7F92>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_E>           <X7F94>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_AE>          <X7F96>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_O>           <X7F98>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_AI_MAIMUAN>  <X7F9A>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_SARA_AI_MAIMALAI> <X7F9C>;<X0005>;<X0005>;IGNORE
-<THAI_CHARACTER_LAKKHANGYAO>      <X7F9D>;<X0005>;<X0005>;IGNORE
+<DEVICE_CONTROL_TWO>              IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_TWO>
+<DEVICE_CONTROL_THREE>            IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_THREE>
+<DEVICE_CONTROL_FOUR>             IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_FOUR>
+<NEGATIVE_ACKNOWLEDGE>            IGNORE;IGNORE;IGNORE;<NEGATIVE_ACKNOWLEDGE>
+<SYNCHRONOUS_IDLE>                IGNORE;IGNORE;IGNORE;<SYNCHRONOUS_IDLE>
+<END_OF_TRANSMISSION_BLOCK>       IGNORE;IGNORE;IGNORE;<END_OF_TRANSMISSION_BLOCK>
+<CANCEL>                          IGNORE;IGNORE;IGNORE;<CANCEL>
+<END_OF_MEDIUM>                   IGNORE;IGNORE;IGNORE;<END_OF_MEDIUM>
+<SUBSTITUTE>                      IGNORE;IGNORE;IGNORE;<SUBSTITUTE>
+<ESCAPE>                          IGNORE;IGNORE;IGNORE;<ESCAPE>
+<INFORMATION_SEPARATOR_FOUR>      IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_FOUR>
+<INFORMATION_SEPARATOR_THREE>     IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_THREE>
+<INFORMATION_SEPARATOR_TWO>       IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_TWO>
+<INFORMATION_SEPARATOR_ONE>       IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_ONE>
+<DELETE>                          IGNORE;IGNORE;IGNORE;<DELETE>
+<space>                           IGNORE;IGNORE;"<X3F><XC4>";IGNORE
+<HYPHEN-MINUS>                    IGNORE;IGNORE;"<X3F><XC5>";IGNORE
+<FULL_STOP>                       IGNORE;IGNORE;"<X3F><XC6>";IGNORE
+<FULL_STOP-REVERSE_SOLIDUS-FULL_STOP> IGNORE;IGNORE;"<X3F><XC7>";IGNORE
+<THAI_CHARACTER_PAIYANNOI>        IGNORE;IGNORE;"<X3F><XC8>";IGNORE
+<THAI_CHARACTER_MAIYAMOK>         IGNORE;IGNORE;"<X3F><XC9>";IGNORE
+<THAI_CHARACTER_FONGMAN>          IGNORE;IGNORE;"<X3F><XCA>";IGNORE
+<THAI_CHARACTER_ANGKHANKHU>       IGNORE;IGNORE;"<X3F><XCB>";IGNORE
+<THAI_CHARACTER_KHOMUT>           IGNORE;IGNORE;"<X3F><XCC>";IGNORE
+<THAI_CHARACTER_YAMAKKAN>         IGNORE;"<XDE><X5C>";"<X05><XC0>";IGNORE
+<THAI_CHARACTER_MAITAIKHU>        IGNORE;"<XE0><X5D>";"<X05><XC0>";IGNORE
+<THAI_CHARACTER_MAI_EK>           IGNORE;"<XE0><X6D>";"<X05><XC0>";IGNORE
+<THAI_CHARACTER_MAI_THO>          IGNORE;"<XE0><X7D>";"<X05><XC0>";IGNORE
+<THAI_CHARACTER_MAI_TRI>          IGNORE;"<XE0><X8D>";"<X05><XC0>";IGNORE
+<THAI_CHARACTER_MAI_CHATTAWA>     IGNORE;"<XE0><X9D>";"<X05><XC0>";IGNORE
+<THAI_CHARACTER_THANTHAKHAT>      IGNORE;"<XE0><X9E>";"<X05><XC0>";IGNORE
+<THAI_CHARACTER_NIKHAHIT>         IGNORE;"<XE0><X9F>";"<X05><XC0>";IGNORE
+<tab>                             <X0507>;<X05>;<X05>;IGNORE
+<newline>                         <X0509>;<X05>;<X05>;IGNORE
+<vertical-tab>                    <X050B>;<X05>;<X05>;IGNORE
+<form-feed>                       <X050D>;<X05>;<X05>;IGNORE
+<carriage-return>                 <X050F>;<X05>;<X05>;IGNORE
+<GRAVE_ACCENT>                    <X0766>;<X05>;<X05>;IGNORE
+<CIRCUMFLEX_ACCENT>               <X076C>;<X05>;<X05>;IGNORE
+<LOW_LINE>                        <X0784>;<X05>;<X05>;IGNORE
+<COMMA>                           <X07B0>;<X05>;<X05>;IGNORE
+<SEMICOLON>                       <X07CA>;<X05>;<X05>;IGNORE
+<COLON>                           <X07D0>;<X05>;<X05>;IGNORE
+<EXCLAMATION_MARK>                <X07FC>;<X05>;<X05>;IGNORE
+<QUESTION_MARK>                   <X080B>;<X05>;<X05>;IGNORE
+<APOSTROPHE>                      <X08BF>;<X05>;<X05>;IGNORE
+<QUOTATION_MARK>                  <X08CD>;<X05>;<X05>;IGNORE
+<LEFT_PARENTHESIS>                <X08E1>;<X05>;<X05>;IGNORE
+<RIGHT_PARENTHESIS>               <X08E3>;<X05>;<X05>;IGNORE
+<LEFT_SQUARE_BRACKET>             <X08E5>;<X05>;<X05>;IGNORE
+<RIGHT_SQUARE_BRACKET>            <X08E7>;<X05>;<X05>;IGNORE
+<LEFT_CURLY_BRACKET>              <X08E9>;<X05>;<X05>;IGNORE
+<RIGHT_CURLY_BRACKET>             <X08EB>;<X05>;<X05>;IGNORE
+<COMMERCIAL_AT>                   <X0995>;<X05>;<X05>;IGNORE
+<ASTERISK>                        <X0997>;<X05>;<X05>;IGNORE
+<SOLIDUS>                         <X09A1>;<X05>;<X05>;IGNORE
+<REVERSE_SOLIDUS>                 <X09A5>;<X05>;<X05>;IGNORE
+<AMPERSAND>                       <X09A7>;<X05>;<X05>;IGNORE
+<NUMBER_SIGN>                     <X09AD>;<X05>;<X05>;IGNORE
+<PERCENT_SIGN>                    <X09AF>;<X05>;<X05>;IGNORE
+<PLUS_SIGN>                       <X0D67>;<X05>;<X05>;IGNORE
+<LESS-THAN_SIGN>                  <X0D6F>;<X05>;<X05>;IGNORE
+<EQUALS_SIGN>                     <X0D71>;<X05>;<X05>;IGNORE
+<GREATER-THAN_SIGN>               <X0D73>;<X05>;<X05>;IGNORE
+<VERTICAL_LINE>                   <X0D77>;<X05>;<X05>;IGNORE
+<TILDE>                           <X0D7D>;<X05>;<X05>;IGNORE
+<DOLLAR_SIGN>                     <X293E>;<X05>;<X05>;IGNORE
+<zero>                            <X297C>;<X05>;<X05>;IGNORE
+<THAI_DIGIT_ZERO>                 <X297C>;"<X05><XE7><X19>";"<X05><X05><XC0>";IGNORE
+<one>                             <X297E>;<X05>;<X05>;IGNORE
+<THAI_DIGIT_ONE>                  <X297E>;"<X05><XE7><X19>";"<X05><X05><XC0>";IGNORE
+<two>                             <X2980>;<X05>;<X05>;IGNORE
+<THAI_DIGIT_TWO>                  <X2980>;"<X05><XE7><X19>";"<X05><X05><XC0>";IGNORE
+<three>                           <X2982>;<X05>;<X05>;IGNORE
+<THAI_DIGIT_THREE>                <X2982>;"<X05><XE7><X19>";"<X05><X05><XC0>";IGNORE
+<four>                            <X2984>;<X05>;<X05>;IGNORE
+<THAI_DIGIT_FOUR>                 <X2984>;"<X05><XE7><X19>";"<X05><X05><XC0>";IGNORE
+<five>                            <X2986>;<X05>;<X05>;IGNORE
+<THAI_DIGIT_FIVE>                 <X2986>;"<X05><XE7><X19>";"<X05><X05><XC0>";IGNORE
+<six>                             <X2988>;<X05>;<X05>;IGNORE
+<THAI_DIGIT_SIX>                  <X2988>;"<X05><XE7><X19>";"<X05><X05><XC0>";IGNORE
+<seven>                           <X298A>;<X05>;<X05>;IGNORE
+<THAI_DIGIT_SEVEN>                <X298A>;"<X05><XE7><X19>";"<X05><X05><XC0>";IGNORE
+<eight>                           <X298C>;<X05>;<X05>;IGNORE
+<THAI_DIGIT_EIGHT>                <X298C>;"<X05><XE7><X19>";"<X05><X05><XC0>";IGNORE
+<nine>                            <X298E>;<X05>;<X05>;IGNORE
+<THAI_DIGIT_NINE>                 <X298E>;"<X05><XE7><X19>";"<X05><X05><XC0>";IGNORE
+<a>                               <X2C00>;<X05>;<X05>;IGNORE
+<A>                               <X2C00>;<X05>;<X8F>;IGNORE
+<b>                               <X2E00>;<X05>;<X05>;IGNORE
+<B>                               <X2E00>;<X05>;<X8F>;IGNORE
+<c>                               <X3000>;<X05>;<X05>;IGNORE
+<C>                               <X3000>;<X05>;<X8F>;IGNORE
+<d>                               <X3200>;<X05>;<X05>;IGNORE
+<D>                               <X3200>;<X05>;<X8F>;IGNORE
+<e>                               <X3400>;<X05>;<X05>;IGNORE
+<E>                               <X3400>;<X05>;<X8F>;IGNORE
+<f>                               <X3600>;<X05>;<X05>;IGNORE
+<F>                               <X3600>;<X05>;<X8F>;IGNORE
+<g>                               <X3800>;<X05>;<X05>;IGNORE
+<G>                               <X3800>;<X05>;<X8F>;IGNORE
+<h>                               <X3A00>;<X05>;<X05>;IGNORE
+<H>                               <X3A00>;<X05>;<X8F>;IGNORE
+<i>                               <X3C00>;<X05>;<X05>;IGNORE
+<I>                               <X3C00>;<X05>;<X8F>;IGNORE
+<j>                               <X3E00>;<X05>;<X05>;IGNORE
+<J>                               <X3E00>;<X05>;<X8F>;IGNORE
+<k>                               <X4000>;<X05>;<X05>;IGNORE
+<K>                               <X4000>;<X05>;<X8F>;IGNORE
+<l>                               <X4200>;<X05>;<X05>;IGNORE
+<L>                               <X4200>;<X05>;<X8F>;IGNORE
+<m>                               <X4400>;<X05>;<X05>;IGNORE
+<M>                               <X4400>;<X05>;<X8F>;IGNORE
+<n>                               <X4600>;<X05>;<X05>;IGNORE
+<N>                               <X4600>;<X05>;<X8F>;IGNORE
+<o>                               <X4800>;<X05>;<X05>;IGNORE
+<O>                               <X4800>;<X05>;<X8F>;IGNORE
+<p>                               <X4A00>;<X05>;<X05>;IGNORE
+<P>                               <X4A00>;<X05>;<X8F>;IGNORE
+<q>                               <X4C00>;<X05>;<X05>;IGNORE
+<Q>                               <X4C00>;<X05>;<X8F>;IGNORE
+<r>                               <X4E00>;<X05>;<X05>;IGNORE
+<R>                               <X4E00>;<X05>;<X8F>;IGNORE
+<s>                               <X5000>;<X05>;<X05>;IGNORE
+<S>                               <X5000>;<X05>;<X8F>;IGNORE
+<t>                               <X5200>;<X05>;<X05>;IGNORE
+<T>                               <X5200>;<X05>;<X8F>;IGNORE
+<u>                               <X5400>;<X05>;<X05>;IGNORE
+<U>                               <X5400>;<X05>;<X8F>;IGNORE
+<v>                               <X5600>;<X05>;<X05>;IGNORE
+<V>                               <X5600>;<X05>;<X8F>;IGNORE
+<w>                               <X5800>;<X05>;<X05>;IGNORE
+<W>                               <X5800>;<X05>;<X8F>;IGNORE
+<x>                               <X5A00>;<X05>;<X05>;IGNORE
+<X>                               <X5A00>;<X05>;<X8F>;IGNORE
+<y>                               <X5C00>;<X05>;<X05>;IGNORE
+<Y>                               <X5C00>;<X05>;<X8F>;IGNORE
+<z>                               <X5E00>;<X05>;<X05>;IGNORE
+<Z>                               <X5E00>;<X05>;<X8F>;IGNORE
+<THAI_CHARACTER_KO_KAI>           <X7F20>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_KHO_KHAI>         <X7F22>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_KHO_KHUAT>        <X7F24>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_KHO_KHWAI>        <X7F26>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_KHO_KHON>         <X7F28>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_KHO_RAKHANG>      <X7F2A>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_NGO_NGU>          <X7F2C>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_CHO_CHAN>         <X7F2E>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_CHO_CHING>        <X7F30>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_CHO_CHANG>        <X7F32>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SO_SO>            <X7F34>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_CHO_CHOE>         <X7F36>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_YO_YING>          <X7F38>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_DO_CHADA>         <X7F3A>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_TO_PATAK>         <X7F3C>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_THO_THAN>         <X7F3E>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_THO_NANGMONTHO>   <X7F40>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_THO_PHUTHAO>      <X7F42>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_NO_NEN>           <X7F44>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_DO_DEK>           <X7F46>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_TO_TAO>           <X7F48>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_THO_THUNG>        <X7F4A>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_THO_THAHAN>       <X7F4C>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_THO_THONG>        <X7F4E>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_NO_NU>            <X7F50>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_BO_BAIMAI>        <X7F52>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_PO_PLA>           <X7F54>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_PHO_PHUNG>        <X7F56>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_FO_FA>            <X7F58>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_PHO_PHAN>         <X7F5A>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_FO_FAN>           <X7F5C>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_PHO_SAMPHAO>      <X7F5E>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_MO_MA>            <X7F60>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_YO_YAK>           <X7F62>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_RO_RUA>           <X7F64>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_RU>               <X7F66>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_RU-THAI_CHARACTER_LAKKHANGYAO> <X7F67>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_LO_LING>          <X7F68>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_LU>               <X7F6A>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_LU-THAI_CHARACTER_LAKKHANGYAO> <X7F6B>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_WO_WAEN>          <X7F6C>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SO_SALA>          <X7F6E>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SO_RUSI>          <X7F70>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SO_SUA>           <X7F72>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_HO_HIP>           <X7F74>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_LO_CHULA>         <X7F76>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_O_ANG>            <X7F78>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_HO_NOKHUK>        <X7F7A>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_A>           <X7F7E>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_MAI_HAN-AKAT>     <X7F80>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_AA>          <X7F82>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_AM>          <X7F84>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_I>           <X7F86>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_II>          <X7F88>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_UE>          <X7F8A>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_UEE>         <X7F8C>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_U>           <X7F8E>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_UU>          <X7F90>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_PHINTHU>          <X7F92>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_E>           <X7F94>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_AE>          <X7F96>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_O>           <X7F98>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_AI_MAIMUAN>  <X7F9A>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_SARA_AI_MAIMALAI> <X7F9C>;<X05>;<X05>;IGNORE
+<THAI_CHARACTER_LAKKHANGYAO>      <X7F9D>;<X05>;<X05>;IGNORE
 UNDEFINED                         IGNORE;IGNORE;IGNORE;...
 
 order_end
@@ -1341,7 +1341,7 @@ d_t_fmt  "%e %B %Y, %H <THAI_CHARACTER_NO_NU><THAI_CHARACTER_SARA_AA><THAI_CHARA
 
 am_pm    "<THAI_CHARACTER_KO_KAI><THAI_CHARACTER_MAI_EK><THAI_CHARACTER_O_ANG><THAI_CHARACTER_NO_NU><THAI_CHARACTER_SARA_E><THAI_CHARACTER_THO_THAHAN><THAI_CHARACTER_SARA_II><THAI_CHARACTER_MAI_EK><THAI_CHARACTER_YO_YAK><THAI_CHARACTER_NGO_NGU>";"<THAI_CHARACTER_HO_HIP><THAI_CHARACTER_LO_LING><THAI_CHARACTER_MAI_HAN-AKAT><THAI_CHARACTER_NGO_NGU><THAI_CHARACTER_SARA_E><THAI_CHARACTER_THO_THAHAN><THAI_CHARACTER_SARA_II><THAI_CHARACTER_MAI_EK><THAI_CHARACTER_YO_YAK><THAI_CHARACTER_NGO_NGU>"
 
-t_fmt_ampm  ""
+t_fmt_ampm  "%I:%M:%S %p"
 
 END LC_TIME
 *************

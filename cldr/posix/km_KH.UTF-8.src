@@ -7,7 +7,7 @@ escape_char /
 * see http://www.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap07.html                    *
 * Locale Name : km_KH   Codeset : UTF-8
 *************************************************************************************************
-* Copyright 1991-2009 Unicode, Inc. All rights reserved. Distributed under the Terms of Use in  *
+* Copyright 1991-2010 Unicode, Inc. All rights reserved. Distributed under the Terms of Use in  *
 * http://www.unicode.org/copyright.html.                                                        *
 *                                                                                               *
 * Permission is hereby granted, free of charge, to any person obtaining a copy of the Unicode   *
@@ -857,64 +857,64 @@ collating-element <KHMER_VOWEL_SIGN_AA-KHMER_SIGN_NIKAHIT> from "<KHMER_VOWEL_SI
 
 * Define collation weights as symbols
 
-collating-symbol <X0001>
-collating-symbol <X0005>
-collating-symbol <X0006>
-collating-symbol <X0007>
-collating-symbol <X0008>
-collating-symbol <X0016>
-collating-symbol <X0017>
-collating-symbol <X0018>
-collating-symbol <X0019>
-collating-symbol <X001A>
-collating-symbol <X001B>
-collating-symbol <X001C>
-collating-symbol <X001D>
-collating-symbol <X001E>
-collating-symbol <X001F>
-collating-symbol <X0055>
-collating-symbol <X0087>
-collating-symbol <X0088>
-collating-symbol <X0089>
-collating-symbol <X008A>
-collating-symbol <X008B>
-collating-symbol <X008C>
-collating-symbol <X008D>
-collating-symbol <X008E>
-collating-symbol <X008F>
-collating-symbol <X0090>
-collating-symbol <X0091>
-collating-symbol <X0092>
-collating-symbol <X0093>
-collating-symbol <X0094>
-collating-symbol <X0095>
-collating-symbol <X0096>
-collating-symbol <X0097>
-collating-symbol <X0098>
-collating-symbol <X0099>
-collating-symbol <X009A>
-collating-symbol <X009B>
-collating-symbol <X009C>
-collating-symbol <X009D>
-collating-symbol <X009E>
-collating-symbol <X009F>
-collating-symbol <X00A0>
-collating-symbol <X00A1>
-collating-symbol <X00A2>
-collating-symbol <X00A3>
-collating-symbol <X00A4>
-collating-symbol <X00A5>
-collating-symbol <X00A6>
-collating-symbol <X00A7>
-collating-symbol <X00A8>
-collating-symbol <X00A9>
-collating-symbol <X00AA>
-collating-symbol <X00AB>
-collating-symbol <X00AC>
-collating-symbol <X00AD>
-collating-symbol <X00C0>
-collating-symbol <X00E2>
-collating-symbol <X00E7>
+collating-symbol <X01>
+collating-symbol <X05>
+collating-symbol <X06>
+collating-symbol <X07>
+collating-symbol <X08>
+collating-symbol <X16>
+collating-symbol <X17>
+collating-symbol <X18>
+collating-symbol <X19>
+collating-symbol <X1A>
+collating-symbol <X1B>
+collating-symbol <X1C>
+collating-symbol <X1D>
+collating-symbol <X1E>
+collating-symbol <X1F>
+collating-symbol <X55>
+collating-symbol <X87>
+collating-symbol <X88>
+collating-symbol <X89>
+collating-symbol <X8A>
+collating-symbol <X8B>
+collating-symbol <X8C>
+collating-symbol <X8D>
+collating-symbol <X8E>
+collating-symbol <X8F>
+collating-symbol <X90>
+collating-symbol <X91>
+collating-symbol <X92>
+collating-symbol <X93>
+collating-symbol <X94>
+collating-symbol <X95>
+collating-symbol <X96>
+collating-symbol <X97>
+collating-symbol <X98>
+collating-symbol <X99>
+collating-symbol <X9A>
+collating-symbol <X9B>
+collating-symbol <X9C>
+collating-symbol <X9D>
+collating-symbol <X9E>
+collating-symbol <X9F>
+collating-symbol <XA0>
+collating-symbol <XA1>
+collating-symbol <XA2>
+collating-symbol <XA3>
+collating-symbol <XA4>
+collating-symbol <XA5>
+collating-symbol <XA6>
+collating-symbol <XA7>
+collating-symbol <XA8>
+collating-symbol <XA9>
+collating-symbol <XAA>
+collating-symbol <XAB>
+collating-symbol <XAC>
+collating-symbol <XAD>
+collating-symbol <XC0>
+collating-symbol <XE2>
+collating-symbol <XE7>
 collating-symbol <X0400>
 collating-symbol <X0500>
 collating-symbol <X0507>
@@ -1092,64 +1092,64 @@ order_start forward;forward;forward;forward
 
 * collation weights in order
 
-<X0001>
-<X0005>
-<X0006>
-<X0007>
-<X0008>
-<X0016>
-<X0017>
-<X0018>
-<X0019>
-<X001A>
-<X001B>
-<X001C>
-<X001D>
-<X001E>
-<X001F>
-<X0055>
-<X0087>
-<X0088>
-<X0089>
-<X008A>
-<X008B>
-<X008C>
-<X008D>
-<X008E>
-<X008F>
-<X0090>
-<X0091>
-<X0092>
-<X0093>
-<X0094>
-<X0095>
-<X0096>
-<X0097>
-<X0098>
-<X0099>
-<X009A>
-<X009B>
-<X009C>
-<X009D>
-<X009E>
-<X009F>
-<X00A0>
-<X00A1>
-<X00A2>
-<X00A3>
-<X00A4>
-<X00A5>
-<X00A6>
-<X00A7>
-<X00A8>
-<X00A9>
-<X00AA>
-<X00AB>
-<X00AC>
-<X00AD>
-<X00C0>
-<X00E2>
-<X00E7>
+<X01>
+<X05>
+<X06>
+<X07>
+<X08>
+<X16>
+<X17>
+<X18>
+<X19>
+<X1A>
+<X1B>
+<X1C>
+<X1D>
+<X1E>
+<X1F>
+<X55>
+<X87>
+<X88>
+<X89>
+<X8A>
+<X8B>
+<X8C>
+<X8D>
+<X8E>
+<X8F>
+<X90>
+<X91>
+<X92>
+<X93>
+<X94>
+<X95>
+<X96>
+<X97>
+<X98>
+<X99>
+<X9A>
+<X9B>
+<X9C>
+<X9D>
+<X9E>
+<X9F>
+<XA0>
+<XA1>
+<XA2>
+<XA3>
+<XA4>
+<XA5>
+<XA6>
+<XA7>
+<XA8>
+<XA9>
+<XAA>
+<XAB>
+<XAC>
+<XAD>
+<XC0>
+<XE2>
+<XE7>
 <X0400>
 <X0500>
 <X0507>
@@ -1324,322 +1324,322 @@ order_start forward;forward;forward;forward
 
 * assignment of characters to weights
 
-<DELETE>                               IGNORE;IGNORE;IGNORE;<DELETE>
-<KHMER_VOWEL_INHERENT_AQ>              IGNORE;IGNORE;IGNORE;<KHMER_VOWEL_INHERENT_AQ>
-<KHMER_VOWEL_INHERENT_AA>              IGNORE;IGNORE;IGNORE;<KHMER_VOWEL_INHERENT_AA>
-<INFORMATION_SEPARATOR_TWO>            IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_TWO>
-<INFORMATION_SEPARATOR_ONE>            IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_ONE>
-<INFORMATION_SEPARATOR_FOUR>           IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_FOUR>
-<INFORMATION_SEPARATOR_THREE>          IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_THREE>
-<SUBSTITUTE>                           IGNORE;IGNORE;IGNORE;<SUBSTITUTE>
-<ESCAPE>                               IGNORE;IGNORE;IGNORE;<ESCAPE>
-<CANCEL>                               IGNORE;IGNORE;IGNORE;<CANCEL>
-<END_OF_MEDIUM>                        IGNORE;IGNORE;IGNORE;<END_OF_MEDIUM>
-<SYNCHRONOUS_IDLE>                     IGNORE;IGNORE;IGNORE;<SYNCHRONOUS_IDLE>
-<END_OF_TRANSMISSION_BLOCK>            IGNORE;IGNORE;IGNORE;<END_OF_TRANSMISSION_BLOCK>
-<DEVICE_CONTROL_FOUR>                  IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_FOUR>
-<NEGATIVE_ACKNOWLEDGE>                 IGNORE;IGNORE;IGNORE;<NEGATIVE_ACKNOWLEDGE>
-<DEVICE_CONTROL_TWO>                   IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_TWO>
-<DEVICE_CONTROL_THREE>                 IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_THREE>
+<NULL>                                 IGNORE;IGNORE;IGNORE;<NULL>
+<START_OF_HEADING>                     IGNORE;IGNORE;IGNORE;<START_OF_HEADING>
+<START_OF_TEXT>                        IGNORE;IGNORE;IGNORE;<START_OF_TEXT>
+<END_OF_TEXT>                          IGNORE;IGNORE;IGNORE;<END_OF_TEXT>
+<END_OF_TRANSMISSION>                  IGNORE;IGNORE;IGNORE;<END_OF_TRANSMISSION>
+<ENQUIRY>                              IGNORE;IGNORE;IGNORE;<ENQUIRY>
+<ACKNOWLEDGE>                          IGNORE;IGNORE;IGNORE;<ACKNOWLEDGE>
+<BELL>                                 IGNORE;IGNORE;IGNORE;<BELL>
+<BACKSPACE>                            IGNORE;IGNORE;IGNORE;<BACKSPACE>
+<SHIFT_OUT>                            IGNORE;IGNORE;IGNORE;<SHIFT_OUT>
+<SHIFT_IN>                             IGNORE;IGNORE;IGNORE;<SHIFT_IN>
 <DATA_LINK_ESCAPE>                     IGNORE;IGNORE;IGNORE;<DATA_LINK_ESCAPE>
 <DEVICE_CONTROL_ONE>                   IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_ONE>
-<SHIFT_IN>                             IGNORE;IGNORE;IGNORE;<SHIFT_IN>
-<SHIFT_OUT>                            IGNORE;IGNORE;IGNORE;<SHIFT_OUT>
-<BACKSPACE>                            IGNORE;IGNORE;IGNORE;<BACKSPACE>
-<BELL>                                 IGNORE;IGNORE;IGNORE;<BELL>
-<ACKNOWLEDGE>                          IGNORE;IGNORE;IGNORE;<ACKNOWLEDGE>
-<ENQUIRY>                              IGNORE;IGNORE;IGNORE;<ENQUIRY>
-<END_OF_TRANSMISSION>                  IGNORE;IGNORE;IGNORE;<END_OF_TRANSMISSION>
-<END_OF_TEXT>                          IGNORE;IGNORE;IGNORE;<END_OF_TEXT>
-<START_OF_TEXT>                        IGNORE;IGNORE;IGNORE;<START_OF_TEXT>
-<START_OF_HEADING>                     IGNORE;IGNORE;IGNORE;<START_OF_HEADING>
-<NULL>                                 IGNORE;IGNORE;IGNORE;<NULL>
-<KHMER_SIGN_KAKABAT>                   IGNORE;"<X00E2><X0016>";"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_AHSDA>                     IGNORE;"<X00E2><X0017>";"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_VIRIAM>                    IGNORE;"<X00E2><X0018>";"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_SAMYOK_SANNYA>             IGNORE;"<X00E2><X0019>";"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_YUUKALEAPINTU>             IGNORE;"<X00E2><X001A>";"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_ATTHACAN>                  IGNORE;"<X00E2><X001B>";"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_BANTOC>                    IGNORE;"<X00E2><X001C>";"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_MUUSIKATOAN>               IGNORE;"<X00E2><X001D>";"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_TRIISAP>                   IGNORE;"<X00E2><X001E>";"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_TOANDAKHIAT>               IGNORE;"<X00E2><X001F>";"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_ROBAT>                     IGNORE;"<X00E2><X0055>";"<X0005><X00C0>";IGNORE
-<tab>                                  <X0507>;<X0005>;<X0005>;IGNORE
-<newline>                              <X0509>;<X0005>;<X0005>;IGNORE
-<vertical-tab>                         <X050B>;<X0005>;<X0005>;IGNORE
-<form-feed>                            <X050D>;<X0005>;<X0005>;IGNORE
-<carriage-return>                      <X050F>;<X0005>;<X0005>;IGNORE
-<space>                                <X0600>;<X0005>;<X0005>;IGNORE
-<GRAVE_ACCENT>                         <X0766>;<X0005>;<X0005>;IGNORE
-<CIRCUMFLEX_ACCENT>                    <X076C>;<X0005>;<X0005>;IGNORE
-<LOW_LINE>                             <X0784>;<X0005>;<X0005>;IGNORE
-<HYPHEN-MINUS>                         <X0790>;<X0005>;<X0005>;IGNORE
-<COMMA>                                <X07B0>;<X0005>;<X0005>;IGNORE
-<SEMICOLON>                            <X07CA>;<X0005>;<X0005>;IGNORE
-<COLON>                                <X07D0>;<X0005>;<X0005>;IGNORE
-<EXCLAMATION_MARK>                     <X07FC>;<X0005>;<X0005>;IGNORE
-<QUESTION_MARK>                        <X080B>;<X0005>;<X0005>;IGNORE
-<FULL_STOP>                            <X0825>;<X0005>;<X0005>;IGNORE
-<KHMER_SIGN_LEK_TOO>                   "<X0860><X0400>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_BATHAMASAT>                "<X0860><X0500>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_KHAN>                      "<X0860><X0600>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_BARIYOOSAN>                "<X0860><X0700>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_CAMNUC_PII_KUUH>           "<X0860><X0800>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_BEYYAL>                    "<X0860><X0900>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_PHNAEK_MUAN>               "<X0860><X0A00>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_KOOMUUT>                   "<X0860><X0B00>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_AVAKRAHASANYA>             "<X0860><X0C00>";<X0005>;"<X0005><X00C0>";IGNORE
-<APOSTROPHE>                           <X08BF>;<X0005>;<X0005>;IGNORE
-<QUOTATION_MARK>                       <X08CD>;<X0005>;<X0005>;IGNORE
-<LEFT_PARENTHESIS>                     <X08E1>;<X0005>;<X0005>;IGNORE
-<RIGHT_PARENTHESIS>                    <X08E3>;<X0005>;<X0005>;IGNORE
-<LEFT_SQUARE_BRACKET>                  <X08E5>;<X0005>;<X0005>;IGNORE
-<RIGHT_SQUARE_BRACKET>                 <X08E7>;<X0005>;<X0005>;IGNORE
-<LEFT_CURLY_BRACKET>                   <X08E9>;<X0005>;<X0005>;IGNORE
-<RIGHT_CURLY_BRACKET>                  <X08EB>;<X0005>;<X0005>;IGNORE
-<COMMERCIAL_AT>                        <X0995>;<X0005>;<X0005>;IGNORE
-<ASTERISK>                             <X0997>;<X0005>;<X0005>;IGNORE
-<SOLIDUS>                              <X09A1>;<X0005>;<X0005>;IGNORE
-<REVERSE_SOLIDUS>                      <X09A5>;<X0005>;<X0005>;IGNORE
-<AMPERSAND>                            <X09A7>;<X0005>;<X0005>;IGNORE
-<NUMBER_SIGN>                          <X09AD>;<X0005>;<X0005>;IGNORE
-<PERCENT_SIGN>                         <X09AF>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PATHAMASAT>              <X0BD7>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_MUOY_KOET>               <X0BD9>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PII_KOET>                <X0BDB>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_BEI_KOET>                <X0BDD>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_BUON_KOET>               <X0BDF>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PRAM_KOET>               <X0BE1>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PRAM-MUOY_KOET>          <X0BE3>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PRAM-PII_KOET>           <X0BE5>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PRAM-BEI_KOET>           <X0BE7>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PRAM-BUON_KOET>          <X0BE9>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP_KOET>                <X0BEB>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP-MUOY_KOET>           <X0BED>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP-PII_KOET>            <X0BEF>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP-BEI_KOET>            <X0BF1>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP-BUON_KOET>           <X0BF3>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP-PRAM_KOET>           <X0BF5>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_TUTEYASAT>               <X0BF7>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_MUOY_ROC>                <X0BF9>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PII_ROC>                 <X0BFB>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_BEI_ROC>                 <X0BFD>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_BUON_ROC>                <X0C05>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PRAM_ROC>                <X0C07>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PRAM-MUOY_ROC>           <X0C09>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PRAM-PII_ROC>            <X0C0B>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PRAM-BEI_ROC>            <X0C0D>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_PRAM-BUON_ROC>           <X0C0F>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP_ROC>                 <X0C11>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP-MUOY_ROC>            <X0C13>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP-PII_ROC>             <X0C15>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP-BEI_ROC>             <X0C17>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP-BUON_ROC>            <X0C19>;<X0005>;<X0005>;IGNORE
-<KHMER_SYMBOL_DAP-PRAM_ROC>            <X0C1B>;<X0005>;<X0005>;IGNORE
-<PLUS_SIGN>                            <X0D67>;<X0005>;<X0005>;IGNORE
-<LESS-THAN_SIGN>                       <X0D6F>;<X0005>;<X0005>;IGNORE
-<EQUALS_SIGN>                          <X0D71>;<X0005>;<X0005>;IGNORE
-<GREATER-THAN_SIGN>                    <X0D73>;<X0005>;<X0005>;IGNORE
-<VERTICAL_LINE>                        <X0D77>;<X0005>;<X0005>;IGNORE
-<TILDE>                                <X0D7D>;<X0005>;<X0005>;IGNORE
-<DOLLAR_SIGN>                          <X293E>;<X0005>;<X0005>;IGNORE
-<KHMER_CURRENCY_SYMBOL_RIEL>           <X2950>;<X0005>;<X0005>;IGNORE
-<zero>                                 <X297C>;<X0005>;<X0005>;IGNORE
-<KHMER_DIGIT_ZERO>                     <X297C>;"<X0005><X00E7><X0089>";"<X0005><X0005><X00C0>";IGNORE
-<KHMER_SYMBOL_LEK_ATTAK_SON>           <X297C>;"<X0005><X00E7><X0099>";"<X0005><X0005><X00C0>";IGNORE
-<one>                                  <X297E>;<X0005>;<X0005>;IGNORE
-<KHMER_DIGIT_ONE>                      <X297E>;"<X0005><X00E7><X0089>";"<X0005><X0005><X00C0>";IGNORE
-<KHMER_SYMBOL_LEK_ATTAK_MUOY>          <X297E>;"<X0005><X00E7><X0099>";"<X0005><X0005><X00C0>";IGNORE
-<two>                                  <X2980>;<X0005>;<X0005>;IGNORE
-<KHMER_DIGIT_TWO>                      <X2980>;"<X0005><X00E7><X0089>";"<X0005><X0005><X00C0>";IGNORE
-<KHMER_SYMBOL_LEK_ATTAK_PII>           <X2980>;"<X0005><X00E7><X0099>";"<X0005><X0005><X00C0>";IGNORE
-<three>                                <X2982>;<X0005>;<X0005>;IGNORE
-<KHMER_DIGIT_THREE>                    <X2982>;"<X0005><X00E7><X0089>";"<X0005><X0005><X00C0>";IGNORE
-<KHMER_SYMBOL_LEK_ATTAK_BEI>           <X2982>;"<X0005><X00E7><X0099>";"<X0005><X0005><X00C0>";IGNORE
-<four>                                 <X2984>;<X0005>;<X0005>;IGNORE
-<KHMER_DIGIT_FOUR>                     <X2984>;"<X0005><X00E7><X0089>";"<X0005><X0005><X00C0>";IGNORE
-<KHMER_SYMBOL_LEK_ATTAK_BUON>          <X2984>;"<X0005><X00E7><X0099>";"<X0005><X0005><X00C0>";IGNORE
-<five>                                 <X2986>;<X0005>;<X0005>;IGNORE
-<KHMER_DIGIT_FIVE>                     <X2986>;"<X0005><X00E7><X0089>";"<X0005><X0005><X00C0>";IGNORE
-<KHMER_SYMBOL_LEK_ATTAK_PRAM>          <X2986>;"<X0005><X00E7><X0099>";"<X0005><X0005><X00C0>";IGNORE
-<six>                                  <X2988>;<X0005>;<X0005>;IGNORE
-<KHMER_DIGIT_SIX>                      <X2988>;"<X0005><X00E7><X0089>";"<X0005><X0005><X00C0>";IGNORE
-<KHMER_SYMBOL_LEK_ATTAK_PRAM-MUOY>     <X2988>;"<X0005><X00E7><X0099>";"<X0005><X0005><X00C0>";IGNORE
-<seven>                                <X298A>;<X0005>;<X0005>;IGNORE
-<KHMER_DIGIT_SEVEN>                    <X298A>;"<X0005><X00E7><X0089>";"<X0005><X0005><X00C0>";IGNORE
-<KHMER_SYMBOL_LEK_ATTAK_PRAM-PII>      <X298A>;"<X0005><X00E7><X0099>";"<X0005><X0005><X00C0>";IGNORE
-<eight>                                <X298C>;<X0005>;<X0005>;IGNORE
-<KHMER_DIGIT_EIGHT>                    <X298C>;"<X0005><X00E7><X0089>";"<X0005><X0005><X00C0>";IGNORE
-<KHMER_SYMBOL_LEK_ATTAK_PRAM-BEI>      <X298C>;"<X0005><X00E7><X0099>";"<X0005><X0005><X00C0>";IGNORE
-<nine>                                 <X298E>;<X0005>;<X0005>;IGNORE
-<KHMER_DIGIT_NINE>                     <X298E>;"<X0005><X00E7><X0089>";"<X0005><X0005><X00C0>";IGNORE
-<KHMER_SYMBOL_LEK_ATTAK_PRAM-BUON>     <X298E>;"<X0005><X00E7><X0099>";"<X0005><X0005><X00C0>";IGNORE
-<a>                                    <X2C00>;<X0005>;<X0005>;IGNORE
-<A>                                    <X2C00>;<X0005>;<X008F>;IGNORE
-<b>                                    <X2E00>;<X0005>;<X0005>;IGNORE
-<B>                                    <X2E00>;<X0005>;<X008F>;IGNORE
-<c>                                    <X3000>;<X0005>;<X0005>;IGNORE
-<C>                                    <X3000>;<X0005>;<X008F>;IGNORE
-<d>                                    <X3200>;<X0005>;<X0005>;IGNORE
-<D>                                    <X3200>;<X0005>;<X008F>;IGNORE
-<e>                                    <X3400>;<X0005>;<X0005>;IGNORE
-<E>                                    <X3400>;<X0005>;<X008F>;IGNORE
-<f>                                    <X3600>;<X0005>;<X0005>;IGNORE
-<F>                                    <X3600>;<X0005>;<X008F>;IGNORE
-<g>                                    <X3800>;<X0005>;<X0005>;IGNORE
-<G>                                    <X3800>;<X0005>;<X008F>;IGNORE
-<h>                                    <X3A00>;<X0005>;<X0005>;IGNORE
-<H>                                    <X3A00>;<X0005>;<X008F>;IGNORE
-<i>                                    <X3C00>;<X0005>;<X0005>;IGNORE
-<I>                                    <X3C00>;<X0005>;<X008F>;IGNORE
-<j>                                    <X3E00>;<X0005>;<X0005>;IGNORE
-<J>                                    <X3E00>;<X0005>;<X008F>;IGNORE
-<k>                                    <X4000>;<X0005>;<X0005>;IGNORE
-<K>                                    <X4000>;<X0005>;<X008F>;IGNORE
-<l>                                    <X4200>;<X0005>;<X0005>;IGNORE
-<L>                                    <X4200>;<X0005>;<X008F>;IGNORE
-<m>                                    <X4400>;<X0005>;<X0005>;IGNORE
-<M>                                    <X4400>;<X0005>;<X008F>;IGNORE
-<n>                                    <X4600>;<X0005>;<X0005>;IGNORE
-<N>                                    <X4600>;<X0005>;<X008F>;IGNORE
-<o>                                    <X4800>;<X0005>;<X0005>;IGNORE
-<O>                                    <X4800>;<X0005>;<X008F>;IGNORE
-<p>                                    <X4A00>;<X0005>;<X0005>;IGNORE
-<P>                                    <X4A00>;<X0005>;<X008F>;IGNORE
-<q>                                    <X4C00>;<X0005>;<X0005>;IGNORE
-<Q>                                    <X4C00>;<X0005>;<X008F>;IGNORE
-<r>                                    <X4E00>;<X0005>;<X0005>;IGNORE
-<R>                                    <X4E00>;<X0005>;<X008F>;IGNORE
-<s>                                    <X5000>;<X0005>;<X0005>;IGNORE
-<S>                                    <X5000>;<X0005>;<X008F>;IGNORE
-<t>                                    <X5200>;<X0005>;<X0005>;IGNORE
-<T>                                    <X5200>;<X0005>;<X008F>;IGNORE
-<u>                                    <X5400>;<X0005>;<X0005>;IGNORE
-<U>                                    <X5400>;<X0005>;<X008F>;IGNORE
-<v>                                    <X5600>;<X0005>;<X0005>;IGNORE
-<V>                                    <X5600>;<X0005>;<X008F>;IGNORE
-<w>                                    <X5800>;<X0005>;<X0005>;IGNORE
-<W>                                    <X5800>;<X0005>;<X008F>;IGNORE
-<x>                                    <X5A00>;<X0005>;<X0005>;IGNORE
-<X>                                    <X5A00>;<X0005>;<X008F>;IGNORE
-<y>                                    <X5C00>;<X0005>;<X0005>;IGNORE
-<Y>                                    <X5C00>;<X0005>;<X008F>;IGNORE
-<z>                                    <X5E00>;<X0005>;<X0005>;IGNORE
-<Z>                                    <X5E00>;<X0005>;<X008F>;IGNORE
-<KHMER_LETTER_KA>                      <X8E20>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_KHA>                     <X8E22>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_KO>                      <X8E24>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_KHO>                     <X8E26>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_NGO>                     <X8E28>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_CA>                      <X8E2A>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_CHA>                     <X8E2C>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_CO>                      <X8E2E>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_CHO>                     <X8E30>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_NYO>                     <X8E32>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_DA>                      <X8E34>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_TTHA>                    <X8E36>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_DO>                      <X8E38>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_TTHO>                    <X8E3A>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_NNO>                     <X8E3C>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_TA>                      <X8E3E>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_THA>                     <X8E40>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_TO>                      <X8E42>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_THO>                     <X8E44>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_NO>                      <X8E46>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_BA>                      <X8E48>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_PHA>                     <X8E4A>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_PO>                      <X8E4C>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_PHO>                     <X8E4E>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_MO>                      <X8E50>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_YO>                      <X8E52>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_RO>                      <X8E54>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_KA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E20>";"<X00AD><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_KHA-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E22>";"<X00AC><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_KO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E24>";"<X00AB><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_KHO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E26>";"<X00AA><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_NGO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E28>";"<X00A9><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_CA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E2A>";"<X00A8><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_CHA-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E2C>";"<X00A7><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_CO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E2E>";"<X00A6><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_CHO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E30>";"<X00A5><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_NYO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E32>";"<X00A4><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_DA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E34>";"<X00A3><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_TTHA-KHMER_SIGN_ROBAT>   "<X8E54><X8EAE><X8E36>";"<X00A2><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_DO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E38>";"<X00A1><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_TTHO-KHMER_SIGN_ROBAT>   "<X8E54><X8EAE><X8E3A>";"<X00A0><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_NNO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E3C>";"<X009F><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_TA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E3E>";"<X009E><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_THA-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E40>";"<X009D><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_TO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E42>";"<X009C><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_THO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E44>";"<X009B><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_NO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E46>";"<X009A><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_BA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E48>";"<X0099><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_PHA-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E4A>";"<X0098><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_PO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E4C>";"<X0097><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_PHO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E4E>";"<X0096><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_MO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E50>";"<X0095><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_YO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E52>";"<X0094><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_RO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E54>";"<X0093><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_RY-KHMER_SIGN_ROBAT> "<X8E54><X8EAE><X8E55><X0400>";"<X0092><X0005><X0005>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_RYY-KHMER_SIGN_ROBAT> "<X8E54><X8EAE><X8E55><X0500>";"<X0091><X0005><X0005>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<KHMER_LETTER_LO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E56>";"<X0090><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_LY-KHMER_SIGN_ROBAT> "<X8E54><X8EAE><X8E57><X0400>";"<X008F><X0005><X0005>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_LYY-KHMER_SIGN_ROBAT> "<X8E54><X8EAE><X8E57><X0500>";"<X008E><X0005><X0005>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<KHMER_LETTER_VO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E58>";"<X008D><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_SHA-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E5A>";"<X008C><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_SSO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E5C>";"<X008B><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_SA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E5E>";"<X008A><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_HA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E60>";"<X0089><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_LA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E62>";"<X0088><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_LETTER_QA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E64>";"<X0087><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QAQ-KHMER_SIGN_ROBAT> "<X8E54><X8EAE><X8E64>";"<X0087><X0005><X0005>";"<X0006><X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_RY>           "<X8E55><X0400>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_RYY>          "<X8E55><X0500>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_LETTER_LO>                      <X8E56>;<X0005>;<X0005>;IGNORE
-<KHMER_INDEPENDENT_VOWEL_LY>           "<X8E57><X0400>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_LYY>          "<X8E57><X0500>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_LETTER_VO>                      <X8E58>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_SHA>                     <X8E5A>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_SSO>                     <X8E5C>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_SA>                      <X8E5E>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_HA>                      <X8E60>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_LA>                      <X8E62>;<X0005>;<X0005>;IGNORE
-<KHMER_LETTER_QA>                      <X8E64>;<X0005>;<X0005>;IGNORE
-<KHMER_INDEPENDENT_VOWEL_QAQ>          <X8E64>;<X0005>;<X0008>;IGNORE
-<KHMER_INDEPENDENT_VOWEL_QAA>          "<X8E64><X8E8E>";"<X0005><X0005>";"<X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QI>           "<X8E64><X8E90>";"<X0005><X0005>";"<X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QII>          "<X8E64><X8E92>";"<X0005><X0005>";"<X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QU>           "<X8E64><X8E98>";"<X0005><X0005>";"<X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QUK>          "<X8E64><X8E98>";"<X0005><X0005>";"<X0007><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QUUV>         "<X8E64><X8E98><X8E64>";"<X0005><X0005><X0005>";"<X0005><X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QUU>          "<X8E64><X8E9A>";"<X0005><X0005>";"<X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QE>           "<X8E64><X8EA6>";"<X0005><X0005>";"<X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QAI>          "<X8E64><X8EA8>";"<X0005><X0005>";"<X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QOO_TYPE_ONE> "<X8E64><X8EAA>";"<X0005><X0005>";"<X0005><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QOO_TYPE_TWO> "<X8E64><X8EAA>";"<X0005><X0005>";"<X0006><X0005>";IGNORE
-<KHMER_INDEPENDENT_VOWEL_QAU>          "<X8E64><X8EAC>";"<X0005><X0005>";"<X0005><X0005>";IGNORE
-<KHMER_VOWEL_SIGN_AA>                  <X8E8E>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_I>                   <X8E90>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_II>                  <X8E92>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_Y>                   <X8E94>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_YY>                  <X8E96>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_U>                   <X8E98>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_UU>                  <X8E9A>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_UA>                  <X8E9C>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_OE>                  <X8E9E>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_YA>                  <X8EA0>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_IE>                  <X8EA2>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_E>                   <X8EA4>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_AE>                  <X8EA6>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_AI>                  <X8EA8>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_OO>                  <X8EAA>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_AU>                  <X8EAC>;<X0005>;<X0005>;IGNORE
-<KHMER_VOWEL_SIGN_U-KHMER_SIGN_NIKAHIT> "<X8EAD><X0400>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_NIKAHIT>                   "<X8EAD><X0500>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_VOWEL_SIGN_AA-KHMER_SIGN_NIKAHIT> "<X8EAD><X0600>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_REAHMUK>                   "<X8EAD><X0700>";<X0005>;"<X0005><X00C0>";IGNORE
-<KHMER_SIGN_COENG>                     <X8EAE>;<X0005>;<X0005>;IGNORE
+<DEVICE_CONTROL_TWO>                   IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_TWO>
+<DEVICE_CONTROL_THREE>                 IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_THREE>
+<DEVICE_CONTROL_FOUR>                  IGNORE;IGNORE;IGNORE;<DEVICE_CONTROL_FOUR>
+<NEGATIVE_ACKNOWLEDGE>                 IGNORE;IGNORE;IGNORE;<NEGATIVE_ACKNOWLEDGE>
+<SYNCHRONOUS_IDLE>                     IGNORE;IGNORE;IGNORE;<SYNCHRONOUS_IDLE>
+<END_OF_TRANSMISSION_BLOCK>            IGNORE;IGNORE;IGNORE;<END_OF_TRANSMISSION_BLOCK>
+<CANCEL>                               IGNORE;IGNORE;IGNORE;<CANCEL>
+<END_OF_MEDIUM>                        IGNORE;IGNORE;IGNORE;<END_OF_MEDIUM>
+<SUBSTITUTE>                           IGNORE;IGNORE;IGNORE;<SUBSTITUTE>
+<ESCAPE>                               IGNORE;IGNORE;IGNORE;<ESCAPE>
+<INFORMATION_SEPARATOR_FOUR>           IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_FOUR>
+<INFORMATION_SEPARATOR_THREE>          IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_THREE>
+<INFORMATION_SEPARATOR_TWO>            IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_TWO>
+<INFORMATION_SEPARATOR_ONE>            IGNORE;IGNORE;IGNORE;<INFORMATION_SEPARATOR_ONE>
+<KHMER_VOWEL_INHERENT_AQ>              IGNORE;IGNORE;IGNORE;<KHMER_VOWEL_INHERENT_AQ>
+<KHMER_VOWEL_INHERENT_AA>              IGNORE;IGNORE;IGNORE;<KHMER_VOWEL_INHERENT_AA>
+<DELETE>                               IGNORE;IGNORE;IGNORE;<DELETE>
+<KHMER_SIGN_KAKABAT>                   IGNORE;"<XE2><X16>";"<X05><XC0>";IGNORE
+<KHMER_SIGN_AHSDA>                     IGNORE;"<XE2><X17>";"<X05><XC0>";IGNORE
+<KHMER_SIGN_VIRIAM>                    IGNORE;"<XE2><X18>";"<X05><XC0>";IGNORE
+<KHMER_SIGN_SAMYOK_SANNYA>             IGNORE;"<XE2><X19>";"<X05><XC0>";IGNORE
+<KHMER_SIGN_YUUKALEAPINTU>             IGNORE;"<XE2><X1A>";"<X05><XC0>";IGNORE
+<KHMER_SIGN_ATTHACAN>                  IGNORE;"<XE2><X1B>";"<X05><XC0>";IGNORE
+<KHMER_SIGN_BANTOC>                    IGNORE;"<XE2><X1C>";"<X05><XC0>";IGNORE
+<KHMER_SIGN_MUUSIKATOAN>               IGNORE;"<XE2><X1D>";"<X05><XC0>";IGNORE
+<KHMER_SIGN_TRIISAP>                   IGNORE;"<XE2><X1E>";"<X05><XC0>";IGNORE
+<KHMER_SIGN_TOANDAKHIAT>               IGNORE;"<XE2><X1F>";"<X05><XC0>";IGNORE
+<KHMER_SIGN_ROBAT>                     IGNORE;"<XE2><X55>";"<X05><XC0>";IGNORE
+<tab>                                  <X0507>;<X05>;<X05>;IGNORE
+<newline>                              <X0509>;<X05>;<X05>;IGNORE
+<vertical-tab>                         <X050B>;<X05>;<X05>;IGNORE
+<form-feed>                            <X050D>;<X05>;<X05>;IGNORE
+<carriage-return>                      <X050F>;<X05>;<X05>;IGNORE
+<space>                                <X0600>;<X05>;<X05>;IGNORE
+<GRAVE_ACCENT>                         <X0766>;<X05>;<X05>;IGNORE
+<CIRCUMFLEX_ACCENT>                    <X076C>;<X05>;<X05>;IGNORE
+<LOW_LINE>                             <X0784>;<X05>;<X05>;IGNORE
+<HYPHEN-MINUS>                         <X0790>;<X05>;<X05>;IGNORE
+<COMMA>                                <X07B0>;<X05>;<X05>;IGNORE
+<SEMICOLON>                            <X07CA>;<X05>;<X05>;IGNORE
+<COLON>                                <X07D0>;<X05>;<X05>;IGNORE
+<EXCLAMATION_MARK>                     <X07FC>;<X05>;<X05>;IGNORE
+<QUESTION_MARK>                        <X080B>;<X05>;<X05>;IGNORE
+<FULL_STOP>                            <X0825>;<X05>;<X05>;IGNORE
+<KHMER_SIGN_LEK_TOO>                   "<X0860><X0400>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_SIGN_BATHAMASAT>                "<X0860><X0500>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_SIGN_KHAN>                      "<X0860><X0600>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_SIGN_BARIYOOSAN>                "<X0860><X0700>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_SIGN_CAMNUC_PII_KUUH>           "<X0860><X0800>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_SIGN_BEYYAL>                    "<X0860><X0900>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_SIGN_PHNAEK_MUAN>               "<X0860><X0A00>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_SIGN_KOOMUUT>                   "<X0860><X0B00>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_SIGN_AVAKRAHASANYA>             "<X0860><X0C00>";<X05>;"<X05><XC0>";IGNORE
+<APOSTROPHE>                           <X08BF>;<X05>;<X05>;IGNORE
+<QUOTATION_MARK>                       <X08CD>;<X05>;<X05>;IGNORE
+<LEFT_PARENTHESIS>                     <X08E1>;<X05>;<X05>;IGNORE
+<RIGHT_PARENTHESIS>                    <X08E3>;<X05>;<X05>;IGNORE
+<LEFT_SQUARE_BRACKET>                  <X08E5>;<X05>;<X05>;IGNORE
+<RIGHT_SQUARE_BRACKET>                 <X08E7>;<X05>;<X05>;IGNORE
+<LEFT_CURLY_BRACKET>                   <X08E9>;<X05>;<X05>;IGNORE
+<RIGHT_CURLY_BRACKET>                  <X08EB>;<X05>;<X05>;IGNORE
+<COMMERCIAL_AT>                        <X0995>;<X05>;<X05>;IGNORE
+<ASTERISK>                             <X0997>;<X05>;<X05>;IGNORE
+<SOLIDUS>                              <X09A1>;<X05>;<X05>;IGNORE
+<REVERSE_SOLIDUS>                      <X09A5>;<X05>;<X05>;IGNORE
+<AMPERSAND>                            <X09A7>;<X05>;<X05>;IGNORE
+<NUMBER_SIGN>                          <X09AD>;<X05>;<X05>;IGNORE
+<PERCENT_SIGN>                         <X09AF>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PATHAMASAT>              <X0BD7>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_MUOY_KOET>               <X0BD9>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PII_KOET>                <X0BDB>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_BEI_KOET>                <X0BDD>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_BUON_KOET>               <X0BDF>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PRAM_KOET>               <X0BE1>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PRAM-MUOY_KOET>          <X0BE3>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PRAM-PII_KOET>           <X0BE5>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PRAM-BEI_KOET>           <X0BE7>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PRAM-BUON_KOET>          <X0BE9>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP_KOET>                <X0BEB>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP-MUOY_KOET>           <X0BED>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP-PII_KOET>            <X0BEF>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP-BEI_KOET>            <X0BF1>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP-BUON_KOET>           <X0BF3>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP-PRAM_KOET>           <X0BF5>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_TUTEYASAT>               <X0BF7>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_MUOY_ROC>                <X0BF9>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PII_ROC>                 <X0BFB>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_BEI_ROC>                 <X0BFD>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_BUON_ROC>                <X0C05>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PRAM_ROC>                <X0C07>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PRAM-MUOY_ROC>           <X0C09>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PRAM-PII_ROC>            <X0C0B>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PRAM-BEI_ROC>            <X0C0D>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_PRAM-BUON_ROC>           <X0C0F>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP_ROC>                 <X0C11>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP-MUOY_ROC>            <X0C13>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP-PII_ROC>             <X0C15>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP-BEI_ROC>             <X0C17>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP-BUON_ROC>            <X0C19>;<X05>;<X05>;IGNORE
+<KHMER_SYMBOL_DAP-PRAM_ROC>            <X0C1B>;<X05>;<X05>;IGNORE
+<PLUS_SIGN>                            <X0D67>;<X05>;<X05>;IGNORE
+<LESS-THAN_SIGN>                       <X0D6F>;<X05>;<X05>;IGNORE
+<EQUALS_SIGN>                          <X0D71>;<X05>;<X05>;IGNORE
+<GREATER-THAN_SIGN>                    <X0D73>;<X05>;<X05>;IGNORE
+<VERTICAL_LINE>                        <X0D77>;<X05>;<X05>;IGNORE
+<TILDE>                                <X0D7D>;<X05>;<X05>;IGNORE
+<DOLLAR_SIGN>                          <X293E>;<X05>;<X05>;IGNORE
+<KHMER_CURRENCY_SYMBOL_RIEL>           <X2950>;<X05>;<X05>;IGNORE
+<zero>                                 <X297C>;<X05>;<X05>;IGNORE
+<KHMER_DIGIT_ZERO>                     <X297C>;"<X05><XE7><X89>";"<X05><X05><XC0>";IGNORE
+<KHMER_SYMBOL_LEK_ATTAK_SON>           <X297C>;"<X05><XE7><X99>";"<X05><X05><XC0>";IGNORE
+<one>                                  <X297E>;<X05>;<X05>;IGNORE
+<KHMER_DIGIT_ONE>                      <X297E>;"<X05><XE7><X89>";"<X05><X05><XC0>";IGNORE
+<KHMER_SYMBOL_LEK_ATTAK_MUOY>          <X297E>;"<X05><XE7><X99>";"<X05><X05><XC0>";IGNORE
+<two>                                  <X2980>;<X05>;<X05>;IGNORE
+<KHMER_DIGIT_TWO>                      <X2980>;"<X05><XE7><X89>";"<X05><X05><XC0>";IGNORE
+<KHMER_SYMBOL_LEK_ATTAK_PII>           <X2980>;"<X05><XE7><X99>";"<X05><X05><XC0>";IGNORE
+<three>                                <X2982>;<X05>;<X05>;IGNORE
+<KHMER_DIGIT_THREE>                    <X2982>;"<X05><XE7><X89>";"<X05><X05><XC0>";IGNORE
+<KHMER_SYMBOL_LEK_ATTAK_BEI>           <X2982>;"<X05><XE7><X99>";"<X05><X05><XC0>";IGNORE
+<four>                                 <X2984>;<X05>;<X05>;IGNORE
+<KHMER_DIGIT_FOUR>                     <X2984>;"<X05><XE7><X89>";"<X05><X05><XC0>";IGNORE
+<KHMER_SYMBOL_LEK_ATTAK_BUON>          <X2984>;"<X05><XE7><X99>";"<X05><X05><XC0>";IGNORE
+<five>                                 <X2986>;<X05>;<X05>;IGNORE
+<KHMER_DIGIT_FIVE>                     <X2986>;"<X05><XE7><X89>";"<X05><X05><XC0>";IGNORE
+<KHMER_SYMBOL_LEK_ATTAK_PRAM>          <X2986>;"<X05><XE7><X99>";"<X05><X05><XC0>";IGNORE
+<six>                                  <X2988>;<X05>;<X05>;IGNORE
+<KHMER_DIGIT_SIX>                      <X2988>;"<X05><XE7><X89>";"<X05><X05><XC0>";IGNORE
+<KHMER_SYMBOL_LEK_ATTAK_PRAM-MUOY>     <X2988>;"<X05><XE7><X99>";"<X05><X05><XC0>";IGNORE
+<seven>                                <X298A>;<X05>;<X05>;IGNORE
+<KHMER_DIGIT_SEVEN>                    <X298A>;"<X05><XE7><X89>";"<X05><X05><XC0>";IGNORE
+<KHMER_SYMBOL_LEK_ATTAK_PRAM-PII>      <X298A>;"<X05><XE7><X99>";"<X05><X05><XC0>";IGNORE
+<eight>                                <X298C>;<X05>;<X05>;IGNORE
+<KHMER_DIGIT_EIGHT>                    <X298C>;"<X05><XE7><X89>";"<X05><X05><XC0>";IGNORE
+<KHMER_SYMBOL_LEK_ATTAK_PRAM-BEI>      <X298C>;"<X05><XE7><X99>";"<X05><X05><XC0>";IGNORE
+<nine>                                 <X298E>;<X05>;<X05>;IGNORE
+<KHMER_DIGIT_NINE>                     <X298E>;"<X05><XE7><X89>";"<X05><X05><XC0>";IGNORE
+<KHMER_SYMBOL_LEK_ATTAK_PRAM-BUON>     <X298E>;"<X05><XE7><X99>";"<X05><X05><XC0>";IGNORE
+<a>                                    <X2C00>;<X05>;<X05>;IGNORE
+<A>                                    <X2C00>;<X05>;<X8F>;IGNORE
+<b>                                    <X2E00>;<X05>;<X05>;IGNORE
+<B>                                    <X2E00>;<X05>;<X8F>;IGNORE
+<c>                                    <X3000>;<X05>;<X05>;IGNORE
+<C>                                    <X3000>;<X05>;<X8F>;IGNORE
+<d>                                    <X3200>;<X05>;<X05>;IGNORE
+<D>                                    <X3200>;<X05>;<X8F>;IGNORE
+<e>                                    <X3400>;<X05>;<X05>;IGNORE
+<E>                                    <X3400>;<X05>;<X8F>;IGNORE
+<f>                                    <X3600>;<X05>;<X05>;IGNORE
+<F>                                    <X3600>;<X05>;<X8F>;IGNORE
+<g>                                    <X3800>;<X05>;<X05>;IGNORE
+<G>                                    <X3800>;<X05>;<X8F>;IGNORE
+<h>                                    <X3A00>;<X05>;<X05>;IGNORE
+<H>                                    <X3A00>;<X05>;<X8F>;IGNORE
+<i>                                    <X3C00>;<X05>;<X05>;IGNORE
+<I>                                    <X3C00>;<X05>;<X8F>;IGNORE
+<j>                                    <X3E00>;<X05>;<X05>;IGNORE
+<J>                                    <X3E00>;<X05>;<X8F>;IGNORE
+<k>                                    <X4000>;<X05>;<X05>;IGNORE
+<K>                                    <X4000>;<X05>;<X8F>;IGNORE
+<l>                                    <X4200>;<X05>;<X05>;IGNORE
+<L>                                    <X4200>;<X05>;<X8F>;IGNORE
+<m>                                    <X4400>;<X05>;<X05>;IGNORE
+<M>                                    <X4400>;<X05>;<X8F>;IGNORE
+<n>                                    <X4600>;<X05>;<X05>;IGNORE
+<N>                                    <X4600>;<X05>;<X8F>;IGNORE
+<o>                                    <X4800>;<X05>;<X05>;IGNORE
+<O>                                    <X4800>;<X05>;<X8F>;IGNORE
+<p>                                    <X4A00>;<X05>;<X05>;IGNORE
+<P>                                    <X4A00>;<X05>;<X8F>;IGNORE
+<q>                                    <X4C00>;<X05>;<X05>;IGNORE
+<Q>                                    <X4C00>;<X05>;<X8F>;IGNORE
+<r>                                    <X4E00>;<X05>;<X05>;IGNORE
+<R>                                    <X4E00>;<X05>;<X8F>;IGNORE
+<s>                                    <X5000>;<X05>;<X05>;IGNORE
+<S>                                    <X5000>;<X05>;<X8F>;IGNORE
+<t>                                    <X5200>;<X05>;<X05>;IGNORE
+<T>                                    <X5200>;<X05>;<X8F>;IGNORE
+<u>                                    <X5400>;<X05>;<X05>;IGNORE
+<U>                                    <X5400>;<X05>;<X8F>;IGNORE
+<v>                                    <X5600>;<X05>;<X05>;IGNORE
+<V>                                    <X5600>;<X05>;<X8F>;IGNORE
+<w>                                    <X5800>;<X05>;<X05>;IGNORE
+<W>                                    <X5800>;<X05>;<X8F>;IGNORE
+<x>                                    <X5A00>;<X05>;<X05>;IGNORE
+<X>                                    <X5A00>;<X05>;<X8F>;IGNORE
+<y>                                    <X5C00>;<X05>;<X05>;IGNORE
+<Y>                                    <X5C00>;<X05>;<X8F>;IGNORE
+<z>                                    <X5E00>;<X05>;<X05>;IGNORE
+<Z>                                    <X5E00>;<X05>;<X8F>;IGNORE
+<KHMER_LETTER_KA>                      <X8E20>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_KHA>                     <X8E22>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_KO>                      <X8E24>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_KHO>                     <X8E26>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_NGO>                     <X8E28>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_CA>                      <X8E2A>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_CHA>                     <X8E2C>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_CO>                      <X8E2E>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_CHO>                     <X8E30>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_NYO>                     <X8E32>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_DA>                      <X8E34>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_TTHA>                    <X8E36>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_DO>                      <X8E38>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_TTHO>                    <X8E3A>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_NNO>                     <X8E3C>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_TA>                      <X8E3E>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_THA>                     <X8E40>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_TO>                      <X8E42>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_THO>                     <X8E44>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_NO>                      <X8E46>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_BA>                      <X8E48>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_PHA>                     <X8E4A>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_PO>                      <X8E4C>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_PHO>                     <X8E4E>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_MO>                      <X8E50>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_YO>                      <X8E52>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_RO>                      <X8E54>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_KA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E20>";"<XAD><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_KHA-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E22>";"<XAC><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_KO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E24>";"<XAB><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_KHO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E26>";"<XAA><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_NGO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E28>";"<XA9><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_CA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E2A>";"<XA8><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_CHA-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E2C>";"<XA7><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_CO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E2E>";"<XA6><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_CHO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E30>";"<XA5><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_NYO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E32>";"<XA4><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_DA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E34>";"<XA3><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_TTHA-KHMER_SIGN_ROBAT>   "<X8E54><X8EAE><X8E36>";"<XA2><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_DO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E38>";"<XA1><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_TTHO-KHMER_SIGN_ROBAT>   "<X8E54><X8EAE><X8E3A>";"<XA0><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_NNO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E3C>";"<X9F><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_TA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E3E>";"<X9E><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_THA-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E40>";"<X9D><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_TO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E42>";"<X9C><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_THO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E44>";"<X9B><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_NO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E46>";"<X9A><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_BA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E48>";"<X99><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_PHA-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E4A>";"<X98><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_PO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E4C>";"<X97><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_PHO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E4E>";"<X96><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_MO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E50>";"<X95><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_YO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E52>";"<X94><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_RO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E54>";"<X93><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_RY-KHMER_SIGN_ROBAT> "<X8E54><X8EAE><X8E55><X0400>";"<X92><X05><X05>";"<X05><X05><X05><XC0>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_RYY-KHMER_SIGN_ROBAT> "<X8E54><X8EAE><X8E55><X0500>";"<X91><X05><X05>";"<X05><X05><X05><XC0>";IGNORE
+<KHMER_LETTER_LO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E56>";"<X90><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_LY-KHMER_SIGN_ROBAT> "<X8E54><X8EAE><X8E57><X0400>";"<X8F><X05><X05>";"<X05><X05><X05><XC0>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_LYY-KHMER_SIGN_ROBAT> "<X8E54><X8EAE><X8E57><X0500>";"<X8E><X05><X05>";"<X05><X05><X05><XC0>";IGNORE
+<KHMER_LETTER_VO-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E58>";"<X8D><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_SHA-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E5A>";"<X8C><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_SSO-KHMER_SIGN_ROBAT>    "<X8E54><X8EAE><X8E5C>";"<X8B><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_SA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E5E>";"<X8A><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_HA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E60>";"<X89><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_LA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E62>";"<X88><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_LETTER_QA-KHMER_SIGN_ROBAT>     "<X8E54><X8EAE><X8E64>";"<X87><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QAQ-KHMER_SIGN_ROBAT> "<X8E54><X8EAE><X8E64>";"<X87><X05><X05>";"<X06><X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_RY>           "<X8E55><X0400>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_RYY>          "<X8E55><X0500>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_LETTER_LO>                      <X8E56>;<X05>;<X05>;IGNORE
+<KHMER_INDEPENDENT_VOWEL_LY>           "<X8E57><X0400>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_LYY>          "<X8E57><X0500>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_LETTER_VO>                      <X8E58>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_SHA>                     <X8E5A>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_SSO>                     <X8E5C>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_SA>                      <X8E5E>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_HA>                      <X8E60>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_LA>                      <X8E62>;<X05>;<X05>;IGNORE
+<KHMER_LETTER_QA>                      <X8E64>;<X05>;<X05>;IGNORE
+<KHMER_INDEPENDENT_VOWEL_QAQ>          <X8E64>;<X05>;<X08>;IGNORE
+<KHMER_INDEPENDENT_VOWEL_QAA>          "<X8E64><X8E8E>";"<X05><X05>";"<X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QI>           "<X8E64><X8E90>";"<X05><X05>";"<X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QII>          "<X8E64><X8E92>";"<X05><X05>";"<X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QU>           "<X8E64><X8E98>";"<X05><X05>";"<X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QUK>          "<X8E64><X8E98>";"<X05><X05>";"<X07><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QUUV>         "<X8E64><X8E98><X8E64>";"<X05><X05><X05>";"<X05><X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QUU>          "<X8E64><X8E9A>";"<X05><X05>";"<X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QE>           "<X8E64><X8EA6>";"<X05><X05>";"<X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QAI>          "<X8E64><X8EA8>";"<X05><X05>";"<X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QOO_TYPE_ONE> "<X8E64><X8EAA>";"<X05><X05>";"<X05><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QOO_TYPE_TWO> "<X8E64><X8EAA>";"<X05><X05>";"<X06><X05>";IGNORE
+<KHMER_INDEPENDENT_VOWEL_QAU>          "<X8E64><X8EAC>";"<X05><X05>";"<X05><X05>";IGNORE
+<KHMER_VOWEL_SIGN_AA>                  <X8E8E>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_I>                   <X8E90>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_II>                  <X8E92>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_Y>                   <X8E94>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_YY>                  <X8E96>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_U>                   <X8E98>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_UU>                  <X8E9A>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_UA>                  <X8E9C>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_OE>                  <X8E9E>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_YA>                  <X8EA0>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_IE>                  <X8EA2>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_E>                   <X8EA4>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_AE>                  <X8EA6>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_AI>                  <X8EA8>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_OO>                  <X8EAA>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_AU>                  <X8EAC>;<X05>;<X05>;IGNORE
+<KHMER_VOWEL_SIGN_U-KHMER_SIGN_NIKAHIT> "<X8EAD><X0400>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_SIGN_NIKAHIT>                   "<X8EAD><X0500>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_VOWEL_SIGN_AA-KHMER_SIGN_NIKAHIT> "<X8EAD><X0600>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_SIGN_REAHMUK>                   "<X8EAD><X0700>";<X05>;"<X05><XC0>";IGNORE
+<KHMER_SIGN_COENG>                     <X8EAE>;<X05>;<X05>;IGNORE
 UNDEFINED                              IGNORE;IGNORE;IGNORE;...
 
 order_end
@@ -1689,21 +1689,21 @@ END LC_MONETARY
 LC_TIME
 *************
 
-abday   "<KHMER_LETTER_THA><KHMER_SIGN_COENG><KHMER_LETTER_NGO><KHMER_VOWEL_SIGN_AI><KHMER_LETTER_QA><KHMER_VOWEL_SIGN_AA><KHMER_LETTER_TO><KHMER_VOWEL_SIGN_I><KHMER_LETTER_TA><KHMER_SIGN_COENG><KHMER_LETTER_YO>";/
+abday   "<KHMER_LETTER_QA><KHMER_VOWEL_SIGN_AA>";/
         "<KHMER_LETTER_CA>";/
         "<KHMER_LETTER_QA>";/
         "<KHMER_LETTER_PO><KHMER_VOWEL_SIGN_U>";/
-        "<KHMER_LETTER_THA><KHMER_SIGN_COENG><KHMER_LETTER_NGO><KHMER_VOWEL_SIGN_AI><KHMER_LETTER_PO><KHMER_SIGN_COENG><KHMER_LETTER_RO><KHMER_LETTER_HA><KHMER_LETTER_SA><KHMER_SIGN_COENG><KHMER_LETTER_BA><KHMER_LETTER_TA><KHMER_VOWEL_SIGN_I><KHMER_SIGN_TOANDAKHIAT>";/
-        "<KHMER_LETTER_THA><KHMER_SIGN_COENG><KHMER_LETTER_NGO><KHMER_VOWEL_SIGN_AI><KHMER_LETTER_SA><KHMER_VOWEL_SIGN_U><KHMER_LETTER_KA><KHMER_SIGN_COENG><KHMER_LETTER_RO>";/
+        "<KHMER_LETTER_PO><KHMER_SIGN_COENG><KHMER_LETTER_RO>";/
+        "<KHMER_LETTER_SA><KHMER_VOWEL_SIGN_U>";/
         "<KHMER_LETTER_SA>"
 
-day     "<one>";/
-        "<two>";/
-        "<three>";/
-        "<four>";/
-        "<five>";/
-        "<six>";/
-        "<seven>"
+day     "<KHMER_LETTER_THA><KHMER_SIGN_COENG><KHMER_LETTER_NGO><KHMER_VOWEL_SIGN_AI><KHMER_LETTER_QA><KHMER_VOWEL_SIGN_AA><KHMER_LETTER_TO><KHMER_VOWEL_SIGN_I><KHMER_LETTER_TA><KHMER_SIGN_COENG><KHMER_LETTER_YO>";/
+        "<ZERO_WIDTH_SPACE><KHMER_LETTER_THA><KHMER_SIGN_COENG><KHMER_LETTER_NGO><KHMER_VOWEL_SIGN_AI><KHMER_LETTER_CA><KHMER_SIGN_SAMYOK_SANNYA><KHMER_LETTER_NO><KHMER_SIGN_COENG><KHMER_LETTER_TO>";/
+        "<KHMER_LETTER_THA><KHMER_SIGN_COENG><KHMER_LETTER_NGO><KHMER_VOWEL_SIGN_AI><KHMER_LETTER_QA><KHMER_LETTER_NGO><KHMER_SIGN_COENG><KHMER_LETTER_KO><KHMER_VOWEL_SIGN_AA><KHMER_LETTER_RO>";/
+        "<KHMER_LETTER_THA><KHMER_SIGN_COENG><KHMER_LETTER_NGO><KHMER_VOWEL_SIGN_AI><KHMER_LETTER_PO><KHMER_VOWEL_SIGN_U><KHMER_LETTER_THO>";/
+        "<KHMER_LETTER_THA><KHMER_SIGN_COENG><KHMER_LETTER_NGO><KHMER_VOWEL_SIGN_AI><KHMER_LETTER_PO><KHMER_SIGN_COENG><KHMER_LETTER_RO><KHMER_LETTER_HA><KHMER_LETTER_SA><KHMER_SIGN_COENG><KHMER_LETTER_BA><KHMER_LETTER_TA><KHMER_VOWEL_SIGN_I><KHMER_SIGN_TOANDAKHIAT>";/
+        "<KHMER_LETTER_THA><KHMER_SIGN_COENG><KHMER_LETTER_NGO><KHMER_VOWEL_SIGN_AI><KHMER_LETTER_SA><KHMER_VOWEL_SIGN_U><KHMER_LETTER_KA><KHMER_SIGN_COENG><KHMER_LETTER_RO>";/
+        "<KHMER_LETTER_THA><KHMER_SIGN_COENG><KHMER_LETTER_NGO><KHMER_VOWEL_SIGN_AI><KHMER_LETTER_SA><KHMER_VOWEL_SIGN_AU><KHMER_LETTER_RO><KHMER_SIGN_TOANDAKHIAT>"
 
 abmon   "<KHMER_DIGIT_ONE>";/
         "<KHMER_DIGIT_TWO>";/
@@ -1735,7 +1735,7 @@ d_fmt    "%e<SOLIDUS>%m<SOLIDUS>%Y"
 
 t_fmt    "%H:%M:%S"
 
-d_t_fmt  "%Y %B %e, %H <KHMER_LETTER_MO><KHMER_SIGN_MUUSIKATOAN><KHMER_VOWEL_SIGN_OO><KHMER_LETTER_NGO> %M <KHMER_LETTER_NO><KHMER_VOWEL_SIGN_AA><KHMER_LETTER_TO><KHMER_VOWEL_SIGN_II> %S <KHMER_LETTER_VO><KHMER_VOWEL_SIGN_I><KHMER_LETTER_NO><KHMER_VOWEL_SIGN_AA><KHMER_LETTER_TO><KHMER_VOWEL_SIGN_II><ZERO_WIDTH_SPACE>%Z"
+d_t_fmt  "%e <KHMER_LETTER_KHA><KHMER_VOWEL_SIGN_AE> %B <KHMER_LETTER_CHA><KHMER_SIGN_COENG><KHMER_LETTER_NO><KHMER_VOWEL_SIGN_AA><KHMER_SIGN_NIKAHIT> %Y, %H <KHMER_LETTER_MO><KHMER_SIGN_MUUSIKATOAN><KHMER_VOWEL_SIGN_OO><KHMER_LETTER_NGO> %M <KHMER_LETTER_NO><KHMER_VOWEL_SIGN_AA><KHMER_LETTER_TO><KHMER_VOWEL_SIGN_II> %S <KHMER_LETTER_VO><KHMER_VOWEL_SIGN_I><KHMER_LETTER_NO><KHMER_VOWEL_SIGN_AA><KHMER_LETTER_TO><KHMER_VOWEL_SIGN_II><ZERO_WIDTH_SPACE>%Z"
 
 am_pm    "<KHMER_LETTER_PO><KHMER_SIGN_COENG><KHMER_LETTER_RO><KHMER_VOWEL_SIGN_Y><KHMER_LETTER_KA>";"<KHMER_LETTER_LO><KHMER_SIGN_COENG><KHMER_LETTER_NGO><KHMER_VOWEL_SIGN_AA><KHMER_LETTER_CA>"
 

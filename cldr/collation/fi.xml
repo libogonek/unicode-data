@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4126 $"/>
-		<generation date="$Date: 2009-05-05 19:33:13 -0400 (Tue, 05 May 2009) $"/>
+		<version number="$Revision: 4701 $"/>
+		<generation date="$Date: 2010-02-19 16:13:58 -0600 (Fri, 19 Feb 2010) $"/>
 		<language type="fi" /> 
 	</identity>
 		<collations  validSubLocales="fi_FI">
@@ -29,7 +29,7 @@
 					<t>Ü</t>
 					<s>ű</s>
 					<t>Ű</t>
-					<reset before="primary">ʒ</reset>
+					<reset before="primary">ǀ</reset>
 					<p>å</p>
 					<t>Å</t>
 					<p>ä</p>
@@ -76,8 +76,7 @@
 					<reset>Z ̵</reset>
 					<s>ʒ</s>
 					<t>Ʒ</t>
-					<!-- U+0291, LATIN SMALL LETTER Z WITH CURL, the last Z-like character. -->
-					<reset>ʑ</reset>
+					<reset before="primary">ǀ</reset>
 					<p>å</p>
 					<t>Å</t>
 					<p>ä</p>
@@ -117,7 +116,7 @@
 					<s>ʒ</s>
 					<t>Ʒ</t>
 					<!-- U+0291, LATIN SMALL LETTER Z WITH CURL, the last Z-like character. -->
-					<reset>ʑ</reset>
+					<reset before="primary">ǀ</reset>
 					<p>å</p>
 					<t>Å</t>
 					<p>ä</p>

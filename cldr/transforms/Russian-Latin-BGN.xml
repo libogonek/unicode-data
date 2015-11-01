@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
+  <version number="$Revision: 4747 $"/>
+	<generation date="$Date: 2010-02-25 15:22:30 -0600 (Thu, 25 Feb 2010) $"/>
 	<transforms>
 		<transform source="Russian" target="Latin" direction="forward" variant="BGN" draft="provisional">
 			<comment>
@@ -169,8 +171,9 @@
 			</comment>
 			<tRule>З → Z ; # CYRILLIC CAPITAL LETTER ZE</tRule>
 			<tRule>з → z ; # CYRILLIC SMALL LETTER ZE</tRule>
-			<tRule>[$consonants - [Йй]]}З → ·Е ;</tRule>
-			<tRule>[$consonants - [Йй]]}з → ·е ;</tRule>
+			<tRule>[$consonants - [Йй]]}Э → ·Е ;</tRule>
+			<tRule>[$consonants - [Йй]]}э → ·е ;</tRule>
+
 			<comment>
 			#
 			########################################################################

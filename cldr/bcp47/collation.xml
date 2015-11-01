@@ -2,10 +2,8 @@
 <!DOCTYPE ldmlBCP47 SYSTEM "../../common/dtd/ldmlBCP47.dtd">
 
 <ldmlBCP47>
-    <version number="$Revision: 4442 $"/>
-    <generation date="$Date: 2009-12-10 09:38:17 -0500 (Thu, 10 Dec 2009) $"/>
-    <cldrVersion version="1.7.2"/>
-
+    <version number="$Revision: 4761 $"/>
+    <generation date="$Date: 2010-02-26 18:11:12 -0600 (Fri, 26 Feb 2010) $"/>
     <keyword>
         <key name="co" alias="collation">
             <type name="big5han"/>
@@ -13,6 +11,7 @@
             <type name="direct"/>
             <type name="gb2312" alias="gb2312han"/>
             <type name="phonebk" alias="phonebook"/>
+            <type name="phonetic"/>
             <type name="pinyin"/>
             <type name="reformed"/>
             <type name="standard"/>

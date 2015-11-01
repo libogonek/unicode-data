@@ -2,10 +2,11 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4178 $"/>
-		<generation date="$Date: 2009-06-14 23:46:26 -0400 (Sun, 14 Jun 2009) $"/>
+		<version number="$Revision: 4772 $"/>
+		<generation date="$Date: 2010-02-28 19:38:08 -0600 (Sun, 28 Feb 2010) $"/>
 		<language type="eu"/>
 	</identity>
+	<fallback/>
 	<localeDisplayNames>
 		<localeDisplayPattern>
 			<localePattern>{0} ({1})</localePattern>
@@ -27,7 +28,7 @@
 			<language type="cs">txekiera</language>
 			<language type="cy">galesera</language>
 			<language type="da">daniera</language>
-			<language type="de">alemanera</language>
+			<language type="de">alemana</language>
 			<language type="el">greziera</language>
 			<language type="en">ingelera</language>
 			<language type="en_AU">ingelesa (Australia)</language>
@@ -41,7 +42,7 @@
 			<language type="fi">finlandiera</language>
 			<language type="fil">tagalo</language>
 			<language type="fo">faroera</language>
-			<language type="fr">frantsesera</language>
+			<language type="fr">frantsesa</language>
 			<language type="fy">frisiarra</language>
 			<language type="ga">gaelikoa</language>
 			<language type="gd">eskoziar gaelikoa</language>
@@ -104,6 +105,7 @@
 			<language type="su">sundanera</language>
 			<language type="sv">suediera</language>
 			<language type="sw">swahili</language>
+			<language type="swb">swb</language>
 			<language type="ta">tamilera</language>
 			<language type="te">telugua</language>
 			<language type="th">thailandiera</language>
@@ -120,6 +122,7 @@
 			<language type="vi">vietnamera</language>
 			<language type="xh">xhosa</language>
 			<language type="yi">yiddishera</language>
+			<language type="yue">yue</language>
 			<language type="zh">txinera</language>
 			<language type="zh_Hans">txinera (soildua)</language>
 			<language type="zh_Hant">txinera (tradizionala)</language>
@@ -157,12 +160,14 @@
 			<script type="Geor">Geor</script>
 			<script type="Glag">Glag</script>
 			<script type="Goth">Goth</script>
-			<script type="Grek">Grez</script>
+			<script type="Grek">Grek</script>
 			<script type="Gujr">Gujr</script>
 			<script type="Guru">Guru</script>
 			<script type="Hang">Hang</script>
 			<script type="Hani">Hani</script>
 			<script type="Hano">Hano</script>
+			<script type="Hans">Hans</script>
+			<script type="Hant">Hant</script>
 			<script type="Hebr">Hebr</script>
 			<script type="Hira">Hira</script>
 			<script type="Hrkt">Hrkt</script>
@@ -205,9 +210,12 @@
 			<script type="Syrn">Syrn</script>
 			<script type="Talu">Talu</script>
 			<script type="Zmth">Zmth</script>
+			<script type="Zxxx">Zxxx</script>
 			<script type="Zyyy">Zyyy</script>
+			<script type="Zzzz">Zzzz</script>
 		</scripts>
 		<territories>
+			<territory type="AC">AC</territory>
 			<territory type="AE">Arabiar Emirrerri Batuak</territory>
 			<territory type="AF">Afganistan</territory>
 			<territory type="AG">Antigua eta Barbuda</territory>
@@ -239,15 +247,19 @@
 			<territory type="CA">Kanada</territory>
 			<territory type="CC">Cocos uharteak</territory>
 			<territory type="CD">Kongoko Errepublika Demokratikoa</territory>
+			<territory type="CD" alt="variant">Kongo [KED]</territory>
 			<territory type="CF">Afrika Erdiko Errepublika</territory>
 			<territory type="CG">Kongo</territory>
+			<territory type="CG" alt="variant">Kongo [errepublika]</territory>
 			<territory type="CH">Suitza</territory>
 			<territory type="CI">Boli Kosta</territory>
+			<territory type="CI" alt="variant">BK</territory>
 			<territory type="CK">Cook uharteak</territory>
 			<territory type="CL">Txile</territory>
 			<territory type="CM">Kamerun</territory>
 			<territory type="CN">Txina</territory>
 			<territory type="CO">Kolonbia</territory>
+			<territory type="CP">CP</territory>
 			<territory type="CS">Serbia eta Montenegro</territory>
 			<territory type="CU">Kuba</territory>
 			<territory type="CV">Cabo Verde</territory>
@@ -255,11 +267,13 @@
 			<territory type="CY">Zipre</territory>
 			<territory type="CZ">Txekiar errepublika</territory>
 			<territory type="DE">Alemania</territory>
+			<territory type="DG">DG</territory>
 			<territory type="DJ">Djibuti</territory>
 			<territory type="DK">Danimarka</territory>
 			<territory type="DM">Dominika</territory>
 			<territory type="DO">Dominikar Errepublika</territory>
 			<territory type="DZ">Aljeria</territory>
+			<territory type="EA">EA</territory>
 			<territory type="EC">Ekuador</territory>
 			<territory type="EE">Estonia</territory>
 			<territory type="EG">Egipto</territory>
@@ -269,11 +283,12 @@
 			<territory type="ET">Etiopia</territory>
 			<territory type="FI">Finlandia</territory>
 			<territory type="FK">Malvinak</territory>
+			<territory type="FK" alt="variant">FK</territory>
 			<territory type="FM">Mikronesia</territory>
 			<territory type="FO">Faroe Uharteak</territory>
 			<territory type="FR">Frantzia</territory>
 			<territory type="GA">Gabon</territory>
-			<territory type="GB" draft="unconfirmed">Erresuma Batua</territory>
+			<territory type="GB">Erresuma Batua</territory>
 			<territory type="GE">Georgia</territory>
 			<territory type="GF">Guyana Frantsesa</territory>
 			<territory type="GG">Guernsey</territory>
@@ -283,13 +298,15 @@
 			<territory type="GN">Ginea</territory>
 			<territory type="GQ">Ekuatore Ginea</territory>
 			<territory type="GR">Grezia</territory>
-			<territory type="GS" draft="unconfirmed">Hegoaldeko Georgia eta Hegoaldeko Sandwich uharteak</territory>
+			<territory type="GS">Hegoaldeko Georgia eta Hegoaldeko Sandwich uharteak</territory>
 			<territory type="GW">Ginea-Bissau</territory>
+			<territory type="HK">HK</territory>
 			<territory type="HM">Heard eta McDonald Uharteak</territory>
 			<territory type="HN">Honduras</territory>
 			<territory type="HR">Kroazia</territory>
 			<territory type="HT">Haiti</territory>
 			<territory type="HU">Hungaria</territory>
+			<territory type="IC">IC</territory>
 			<territory type="ID">Indonesia</territory>
 			<territory type="IE">Irlanda</territory>
 			<territory type="IL">Israel</territory>
@@ -318,7 +335,7 @@
 			<territory type="LB">Libano</territory>
 			<territory type="LC">Santa Luzia</territory>
 			<territory type="LI">Liechtenstein</territory>
-			<territory type="LK" draft="unconfirmed">Sri Lanka</territory>
+			<territory type="LK">Sri Lanka</territory>
 			<territory type="LR">Liberia</territory>
 			<territory type="LS">Lesotho</territory>
 			<territory type="LT">Lituania</territory>
@@ -373,56 +390,58 @@
 			<territory type="SA">Saudi Arabia</territory>
 			<territory type="SB">Salomon uharteak</territory>
 			<territory type="SC">Seychelleak</territory>
-			<territory type="SD" draft="unconfirmed">Sudan</territory>
+			<territory type="SD">Sudan</territory>
 			<territory type="SE">Suedia</territory>
 			<territory type="SG">Singapur</territory>
 			<territory type="SH">Saint Helena</territory>
 			<territory type="SI">Eslovenia</territory>
-			<territory type="SJ" draft="unconfirmed">Svalbard eta Jan Mayen uharteak</territory>
+			<territory type="SJ">Svalbard eta Jan Mayen uharteak</territory>
 			<territory type="SK">Eslovakia</territory>
 			<territory type="SL">Sierra Leona</territory>
 			<territory type="SM">San Marino</territory>
 			<territory type="SN">Senegal</territory>
-			<territory type="SO" draft="unconfirmed">Somalia</territory>
+			<territory type="SO">Somalia</territory>
 			<territory type="SR">Surinam</territory>
 			<territory type="ST">Sao Tomé eta Principe</territory>
 			<territory type="SY">Siria</territory>
 			<territory type="SZ">Swazilandia</territory>
-			<territory type="TC" draft="unconfirmed">Turk eta Caico uharteak</territory>
+			<territory type="TA">TA</territory>
+			<territory type="TC">Turk eta Caicos uharteak</territory>
 			<territory type="TD">Txad</territory>
 			<territory type="TF">Frantziaren Lurralde Australak</territory>
-			<territory type="TG" draft="unconfirmed">Togo</territory>
+			<territory type="TG">Togo</territory>
 			<territory type="TH">Tailandia</territory>
 			<territory type="TJ">Tadjikistan</territory>
-			<territory type="TK" draft="unconfirmed">Tokelau</territory>
+			<territory type="TK">Tokelau</territory>
 			<territory type="TL">Ekialdeko Timor</territory>
-			<territory type="TM" draft="unconfirmed">Turkmenistan</territory>
-			<territory type="TN" draft="unconfirmed">Tunisia</territory>
-			<territory type="TO" draft="unconfirmed">Tonga</territory>
+			<territory type="TM">Turkmenistan</territory>
+			<territory type="TN">Tunisia</territory>
+			<territory type="TO">Tonga</territory>
 			<territory type="TR">Turkia</territory>
 			<territory type="TT">Trinidad eta Tobago</territory>
-			<territory type="TV" draft="unconfirmed">Tuvalu</territory>
-			<territory type="TW" draft="unconfirmed">Taiwan</territory>
-			<territory type="TZ" draft="unconfirmed">Tanzania</territory>
+			<territory type="TV">Tuvalu</territory>
+			<territory type="TW">Taiwan</territory>
+			<territory type="TZ">Tanzania</territory>
 			<territory type="UA">Ukraina</territory>
-			<territory type="UG" draft="unconfirmed">Uganda</territory>
-			<territory type="UM" draft="unconfirmed">Estatu Batuetatik urruti dauden uharte txikiak</territory>
+			<territory type="UG">Uganda</territory>
+			<territory type="UM">Estatu Batuetatik urruti dauden uharte txikiak</territory>
 			<territory type="US">Ameriketako Estatu Batuak</territory>
 			<territory type="UY">Uruguai</territory>
-			<territory type="UZ" draft="unconfirmed">Uzbekistan</territory>
+			<territory type="UZ">Uzbekistan</territory>
 			<territory type="VA">Vatikano</territory>
 			<territory type="VC">Saint Vincent eta Grenadinak</territory>
-			<territory type="VE" draft="unconfirmed">Venezuela</territory>
+			<territory type="VE">Venezuela</territory>
 			<territory type="VG">Birjina uharte britainiarrak</territory>
 			<territory type="VI">Birjina uharte amerikarrak</territory>
-			<territory type="VN" draft="unconfirmed">Vietnam</territory>
-			<territory type="VU" draft="unconfirmed">Vanuatu</territory>
-			<territory type="WF" draft="unconfirmed">Wallis eta Futuna</territory>
+			<territory type="VN">Vietnam</territory>
+			<territory type="VU">Vanuatu</territory>
+			<territory type="WF">Wallis eta Futuna</territory>
 			<territory type="WS">Samoa</territory>
-			<territory type="YE" draft="unconfirmed">Yemen</territory>
+			<territory type="YE">Yemen</territory>
 			<territory type="ZA">Hegoafrika</territory>
-			<territory type="ZM" draft="unconfirmed">Zambia</territory>
-			<territory type="ZW" draft="unconfirmed">Zimbabwe</territory>
+			<territory type="ZM">Zambia</territory>
+			<territory type="ZW">Zimbabwe</territory>
+			<territory type="ZZ">ZZ</territory>
 		</territories>
 		<variants>
 			<variant type="POLYTON">POLITON</variant>
@@ -463,9 +482,10 @@
 		</codePatterns>
 	</localeDisplayNames>
 	<characters>
-		<exemplarCharacters>[a-c ç d-n ñ o-z]</exemplarCharacters>
+		<exemplarCharacters>[a b c ç d e f g h i j k l m n ñ o p q r s t u v w x y z]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary">[]</exemplarCharacters>
-		<exemplarCharacters type="currencySymbol">[a-z]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol">[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
+		<exemplarCharacters type="index">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
 	</characters>
 	<delimiters>
 		<quotationStart>“</quotationStart>
@@ -552,17 +572,6 @@
 							<day type="sat">larunbata</day>
 						</dayWidth>
 					</dayContext>
-					<dayContext type="stand-alone">
-						<dayWidth type="narrow">
-							<day type="sun">1</day>
-							<day type="mon">2</day>
-							<day type="tue">3</day>
-							<day type="wed">4</day>
-							<day type="thu">5</day>
-							<day type="fri">6</day>
-							<day type="sat">7</day>
-						</dayWidth>
-					</dayContext>
 				</days>
 				<quarters>
 					<quarterContext type="format">
@@ -580,14 +589,6 @@
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
-				<am>AM</am>
-				<pm>PM</pm>
-				<eras>
-					<eraAbbr>
-						<era type="0">BCE</era>
-						<era type="1">CE</era>
-					</eraAbbr>
-				</eras>
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
@@ -638,11 +639,19 @@
 						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
+				<fields>
+					<field type="day">
+						<relative type="-1" draft="unconfirmed">Atzo</relative>
+						<relative type="0">Gaur</relative>
+						<relative type="1">Bihar</relative>
+					</field>
+				</fields>
 			</calendar>
 			<calendar type="roc">
 				<eras>
 					<eraAbbr>
 						<era type="0">R.O.C. aurretik</era>
+						<era type="1">R.O.C.</era>
 					</eraAbbr>
 				</eras>
 			</calendar>
@@ -703,142 +712,16 @@
 			<zone type="America/North_Dakota/Center">
 				<exemplarCity>Ameriketako Estatu Batuak (Erdialdea, Ipar Dakota)</exemplarCity>
 			</zone>
-			<metazone type="Australia_Central">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Australia_CentralWestern">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Australia_Eastern">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Australia_Western">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Azores">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="British">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Cape_Verde">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Chamorro">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Chatham">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Christmas">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Cocos">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Cook">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Davis">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="DumontDUrville">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Easter">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
 			<metazone type="Europe_Central">
-				<short>
-					<standard>CET</standard>
-					<daylight>CEST</daylight>
-				</short>
 				<commonlyUsed>true</commonlyUsed>
 			</metazone>
 			<metazone type="Europe_Eastern">
-				<short>
-					<standard>EET</standard>
-					<daylight>EEST</daylight>
-				</short>
 				<commonlyUsed>true</commonlyUsed>
 			</metazone>
 			<metazone type="Europe_Western">
-				<short>
-					<standard>WET</standard>
-					<daylight>WEST</daylight>
-				</short>
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Falkland">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Fiji">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="French_Southern">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Galapagos">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Gambier">
 				<commonlyUsed>true</commonlyUsed>
 			</metazone>
 			<metazone type="GMT">
-				<short>
-					<standard>GMT</standard>
-				</short>
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Indian_Ocean">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Irish">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Kuybyshev">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Lord_Howe">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Maldives">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Mauritius">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Mawson">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Moscow">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Reunion">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Rothera">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Samara">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Seychelles">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="South_Georgia">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Syowa">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Turkey">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Volgograd">
-				<commonlyUsed>true</commonlyUsed>
-			</metazone>
-			<metazone type="Vostok">
 				<commonlyUsed>true</commonlyUsed>
 			</metazone>
 		</timeZoneNames>
@@ -882,86 +765,11 @@
 			<unitPattern count="other">{0} {1}</unitPattern>
 		</currencyFormats>
 		<currencies>
-			<currency type="BRL">
-				<displayName>BRL</displayName>
-			</currency>
-			<currency type="CNY">
-				<displayName>CNY</displayName>
-			</currency>
 			<currency type="ESP">
 				<pattern>¤ #,##0;-¤ #,##0</pattern>
 				<symbol>₧</symbol>
 				<decimal>,</decimal>
 				<group>.</group>
-			</currency>
-			<currency type="EUR">
-				<displayName>EUR</displayName>
-			</currency>
-			<currency type="GBP">
-				<displayName>GBP</displayName>
-			</currency>
-			<currency type="INR">
-				<displayName>INR</displayName>
-			</currency>
-			<currency type="JPY">
-				<displayName>JPY</displayName>
-			</currency>
-			<currency type="RUB">
-				<displayName>RUB</displayName>
-			</currency>
-			<currency type="USD">
-				<displayName>USD</displayName>
-			</currency>
-			<currency type="USN">
-				<displayName>USN</displayName>
-			</currency>
-			<currency type="USS">
-				<displayName>USS</displayName>
-			</currency>
-			<currency type="XAG">
-				<displayName>XAG</displayName>
-			</currency>
-			<currency type="XAU">
-				<displayName>XAU</displayName>
-			</currency>
-			<currency type="XBA">
-				<displayName>XBA</displayName>
-			</currency>
-			<currency type="XBB">
-				<displayName>XBB</displayName>
-			</currency>
-			<currency type="XBC">
-				<displayName>XBC</displayName>
-			</currency>
-			<currency type="XBD">
-				<displayName>XBD</displayName>
-			</currency>
-			<currency type="XDR">
-				<displayName>XDR</displayName>
-			</currency>
-			<currency type="XEU">
-				<displayName>XEU</displayName>
-			</currency>
-			<currency type="XFO">
-				<displayName>XFO</displayName>
-			</currency>
-			<currency type="XFU">
-				<displayName>XFU</displayName>
-			</currency>
-			<currency type="XPD">
-				<displayName>XPD</displayName>
-			</currency>
-			<currency type="XPT">
-				<displayName>XPT</displayName>
-			</currency>
-			<currency type="XRE">
-				<displayName>XRE</displayName>
-			</currency>
-			<currency type="XTS">
-				<displayName>XTS</displayName>
-			</currency>
-			<currency type="XXX">
-				<displayName>XXX</displayName>
 			</currency>
 		</currencies>
 	</numbers>
@@ -991,7 +799,7 @@
 		</unit>
 		<unit type="year">
 			<unitPattern count="one">{0} urtea</unitPattern>
-			<unitPattern count="other">{0} y</unitPattern>
+			<unitPattern count="other">{0} urte</unitPattern>
 		</unit>
 	</units>
 	<posix>

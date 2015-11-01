@@ -2,10 +2,8 @@
 <!DOCTYPE ldmlBCP47 SYSTEM "../../common/dtd/ldmlBCP47.dtd">
 
 <ldmlBCP47>
-    <version number="$Revision: 4434 $"/>
-    <generation date="$Date: 2009-12-08 10:27:56 -0500 (Tue, 08 Dec 2009) $"/>
-    <cldrVersion version="1.7.2"/>
-
+    <version number="$Revision: 4761 $"/>
+    <generation date="$Date: 2010-02-26 18:11:12 -0600 (Fri, 26 Feb 2010) $"/>
     <keyword>
         <key name="cu" alias="currency">
             <type name="AFN"/>

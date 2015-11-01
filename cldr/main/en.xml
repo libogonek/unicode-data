@@ -2,10 +2,11 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4191 $"/>
-		<generation date="$Date: 2009-06-17 12:15:14 -0400 (Wed, 17 Jun 2009) $"/>
+		<version number="$Revision: 4763 $"/>
+		<generation date="$Date: 2010-02-27 01:03:37 -0600 (Sat, 27 Feb 2010) $"/>
 		<language type="en"/>
 	</identity>
+	<fallback/>
 	<localeDisplayNames>
 		<localeDisplayPattern>
 			<localePattern>{0} ({1})</localePattern>
@@ -40,6 +41,7 @@
 			<language type="art">Artificial Language</language>
 			<language type="arw">Arawak</language>
 			<language type="as">Assamese</language>
+			<language type="asa">Asu</language>
 			<language type="ast">Asturian</language>
 			<language type="ath">Athapascan Language</language>
 			<language type="aus">Australian Language</language>
@@ -59,6 +61,7 @@
 			<language type="bej">Beja</language>
 			<language type="bem">Bemba</language>
 			<language type="ber">Berber</language>
+			<language type="bez">Bena</language>
 			<language type="bg">Bulgarian</language>
 			<language type="bh">Bihari</language>
 			<language type="bho">Bhojpuri</language>
@@ -82,10 +85,12 @@
 			<language type="cai">Central American Indian Language</language>
 			<language type="car">Carib</language>
 			<language type="cau">Caucasian Language</language>
+			<language type="cay">Cayuga</language>
 			<language type="cch">Atsam</language>
 			<language type="ce">Chechen</language>
 			<language type="ceb">Cebuano</language>
 			<language type="cel">Celtic Language</language>
+			<language type="cgg">Chiga</language>
 			<language type="ch">Chamorro</language>
 			<language type="chb">Chibcha</language>
 			<language type="chg">Chagatai</language>
@@ -114,6 +119,7 @@
 			<language type="da">Danish</language>
 			<language type="dak">Dakota</language>
 			<language type="dar">Dargwa</language>
+			<language type="dav">Taita</language>
 			<language type="day">Dayak</language>
 			<language type="de">German</language>
 			<language type="de_AT">Austrian German</language>
@@ -122,6 +128,7 @@
 			<language type="den">Slave</language>
 			<language type="dgr">Dogrib</language>
 			<language type="din">Dinka</language>
+			<language type="dje">Zarma</language>
 			<language type="doi">Dogri</language>
 			<language type="dra">Dravidian Language</language>
 			<language type="dsb">Lower Sorbian</language>
@@ -130,6 +137,7 @@
 			<language type="dv">Divehi</language>
 			<language type="dyu">Dyula</language>
 			<language type="dz">Dzongkha</language>
+			<language type="ebu">Embu</language>
 			<language type="ee">Ewe</language>
 			<language type="efi">Efik</language>
 			<language type="egy">Ancient Egyptian</language>
@@ -187,6 +195,7 @@
 			<language type="grc">Ancient Greek</language>
 			<language type="gsw">Swiss German</language>
 			<language type="gu">Gujarati</language>
+			<language type="guz">Gusii</language>
 			<language type="gv">Manx</language>
 			<language type="gwi">Gwichʼin</language>
 			<language type="ha">Hausa</language>
@@ -226,6 +235,7 @@
 			<language type="iu">Inuktitut</language>
 			<language type="ja">Japanese</language>
 			<language type="jbo">Lojban</language>
+			<language type="jmc">Machame</language>
 			<language type="jpr">Judeo-Persian</language>
 			<language type="jrb">Judeo-Arabic</language>
 			<language type="jv">Javanese</language>
@@ -239,15 +249,19 @@
 			<language type="kaw">Kawi</language>
 			<language type="kbd">Kabardian</language>
 			<language type="kcg">Tyap</language>
+			<language type="kde">Makonde</language>
+			<language type="kea">Kabuverdianu</language>
 			<language type="kfo">Koro</language>
 			<language type="kg">Kongo</language>
 			<language type="kha">Khasi</language>
 			<language type="khi">Khoisan Language</language>
 			<language type="kho">Khotanese</language>
+			<language type="khq">Koyra Chiini</language>
 			<language type="ki">Kikuyu</language>
 			<language type="kj">Kuanyama</language>
 			<language type="kk">Kazakh</language>
 			<language type="kl">Kalaallisut</language>
+			<language type="kln">Kalenjin</language>
 			<language type="km">Khmer</language>
 			<language type="kmb">Kimbundu</language>
 			<language type="kn">Kannada</language>
@@ -261,6 +275,8 @@
 			<language type="kro">Kru</language>
 			<language type="kru">Kurukh</language>
 			<language type="ks">Kashmiri</language>
+			<language type="ksb">Shambala</language>
+			<language type="ksh">Colognian</language>
 			<language type="ku">Kurdish</language>
 			<language type="kum">Kumyk</language>
 			<language type="kut">Kutenai</language>
@@ -269,6 +285,7 @@
 			<language type="ky">Kirghiz</language>
 			<language type="la">Latin</language>
 			<language type="lad">Ladino</language>
+			<language type="lag">Langi</language>
 			<language type="lah">Lahnda</language>
 			<language type="lam">Lamba</language>
 			<language type="lb">Luxembourgish</language>
@@ -286,6 +303,7 @@
 			<language type="lun">Lunda</language>
 			<language type="luo">Luo</language>
 			<language type="lus">Lushai</language>
+			<language type="luy">Luyia</language>
 			<language type="lv">Latvian</language>
 			<language type="mad">Madurese</language>
 			<language type="mag">Magahi</language>
@@ -296,8 +314,9 @@
 			<language type="mas">Masai</language>
 			<language type="mdf">Moksha</language>
 			<language type="mdr">Mandar</language>
-            <language type="men">Mende</language>
-            <language type="mfe">Morisyen</language>
+			<language type="men">Mende</language>
+			<language type="mer">Meru</language>
+			<language type="mfe">Morisyen</language>
 			<language type="mg">Malagasy</language>
 			<language type="mga">Middle Irish</language>
 			<language type="mh">Marshallese</language>
@@ -330,6 +349,7 @@
 			<language type="nah">Nahuatl</language>
 			<language type="nai">North American Indian Language</language>
 			<language type="nap">Neapolitan</language>
+			<language type="naq">Nama</language>
 			<language type="nb">Norwegian Bokmål</language>
 			<language type="nd">North Ndebele</language>
 			<language type="nds">Low German</language>
@@ -388,21 +408,24 @@
 			<language type="raj">Rajasthani</language>
 			<language type="rap">Rapanui</language>
 			<language type="rar">Rarotongan</language>
-			<language type="rm">Rhaeto-Romance</language>
+			<language type="rm">Romansh</language>
 			<language type="rn">Rundi</language>
 			<language type="ro">Romanian</language>
 			<language type="roa">Romance Language</language>
+			<language type="rof">Rombo</language>
 			<language type="rom">Romany</language>
 			<language type="root">Root</language>
 			<language type="ru">Russian</language>
 			<language type="rup">Aromanian</language>
 			<language type="rw">Kinyarwanda</language>
+			<language type="rwk">Rwa</language>
 			<language type="sa">Sanskrit</language>
 			<language type="sad">Sandawe</language>
 			<language type="sah">Yakut</language>
 			<language type="sai">South American Indian Language</language>
 			<language type="sal">Salishan Language</language>
 			<language type="sam">Samaritan Aramaic</language>
+			<language type="saq">Samburu</language>
 			<language type="sas">Sasak</language>
 			<language type="sat">Santali</language>
 			<language type="sc">Sardinian</language>
@@ -410,12 +433,16 @@
 			<language type="sco">Scots</language>
 			<language type="sd">Sindhi</language>
 			<language type="se">Northern Sami</language>
+			<language type="see">Seneca</language>
+			<language type="seh">Sena</language>
 			<language type="sel">Selkup</language>
 			<language type="sem">Semitic Language</language>
+			<language type="ses">Koyraboro Senni</language>
 			<language type="sg">Sango</language>
 			<language type="sga">Old Irish</language>
 			<language type="sgn">Sign Language</language>
 			<language type="sh">Serbo-Croatian</language>
+			<language type="shi">Tachelhit</language>
 			<language type="shn">Shan</language>
 			<language type="si">Sinhala</language>
 			<language type="sid">Sidamo</language>
@@ -441,6 +468,7 @@
 			<language type="srr">Serer</language>
 			<language type="ss">Swati</language>
 			<language type="ssa">Nilo-Saharan Language</language>
+			<language type="ssy">Saho</language>
 			<language type="st">Southern Sotho</language>
 			<language type="su">Sundanese</language>
 			<language type="suk">Sukuma</language>
@@ -448,12 +476,14 @@
 			<language type="sux">Sumerian</language>
 			<language type="sv">Swedish</language>
 			<language type="sw">Swahili</language>
+			<language type="swb">Comorian</language>
 			<language type="syc">Classical Syriac</language>
 			<language type="syr">Syriac</language>
 			<language type="ta">Tamil</language>
 			<language type="tai">Tai Language</language>
 			<language type="te">Telugu</language>
 			<language type="tem">Timne</language>
+			<language type="teo">Teso</language>
 			<language type="ter">Tereno</language>
 			<language type="tet">Tetum</language>
 			<language type="tg">Tajik</language>
@@ -481,8 +511,10 @@
 			<language type="tut">Altaic Language</language>
 			<language type="tvl">Tuvalu</language>
 			<language type="tw">Twi</language>
+			<language type="twq">Tasawaq</language>
 			<language type="ty">Tahitian</language>
 			<language type="tyv">Tuvinian</language>
+			<language type="tzm">Central Morocco Tamazight</language>
 			<language type="udm">Udmurt</language>
 			<language type="ug">Uighur</language>
 			<language type="ug" alt="variant">Uyghur</language>
@@ -497,6 +529,7 @@
 			<language type="vi">Vietnamese</language>
 			<language type="vo">Volapük</language>
 			<language type="vot">Votic</language>
+			<language type="vun">Vunjo</language>
 			<language type="wa">Walloon</language>
 			<language type="wak">Wakashan Language</language>
 			<language type="wal">Walamo</language>
@@ -506,11 +539,13 @@
 			<language type="wo">Wolof</language>
 			<language type="xal">Kalmyk</language>
 			<language type="xh">Xhosa</language>
+			<language type="xog">Soga</language>
 			<language type="yao">Yao</language>
 			<language type="yap">Yapese</language>
 			<language type="yi">Yiddish</language>
 			<language type="yo">Yoruba</language>
 			<language type="ypk">Yupik Language</language>
+			<language type="yue">Cantonese</language>
 			<language type="za">Zhuang</language>
 			<language type="zap">Zapotec</language>
 			<language type="zbl">Blissymbols</language>
@@ -531,6 +566,7 @@
 			<script type="Armn">Armenian</script>
 			<script type="Avst">Avestan</script>
 			<script type="Bali">Balinese</script>
+			<script type="Bamu">Bamum</script>
 			<script type="Batk">Batak</script>
 			<script type="Beng">Bengali</script>
 			<script type="Blis">Blissymbols</script>
@@ -559,6 +595,7 @@
 			<script type="Geor">Georgian</script>
 			<script type="Glag">Glagolitic</script>
 			<script type="Goth">Gothic</script>
+			<script type="Gran">Grantha</script>
 			<script type="Grek">Greek</script>
 			<script type="Gujr">Gujarati</script>
 			<script type="Guru">Gurmukhi</script>
@@ -592,17 +629,20 @@
 			<script type="Limb">Limbu</script>
 			<script type="Lina">Linear A</script>
 			<script type="Linb">Linear B</script>
+			<script type="Lisu">Fraser</script>
 			<script type="Lyci">Lycian</script>
 			<script type="Lydi">Lydian</script>
 			<script type="Mand">Mandaean</script>
 			<script type="Mani">Manichaean</script>
 			<script type="Maya">Mayan hieroglyphs</script>
+			<script type="Merc">Meroitic Cursive</script>
 			<script type="Mero">Meroitic</script>
 			<script type="Mlym">Malayalam</script>
 			<script type="Mong">Mongolian</script>
 			<script type="Moon">Moon</script>
 			<script type="Mtei">Meitei Mayek</script>
 			<script type="Mymr">Myanmar</script>
+			<script type="Nkgb">Naxi Geba</script>
 			<script type="Nkoo">N’Ko</script>
 			<script type="Ogam">Ogham</script>
 			<script type="Olck">Ol Chiki</script>
@@ -623,6 +663,7 @@
 			<script type="Runr">Runic</script>
 			<script type="Samr">Samaritan</script>
 			<script type="Sara">Sarati</script>
+			<script type="Sarb">Old South Arabian</script>
 			<script type="Saur">Saurashtra</script>
 			<script type="Sgnw">SignWriting</script>
 			<script type="Shaw">Shavian</script>
@@ -648,6 +689,7 @@
 			<script type="Ugar">Ugaritic</script>
 			<script type="Vaii">Vai</script>
 			<script type="Visp">Visible Speech</script>
+			<script type="Wara">Varang Kshiti</script>
 			<script type="Xpeo">Old Persian</script>
 			<script type="Xsux">Sumero-Akkadian Cuneiform</script>
 			<script type="Yiii">Yi</script>
@@ -693,6 +735,7 @@
 			<territory type="200">Czechoslovakia</territory>
 			<territory type="419">Latin America and the Caribbean</territory>
 			<territory type="830">Channel Islands</territory>
+			<territory type="AC">Ascension Island</territory>
 			<territory type="AD">Andorra</territory>
 			<territory type="AE">United Arab Emirates</territory>
 			<territory type="AF">Afghanistan</territory>
@@ -746,6 +789,7 @@
 			<territory type="CM">Cameroon</territory>
 			<territory type="CN">China</territory>
 			<territory type="CO">Colombia</territory>
+			<territory type="CP">Clipperton Island</territory>
 			<territory type="CR">Costa Rica</territory>
 			<territory type="CS">Serbia and Montenegro</territory>
 			<territory type="CT">Canton and Enderbury Islands</territory>
@@ -756,11 +800,13 @@
 			<territory type="CZ">Czech Republic</territory>
 			<territory type="DD">East Germany</territory>
 			<territory type="DE">Germany</territory>
+			<territory type="DG">Diego Garcia</territory>
 			<territory type="DJ">Djibouti</territory>
 			<territory type="DK">Denmark</territory>
 			<territory type="DM">Dominica</territory>
 			<territory type="DO">Dominican Republic</territory>
 			<territory type="DZ">Algeria</territory>
+			<territory type="EA">Ceuta and Melilla</territory>
 			<territory type="EC">Ecuador</territory>
 			<territory type="EE">Estonia</territory>
 			<territory type="EG">Egypt</territory>
@@ -768,6 +814,7 @@
 			<territory type="ER">Eritrea</territory>
 			<territory type="ES">Spain</territory>
 			<territory type="ET">Ethiopia</territory>
+			<territory type="EU">European Union</territory>
 			<territory type="FI">Finland</territory>
 			<territory type="FJ">Fiji</territory>
 			<territory type="FK">Falkland Islands</territory>
@@ -803,6 +850,7 @@
 			<territory type="HR">Croatia</territory>
 			<territory type="HT">Haiti</territory>
 			<territory type="HU">Hungary</territory>
+			<territory type="IC">Canary Islands</territory>
 			<territory type="ID">Indonesia</territory>
 			<territory type="IE">Ireland</territory>
 			<territory type="IL">Israel</territory>
@@ -900,7 +948,6 @@
 			<territory type="PZ">Panama Canal Zone</territory>
 			<territory type="QA">Qatar</territory>
 			<territory type="QO">Outlying Oceania</territory>
-			<territory type="QU">European Union</territory>
 			<territory type="RE">Réunion</territory>
 			<territory type="RO">Romania</territory>
 			<territory type="RS">Serbia</territory>
@@ -926,6 +973,7 @@
 			<territory type="SV">El Salvador</territory>
 			<territory type="SY">Syria</territory>
 			<territory type="SZ">Swaziland</territory>
+			<territory type="TA">Tristan da Cunha</territory>
 			<territory type="TC">Turks and Caicos Islands</territory>
 			<territory type="TD">Chad</territory>
 			<territory type="TF">French Southern Territories</territory>
@@ -975,6 +1023,8 @@
 			<variant type="1606NICT">Late Middle French to 1606</variant>
 			<variant type="1694ACAD">Early Modern French</variant>
 			<variant type="1959ACAD">Academic</variant>
+			<variant type="ALALC97">ALA-LC Romanization, 1997 edition</variant>
+			<variant type="ALUKU">Aluku dialect</variant>
 			<variant type="AREVELA">Eastern Armenian</variant>
 			<variant type="AREVMDA">Western Armenian</variant>
 			<variant type="BAKU1926">Unified Turkic Latin Alphabet</variant>
@@ -982,12 +1032,16 @@
 			<variant type="BOONT">Boontling</variant>
 			<variant type="FONIPA">IPA Phonetics</variant>
 			<variant type="FONUPA">UPA Phonetics</variant>
+			<variant type="HEPBURN">Hepburn romanization</variant>
+			<variant type="HEPLOC">Hepburn romanization, Library of Congress method</variant>
 			<variant type="KKCOR">Common Orthography</variant>
 			<variant type="LIPAW">The Lipovaz dialect of Resian</variant>
 			<variant type="MONOTON">Monotonic</variant>
+			<variant type="NDYUKA">Ndyuka dialect</variant>
 			<variant type="NEDIS">Natisone dialect</variant>
 			<variant type="NJIVA">Gniva/Njiva dialect</variant>
 			<variant type="OSOJS">Oseacco/Osojane dialect</variant>
+			<variant type="PAMAKA">Pamaka dialect</variant>
 			<variant type="PINYIN">Pinyin Romanization</variant>
 			<variant type="POLYTON">Polytonic</variant>
 			<variant type="POSIX">Computer</variant>
@@ -1070,9 +1124,10 @@
 		</codePatterns>
 	</localeDisplayNames>
 	<characters>
-		<exemplarCharacters>[a-z]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary">[á à ă â å ä ã ā æ ç é è ĕ ê ë ē í ì ĭ î ï ī ñ ó ò ŏ ô ö ø ō œ ß ú ù ŭ û ü ū ÿ]</exemplarCharacters>
-		<exemplarCharacters type="currencySymbol">[a-c č d-l ł m-z]</exemplarCharacters>
+		<exemplarCharacters>[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[á à ă â å ä ã ā æ ç é è ĕ ê ë ē í ì ĭ î ï ī ñ ó ò ŏ ô ö ø ō œ ú ù ŭ û ü ū ÿ]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol">[a b c č d e f g h i j k l ł m n o º p q r s t u v w x y z]</exemplarCharacters>
+		<exemplarCharacters type="index">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
 	</characters>
 	<delimiters>
 		<quotationStart>“</quotationStart>
@@ -1188,10 +1243,17 @@
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
-				<am>AM</am>
-				<am alt="variant">a.m.</am>
-				<pm>PM</pm>
-				<pm alt="variant">p.m.</pm>
+				<dayPeriods>
+					<dayPeriodContext type="format">
+						<dayPeriodWidth type="wide">
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="am" alt="variant">a.m.</dayPeriod>
+							<dayPeriod type="noon">noon</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
+							<dayPeriod type="pm" alt="variant">p.m.</dayPeriod>
+						</dayPeriodWidth>
+					</dayPeriodContext>
+				</dayPeriods>
 				<eras>
 					<eraNames>
 						<era type="0">Before Christ</era>
@@ -1275,24 +1337,22 @@
 						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="EEEd">d EEE</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
-						<dateFormatItem id="Hm">H:mm</dateFormatItem>
-						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
+						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="Md">M/d</dateFormatItem>
 						<dateFormatItem id="MEd">E, M/d</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="MMMEd">E, MMM d</dateFormatItem>
-						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
-						<dateFormatItem id="MMMMEd">E, MMMM d</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
-						<dateFormatItem id="yM">M/yyyy</dateFormatItem>
-						<dateFormatItem id="yMEd">EEE, M/d/yyyy</dateFormatItem>
+						<dateFormatItem id="yM">M/y</dateFormatItem>
+						<dateFormatItem id="yMEd">EEE, M/d/y</dateFormatItem>
 						<dateFormatItem id="yMMM">MMM y</dateFormatItem>
 						<dateFormatItem id="yMMMEd">EEE, MMM d, y</dateFormatItem>
-						<dateFormatItem id="yMMMM">MMMM y</dateFormatItem>
-						<dateFormatItem id="yQ">Q yyyy</dateFormatItem>
+						<dateFormatItem id="yQ">Q y</dateFormatItem>
 						<dateFormatItem id="yQQQ">QQQ y</dateFormatItem>
 					</availableFormats>
 					<intervalFormats>
@@ -1530,6 +1590,8 @@
 				</long>
 				<short>
 					<generic>CT</generic>
+					<standard>CST</standard>
+					<daylight>CDT</daylight>
 				</short>
 				<commonlyUsed>true</commonlyUsed>
 			</metazone>
@@ -1541,6 +1603,8 @@
 				</long>
 				<short>
 					<generic>ET</generic>
+					<standard>EST</standard>
+					<daylight>EDT</daylight>
 				</short>
 				<commonlyUsed>true</commonlyUsed>
 			</metazone>
@@ -1552,6 +1616,8 @@
 				</long>
 				<short>
 					<generic>MT</generic>
+					<standard>MST</standard>
+					<daylight>MDT</daylight>
 				</short>
 				<commonlyUsed>true</commonlyUsed>
 			</metazone>
@@ -1563,6 +1629,8 @@
 				</long>
 				<short>
 					<generic>PT</generic>
+					<standard>PST</standard>
+					<daylight>PDT</daylight>
 				</short>
 				<commonlyUsed>true</commonlyUsed>
 			</metazone>
@@ -1631,6 +1699,8 @@
 				</long>
 				<short>
 					<generic>AT</generic>
+					<standard>AST</standard>
+					<daylight>ADT</daylight>
 				</short>
 				<commonlyUsed>true</commonlyUsed>
 			</metazone>
@@ -1865,18 +1935,30 @@
 					<standard>Central European Time</standard>
 					<daylight>Central European Summer Time</daylight>
 				</long>
+				<short>
+					<standard>CET</standard>
+					<daylight>CEST</daylight>
+				</short>
 			</metazone>
 			<metazone type="Europe_Eastern">
 				<long>
 					<standard>Eastern European Time</standard>
 					<daylight>Eastern European Summer Time</daylight>
 				</long>
+				<short>
+					<standard>EET</standard>
+					<daylight>EEST</daylight>
+				</short>
 			</metazone>
 			<metazone type="Europe_Western">
 				<long>
 					<standard>Western European Time</standard>
 					<daylight>Western European Summer Time</daylight>
 				</long>
+				<short>
+					<standard>WET</standard>
+					<daylight>WEST</daylight>
+				</short>
 			</metazone>
 			<metazone type="Falkland">
 				<long>
@@ -1931,6 +2013,9 @@
 				<long>
 					<standard>Greenwich Mean Time</standard>
 				</long>
+				<short>
+					<standard>GMT</standard>
+				</short>
 				<commonlyUsed>true</commonlyUsed>
 			</metazone>
 			<metazone type="Greenland_Central">
@@ -2651,6 +2736,11 @@
 				<displayName count="one">Afghan Afghani</displayName>
 				<displayName count="other">Afghan Afghanis</displayName>
 			</currency>
+			<currency type="ALK">
+				<displayName>Old Albanian Lek</displayName>
+				<displayName count="one">Old Albanian lek</displayName>
+				<displayName count="other">Old Albanian lekë</displayName>
+			</currency>
 			<currency type="ALL">
 				<displayName>Albanian Lek</displayName>
 				<displayName count="one">Albanian lek</displayName>
@@ -2946,6 +3036,11 @@
 				<displayName count="one">Chilean peso</displayName>
 				<displayName count="other">Chilean pesos</displayName>
 			</currency>
+			<currency type="CNX">
+				<displayName>Chinese People's Bank Dollar</displayName>
+				<displayName count="one">Chinese People's Bank dollar</displayName>
+				<displayName count="other">Chinese People's Bank dollars</displayName>
+			</currency>
 			<currency type="CNY">
 				<displayName>Chinese Yuan Renminbi</displayName>
 				<displayName count="one">Chinese yuan</displayName>
@@ -3104,7 +3199,7 @@
 			<currency type="GBP">
 				<displayName>British Pound Sterling</displayName>
 				<displayName count="one">British pound sterling</displayName>
-				<displayName count="other">British pound sterlings</displayName>
+				<displayName count="other">British pounds sterling</displayName>
 			</currency>
 			<currency type="GEK">
 				<displayName>Georgian Kupon Larit</displayName>
@@ -4127,6 +4222,12 @@
 			<unitPattern count="other" alt="short">{0} yrs</unitPattern>
 		</unit>
 	</units>
+	<listPatterns>
+		<listPattern>
+			<listPatternPart type="2">{0} and {1}</listPatternPart>
+			<listPatternPart type="end">{0}, and {1}</listPatternPart>
+		</listPattern>
+	</listPatterns>
 	<posix>
 		<messages>
 			<yesstr>yes:y</yesstr>

@@ -2,17 +2,15 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 
 <supplementalData>
-    <version number="$Revision: 4452 $"/>
-    <generation date="$Date: 2009-12-10 18:54:58 -0500 (Thu, 10 Dec 2009) $"/>
+    <version number="$Revision: 4800 $"/>
+    <generation date="$Date: 2010-03-08 23:06:52 -0600 (Mon, 08 Mar 2010) $"/>
     <metadata>
         <attributeOrder>
-
-			_q aliases alpha3 alternate attribute attributeValue attributes backwards before caseFirst caseLevel casing characters choice code contains count date day digits direction element elements end exclude fips10 from gdp hex hiraganaQuarternary hiraganaQuaternary id internet iso3166 iso4217 key lines list literacyPercent locales multizone mzone normalization number numeric officialStatus order other path population populationPercent registry replacement request rounding scripts services source start strength target territories territory time to type tzidVersion uri used value values variableTop variant variants version visibility writingPercent
-			</attributeOrder>
+			_q access after aliases allowsParsing alpha3 alternate at attribute attributeValue attributes backwards bcp47 before caseFirst caseLevel casing characters choice code contains count date day decexp desired digits direction element elements end exclude fips10 from gdp hex hiraganaQuarternary hiraganaQuaternary id indexSource internet iso3166 iso4217 key lines list literacyPercent locales multizone mzone normalization number numberSystem numbers numeric officialStatus oneway order ordering other path percent population populationPercent priority radix registry replacement request rounding rules scripts services source start strength supported target tender territories territory territoryId time to type tzidVersion uri used value values variableTop variant variants version visibility writingPercent yeartype
+		</attributeOrder>
         <elementOrder>
-
-			ldml alternate attributeOrder attributes blockingItems calendarSystem character character-fallback codePattern codesByTerritory comment context cp deprecatedItems distinguishingItems elementOrder first_variable fractions identity info languageAlias languageCodes languageCoverage languagePopulation last_variable first_tertiary_ignorable last_tertiary_ignorable first_secondary_ignorable last_secondary_ignorable first_primary_ignorable last_primary_ignorable first_non_ignorable last_non_ignorable first_trailing last_trailing likelySubtag mapTimezones mapZone numberingSystem pluralRule pluralRules reference region scriptAlias scriptCoverage serialElements substitute suppress tRule telephoneCountryCode territoryAlias territoryCodes territoryCoverage currencyCoverage timezone timezoneCoverage transform usesMetazone validity alias appendItem base beforeCurrency afterCurrency currencyMatch dateFormatItem day defaultNumberingSystem deprecated distinguishing blocking coverageAdditions era eraNames eraAbbr eraNarrow exemplarCharacters fallback field generic greatestDifference height hourFormat hoursFormat gmtFormat gmtZeroFormat intervalFormatFallback intervalFormatItem key localeDisplayNames layout localeDisplayPattern languages localePattern localeSeparator localizedPatternChars dateRangePattern calendars long mapping measurementSystem measurementSystemName messages minDays firstDay month months monthNames monthAbbr days dayNames dayAbbr orientation inList inText paperSize pattern displayName quarter quarters quotationStart quotationEnd alternateQuotationStart alternateQuotationEnd rbnfrule regionFormat fallbackFormat abbreviationFallback preferenceOrdering relative reset p pc rule ruleset rulesetGrouping s sc scripts segmentation settings short commonlyUsed exemplarCity singleCountries default calendar calendarPreference collation currency currencyFormat currencySpacing currencyFormatLength dateFormat dateFormatLength dateTimeFormat dateTimeFormatLength availableFormats appendItems dayContext dayWidth decimalFormat decimalFormatLength intervalFormats monthContext monthWidth percentFormat percentFormatLength quarterContext quarterWidth scientificFormat scientificFormatLength skipDefaultLocale defaultContent standard daylight suppress_contractions optimize rules surroundingMatch insertBetween symbol decimal group list percentSign nativeZeroDigit patternDigit plusSign minusSign exponential perMille infinity nan currencyDecimal currencyGroup symbols decimalFormats scientificFormats percentFormats currencyFormats currencies t tc q qc i ic extend territories timeFormat timeFormatLength timeZoneNames type unit unitPattern variable attributeValues variables segmentRules variantAlias variants keys types measurementSystemNames codePatterns version generation cldrVersion currencyData language script territory territoryContainment languageData territoryInfo calendarData variant week am pm eras dateFormats timeFormats dateTimeFormats fields weekData measurementData timezoneData characters delimiters measurement dates numbers transforms metadata codeMappings likelySubtags metazoneInfo plurals telephoneCodeData numberingSystems units collations posix segmentations rbnf references weekendStart weekendEnd width x yesstr nostr yesexpr noexpr zone metazone special zoneAlias zoneFormatting zoneItem supplementalData
-			</elementOrder>
+			ldml alternate attributeOrder attributes blockingItems calendarPreference calendarSystem character character-fallback codePattern codesByTerritory comment context cp dayPeriod dayPeriodRule dayPeriodRules dayPeriodWidth deprecatedItems distinguishingItems elementOrder first_variable fractions identity indexSeparator compressedIndexSeparator indexRangePattern indexLabelBefore indexLabelAfter indexLabel info keyMap languageAlias languageCodes languageCoverage languageMatch languageMatches languagePopulation last_variable first_tertiary_ignorable last_tertiary_ignorable first_secondary_ignorable last_secondary_ignorable first_primary_ignorable last_primary_ignorable first_non_ignorable last_non_ignorable first_trailing last_trailing likelySubtag mapKeys mapTimezones mapTypes mapZone numberingSystem pluralRule pluralRules postCodeRegex reference region scriptAlias scriptCoverage serialElements substitute suppress tRule telephoneCountryCode territoryAlias territoryCodes territoryCoverage currencyCoverage timezone timezoneCoverage transform typeMap usesMetazone validity alias appendItem base beforeCurrency afterCurrency currencyMatch dateFormatItem day dayPeriodContext defaultNumberingSystem deprecated distinguishing blocking coverageAdditions era eraNames eraAbbr eraNarrow exemplarCharacters fallback field generic greatestDifference height hourFormat hoursFormat gmtFormat gmtZeroFormat indexLabels intervalFormatFallback intervalFormatItem key listPattern listPatternPart localeDisplayNames layout localeDisplayPattern languages localePattern localeSeparator localizedPatternChars dateRangePattern calendars long mapping measurementSystem measurementSystemName messages minDays firstDay month months monthNames monthAbbr days dayNames dayAbbr orientation inList inText paperSize pattern displayName quarter quarters quotationStart quotationEnd alternateQuotationStart alternateQuotationEnd rbnfrule regionFormat fallbackFormat abbreviationFallback preferenceOrdering relative reset p pc rule ruleset rulesetGrouping s sc scripts segmentation settings short commonlyUsed exemplarCity singleCountries default calendar collation currency currencyFormat currencySpacing currencyFormatLength dateFormat dateFormatLength dateTimeFormat dateTimeFormatLength availableFormats appendItems dayContext dayWidth decimalFormat decimalFormatLength intervalFormats monthContext monthWidth percentFormat percentFormatLength quarterContext quarterWidth scientificFormat scientificFormatLength skipDefaultLocale defaultContent standard daylight suppress_contractions optimize rules surroundingMatch insertBetween symbol decimal group list percentSign nativeZeroDigit patternDigit plusSign minusSign exponential perMille infinity nan currencyDecimal currencyGroup symbols decimalFormats scientificFormats percentFormats currencyFormats currencies t tc q qc i ic extend territories timeFormat timeFormatLength timeZoneNames type unit unitPattern variable attributeValues variables segmentRules variantAlias variants keys types measurementSystemNames codePatterns version generation cldrVersion currencyData language script territory territoryContainment languageData territoryInfo postalCodeData calendarData calendarPreferenceData variant week am pm dayPeriods eras dateFormats timeFormats dateTimeFormats fields weekData measurementData timezoneData characters delimiters measurement dates numbers transforms metadata codeMappings likelySubtags metazoneInfo plurals telephoneCodeData numberingSystems bcp47KeywordMappings units listPatterns collations posix segmentations rbnf references languageMatching dayPeriodRuleSet weekendStart weekendEnd width x yesstr nostr yesexpr noexpr zone metazone special zoneAlias zoneFormatting zoneItem supplementalData
+		</elementOrder>
         <serialElements>
 
             attributeValues base comment extend first_non_ignorable first_primary_ignorable first_secondary_ignorable first_tertiary_ignorable first_trailing first_variable i ic languagePopulation last_non_ignorable last_primary_ignorable last_secondary_ignorable last_tertiary_ignorable last_trailing last_variable optimize p pc q qc reset rules s sc settings suppress_contractions t tRule tc variable x
@@ -45,31 +43,32 @@
                 i-ami i-bnn i-default i-enochian i-hak i-klingon i-lux i-mingo i-navajo i-pwn
                 i-tao i-tay i-tsu
                 no-bok no-nyn
-                sgn-BE-fr sgn-BE-nl sgn-CH-de
-                zh-cmn zh-cmn-Hans zh-cmn-Hant zh-gan zh-guoyu zh-hakka zh-min zh-min-nan
-                zh-wuu zh-xiang zh-yue
+                sgn-BE-FR sgn-BE-NL sgn-CH-DE
+                zh-guoyu zh-hakka zh-min zh-min-nan zh-xiang
             </variable>
+            <!-- for CLDR 1.8 only - will add new language codes for Africa by hand, until we figure out how to -->
+            <!-- deal with all the new language codes introduced by the latest bcp 47 --> 
             <variable id="$language" type="choice">
                 aa ab ace ach ada ady ae af afa afh ain ak akk ale alg alt am an ang anp apa ar
-                arc arn arp art arw as ast ath aus av awa ay az
-                ba bad bai bal ban bas bat be bej bem ber bg bh bho bi bik bin bla bm bn bnt bo
-                br bra bs btk bua bug byn
-                ca cad cai car cau cch ce ceb cel ch chb chg chk chm chn cho chp chr chy cmc co
+                arc arn arp art arw as asa ast ath aus av awa ay az
+                ba bad bai bal ban bas bat be bej bem bez ber bg bh bho bi bik bin bla bm bn
+                bnt bo br bra bs btk bua bug byn
+                ca cad cai car cau cay cch ce ceb cel cgg ch chb chg chk chm chn cho chp chr chy cmc co
                 cop cpe cpf cpp cr crh crp cs csb cu cus cv cy
-                da dak dar day de del den dgr din doi dra dsb dua dum dv dyu dz
-                ee efi egy eka el elx en enm eo es et eu ewo
+                da dak dar dav day de del den dgr din dje doi dra dsb dua dum dv dyu dz
+                ebu ee efi egy eka el elx en enm eo es et eu ewo
                 fa fan fat ff fi fil fiu fj fo fon fr frm fro frr frs fur fy
-                ga gaa gay gba gd gem gez gil gl gmh gn goh gon gor got grb grc gsw gu gv gwi
+                ga gaa gay gba gd gem gez gil gl gmh gn goh gon gor got grb grc gsw gu guz gv gwi
                 ha hai haw he hi hil him hit hmn ho hr hsb ht hu hup hy hz
                 ia iba id ie ig ii ijo ik ilo in inc ine inh io ira iro is it iu iw
-                ja jbo ji jpr jrb jv jw
-                ka kaa kab kac kaj kam kar kaw kbd kcg kfo kg kha khi kho ki kj kk kl km kmb kn
-                ko kok kos kpe kr krc krl kro kru ks ku kum kut kv kw ky
-                la lad lah lam lb lez lg li ln lo lol loz lt lu lua lui lun luo lus lv
-                mad mag mai mak man map mas mdf mdr men mfe mg mga mh mi mic min mis mk mkh ml
-                mn mnc mni mno mo moh mos mr ms mt mul mun mus mwl mwr my myn myv
-                na nah nai nap nb nd nds ne new ng nia nic niu nl nn no nog non nqo nr nso nub
-                nv nwc ny nym nyn nyo nzi
+                ja jbo ji jmc jpr jrb jv jw
+                ka kaa kab kac kaj kam kar kaw kbd kcg kde kea kfo kg kha khi kho khq ki kj kk
+                kl kln km kmb kn ko kok kos kpe kr krc krl kro kru ks ksb ksh ku kum kut kv kw ky
+                la lad lag lah lam lb lez lg li ln lo lol loz lt lu lua lui lun luo lus luy lv
+                mad mag mai mak man map mas mdf mdr men mer mfe mg mga mh mi mic min mis mk
+                mkh ml mn mnc mni mno mo moh mos mr ms mt mul mun mus mwl mwr my myn myv
+                na nah nai nap naq nb nd nds ne new ng nia nic niu nl nn no nog non nqo nr nso
+                nub nv nwc ny nym nyn nyo nzi
                 oc oj om or os osa ota oto
                 pa paa pag pal pam pap pau peo phi phn pi pl pon pra pro ps pt
                 qaa qab qac qad qae qaf qag qah qai qaj qak qal qam qan qao qap qaq qar qas qat
@@ -99,33 +98,33 @@
                 qsm qsn qso qsp qsq qsr qss qst qsu qsv qsw qsx qsy qsz qta qtb qtc qtd qte qtf
                 qtg qth qti qtj qtk qtl qtm qtn qto qtp qtq qtr qts qtt qtu qtv qtw qtx qty qtz
                 qu
-                raj rap rar rm rn ro roa rom root ru rup rw
-                sa sad sah sai sal sam sas sat sc scn sco sd se sel sem sg sga sgn sh shn si
-                sid sio sit sk sl sla sm sma smi smj smn sms sn snk so sog son sq sr srn srr ss
-                ssa ssy st su suk sus sux sv sw syc syr
-                ta tai te tem ter tet tg th ti tig tiv tk tkl tl tlh tli tmh tn to tog tpi tr trv
-                ts tsi tt tum tup tut tvl tw ty tyv
+                raj rap rar rm rn ro roa rof rom root ru rup rw rwk
+                sa sad sah sai sal sam saq sas sat sc scn sco sd se see seh sel sem ses sg sga sgn
+                sh shi shn si sid sio sit sk sl sla sm sma smi smj smn sms sn snk so sog son sq
+                sr srn srr ss ssa ssy st su suk sus sux sv sw swb syc syr
+                ta tai te tem teo ter tet tg th ti tig tiv tk tkl tl tlh tli tmh tn to tog tpi
+                tr trv ts tsi tt tum tup tut tvl tw twq ty tyv tzm
                 udm ug uga uk umb und ur uz
-                vai ve vi vo vot
+                vai ve vi vo vot vun
                 wa wak wal war was wen wo
-                xal xh
-                yao yap yi yo ypk
-                za zap zbl zen zh znd zu zun zxx zza swb yue
+                xal xh xog
+                yao yap yi yo yue ypk
+                za zap zbl zen zh znd zu zun zxx zza
             </variable>
             <variable id="$territory" type="choice">
                 001 002 003 005 009 011 013 014 015 017 018 019 021 029 030 034 035 039 053 054
                 057 061 062
                 142 143 145 150 151 154 155 172
                 419
-                AA AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ
+                AA AC AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ
                 BA BB BD BE BF BG BH BI BJ BL BM BN BO BR BS BT BU BV BW BY BZ
-                CA CC CD CF CG CH CI CK CL CM CN CO CR CS CU CV CX CY CZ
-                DD DE DJ DK DM DO DZ
-                EC EE EG EH ER ES ET
+                CA CC CD CF CG CH CI CK CL CM CN CO CP CR CS CU CV CX CY CZ
+                DD DE DG DJ DK DM DO DZ
+                EA EC EE EG EH ER ES ET EU
                 FI FJ FK FM FO FR FX
                 GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY
                 HK HM HN HR HT HU
-                ID IE IL IM IN IO IQ IR IS IT
+                IC ID IE IL IM IN IO IQ IR IS IT
                 JE JM JO JP
                 KE KG KH KI KM KN KP KR KW KY KZ
                 LA LB LC LI LK LR LS LT LU LV LY
@@ -133,31 +132,31 @@
                 NA NC NE NF NG NI NL NO NP NR NT NU NZ
                 OM
                 PA PE PF PG PH PK PL PM PN PR PS PT PW PY
-                QA QM QN QO QP QQ QR QS QT QU QV QW QX QY QZ
+				QA QM QN QO QP QQ QR QS QT QV QW QX QY QZ
                 RE RO RS RU RW
                 SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR ST SU SV SY SZ
-                TC TD TF TG TH TJ TK TL TM TN TO TP TR TT TV TW TZ
+                TA TC TD TF TG TH TJ TK TL TM TN TO TP TR TT TV TW TZ
                 UA UG UM US UY UZ
                 VA VC VE VG VI VN VU
                 WF WS
                 XA XB XC XD XE XF XG XH XI XJ XK XL XM XN XO XP XQ XR XS XT XU XV XW XX XY XZ
                 YD YE YT YU
-                ZA ZM ZR ZW ZZ AC CP EA EU IC TA DG
+                ZA ZM ZR ZW ZZ
             </variable>
             <variable id="$script" type="choice">
                 Arab Armi Armn Avst
-                Bali Batk Beng Blis Bopo Brah Brai Bugi Buhd
+                Bali Bamu Batk Beng Blis Bopo Brah Brai Bugi Buhd
                 Cakm Cans Cari Cham Cher Cirt Copt Cprt Cyrl Cyrs
                 Deva Dsrt
                 Egyd Egyh Egyp Ethi
-                Geok Geor Glag Goth Grek Gujr Guru
+                Geok Geor Glag Goth Gran Grek Gujr Guru
                 Hang Hani Hano Hans Hant Hebr Hira Hmng Hrkt Hung
                 Inds Ital
                 Java Jpan
                 Kali Kana Khar Khmr Knda Kore Kthi
-                Lana Laoo Latf Latg Latn Lepc Limb Lina Linb Lyci Lydi
-                Mand Mani Maya Mero Mlym Mong Moon Mtei Mymr
-                Nkoo
+                Lana Laoo Latf Latg Latn Lepc Limb Lina Linb Lisu Lyci Lydi
+                Mand Mani Maya Merc Mero Mlym Mong Moon Mtei Mymr
+                Nkgb Nkoo
                 Ogam Olck Orkh Orya Osma
                 Perm Phag Phli Phlp Phlv Phnx Plrd Prti
                 Qaaa Qaab Qaac Qaad Qaae Qaaf Qaag Qaah Qaai Qaaj Qaak Qaal Qaam Qaan Qaao Qaap
@@ -165,25 +164,27 @@
                 Qabg Qabh Qabi Qabj Qabk Qabl Qabm Qabn Qabo Qabp Qabq Qabr Qabs Qabt Qabu Qabv
                 Qabw Qabx
                 Rjng Roro Runr
-                Samr Sara Saur Sgnw Shaw Sinh Sund Sylo Syrc Syre Syrj Syrn
+                Samr Sara Sarb Saur Sgnw Shaw Sinh Sund Sylo Syrc Syre Syrj Syrn
                 Tagb Tale Talu Taml Tavt Telu Teng Tfng Tglg Thaa Thai Tibt
                 Ugar
                 Vaii Visp
+                Wara
                 Xpeo Xsux
                 Yiii
-                Zmth Zsym Zxxx Zyyy Zzzz
+                Zinh Zmth Zsym Zxxx Zyyy Zzzz
             </variable>
             <variable id="$variant" type="choice">
                 1606NICT 1694ACAD 1901 1959ACAD 1994 1996
-                AREVELA AREVMDA
+                ALALC97 ALUKU AREVELA AREVMDA
                 BAKU1926 BISKE BOONT
                 FONIPA FONUPA
+                HEPBURN HEPLOC HOGNORSK
                 KKCOR
                 LIPAW
                 MONOTON
-                NEDIS NJIVA
+                NDYUKA NEDIS NJIVA
                 OSOJS
-                PINYIN POLYTON POLYTONI POSIX
+                PAMAKA PINYIN POLYTON POLYTONI POSIX
                 REVISED ROZAJ
                 SAAHO SCOTLAND SCOUSE SOLBA
                 TARASK
@@ -191,38 +192,37 @@
                 VALENCIA
                 WADEGILE
             </variable>
-            <!-- currency version 2009-04-06 -->
-            <variable id="$currency" type="choice">
-                ADP AED AFA AFN ALK ALL AMD ANG AOA AOK AON AOR ARA ARL ARM ARP ARS ATS AUD AWG AZM AZN
-                BAD BAM BAN BBD BDT BEC BEF BEL BGL BGM BGN BGO BHD BIF BMD BND BOL BOB BOP BOV BRB BRC
-                BRE BRL BRN BRR BRZ BSD BTN BUK BWP BYB BYR BZD
-                CAD CDF CHE CHF CHW CLE CLF CLP CNX CNY COP COU CRC CSD CSK CUC CUP CVE CYP CZK
-                DDM DEM DJF DKK DOP DZD
-                ECS ECV EEK EGP ERN ESA ESB ESP ETB EUR
-                FIM FJD FKP FRF
-                GBP GEK GEL GHC GHS GIP GMD GNF GNS GQE GRD GTQ GWE GWP GYD
-                HKD HNL HRD HRK HTG HUF
-                IDR IEP ILP ILR ILS INR IQD IRR ISJ ISK ITL
-                JMD JOD JPY
-                KES KGS KHR KMF KPW KRH KRO KRW KWD KYD KZT
-                LAK LBP LKR LRD LSL LTL LTT LUC LUF LUL LVL LVR LYD
-                MAD MAF MCF MDC MDL MGA MGF MKD MKN MLF MMK MNT MOP MRO MTL MTP MUR MVP MVR MWK MXN MXP MXV
-                MYR MZE MZM MZN
-                NAD NGN NIC NIO NLG NOK NPR NZD
-                OMR
-                PAB PEI PEN PES PGK PHP PKR PLN PLZ PTE PYG
-                QAR
-                RHD ROL RON RSD RUB RUR RWF
-                SAR SBD SCR SDD SDG SDP SEK SGD SHP SIT SKK SLL SOS SRD SRG STD SUR SVC SYP SZL
-                THB TJR TJS TMM TMT TND TOP TPE TRL TRY TTD TWD TZS
-                UAH UAK UGS UGX USD USN USS UYI UYP UYU UZS
-                VEB VEF VND VNN VUV
-                WST
-                XAF XAG XAU XBA XBB XBC XBD XCD XDR XEU XFO XFU XOF XPD XPF XPT XRE XTS XXX
-                YDD YER YUD YUM YUN YUR
-                ZAL ZAR ZMK ZRN ZRZ ZWD ZWL ZWR
-            </variable>
-
+			<variable id="$currency" type="choice">
+				ADP AED AFA AFN ALK ALL AMD ANG AOA AOK AON AOR ARA ARL ARM ARP ARS ATS AUD AWG
+				AZM AZN
+				BAD BAM BAN BBD BDT BEC BEF BEL BGL BGM BGN BGO BHD BIF BMD BND BOB BOL BOP BOV
+				BRB BRC BRE BRL BRN BRR BRZ BSD BTN BUK BWP BYB BYR BZD
+				CAD CDF CHE CHF CHW CLE CLF CLP CNX CNY COP COU CRC CSD CSK CUC CUP CVE CYP CZK
+				DDM DEM DJF DKK DOP DZD
+				ECS ECV EEK EGP ERN ESA ESB ESP ETB EUR
+				FIM FJD FKP FRF
+				GBP GEK GEL GHC GHS GIP GMD GNF GNS GQE GRD GTQ GWE GWP GYD
+				HKD HNL HRD HRK HTG HUF
+				IDR IEP ILP ILR ILS INR IQD IRR ISJ ISK ITL
+				JMD JOD JPY
+				KES KGS KHR KMF KPW KRH KRO KRW KWD KYD KZT
+				LAK LBP LKR LRD LSL LTL LTT LUC LUF LUL LVL LVR LYD
+				MAD MAF MCF MDC MDL MGA MGF MKD MKN MLF MMK MNT MOP MRO MTL MTP MUR MVP MVR MWK MXN
+				MXP MXV MYR MZE MZM MZN
+				NAD NGN NIC NIO NLG NOK NPR NZD
+				OMR
+				PAB PEI PEN PES PGK PHP PKR PLN PLZ PTE PYG
+				QAR
+				RHD ROL RON RSD RUB RUR RWF
+				SAR SBD SCR SDD SDG SDP SEK SGD SHP SIT SKK SLL SOS SRD SRG STD SUR SVC SYP SZL
+				THB TJR TJS TMM TMT TND TOP TPE TRL TRY TTD TWD TZS
+				UAH UAK UGS UGX USD USN USS UYI UYP UYU UZS
+				VEB VEF VND VNN VUV
+				WST
+				XAF XAG XAU XBA XBB XBC XBD XCD XDR XEU XFO XFU XOF XPD XPF XPT XRE XTS XXX
+				YDD YER YUD YUM YUN YUR
+				ZAL ZAR ZMK ZRN ZRZ ZWD ZWL ZWR
+			</variable>
 			<!-- end of data generated by CountItems -->
 			<!-- start of data generated with CountItems from language tag registry + CLDR-specific items as per http://unicode.org/cldr/data/tools/java/org/unicode/cldr/tool/package.html -->
 			<variable id="$tzid" type="choice">
@@ -534,53 +534,57 @@
             <languageAlias type="mo" replacement="ro"/> <!-- Moldovan -->
             <!-- legacy use -->
             <languageAlias type="sh" replacement="sr_Latn"/> <!-- Serbo-Croatian -->
+            <languageAlias type="no" replacement="nb"/> <!-- Norwegian -->
+            <languageAlias type="tl" replacement="fil"/> <!-- Tagalog -->
             <!-- macrolanguages -->
 			<languageAlias type="aju" replacement="jrb"/> <!-- Moroccan Judeo-Arabic ⇒ Judeo-Arabic -->
-			<languageAlias type="als" replacement="sqi"/> <!-- Albanian, Tosk ⇒ Albanian -->
+			<languageAlias type="als" replacement="sq"/> <!-- Albanian, Tosk ⇒ Albanian -->
 			<languageAlias type="arb" replacement="ar"/> <!-- Standard Arabic ⇒ Arabic -->
-			<languageAlias type="ayr" replacement="aym"/> <!-- Aymara, Central ⇒ Aymara -->
-			<languageAlias type="azj" replacement="aze"/> <!-- Azerbaijani, North ⇒ Azerbaijani -->
+			<languageAlias type="ayr" replacement="ay"/> <!-- Aymara, Central ⇒ Aymara -->
+			<languageAlias type="azj" replacement="az"/> <!-- Azerbaijani, North ⇒ Azerbaijani -->
 			<languageAlias type="bcc" replacement="bal"/> <!-- Balochi, Southern ⇒ Baluchi -->
 			<languageAlias type="bcl" replacement="bik"/> <!-- Bicolano, Central ⇒ Bikol -->
 			<languageAlias type="bxk" replacement="luy"/> <!-- Lubukusu ⇒ Luyia -->
 			<languageAlias type="bxr" replacement="bua"/> <!-- Buriat, Russia ⇒ Buriat -->
 			<languageAlias type="cld" replacement="syr"/> <!-- Chaldean Neo-Aramaic ⇒ Syriac -->
 			<languageAlias type="cmn" replacement="zh"/> <!-- Mandarin Chinese ⇒ Chinese -->
-			<languageAlias type="cwd" replacement="cre"/> <!-- Cree, Woods ⇒ Cree -->
+			<languageAlias type="cwd" replacement="cr"/> <!-- Cree, Woods ⇒ Cree -->
 			<languageAlias type="dgo" replacement="doi"/> <!-- Dogri ⇒ Dogri (macrolanguage) -->
 			<languageAlias type="dhd" replacement="mwr"/> <!-- Dhundari ⇒ Marwari -->
 			<languageAlias type="dik" replacement="din"/> <!-- Southwestern Dinka ⇒ Dinka -->
 			<languageAlias type="diq" replacement="zza"/> <!-- Dimli ⇒ Zaza -->
-			<languageAlias type="ekk" replacement="est"/> <!-- Standard Estonian ⇒ Estonian -->
+			<languageAlias type="lbk" replacement="bnc"/> <!-- Central Bontok ⇒ Bontok -->
+            <languageAlias type="ekk" replacement="et"/> <!-- Standard Estonian ⇒ Estonian -->
 			<languageAlias type="emk" replacement="man"/> <!-- Maninkakan, Eastern ⇒ Mandingo -->
-			<languageAlias type="esk" replacement="ipk"/> <!-- Northwest Alaska Inupiatun ⇒ Inupiaq -->
+			<languageAlias type="esk" replacement="ik"/> <!-- Northwest Alaska Inupiatun ⇒ Inupiaq -->
 			<languageAlias type="fat" replacement="ak"/> <!-- Fanti ⇒ Akan -->
-			<languageAlias type="fuc" replacement="ful"/> <!-- Pular ⇒ Fulah -->
-			<languageAlias type="gaz" replacement="orm"/> <!-- Oromo, West Central ⇒ Oromo -->
+			<languageAlias type="fuc" replacement="ff"/> <!-- Pular ⇒ Fulah -->
+			<languageAlias type="gaz" replacement="om"/> <!-- Oromo, West Central ⇒ Oromo -->
 			<languageAlias type="gbo" replacement="grb"/> <!-- Northern Grebo ⇒ Grebo -->
 			<languageAlias type="gno" replacement="gon"/> <!-- Northern Gondi ⇒ Gondi -->
-			<languageAlias type="gug" replacement="grn"/> <!-- Paraguayan Guarani ⇒ Guarani -->
+			<languageAlias type="gug" replacement="gn"/> <!-- Paraguayan Guarani ⇒ Guarani -->
 			<languageAlias type="gya" replacement="gba"/> <!-- Northwest Gbaya ⇒ Gbaya (Central African Republic) -->
 			<languageAlias type="hdn" replacement="hai"/> <!-- Northern Haida ⇒ Haida -->
 			<languageAlias type="hea" replacement="hmn"/> <!-- Northern Qiandong Miao ⇒ Hmong -->
-			<languageAlias type="ike" replacement="iku"/> <!-- Eastern Canadian Inuktitut ⇒ Inuktitut -->
+			<languageAlias type="ike" replacement="iu"/> <!-- Eastern Canadian Inuktitut ⇒ Inuktitut -->
 			<languageAlias type="kmr" replacement="ku"/> <!-- Northern Kurdish ⇒ Kurdish -->
-			<languageAlias type="knc" replacement="kau"/> <!-- Central Kanuri ⇒ Kanuri -->
-			<languageAlias type="kng" replacement="kon"/> <!-- Koongo ⇒ Kongo -->
+			<languageAlias type="knc" replacement="kr"/> <!-- Central Kanuri ⇒ Kanuri -->
+			<languageAlias type="kng" replacement="kg"/> <!-- Koongo ⇒ Kongo -->
 			<languageAlias type="knn" replacement="kok"/> <!-- Konkani (individual language) ⇒ Konkani -->
-			<languageAlias type="kpv" replacement="kom"/> <!-- Komi-Zyrian ⇒ Komi -->
-			<languageAlias type="mhr" replacement="chm"/> <!-- Mari, Meadow ⇒ Mari (Russia) -->
+            <languageAlias type="kpv" replacement="kv"/> <!-- Komi-Zyrian ⇒ Komi -->
+            <languageAlias type="lvs" replacement="lv"/> <!-- Standard Latvian ⇒ Latvian -->
+			<languageAlias type="mhr" replacement="chm"/> <!-- Mari, Eastern ⇒ Mari (Russia) -->
 			<languageAlias type="mup" replacement="raj"/> <!-- Malvi ⇒ Rajasthani -->
-			<languageAlias type="mvf" replacement="mon"/> <!-- Mongolian, Peripheral ⇒ Mongolian -->
-			<languageAlias type="ojg" replacement="oji"/> <!-- Ojibwa, Eastern ⇒ Ojibwa -->
-			<languageAlias type="pbu" replacement="pus"/> <!-- Pashto, Northern ⇒ Pushto -->
+			<languageAlias type="mvf" replacement="mn"/> <!-- Mongolian, Peripheral ⇒ Mongolian -->
+			<languageAlias type="ojg" replacement="oj"/> <!-- Ojibwa, Eastern ⇒ Ojibwa -->
+			<languageAlias type="pbu" replacement="ps"/> <!-- Pashto, Northern ⇒ Pushto -->
 			<languageAlias type="pes" replacement="fa"/> <!-- Western Farsi ⇒ Persian -->
-			<languageAlias type="plt" replacement="mlg"/> <!-- Malagasy, Plateau ⇒ Malagasy -->
+			<languageAlias type="plt" replacement="mg"/> <!-- Malagasy, Plateau ⇒ Malagasy -->
 			<languageAlias type="pnb" replacement="lah"/> <!-- Western Panjabi ⇒ Lahnda -->
-			<languageAlias type="qxp" replacement="que"/> <!-- Quechua, Puno ⇒ Quechua -->
+			<languageAlias type="qxp" replacement="qu"/> <!-- Quechua, Puno ⇒ Quechua -->
 			<languageAlias type="rmy" replacement="rom"/> <!-- Romani, Vlax ⇒ Romany -->
 			<languageAlias type="spy" replacement="kln"/> <!-- Sabaot ⇒ Kalenjin -->
-			<languageAlias type="src" replacement="srd"/> <!-- Sardinian, Logudorese ⇒ Sardinian -->
+			<languageAlias type="src" replacement="sc"/> <!-- Sardinian, Logudorese ⇒ Sardinian -->
 			<languageAlias type="swh" replacement="sw"/> <!-- Swahili (individual language) ⇒ Swahili -->
 			<languageAlias type="ttq" replacement="tmh"/> <!-- Tamajaq, Tawallammat ⇒ Tamashek -->
 			<languageAlias type="tw" replacement="ak"/> <!-- Twi ⇒ Akan -->
@@ -588,10 +592,197 @@
 			<languageAlias type="uzn" replacement="uz"/> <!-- Northern Uzbek ⇒ Uzbek -->
 			<languageAlias type="xpe" replacement="kpe"/> <!-- Kpelle, Liberia ⇒ Kpelle -->
 			<languageAlias type="xsl" replacement="den"/> <!-- Slavey, South ⇒ Slave (Athapascan) -->
-			<languageAlias type="ydd" replacement="yid"/> <!-- Yiddish, Eastern ⇒ Yiddish -->
+			<languageAlias type="ydd" replacement="yi"/> <!-- Yiddish, Eastern ⇒ Yiddish -->
 			<languageAlias type="zai" replacement="zap"/> <!-- Zapotec, Isthmus ⇒ Zapotec -->
 			<languageAlias type="zsm" replacement="ms"/> <!-- Standard Malay ⇒ Malay -->
-			<languageAlias type="zyb" replacement="zha"/> <!-- Yongbei Zhuang ⇒ Zhuang -->
+			<languageAlias type="zyb" replacement="za"/> <!-- Yongbei Zhuang ⇒ Zhuang -->
+			<!-- incorrect three-letter language codes -->
+            <languageAlias type="aar" replacement="aa"/> <!-- [Afar] -->
+            <languageAlias type="abk" replacement="ab"/> <!-- [Abkhazian] -->
+            <languageAlias type="ave" replacement="ae"/> <!-- [Avestan] -->
+            <languageAlias type="afr" replacement="af"/> <!-- [Afrikaans] -->
+            <languageAlias type="aka" replacement="ak"/> <!-- [Akan] -->
+            <languageAlias type="amh" replacement="am"/> <!-- [Amharic] -->
+            <languageAlias type="arg" replacement="an"/> <!-- [Aragonese] -->
+            <languageAlias type="ara" replacement="ar"/> <!-- [Arabic] -->
+            <languageAlias type="asm" replacement="as"/> <!-- [Assamese] -->
+            <languageAlias type="ava" replacement="av"/> <!-- [Avaric] -->
+            <languageAlias type="aym" replacement="ay"/> <!-- [Aymara] -->
+            <languageAlias type="aze" replacement="az"/> <!-- [Azerbaijani] -->
+            <languageAlias type="bak" replacement="ba"/> <!-- [Bashkir] -->
+            <languageAlias type="bel" replacement="be"/> <!-- [Belarusian] -->
+            <languageAlias type="bul" replacement="bg"/> <!-- [Bulgarian] -->
+            <languageAlias type="bih" replacement="bh"/> <!-- [Bihari] -->
+            <languageAlias type="bis" replacement="bi"/> <!-- [Bislama] -->
+            <languageAlias type="bam" replacement="bm"/> <!-- [Bambara] -->
+            <languageAlias type="ben" replacement="bn"/> <!-- [Bengali] -->
+            <languageAlias type="bod" replacement="bo"/> <!-- [Tibetan] -->
+            <languageAlias type="bre" replacement="br"/> <!-- [Breton] -->
+            <languageAlias type="bos" replacement="bs"/> <!-- [Bosnian] -->
+            <languageAlias type="cat" replacement="ca"/> <!-- [Catalan, Valencian] -->
+            <languageAlias type="che" replacement="ce"/> <!-- [Chechen] -->
+            <languageAlias type="cha" replacement="ch"/> <!-- [Chamorro] -->
+            <languageAlias type="cos" replacement="co"/> <!-- [Corsican] -->
+            <languageAlias type="cre" replacement="cr"/> <!-- [Cree] -->
+            <languageAlias type="ces" replacement="cs"/> <!-- [Czech] -->
+            <languageAlias type="chu" replacement="cu"/> <!-- [Church Slavic, Church Slavonic, Old Bulgarian, Old Church Slavonic, Old Slavonic] -->
+            <languageAlias type="chv" replacement="cv"/> <!-- [Chuvash] -->
+            <languageAlias type="cym" replacement="cy"/> <!-- [Welsh] -->
+            <languageAlias type="dan" replacement="da"/> <!-- [Danish] -->
+            <languageAlias type="deu" replacement="de"/> <!-- [German] -->
+            <languageAlias type="div" replacement="dv"/> <!-- [Dhivehi, Divehi, Maldivian] -->
+            <languageAlias type="dzo" replacement="dz"/> <!-- [Dzongkha] -->
+            <languageAlias type="ewe" replacement="ee"/> <!-- [Ewe] -->
+            <languageAlias type="ell" replacement="el"/> <!-- [Modern Greek (1453-)] -->
+            <languageAlias type="eng" replacement="en"/> <!-- [English] -->
+            <languageAlias type="epo" replacement="eo"/> <!-- [Esperanto] -->
+            <languageAlias type="spa" replacement="es"/> <!-- [Spanish, Castilian] -->
+            <languageAlias type="est" replacement="et"/> <!-- [Estonian] -->
+            <languageAlias type="eus" replacement="eu"/> <!-- [Basque] -->
+            <languageAlias type="fas" replacement="fa"/> <!-- [Persian] -->
+            <languageAlias type="ful" replacement="ff"/> <!-- [Fulah] -->
+            <languageAlias type="fin" replacement="fi"/> <!-- [Finnish] -->
+            <languageAlias type="fij" replacement="fj"/> <!-- [Fijian] -->
+            <languageAlias type="fao" replacement="fo"/> <!-- [Faroese] -->
+            <languageAlias type="fra" replacement="fr"/> <!-- [French] -->
+            <languageAlias type="fry" replacement="fy"/> <!-- [Western Frisian] -->
+            <languageAlias type="gle" replacement="ga"/> <!-- [Irish] -->
+            <languageAlias type="gla" replacement="gd"/> <!-- [Scottish Gaelic, Gaelic] -->
+            <languageAlias type="glg" replacement="gl"/> <!-- [Galician] -->
+            <languageAlias type="grn" replacement="gn"/> <!-- [Guarani] -->
+            <languageAlias type="guj" replacement="gu"/> <!-- [Gujarati] -->
+            <languageAlias type="glv" replacement="gv"/> <!-- [Manx] -->
+            <languageAlias type="hau" replacement="ha"/> <!-- [Hausa] -->
+            <languageAlias type="heb" replacement="he"/> <!-- [Hebrew] -->
+            <languageAlias type="hin" replacement="hi"/> <!-- [Hindi] -->
+            <languageAlias type="hmo" replacement="ho"/> <!-- [Hiri Motu] -->
+            <languageAlias type="hrv" replacement="hr"/> <!-- [Croatian] -->
+            <languageAlias type="hat" replacement="ht"/> <!-- [Haitian, Haitian Creole] -->
+            <languageAlias type="hun" replacement="hu"/> <!-- [Hungarian] -->
+            <languageAlias type="hye" replacement="hy"/> <!-- [Armenian] -->
+            <languageAlias type="her" replacement="hz"/> <!-- [Herero] -->
+            <languageAlias type="ina" replacement="ia"/> <!-- [Interlingua (International Auxiliary Language Association)] -->
+            <languageAlias type="ind" replacement="id"/> <!-- [Indonesian] -->
+            <languageAlias type="ile" replacement="ie"/> <!-- [Interlingue, Occidental] -->
+            <languageAlias type="ibo" replacement="ig"/> <!-- [Igbo] -->
+            <languageAlias type="iii" replacement="ii"/> <!-- [Sichuan Yi, Nuosu] -->
+            <languageAlias type="ipk" replacement="ik"/> <!-- [Inupiaq] -->
+            <languageAlias type="ido" replacement="io"/> <!-- [Ido] -->
+            <languageAlias type="isl" replacement="is"/> <!-- [Icelandic] -->
+            <languageAlias type="ita" replacement="it"/> <!-- [Italian] -->
+            <languageAlias type="iku" replacement="iu"/> <!-- [Inuktitut] -->
+            <languageAlias type="jpn" replacement="ja"/> <!-- [Japanese] -->
+            <languageAlias type="jav" replacement="jv"/> <!-- [Javanese] -->
+            <languageAlias type="kat" replacement="ka"/> <!-- [Georgian] -->
+            <languageAlias type="kon" replacement="kg"/> <!-- [Kongo] -->
+            <languageAlias type="kik" replacement="ki"/> <!-- [Kikuyu, Gikuyu] -->
+            <languageAlias type="kua" replacement="kj"/> <!-- [Kuanyama, Kwanyama] -->
+            <languageAlias type="kaz" replacement="kk"/> <!-- [Kazakh] -->
+            <languageAlias type="kal" replacement="kl"/> <!-- [Kalaallisut, Greenlandic] -->
+            <languageAlias type="khm" replacement="km"/> <!-- [Central Khmer] -->
+            <languageAlias type="kan" replacement="kn"/> <!-- [Kannada] -->
+            <languageAlias type="kor" replacement="ko"/> <!-- [Korean] -->
+            <languageAlias type="kau" replacement="kr"/> <!-- [Kanuri] -->
+            <languageAlias type="kas" replacement="ks"/> <!-- [Kashmiri] -->
+            <languageAlias type="kur" replacement="ku"/> <!-- [Kurdish] -->
+            <languageAlias type="kom" replacement="kv"/> <!-- [Komi] -->
+            <languageAlias type="cor" replacement="kw"/> <!-- [Cornish] -->
+            <languageAlias type="kir" replacement="ky"/> <!-- [Kirghiz, Kyrgyz] -->
+            <languageAlias type="lat" replacement="la"/> <!-- [Latin] -->
+            <languageAlias type="ltz" replacement="lb"/> <!-- [Luxembourgish, Letzeburgesch] -->
+            <languageAlias type="lug" replacement="lg"/> <!-- [Ganda] -->
+            <languageAlias type="lim" replacement="li"/> <!-- [Limburgan, Limburger, Limburgish] -->
+            <languageAlias type="lin" replacement="ln"/> <!-- [Lingala] -->
+            <languageAlias type="lao" replacement="lo"/> <!-- [Lao] -->
+            <languageAlias type="lit" replacement="lt"/> <!-- [Lithuanian] -->
+            <languageAlias type="lub" replacement="lu"/> <!-- [Luba-Katanga] -->
+            <languageAlias type="lav" replacement="lv"/> <!-- [Latvian] -->
+            <languageAlias type="mlg" replacement="mg"/> <!-- [Malagasy] -->
+            <languageAlias type="mah" replacement="mh"/> <!-- [Marshallese] -->
+            <languageAlias type="mri" replacement="mi"/> <!-- [Maori] -->
+            <languageAlias type="mkd" replacement="mk"/> <!-- [Macedonian] -->
+            <languageAlias type="mal" replacement="ml"/> <!-- [Malayalam] -->
+            <languageAlias type="mon" replacement="mn"/> <!-- [Mongolian] -->
+            <languageAlias type="mol" replacement="mo"/> <!-- [Moldavian] -->
+            <languageAlias type="mar" replacement="mr"/> <!-- [Marathi] -->
+            <languageAlias type="msa" replacement="ms"/> <!-- [Malay (macrolanguage)] -->
+            <languageAlias type="mlt" replacement="mt"/> <!-- [Maltese] -->
+            <languageAlias type="mya" replacement="my"/> <!-- [Burmese] -->
+            <languageAlias type="nau" replacement="na"/> <!-- [Nauru] -->
+            <languageAlias type="nob" replacement="nb"/> <!-- [Norwegian Bokmål] -->
+            <languageAlias type="nde" replacement="nd"/> <!-- [North Ndebele] -->
+            <languageAlias type="nep" replacement="ne"/> <!-- [Nepali] -->
+            <languageAlias type="ndo" replacement="ng"/> <!-- [Ndonga] -->
+            <languageAlias type="nld" replacement="nl"/> <!-- [Dutch, Flemish] -->
+            <languageAlias type="nno" replacement="nn"/> <!-- [Norwegian Nynorsk] -->
+            <languageAlias type="nor" replacement="no"/> <!-- [Norwegian] -->
+            <languageAlias type="nbl" replacement="nr"/> <!-- [South Ndebele] -->
+            <languageAlias type="nav" replacement="nv"/> <!-- [Navajo, Navaho] -->
+            <languageAlias type="nya" replacement="ny"/> <!-- [Nyanja, Chewa, Chichewa] -->
+            <languageAlias type="oci" replacement="oc"/> <!-- [Occitan (post 1500)] -->
+            <languageAlias type="oji" replacement="oj"/> <!-- [Ojibwa] -->
+            <languageAlias type="orm" replacement="om"/> <!-- [Oromo] -->
+            <languageAlias type="ori" replacement="or"/> <!-- [Oriya] -->
+            <languageAlias type="oss" replacement="os"/> <!-- [Ossetian, Ossetic] -->
+            <languageAlias type="pan" replacement="pa"/> <!-- [Panjabi, Punjabi] -->
+            <languageAlias type="pli" replacement="pi"/> <!-- [Pali] -->
+            <languageAlias type="pol" replacement="pl"/> <!-- [Polish] -->
+            <languageAlias type="pus" replacement="ps"/> <!-- [Pushto, Pashto] -->
+            <languageAlias type="por" replacement="pt"/> <!-- [Portuguese] -->
+            <languageAlias type="que" replacement="qu"/> <!-- [Quechua] -->
+            <languageAlias type="roh" replacement="rm"/> <!-- [Romansh] -->
+            <languageAlias type="run" replacement="rn"/> <!-- [Rundi] -->
+            <languageAlias type="ron" replacement="ro"/> <!-- [Romanian, Moldavian, Moldovan] -->
+            <languageAlias type="rus" replacement="ru"/> <!-- [Russian] -->
+            <languageAlias type="kin" replacement="rw"/> <!-- [Kinyarwanda] -->
+            <languageAlias type="san" replacement="sa"/> <!-- [Sanskrit] -->
+            <languageAlias type="srd" replacement="sc"/> <!-- [Sardinian] -->
+            <languageAlias type="snd" replacement="sd"/> <!-- [Sindhi] -->
+            <languageAlias type="sme" replacement="se"/> <!-- [Northern Sami] -->
+            <languageAlias type="sag" replacement="sg"/> <!-- [Sango] -->
+            <languageAlias type="hbs" replacement="sh"/> <!-- [Serbo-Croatian] -->
+            <languageAlias type="sin" replacement="si"/> <!-- [Sinhala, Sinhalese] -->
+            <languageAlias type="slk" replacement="sk"/> <!-- [Slovak] -->
+            <languageAlias type="slv" replacement="sl"/> <!-- [Slovenian] -->
+            <languageAlias type="smo" replacement="sm"/> <!-- [Samoan] -->
+            <languageAlias type="sna" replacement="sn"/> <!-- [Shona] -->
+            <languageAlias type="som" replacement="so"/> <!-- [Somali] -->
+            <languageAlias type="sqi" replacement="sq"/> <!-- [Albanian] -->
+            <languageAlias type="srp" replacement="sr"/> <!-- [Serbian] -->
+            <languageAlias type="ssw" replacement="ss"/> <!-- [Swati] -->
+            <languageAlias type="sot" replacement="st"/> <!-- [Southern Sotho] -->
+            <languageAlias type="sun" replacement="su"/> <!-- [Sundanese] -->
+            <languageAlias type="swe" replacement="sv"/> <!-- [Swedish] -->
+            <languageAlias type="swa" replacement="sw"/> <!-- [Swahili (macrolanguage)] -->
+            <languageAlias type="tam" replacement="ta"/> <!-- [Tamil] -->
+            <languageAlias type="tel" replacement="te"/> <!-- [Telugu] -->
+            <languageAlias type="tgk" replacement="tg"/> <!-- [Tajik] -->
+            <languageAlias type="tha" replacement="th"/> <!-- [Thai] -->
+            <languageAlias type="tir" replacement="ti"/> <!-- [Tigrinya] -->
+            <languageAlias type="tuk" replacement="tk"/> <!-- [Turkmen] -->
+            <languageAlias type="tgl" replacement="fil"/> <!-- [Tagalog/Filipino] -->
+            <languageAlias type="tsn" replacement="tn"/> <!-- [Tswana] -->
+            <languageAlias type="ton" replacement="to"/> <!-- [Tonga (Tonga Islands)] -->
+            <languageAlias type="tur" replacement="tr"/> <!-- [Turkish] -->
+            <languageAlias type="tso" replacement="ts"/> <!-- [Tsonga] -->
+            <languageAlias type="tat" replacement="tt"/> <!-- [Tatar] -->
+            <languageAlias type="twi" replacement="tw"/> <!-- [Twi] -->
+            <languageAlias type="tah" replacement="ty"/> <!-- [Tahitian] -->
+            <languageAlias type="uig" replacement="ug"/> <!-- [Uighur, Uyghur] -->
+            <languageAlias type="ukr" replacement="uk"/> <!-- [Ukrainian] -->
+            <languageAlias type="urd" replacement="ur"/> <!-- [Urdu] -->
+            <languageAlias type="uzb" replacement="uz"/> <!-- [Uzbek] -->
+            <languageAlias type="ven" replacement="ve"/> <!-- [Venda] -->
+            <languageAlias type="vie" replacement="vi"/> <!-- [Vietnamese] -->
+            <languageAlias type="vol" replacement="vo"/> <!-- [Volapük] -->
+            <languageAlias type="wln" replacement="wa"/> <!-- [Walloon] -->
+            <languageAlias type="wol" replacement="wo"/> <!-- [Wolof] -->
+            <languageAlias type="xho" replacement="xh"/> <!-- [Xhosa] -->
+            <languageAlias type="yid" replacement="yi"/> <!-- [Yiddish] -->
+            <languageAlias type="yor" replacement="yo"/> <!-- [Yoruba] -->
+            <languageAlias type="zha" replacement="za"/> <!-- [Zhuang, Chuang] -->
+            <languageAlias type="zho" replacement="zh"/> <!-- [Chinese] -->
+            <languageAlias type="zul" replacement="zu"/> <!-- [Zulu] -->
             <!-- deprecated ISO territories in 3066 + CLDR ones (older deprecated ISO codes -->
             <territoryAlias type="BQ" replacement="AQ"/> <!-- CLDR: British Antarctic Territory -->
             <territoryAlias type="BU" replacement="MM"/> <!-- Burma -->
@@ -610,9 +801,11 @@
             <territoryAlias type="PC" replacement="FM MH MP PW"/> <!-- CLDR: Pacific Islands Trust Territory (divided into FM, MH, MP, and PW) -->
             <territoryAlias type="PU" replacement="UM"/> <!-- CLDR: U.S. Miscellaneous Pacific Islands -->
             <territoryAlias type="PZ" replacement="PA"/> <!-- CLDR: Panama Canal Zone -->
+            <territoryAlias type="QU" replacement="EU"/> <!-- CLDR: European Union -->
             <territoryAlias type="RH" replacement="ZW"/> <!-- CLDR:Zimbabwe -->
             <territoryAlias type="SU" replacement="RU AM AZ BY EE GE KZ KG LV LT MD TJ TM UA UZ"/> <!-- Union of Soviet Socialist Republics -->
             <territoryAlias type="TP" replacement="TL"/> <!-- East Timor -->
+            <territoryAlias type="UK" replacement="GB"/> <!-- CLDR: Great Britain -->
             <territoryAlias type="VD" replacement="VN"/> <!-- CLDR: North Vietnam -->
             <territoryAlias type="WK" replacement="UM"/> <!-- CLDR: Wake Island -->
             <territoryAlias type="YD" replacement="YE"/> <!-- Yemen, Democratic -->
@@ -627,6 +820,604 @@
             <territoryAlias type="830" replacement="JE GG"/> <!-- Channel Islands -->
             <territoryAlias type="886" replacement="YE"/> <!-- Yemen (pre-1990) -->
             <territoryAlias type="890" replacement="RS ME SI HR MK BA"/> <!-- Yugoslavia (pre-1992) -->
+            <!-- incorrect ISO code values -->
+            <territoryAlias type="AAA" replacement="AA"/> <!-- null -->
+            <territoryAlias type="ASC" replacement="AC"/> <!-- Ascension Island -->
+            <territoryAlias type="AND" replacement="AD"/> <!-- Andorra -->
+            <territoryAlias type="ARE" replacement="AE"/> <!-- United Arab Emirates -->
+            <territoryAlias type="AFG" replacement="AF"/> <!-- Afghanistan -->
+            <territoryAlias type="ATG" replacement="AG"/> <!-- Antigua and Barbuda -->
+            <territoryAlias type="AIA" replacement="AI"/> <!-- Anguilla -->
+            <territoryAlias type="ALB" replacement="AL"/> <!-- Albania -->
+            <territoryAlias type="ARM" replacement="AM"/> <!-- Armenia -->
+            <territoryAlias type="ANT" replacement="AN"/> <!-- Netherlands Antilles -->
+            <territoryAlias type="AGO" replacement="AO"/> <!-- Angola -->
+            <territoryAlias type="ATA" replacement="AQ"/> <!-- Antarctica -->
+            <territoryAlias type="ARG" replacement="AR"/> <!-- Argentina -->
+            <territoryAlias type="ASM" replacement="AS"/> <!-- American Samoa -->
+            <territoryAlias type="AUT" replacement="AT"/> <!-- Austria -->
+            <territoryAlias type="AUS" replacement="AU"/> <!-- Australia -->
+            <territoryAlias type="ABW" replacement="AW"/> <!-- Aruba -->
+            <territoryAlias type="ALA" replacement="AX"/> <!-- Åland Islands -->
+            <territoryAlias type="AZE" replacement="AZ"/> <!-- Azerbaijan -->
+            <territoryAlias type="BIH" replacement="BA"/> <!-- Bosnia and Herzegovina -->
+            <territoryAlias type="BRB" replacement="BB"/> <!-- Barbados -->
+            <territoryAlias type="BGD" replacement="BD"/> <!-- Bangladesh -->
+            <territoryAlias type="BEL" replacement="BE"/> <!-- Belgium -->
+            <territoryAlias type="BFA" replacement="BF"/> <!-- Burkina Faso -->
+            <territoryAlias type="BGR" replacement="BG"/> <!-- Bulgaria -->
+            <territoryAlias type="BHR" replacement="BH"/> <!-- Bahrain -->
+            <territoryAlias type="BDI" replacement="BI"/> <!-- Burundi -->
+            <territoryAlias type="BEN" replacement="BJ"/> <!-- Benin -->
+            <territoryAlias type="BLM" replacement="BL"/> <!-- Saint Barthélemy -->
+            <territoryAlias type="BMU" replacement="BM"/> <!-- Bermuda -->
+            <territoryAlias type="BRN" replacement="BN"/> <!-- Brunei -->
+            <territoryAlias type="BOL" replacement="BO"/> <!-- Bolivia -->
+            <territoryAlias type="BRA" replacement="BR"/> <!-- Brazil -->
+            <territoryAlias type="BHS" replacement="BS"/> <!-- Bahamas -->
+            <territoryAlias type="BTN" replacement="BT"/> <!-- Bhutan -->
+            <territoryAlias type="BUR" replacement="BU"/> <!-- null -->
+            <territoryAlias type="BVT" replacement="BV"/> <!-- Bouvet Island -->
+            <territoryAlias type="BWA" replacement="BW"/> <!-- Botswana -->
+            <territoryAlias type="BLR" replacement="BY"/> <!-- Belarus -->
+            <territoryAlias type="BLZ" replacement="BZ"/> <!-- Belize -->
+            <territoryAlias type="CAN" replacement="CA"/> <!-- Canada -->
+            <territoryAlias type="CCK" replacement="CC"/> <!-- Cocos [Keeling] Islands -->
+            <territoryAlias type="COD" replacement="CD"/> <!-- Congo - Kinshasa -->
+            <territoryAlias type="CAF" replacement="CF"/> <!-- Central African Republic -->
+            <territoryAlias type="COG" replacement="CG"/> <!-- Congo - Brazzaville -->
+            <territoryAlias type="CHE" replacement="CH"/> <!-- Switzerland -->
+            <territoryAlias type="CIV" replacement="CI"/> <!-- Côte d’Ivoire -->
+            <territoryAlias type="COK" replacement="CK"/> <!-- Cook Islands -->
+            <territoryAlias type="CHL" replacement="CL"/> <!-- Chile -->
+            <territoryAlias type="CMR" replacement="CM"/> <!-- Cameroon -->
+            <territoryAlias type="CHN" replacement="CN"/> <!-- China -->
+            <territoryAlias type="COL" replacement="CO"/> <!-- Colombia -->
+            <territoryAlias type="CPT" replacement="CP"/> <!-- Clipperton Island -->
+            <territoryAlias type="CRI" replacement="CR"/> <!-- Costa Rica -->
+            <territoryAlias type="SCG" replacement="CS"/> <!-- Serbia and Montenegro -->
+            <territoryAlias type="CUB" replacement="CU"/> <!-- Cuba -->
+            <territoryAlias type="CPV" replacement="CV"/> <!-- Cape Verde -->
+            <territoryAlias type="CXR" replacement="CX"/> <!-- Christmas Island -->
+            <territoryAlias type="CYP" replacement="CY"/> <!-- Cyprus -->
+            <territoryAlias type="CZE" replacement="CZ"/> <!-- Czech Republic -->
+            <territoryAlias type="DDR" replacement="DD"/> <!-- East Germany -->
+            <territoryAlias type="DEU" replacement="DE"/> <!-- Germany -->
+            <territoryAlias type="DGA" replacement="DG"/> <!-- Diego Garcia -->
+            <territoryAlias type="DJI" replacement="DJ"/> <!-- Djibouti -->
+            <territoryAlias type="DNK" replacement="DK"/> <!-- Denmark -->
+            <territoryAlias type="DMA" replacement="DM"/> <!-- Dominica -->
+            <territoryAlias type="DOM" replacement="DO"/> <!-- Dominican Republic -->
+            <territoryAlias type="DZA" replacement="DZ"/> <!-- Algeria -->
+            <territoryAlias type="ECU" replacement="EC"/> <!-- Ecuador -->
+            <territoryAlias type="EST" replacement="EE"/> <!-- Estonia -->
+            <territoryAlias type="EGY" replacement="EG"/> <!-- Egypt -->
+            <territoryAlias type="ESH" replacement="EH"/> <!-- Western Sahara -->
+            <territoryAlias type="ERI" replacement="ER"/> <!-- Eritrea -->
+            <territoryAlias type="ESP" replacement="ES"/> <!-- Spain -->
+            <territoryAlias type="ETH" replacement="ET"/> <!-- Ethiopia -->
+            <territoryAlias type="FIN" replacement="FI"/> <!-- Finland -->
+            <territoryAlias type="FJI" replacement="FJ"/> <!-- Fiji -->
+            <territoryAlias type="FLK" replacement="FK"/> <!-- Falkland Islands -->
+            <territoryAlias type="FSM" replacement="FM"/> <!-- Micronesia -->
+            <territoryAlias type="FRO" replacement="FO"/> <!-- Faroe Islands -->
+            <territoryAlias type="FRA" replacement="FR"/> <!-- France -->
+            <territoryAlias type="FXX" replacement="FX"/> <!-- Metropolitan France -->
+            <territoryAlias type="GAB" replacement="GA"/> <!-- Gabon -->
+            <territoryAlias type="GBR" replacement="GB"/> <!-- United Kingdom -->
+            <territoryAlias type="GRD" replacement="GD"/> <!-- Grenada -->
+            <territoryAlias type="GEO" replacement="GE"/> <!-- Georgia -->
+            <territoryAlias type="GUF" replacement="GF"/> <!-- French Guiana -->
+            <territoryAlias type="GGY" replacement="GG"/> <!-- Guernsey -->
+            <territoryAlias type="GHA" replacement="GH"/> <!-- Ghana -->
+            <territoryAlias type="GIB" replacement="GI"/> <!-- Gibraltar -->
+            <territoryAlias type="GRL" replacement="GL"/> <!-- Greenland -->
+            <territoryAlias type="GMB" replacement="GM"/> <!-- Gambia -->
+            <territoryAlias type="GIN" replacement="GN"/> <!-- Guinea -->
+            <territoryAlias type="GLP" replacement="GP"/> <!-- Guadeloupe -->
+            <territoryAlias type="GNQ" replacement="GQ"/> <!-- Equatorial Guinea -->
+            <territoryAlias type="GRC" replacement="GR"/> <!-- Greece -->
+            <territoryAlias type="SGS" replacement="GS"/> <!-- South Georgia and the South Sandwich Islands -->
+            <territoryAlias type="GTM" replacement="GT"/> <!-- Guatemala -->
+            <territoryAlias type="GUM" replacement="GU"/> <!-- Guam -->
+            <territoryAlias type="GNB" replacement="GW"/> <!-- Guinea-Bissau -->
+            <territoryAlias type="GUY" replacement="GY"/> <!-- Guyana -->
+            <territoryAlias type="HKG" replacement="HK"/> <!-- Hong Kong SAR China -->
+            <territoryAlias type="HMD" replacement="HM"/> <!-- Heard Island and McDonald Islands -->
+            <territoryAlias type="HND" replacement="HN"/> <!-- Honduras -->
+            <territoryAlias type="HRV" replacement="HR"/> <!-- Croatia -->
+            <territoryAlias type="HTI" replacement="HT"/> <!-- Haiti -->
+            <territoryAlias type="HUN" replacement="HU"/> <!-- Hungary -->
+            <territoryAlias type="IDN" replacement="ID"/> <!-- Indonesia -->
+            <territoryAlias type="IRL" replacement="IE"/> <!-- Ireland -->
+            <territoryAlias type="ISR" replacement="IL"/> <!-- Israel -->
+            <territoryAlias type="IMN" replacement="IM"/> <!-- Isle of Man -->
+            <territoryAlias type="IND" replacement="IN"/> <!-- India -->
+            <territoryAlias type="IOT" replacement="IO"/> <!-- British Indian Ocean Territory -->
+            <territoryAlias type="IRQ" replacement="IQ"/> <!-- Iraq -->
+            <territoryAlias type="IRN" replacement="IR"/> <!-- Iran -->
+            <territoryAlias type="ISL" replacement="IS"/> <!-- Iceland -->
+            <territoryAlias type="ITA" replacement="IT"/> <!-- Italy -->
+            <territoryAlias type="JEY" replacement="JE"/> <!-- Jersey -->
+            <territoryAlias type="JAM" replacement="JM"/> <!-- Jamaica -->
+            <territoryAlias type="JOR" replacement="JO"/> <!-- Jordan -->
+            <territoryAlias type="JPN" replacement="JP"/> <!-- Japan -->
+            <territoryAlias type="KEN" replacement="KE"/> <!-- Kenya -->
+            <territoryAlias type="KGZ" replacement="KG"/> <!-- Kyrgyzstan -->
+            <territoryAlias type="KHM" replacement="KH"/> <!-- Cambodia -->
+            <territoryAlias type="KIR" replacement="KI"/> <!-- Kiribati -->
+            <territoryAlias type="COM" replacement="KM"/> <!-- Comoros -->
+            <territoryAlias type="KNA" replacement="KN"/> <!-- Saint Kitts and Nevis -->
+            <territoryAlias type="PRK" replacement="KP"/> <!-- North Korea -->
+            <territoryAlias type="KOR" replacement="KR"/> <!-- South Korea -->
+            <territoryAlias type="KWT" replacement="KW"/> <!-- Kuwait -->
+            <territoryAlias type="CYM" replacement="KY"/> <!-- Cayman Islands -->
+            <territoryAlias type="KAZ" replacement="KZ"/> <!-- Kazakhstan -->
+            <territoryAlias type="LAO" replacement="LA"/> <!-- Laos -->
+            <territoryAlias type="LBN" replacement="LB"/> <!-- Lebanon -->
+            <territoryAlias type="LCA" replacement="LC"/> <!-- Saint Lucia -->
+            <territoryAlias type="LIE" replacement="LI"/> <!-- Liechtenstein -->
+            <territoryAlias type="LKA" replacement="LK"/> <!-- Sri Lanka -->
+            <territoryAlias type="LBR" replacement="LR"/> <!-- Liberia -->
+            <territoryAlias type="LSO" replacement="LS"/> <!-- Lesotho -->
+            <territoryAlias type="LTU" replacement="LT"/> <!-- Lithuania -->
+            <territoryAlias type="LUX" replacement="LU"/> <!-- Luxembourg -->
+            <territoryAlias type="LVA" replacement="LV"/> <!-- Latvia -->
+            <territoryAlias type="LBY" replacement="LY"/> <!-- Libya -->
+            <territoryAlias type="MAR" replacement="MA"/> <!-- Morocco -->
+            <territoryAlias type="MCO" replacement="MC"/> <!-- Monaco -->
+            <territoryAlias type="MDA" replacement="MD"/> <!-- Moldova -->
+            <territoryAlias type="MNE" replacement="ME"/> <!-- Montenegro -->
+            <territoryAlias type="MAF" replacement="MF"/> <!-- Saint Martin -->
+            <territoryAlias type="MDG" replacement="MG"/> <!-- Madagascar -->
+            <territoryAlias type="MHL" replacement="MH"/> <!-- Marshall Islands -->
+            <territoryAlias type="MKD" replacement="MK"/> <!-- Macedonia -->
+            <territoryAlias type="MLI" replacement="ML"/> <!-- Mali -->
+            <territoryAlias type="MMR" replacement="MM"/> <!-- Myanmar [Burma] -->
+            <territoryAlias type="MNG" replacement="MN"/> <!-- Mongolia -->
+            <territoryAlias type="MAC" replacement="MO"/> <!-- Macau SAR China -->
+            <territoryAlias type="MNP" replacement="MP"/> <!-- Northern Mariana Islands -->
+            <territoryAlias type="MTQ" replacement="MQ"/> <!-- Martinique -->
+            <territoryAlias type="MRT" replacement="MR"/> <!-- Mauritania -->
+            <territoryAlias type="MSR" replacement="MS"/> <!-- Montserrat -->
+            <territoryAlias type="MLT" replacement="MT"/> <!-- Malta -->
+            <territoryAlias type="MUS" replacement="MU"/> <!-- Mauritius -->
+            <territoryAlias type="MDV" replacement="MV"/> <!-- Maldives -->
+            <territoryAlias type="MWI" replacement="MW"/> <!-- Malawi -->
+            <territoryAlias type="MEX" replacement="MX"/> <!-- Mexico -->
+            <territoryAlias type="MYS" replacement="MY"/> <!-- Malaysia -->
+            <territoryAlias type="MOZ" replacement="MZ"/> <!-- Mozambique -->
+            <territoryAlias type="NAM" replacement="NA"/> <!-- Namibia -->
+            <territoryAlias type="NCL" replacement="NC"/> <!-- New Caledonia -->
+            <territoryAlias type="NER" replacement="NE"/> <!-- Niger -->
+            <territoryAlias type="NFK" replacement="NF"/> <!-- Norfolk Island -->
+            <territoryAlias type="NGA" replacement="NG"/> <!-- Nigeria -->
+            <territoryAlias type="NIC" replacement="NI"/> <!-- Nicaragua -->
+            <territoryAlias type="NLD" replacement="NL"/> <!-- Netherlands -->
+            <territoryAlias type="NOR" replacement="NO"/> <!-- Norway -->
+            <territoryAlias type="NPL" replacement="NP"/> <!-- Nepal -->
+            <territoryAlias type="NRU" replacement="NR"/> <!-- Nauru -->
+            <territoryAlias type="NTZ" replacement="NT"/> <!-- Neutral Zone -->
+            <territoryAlias type="NIU" replacement="NU"/> <!-- Niue -->
+            <territoryAlias type="NZL" replacement="NZ"/> <!-- New Zealand -->
+            <territoryAlias type="OMN" replacement="OM"/> <!-- Oman -->
+            <territoryAlias type="PAN" replacement="PA"/> <!-- Panama -->
+            <territoryAlias type="PER" replacement="PE"/> <!-- Peru -->
+            <territoryAlias type="PYF" replacement="PF"/> <!-- French Polynesia -->
+            <territoryAlias type="PNG" replacement="PG"/> <!-- Papua New Guinea -->
+            <territoryAlias type="PHL" replacement="PH"/> <!-- Philippines -->
+            <territoryAlias type="PAK" replacement="PK"/> <!-- Pakistan -->
+            <territoryAlias type="POL" replacement="PL"/> <!-- Poland -->
+            <territoryAlias type="SPM" replacement="PM"/> <!-- Saint Pierre and Miquelon -->
+            <territoryAlias type="PCN" replacement="PN"/> <!-- Pitcairn Islands -->
+            <territoryAlias type="PRI" replacement="PR"/> <!-- Puerto Rico -->
+            <territoryAlias type="PSE" replacement="PS"/> <!-- Palestinian Territories -->
+            <territoryAlias type="PRT" replacement="PT"/> <!-- Portugal -->
+            <territoryAlias type="PLW" replacement="PW"/> <!-- Palau -->
+            <territoryAlias type="PRY" replacement="PY"/> <!-- Paraguay -->
+            <territoryAlias type="QAT" replacement="QA"/> <!-- Qatar -->
+            <territoryAlias type="QMM" replacement="QM"/> <!-- null -->
+            <territoryAlias type="QNN" replacement="QN"/> <!-- null -->
+            <territoryAlias type="QPP" replacement="QP"/> <!-- null -->
+            <territoryAlias type="QQQ" replacement="QQ"/> <!-- null -->
+            <territoryAlias type="QRR" replacement="QR"/> <!-- null -->
+            <territoryAlias type="QSS" replacement="QS"/> <!-- null -->
+            <territoryAlias type="QTT" replacement="QT"/> <!-- null -->
+            <territoryAlias type="QVV" replacement="QV"/> <!-- null -->
+            <territoryAlias type="QWW" replacement="QW"/> <!-- null -->
+            <territoryAlias type="QXX" replacement="QX"/> <!-- null -->
+            <territoryAlias type="QYY" replacement="QY"/> <!-- null -->
+            <territoryAlias type="QZZ" replacement="QZ"/> <!-- null -->
+            <territoryAlias type="REU" replacement="RE"/> <!-- Réunion -->
+            <territoryAlias type="ROU" replacement="RO"/> <!-- Romania -->
+            <territoryAlias type="SRB" replacement="RS"/> <!-- Serbia -->
+            <territoryAlias type="RUS" replacement="RU"/> <!-- Russia -->
+            <territoryAlias type="RWA" replacement="RW"/> <!-- Rwanda -->
+            <territoryAlias type="SAU" replacement="SA"/> <!-- Saudi Arabia -->
+            <territoryAlias type="SLB" replacement="SB"/> <!-- Solomon Islands -->
+            <territoryAlias type="SYC" replacement="SC"/> <!-- Seychelles -->
+            <territoryAlias type="SDN" replacement="SD"/> <!-- Sudan -->
+            <territoryAlias type="SWE" replacement="SE"/> <!-- Sweden -->
+            <territoryAlias type="SGP" replacement="SG"/> <!-- Singapore -->
+            <territoryAlias type="SHN" replacement="SH"/> <!-- Saint Helena -->
+            <territoryAlias type="SVN" replacement="SI"/> <!-- Slovenia -->
+            <territoryAlias type="SJM" replacement="SJ"/> <!-- Svalbard and Jan Mayen -->
+            <territoryAlias type="SVK" replacement="SK"/> <!-- Slovakia -->
+            <territoryAlias type="SLE" replacement="SL"/> <!-- Sierra Leone -->
+            <territoryAlias type="SMR" replacement="SM"/> <!-- San Marino -->
+            <territoryAlias type="SEN" replacement="SN"/> <!-- Senegal -->
+            <territoryAlias type="SOM" replacement="SO"/> <!-- Somalia -->
+            <territoryAlias type="SUR" replacement="SR"/> <!-- Suriname -->
+            <territoryAlias type="STP" replacement="ST"/> <!-- São Tomé and Príncipe -->
+            <territoryAlias type="SUN" replacement="SU"/> <!-- Union of Soviet Socialist Republics -->
+            <territoryAlias type="SLV" replacement="SV"/> <!-- El Salvador -->
+            <territoryAlias type="SYR" replacement="SY"/> <!-- Syria -->
+            <territoryAlias type="SWZ" replacement="SZ"/> <!-- Swaziland -->
+            <territoryAlias type="TAA" replacement="TA"/> <!-- Tristan da Cunha -->
+            <territoryAlias type="TCA" replacement="TC"/> <!-- Turks and Caicos Islands -->
+            <territoryAlias type="TCD" replacement="TD"/> <!-- Chad -->
+            <territoryAlias type="ATF" replacement="TF"/> <!-- French Southern Territories -->
+            <territoryAlias type="TGO" replacement="TG"/> <!-- Togo -->
+            <territoryAlias type="THA" replacement="TH"/> <!-- Thailand -->
+            <territoryAlias type="TJK" replacement="TJ"/> <!-- Tajikistan -->
+            <territoryAlias type="TKL" replacement="TK"/> <!-- Tokelau -->
+            <territoryAlias type="TLS" replacement="TL"/> <!-- Timor-Leste -->
+            <territoryAlias type="TKM" replacement="TM"/> <!-- Turkmenistan -->
+            <territoryAlias type="TUN" replacement="TN"/> <!-- Tunisia -->
+            <territoryAlias type="TON" replacement="TO"/> <!-- Tonga -->
+            <territoryAlias type="TMP" replacement="TL"/> <!-- null -->
+            <territoryAlias type="TUR" replacement="TR"/> <!-- Turkey -->
+            <territoryAlias type="TTO" replacement="TT"/> <!-- Trinidad and Tobago -->
+            <territoryAlias type="TUV" replacement="TV"/> <!-- Tuvalu -->
+            <territoryAlias type="TWN" replacement="TW"/> <!-- Taiwan -->
+            <territoryAlias type="TZA" replacement="TZ"/> <!-- Tanzania -->
+            <territoryAlias type="UKR" replacement="UA"/> <!-- Ukraine -->
+            <territoryAlias type="UGA" replacement="UG"/> <!-- Uganda -->
+            <territoryAlias type="UMI" replacement="UM"/> <!-- U.S. Minor Outlying Islands -->
+            <territoryAlias type="USA" replacement="US"/> <!-- United States -->
+            <territoryAlias type="URY" replacement="UY"/> <!-- Uruguay -->
+            <territoryAlias type="UZB" replacement="UZ"/> <!-- Uzbekistan -->
+            <territoryAlias type="VAT" replacement="VA"/> <!-- Vatican City -->
+            <territoryAlias type="VCT" replacement="VC"/> <!-- Saint Vincent and the Grenadines -->
+            <territoryAlias type="VEN" replacement="VE"/> <!-- Venezuela -->
+            <territoryAlias type="VGB" replacement="VG"/> <!-- British Virgin Islands -->
+            <territoryAlias type="VIR" replacement="VI"/> <!-- U.S. Virgin Islands -->
+            <territoryAlias type="VNM" replacement="VN"/> <!-- Vietnam -->
+            <territoryAlias type="VUT" replacement="VU"/> <!-- Vanuatu -->
+            <territoryAlias type="WLF" replacement="WF"/> <!-- Wallis and Futuna -->
+            <territoryAlias type="WSM" replacement="WS"/> <!-- Samoa -->
+            <territoryAlias type="XAA" replacement="XA"/> <!-- null -->
+            <territoryAlias type="XBB" replacement="XB"/> <!-- null -->
+            <territoryAlias type="XCC" replacement="XC"/> <!-- null -->
+            <territoryAlias type="XDD" replacement="XD"/> <!-- null -->
+            <territoryAlias type="XEE" replacement="XE"/> <!-- null -->
+            <territoryAlias type="XFF" replacement="XF"/> <!-- null -->
+            <territoryAlias type="XGG" replacement="XG"/> <!-- null -->
+            <territoryAlias type="XHH" replacement="XH"/> <!-- null -->
+            <territoryAlias type="XII" replacement="XI"/> <!-- null -->
+            <territoryAlias type="XJJ" replacement="XJ"/> <!-- null -->
+            <territoryAlias type="XKK" replacement="XK"/> <!-- null -->
+            <territoryAlias type="XLL" replacement="XL"/> <!-- null -->
+            <territoryAlias type="XMM" replacement="XM"/> <!-- null -->
+            <territoryAlias type="XNN" replacement="XN"/> <!-- null -->
+            <territoryAlias type="XOO" replacement="XO"/> <!-- null -->
+            <territoryAlias type="XPP" replacement="XP"/> <!-- null -->
+            <territoryAlias type="XQQ" replacement="XQ"/> <!-- null -->
+            <territoryAlias type="XRR" replacement="XR"/> <!-- null -->
+            <territoryAlias type="XSS" replacement="XS"/> <!-- null -->
+            <territoryAlias type="XTT" replacement="XT"/> <!-- null -->
+            <territoryAlias type="XUU" replacement="XU"/> <!-- null -->
+            <territoryAlias type="XVV" replacement="XV"/> <!-- null -->
+            <territoryAlias type="XWW" replacement="XW"/> <!-- null -->
+            <territoryAlias type="XXX" replacement="XX"/> <!-- null -->
+            <territoryAlias type="XYY" replacement="XY"/> <!-- null -->
+            <territoryAlias type="XZZ" replacement="XZ"/> <!-- null -->
+            <territoryAlias type="YMD" replacement="YD"/> <!-- People's Democratic Republic of Yemen -->
+            <territoryAlias type="YEM" replacement="YE"/> <!-- Yemen -->
+            <territoryAlias type="MYT" replacement="YT"/> <!-- Mayotte -->
+            <territoryAlias type="YUG" replacement="CS"/> <!-- null -->
+            <territoryAlias type="ZAF" replacement="ZA"/> <!-- South Africa -->
+            <territoryAlias type="ZMB" replacement="ZM"/> <!-- Zambia -->
+            <territoryAlias type="ZAR" replacement="CD"/> <!-- null -->
+            <territoryAlias type="ZWE" replacement="ZW"/> <!-- Zimbabwe -->
+            <territoryAlias type="ZZZ" replacement="ZZ"/> <!-- Unknown or Invalid Region -->
+            <territoryAlias type="958" replacement="AA"/> <!-- null -->
+            <territoryAlias type="020" replacement="AD"/> <!-- Andorra -->
+            <territoryAlias type="784" replacement="AE"/> <!-- United Arab Emirates -->
+            <territoryAlias type="004" replacement="AF"/> <!-- Afghanistan -->
+            <territoryAlias type="028" replacement="AG"/> <!-- Antigua and Barbuda -->
+            <territoryAlias type="660" replacement="AI"/> <!-- Anguilla -->
+            <territoryAlias type="008" replacement="AL"/> <!-- Albania -->
+            <territoryAlias type="051" replacement="AM"/> <!-- Armenia -->
+            <territoryAlias type="530" replacement="AN"/> <!-- Netherlands Antilles -->
+            <territoryAlias type="024" replacement="AO"/> <!-- Angola -->
+            <territoryAlias type="010" replacement="AQ"/> <!-- Antarctica -->
+            <territoryAlias type="032" replacement="AR"/> <!-- Argentina -->
+            <territoryAlias type="016" replacement="AS"/> <!-- American Samoa -->
+            <territoryAlias type="040" replacement="AT"/> <!-- Austria -->
+            <territoryAlias type="036" replacement="AU"/> <!-- Australia -->
+            <territoryAlias type="533" replacement="AW"/> <!-- Aruba -->
+            <territoryAlias type="248" replacement="AX"/> <!-- Åland Islands -->
+            <territoryAlias type="031" replacement="AZ"/> <!-- Azerbaijan -->
+            <territoryAlias type="070" replacement="BA"/> <!-- Bosnia and Herzegovina -->
+            <territoryAlias type="052" replacement="BB"/> <!-- Barbados -->
+            <territoryAlias type="050" replacement="BD"/> <!-- Bangladesh -->
+            <territoryAlias type="056" replacement="BE"/> <!-- Belgium -->
+            <territoryAlias type="854" replacement="BF"/> <!-- Burkina Faso -->
+            <territoryAlias type="100" replacement="BG"/> <!-- Bulgaria -->
+            <territoryAlias type="048" replacement="BH"/> <!-- Bahrain -->
+            <territoryAlias type="108" replacement="BI"/> <!-- Burundi -->
+            <territoryAlias type="204" replacement="BJ"/> <!-- Benin -->
+            <territoryAlias type="652" replacement="BL"/> <!-- Saint Barthélemy -->
+            <territoryAlias type="060" replacement="BM"/> <!-- Bermuda -->
+            <territoryAlias type="096" replacement="BN"/> <!-- Brunei -->
+            <territoryAlias type="068" replacement="BO"/> <!-- Bolivia -->
+            <territoryAlias type="076" replacement="BR"/> <!-- Brazil -->
+            <territoryAlias type="044" replacement="BS"/> <!-- Bahamas -->
+            <territoryAlias type="064" replacement="BT"/> <!-- Bhutan -->
+            <territoryAlias type="104" replacement="MM"/> <!-- null -->
+            <territoryAlias type="074" replacement="BV"/> <!-- Bouvet Island -->
+            <territoryAlias type="072" replacement="BW"/> <!-- Botswana -->
+            <territoryAlias type="112" replacement="BY"/> <!-- Belarus -->
+            <territoryAlias type="084" replacement="BZ"/> <!-- Belize -->
+            <territoryAlias type="124" replacement="CA"/> <!-- Canada -->
+            <territoryAlias type="166" replacement="CC"/> <!-- Cocos [Keeling] Islands -->
+            <territoryAlias type="180" replacement="CD"/> <!-- Congo - Kinshasa -->
+            <territoryAlias type="140" replacement="CF"/> <!-- Central African Republic -->
+            <territoryAlias type="178" replacement="CG"/> <!-- Congo - Brazzaville -->
+            <territoryAlias type="756" replacement="CH"/> <!-- Switzerland -->
+            <territoryAlias type="384" replacement="CI"/> <!-- Côte d’Ivoire -->
+            <territoryAlias type="184" replacement="CK"/> <!-- Cook Islands -->
+            <territoryAlias type="152" replacement="CL"/> <!-- Chile -->
+            <territoryAlias type="120" replacement="CM"/> <!-- Cameroon -->
+            <territoryAlias type="156" replacement="CN"/> <!-- China -->
+            <territoryAlias type="170" replacement="CO"/> <!-- Colombia -->
+            <territoryAlias type="188" replacement="CR"/> <!-- Costa Rica -->
+            <territoryAlias type="891" replacement="CS"/> <!-- Serbia and Montenegro -->
+            <territoryAlias type="192" replacement="CU"/> <!-- Cuba -->
+            <territoryAlias type="132" replacement="CV"/> <!-- Cape Verde -->
+            <territoryAlias type="162" replacement="CX"/> <!-- Christmas Island -->
+            <territoryAlias type="196" replacement="CY"/> <!-- Cyprus -->
+            <territoryAlias type="203" replacement="CZ"/> <!-- Czech Republic -->
+            <territoryAlias type="278" replacement="DD"/> <!-- East Germany -->
+            <territoryAlias type="276" replacement="DE"/> <!-- Germany -->
+            <territoryAlias type="262" replacement="DJ"/> <!-- Djibouti -->
+            <territoryAlias type="208" replacement="DK"/> <!-- Denmark -->
+            <territoryAlias type="212" replacement="DM"/> <!-- Dominica -->
+            <territoryAlias type="214" replacement="DO"/> <!-- Dominican Republic -->
+            <territoryAlias type="012" replacement="DZ"/> <!-- Algeria -->
+            <territoryAlias type="218" replacement="EC"/> <!-- Ecuador -->
+            <territoryAlias type="233" replacement="EE"/> <!-- Estonia -->
+            <territoryAlias type="818" replacement="EG"/> <!-- Egypt -->
+            <territoryAlias type="732" replacement="EH"/> <!-- Western Sahara -->
+            <territoryAlias type="232" replacement="ER"/> <!-- Eritrea -->
+            <territoryAlias type="724" replacement="ES"/> <!-- Spain -->
+            <territoryAlias type="231" replacement="ET"/> <!-- Ethiopia -->
+            <territoryAlias type="246" replacement="FI"/> <!-- Finland -->
+            <territoryAlias type="242" replacement="FJ"/> <!-- Fiji -->
+            <territoryAlias type="238" replacement="FK"/> <!-- Falkland Islands -->
+            <territoryAlias type="583" replacement="FM"/> <!-- Micronesia -->
+            <territoryAlias type="234" replacement="FO"/> <!-- Faroe Islands -->
+            <territoryAlias type="250" replacement="FR"/> <!-- France -->
+            <territoryAlias type="249" replacement="FX"/> <!-- Metropolitan France -->
+            <territoryAlias type="266" replacement="GA"/> <!-- Gabon -->
+            <territoryAlias type="826" replacement="GB"/> <!-- United Kingdom -->
+            <territoryAlias type="308" replacement="GD"/> <!-- Grenada -->
+            <territoryAlias type="268" replacement="GE"/> <!-- Georgia -->
+            <territoryAlias type="254" replacement="GF"/> <!-- French Guiana -->
+            <territoryAlias type="831" replacement="GG"/> <!-- Guernsey -->
+            <territoryAlias type="288" replacement="GH"/> <!-- Ghana -->
+            <territoryAlias type="292" replacement="GI"/> <!-- Gibraltar -->
+            <territoryAlias type="304" replacement="GL"/> <!-- Greenland -->
+            <territoryAlias type="270" replacement="GM"/> <!-- Gambia -->
+            <territoryAlias type="324" replacement="GN"/> <!-- Guinea -->
+            <territoryAlias type="312" replacement="GP"/> <!-- Guadeloupe -->
+            <territoryAlias type="226" replacement="GQ"/> <!-- Equatorial Guinea -->
+            <territoryAlias type="300" replacement="GR"/> <!-- Greece -->
+            <territoryAlias type="239" replacement="GS"/> <!-- South Georgia and the South Sandwich Islands -->
+            <territoryAlias type="320" replacement="GT"/> <!-- Guatemala -->
+            <territoryAlias type="316" replacement="GU"/> <!-- Guam -->
+            <territoryAlias type="624" replacement="GW"/> <!-- Guinea-Bissau -->
+            <territoryAlias type="328" replacement="GY"/> <!-- Guyana -->
+            <territoryAlias type="344" replacement="HK"/> <!-- Hong Kong SAR China -->
+            <territoryAlias type="334" replacement="HM"/> <!-- Heard Island and McDonald Islands -->
+            <territoryAlias type="340" replacement="HN"/> <!-- Honduras -->
+            <territoryAlias type="191" replacement="HR"/> <!-- Croatia -->
+            <territoryAlias type="332" replacement="HT"/> <!-- Haiti -->
+            <territoryAlias type="348" replacement="HU"/> <!-- Hungary -->
+            <territoryAlias type="360" replacement="ID"/> <!-- Indonesia -->
+            <territoryAlias type="372" replacement="IE"/> <!-- Ireland -->
+            <territoryAlias type="376" replacement="IL"/> <!-- Israel -->
+            <territoryAlias type="833" replacement="IM"/> <!-- Isle of Man -->
+            <territoryAlias type="356" replacement="IN"/> <!-- India -->
+            <territoryAlias type="086" replacement="IO"/> <!-- British Indian Ocean Territory -->
+            <territoryAlias type="368" replacement="IQ"/> <!-- Iraq -->
+            <territoryAlias type="364" replacement="IR"/> <!-- Iran -->
+            <territoryAlias type="352" replacement="IS"/> <!-- Iceland -->
+            <territoryAlias type="380" replacement="IT"/> <!-- Italy -->
+            <territoryAlias type="832" replacement="JE"/> <!-- Jersey -->
+            <territoryAlias type="388" replacement="JM"/> <!-- Jamaica -->
+            <territoryAlias type="400" replacement="JO"/> <!-- Jordan -->
+            <territoryAlias type="392" replacement="JP"/> <!-- Japan -->
+            <territoryAlias type="404" replacement="KE"/> <!-- Kenya -->
+            <territoryAlias type="417" replacement="KG"/> <!-- Kyrgyzstan -->
+            <territoryAlias type="116" replacement="KH"/> <!-- Cambodia -->
+            <territoryAlias type="296" replacement="KI"/> <!-- Kiribati -->
+            <territoryAlias type="174" replacement="KM"/> <!-- Comoros -->
+            <territoryAlias type="659" replacement="KN"/> <!-- Saint Kitts and Nevis -->
+            <territoryAlias type="408" replacement="KP"/> <!-- North Korea -->
+            <territoryAlias type="410" replacement="KR"/> <!-- South Korea -->
+            <territoryAlias type="414" replacement="KW"/> <!-- Kuwait -->
+            <territoryAlias type="136" replacement="KY"/> <!-- Cayman Islands -->
+            <territoryAlias type="398" replacement="KZ"/> <!-- Kazakhstan -->
+            <territoryAlias type="418" replacement="LA"/> <!-- Laos -->
+            <territoryAlias type="422" replacement="LB"/> <!-- Lebanon -->
+            <territoryAlias type="662" replacement="LC"/> <!-- Saint Lucia -->
+            <territoryAlias type="438" replacement="LI"/> <!-- Liechtenstein -->
+            <territoryAlias type="144" replacement="LK"/> <!-- Sri Lanka -->
+            <territoryAlias type="430" replacement="LR"/> <!-- Liberia -->
+            <territoryAlias type="426" replacement="LS"/> <!-- Lesotho -->
+            <territoryAlias type="440" replacement="LT"/> <!-- Lithuania -->
+            <territoryAlias type="442" replacement="LU"/> <!-- Luxembourg -->
+            <territoryAlias type="428" replacement="LV"/> <!-- Latvia -->
+            <territoryAlias type="434" replacement="LY"/> <!-- Libya -->
+            <territoryAlias type="504" replacement="MA"/> <!-- Morocco -->
+            <territoryAlias type="492" replacement="MC"/> <!-- Monaco -->
+            <territoryAlias type="498" replacement="MD"/> <!-- Moldova -->
+            <territoryAlias type="499" replacement="ME"/> <!-- Montenegro -->
+            <territoryAlias type="663" replacement="MF"/> <!-- Saint Martin -->
+            <territoryAlias type="450" replacement="MG"/> <!-- Madagascar -->
+            <territoryAlias type="584" replacement="MH"/> <!-- Marshall Islands -->
+            <territoryAlias type="807" replacement="MK"/> <!-- Macedonia -->
+            <territoryAlias type="466" replacement="ML"/> <!-- Mali -->
+            <territoryAlias type="104" replacement="MM"/> <!-- Myanmar [Burma] -->
+            <territoryAlias type="496" replacement="MN"/> <!-- Mongolia -->
+            <territoryAlias type="446" replacement="MO"/> <!-- Macau SAR China -->
+            <territoryAlias type="580" replacement="MP"/> <!-- Northern Mariana Islands -->
+            <territoryAlias type="474" replacement="MQ"/> <!-- Martinique -->
+            <territoryAlias type="478" replacement="MR"/> <!-- Mauritania -->
+            <territoryAlias type="500" replacement="MS"/> <!-- Montserrat -->
+            <territoryAlias type="470" replacement="MT"/> <!-- Malta -->
+            <territoryAlias type="480" replacement="MU"/> <!-- Mauritius -->
+            <territoryAlias type="462" replacement="MV"/> <!-- Maldives -->
+            <territoryAlias type="454" replacement="MW"/> <!-- Malawi -->
+            <territoryAlias type="484" replacement="MX"/> <!-- Mexico -->
+            <territoryAlias type="458" replacement="MY"/> <!-- Malaysia -->
+            <territoryAlias type="508" replacement="MZ"/> <!-- Mozambique -->
+            <territoryAlias type="516" replacement="NA"/> <!-- Namibia -->
+            <territoryAlias type="540" replacement="NC"/> <!-- New Caledonia -->
+            <territoryAlias type="562" replacement="NE"/> <!-- Niger -->
+            <territoryAlias type="574" replacement="NF"/> <!-- Norfolk Island -->
+            <territoryAlias type="566" replacement="NG"/> <!-- Nigeria -->
+            <territoryAlias type="558" replacement="NI"/> <!-- Nicaragua -->
+            <territoryAlias type="528" replacement="NL"/> <!-- Netherlands -->
+            <territoryAlias type="578" replacement="NO"/> <!-- Norway -->
+            <territoryAlias type="524" replacement="NP"/> <!-- Nepal -->
+            <territoryAlias type="520" replacement="NR"/> <!-- Nauru -->
+            <territoryAlias type="536" replacement="NT"/> <!-- Neutral Zone -->
+            <territoryAlias type="570" replacement="NU"/> <!-- Niue -->
+            <territoryAlias type="554" replacement="NZ"/> <!-- New Zealand -->
+            <territoryAlias type="512" replacement="OM"/> <!-- Oman -->
+            <territoryAlias type="591" replacement="PA"/> <!-- Panama -->
+            <territoryAlias type="604" replacement="PE"/> <!-- Peru -->
+            <territoryAlias type="258" replacement="PF"/> <!-- French Polynesia -->
+            <territoryAlias type="598" replacement="PG"/> <!-- Papua New Guinea -->
+            <territoryAlias type="608" replacement="PH"/> <!-- Philippines -->
+            <territoryAlias type="586" replacement="PK"/> <!-- Pakistan -->
+            <territoryAlias type="616" replacement="PL"/> <!-- Poland -->
+            <territoryAlias type="666" replacement="PM"/> <!-- Saint Pierre and Miquelon -->
+            <territoryAlias type="612" replacement="PN"/> <!-- Pitcairn Islands -->
+            <territoryAlias type="630" replacement="PR"/> <!-- Puerto Rico -->
+            <territoryAlias type="275" replacement="PS"/> <!-- Palestinian Territories -->
+            <territoryAlias type="620" replacement="PT"/> <!-- Portugal -->
+            <territoryAlias type="585" replacement="PW"/> <!-- Palau -->
+            <territoryAlias type="600" replacement="PY"/> <!-- Paraguay -->
+            <territoryAlias type="634" replacement="QA"/> <!-- Qatar -->
+            <territoryAlias type="959" replacement="QM"/> <!-- null -->
+            <territoryAlias type="960" replacement="QN"/> <!-- null -->
+            <territoryAlias type="962" replacement="QP"/> <!-- null -->
+            <territoryAlias type="963" replacement="QQ"/> <!-- null -->
+            <territoryAlias type="964" replacement="QR"/> <!-- null -->
+            <territoryAlias type="965" replacement="QS"/> <!-- null -->
+            <territoryAlias type="966" replacement="QT"/> <!-- null -->
+            <territoryAlias type="968" replacement="QV"/> <!-- null -->
+            <territoryAlias type="969" replacement="QW"/> <!-- null -->
+            <territoryAlias type="970" replacement="QX"/> <!-- null -->
+            <territoryAlias type="971" replacement="QY"/> <!-- null -->
+            <territoryAlias type="972" replacement="QZ"/> <!-- null -->
+            <territoryAlias type="638" replacement="RE"/> <!-- Réunion -->
+            <territoryAlias type="642" replacement="RO"/> <!-- Romania -->
+            <territoryAlias type="688" replacement="RS"/> <!-- Serbia -->
+            <territoryAlias type="643" replacement="RU"/> <!-- Russia -->
+            <territoryAlias type="646" replacement="RW"/> <!-- Rwanda -->
+            <territoryAlias type="682" replacement="SA"/> <!-- Saudi Arabia -->
+            <territoryAlias type="090" replacement="SB"/> <!-- Solomon Islands -->
+            <territoryAlias type="690" replacement="SC"/> <!-- Seychelles -->
+            <territoryAlias type="736" replacement="SD"/> <!-- Sudan -->
+            <territoryAlias type="752" replacement="SE"/> <!-- Sweden -->
+            <territoryAlias type="702" replacement="SG"/> <!-- Singapore -->
+            <territoryAlias type="654" replacement="SH"/> <!-- Saint Helena -->
+            <territoryAlias type="705" replacement="SI"/> <!-- Slovenia -->
+            <territoryAlias type="744" replacement="SJ"/> <!-- Svalbard and Jan Mayen -->
+            <territoryAlias type="703" replacement="SK"/> <!-- Slovakia -->
+            <territoryAlias type="694" replacement="SL"/> <!-- Sierra Leone -->
+            <territoryAlias type="674" replacement="SM"/> <!-- San Marino -->
+            <territoryAlias type="686" replacement="SN"/> <!-- Senegal -->
+            <territoryAlias type="706" replacement="SO"/> <!-- Somalia -->
+            <territoryAlias type="740" replacement="SR"/> <!-- Suriname -->
+            <territoryAlias type="678" replacement="ST"/> <!-- São Tomé and Príncipe -->
+            <territoryAlias type="810" replacement="SU"/> <!-- Union of Soviet Socialist Republics -->
+            <territoryAlias type="222" replacement="SV"/> <!-- El Salvador -->
+            <territoryAlias type="760" replacement="SY"/> <!-- Syria -->
+            <territoryAlias type="748" replacement="SZ"/> <!-- Swaziland -->
+            <territoryAlias type="796" replacement="TC"/> <!-- Turks and Caicos Islands -->
+            <territoryAlias type="148" replacement="TD"/> <!-- Chad -->
+            <territoryAlias type="260" replacement="TF"/> <!-- French Southern Territories -->
+            <territoryAlias type="768" replacement="TG"/> <!-- Togo -->
+            <territoryAlias type="764" replacement="TH"/> <!-- Thailand -->
+            <territoryAlias type="762" replacement="TJ"/> <!-- Tajikistan -->
+            <territoryAlias type="772" replacement="TK"/> <!-- Tokelau -->
+            <territoryAlias type="626" replacement="TL"/> <!-- Timor-Leste -->
+            <territoryAlias type="795" replacement="TM"/> <!-- Turkmenistan -->
+            <territoryAlias type="788" replacement="TN"/> <!-- Tunisia -->
+            <territoryAlias type="776" replacement="TO"/> <!-- Tonga -->
+            <territoryAlias type="626" replacement="TL"/> <!-- null -->
+            <territoryAlias type="792" replacement="TR"/> <!-- Turkey -->
+            <territoryAlias type="780" replacement="TT"/> <!-- Trinidad and Tobago -->
+            <territoryAlias type="798" replacement="TV"/> <!-- Tuvalu -->
+            <territoryAlias type="158" replacement="TW"/> <!-- Taiwan -->
+            <territoryAlias type="834" replacement="TZ"/> <!-- Tanzania -->
+            <territoryAlias type="804" replacement="UA"/> <!-- Ukraine -->
+            <territoryAlias type="800" replacement="UG"/> <!-- Uganda -->
+            <territoryAlias type="581" replacement="UM"/> <!-- U.S. Minor Outlying Islands -->
+            <territoryAlias type="840" replacement="US"/> <!-- United States -->
+            <territoryAlias type="858" replacement="UY"/> <!-- Uruguay -->
+            <territoryAlias type="860" replacement="UZ"/> <!-- Uzbekistan -->
+            <territoryAlias type="336" replacement="VA"/> <!-- Vatican City -->
+            <territoryAlias type="670" replacement="VC"/> <!-- Saint Vincent and the Grenadines -->
+            <territoryAlias type="862" replacement="VE"/> <!-- Venezuela -->
+            <territoryAlias type="092" replacement="VG"/> <!-- British Virgin Islands -->
+            <territoryAlias type="850" replacement="VI"/> <!-- U.S. Virgin Islands -->
+            <territoryAlias type="704" replacement="VN"/> <!-- Vietnam -->
+            <territoryAlias type="548" replacement="VU"/> <!-- Vanuatu -->
+            <territoryAlias type="876" replacement="WF"/> <!-- Wallis and Futuna -->
+            <territoryAlias type="882" replacement="WS"/> <!-- Samoa -->
+            <territoryAlias type="973" replacement="XA"/> <!-- null -->
+            <territoryAlias type="974" replacement="XB"/> <!-- null -->
+            <territoryAlias type="975" replacement="XC"/> <!-- null -->
+            <territoryAlias type="976" replacement="XD"/> <!-- null -->
+            <territoryAlias type="977" replacement="XE"/> <!-- null -->
+            <territoryAlias type="978" replacement="XF"/> <!-- null -->
+            <territoryAlias type="979" replacement="XG"/> <!-- null -->
+            <territoryAlias type="980" replacement="XH"/> <!-- null -->
+            <territoryAlias type="981" replacement="XI"/> <!-- null -->
+            <territoryAlias type="982" replacement="XJ"/> <!-- null -->
+            <territoryAlias type="983" replacement="XK"/> <!-- null -->
+            <territoryAlias type="984" replacement="XL"/> <!-- null -->
+            <territoryAlias type="985" replacement="XM"/> <!-- null -->
+            <territoryAlias type="986" replacement="XN"/> <!-- null -->
+            <territoryAlias type="987" replacement="XO"/> <!-- null -->
+            <territoryAlias type="988" replacement="XP"/> <!-- null -->
+            <territoryAlias type="989" replacement="XQ"/> <!-- null -->
+            <territoryAlias type="990" replacement="XR"/> <!-- null -->
+            <territoryAlias type="991" replacement="XS"/> <!-- null -->
+            <territoryAlias type="992" replacement="XT"/> <!-- null -->
+            <territoryAlias type="993" replacement="XU"/> <!-- null -->
+            <territoryAlias type="994" replacement="XV"/> <!-- null -->
+            <territoryAlias type="995" replacement="XW"/> <!-- null -->
+            <territoryAlias type="996" replacement="XX"/> <!-- null -->
+            <territoryAlias type="997" replacement="XY"/> <!-- null -->
+            <territoryAlias type="998" replacement="XZ"/> <!-- null -->
+            <territoryAlias type="720" replacement="YD"/> <!-- People's Democratic Republic of Yemen -->
+            <territoryAlias type="887" replacement="YE"/> <!-- Yemen -->
+            <territoryAlias type="175" replacement="YT"/> <!-- Mayotte -->
+            <territoryAlias type="891" replacement="CS"/> <!-- null -->
+            <territoryAlias type="710" replacement="ZA"/> <!-- South Africa -->
+            <territoryAlias type="894" replacement="ZM"/> <!-- Zambia -->
+            <territoryAlias type="180" replacement="CD"/> <!-- null -->
+            <territoryAlias type="716" replacement="ZW"/> <!-- Zimbabwe -->
+            <territoryAlias type="999" replacement="ZZ"/> <!-- Unknown or Invalid Region -->
+            <!-- variants -->
             <variantAlias type="BOKMAL"/>
             <variantAlias type="no_BOKMAL" replacement="nb"/>
             <variantAlias type="NYNORSK"/>
@@ -670,13 +1461,15 @@
         </alias>
         <deprecated>
             <!-- items deprecated in ldml.dtd -->
-            <deprecatedItems elements="monthNames monthAbbr localizedPatternChars week minDays firstDay weekendStart weekendEnd yesexpr noexpr localizedPatternChars"/>
+            <deprecatedItems elements="monthNames monthAbbr localizedPatternChars week minDays firstDay weekendStart weekendEnd yesexpr noexpr measurement hoursFormat abbreviationFallback preferenceOrdering dateRangePattern"/>
             <deprecatedItems attributes="standard count time"/>
             <deprecatedItems elements="variant" attributes="type" values="BOKMAL NYNORSK AALAND POLYTONI"/>
             <deprecatedItems elements="abbreviationFallback default hoursFormat localizedPatternChars mapping measurementSystem preferenceOrdering" attributes="type"/>
             <deprecatedItems type="supplemental" elements="alternate"/>
             <deprecatedItems type="supplemental" elements="calendar" attributes="territories"/>
             <deprecatedItems attributes="draft" values="true false"/>
+            <deprecatedItems type="supplemental" elements="bcp47KeywordMappings mapKeys mapTypes keyMap typeMap"/>
+            <deprecatedItems elements="cldrVersion"/>
         </deprecated>
         <distinguishing>
              <distinguishingItems attributes="key request id _q registry alt iso4217 iso3166 mzone from to type"/>
@@ -712,31 +1505,36 @@
         </coverageAdditions>
         <skipDefaultLocale services="segmentation collation"/>
 		<defaultContent locales="
-			aa_ET af_ZA ak_GH am_ET ar_EG as_IN az_Cyrl_AZ az_Latn az_Latn_AZ
-			be_BY bg_BG bn_BD bo_CN bs_BA
-			ca_ES cs_CZ cy_GB
-			da_DK de_DE dv_MV dz_BT
-			ee_GH el_GR en_Dsrt_US en_US es_ES et_EE eu_ES
-			fa_IR fi_FI fil_PH fo_FO fr_FR fur_IT
-			ga_IE gaa_GH gl_ES gsw_CH gu_IN
+			aa_ET af_ZA ak_GH am_ET ar_EG as_IN asa_TZ az_Arab_IR az_Cyrl_AZ az_Latn
+			az_Latn_AZ
+			be_BY bem_ZM bez_TZ bg_BG bm_ML bn_BD bo_CN br_FR bs_BA
+			ca_ES cch_NG cgg_UG chr_US cs_CZ cy_GB
+			da_DK dav_KE de_DE dv_MV dz_BT
+			ebu_KE ee_GH el_GR en_Dsrt_US en_US es_ES et_EE eu_ES
+			fa_IR ff_SN fi_FI fil_PH fo_FO fr_FR fur_IT
+			ga_IE gaa_GH gez_ET gl_ES gsw_CH gu_IN guz_KE gv_GB
 			ha_Arab_SD ha_Latn ha_Latn_NG haw_US he_IL hi_IN hr_HR hu_HU hy_AM
 			id_ID ig_NG ii_CN is_IS it_IT
-			ja_JP
-			ka_GE kaj_NG kam_KE kk_Cyrl kk_Cyrl_KZ kl_GL km_KH kn_IN ko_KR kok_IN kpe_LR
-			ku_Arab ku_Arab_IQ ku_Latn_TR ky_KG
-			ln_CD lo_LA lt_LT lv_LV
-			mk_MK ml_IN mn_Cyrl mn_Cyrl_MN mn_Mong_CN mr_IN ms_MY mt_MT my_MM
-			nb_NO nds_DE ne_NP nl_NL nn_NO nr_ZA nso_ZA ny_MW
+			ja_JP jmc_TZ
+			ka_GE kab_DZ kaj_NG kam_KE kcg_NG kde_TZ kea_CV kfo_CI khq_ML ki_KE kk_Cyrl
+			kk_Cyrl_KZ kl_GL kln_KE km_KH kn_IN ko_KR kok_IN kpe_LR ksb_TZ ksh_DE ku_Arab
+			ku_Arab_IQ ku_Latn_TR kw_GB ky_KG
+			lag_TZ lg_UG ln_CD lo_LA lt_LT luo_KE luy_KE lv_LV
+			mas_KE mer_KE mfe_MU mg_MG mi_NZ mk_MK ml_IN mn_Cyrl mn_Cyrl_MN mn_Mong_CN
+			mr_IN ms_MY mt_MT my_MM
+			naq_NA nb_NO nd_ZW nds_DE ne_NP nl_NL nn_NO nr_ZA nso_ZA ny_MW nyn_UG
 			oc_FR om_ET or_IN
 			pa_Arab_PK pa_Guru pa_Guru_IN pl_PL ps_AF pt_BR
-			ro_RO ru_RU rw_RW
-			sa_IN se_NO si_LK sid_ET sk_SK sl_SI so_SO sq_AL sr_Cyrl sr_Cyrl_RS sr_Latn_RS
-			ss_ZA ssy_ER st_ZA sv_SE sw_TZ
-			ta_IN te_IN tg_Cyrl tg_Cyrl_TJ th_TH ti_ET tig_ER tn_ZA to_TO tr_TR trv_TW ts_ZA tt_RU
+			rm_CH ro_RO rof_TZ ru_RU rw_RW rwk_TZ
+			sa_IN saq_KE se_NO seh_MZ ses_ML sg_CF shi_Latn shi_Latn_MA shi_Tfng_MA si_LK
+			sid_ET sk_SK sl_SI sn_ZW so_SO sq_AL sr_Cyrl sr_Cyrl_RS sr_Latn_RS ss_ZA ssy_ER
+			st_ZA sv_SE sw_TZ
+			ta_IN te_IN teo_UG tg_Cyrl tg_Cyrl_TJ th_TH ti_ET tig_ER tn_ZA to_TO tr_TR
+			trv_TW ts_ZA tt_RU tzm_Latn tzm_Latn_MA
 			ug_Arab ug_Arab_CN uk_UA ur_PK uz_Arab_AF uz_Cyrl uz_Cyrl_UZ uz_Latn_UZ
-			ve_ZA vi_VN
+			ve_ZA vi_VN vun_TZ
 			wal_ET wo_Latn wo_Latn_SN
-			xh_ZA
+			xh_ZA xog_UG
 			yo_NG
 			zh_Hans zh_Hans_CN zh_Hant_TW zu_ZA"
 		/>

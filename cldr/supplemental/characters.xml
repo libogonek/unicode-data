@@ -3,7 +3,7 @@
 
 <supplementalData>
 	<version number="$Revision: 4124 $"/>
-	<generation date="$Date: 2009-05-05 19:15:57 -0400 (Tue, 05 May 2009) $"/>
+	<generation date="$Date: 2009-05-05 18:15:57 -0500 (Tue, 05 May 2009) $"/>
 	<characters>
 		<character-fallback>
 			<character value = "©">

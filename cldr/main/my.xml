@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4179 $"/>
-		<generation date="$Date: 2009-06-15 00:15:33 -0400 (Mon, 15 Jun 2009) $"/>
+		<version number="$Revision: 4770 $"/>
+		<generation date="$Date: 2010-02-27 23:27:39 -0600 (Sat, 27 Feb 2010) $"/>
 		<language type="my"/>
 	</identity>
 	<localeDisplayNames>
@@ -274,6 +274,7 @@
 			<territory type="EH" draft="provisional">အနောက်ပိုင်း ဆာဟာရ</territory>
 			<territory type="ES" draft="provisional">စပိန်</territory>
 			<territory type="ET" draft="provisional">အီသီယိုးပီးယား</territory>
+			<territory type="EU" draft="provisional">ဥရောပသမဂ္ဂ</territory>
 			<territory type="FI" draft="provisional">ဖင်လန်</territory>
 			<territory type="FJ" draft="provisional">ဖီဂျီ</territory>
 			<territory type="FK" draft="provisional">ဖောက်ကလန် ကျွန်းစု</territory>
@@ -365,7 +366,6 @@
 			<territory type="PT" draft="provisional">ပေါ်တူဂီ</territory>
 			<territory type="PY" draft="provisional">ပါရာဂွေး</territory>
 			<territory type="QA" draft="provisional">ကာတာ</territory>
-			<territory type="QU" draft="provisional">ဥရောပသမဂ္ဂ</territory>
 			<territory type="RO" draft="provisional">ရိုမေးနီးယား</territory>
 			<territory type="RS" draft="provisional">ဆားဘီးယား</territory>
 			<territory type="RU" draft="provisional">ရုရှ</territory>
@@ -448,9 +448,10 @@
 		</codePatterns>
 	</localeDisplayNames>
 	<characters>
-		<exemplarCharacters>[က-အ ဣ-ဧ ဩ ဪ]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary" draft="provisional">[\u1036-း ျ-\u103E ာ ါ \u102D-\u1032 \u1039 \u103A]</exemplarCharacters>
-		<exemplarCharacters type="currencySymbol" draft="unconfirmed">[a-z]</exemplarCharacters>
+		<exemplarCharacters>[က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ဣ ဤ ဥ ဦ ဧ ဩ ဪ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="provisional">[\u1036 \u1037 း ျ ြ \u103D \u103E ာ ါ \u102D \u102E \u102F \u1030 ေ \u1032 \u1039 \u103A]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol" draft="unconfirmed">[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="contributed">[က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ]</exemplarCharacters>
 	</characters>
 	<delimiters>
 		<quotationStart draft="unconfirmed">“</quotationStart>
@@ -558,28 +559,22 @@
 						</quarterWidth>
 					</quarterContext>
 					<quarterContext type="stand-alone">
-						<quarterWidth type="abbreviated">
-							<quarter type="1" draft="provisional">ပ-စိတ်</quarter>
-							<quarter type="2" draft="provisional">ဒု-စိတ်</quarter>
-							<quarter type="3" draft="provisional">တ-စိတ်</quarter>
-							<quarter type="4" draft="provisional">စ-စိတ်</quarter>
-						</quarterWidth>
 						<quarterWidth type="narrow">
 							<quarter type="1" draft="provisional">ပ</quarter>
 							<quarter type="2" draft="provisional">ဒု</quarter>
 							<quarter type="3" draft="provisional">တ</quarter>
 							<quarter type="4" draft="provisional">စ</quarter>
 						</quarterWidth>
-						<quarterWidth type="wide">
-							<quarter type="1" draft="provisional">ပထမ သုံးလပတ်</quarter>
-							<quarter type="2" draft="provisional">ဒုတိယ သုံးလပတ်</quarter>
-							<quarter type="3" draft="provisional">တတိယ သုံးလပတ်</quarter>
-							<quarter type="4" draft="provisional">စတုတ္ထ သုံးလပတ်</quarter>
-						</quarterWidth>
 					</quarterContext>
 				</quarters>
-				<am draft="provisional">နံနက်</am>
-				<pm draft="provisional">ညနေ</pm>
+				<dayPeriods>
+					<dayPeriodContext type="format">
+						<dayPeriodWidth type="wide">
+							<dayPeriod type="am" draft="provisional">နံနက်</dayPeriod>
+							<dayPeriod type="pm" draft="provisional">ညနေ</dayPeriod>
+						</dayPeriodWidth>
+					</dayPeriodContext>
+				</dayPeriods>
 				<eras>
 					<eraNames>
 						<era type="0" draft="provisional">ခရစ်တော် မပေါ်မီကာလ</era>
@@ -663,22 +658,40 @@
 							<greatestDifference id="d" draft="unconfirmed">d-d</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
+							<greatestDifference id="a" draft="unconfirmed">h a - h a</greatestDifference>
+							<greatestDifference id="h" draft="unconfirmed">h-h a</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="H">
 							<greatestDifference id="a" draft="unconfirmed">HH-HH</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">HH-HH</greatestDifference>
+							<greatestDifference id="H" draft="unconfirmed">HH-HH</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hm">
+							<greatestDifference id="a" draft="unconfirmed">h:mm a - h:mm a</greatestDifference>
+							<greatestDifference id="h" draft="unconfirmed">h:mm-h:mm a</greatestDifference>
+							<greatestDifference id="m" draft="unconfirmed">h:mm-h:mm a</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Hm">
 							<greatestDifference id="a" draft="unconfirmed">HH:mm-HH:mm</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">HH:mm-HH:mm</greatestDifference>
+							<greatestDifference id="H" draft="unconfirmed">HH:mm-HH:mm</greatestDifference>
 							<greatestDifference id="m" draft="unconfirmed">HH:mm-HH:mm</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hmv">
+							<greatestDifference id="a" draft="unconfirmed">h:mm a - h:mm a v</greatestDifference>
+							<greatestDifference id="h" draft="unconfirmed">h:mm-h:mm a v</greatestDifference>
+							<greatestDifference id="m" draft="unconfirmed">h:mm-h:mm a v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Hmv">
 							<greatestDifference id="a" draft="unconfirmed">HH:mm-HH:mm v</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">HH:mm-HH:mm v</greatestDifference>
+							<greatestDifference id="H" draft="unconfirmed">HH:mm-HH:mm v</greatestDifference>
 							<greatestDifference id="m" draft="unconfirmed">HH:mm-HH:mm v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hv">
+							<greatestDifference id="a" draft="unconfirmed">h a - h a v</greatestDifference>
+							<greatestDifference id="h" draft="unconfirmed">h-h a v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Hv">
 							<greatestDifference id="a" draft="unconfirmed">HH-HH v</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">HH-HH v</greatestDifference>
+							<greatestDifference id="H" draft="unconfirmed">HH-HH v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="M">
 							<greatestDifference id="M" draft="unconfirmed">M-M</greatestDifference>
@@ -763,7 +776,6 @@
 		</calendars>
 		<timeZoneNames>
 			<hourFormat draft="provisional">+HH:mm;-HH:mm</hourFormat>
-			<gmtFormat draft="unconfirmed">GMT{0}</gmtFormat>
 			<regionFormat draft="provisional">{0} အချိန်</regionFormat>
 			<zone type="Etc/Unknown">
 				<exemplarCity draft="provisional">မသိသော</exemplarCity>
@@ -1255,9 +1267,9 @@
 			<decimal draft="unconfirmed">.</decimal>
 			<group draft="unconfirmed">,</group>
 			<list draft="unconfirmed">;</list>
-			<list alt="mymr" draft="unconfirmed">၊</list>
+			<list draft="unconfirmed" numberSystem="mymr">၊</list>
 			<nativeZeroDigit draft="unconfirmed">0</nativeZeroDigit>
-			<nativeZeroDigit alt="mymr" draft="unconfirmed">၀</nativeZeroDigit>
+			<nativeZeroDigit draft="unconfirmed" numberSystem="mymr">၀</nativeZeroDigit>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>

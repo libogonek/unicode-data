@@ -2,11 +2,11 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4126 $"/>
-		<generation date="$Date: 2009-05-05 19:33:13 -0400 (Tue, 05 May 2009) $"/>
+		<version number="$Revision: 4208 $"/>
+		<generation date="$Date: 2009-07-03 13:17:21 -0500 (Fri, 03 Jul 2009) $"/>
 		<language type="root" /> 
 	</identity>
-		<collations validSubLocales="ga ga_IE id id_ID ms ms_BN ms_MY nl nl_BE nl_NL pt pt_BR pt_PT">
+		<collations validSubLocales="ga ga_IE id id_ID ka ka_GE ms ms_BN ms_MY nl nl_BE nl_NL pt pt_BR pt_PT st st_LS st_ZA xh xh_ZA zu zu_ZA">
 			<default type="standard"/>
 			<collation type="standard" >
 			</collation  >
