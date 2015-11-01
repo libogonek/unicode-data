@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.50 $"/>
-		<generation date="$Date: 2009/05/05 23:06:39 $"/>
+		<version number="$Revision: 1.52 $"/>
+		<generation date="$Date: 2009/06/15 04:15:33 $"/>
 		<language type="sa"/>
 	</identity>
 	<localeDisplayNames>
@@ -100,8 +100,8 @@
 				</timeFormats>
 				<dateTimeFormats>
 					<availableFormats>
-						<dateFormatItem id="MMMMd" draft="unconfirmed">d MMMM</dateFormatItem>
 						<dateFormatItem id="MMdd" draft="unconfirmed">dd-MM</dateFormatItem>
+						<dateFormatItem id="MMMMd" draft="unconfirmed">d MMMM</dateFormatItem>
 						<dateFormatItem id="yyQ" draft="unconfirmed">Q yy</dateFormatItem>
 						<dateFormatItem id="yyyyMM" draft="unconfirmed">MM-yyyy</dateFormatItem>
 						<dateFormatItem id="yyyyMMMM" draft="unconfirmed">MMMM y</dateFormatItem>
@@ -118,7 +118,8 @@
 	<numbers>
 		<defaultNumberingSystem>deva</defaultNumberingSystem>
 		<symbols>
-			<nativeZeroDigit>०</nativeZeroDigit>
+			<nativeZeroDigit>0</nativeZeroDigit>
+			<nativeZeroDigit alt="deva">०</nativeZeroDigit>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>
@@ -148,3 +149,4 @@
 		</currencies>
 	</numbers>
 </ldml>
+

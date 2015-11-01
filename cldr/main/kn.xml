@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.72 $"/>
-		<generation date="$Date: 2009/05/05 23:06:38 $"/>
+		<version number="$Revision: 1.74 $"/>
+		<generation date="$Date: 2009/06/15 04:15:33 $"/>
 		<language type="kn"/>
 	</identity>
 	<localeDisplayNames>
@@ -1105,8 +1105,8 @@
 				</timeFormats>
 				<dateTimeFormats>
 					<availableFormats>
-						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
 						<dateFormatItem id="MMdd">dd-MM</dateFormatItem>
+						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
 						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
 						<dateFormatItem id="yyyyMM">MM-yyyy</dateFormatItem>
 						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
@@ -1123,7 +1123,8 @@
 	<numbers>
 		<defaultNumberingSystem>knda</defaultNumberingSystem>
 		<symbols>
-			<nativeZeroDigit>೦</nativeZeroDigit>
+			<nativeZeroDigit>0</nativeZeroDigit>
+			<nativeZeroDigit alt="knda">೦</nativeZeroDigit>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>
@@ -1162,3 +1163,4 @@
 		<reference type="R090" uri="http://tdil.mit.gov.in/newsIndexOct02.htm">TDIL Vishwabharat Magazine, Oct 2002</reference>
 	</references>
 </ldml>
+

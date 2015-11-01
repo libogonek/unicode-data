@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.84 $"/>
-		<generation date="$Date: 2009/05/05 23:06:38 $"/>
+		<version number="$Revision: 1.86 $"/>
+		<generation date="$Date: 2009/06/15 04:15:33 $"/>
 		<language type="mr"/>
 	</identity>
 	<localeDisplayNames>
@@ -1093,8 +1093,8 @@
 					<availableFormats>
 						<dateFormatItem id="Hm">H-mm</dateFormatItem>
 						<dateFormatItem id="Hms">H-mm-ss</dateFormatItem>
-						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
 						<dateFormatItem id="MMdd">dd-MM</dateFormatItem>
+						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
 						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
 						<dateFormatItem id="yyyyMM">MM-yyyy</dateFormatItem>
 						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
@@ -1156,7 +1156,8 @@
 	<numbers>
 		<defaultNumberingSystem>deva</defaultNumberingSystem>
 		<symbols>
-			<nativeZeroDigit>०</nativeZeroDigit>
+			<nativeZeroDigit>0</nativeZeroDigit>
+			<nativeZeroDigit alt="deva">०</nativeZeroDigit>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>
@@ -1195,3 +1196,4 @@
 		<reference type="R199" uri="http://tdil.mit.gov.in/newsIndexJan02.htm">Govt of India TDIL Magazine, Jan 2002</reference>
 	</references>
 </ldml>
+

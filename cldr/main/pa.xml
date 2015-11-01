@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.75 $"/>
-		<generation date="$Date: 2009/05/05 23:06:38 $"/>
+		<version number="$Revision: 1.76 $"/>
+		<generation date="$Date: 2009/06/15 04:15:33 $"/>
 		<language type="pa"/>
 	</identity>
 	<localeDisplayNames>
@@ -261,7 +261,8 @@
 	<numbers>
 		<defaultNumberingSystem>guru</defaultNumberingSystem>
 		<symbols>
-			<nativeZeroDigit>੦</nativeZeroDigit>
+			<nativeZeroDigit>0</nativeZeroDigit>
+			<nativeZeroDigit alt="guru">੦</nativeZeroDigit>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>

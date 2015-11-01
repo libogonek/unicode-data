@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.44 $"/>
-		<generation date="$Date: 2009/05/05 23:06:36 $"/>
+		<version number="$Revision: 1.45 $"/>
+		<generation date="$Date: 2009/06/15 03:46:25 $"/>
 		<language type="haw"/>
 	</identity>
 	<localeDisplayNames>
@@ -191,8 +191,8 @@
 				</timeFormats>
 				<dateTimeFormats>
 					<availableFormats>
-						<dateFormatItem id="MMMMd" draft="unconfirmed">d MMMM</dateFormatItem>
 						<dateFormatItem id="Md" draft="unconfirmed">d/M</dateFormatItem>
+						<dateFormatItem id="MMMMd" draft="unconfirmed">d MMMM</dateFormatItem>
 						<dateFormatItem id="yyM" draft="unconfirmed">M/yy</dateFormatItem>
 						<dateFormatItem id="yyQ" draft="unconfirmed">Q yy</dateFormatItem>
 						<dateFormatItem id="yyyyMMMM" draft="unconfirmed">MMMM y</dateFormatItem>
@@ -216,3 +216,4 @@
 		</currencyFormats>
 	</numbers>
 </ldml>
+

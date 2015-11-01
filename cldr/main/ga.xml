@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.76 $"/>
-		<generation date="$Date: 2009/05/05 23:06:36 $"/>
+		<version number="$Revision: 1.78 $"/>
+		<generation date="$Date: 2009/06/15 17:12:26 $"/>
 		<language type="ga"/>
 	</identity>
 	<fallback draft="unconfirmed">en_IE</fallback>
@@ -481,8 +481,8 @@
 			<type type="traditional" key="collation" draft="unconfirmed">Ord sórtála traidisiúnta</type>
 		</types>
 		<measurementSystemNames>
-			<measurementSystemName type="US" draft="unconfirmed">Meiriceánach</measurementSystemName>
 			<measurementSystemName type="metric" draft="unconfirmed">Méadrach</measurementSystemName>
+			<measurementSystemName type="US" draft="unconfirmed">Meiriceánach</measurementSystemName>
 		</measurementSystemNames>
 	</localeDisplayNames>
 	<characters>
@@ -658,9 +658,9 @@
 					<availableFormats>
 						<dateFormatItem id="HHmm" draft="unconfirmed">HH:mm</dateFormatItem>
 						<dateFormatItem id="HHmmss" draft="unconfirmed">HH:mm:ss</dateFormatItem>
-						<dateFormatItem id="MMMMd" draft="unconfirmed">d MMMM</dateFormatItem>
-						<dateFormatItem id="MMdd" draft="unconfirmed">dd/MM</dateFormatItem>
 						<dateFormatItem id="Md" draft="unconfirmed">d/M</dateFormatItem>
+						<dateFormatItem id="MMdd" draft="unconfirmed">dd/MM</dateFormatItem>
+						<dateFormatItem id="MMMMd" draft="unconfirmed">d MMMM</dateFormatItem>
 						<dateFormatItem id="mmss" draft="unconfirmed">mm:ss</dateFormatItem>
 						<dateFormatItem id="yyMM" draft="unconfirmed">MM/yy</dateFormatItem>
 						<dateFormatItem id="yyMMM" draft="unconfirmed">MMM yy</dateFormatItem>
@@ -993,7 +993,6 @@
 			</currency>
 			<currency type="GBP">
 				<displayName>Punt Steirling</displayName>
-				<symbol>GB£</symbol>
 			</currency>
 			<currency type="GEK">
 				<displayName>Kupon Larit na Grúise</displayName>
@@ -1057,7 +1056,6 @@
 			</currency>
 			<currency type="IEP">
 				<displayName>Punt Éireannach</displayName>
-				<symbol>£</symbol>
 			</currency>
 			<currency type="ILP">
 				<displayName>Punt Iosraelach</displayName>

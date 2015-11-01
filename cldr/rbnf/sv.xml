@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
     <identity>
-        <version number="$Revision: 1.7 $"/>
-        <generation date="$Date: 2009/05/05 23:33:13 $"/>
+        <version number="$Revision: 1.8 $"/>
+        <generation date="$Date: 2009/06/23 04:54:42 $"/>
         <language type="sv"/>
     </identity>
     <rbnf>
@@ -226,10 +226,10 @@
                 <rbnfrule value="0">=#,##0==%%dord-femabbrev=;</rbnfrule>
             </ruleset>
             <ruleset type="dord-femabbrev" access="private">
-                <rbnfrule value="0">:e</rbnfrule>
-                <rbnfrule value="1">:a</rbnfrule>
-                <rbnfrule value="2">:a</rbnfrule>
-                <rbnfrule value="3">:e</rbnfrule>
+                <rbnfrule value="0">:e;</rbnfrule>
+                <rbnfrule value="1">:a;</rbnfrule>
+                <rbnfrule value="2">:a;</rbnfrule>
+                <rbnfrule value="3">:e;</rbnfrule>
                 <rbnfrule value="20">→→;</rbnfrule>
                 <rbnfrule value="100">→→;</rbnfrule>
             </ruleset>

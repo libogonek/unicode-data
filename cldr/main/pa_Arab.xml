@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.24 $"/>
-		<generation date="$Date: 2009/05/05 23:06:39 $"/>
+		<version number="$Revision: 1.25 $"/>
+		<generation date="$Date: 2009/06/15 04:15:33 $"/>
 		<language type="pa"/>
 		<script type="Arab"/>
 	</identity>
@@ -108,7 +108,8 @@
 	<numbers>
 		<defaultNumberingSystem>arab</defaultNumberingSystem>
 		<symbols>
-			<nativeZeroDigit>٠</nativeZeroDigit>
+			<nativeZeroDigit>0</nativeZeroDigit>
+			<nativeZeroDigit alt="arab">٠</nativeZeroDigit>
 		</symbols>
 		<currencies>
 			<currency type="EUR">

@@ -2,9 +2,9 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 
 <supplementalData>
-	<version number="$Revision: 1.215 $"/>
-	<generation date="$Date: 2009/05/05 23:15:57 $"/>
-	<cldrVersion version="1.7"/>
+	<version number="$Revision: 1.220 $"/>
+	<generation date="$Date: 2009/06/25 20:24:56 $"/>
+	<cldrVersion version="1.7.1"/>
     <currencyData>
         <fractions>
             <info iso4217="ADP" digits="0" rounding="0"/>
@@ -3803,14 +3803,12 @@ XXX	Code for transations where no currency is involved
 
     <weekData>
           <minDays count="4" territories="001" />
-          <minDays count="4" territories="CD" draft="unconfirmed" />
         
           <firstDay day="mon"  territories="001" />
           <firstDay day="fri"  territories="MV" />
           <firstDay day="sat"  territories="AF BH DJ DZ EG ER ET IQ IR JO KE KW LY MA OM QA SA SD SO TN YE" />
           <firstDay day="sun"  territories="AS AZ BW CA CN FO GE GL GU HK IE IL IN IS JM JP KG KR LA MH MN MO MP MT NZ PH PK SG SY TH TT TW UM US UZ VI ZW" />
-          <firstDay day="sun"  territories="ET MW NG TJ" draft="unconfirmed" />
-		  <firstDay day="sun"  territories="GB" draft="unconfirmed"  alt="variant" references="Shorter Oxford Dictionary (5th edition, 2002)"/>
+		  <firstDay day="sun"  territories="GB" alt="variant" references="Shorter Oxford Dictionary (5th edition, 2002)"/>
         
           <weekendStart day="thu"  territories="DZ KW OM SA SD YE AF IR"/>
           <weekendStart day="fri"  territories="AE BH EG IL IQ JO LY MA QA SY TN"/>
@@ -3869,7 +3867,7 @@ XXX	Code for transations where no currency is involved
 			<mapZone other="GTB Standard Time" type="Europe/Istanbul"/> <!-- D (GMT+02:00) Athens, Bucharest, Istanbul -->
 			<mapZone other="Georgian Standard Time" type="Etc/GMT-3"/> <!-- S (GMT+03:00) Tbilisi -->
 			<mapZone other="Greenland Standard Time" type="America/Godthab"/> <!-- D (GMT-03:00) Greenland -->
-			<mapZone other="Greenwich Standard Time" type="Africa/Reykjavik"/> <!-- S (GMT) Monrovia, Reykjavik -->
+			<mapZone other="Greenwich Standard Time" type="Atlantic/Reykjavik"/> <!-- S (GMT) Monrovia, Reykjavik -->
 			<mapZone other="Hawaiian Standard Time" type="Pacific/Honolulu"/> <!-- S (GMT-10:00) Hawaii -->
 			<mapZone other="India Standard Time" type="Asia/Calcutta"/> <!-- S (GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi -->
 			<mapZone other="Iran Standard Time" type="Asia/Tehran"/> <!-- D (GMT+03:30) Tehran -->
@@ -4043,7 +4041,6 @@ XXX	Code for transations where no currency is involved
 			<mapZone other="Chile" territory="AQ" type="Antarctica/Palmer"/>
 			<mapZone other="China" territory="001" type="Asia/Shanghai"/>
 			<mapZone other="China" territory="MO" type="Asia/Macau"/>
-			<mapZone other="China" territory="TW" type="Asia/Taipei"/>
 			<mapZone other="Choibalsan" territory="001" type="Asia/Choibalsan"/>
 			<mapZone other="Christmas" territory="001" type="Indian/Christmas"/>
 			<mapZone other="Cocos" territory="001" type="Indian/Cocos"/>
@@ -4220,6 +4217,7 @@ XXX	Code for transations where no currency is involved
 			<mapZone other="Sverdlovsk" territory="001" type="Asia/Yekaterinburg"/>
 			<mapZone other="Syowa" territory="001" type="Antarctica/Syowa"/>
 			<mapZone other="Tahiti" territory="001" type="Pacific/Tahiti"/>
+			<mapZone other="Taipei" territory="001" type="Asia/Taipei"/>
 			<mapZone other="Tajikistan" territory="001" type="Asia/Dushanbe"/>
 			<mapZone other="Tashkent" territory="001" type="Asia/Tashkent"/>
 			<mapZone other="Tbilisi" territory="001" type="Asia/Tbilisi"/>

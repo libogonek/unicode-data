@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.61 $"/>
-		<generation date="$Date: 2009/05/05 23:06:41 $"/>
+		<version number="$Revision: 1.62 $"/>
+		<generation date="$Date: 2009/06/15 03:46:24 $"/>
 		<language type="tig"/>
 	</identity>
 	<localeDisplayNames>
@@ -444,8 +444,8 @@
 				</timeFormats>
 				<dateTimeFormats>
 					<availableFormats>
-						<dateFormatItem id="MMMMdd" draft="unconfirmed">dd MMMM</dateFormatItem>
 						<dateFormatItem id="MMdd" draft="unconfirmed">dd/MM</dateFormatItem>
+						<dateFormatItem id="MMMMdd" draft="unconfirmed">dd MMMM</dateFormatItem>
 						<dateFormatItem id="yyMM" draft="unconfirmed">MM/yy</dateFormatItem>
 						<dateFormatItem id="yyQ" draft="unconfirmed">Q yy</dateFormatItem>
 						<dateFormatItem id="yyyyMMMM" draft="unconfirmed">MMMM y</dateFormatItem>
