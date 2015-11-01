@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.95 $"/>
-		<generation date="$Date: 2007/07/24 23:39:15 $"/>
+		<version number="$Revision: 1.96 $"/>
+		<generation date="$Date: 2007/11/14 16:26:58 $"/>
 		<language type="ko"/>
 	</identity>
 	<localeDisplayNames>
@@ -2454,18 +2454,6 @@
 				</long>
 				<short>
 					<standard>GMT</standard>
-				</short>
-			</metazone>
-			<metazone type="Hawaii">
-				<long>
-					<standard>하와이 표준시</standard>
-					<daylight>하와이 하계 표준시</daylight>
-					<daylight alt="proposed-x1001" draft="unconfirmed">하와이 기준시</daylight>
-					<daylight alt="proposed-x1002" draft="unconfirmed">하와이 서머타임</daylight>
-				</long>
-				<short>
-					<standard>HST</standard>
-					<daylight>HDT</daylight>
 				</short>
 			</metazone>
 			<metazone type="Israel">

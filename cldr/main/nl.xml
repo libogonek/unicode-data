@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.93 $"/>
-		<generation date="$Date: 2007/07/20 17:14:05 $"/>
+		<version number="$Revision: 1.94 $"/>
+		<generation date="$Date: 2007/11/14 16:26:58 $"/>
 		<language type="nl"/>
 	</identity>
 	<localeDisplayNames>
@@ -1916,16 +1916,6 @@
 				</long>
 				<short>
 					<standard>GMT</standard>
-				</short>
-			</metazone>
-			<metazone type="Hawaii">
-				<long>
-					<standard>Hawaï-standaardtijd</standard>
-					<daylight>Hawaï-zomertijd</daylight>
-				</long>
-				<short>
-					<standard>HST</standard>
-					<daylight>HDT</daylight>
 				</short>
 			</metazone>
 			<metazone type="Israel">

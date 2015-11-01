@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.85 $"/>
-		<generation date="$Date: 2007/07/25 23:11:40 $"/>
+		<version number="$Revision: 1.86 $"/>
+		<generation date="$Date: 2007/11/28 00:21:09 $"/>
 		<language type="ro"/>
 	</identity>
 	<localeDisplayNames>
@@ -1909,9 +1909,9 @@
 				<symbol alt="proposed-x1003" draft="unconfirmed">lei</symbol>
 			</currency>
 			<currency type="RON">
-				<displayName>leu nou</displayName>
+				<displayName>leu</displayName>
 				<displayName alt="proposed-x1001" draft="unconfirmed">Leu românesc</displayName>
-				<symbol choice="true">0≤lei noi|1≤leu nou|1&lt;lei noi</symbol>
+				<symbol choice="true">0≤lei|1≤leu|1&lt;lei</symbol>
 				<symbol alt="proposed-x1001" draft="unconfirmed">RON</symbol>
 				<symbol alt="proposed-x1002" draft="unconfirmed">lei noi</symbol>
 			</currency>

@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.94 $"/>
-		<generation date="$Date: 2007/07/24 14:54:44 $"/>
+		<version number="$Revision: 1.95 $"/>
+		<generation date="$Date: 2007/11/14 16:26:58 $"/>
 		<language type="th"/>
 	</identity>
 	<localeDisplayNames>
@@ -3232,12 +3232,6 @@
 				<short>
 					<standard draft="provisional">GST (กวม)</standard>
 				</short>
-			</metazone>
-			<metazone type="Hawaii">
-				<long>
-					<generic draft="provisional">เวลาฮาวาย</generic>
-					<standard draft="provisional">เวลามาตรฐานฮาวาย</standard>
-				</long>
 			</metazone>
 			<metazone type="India">
 				<long>

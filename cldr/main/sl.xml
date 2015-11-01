@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.84 $"/>
-		<generation date="$Date: 2007/07/21 21:12:28 $"/>
+		<version number="$Revision: 1.85 $"/>
+		<generation date="$Date: 2007/11/28 21:17:49 $"/>
 		<language type="sl"/>
 	</identity>
 	<localeDisplayNames>
@@ -755,7 +755,6 @@
 						<dateFormatItem id="HHmm" draft="provisional">HH:mm</dateFormatItem>
 						<dateFormatItem id="HHmmss" draft="provisional">HH:mm:ss</dateFormatItem>
 						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
-						<dateFormatItem id="MMMMd" alt="proposed-x1001" draft="unconfirmed">14 september</dateFormatItem>
 						<dateFormatItem id="MMMMdd" draft="unconfirmed">dd. MMMM</dateFormatItem>
 						<dateFormatItem id="Md" draft="provisional">d.M</dateFormatItem>
 						<dateFormatItem id="mmss" draft="provisional">mm:ss</dateFormatItem>

@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.78 $"/>
-		<generation date="$Date: 2007/07/19 23:30:28 $"/>
+		<version number="$Revision: 1.79 $"/>
+		<generation date="$Date: 2007/11/14 16:26:57 $"/>
 		<language type="fa"/>
 	</identity>
 	<localeDisplayNames>
@@ -1729,10 +1729,10 @@
 			</zone>
 			<metazone type="Afghanistan">
 				<long>
-					<generic>وقت افغانستان</generic>
+					<standard>وقت افغانستان</standard>
 				</long>
 				<short>
-					<generic>AFT</generic>
+					<standard>AFT</standard>
 				</short>
 			</metazone>
 			<metazone type="Iran">

@@ -2,8 +2,8 @@
 <!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldmlSupplemental.dtd">
 
 <supplementalData>
-    <version number="$Revision: 1.68 $"/>
-    <generation date="$Date: 2007/07/25 21:23:46 $"/>
+    <version number="$Revision: 1.72 $"/>
+    <generation date="$Date: 2007/11/08 01:29:55 $"/>
     <metadata>
         <attributeOrder>_q type key registry source target path day date version count lines characters before from to number time casing list uri iso4217 digits rounding iso3166 hex id request direction alternate backwards caseFirst caseLevel hiraganaQuarternary hiraganaQuaternary normalization numeric strength validSubLocales standard references elements element attributes attribute alt draft</attributeOrder>
         <elementOrder>ldml alternate attributeOrder attributes character character-fallback codePattern comment context cp deprecatedItems elementOrder first_variable fractions identity info languageAlias languageCoverage languagePopulation last_variable first_tertiary_ignorable last_tertiary_ignorable first_secondary_ignorable last_secondary_ignorable first_primary_ignorable last_primary_ignorable first_non_ignorable last_non_ignorable first_trailing last_trailing mapTimezones mapZone reference region scriptAlias scriptCoverage serialElements substitute suppress tRule territoryAlias territoryCoverage timezoneCoverage transform validity alias appendItem base beforeCurrency afterCurrency currencyMatch dateFormatItem day deprecated coverageAdditions era eraNames eraAbbr eraNarrow exemplarCharacters fallback field generic height hourFormat hoursFormat gmtFormat key languages localeDisplayNames layout localizedPatternChars dateRangePattern calendars long mapping measurementSystem measurementSystemName messages minDays firstDay month months monthNames monthAbbr days dayNames dayAbbr orientation inList inText paperSize pattern displayName quarter quarters quotationStart quotationEnd alternateQuotationStart alternateQuotationEnd regionFormat fallbackFormat abbreviationFallback preferenceOrdering relative reset p pc rule s sc scripts segmentation settings short commonlyUsed exemplarCity singleCountries default calendar collation currency currencyFormat currencySpacing currencyFormatLength dateFormat dateFormatLength dateTimeFormat dateTimeFormatLength availableFormats appendItems dayContext dayWidth decimalFormat decimalFormatLength monthContext monthWidth percentFormat percentFormatLength quarterContext quarterWidth scientificFormat scientificFormatLength skipDefaultLocale defaultContent standard daylight suppress_contractions optimize rules surroundingMatch insertBetween symbol decimal group list percentSign nativeZeroDigit patternDigit plusSign minusSign exponential perMille infinity nan symbols decimalFormats scientificFormats percentFormats currencyFormats currencies t tc q qc i ic extend territories timeFormat timeFormatLength timeZoneNames type usesMetazone variable attributeValues variables segmentRules variantAlias variants keys types measurementSystemNames codePatterns version generation currencyData language script territory territoryContainment languageData territoryTestData calendarData variant week am pm eras dateFormats timeFormats dateTimeFormats fields weekData measurementData timezoneData characters delimiters measurement dates numbers collations posix segmentations references transforms metadata weekendStart weekendEnd width x yesstr nostr yesexpr noexpr zone metazone special zoneAlias zoneFormatting zoneItem supplementalData</elementOrder>
@@ -27,7 +27,7 @@
             <attributes element="weekendStart" attribute="time" attributeValue="00:00"/>
         </suppress>
         <validity>
-            <!-- generated from language tag registry + CLDR-specific items -->
+            <!-- start of data generated with CountItems from language tag registry + CLDR-specific items as per http://unicode.org/cldr/data/tools/java/org/unicode/cldr/tool/package.html -->
 			<variable id="$grandfathered" type="choice">
 				art-lojban
 				cel-gaulish
@@ -100,7 +100,7 @@
 				wa wak wal war was wen wo
 				xal xh
 				yao yap yi yo ypk
-				za zap zen zh znd zu zun zxx zza
+				za zap zbl zen zh znd zu zun zxx zza
 			</variable>
 			<variable id="$territory" type="choice">
 				001 002 003 005 009 011 013 014 015 017 018 019 021 029 030 034 035 039 053 054
@@ -108,7 +108,7 @@
 				142 143 145 150 151 154 155 172
 				419
 				AA AD AE AF AG AI AL AM AN AO AQ AR AS AT AU AW AX AZ
-				BA BB BD BE BF BG BH BI BJ BM BN BO BR BS BT BU BV BW BY BZ
+				BA BB BD BE BF BG BH BI BJ BL BM BN BO BR BS BT BU BV BW BY BZ
 				CA CC CD CF CG CH CI CK CL CM CN CO CR CS CU CV CX CY CZ
 				DD DE DJ DK DM DO DZ
 				EC EE EG EH ER ES ET
@@ -119,7 +119,7 @@
 				JE JM JO JP
 				KE KG KH KI KM KN KP KR KW KY KZ
 				LA LB LC LI LK LR LS LT LU LV LY
-				MA MC MD ME MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
+				MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
 				NA NC NE NF NG NI NL NO NP NR NT NU NZ
 				OM
 				PA PE PF PG PH PK PL PM PN PR PS PT PW PY
@@ -135,7 +135,7 @@
 				ZA ZM ZR ZW ZZ
 			</variable>
 			<variable id="$script" type="choice">
-				Arab Armn
+				Arab Armn Avst
 				Bali Batk Beng Blis Bopo Brah Brai Bugi Buhd
 				Cans Cari Cham Cher Cirt Copt Cprt Cyrl Cyrs
 				Deva Dsrt
@@ -146,16 +146,16 @@
 				Java Jpan
 				Kali Kana Khar Khmr Knda Kore
 				Lana Laoo Latf Latg Latn Lepc Limb Lina Linb Lyci Lydi
-				Mand Maya Mero Mlym Mong Moon Mtei Mymr
+				Mand Mani Maya Mero Mlym Mong Moon Mtei Mymr
 				Nkoo
 				Ogam Olck Orkh Orya Osma
-				Perm Phag Phnx Plrd
+				Perm Phag Phlv Phnx Plrd
 				Qaaa Qaab Qaac Qaad Qaae Qaaf Qaag Qaah Qaai Qaaj Qaak Qaal Qaam Qaan Qaao Qaap
 				Qaaq Qaar Qaas Qaat Qaau Qaav Qaaw Qaax Qaay Qaaz Qaba Qabb Qabc Qabd Qabe Qabf
 				Qabg Qabh Qabi Qabj Qabk Qabl Qabm Qabn Qabo Qabp Qabq Qabr Qabs Qabt Qabu Qabv
 				Qabw Qabx
 				Rjng Roro Runr
-				Sara Saur Sgnw Shaw Sinh Sund Sylo Syrc Syre Syrj Syrn
+				Samr Sara Saur Sgnw Shaw Sinh Sund Sylo Syrc Syre Syrj Syrn
 				Tagb Tale Talu Taml Telu Teng Tfng Tglg Thaa Thai Tibt
 				Ugar
 				Vaii Visp
@@ -164,19 +164,54 @@
 				Zxxx Zyyy Zzzz
 			</variable>
 			<variable id="$variant" type="choice">
-				1606NICT 1694ACAD 1901 1996
+				1606NICT 1694ACAD 1901 1994 1996
 				AREVELA AREVMDA
 				BAKU1926 BISKE BOONT
 				FONIPA FONUPA
+				LIPAW
 				MONOTON
 				NEDIS NJIVA
 				OSOJS
 				POLYTON POLYTONI POSIX
 				REVISED ROZAJ
-				SAAHO SCOUSE SOLBA
+				SAAHO SCOTLAND SCOUSE SOLBA
 				TARASK
 				VALENCIA
 			</variable>
+			<!-- currency version 2007-05-04 -->
+			<variable id="$currency" type="choice">
+				ADP AED AFA AFN ALK ALL AMD ANG AOA AOK AON AOR ARA ARP ARS ARY ATS AUD AWG AZM
+				AZN
+				BAD BAM BBD BDT BEC BEF BEL BGJ BGK BGL BGN BHD BIF BMD BND BOB BOP BOV BRB BRC
+				BRE BRL BRN BRR BSD BTN BUK BWP BYB BYR BZD
+				CAD CDF CHE CHF CHW CLF CLP CNX CNY COP COU CRC CSD CSJ CSK CUP CVE CYP CZK
+				DDM DEM DJF DKK DOP DZD
+				ECS ECV EEK EGP EQE ERN ESA ESB ESP ETB EUR
+				FIM FJD FKP FRF
+				GBP GEK GEL GHC GHS GIP GMD GNE GNF GNS GQE GRD GTQ GWE GWP GYD
+				HKD HNL HRD HRK HTG HUF
+				IDR IEP ILP ILR ILS INR IQD IRR ISJ ISK ITL
+				JMD JOD JPY
+				KES KGS KHR KMF KPW KRW KWD KYD KZT
+				LAJ LAK LBP LKR LRD LSL LSM LTL LTT LUC LUF LUL LVL LVR LYD
+				MAD MAF MDL MGA MGF MKD MLF MMK MNT MOP MRO MTL MTP MUR MVQ MVR MWK MXN MXP MXV
+				MYR MZE MZM MZN
+				NAD NGN NIC NIO NLG NOK NPR NZD
+				OMR
+				PAB PEH PEI PEN PES PGK PHP PKR PLN PLZ PTE PYG
+				QAR
+				RHD ROK ROL RON RSD RUB RUR RWF
+				SAR SBD SCR SDD SDG SDP SEK SGD SHP SIT SKK SLL SOS SRD SRG STD SUR SVC SYP SZL
+				THB TJR TJS TMM TND TOP TPE TRL TRY TTD TWD TZS
+				UAH UAK UGS UGW UGX USD USN USS UYI UYN UYP UYU UZS
+				VEB VEF VNC VND VUV
+				WST
+				XAF XAG XAU XBA XBB XBC XBD XCD XDR XEU XFO XFU XOF XPD XPF XPT XRE XTS XXX
+				YDD YER YUD YUM YUN
+				ZAL ZAR ZMK ZRN ZRZ ZWC ZWD
+			</variable>
+			<!-- end of data generated by CountItems -->
+			<!-- start of data generated with CountItems from language tag registry + CLDR-specific items as per http://unicode.org/cldr/data/tools/java/org/unicode/cldr/tool/package.html -->
 			<variable id="$tzid" type="choice">
 				Africa/Abidjan Africa/Accra Africa/Addis_Ababa Africa/Algiers Africa/Asmera
 				Africa/Bamako Africa/Bangui Africa/Banjul Africa/Bissau Africa/Blantyre
@@ -226,6 +261,7 @@
 				America/Indiana/Knox
 				America/Indiana/Marengo
 				America/Indiana/Petersburg
+				America/Indiana/Tell_City
 				America/Indiana/Vevay America/Indiana/Vincennes
 				America/Indiana/Winamac
 				America/Indianapolis America/Inuvik America/Iqaluit
@@ -243,7 +279,7 @@
 				America/Port_of_Spain America/Port-au-Prince America/Porto_Velho
 				America/Puerto_Rico
 				America/Rainy_River America/Rankin_Inlet America/Recife America/Regina
-				America/Rio_Branco
+				America/Resolute America/Rio_Branco
 				America/Santiago America/Santo_Domingo America/Sao_Paulo America/Scoresbysund
 				America/Shiprock America/St_Johns America/St_Kitts America/St_Lucia
 				America/St_Thomas America/St_Vincent America/Swift_Current
@@ -353,37 +389,7 @@
 				Pacific/Wake Pacific/Wallis
 				Pacific/Yap
 			</variable>
-			<!-- currency version 2007-05-04 -->
-			<variable id="$currency" type="choice">
-				ADP AED AFA AFN ALL AMD ANG AOA AOK AON AOR ARA ARP ARS ATS AUD AWG AZM AZN
-				BAD BAM BBD BDT BEC BEF BEL BGL BGN BHD BIF BMD BND BOB BOP BOV BRB BRC BRE BRL
-				BRN BRR BSD BTN BUK BWP BYB BYR BZD
-				CAD CDF CHE CHF CHW CLF CLP CNY COP COU CRC CSD CSK CUP CVE CYP CZK
-				DDM DEM DJF DKK DOP DZD
-				ECS ECV EEK EGP EQE ERN ESA ESB ESP ETB EUR
-				FIM FJD FKP FRF
-				GBP GEK GEL GHC GHS GIP GMD GNF GNS GQE GRD GTQ GWE GWP GYD
-				HKD HNL HRD HRK HTG HUF
-				IDR IEP ILP ILS INR IQD IRR ISK ITL
-				JMD JOD JPY
-				KES KGS KHR KMF KPW KRW KWD KYD KZT
-				LAK LBP LKR LRD LSL LSM LTL LTT LUC LUF LUL LVL LVR LYD
-				MAD MAF MDL MGA MGF MKD MLF MMK MNT MOP MRO MTL MTP MUR MVR MWK MXN MXP MXV MYR
-				MZE MZM MZN
-				NAD NGN NIC NIO NLG NOK NPR NZD
-				OMR
-				PAB PEI PEN PES PGK PHP PKR PLN PLZ PTE PYG
-				QAR
-				RHD ROL RON RSD RUB RUR RWF
-				SAR SBD SCR SDD SDG SDP SEK SGD SHP SIT SKK SLL SOS SRD SRG STD SUR SVC SYP SZL
-				THB TJR TJS TMM TND TOP TPE TRL TRY TTD TWD TZS
-				UAH UAK UGS UGX USD USN USS UYI UYP UYU UZS
-				VEB VEF VND VUV
-				WST
-				XAF XAG XAU XBA XBB XBC XBD XCD XDR XEU XFO XFU XOF XPD XPF XPT XRE XTS XXX
-				YDD YER YUD YUM YUN
-				ZAL ZAR ZMK ZRN ZRZ ZWD
-			</variable>
+			<!-- end of data generated by CountItems -->
 			<variable id="$altList" type="choice">
 				variant list secondary email www short
 			</variable>

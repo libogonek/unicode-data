@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.89 $"/>
-		<generation date="$Date: 2007/07/24 23:39:15 $"/>
+		<version number="$Revision: 1.91 $"/>
+		<generation date="$Date: 2007/11/29 18:23:44 $"/>
 		<language type="pt"/>
 	</identity>
 	<localeDisplayNames>
@@ -2221,7 +2221,7 @@
 					<daylight>Horário de Verão da Austrália Central</daylight>
 				</long>
 				<short>
-					<standard draft="contributed">ACST</standard>
+					<standard draft="contributed">ACST (Austrália)</standard>
 					<daylight draft="contributed">ACDT</daylight>
 				</short>
 			</metazone>
@@ -2535,28 +2535,12 @@
 					<standard draft="contributed">GST</standard>
 				</short>
 			</metazone>
-			<metazone type="Hawaii">
-				<long>
-					<generic>Horário do Havaí</generic>
-					<standard>Horário Padrão do Havaí</standard>
-					<daylight>Horário de Verão do Havaí</daylight>
-				</long>
-				<short>
-					<generic draft="contributed">HT</generic>
-					<standard>HST</standard>
-					<daylight>HDT</daylight>
-				</short>
-			</metazone>
 			<metazone type="Hawaii_Aleutian">
 				<long>
-					<generic draft="contributed">Horário do Havaí-Aleuta</generic>
 					<standard draft="contributed">Horário Padrão do Havaí-Aleuta</standard>
-					<daylight draft="contributed">Horário de Verão do Havaí-Aleuta</daylight>
 				</long>
 				<short>
-					<generic draft="contributed">HAT</generic>
-					<standard draft="contributed">HAST</standard>
-					<daylight draft="contributed">HADT</daylight>
+					<standard draft="contributed">HST</standard>
 				</short>
 			</metazone>
 			<metazone type="India">
@@ -2598,8 +2582,7 @@
 					<daylight>Horário de Verão de Israel</daylight>
 				</long>
 				<short>
-					<standard>IST</standard>
-					<standard alt="proposed-x1001" draft="unconfirmed">IST (Israel)</standard>
+					<standard>IST (Israel)</standard>
 					<daylight>IDT</daylight>
 				</short>
 			</metazone>
@@ -2639,7 +2622,7 @@
 			</metazone>
 			<metazone type="Kazakhstan_Western">
 				<long>
-					<standard draft="contributed">Horário da Argentina Ocidental</standard>
+					<standard draft="contributed">Horário do Cazaquistão Ocidental</standard>
 				</long>
 				<short>
 					<standard draft="contributed">WKST</standard>

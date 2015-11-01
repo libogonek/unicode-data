@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.92 $"/>
-		<generation date="$Date: 2007/07/20 17:14:05 $"/>
+		<version number="$Revision: 1.93 $"/>
+		<generation date="$Date: 2007/11/14 16:26:58 $"/>
 		<language type="it"/>
 	</identity>
 	<localeDisplayNames>
@@ -1905,7 +1905,7 @@
 				<long>
 					<standard>Ora Standard Cina</standard>
 					<standard alt="proposed-x1001" draft="unconfirmed">China Standard Time</standard>
-					<daylight>Ora Standard Cina</daylight>
+					<daylight>Ora Legale Cina</daylight>
 					<daylight alt="proposed-x1001" draft="unconfirmed">China Daylight Time</daylight>
 				</long>
 				<short>

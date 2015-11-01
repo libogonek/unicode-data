@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.89 $"/>
-		<generation date="$Date: 2007/07/19 23:30:28 $"/>
+		<version number="$Revision: 1.90 $"/>
+		<generation date="$Date: 2007/11/14 16:26:57 $"/>
 		<language type="bg"/>
 	</identity>
 	<localeDisplayNames>
@@ -2472,16 +2472,6 @@
 				<long>
 					<standard>Часова зона Гринуич</standard>
 				</long>
-			</metazone>
-			<metazone type="Hawaii">
-				<long>
-					<standard>Часова зона Хавай</standard>
-					<daylight>Лятна часова зона Хавай</daylight>
-				</long>
-				<short>
-					<standard>HST</standard>
-					<daylight>HDT</daylight>
-				</short>
 			</metazone>
 			<metazone type="Israel">
 				<long>
