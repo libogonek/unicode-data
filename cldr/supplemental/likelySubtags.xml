@@ -2,7 +2,7 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
     <version number="$Revision: 5213 $"/>
-    <generation date="$Date: 2010-11-22 22:31:35 -0600 (Mon, 22 Nov 2010) $"/>
+    <generation date="$Date: 2010-11-22 20:31:35 -0800 (Mon, 22 Nov 2010) $"/>
     <likelySubtags>
       <likelySubtag from="aa" to="aa_Latn_ET"/> <!--{ Afar; ?; ? } => { Afar; Latin; Ethiopia }-->
       <likelySubtag from="ab" to="ab_Cyrl_GE"/> <!--{ Abkhazian; ?; ? } => { Abkhazian; Cyrillic; Georgia }-->

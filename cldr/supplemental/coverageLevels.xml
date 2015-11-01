@@ -3,7 +3,7 @@
 
 <supplementalData>
 	<version number="$Revision: 5003 $"/>
-	<generation date="$Date: 2010-08-05 09:56:49 -0500 (Thu, 05 Aug 2010) $"/>
+	<generation date="$Date: 2010-08-05 07:56:49 -0700 (Thu, 05 Aug 2010) $"/>
 	<coverageLevels>
 		<coverageLevel value="01" match="characters/exemplarCharacters"/>
 		<coverageLevel value="02" match="numbers/symbols/decimal"/>

@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5159 $"/>
-		<generation date="$Date: 2010-10-27 19:16:55 -0500 (Wed, 27 Oct 2010) $"/>
+		<version number="$Revision: 5353 $"/>
+		<generation date="$Date: 2011-02-07 21:19:50 -0800 (Mon, 07 Feb 2011) $"/>
 		<language type="en"/>
 	</identity>
 	<fallback/>
@@ -2453,6 +2453,11 @@
 				<long>
 					<standard>Macau Time</standard>
 					<daylight>Macau Summer Time</daylight>
+				</long>
+			</metazone>
+			<metazone type="Macquarie">
+				<long>
+					<standard>Macquarie Island Time</standard>
 				</long>
 			</metazone>
 			<metazone type="Magadan">

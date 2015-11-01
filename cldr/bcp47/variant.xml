@@ -3,7 +3,7 @@
 
 <ldmlBCP47>
     <version number="$Revision: 4761 $"/>
-    <generation date="$Date: 2010-02-26 18:11:12 -0600 (Fri, 26 Feb 2010) $"/>
+    <generation date="$Date: 2010-02-26 16:11:12 -0800 (Fri, 26 Feb 2010) $"/>
     <keyword>
         <key name="va">
             <type name="posix"/>

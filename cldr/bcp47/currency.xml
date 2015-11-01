@@ -3,7 +3,7 @@
 
 <ldmlBCP47>
     <version number="$Revision: 4953 $"/>
-    <generation date="$Date: 2010-06-02 16:03:13 -0500 (Wed, 02 Jun 2010) $"/>
+    <generation date="$Date: 2010-06-02 14:03:13 -0700 (Wed, 02 Jun 2010) $"/>
     <keyword>
         <key name="cu" alias="currency">
             <type name="adp" since="1.9"/>

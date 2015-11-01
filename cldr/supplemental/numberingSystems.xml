@@ -2,7 +2,7 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
     <version number="$Revision: 5004 $"/>
-    <generation date="$Date: 2010-08-05 09:58:29 -0500 (Thu, 05 Aug 2010) $"/>
+    <generation date="$Date: 2010-08-05 07:58:29 -0700 (Thu, 05 Aug 2010) $"/>
     <numberingSystems>
         <numberingSystem id="arab" type="numeric" digits="٠١٢٣٤٥٦٧٨٩"/>
         <numberingSystem id="arabext" type="numeric" digits="۰۱۲۳۴۵۶۷۸۹"/>
