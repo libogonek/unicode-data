@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
-	<version number="$Revision: 5835 $"/>
-	<generation date="$Date: 2011-05-04 12:09:04 -0500 (Wed, 04 May 2011) $"/>
+	<version number="$Revision: 5938 $"/>
+	<generation date="$Date: 2011-06-27 15:48:12 -0500 (Mon, 27 Jun 2011) $"/>
 
 	<metaZones>
 		<metazoneInfo>
@@ -1170,7 +1170,7 @@
 			</timezone>
 			<timezone type="Europe/Kaliningrad">
 				<usesMetazone to="1991-03-30 23:00" mzone="Moscow"/>
-				<usesMetazone from="1991-03-30 23:00" mzone="Europe_Eastern"/>
+				<usesMetazone to="2011-03-27 00:00" from="1991-03-30 23:00" mzone="Europe_Eastern"/>
 			</timezone>
 			<timezone type="Europe/Kiev">
 				<usesMetazone to="1990-06-30 23:00" mzone="Moscow"/>

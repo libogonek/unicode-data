@@ -2,11 +2,11 @@
 <!DOCTYPE ldmlBCP47 SYSTEM "../../common/dtd/ldmlBCP47.dtd">
 
 <ldmlBCP47>
-    <version number="$Revision: 4761 $"/>
-    <generation date="$Date: 2010-02-26 18:11:12 -0600 (Fri, 26 Feb 2010) $"/>
+    <version number="$Revision: 6003 $"/>
+    <generation date="$Date: 2011-07-11 19:00:53 -0500 (Mon, 11 Jul 2011) $"/>
     <keyword>
-        <key name="va">
-            <type name="posix"/>
+        <key name="va" description="Common locale variant type key">
+            <type name="posix" description="POSIX style locale variant"/>
         </key>
     </keyword>
 </ldmlBCP47>
