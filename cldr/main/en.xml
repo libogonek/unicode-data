@@ -2,8 +2,8 @@
 <!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.196 $"/>
-		<generation date="$Date: 2008/06/22 01:43:27 $"/>
+		<version number="$Revision: 1.197 $"/>
+		<generation date="$Date: 2008/07/09 17:41:17 $"/>
 		<language type="en"/>
 	</identity>
 	<fallback/>
@@ -2121,6 +2121,7 @@
 			<metazone type="Mauritius">
 				<long>
 					<standard>Mauritius Time</standard>
+					<daylight>Mauritius Summer Time</daylight>
 				</long>
 			</metazone>
 			<metazone type="Mawson">
