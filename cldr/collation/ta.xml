@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.25 $"/>
-		<generation date="$Date: 2007/07/21 15:12:54 $"/>
+		<version number="$Revision: 1.27 $"/>
+		<generation date="$Date: 2008/06/12 17:39:03 $"/>
 		<language type="ta" /> 
 	</identity>
 		<collations  validSubLocales="ta_IN">
@@ -11,7 +11,7 @@
 				<settings normalization="on"  />
 			</collation  >
 <collation type="standard" references=
-"University of Mardas, Tamil Lexicon" draft="true" alt="proposed">
+"University of Mardas, Tamil Lexicon" draft="unconfirmed" alt="proposed">
   <settings normalization="on"/>
   <rules>
     <reset>୦</reset>

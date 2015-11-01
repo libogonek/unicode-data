@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.23 $"/>
-		<generation date="$Date: 2007/07/10 20:27:25 $"/>
+		<version number="$Revision: 1.25 $"/>
+		<generation date="$Date: 2008/06/12 17:39:03 $"/>
 		<language type="kn" /> 
 	</identity>
 		<collations  validSubLocales="kn_IN">
@@ -12,7 +12,7 @@
 			</collation  >
 <collation type="standard"
 references="Kittel: Kannada-English Dictionary ISBN:8120600495 http://www.eki.ee/wgrs/rom1_kn.pdf"
-draft="true" alt="proposed">
+draft="unconfirmed" alt="proposed">
 <settings normalization="on"/>
 <rules>
 
@@ -37,7 +37,7 @@ L2/04-102 Bug fix.
 </collation>
 <collation type="traditional"
 references="Kittel: Kannada-English Dictionary ISBN:8120600495"
-draft="true" alt="proposed">
+draft="unconfirmed" alt="proposed">
 <settings normalization="on"/>
 <rules>
 

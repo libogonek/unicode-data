@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
-<ldml draft="true">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
+<ldml draft="unconfirmed">
 	<identity>
-		<version number="$Revision: 1.9 $"/>
-		<generation date="$Date: 2007/07/10 20:27:25 $"/>
+		<version number="$Revision: 1.11 $"/>
+		<generation date="$Date: 2008/06/12 17:39:03 $"/>
 		<language type="km" /> 
 	</identity>
 	<collations>

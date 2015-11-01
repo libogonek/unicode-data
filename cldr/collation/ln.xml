@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.1 $"/>
-		<generation date="$Date: 2007/07/19 21:28:49 $"/>
+		<version number="$Revision: 1.3 $"/>
+		<generation date="$Date: 2008/06/12 17:39:03 $"/>
 		<language type="ln"/> 
 	</identity>
 	<collations validSubLocales="ln_CD ln_CG">
         <default type="alphanumeric"/>
-		<collation type="alphanumeric" draft="true" alt="proposed">
+		<collation type="alphanumeric" draft="unconfirmed" alt="proposed">
 			<rules>
 				<reset>E</reset>
 				<p>ɛ</p>
@@ -18,7 +18,7 @@
 				<t>Ɔ</t>
 			</rules>
 		</collation>
-		<collation type="phonemic" draft="true" alt="proposed">
+		<collation type="phonemic" draft="unconfirmed" alt="proposed">
 			<rules>
 				<reset>E</reset>
 				<p>ɛ</p>

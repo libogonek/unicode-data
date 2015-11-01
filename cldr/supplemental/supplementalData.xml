@@ -1,42 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldmlSupplemental.dtd">
+<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldmlSupplemental.dtd">
 
 <supplementalData>
-	<version number="$Revision: 1.152 $"/>
-	<generation date="$Date: 2007/12/04 15:02:41 $"/>
+	<version number="$Revision: 1.179 $"/>
+	<generation date="$Date: 2008/06/24 17:53:03 $"/>
+	<cldrVersion version="1.6"/>
     <currencyData>
         <fractions>
             <info iso4217="ADP" digits="0" rounding="0"/>
+            <info iso4217="AFN" digits="0" rounding="0"/>
+            <info iso4217="ALL" digits="0" rounding="0"/>
+            <info iso4217="AMD" digits="0" rounding="0"/>
             <info iso4217="BHD" digits="3" rounding="0"/>
             <info iso4217="BIF" digits="0" rounding="0"/>
             <info iso4217="BYR" digits="0" rounding="0"/>
             <info iso4217="CHF" digits="2" rounding="5"/>
             <info iso4217="CLF" digits="0" rounding="0"/>
             <info iso4217="CLP" digits="0" rounding="0"/>
+            <info iso4217="COP" digits="0" rounding="0"/>
+            <info iso4217="CRC" digits="0" rounding="0"/>
             <info iso4217="DEFAULT" digits="2" rounding="0"/>
             <info iso4217="DJF" digits="0" rounding="0"/>
             <info iso4217="ESP" digits="0" rounding="0"/>
             <info iso4217="GNF" digits="0" rounding="0"/>
-            <info iso4217="IQD" digits="3" rounding="0"/>
+            <info iso4217="GYD" digits="0" rounding="0"/>
+            <info iso4217="HUF" digits="0" rounding="0"/>
+            <info iso4217="IDR" digits="0" rounding="0"/>
+            <info iso4217="IQD" digits="0" rounding="0"/>
+            <info iso4217="IRR" digits="0" rounding="0"/>
+            <info iso4217="ISK" digits="0" rounding="0"/>
             <info iso4217="ITL" digits="0" rounding="0"/>
             <info iso4217="JOD" digits="3" rounding="0"/>
             <info iso4217="JPY" digits="0" rounding="0"/>
             <info iso4217="KMF" digits="0" rounding="0"/>
+            <info iso4217="KPW" digits="0" rounding="0"/>
             <info iso4217="KRW" digits="0" rounding="0"/>
             <info iso4217="KWD" digits="3" rounding="0"/>
+            <info iso4217="LAK" digits="0" rounding="0"/>
+            <info iso4217="LBP" digits="0" rounding="0"/>
             <info iso4217="LUF" digits="0" rounding="0"/>
             <info iso4217="LYD" digits="3" rounding="0"/>
-            <info iso4217="MGA" digits="0" rounding="0"/><!-- Is this right? -->
+            <info iso4217="MGA" digits="0" rounding="0"/>
             <info iso4217="MGF" digits="0" rounding="0"/>
+            <info iso4217="MMK" digits="0" rounding="0"/>
+            <info iso4217="MNT" digits="0" rounding="0"/>
+            <info iso4217="MRO" digits="0" rounding="0"/>
+            <info iso4217="MUR" digits="0" rounding="0"/>
             <info iso4217="OMR" digits="3" rounding="0"/>
+            <info iso4217="PKR" digits="0" rounding="0"/>
             <info iso4217="PYG" digits="0" rounding="0"/>
+            <info iso4217="RSD" digits="0" rounding="0"/>
             <info iso4217="RWF" digits="0" rounding="0"/>
+            <info iso4217="SLL" digits="0" rounding="0"/>
+            <info iso4217="SOS" digits="0" rounding="0"/>
+            <info iso4217="STD" digits="0" rounding="0"/>
+            <info iso4217="SYP" digits="0" rounding="0"/>
+            <info iso4217="TMM" digits="0" rounding="0"/>
             <info iso4217="TND" digits="3" rounding="0"/>
             <info iso4217="TRL" digits="0" rounding="0"/>
+            <info iso4217="TWD" digits="0" rounding="0"/>
+            <info iso4217="TZS" digits="0" rounding="0"/>
+            <info iso4217="UGX" digits="0" rounding="0"/>
+            <info iso4217="UZS" digits="0" rounding="0"/>
+            <info iso4217="VND" digits="0" rounding="0"/>
             <info iso4217="VUV" digits="0" rounding="0"/>
             <info iso4217="XAF" digits="0" rounding="0"/>
             <info iso4217="XOF" digits="0" rounding="0"/>
             <info iso4217="XPF" digits="0" rounding="0"/>
+            <info iso4217="YER" digits="0" rounding="0"/>
+            <info iso4217="ZMK" digits="0" rounding="0"/>
+            <info iso4217="ZWD" digits="0" rounding="0"/>
         </fractions>
 <!--
 Note: When reading these dates, you should read them as inclusive date ranges.
@@ -96,6 +129,7 @@ The printed version of ISO-4217:2001
         </region>
         <region iso3166="AL">
             <currency iso4217="ALL" from="1965-08-16"/>
+            <currency iso4217="ALK" from="1946-11-01" to="1965-08-16"/>
         </region>
         <region iso3166="AM">
             <currency iso4217="AMD" from="1993-11-22"/>
@@ -171,6 +205,7 @@ The printed version of ISO-4217:2001
         <region iso3166="BG">
             <currency iso4217="BGN" from="1999-07-05"/>
             <currency iso4217="BGL" from="1962-01-01" to="1999-07-05"/>
+            <currency iso4217="BGM" from="1952-05-12" to="1962-01-01"/>
         </region>
         <region iso3166="BH">
             <currency iso4217="BHD" from="1965-10-16"/>
@@ -1165,7 +1200,7 @@ XXX	Code for transations where no currency is involved
 		<language type="ba" scripts="Cyrl"/>
 		<language type="ba" territories="RU" alt="secondary"/>
 		<language type="bal" scripts="Arab Latn"/>
-		<language type="bal" territories="PK" alt="secondary"/>
+		<language type="bal" territories="IR PK" alt="secondary"/>
 		<language type="ban" scripts="Latn"/>
 		<language type="ban" scripts="Bali" territories="ID" alt="secondary"/>
 		<language type="bbc" scripts="Latn"/>
@@ -1193,7 +1228,7 @@ XXX	Code for transations where no currency is involved
 		<language type="bjj" scripts="Deva"/>
 		<language type="bjj" territories="IN" alt="secondary"/>
 		<language type="bjn" territories="ID" alt="secondary"/>
-		<language type="bku" scripts="Buhd"/>
+		<language type="bku" scripts="Buhd" alt="secondary"/>
 		<language type="bm" scripts="Latn"/>
 		<language type="bm" territories="ML" alt="secondary"/>
 		<language type="bn" scripts="Beng" territories="BD IN"/>
@@ -1226,7 +1261,8 @@ XXX	Code for transations where no currency is involved
 		<language type="chk" scripts="Latn" territories="FM"/>
 		<language type="chm" scripts="Cyrl Latn"/>
 		<language type="chr" scripts="Cher Latn"/>
-		<language type="cja" scripts="Cham Deva" alt="secondary"/>
+		<language type="cja" scripts="Cham"/>
+		<language type="cja" scripts="Deva" alt="secondary"/>
 		<language type="cjm" scripts="Arab"/>
 		<language type="cjm" scripts="Cham" alt="secondary"/>
 		<language type="cjs" scripts="Cyrl"/>
@@ -1266,7 +1302,7 @@ XXX	Code for transations where no currency is involved
 		<language type="ee" territories="GH" alt="secondary"/>
 		<language type="efi" scripts="Latn" territories="NG"/>
 		<language type="el" scripts="Grek" territories="CY GR"/>
-		<language type="emk" scripts="Deva"/>
+		<language type="emk" scripts="Nkoo"/>
 		<language type="emk" territories="GN" alt="secondary"/>
 		<language type="en" scripts="Latn" territories="AG AI AS AU BB BM BS BW BZ CA CC CK CM CX DM FJ FK FM GB GD GG GH GI GM GU GY HK HN IE IM JE JM KE KI KN KY LC LR LS MH MP MS MT MU MW NA NF NG NR NU NZ PG PH PK PN PR RW SB SC SG SH SL SZ TC TK TO TT TV TZ UG UM US VC VG VI VU WS ZA ZM ZW"/>
 		<language type="en" territories="BE DE ES FR IN IT MY NL PW" alt="secondary"/>
@@ -1303,7 +1339,8 @@ XXX	Code for transations where no currency is involved
 		<language type="ga" territories="GB" alt="secondary"/>
 		<language type="gaa" scripts="Latn"/>
 		<language type="gaa" territories="GH" alt="secondary"/>
-		<language type="gag" scripts="Cyrl"/>
+		<language type="gag" scripts="Latn"/>
+		<language type="gag" scripts="Cyrl" alt="secondary"/>
 		<language type="gbm" scripts="Deva"/>
 		<language type="gbm" territories="IN" alt="secondary"/>
 		<language type="gcr" scripts="Latn"/>
@@ -1396,6 +1433,7 @@ XXX	Code for transations where no currency is involved
 		<language type="kfo" scripts="Latn"/>
 		<language type="kfr" scripts="Deva"/>
 		<language type="kfy" territories="IN" alt="secondary"/>
+		<language type="kg" scripts="Latn"/>
 		<language type="kg" territories="CD" alt="secondary"/>
 		<language type="kha" scripts="Latn"/>
 		<language type="kha" scripts="Beng" territories="IN" alt="secondary"/>
@@ -1452,7 +1490,7 @@ XXX	Code for transations where no currency is involved
 		<language type="lbe" scripts="Cyrl"/>
 		<language type="lbe" territories="RU" alt="secondary"/>
 		<language type="lcp" scripts="Thai"/>
-		<language type="lep" scripts="Lepc" alt="secondary"/>
+		<language type="lep" scripts="Lepc"/>
 		<language type="lez" scripts="Cyrl"/>
 		<language type="lez" territories="RU" alt="secondary"/>
 		<language type="lg" scripts="Latn"/>
@@ -1520,7 +1558,6 @@ XXX	Code for transations where no currency is involved
 		<language type="mt" scripts="Latn" territories="MT"/>
 		<language type="mtr" territories="IN" alt="secondary"/>
 		<language type="mup" territories="IN" alt="secondary"/>
-		<language type="muw" scripts="Beng Deva"/>
 		<language type="muw" territories="IN" alt="secondary"/>
 		<language type="mwr" scripts="Deva"/>
 		<language type="my" scripts="Mymr" territories="MM"/>
@@ -1645,8 +1682,8 @@ XXX	Code for transations where no currency is involved
 		<language type="so" scripts="Osma" territories="DJ ET" alt="secondary"/>
 		<language type="son" scripts="Latn"/>
 		<language type="sou" territories="TH" alt="secondary"/>
-		<language type="sq" scripts="Latn" territories="AL"/>
-		<language type="sq" territories="MK RS" alt="secondary"/>
+		<language type="sq" scripts="Latn" territories="AL MK"/>
+		<language type="sq" territories="RS" alt="secondary"/>
 		<language type="sr" scripts="Cyrl Latn" territories="BA ME RS"/>
 		<language type="srn" scripts="Latn"/>
 		<language type="srn" territories="SR" alt="secondary"/>
@@ -1762,7 +1799,7 @@ XXX	Code for transations where no currency is involved
 		<language type="yi" scripts="Hebr"/>
 		<language type="yo" scripts="Latn" territories="NG"/>
 		<language type="yrk" scripts="Cyrl"/>
-		<language type="za" scripts="Hani"/>
+		<language type="za" scripts="Hans"/>
 		<language type="za" territories="CN" alt="secondary"/>
 		<language type="zbl" scripts="Blis"/>
 		<language type="zh" scripts="Hans Hant" territories="CN HK MO SG TW"/>
@@ -1778,20 +1815,21 @@ XXX	Code for transations where no currency is involved
 		</territory>
 		<territory type="AE" gdp="111300000000" literacyPercent="78" population="4300000">	<!--United Arab Emirates-->
 			<languagePopulation type="ar" populationPercent="17.4" officialStatus="official"/>	<!--Arabic-->
+			<languagePopulation type="ml" populationPercent="6.98"/>	<!--Malayalam-->
 			<languagePopulation type="ps" populationPercent="3.02"/>	<!--Pashto-->
 			<languagePopulation type="bal" populationPercent="2.33"/>	<!--Baluchi-->
 			<languagePopulation type="fa" populationPercent="1.86"/>	<!--Persian-->
 		</territory>
 		<territory type="AF" gdp="21500000000" literacyPercent="28.1" population="30000000">	<!--Afghanistan-->
 			<languagePopulation type="fa" populationPercent="50" officialStatus="official"/>	<!--Persian-->
-			<languagePopulation type="ps" populationPercent="33.3" officialStatus="official"/>	<!--Pashto-->
+			<languagePopulation type="ps" populationPercent="43.3" officialStatus="official" references="R1055"/>	<!--Pashto-->
 			<languagePopulation type="haz" populationPercent="6"/>	<!--Hazaragi-->
 			<languagePopulation type="uz_Arab" populationPercent="4.67"/>	<!--Uzbek (Arabic)-->
 			<languagePopulation type="tk" populationPercent="1.67"/>	<!--Turkmen-->
 			<languagePopulation type="prd" populationPercent="1.17"/>	<!--Parsi-Dari-->
 			<languagePopulation type="bal" populationPercent="0.667"/>	<!--Baluchi-->
 			<languagePopulation type="ug" populationPercent="0.01"/>	<!--Uighur-->
-			<languagePopulation type="kk" populationPercent="0.007"/>	<!--Kazakh-->
+			<languagePopulation type="kk_Arab" populationPercent="0.007"/>	<!--Kazakh (Arabic)-->
 		</territory>
 		<territory type="AG" gdp="750000000" literacyPercent="85.8" population="80000">	<!--Antigua and Barbuda-->
 			<languagePopulation type="en" populationPercent="86.3" officialStatus="official"/>	<!--English-->
@@ -1832,11 +1870,11 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="sm" populationPercent="100" officialStatus="official"/>	<!--Samoan-->
 			<languagePopulation type="en" populationPercent="96.5" officialStatus="de_facto_official"/>	<!--English-->
 		</territory>
-		<territory type="AT" gdp="267600000000" literacyPercent="98" population="8100000">	<!--Austria-->
-			<languagePopulation type="de" populationPercent="92.6" officialStatus="official"/>	<!--German-->
-			<languagePopulation type="hr" populationPercent="1.23" officialStatus="official_regional"/>	<!--Croatian-->
-			<languagePopulation type="sl" populationPercent="0.383" officialStatus="official_regional"/>	<!--Slovenian-->
-			<languagePopulation type="hu" populationPercent="0.272" officialStatus="official_regional"/>	<!--Hungarian-->
+		<territory type="AT" gdp="267600000000" literacyPercent="98" population="8300000">	<!--Austria-->
+			<languagePopulation type="de" populationPercent="97.6" officialStatus="official"/>	<!--German-->
+			<languagePopulation type="hr" populationPercent="1.2" officialStatus="official_regional"/>	<!--Croatian-->
+			<languagePopulation type="sl" populationPercent="0.373" officialStatus="official_regional"/>	<!--Slovenian-->
+			<languagePopulation type="hu" populationPercent="0.265" officialStatus="official_regional"/>	<!--Hungarian-->
 		</territory>
 		<territory type="AU" gdp="640100000000" literacyPercent="99" population="20000000">	<!--Australia-->
 			<languagePopulation type="en" populationPercent="95" officialStatus="de_facto_official" references="R1001"/>	<!--English-->
@@ -1852,8 +1890,8 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="sv" populationPercent="96.3" officialStatus="official"/>	<!--Swedish-->
 		</territory>
 		<territory type="AZ" gdp="37920000000" literacyPercent="98.8" population="8300000">	<!--Azerbaijan-->
-			<languagePopulation type="az_Cyrl" populationPercent="72.3" officialStatus="official"/>	<!--Azerbaijani (Cyrillic)-->
-			<languagePopulation type="az_Latn" populationPercent="30.1" officialStatus="official" references="R1043"/>	<!--Azerbaijani (Latin)-->
+			<languagePopulation type="az_Latn" populationPercent="90" officialStatus="official" references="R1043"/>	<!--Azerbaijani (Latin)-->
+			<languagePopulation type="az_Cyrl" populationPercent="10" officialStatus="official"/>	<!--Azerbaijani (Cyrillic)-->
 			<languagePopulation type="ku_Latn" populationPercent="0.241"/>	<!--Kurdish (Latin)-->
 		</territory>
 		<territory type="BA" gdp="22890000000" literacyPercent="96.7" population="3800000">	<!--Bosnia and Herzegovina-->
@@ -1881,7 +1919,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="de" populationPercent="1.5" officialStatus="official"/>	<!--German-->
 		</territory>
 		<territory type="BF" gdp="16950000000" literacyPercent="21.8" population="12000000">	<!--Burkina Faso-->
-			<languagePopulation type="mos" populationPercent="41.7" references="R1055"/>	<!--Mossi-->
+			<languagePopulation type="mos" populationPercent="41.7" references="R1108"/>	<!--Mossi-->
 			<languagePopulation type="dyu" populationPercent="33.3" references="R1091"/>	<!--Dyula-->
 			<languagePopulation type="fr" populationPercent="22.5" officialStatus="official"/>	<!--French-->
 		</territory>
@@ -1891,6 +1929,7 @@ XXX	Code for transations where no currency is involved
 		</territory>
 		<territory type="BH" gdp="15830000000" literacyPercent="86.6" population="730000">	<!--Bahrain-->
 			<languagePopulation type="ar" populationPercent="86.3" officialStatus="official" references="R1007"/>	<!--Arabic-->
+			<languagePopulation type="ml" populationPercent="3.29" references="R1109"/>	<!--Malayalam-->
 		</territory>
 		<territory type="BI" gdp="5654000000" literacyPercent="59.3" population="7300000">	<!--Burundi-->
 			<languagePopulation type="rn" populationPercent="63" officialStatus="official"/>	<!--Rundi-->
@@ -2020,7 +2059,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="mn_Mong" populationPercent="0.262" officialStatus="official_regional"/>	<!--Mongolian (Mongolian)-->
 			<languagePopulation type="bo" populationPercent="0.2" officialStatus="official_regional"/>	<!--Tibetan-->
 			<languagePopulation type="ko" populationPercent="0.146" officialStatus="official_regional"/>	<!--Korean-->
-			<languagePopulation type="kk" populationPercent="0.085"/>	<!--Kazakh-->
+			<languagePopulation type="kk_Arab" populationPercent="0.085"/>	<!--Kazakh (Arabic)-->
 			<languagePopulation type="lis" populationPercent="0.045"/>	<!--Lisu-->
 			<languagePopulation type="ky_Arab" populationPercent="0.034"/>	<!--Kirghiz (Arabic)-->
 			<languagePopulation type="nbf" populationPercent="0.024"/>	<!--Naxi-->
@@ -2136,8 +2175,13 @@ XXX	Code for transations where no currency is involved
 		<territory type="FI" gdp="161500000000" literacyPercent="100" population="5200000">	<!--Finland-->
 			<languagePopulation type="fi" populationPercent="90.4" officialStatus="official"/>	<!--Finnish-->
 			<languagePopulation type="sv" populationPercent="5.77" officialStatus="official"/>	<!--Swedish-->
+			<languagePopulation type="ru" populationPercent="0.808" references="R1110"/>	<!--Russian-->
+			<languagePopulation type="en" populationPercent="0.187" references="R1110"/>	<!--English-->
 			<languagePopulation type="et" populationPercent="0.115"/>	<!--Estonian-->
+			<languagePopulation type="rmf" populationPercent="0.096" references="R1111"/>	<!--Kalo Finnish Romani-->
 			<languagePopulation type="se" populationPercent="0.038"/>	<!--Northern Sami-->
+			<languagePopulation type="smn" populationPercent="0.012" references="R1112"/>	<!--Inari Sami-->
+			<languagePopulation type="sms" populationPercent="0.012" references="R1112"/>	<!--Skolt Sami-->
 		</territory>
 		<territory type="FJ" gdp="5380000000" literacyPercent="93" population="850000">	<!--Fiji-->
 			<languagePopulation type="hi" populationPercent="43.5" references="R1097"/>	<!--Hindi-->
@@ -2188,6 +2232,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="ks" populationPercent="0.203"/>	<!--Kashmiri-->
 			<languagePopulation type="ga" populationPercent="0.161" officialStatus="official_regional"/>	<!--Irish-->
 			<languagePopulation type="gd" writingPercent="5" populationPercent="0.1" officialStatus="official_regional" references="R1017"/>	<!--Scottish Gaelic-->
+			<languagePopulation type="ml" populationPercent="0.036" references="R1113"/>	<!--Malayalam-->
 			<languagePopulation type="fr" populationPercent="0.024" officialStatus="official_regional"/>	<!--French-->
 			<languagePopulation type="gv" populationPercent="0.003"/>	<!--Manx-->
 		</territory>
@@ -2231,7 +2276,7 @@ XXX	Code for transations where no currency is involved
 		</territory>
 		<territory type="GN" gdp="18990000000" literacyPercent="29.5" population="8100000">	<!--Guinea-->
 			<languagePopulation type="fr" populationPercent="29.6" officialStatus="official" references="R1040"/>	<!--French-->
-			<languagePopulation type="emk" populationPercent="23.5" references="R1040"/>	<!--Eastern Maninkakan-->
+			<languagePopulation type="emk" populationPercent="23.5" references="R1114"/>	<!--Eastern Maninkakan-->
 			<languagePopulation type="sus" populationPercent="11.2"/>	<!--Susu-->
 			<languagePopulation type="kpe" populationPercent="3.83"/>	<!--Kpelle-->
 		</territory>
@@ -2312,7 +2357,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="bbc" populationPercent="0.909"/>	<!--Batak Toba-->
 			<languagePopulation type="zh_Hant" populationPercent="0.909"/>	<!--Chinese (Traditional Han)-->
 			<languagePopulation type="mak" populationPercent="0.727"/>	<!--Makasar-->
-			<languagePopulation type="ljp" populationPercent="0.682"/>	<!--Lampung-->
+			<languagePopulation type="ljp" populationPercent="0.682"/>	<!--Lampung Api-->
 			<languagePopulation type="rej" populationPercent="0.455"/>	<!--Rejang-->
 			<languagePopulation type="gor" populationPercent="0.409"/>	<!--Gorontalo-->
 			<languagePopulation type="nij" populationPercent="0.364"/>	<!--Ngaju-->
@@ -2339,6 +2384,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="hu" populationPercent="1.03"/>	<!--Hungarian-->
 			<languagePopulation type="am" populationPercent="0.588"/>	<!--Amharic-->
 			<languagePopulation type="ti" populationPercent="0.147"/>	<!--Tigrinya-->
+			<languagePopulation type="ml" populationPercent="0.118" references="R1115"/>	<!--Malayalam-->
 		</territory>
 		<territory type="IM" gdp="2113000000" literacyPercent="99" population="75000">	<!--Isle of Man-->
 			<languagePopulation type="en" populationPercent="100" officialStatus="de_facto_official"/>	<!--English-->
@@ -2374,12 +2420,12 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="swv" populationPercent="0.273"/>	<!--Shekhawati-->
 			<languagePopulation type="gbm" populationPercent="0.264"/>	<!--Garhwali-->
 			<languagePopulation type="lmn" populationPercent="0.264"/>	<!--Lambadi-->
-			<languagePopulation type="rjb" populationPercent="0.255"/>	<!--Rajbanshi-->
+			<languagePopulation type="rjb" populationPercent="0.255"/>	<!--rjb-->
 			<languagePopulation type="sd_Arab" populationPercent="0.255" officialStatus="official"/>	<!--Sindhi (Arabic)-->
 			<languagePopulation type="gon" populationPercent="0.236"/>	<!--Gondi-->
 			<languagePopulation type="kfy" populationPercent="0.218"/>	<!--Kumaoni-->
 			<languagePopulation type="doi" populationPercent="0.191"/>	<!--Dogri-->
-			<languagePopulation type="muw" populationPercent="0.191"/>	<!--Mundari-->
+			<languagePopulation type="muw" populationPercent="0.191"/>	<!--muw-->
 			<languagePopulation type="kru" populationPercent="0.191"/>	<!--Kurukh-->
 			<languagePopulation type="sck" populationPercent="0.182"/>	<!--Sadri-->
 			<languagePopulation type="gno" populationPercent="0.182"/>	<!--Northern Gondi-->
@@ -2395,7 +2441,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="hoc" populationPercent="0.1"/>	<!--Ho-->
 			<languagePopulation type="mtr" populationPercent="0.1"/>	<!--Mewari-->
 			<languagePopulation type="bhi" populationPercent="0.091"/>	<!--Bhilali-->
-			<languagePopulation type="hoj" populationPercent="0.081"/>	<!--Harauti-->
+			<languagePopulation type="hoj" populationPercent="0.081"/>	<!--Hadothi-->
 			<languagePopulation type="kha" writingPercent="29" populationPercent="0.079" officialStatus="official_regional"/>	<!--Khasi-->
 			<languagePopulation type="kfr" populationPercent="0.074"/>	<!--Kachchi-->
 			<languagePopulation type="grt" populationPercent="0.053"/>	<!--Garo-->
@@ -2425,27 +2471,27 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="ku_Arab" populationPercent="20" officialStatus="official_regional" references="R1073"/>	<!--Kurdish (Arabic)-->
 			<languagePopulation type="fa" populationPercent="0.885"/>	<!--Persian-->
 		</territory>
-		<territory type="IR" gdp="561600000000" literacyPercent="77" population="67000000">	<!--Iran-->
-			<languagePopulation type="az_Arab" populationPercent="35.8"/>	<!--Azerbaijani (Arabic)-->
-			<languagePopulation type="fa" populationPercent="32.8" officialStatus="official"/>	<!--Persian-->
-			<languagePopulation type="ku_Arab" populationPercent="8.96" references="R1083"/>	<!--Kurdish (Arabic)-->
-			<languagePopulation type="glk" populationPercent="4.93"/>	<!--Gilaki-->
-			<languagePopulation type="tk" populationPercent="2.99"/>	<!--Turkmen-->
-			<languagePopulation type="lrc" populationPercent="2.24"/>	<!--Northern Luri-->
-			<languagePopulation type="ar" populationPercent="2.09"/>	<!--Arabic-->
-			<languagePopulation type="rmt" populationPercent="1.94"/>	<!--Domari-->
-			<languagePopulation type="bqi" populationPercent="1.49"/>	<!--Bakhtiari-->
-			<languagePopulation type="luz" populationPercent="1.31"/>	<!--Southern Luri-->
-			<languagePopulation type="bal" populationPercent="1.28"/>	<!--Baluchi-->
-			<languagePopulation type="prd" populationPercent="0.522"/>	<!--Parsi-Dari-->
-			<languagePopulation type="hy" populationPercent="0.254"/>	<!--Armenian-->
-			<languagePopulation type="ps" populationPercent="0.164"/>	<!--Pashto-->
-			<languagePopulation type="ka" populationPercent="0.075"/>	<!--Georgian-->
-			<languagePopulation type="kk" populationPercent="0.004"/>	<!--Kazakh-->
+		<territory type="IR" gdp="561600000000" literacyPercent="76.7" population="70000000">	<!--Iran-->
+			<languagePopulation type="fa" populationPercent="75.7" officialStatus="official"/>	<!--Persian-->
+			<languagePopulation type="az_Arab" populationPercent="24.3"/>	<!--Azerbaijani (Arabic)-->
+			<languagePopulation type="ku_Arab" populationPercent="7" references="R1083"/>	<!--Kurdish (Arabic)-->
+			<languagePopulation type="glk" populationPercent="4.71"/>	<!--Gilaki-->
+			<languagePopulation type="tk" populationPercent="2.86"/>	<!--Turkmen-->
+			<languagePopulation type="lrc" populationPercent="2.14"/>	<!--Northern Luri-->
+			<languagePopulation type="ar" populationPercent="2"/>	<!--Arabic-->
+			<languagePopulation type="bal" populationPercent="2"/>	<!--Baluchi-->
+			<languagePopulation type="rmt" populationPercent="1.86"/>	<!--Domari-->
+			<languagePopulation type="bqi" populationPercent="1.43"/>	<!--Bakhtiari-->
+			<languagePopulation type="luz" populationPercent="1.26"/>	<!--Southern Luri-->
+			<languagePopulation type="prd" populationPercent="0.5"/>	<!--Parsi-Dari-->
+			<languagePopulation type="hy" populationPercent="0.243"/>	<!--Armenian-->
+			<languagePopulation type="ps" populationPercent="0.157"/>	<!--Pashto-->
+			<languagePopulation type="ka" populationPercent="0.071"/>	<!--Georgian-->
+			<languagePopulation type="kk_Arab" populationPercent="0.004"/>	<!--Kazakh (Arabic)-->
 		</territory>
-		<territory type="IS" gdp="10570000000" literacyPercent="99.1" population="290000">	<!--Iceland-->
+		<territory type="IS" gdp="10570000000" literacyPercent="99.1" population="320000">	<!--Iceland-->
 			<languagePopulation type="is" populationPercent="100" officialStatus="official" references="R1035"/>	<!--Icelandic-->
-			<languagePopulation type="da" populationPercent="0.793"/>	<!--Danish-->
+			<languagePopulation type="da" populationPercent="0.719"/>	<!--Danish-->
 		</territory>
 		<territory type="IT" gdp="1698000000000" literacyPercent="98.4" population="58000000">	<!--Italy-->
 			<languagePopulation type="it" populationPercent="94.8" officialStatus="official"/>	<!--Italian-->
@@ -2525,7 +2571,7 @@ XXX	Code for transations where no currency is involved
 		</territory>
 		<territory type="KZ" gdp="124300000000" literacyPercent="99.5" population="15000000">	<!--Kazakhstan-->
 			<languagePopulation type="ru" populationPercent="93.3" officialStatus="official" references="R1068"/>	<!--Russian-->
-			<languagePopulation type="kk" populationPercent="64" officialStatus="official" references="R1068"/>	<!--Kazakh-->
+			<languagePopulation type="kk_Cyrl" populationPercent="64" officialStatus="official" references="R1068"/>	<!--Kazakh (Cyrillic)-->
 			<languagePopulation type="de" populationPercent="6.4"/>	<!--German-->
 			<languagePopulation type="ug" populationPercent="2"/>	<!--Uighur-->
 		</territory>
@@ -2549,7 +2595,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="wae" populationPercent="3.82"/>	<!--Walser-->
 		</territory>
 		<territory type="LK" gdp="85340000000" literacyPercent="90.7" population="19000000">	<!--Sri Lanka-->
-			<languagePopulation type="si" populationPercent="68.4" officialStatus="official"/>	<!--Sinhalese-->
+			<languagePopulation type="si" populationPercent="68.4" officialStatus="official"/>	<!--Sinhala-->
 			<languagePopulation type="ta" populationPercent="15.8" officialStatus="official"/>	<!--Tamil-->
 			<languagePopulation type="en" populationPercent="0.389"/>	<!--English-->
 		</territory>
@@ -2606,7 +2652,7 @@ XXX	Code for transations where no currency is involved
 		</territory>
 		<territory type="MG" gdp="16360000000" literacyPercent="70.7" population="17000000">	<!--Madagascar-->
 			<languagePopulation type="mg" populationPercent="58.8" officialStatus="official"/>	<!--Malagasy-->
-			<languagePopulation type="kk" populationPercent="1.06"/>	<!--Kazakh-->
+			<languagePopulation type="kk_Arab" populationPercent="1.06"/>	<!--Kazakh (Arabic)-->
 			<languagePopulation type="fr" populationPercent="0.106" officialStatus="official"/>	<!--French-->
 		</territory>
 		<territory type="MH" gdp="115000000" literacyPercent="93.7" population="60000">	<!--Marshall Islands-->
@@ -2615,7 +2661,7 @@ XXX	Code for transations where no currency is involved
 		</territory>
 		<territory type="MK" gdp="16030000000" literacyPercent="96.1" population="2100000">	<!--Macedonia-->
 			<languagePopulation type="mk" populationPercent="66.7" officialStatus="official"/>	<!--Macedonian-->
-			<languagePopulation type="sq" populationPercent="24.8" references="R1053"/>	<!--Albanian-->
+			<languagePopulation type="sq" populationPercent="24.8" officialStatus="de_facto_official" references="R1053"/>	<!--Albanian-->
 			<languagePopulation type="tr" populationPercent="9.52" officialStatus="official_regional"/>	<!--Turkish-->
 		</territory>
 		<territory type="ML" gdp="13560000000" literacyPercent="19" population="12000000">	<!--Mali-->
@@ -2646,7 +2692,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="ru" populationPercent="0.16"/>	<!--Russian-->
 			<languagePopulation type="ug" populationPercent="0.04"/>	<!--Uighur-->
 		</territory>
-		<territory type="MO" gdp="10000000000" literacyPercent="91.3" population="450000">	<!--Macao SAR China-->
+		<territory type="MO" gdp="10000000000" literacyPercent="91.3" population="450000">	<!--Macau SAR China-->
 			<languagePopulation type="zh_Hant" populationPercent="97.8" officialStatus="official"/>	<!--Chinese (Traditional Han)-->
 			<languagePopulation type="pt" populationPercent="4.89" references="R1085"/>	<!--Portuguese-->
 		</territory>
@@ -2702,6 +2748,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="bjn" populationPercent="3.6"/>	<!--Banjar-->
 			<languagePopulation type="jv" populationPercent="1.2"/>	<!--Javanese-->
 			<languagePopulation type="zmi" populationPercent="1.2"/>	<!--Negeri Sembilan Malay-->
+			<languagePopulation type="ml" populationPercent="0.148"/>	<!--Malayalam-->
 			<languagePopulation type="bug" populationPercent="0.08" references="R1056"/>	<!--Buginese-->
 		</territory>
 		<territory type="MZ" gdp="26030000000" literacyPercent="48" population="19000000">	<!--Mozambique-->
@@ -2791,7 +2838,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="thq" populationPercent="1.04"/>	<!--Kochila Tharu-->
 			<languagePopulation type="mrd" populationPercent="0.84"/>	<!--Western Magar-->
 			<languagePopulation type="bfy" populationPercent="0.56"/>	<!--Bagheli-->
-			<languagePopulation type="rjb" populationPercent="0.52"/>	<!--Rajbanshi-->
+			<languagePopulation type="rjb" populationPercent="0.52"/>	<!--rjb-->
 			<languagePopulation type="xsr" populationPercent="0.52"/>	<!--Sherpa-->
 			<languagePopulation type="tsf" populationPercent="0.44"/>	<!--Southwestern Tamang-->
 			<languagePopulation type="hi" populationPercent="0.44"/>	<!--Hindi-->
@@ -2801,7 +2848,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="tkt" populationPercent="0.24"/>	<!--Kathoriya Tharu-->
 			<languagePopulation type="tdh" populationPercent="0.12"/>	<!--Thulung-->
 			<languagePopulation type="bn" populationPercent="0.096"/>	<!--Bengali-->
-			<languagePopulation type="muw" populationPercent="0.023"/>	<!--Mundari-->
+			<languagePopulation type="muw" populationPercent="0.023"/>	<!--muw-->
 			<languagePopulation type="lep" populationPercent="0.011"/>	<!--Lepcha-->
 		</territory>
 		<territory type="NR" gdp="60000000" literacyPercent="99.1" population="13000">	<!--Nauru-->
@@ -2863,11 +2910,11 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="es" populationPercent="0.003" officialStatus="official"/>	<!--Spanish-->
 		</territory>
 		<territory type="PK" gdp="393400000000" literacyPercent="49.9" population="150000000">	<!--Pakistan-->
+			<languagePopulation type="ur" populationPercent="93.3" officialStatus="official" references="R1106"/>	<!--Urdu-->
+			<languagePopulation type="en" populationPercent="50.7" officialStatus="official" references="R1106"/>	<!--English-->
 			<languagePopulation type="lah" populationPercent="40.7"/>	<!--Lahnda-->
-			<languagePopulation type="ps" populationPercent="12.7"/>	<!--Pashto-->
+			<languagePopulation type="ps" populationPercent="15.3" references="R1107"/>	<!--Pashto-->
 			<languagePopulation type="sd_Arab" populationPercent="12.7"/>	<!--Sindhi (Arabic)-->
-			<languagePopulation type="en" populationPercent="11.3" officialStatus="official"/>	<!--English-->
-			<languagePopulation type="ur" populationPercent="7.33" officialStatus="official"/>	<!--Urdu-->
 			<languagePopulation type="bal" populationPercent="3.8"/>	<!--Baluchi-->
 			<languagePopulation type="brh" populationPercent="1.33"/>	<!--Brahui-->
 			<languagePopulation type="hno" populationPercent="1.27"/>	<!--Northern Hindko-->
@@ -2920,6 +2967,7 @@ XXX	Code for transations where no currency is involved
 		<territory type="QA" gdp="23640000000" literacyPercent="89" population="640000">	<!--Qatar-->
 			<languagePopulation type="ar" populationPercent="15.6" officialStatus="official"/>	<!--Arabic-->
 			<languagePopulation type="fa" populationPercent="11.4"/>	<!--Persian-->
+			<languagePopulation type="ml" populationPercent="1.02"/>	<!--Malayalam-->
 		</territory>
 		<territory type="RE" gdp="4790000000" literacyPercent="88.9" population="780000">	<!--Reunion-->
 			<languagePopulation type="rcf" populationPercent="70.5"/>	<!--Réunion Creole French-->
@@ -2971,6 +3019,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="koi" populationPercent="0.086" officialStatus="official_regional"/>	<!--Komi-Permyak-->
 			<languagePopulation type="lbe" populationPercent="0.079" officialStatus="official_regional"/>	<!--Lak-->
 			<languagePopulation type="mrj" populationPercent="0.047"/>	<!--Western Mari-->
+			<languagePopulation type="alt" populationPercent="0.014"/>	<!--Southern Altai-->
 			<languagePopulation type="fi" populationPercent="0.012"/>	<!--Finnish-->
 			<languagePopulation type="sr_Latn" populationPercent="0.004"/>	<!--Serbian (Latin)-->
 			<languagePopulation type="mn_Cyrl" populationPercent="0.001"/>	<!--Mongolian (Cyrillic)-->
@@ -3002,9 +3051,9 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="sma" writingPercent="75" populationPercent="0.003"/>	<!--Southern Sami-->
 		</territory>
 		<territory type="SG" gdp="124300000000" literacyPercent="92.6" population="4300000">	<!--Singapore-->
+			<languagePopulation type="en" populationPercent="81.4" officialStatus="official" references="R1118"/>	<!--English-->
 			<languagePopulation type="zh_Hans" populationPercent="76.7" officialStatus="official"/>	<!--Chinese (Simplified Han)-->
 			<languagePopulation type="ms" populationPercent="14.2" officialStatus="official"/>	<!--Malay-->
-			<languagePopulation type="en" populationPercent="5.35" officialStatus="official"/>	<!--English-->
 			<languagePopulation type="ta" populationPercent="2.09" officialStatus="official"/>	<!--Tamil-->
 			<languagePopulation type="ml" populationPercent="0.233"/>	<!--Malayalam-->
 			<languagePopulation type="pa_Guru" populationPercent="0.221"/>	<!--Punjabi (Gurmukhi)-->
@@ -3018,7 +3067,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="it" populationPercent="0.2"/>	<!--Italian-->
 		</territory>
 		<territory type="SJ" gdp="0" literacyPercent="99.1" population="2700">	<!--Svalbard and Jan Mayen-->
-			<languagePopulation type="nb" populationPercent="55.6" officialStatus="official" references="R1106"/>	<!--Norwegian Bokmål-->
+			<languagePopulation type="nb" populationPercent="55.6" officialStatus="official" references="R1116"/>	<!--Norwegian Bokmål-->
 			<languagePopulation type="ru" populationPercent="44.4" references="R1074"/>	<!--Russian-->
 		</territory>
 		<territory type="SK" gdp="87320000000" literacyPercent="99.6" population="5400000">	<!--Slovakia-->
@@ -3144,7 +3193,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="el" populationPercent="0.006"/>	<!--Greek-->
 			<languagePopulation type="uz_Latn" populationPercent="0.003"/>	<!--Uzbek (Latin)-->
 			<languagePopulation type="ky_Latn" populationPercent="0.002"/>	<!--Kirghiz (Latin)-->
-			<languagePopulation type="kk" populationPercent="0.001"/>	<!--Kazakh-->
+			<languagePopulation type="kk_Latn" populationPercent="0.001"/>	<!--Kazakh (Latin)-->
 		</territory>
 		<territory type="TT" gdp="18010000000" literacyPercent="98" population="1300000">	<!--Trinidad and Tobago-->
 			<languagePopulation type="es" populationPercent="0.315"/>	<!--Spanish-->
@@ -3156,6 +3205,7 @@ XXX	Code for transations where no currency is involved
 		</territory>
 		<territory type="TW" gdp="631200000000" literacyPercent="96" population="23000000">	<!--Taiwan-->
 			<languagePopulation type="zh_Hant" populationPercent="95.7" officialStatus="official"/>	<!--Chinese (Traditional Han)-->
+			<languagePopulation type="trv" populationPercent="0.021"/>	<!--Taroko-->
 		</territory>
 		<territory type="TZ" gdp="27070000000" literacyPercent="69.4" population="37000000">	<!--Tanzania-->
 			<languagePopulation type="en" populationPercent="67.6" officialStatus="official" references="R1081"/>	<!--English-->
@@ -3184,7 +3234,7 @@ XXX	Code for transations where no currency is involved
 			<languagePopulation type="en" populationPercent="3.85" officialStatus="official" references="R1082"/>	<!--English-->
 			<languagePopulation type="teo" populationPercent="3.85"/>	<!--Teso-->
 			<languagePopulation type="laj" populationPercent="3.77"/>	<!--Lango (Uganda)-->
-			<languagePopulation type="myx" populationPercent="2.88"/>	<!--Masaba-->
+			<languagePopulation type="myx" populationPercent="2.88"/>	<!--Masaaba-->
 			<languagePopulation type="rw" populationPercent="2.04"/>	<!--Kinyarwanda-->
 			<languagePopulation type="ttj" populationPercent="1.88"/>	<!--Tooro-->
 			<languagePopulation type="sw" populationPercent="0.009" officialStatus="official" references="R1089"/>	<!--Swahili-->
@@ -3295,7 +3345,7 @@ XXX	Code for transations where no currency is involved
 		</territory>
 		<territory type="ZZ" gdp="0" literacyPercent="0" population="0">	<!--Unknown or Invalid Region-->
 			<languagePopulation type="eo" writingPercent="99" populationPercent="100" references="R1031"/>	<!--Esperanto-->
-			<languagePopulation type="vo" writingPercent="99" populationPercent="100" references="R1107"/>	<!--Volapük-->
+			<languagePopulation type="vo" writingPercent="99" populationPercent="100" references="R1117"/>	<!--Volapük-->
 			<languagePopulation type="ia" writingPercent="99" populationPercent="100"/>	<!--Interlingua-->
 		</territory>
 	</territoryInfo>
@@ -3588,123 +3638,136 @@ XXX	Code for transations where no currency is involved
 		  </eras>
 		</calendar>
 		<calendar type="ethiopic" territories="ET"/>
+		<calendar type="indian" territories="IN">
+		  <eras>
+		      <era type="0" start="79"/>
+		  </eras>
+		</calendar>
+		<calendar type="roc" territories="TW">
+		  <eras>
+		      <era type="0" end="1911"/>
+		      <era type="1" start="1912"/>
+		  </eras>
+		</calendar>
 	</calendarData>
     <weekData>
           <minDays count="1" territories="001" />
           <minDays count="4" territories="AT BE CA CH DE DK FI FR IT LI LT LU MC MT NL NO SE SK" />
-          <minDays count="4" territories="CD" draft="true" />
+          <minDays count="4" territories="CD" draft="unconfirmed" />
         
           <firstDay day="mon"  territories="001" />
           <firstDay day="fri"  territories="MV" />
-          <firstDay day="sat"  territories="AE AF BH DJ DZ EG ER ET IQ IR JO KE KW LB LY MA OM QA SA SD SO TN YE" />
-          <firstDay day="sun"  territories="AS AU AZ BW CA CN FO GE GL GU HK IE IL IS JM JP KG KR LA MH MN MO MP MT NZ PH PK SG TH TT TW UM US UZ VI ZA ZW" />
-          <firstDay day="sun"  territories="ET MW NG TJ" draft="true" />
-		  <firstDay day="sun"  territories="GB" draft="true"  alt="variant" references="Shorter Oxford Dictionary (5th edition, 2002)"/>
-          <firstDay day="thu"  territories="SY" />
+          <firstDay day="sat"  territories="AF BH DJ DZ EG ER ET IQ IR JO KE KW LY MA OM QA SA SD SO TN YE" />
+          <firstDay day="sun"  territories="AS AZ BW CA CN FO GE GL GU HK IE IL IS JM JP KG KR LA MH MN MO MP MT NZ PH PK SG SY TH TT TW UM US UZ VI ZW" />
+          <firstDay day="sun"  territories="ET MW NG TJ" draft="unconfirmed" />
+		  <firstDay day="sun"  territories="GB" draft="unconfirmed"  alt="variant" references="Shorter Oxford Dictionary (5th edition, 2002)"/>
         
+          <weekendStart day="thu"  territories="DZ KW OM SA SD YE AF IR"/>
+          <weekendStart day="fri"  territories="AE BH EG IL IQ JO LY MA QA SY TN"/>
           <weekendStart day="sat"  territories="001"/>
-          <weekendStart day="fri"  territories="EG IL SY"/>
           <weekendStart day="sun"  territories="IN"/>
-          <weekendStart day="thu"  territories="AE BH DZ IQ JO KW LB LY MA OM QA SA SD TN YE AF IR"/>
         
+          <weekendEnd day="fri"  territories="DZ KW OM SA SD YE AF IR"/>
+          <weekendEnd day="sat"  territories="AE BH EG IL IQ JO LY MA QA SY TN"/>
           <weekendEnd day="sun"  territories="001"/>
-          <weekendEnd day="fri"  territories="AE BH DZ IQ JO KW LB LY MA OM QA SA SD TN YE AF IR"/>
-          <weekendEnd day="sat"  territories="EG IL SY"/>
     </weekData>
 
     <measurementData>
           <measurementSystem type="metric"  territories="001"/>
           <measurementSystem type="US"  territories="US"/>
           <paperSize type="A4"  territories="001"/>
-          <paperSize type="US-Letter"  territories="US"/>
+          <paperSize type="US-Letter"  territories="CA US"/>
     </measurementData>
 	<timezoneData>
 		<mapTimezones type="windows">
-			<mapZone other="Dateline" type="Pacific/Kwajalein"/> <!-- S (GMT-12:00) International Date Line West-->
-			<mapZone other="Samoa" type="Pacific/Apia"/> <!-- S (GMT-11:00) Midway Island, Samoa-->
-			<mapZone other="Hawaiian" type="Pacific/Honolulu"/> <!-- S (GMT-10:00) Hawaii-->
-			<mapZone other="Alaskan" type="America/Anchorage"/> <!-- D (GMT-09:00) Alaska-->
-			<mapZone other="Pacific" type="America/Los_Angeles"/> <!-- D (GMT-08:00) Pacific Time (US & Canada)-->
-			<mapZone other="Pacific Standard Time (Mexico)" type="America/Tijuana"/> <!-- D (GMT-08:00) Tijuana, Baja California-->
-			<mapZone other="US Mountain" type="America/Phoenix"/> <!-- S (GMT-07:00) Arizona-->
-			<mapZone other="Mountain" type="America/Denver"/> <!-- D (GMT-07:00) Mountain Time (US & Canada)-->
-			<mapZone other="Mountain Standard Time (Mexico)" type="America/Chihuahua"/> <!-- D (GMT-07:00) Chihuahua, La Paz, Mazatlan-->
-			<mapZone other="Mexico Standard Time 2" type="America/Chihuahua"/> <!-- D (GMT-07:00) Chihuahua, La Paz, Mazatlan--> <!-- Obsoleted in Vista -->
-			<mapZone other="Central America" type="America/Guatemala"/> <!-- S (GMT-06:00) Central America-->
-			<mapZone other="Canada Central" type="America/Regina"/> <!-- S (GMT-06:00) Saskatchewan-->
-			<mapZone other="Central Standard Time (Mexico)" type="America/Mexico_City"/> <!-- D (GMT-06:00) Guadalajara, Mexico City, Monterrey-->
-			<mapZone other="Mexico" type="America/Mexico_City"/> <!-- D (GMT-06:00) Guadalajara, Mexico City, Monterrey-->   <!-- Obsoleted in Vista -->
-			<mapZone other="Central" type="America/Chicago"/> <!-- D (GMT-06:00) Central Time (US & Canada)-->
-			<mapZone other="US Eastern" type="America/Indianapolis"/> <!-- S (GMT-05:00) Indiana (East)-->
-			<mapZone other="SA Pacific" type="America/Bogota"/> <!-- S (GMT-05:00) Bogota, Lima, Quito, Rio Branco-->
-			<mapZone other="Eastern" type="America/New_York"/> <!-- D (GMT-05:00) Eastern Time (US & Canada)-->
-			<mapZone other="SA Western" type="America/Caracas"/> <!-- S (GMT-04:00) Caracas, La Paz-->
-			<mapZone other="Pacific SA" type="America/Santiago"/> <!-- D (GMT-04:00) Santiago-->
-			<mapZone other="Atlantic" type="America/Halifax"/> <!-- D (GMT-04:00) Atlantic Time (Canada)-->
-			<mapZone other="Central Brazilian" type="America/Manaus"/> <!-- D (GMT-04:00) Manaus-->
-			<mapZone other="Newfoundland" type="America/St_Johns"/> <!-- D (GMT-03:30) Newfoundland-->
-			<mapZone other="SA Eastern" type="America/Buenos_Aires"/> <!-- S (GMT-03:00) Buenos Aires, Georgetown-->
-			<mapZone other="Greenland" type="America/Godthab"/> <!-- D (GMT-03:00) Greenland-->
-			<mapZone other="E. South America" type="America/Sao_Paulo"/> <!-- D (GMT-03:00) Brasilia-->
-			<mapZone other="Montevideo" type="America/Montevideo"/> <!-- D (GMT-03:00) Montevideo-->
-			<mapZone other="Mid-Atlantic" type="America/Noronha"/> <!-- D (GMT-02:00) Mid-Atlantic-->
-			<mapZone other="Cape Verde" type="Atlantic/Cape_Verde"/> <!-- S (GMT-01:00) Cape Verde Is.-->
-			<mapZone other="Azores" type="Atlantic/Azores"/> <!-- D (GMT-01:00) Azores-->
-			<mapZone other="Greenwich" type="Africa/Casablanca"/> <!-- S (GMT) Casablanca, Monrovia, Reykjavik-->
-			<mapZone other="GMT" type="Europe/London"/> <!-- D (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London-->
-			<mapZone other="W. Central Africa" type="Africa/Lagos"/> <!-- S (GMT+01:00) West Central Africa-->
-			<mapZone other="W. Europe" type="Europe/Berlin"/> <!-- D (GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna-->
-			<mapZone other="Romance" type="Europe/Paris"/> <!-- D (GMT+01:00) Brussels, Copenhagen, Madrid, Paris-->
-			<mapZone other="Central European" type="Europe/Warsaw"/> <!-- D (GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb-->
-			<mapZone other="Central Europe" type="Europe/Prague"/> <!-- D (GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague-->
-			<mapZone other="South Africa" type="Africa/Johannesburg"/> <!-- S (GMT+02:00) Harare, Pretoria-->
-			<mapZone other="Israel" type="Asia/Jerusalem"/> <!-- S (GMT+02:00) Jerusalem-->
-			<mapZone other="GTB" type="Europe/Istanbul"/> <!-- D (GMT+02:00) Athens, Bucharest, Istanbul-->
-			<mapZone other="FLE" type="Europe/Helsinki"/> <!-- D (GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius-->
-			<mapZone other="Egypt" type="Africa/Cairo"/> <!-- D (GMT+02:00) Cairo-->
-			<mapZone other="E. Europe" type="Europe/Minsk"/> <!-- D (GMT+02:00) Minsk-->
-			<mapZone other="Jordan" type="Asia/Amman"/> <!-- D (GMT+02:00) Amman-->
-			<mapZone other="Middle East" type="Asia/Beirut"/> <!--D (GMT+02:00) Beirut-->
-			<mapZone other="Namibia" type="Africa/Windhoek"/> <!--D (GMT+02:00) Windhoek-->
-			<mapZone other="E. Africa" type="Africa/Nairobi"/> <!-- S (GMT+03:00) Nairobi-->
-			<mapZone other="Azerbaijan" type="Asia/Baku"/> <!-- S (GMT+04:00) Baku-->
-			<mapZone other="Arab" type="Asia/Riyadh"/> <!-- S (GMT+03:00) Kuwait, Riyadh-->
-			<mapZone other="Georgian" type="Asia/Tbilisi"/> <!-- S (GMT+03:00) Tbilisi-->
-			<mapZone other="Russian" type="Europe/Moscow"/> <!-- D (GMT+03:00) Moscow, St. Petersburg, Volgograd-->
-			<mapZone other="Arabic" type="Asia/Baghdad"/> <!-- D (GMT+03:00) Baghdad-->
-			<mapZone other="Iran" type="Asia/Tehran"/> <!-- D (GMT+03:30) Tehran-->
-			<mapZone other="Arabian" type="Asia/Muscat"/> <!-- S (GMT+04:00) Abu Dhabi, Muscat-->
-			<mapZone other="Caucasus" type="Asia/Yerevan"/> <!-- D (GMT+04:00) Yerevan-->
-			<mapZone other="Afghanistan" type="Asia/Kabul"/> <!-- S (GMT+04:30) Kabul-->
-			<mapZone other="West Asia" type="Asia/Karachi"/> <!-- S (GMT+05:00) Islamabad, Karachi, Tashkent-->
-			<mapZone other="Ekaterinburg" type="Asia/Yekaterinburg"/> <!-- D (GMT+05:00) Ekaterinburg-->
-			<mapZone other="India" type="Asia/Calcutta"/> <!-- S (GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi-->
-			<mapZone other="Nepal" type="Asia/Katmandu"/> <!-- S (GMT+05:45) Kathmandu-->
-			<mapZone other="Sri Lanka" type="Asia/Colombo"/> <!-- S (GMT+06:00) Sri Jayawardenepura-->
-			<mapZone other="Central Asia" type="Asia/Dhaka"/> <!-- S (GMT+06:00) Astana, Dhaka-->
-			<mapZone other="N. Central Asia" type="Asia/Novosibirsk"/> <!-- D (GMT+06:00) Almaty, Novosibirsk-->
-			<mapZone other="Myanmar" type="Asia/Rangoon"/> <!-- S (GMT+06:30) Yangon (Rangoon)-->
-			<mapZone other="SE Asia" type="Asia/Bangkok"/> <!-- S (GMT+07:00) Bangkok, Hanoi, Jakarta-->
-			<mapZone other="North Asia" type="Asia/Krasnoyarsk"/> <!-- D (GMT+07:00) Krasnoyarsk-->
-			<mapZone other="W. Australia" type="Australia/Perth"/> <!-- S (GMT+08:00) Perth-->
-			<mapZone other="Taipei" type="Asia/Taipei"/> <!-- S (GMT+08:00) Taipei-->
-			<mapZone other="Singapore" type="Asia/Singapore"/> <!-- S (GMT+08:00) Kuala Lumpur, Singapore-->
-			<mapZone other="China" type="Asia/Shanghai"/> <!-- S (GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi-->
-			<mapZone other="North Asia East" type="Asia/Ulaanbaatar"/> <!-- D (GMT+08:00) Irkutsk, Ulaan Bataar-->
-			<mapZone other="Tokyo" type="Asia/Tokyo"/> <!-- S (GMT+09:00) Osaka, Sapporo, Tokyo-->
-			<mapZone other="Korea" type="Asia/Seoul"/> <!-- S (GMT+09:00) Seoul-->
-			<mapZone other="Yakutsk" type="Asia/Yakutsk"/> <!-- D (GMT+09:00) Yakutsk-->
-			<mapZone other="AUS Central" type="Australia/Darwin"/> <!-- S (GMT+09:30) Darwin-->
-			<mapZone other="Cen. Australia" type="Australia/Adelaide"/> <!-- D (GMT+09:30) Adelaide-->
-			<mapZone other="West Pacific" type="Pacific/Guam"/> <!-- S (GMT+10:00) Guam, Port Moresby-->
-			<mapZone other="E. Australia" type="Australia/Brisbane"/> <!-- S (GMT+10:00) Brisbane-->
-			<mapZone other="Vladivostok" type="Asia/Vladivostok"/> <!-- D (GMT+10:00) Vladivostok-->
-			<mapZone other="Tasmania" type="Australia/Hobart"/> <!-- D (GMT+10:00) Hobart-->
-			<mapZone other="AUS Eastern" type="Australia/Sydney"/> <!-- D (GMT+10:00) Canberra, Melbourne, Sydney-->
-			<mapZone other="Central Pacific" type="Pacific/Guadalcanal"/> <!-- S (GMT+11:00) Magadan, Solomon Is., New Caledonia-->
-			<mapZone other="Fiji" type="Pacific/Fiji"/> <!-- S (GMT+12:00) Fiji, Kamchatka, Marshall Is.-->
-			<mapZone other="New Zealand" type="Pacific/Auckland"/> <!-- D (GMT+12:00) Auckland, Wellington-->
-			<mapZone other="Tonga" type="Pacific/Tongatapu"/> <!-- S (GMT+13:00) Nuku'alofa-->
+			<mapZone other="Afghanistan Standard Time" type="Asia/Kabul"/> <!-- S (GMT+04:30) Kabul -->
+			<mapZone other="Alaskan Standard Time" type="America/Anchorage"/> <!-- D (GMT-09:00) Alaska -->
+			<mapZone other="Arab Standard Time" type="Asia/Riyadh"/> <!-- S (GMT+03:00) Kuwait, Riyadh -->
+			<mapZone other="Arabian Standard Time" type="Asia/Dubai"/> <!-- S (GMT+04:00) Abu Dhabi, Muscat -->
+			<mapZone other="Arabic Standard Time" type="Asia/Baghdad"/> <!-- D (GMT+03:00) Baghdad -->
+			<mapZone other="Argentina Standard Time" type="America/Buenos_Aires"/> <!-- D [KB927279] (GMT-03:00) Buenos Aires -->
+			<mapZone other="Armenian Standard Time" type="Asia/Yerevan"/> <!-- D [XP] (GMT+04:00) Yerevan -->
+			<mapZone other="Atlantic Standard Time" type="America/Halifax"/> <!-- D (GMT-04:00) Atlantic Time (Canada) -->
+			<mapZone other="AUS Central Standard Time" type="Australia/Darwin"/> <!-- S (GMT+09:30) Darwin -->
+			<mapZone other="AUS Eastern Standard Time" type="Australia/Sydney"/> <!-- D (GMT+10:00) Canberra, Melbourne, Sydney -->
+			<mapZone other="Azerbaijan Standard Time" type="Asia/Baku"/> <!-- D (GMT+04:00) Baku -->
+			<mapZone other="Azores Standard Time" type="Atlantic/Azores"/> <!-- D (GMT-01:00) Azores -->
+			<mapZone other="Canada Central Standard Time" type="America/Regina"/> <!-- S (GMT-06:00) Saskatchewan -->
+			<mapZone other="Cape Verde Standard Time" type="Atlantic/Cape_Verde"/> <!-- S (GMT-01:00) Cape Verde Is. -->
+			<mapZone other="Caucasus Standard Time" type="Asia/Tbilisi"/> <!-- S [XP] (GMT+04:00) Caucasus Standard Time -->
+			<mapZone other="Cen. Australia Standard Time" type="Australia/Adelaide"/> <!-- D (GMT+09:30) Adelaide -->
+			<mapZone other="Central America Standard Time" type="America/Guatemala"/> <!-- S (GMT-06:00) Central America -->
+			<mapZone other="Central Asia Standard Time" type="Asia/Dhaka"/> <!-- S (GMT+06:00) Astana, Dhaka -->
+			<mapZone other="Central Brazilian Standard Time" type="America/Manaus"/> <!-- D (GMT-04:00) Manaus -->
+			<mapZone other="Central Europe Standard Time" type="Europe/Budapest"/> <!-- D (GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague -->
+			<mapZone other="Central European Standard Time" type="Europe/Warsaw"/> <!-- D (GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb -->
+			<mapZone other="Central Pacific Standard Time" type="Pacific/Guadalcanal"/> <!-- S (GMT+11:00) Magadan, Solomon Is., New Caledonia -->
+			<mapZone other="Central Standard Time" type="America/Chicago"/> <!-- D (GMT-06:00) Central Time (US & Canada) -->
+			<mapZone other="Central Standard Time (Mexico)" type="America/Mexico_City"/> <!-- D (GMT-06:00) Guadalajara, Mexico City, Monterrey -->
+			<mapZone other="China Standard Time" type="Asia/Shanghai"/> <!-- S (GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi -->
+			<mapZone other="Dateline Standard Time" type="Etc/GMT+12"/> <!-- S (GMT-12:00) International Date Line West -->
+			<mapZone other="E. Africa Standard Time" type="Africa/Nairobi"/> <!-- S (GMT+03:00) Nairobi -->
+			<mapZone other="E. Australia Standard Time" type="Australia/Brisbane"/> <!-- S (GMT+10:00) Brisbane -->
+			<mapZone other="E. Europe Standard Time" type="Europe/Minsk"/> <!-- D (GMT+02:00) Minsk -->
+			<mapZone other="E. South America Standard Time" type="America/Sao_Paulo"/> <!-- D (GMT-03:00) Brasilia -->
+			<mapZone other="Eastern Standard Time" type="America/New_York"/> <!-- D (GMT-05:00) Eastern Time (US & Canada) -->
+			<mapZone other="Egypt Standard Time" type="Africa/Cairo"/> <!-- D (GMT+02:00) Cairo -->
+			<mapZone other="Ekaterinburg Standard Time" type="Asia/Yekaterinburg"/> <!-- D (GMT+05:00) Ekaterinburg -->
+			<mapZone other="Fiji Standard Time" type="Pacific/Fiji"/> <!-- S (GMT+12:00) Fiji, Kamchatka, Marshall Is. -->
+			<mapZone other="FLE Standard Time" type="Europe/Kiev"/> <!-- D (GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius -->
+			<mapZone other="Georgian Standard Time" type="Etc/GMT-3"/> <!-- S (GMT+03:00) Tbilisi -->
+			<mapZone other="GMT Standard Time" type="Europe/London"/> <!-- D (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London -->
+			<mapZone other="Greenland Standard Time" type="America/Godthab"/> <!-- D (GMT-03:00) Greenland -->
+			<mapZone other="Greenwich Standard Time" type="Africa/Casablanca"/> <!-- S (GMT) Casablanca, Monrovia, Reykjavik -->
+			<mapZone other="GTB Standard Time" type="Europe/Istanbul"/> <!-- D (GMT+02:00) Athens, Bucharest, Istanbul -->
+			<mapZone other="Hawaiian Standard Time" type="Pacific/Honolulu"/> <!-- S (GMT-10:00) Hawaii -->
+			<mapZone other="India Standard Time" type="Asia/Calcutta"/> <!-- S (GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi -->
+			<mapZone other="Iran Standard Time" type="Asia/Tehran"/> <!-- D (GMT+03:30) Tehran -->
+			<mapZone other="Israel Standard Time" type="Asia/Jerusalem"/> <!-- D (GMT+02:00) Jerusalem -->
+			<mapZone other="Jordan Standard Time" type="Asia/Amman"/> <!-- D (GMT+02:00) Amman -->
+			<mapZone other="Korea Standard Time" type="Asia/Seoul"/> <!-- S (GMT+09:00) Seoul -->
+			<mapZone other="Mexico Standard Time" type="America/Mexico_City"/> <!-- D [XP] (GMT-06:00) Guadalajara, Mexico City, Monterrey - Old -->
+			<mapZone other="Mexico Standard Time 2" type="America/Chihuahua"/> <!-- D [XP] (GMT-07:00) Chihuahua, La Paz, Mazatlan - Old -->
+			<mapZone other="Mid-Atlantic Standard Time" type="Atlantic/South_Georgia"/> <!-- D (GMT-02:00) Mid-Atlantic -->
+			<mapZone other="Middle East Standard Time" type="Asia/Beirut"/> <!-- D (GMT+02:00) Beirut -->
+			<mapZone other="Montevideo Standard Time" type="America/Montevideo"/> <!-- D (GMT-03:00) Montevideo -->
+			<mapZone other="Mountain Standard Time" type="America/Denver"/> <!-- D (GMT-07:00) Mountain Time (US & Canada) -->
+			<mapZone other="Mountain Standard Time (Mexico)" type="America/Chihuahua"/> <!-- (GMT-07:00) Chihuahua, La Paz, Mazatlan -->
+			<mapZone other="Myanmar Standard Time" type="Asia/Rangoon"/> <!-- S (GMT+06:30) Yangon (Rangoon) -->
+			<mapZone other="N. Central Asia Standard Time" type="Asia/Novosibirsk"/> <!-- D (GMT+06:00) Almaty, Novosibirsk -->
+			<mapZone other="Namibia Standard Time" type="Africa/Windhoek"/> <!-- D (GMT+02:00) Windhoek -->
+			<mapZone other="Nepal Standard Time" type="Asia/Katmandu"/> <!-- S (GMT+05:45) Kathmandu -->
+			<mapZone other="New Zealand Standard Time" type="Pacific/Auckland"/> <!-- D (GMT+12:00) Auckland, Wellington -->
+			<mapZone other="Newfoundland Standard Time" type="America/St_Johns"/> <!-- D (GMT-03:30) Newfoundland -->
+			<mapZone other="North Asia East Standard Time" type="Asia/Irkutsk"/> <!-- D (GMT+08:00) Irkutsk, Ulaan Bataar -->
+			<mapZone other="North Asia Standard Time" type="Asia/Krasnoyarsk"/> <!-- D (GMT+07:00) Krasnoyarsk -->
+			<mapZone other="Pacific SA Standard Time" type="America/Santiago"/> <!-- D (GMT-04:00) Santiago -->
+			<mapZone other="Pacific Standard Time" type="America/Los_Angeles"/> <!-- D (GMT-08:00) Pacific Time (US & Canada) -->
+			<mapZone other="Pacific Standard Time (Mexico)" type="America/Tijuana"/> <!-- D (GMT-08:00) Tijuana, Baja California -->
+			<mapZone other="Romance Standard Time" type="Europe/Paris"/> <!-- D (GMT+01:00) Brussels, Copenhagen, Madrid, Paris -->
+			<mapZone other="Russian Standard Time" type="Europe/Moscow"/> <!-- D (GMT+03:00) Moscow, St. Petersburg, Volgograd -->
+			<mapZone other="SA Eastern Standard Time" type="Etc/GMT+3"/> <!-- S (GMT-03:00) Georgetown -->
+			<mapZone other="SA Pacific Standard Time" type="America/Bogota"/> <!-- S (GMT-05:00) Bogota, Lima, Quito, Rio Branco -->
+			<mapZone other="SA Western Standard Time" type="America/La_Paz"/> <!-- S (GMT-04:00) La Paz -->
+			<mapZone other="Samoa Standard Time" type="Pacific/Apia"/> <!-- S (GMT-11:00) Midway Island, Samoa -->
+			<mapZone other="SE Asia Standard Time" type="Asia/Bangkok"/> <!-- S (GMT+07:00) Bangkok, Hanoi, Jakarta -->
+			<mapZone other="Singapore Standard Time" type="Asia/Singapore"/> <!-- S (GMT+08:00) Kuala Lumpur, Singapore -->
+			<mapZone other="South Africa Standard Time" type="Africa/Johannesburg"/> <!-- S (GMT+02:00) Harare, Pretoria -->
+			<mapZone other="Sri Lanka Standard Time" type="Asia/Colombo"/> <!-- S (GMT+05:30) Sri Jayawardenepura -->
+			<mapZone other="Taipei Standard Time" type="Asia/Taipei"/> <!-- S (GMT+08:00) Taipei -->
+			<mapZone other="Tasmania Standard Time" type="Australia/Hobart"/> <!-- D (GMT+10:00) Hobart -->
+			<mapZone other="Tokyo Standard Time" type="Asia/Tokyo"/> <!-- S (GMT+09:00) Osaka, Sapporo, Tokyo -->
+			<mapZone other="Tonga Standard Time" type="Pacific/Tongatapu"/> <!-- S (GMT+13:00) Nuku'alofa -->
+			<mapZone other="US Eastern Standard Time" type="Etc/GMT+5"/> <!-- S (GMT-05:00) Indiana (East) -->
+			<mapZone other="US Mountain Standard Time" type="America/Phoenix"/> <!-- S (GMT-07:00) Arizona -->
+			<mapZone other="Venezuela Standard Time" type="America/Caracas"/> <!-- S (GMT-04:30) Caracas -->
+			<mapZone other="Vladivostok Standard Time" type="Asia/Vladivostok"/> <!-- D (GMT+10:00) Vladivostok -->
+			<mapZone other="W. Australia Standard Time" type="Australia/Perth"/> <!-- D (GMT+08:00) Perth -->
+			<mapZone other="W. Central Africa Standard Time" type="Africa/Lagos"/> <!-- S (GMT+01:00) West Central Africa -->
+			<mapZone other="W. Europe Standard Time" type="Europe/Berlin"/> <!-- D (GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna -->
+			<mapZone other="West Asia Standard Time" type="Asia/Karachi"/> <!-- S (GMT+05:00) Islamabad, Karachi, Tashkent -->
+			<mapZone other="West Pacific Standard Time" type="Pacific/Port_Moresby"/> <!-- S (GMT+10:00) Guam, Port Moresby -->
+			<mapZone other="Yakutsk Standard Time" type="Asia/Yakutsk"/> <!-- D (GMT+09:00) Yakutsk -->
 		</mapTimezones>
 		<mapTimezones type="metazones">
 			<mapZone other="Acre" territory="001" type="America/Rio_Branco"/>
@@ -3723,7 +3786,6 @@ XXX	Code for transations where no currency is involved
 			<mapZone other="Africa_Eastern" territory="ET" type="Africa/Addis_Ababa"/>
 			<mapZone other="Africa_Eastern" territory="KM" type="Indian/Comoro"/>
 			<mapZone other="Africa_Eastern" territory="MG" type="Indian/Antananarivo"/>
-			<mapZone other="Africa_Eastern" territory="SD" type="Africa/Khartoum"/>
 			<mapZone other="Africa_Eastern" territory="SO" type="Africa/Mogadishu"/>
 			<mapZone other="Africa_Eastern" territory="TZ" type="Africa/Dar_es_Salaam"/>
 			<mapZone other="Africa_Eastern" territory="UG" type="Africa/Kampala"/>
@@ -3756,7 +3818,6 @@ XXX	Code for transations where no currency is involved
 			<mapZone other="America_Central" territory="GT" type="America/Guatemala"/>
 			<mapZone other="America_Central" territory="HN" type="America/Tegucigalpa"/>
 			<mapZone other="America_Central" territory="MX" type="America/Mexico_City"/>
-			<mapZone other="America_Central" territory="NI" type="America/Managua"/>
 			<mapZone other="America_Central" territory="SV" type="America/El_Salvador"/>
 			<mapZone other="America_Eastern" territory="001" type="America/New_York"/>
 			<mapZone other="America_Eastern" territory="BS" type="America/Nassau"/>
@@ -3793,7 +3854,6 @@ XXX	Code for transations where no currency is involved
 			<mapZone other="Atlantic" territory="BB" type="America/Barbados"/>
 			<mapZone other="Atlantic" territory="BM" type="America/Bermuda"/>
 			<mapZone other="Atlantic" territory="DM" type="America/Dominica"/>
-			<mapZone other="Atlantic" territory="DO" type="America/Santo_Domingo"/>
 			<mapZone other="Atlantic" territory="GD" type="America/Grenada"/>
 			<mapZone other="Atlantic" territory="GL" type="America/Thule"/>
 			<mapZone other="Atlantic" territory="GP" type="America/Guadaloupe"/>
@@ -3856,7 +3916,6 @@ XXX	Code for transations where no currency is involved
 			<mapZone other="Europe_Central" territory="CZ" type="Europe/Prague"/>
 			<mapZone other="Europe_Central" territory="DE" type="Europe/Berlin"/>
 			<mapZone other="Europe_Central" territory="DK" type="Europe/Copenhagen"/>
-			<mapZone other="Europe_Central" territory="DZ" type="Africa/Algiers"/>
 			<mapZone other="Europe_Central" territory="ES" type="Europe/Madrid"/>
 			<mapZone other="Europe_Central" territory="GI" type="Europe/Gibraltar"/>
 			<mapZone other="Europe_Central" territory="HR" type="Europe/Zagreb"/>
@@ -3878,26 +3937,15 @@ XXX	Code for transations where no currency is involved
 			<mapZone other="Europe_Central" territory="TN" type="Africa/Tunis"/>
 			<mapZone other="Europe_Eastern" territory="001" type="Europe/Bucharest"/>
 			<mapZone other="Europe_Eastern" territory="BG" type="Europe/Sofia"/>
-			<mapZone other="Europe_Eastern" territory="BY" type="Europe/Minsk"/>
 			<mapZone other="Europe_Eastern" territory="CY" type="Asia/Nicosia"/>
-			<mapZone other="Europe_Eastern" territory="EE" type="Europe/Tallinn"/>
 			<mapZone other="Europe_Eastern" territory="EG" type="Africa/Cairo"/>
 			<mapZone other="Europe_Eastern" territory="FI" type="Europe/Helsinki"/>
 			<mapZone other="Europe_Eastern" territory="GR" type="Europe/Athens"/>
 			<mapZone other="Europe_Eastern" territory="JO" type="Asia/Amman"/>
 			<mapZone other="Europe_Eastern" territory="LB" type="Asia/Beirut"/>
-			<mapZone other="Europe_Eastern" territory="LT" type="Europe/Vilnius"/>
-			<mapZone other="Europe_Eastern" territory="LV" type="Europe/Riga"/>
-			<mapZone other="Europe_Eastern" territory="LY" type="Africa/Tripoli"/>
-			<mapZone other="Europe_Eastern" territory="MD" type="Europe/Chisinau"/>
-			<mapZone other="Europe_Eastern" territory="PS" type="Asia/Gaza"/>
-			<mapZone other="Europe_Eastern" territory="RU" type="Europe/Kaliningrad"/>
 			<mapZone other="Europe_Eastern" territory="SY" type="Asia/Damascus"/>
-			<mapZone other="Europe_Eastern" territory="UA" type="Europe/Kiev"/>
 			<mapZone other="Europe_Western" territory="001" type="Atlantic/Canary"/>
-			<mapZone other="Europe_Western" territory="EH" type="Africa/El_Aaiun"/>
 			<mapZone other="Europe_Western" territory="FO" type="Atlantic/Faeroe"/>
-			<mapZone other="Europe_Western" territory="MA" type="Africa/Casablanca"/>
 			<mapZone other="Falkland" territory="001" type="Atlantic/Stanley"/>
 			<mapZone other="Fiji" territory="001" type="Pacific/Fiji"/>
 			<mapZone other="French_Guiana" territory="001" type="America/Cayenne"/>
@@ -3909,7 +3957,6 @@ XXX	Code for transations where no currency is involved
 			<mapZone other="GMT" territory="CI" type="Africa/Abidjan"/>
 			<mapZone other="GMT" territory="GB" type="Europe/London"/>
 			<mapZone other="GMT" territory="GH" type="Africa/Accra"/>
-			<mapZone other="GMT" territory="GL" type="America/Danmarkshavn"/>
 			<mapZone other="GMT" territory="GM" type="Africa/Banjul"/>
 			<mapZone other="GMT" territory="GN" type="Africa/Conakry"/>
 			<mapZone other="GMT" territory="GW" type="Africa/Bissau"/>
@@ -4045,433 +4092,435 @@ XXX	Code for transations where no currency is involved
 			<mapZone other="Yerevan" territory="001" type="Asia/Yerevan"/>
 			<mapZone other="Yukon" territory="001" type="America/Yakutat"/>
 		</mapTimezones>
-<zoneFormatting multizone="001 AQ AR AU BR CA CD CL CN EC ES FM GL ID KI KZ MH MN MX MY NZ PF PT RU SJ UA UM US UZ" tzidVersion="2007g">
-			<zoneItem type="Africa/Abidjan" territory="CI"/>
-			<zoneItem type="Africa/Accra" territory="GH"/>
-			<zoneItem type="Africa/Addis_Ababa" territory="ET"/>
-			<zoneItem type="Africa/Algiers" territory="DZ"/>
-			<zoneItem type="Africa/Asmera" territory="ER" aliases="Africa/Asmara"/>
-			<zoneItem type="Africa/Bamako" territory="ML" aliases="Africa/Timbuktu"/>
-			<zoneItem type="Africa/Bangui" territory="CF"/>
-			<zoneItem type="Africa/Banjul" territory="GM"/>
-			<zoneItem type="Africa/Bissau" territory="GW"/>
-			<zoneItem type="Africa/Blantyre" territory="MW"/>
-			<zoneItem type="Africa/Brazzaville" territory="CG"/>
-			<zoneItem type="Africa/Bujumbura" territory="BI"/>
-			<zoneItem type="Africa/Cairo" territory="EG" aliases="Egypt"/>
-			<zoneItem type="Africa/Casablanca" territory="MA"/>
-			<zoneItem type="Africa/Ceuta" territory="ES"/>
-			<zoneItem type="Africa/Conakry" territory="GN"/>
-			<zoneItem type="Africa/Dakar" territory="SN"/>
-			<zoneItem type="Africa/Dar_es_Salaam" territory="TZ"/>
-			<zoneItem type="Africa/Djibouti" territory="DJ"/>
-			<zoneItem type="Africa/Douala" territory="CM"/>
-			<zoneItem type="Africa/El_Aaiun" territory="EH"/>
-			<zoneItem type="Africa/Freetown" territory="SL"/>
-			<zoneItem type="Africa/Gaborone" territory="BW"/>
-			<zoneItem type="Africa/Harare" territory="ZW"/>
-			<zoneItem type="Africa/Johannesburg" territory="ZA"/>
-			<zoneItem type="Africa/Kampala" territory="UG"/>
-			<zoneItem type="Africa/Khartoum" territory="SD"/>
-			<zoneItem type="Africa/Kigali" territory="RW"/>
-			<zoneItem type="Africa/Kinshasa" territory="CD"/>
-			<zoneItem type="Africa/Lagos" territory="NG"/>
-			<zoneItem type="Africa/Libreville" territory="GA"/>
-			<zoneItem type="Africa/Lome" territory="TG"/>
-			<zoneItem type="Africa/Luanda" territory="AO"/>
-			<zoneItem type="Africa/Lubumbashi" territory="CD"/>
-			<zoneItem type="Africa/Lusaka" territory="ZM"/>
-			<zoneItem type="Africa/Malabo" territory="GQ"/>
-			<zoneItem type="Africa/Maputo" territory="MZ"/>
-			<zoneItem type="Africa/Maseru" territory="LS"/>
-			<zoneItem type="Africa/Mbabane" territory="SZ"/>
-			<zoneItem type="Africa/Mogadishu" territory="SO"/>
-			<zoneItem type="Africa/Monrovia" territory="LR"/>
-			<zoneItem type="Africa/Nairobi" territory="KE"/>
-			<zoneItem type="Africa/Ndjamena" territory="TD"/>
-			<zoneItem type="Africa/Niamey" territory="NE"/>
-			<zoneItem type="Africa/Nouakchott" territory="MR"/>
-			<zoneItem type="Africa/Ouagadougou" territory="BF"/>
-			<zoneItem type="Africa/Porto-Novo" territory="BJ"/>
-			<zoneItem type="Africa/Sao_Tome" territory="ST"/>
-			<zoneItem type="Africa/Tripoli" territory="LY" aliases="Libya"/>
-			<zoneItem type="Africa/Tunis" territory="TN"/>
-			<zoneItem type="Africa/Windhoek" territory="NA"/>
-			<zoneItem type="America/Adak" territory="US" aliases="America/Atka US/Aleutian"/>
-			<zoneItem type="America/Anchorage" territory="US" aliases="SystemV/YST9YDT US/Alaska"/>
-			<zoneItem type="America/Anguilla" territory="AI"/>
-			<zoneItem type="America/Antigua" territory="AG"/>
-			<zoneItem type="America/Araguaina" territory="BR"/>
-			<zoneItem type="America/Argentina/La_Rioja" territory="AR"/>
-			<zoneItem type="America/Argentina/Rio_Gallegos" territory="AR"/>
-			<zoneItem type="America/Argentina/San_Juan" territory="AR"/>
-			<zoneItem type="America/Argentina/Tucuman" territory="AR"/>
-			<zoneItem type="America/Argentina/Ushuaia" territory="AR"/>
-			<zoneItem type="America/Aruba" territory="AW"/>
-			<zoneItem type="America/Asuncion" territory="PY"/>
-			<zoneItem type="America/Bahia" territory="BR"/>
-			<zoneItem type="America/Barbados" territory="BB"/>
-			<zoneItem type="America/Belem" territory="BR"/>
-			<zoneItem type="America/Belize" territory="BZ"/>
-			<zoneItem type="America/Blanc-Sablon" territory="CA"/>
-			<zoneItem type="America/Boa_Vista" territory="BR"/>
-			<zoneItem type="America/Bogota" territory="CO"/>
-			<zoneItem type="America/Boise" territory="US"/>
-			<zoneItem type="America/Buenos_Aires" territory="AR" aliases="America/Argentina/Buenos_Aires"/>
-			<zoneItem type="America/Cambridge_Bay" territory="CA"/>
-			<zoneItem type="America/Campo_Grande" territory="BR"/>
-			<zoneItem type="America/Cancun" territory="MX"/>
-			<zoneItem type="America/Caracas" territory="VE"/>
-			<zoneItem type="America/Catamarca" territory="AR" aliases="America/Argentina/Catamarca America/Argentina/ComodRivadavia"/>
-			<zoneItem type="America/Cayenne" territory="GF"/>
-			<zoneItem type="America/Cayman" territory="KY"/>
-			<zoneItem type="America/Chicago" territory="US" aliases="CST6CDT SystemV/CST6CDT US/Central"/>
-			<zoneItem type="America/Chihuahua" territory="MX"/>
-			<zoneItem type="America/Coral_Harbour" territory="CA" aliases="America/Atikokan"/>
-			<zoneItem type="America/Cordoba" territory="AR" aliases="America/Argentina/Cordoba America/Rosario"/>
-			<zoneItem type="America/Costa_Rica" territory="CR"/>
-			<zoneItem type="America/Cuiaba" territory="BR"/>
-			<zoneItem type="America/Curacao" territory="AN"/>
-			<zoneItem type="America/Danmarkshavn" territory="GL"/>
-			<zoneItem type="America/Dawson" territory="CA"/>
-			<zoneItem type="America/Dawson_Creek" territory="CA"/>
-			<zoneItem type="America/Denver" territory="US" aliases="MST7MDT SystemV/MST7MDT US/Mountain"/>
-			<zoneItem type="America/Detroit" territory="US" aliases="US/Michigan"/>
-			<zoneItem type="America/Dominica" territory="DM"/>
-			<zoneItem type="America/Edmonton" territory="CA" aliases="Canada/Mountain"/>
-			<zoneItem type="America/Eirunepe" territory="BR"/>
-			<zoneItem type="America/El_Salvador" territory="SV"/>
-			<zoneItem type="America/Fortaleza" territory="BR"/>
-			<zoneItem type="America/Glace_Bay" territory="CA"/>
-			<zoneItem type="America/Godthab" territory="GL"/>
-			<zoneItem type="America/Goose_Bay" territory="CA"/>
-			<zoneItem type="America/Grand_Turk" territory="TC"/>
-			<zoneItem type="America/Grenada" territory="GD"/>
-			<zoneItem type="America/Guadeloupe" territory="GP"/>
-			<zoneItem type="America/Guatemala" territory="GT"/>
-			<zoneItem type="America/Guayaquil" territory="EC"/>
-			<zoneItem type="America/Guyana" territory="GY"/>
-			<zoneItem type="America/Halifax" territory="CA" aliases="Canada/Atlantic SystemV/AST4ADT"/>
-			<zoneItem type="America/Havana" territory="CU" aliases="Cuba"/>
-			<zoneItem type="America/Hermosillo" territory="MX"/>
-			<zoneItem type="America/Indiana/Knox" territory="US" aliases="America/Knox_IN US/Indiana-Starke"/>
-			<zoneItem type="America/Indiana/Marengo" territory="US"/>
-			<zoneItem type="America/Indiana/Petersburg" territory="US"/>
-			<zoneItem type="America/Indiana/Tell_City" territory="US"/>
-			<zoneItem type="America/Indiana/Vevay" territory="US"/>
-			<zoneItem type="America/Indiana/Vincennes" territory="US"/>
-			<zoneItem type="America/Indiana/Winamac" territory="US"/>
-			<zoneItem type="America/Indianapolis" territory="US" aliases="America/Fort_Wayne America/Indiana/Indianapolis US/East-Indiana"/>
-			<zoneItem type="America/Inuvik" territory="CA"/>
-			<zoneItem type="America/Iqaluit" territory="CA"/>
-			<zoneItem type="America/Jamaica" territory="JM" aliases="Jamaica"/>
-			<zoneItem type="America/Jujuy" territory="AR" aliases="America/Argentina/Jujuy"/>
-			<zoneItem type="America/Juneau" territory="US"/>
-			<zoneItem type="America/Kentucky/Monticello" territory="US"/>
-			<zoneItem type="America/La_Paz" territory="BO"/>
-			<zoneItem type="America/Lima" territory="PE"/>
-			<zoneItem type="America/Los_Angeles" territory="US" aliases="PST8PDT SystemV/PST8PDT US/Pacific US/Pacific-New"/>
-			<zoneItem type="America/Louisville" territory="US" aliases="America/Kentucky/Louisville"/>
-			<zoneItem type="America/Maceio" territory="BR"/>
-			<zoneItem type="America/Managua" territory="NI"/>
-			<zoneItem type="America/Manaus" territory="BR" aliases="Brazil/West"/>
-			<zoneItem type="America/Martinique" territory="MQ"/>
-			<zoneItem type="America/Mazatlan" territory="MX" aliases="Mexico/BajaSur"/>
-			<zoneItem type="America/Mendoza" territory="AR" aliases="America/Argentina/Mendoza"/>
-			<zoneItem type="America/Menominee" territory="US"/>
-			<zoneItem type="America/Merida" territory="MX"/>
-			<zoneItem type="America/Mexico_City" territory="MX" aliases="Mexico/General"/>
-			<zoneItem type="America/Miquelon" territory="PM"/>
-			<zoneItem type="America/Moncton" territory="CA"/>
-			<zoneItem type="America/Monterrey" territory="MX"/>
-			<zoneItem type="America/Montevideo" territory="UY"/>
-			<zoneItem type="America/Montreal" territory="CA"/>
-			<zoneItem type="America/Montserrat" territory="MS"/>
-			<zoneItem type="America/Nassau" territory="BS"/>
-			<zoneItem type="America/New_York" territory="US" aliases="EST5EDT SystemV/EST5EDT US/Eastern"/>
-			<zoneItem type="America/Nipigon" territory="CA"/>
-			<zoneItem type="America/Nome" territory="US"/>
-			<zoneItem type="America/Noronha" territory="BR" aliases="Brazil/DeNoronha"/>
-			<zoneItem type="America/North_Dakota/Center" territory="US"/>
-			<zoneItem type="America/North_Dakota/New_Salem" territory="US"/>
-			<zoneItem type="America/Panama" territory="PA"/>
-			<zoneItem type="America/Pangnirtung" territory="CA"/>
-			<zoneItem type="America/Paramaribo" territory="SR"/>
-			<zoneItem type="America/Phoenix" territory="US" aliases="US/Arizona"/>
-			<zoneItem type="America/Port_of_Spain" territory="TT"/>
-			<zoneItem type="America/Port-au-Prince" territory="HT"/>
-			<zoneItem type="America/Porto_Velho" territory="BR"/>
-			<zoneItem type="America/Puerto_Rico" territory="PR"/>
-			<zoneItem type="America/Rainy_River" territory="CA"/>
-			<zoneItem type="America/Rankin_Inlet" territory="CA"/>
-			<zoneItem type="America/Recife" territory="BR"/>
-			<zoneItem type="America/Regina" territory="CA" aliases="Canada/East-Saskatchewan Canada/Saskatchewan"/>
-			<zoneItem type="America/Resolute" territory="CA"/>
-			<zoneItem type="America/Rio_Branco" territory="BR" aliases="America/Porto_Acre Brazil/Acre"/>
-			<zoneItem type="America/Santiago" territory="CL" aliases="Chile/Continental"/>
-			<zoneItem type="America/Santo_Domingo" territory="DO"/>
-			<zoneItem type="America/Sao_Paulo" territory="BR" aliases="Brazil/East"/>
-			<zoneItem type="America/Scoresbysund" territory="GL"/>
-			<zoneItem type="America/Shiprock" territory="US" aliases="Navajo"/>
-			<zoneItem type="America/St_Johns" territory="CA" aliases="Canada/Newfoundland"/>
-			<zoneItem type="America/St_Kitts" territory="KN"/>
-			<zoneItem type="America/St_Lucia" territory="LC"/>
-			<zoneItem type="America/St_Thomas" territory="VI" aliases="America/Virgin"/>
-			<zoneItem type="America/St_Vincent" territory="VC"/>
-			<zoneItem type="America/Swift_Current" territory="CA"/>
-			<zoneItem type="America/Tegucigalpa" territory="HN"/>
-			<zoneItem type="America/Thule" territory="GL"/>
-			<zoneItem type="America/Thunder_Bay" territory="CA"/>
-			<zoneItem type="America/Tijuana" territory="MX" aliases="America/Ensenada Mexico/BajaNorte"/>
-			<zoneItem type="America/Toronto" territory="CA" aliases="Canada/Eastern"/>
-			<zoneItem type="America/Tortola" territory="VG"/>
-			<zoneItem type="America/Vancouver" territory="CA" aliases="Canada/Pacific"/>
-			<zoneItem type="America/Whitehorse" territory="CA" aliases="Canada/Yukon"/>
-			<zoneItem type="America/Winnipeg" territory="CA" aliases="Canada/Central"/>
-			<zoneItem type="America/Yakutat" territory="US"/>
-			<zoneItem type="America/Yellowknife" territory="CA"/>
-			<zoneItem type="Antarctica/Casey" territory="AQ"/>
-			<zoneItem type="Antarctica/Davis" territory="AQ"/>
-			<zoneItem type="Antarctica/DumontDUrville" territory="AQ"/>
-			<zoneItem type="Antarctica/Mawson" territory="AQ"/>
-			<zoneItem type="Antarctica/McMurdo" territory="AQ"/>
-			<zoneItem type="Antarctica/Palmer" territory="AQ"/>
-			<zoneItem type="Antarctica/Rothera" territory="AQ"/>
-			<zoneItem type="Antarctica/South_Pole" territory="AQ"/>
-			<zoneItem type="Antarctica/Syowa" territory="AQ"/>
-			<zoneItem type="Antarctica/Vostok" territory="AQ"/>
-			<zoneItem type="Arctic/Longyearbyen" territory="SJ"/>
-			<zoneItem type="Asia/Aden" territory="YE"/>
-			<zoneItem type="Asia/Almaty" territory="KZ"/>
-			<zoneItem type="Asia/Amman" territory="JO"/>
-			<zoneItem type="Asia/Anadyr" territory="RU"/>
-			<zoneItem type="Asia/Aqtau" territory="KZ"/>
-			<zoneItem type="Asia/Aqtobe" territory="KZ"/>
-			<zoneItem type="Asia/Ashgabat" territory="TM" aliases="Asia/Ashkhabad"/>
-			<zoneItem type="Asia/Baghdad" territory="IQ"/>
-			<zoneItem type="Asia/Bahrain" territory="BH"/>
-			<zoneItem type="Asia/Baku" territory="AZ"/>
-			<zoneItem type="Asia/Bangkok" territory="TH"/>
-			<zoneItem type="Asia/Beirut" territory="LB"/>
-			<zoneItem type="Asia/Bishkek" territory="KG"/>
-			<zoneItem type="Asia/Brunei" territory="BN"/>
-			<zoneItem type="Asia/Calcutta" territory="IN"/>
-			<zoneItem type="Asia/Choibalsan" territory="MN"/>
-			<zoneItem type="Asia/Chongqing" territory="CN" aliases="Asia/Chungking"/>
-			<zoneItem type="Asia/Colombo" territory="LK"/>
-			<zoneItem type="Asia/Damascus" territory="SY"/>
-			<zoneItem type="Asia/Dhaka" territory="BD" aliases="Asia/Dacca"/>
-			<zoneItem type="Asia/Dili" territory="TL"/>
-			<zoneItem type="Asia/Dubai" territory="AE"/>
-			<zoneItem type="Asia/Dushanbe" territory="TJ"/>
-			<zoneItem type="Asia/Gaza" territory="PS"/>
-			<zoneItem type="Asia/Harbin" territory="CN"/>
-			<zoneItem type="Asia/Hong_Kong" territory="HK" aliases="Hongkong"/>
-			<zoneItem type="Asia/Hovd" territory="MN"/>
-			<zoneItem type="Asia/Irkutsk" territory="RU"/>
-			<zoneItem type="Asia/Jakarta" territory="ID"/>
-			<zoneItem type="Asia/Jayapura" territory="ID"/>
-			<zoneItem type="Asia/Jerusalem" territory="IL" aliases="Asia/Tel_Aviv Israel"/>
-			<zoneItem type="Asia/Kabul" territory="AF"/>
-			<zoneItem type="Asia/Kamchatka" territory="RU"/>
-			<zoneItem type="Asia/Karachi" territory="PK"/>
-			<zoneItem type="Asia/Kashgar" territory="CN"/>
-			<zoneItem type="Asia/Katmandu" territory="NP"/>
-			<zoneItem type="Asia/Krasnoyarsk" territory="RU"/>
-			<zoneItem type="Asia/Kuala_Lumpur" territory="MY"/>
-			<zoneItem type="Asia/Kuching" territory="MY"/>
-			<zoneItem type="Asia/Kuwait" territory="KW"/>
-			<zoneItem type="Asia/Macau" territory="MO" aliases="Asia/Macao"/>
-			<zoneItem type="Asia/Magadan" territory="RU"/>
-			<zoneItem type="Asia/Makassar" territory="ID" aliases="Asia/Ujung_Pandang"/>
-			<zoneItem type="Asia/Manila" territory="PH"/>
-			<zoneItem type="Asia/Muscat" territory="OM"/>
-			<zoneItem type="Asia/Nicosia" territory="CY" aliases="Europe/Nicosia"/>
-			<zoneItem type="Asia/Novosibirsk" territory="RU"/>
-			<zoneItem type="Asia/Omsk" territory="RU"/>
-			<zoneItem type="Asia/Oral" territory="KZ"/>
-			<zoneItem type="Asia/Phnom_Penh" territory="KH"/>
-			<zoneItem type="Asia/Pontianak" territory="ID"/>
-			<zoneItem type="Asia/Pyongyang" territory="KP"/>
-			<zoneItem type="Asia/Qatar" territory="QA"/>
-			<zoneItem type="Asia/Qyzylorda" territory="KZ"/>
-			<zoneItem type="Asia/Rangoon" territory="MM"/>
-			<zoneItem type="Asia/Riyadh" territory="SA"/>
-			<zoneItem type="Asia/Saigon" territory="VN"/>
-			<zoneItem type="Asia/Sakhalin" territory="RU"/>
-			<zoneItem type="Asia/Samarkand" territory="UZ"/>
-			<zoneItem type="Asia/Seoul" territory="KR" aliases="ROK"/>
-			<zoneItem type="Asia/Shanghai" territory="CN" aliases="PRC"/>
-			<zoneItem type="Asia/Singapore" territory="SG" aliases="Singapore"/>
-			<zoneItem type="Asia/Taipei" territory="TW" aliases="ROC"/>
-			<zoneItem type="Asia/Tashkent" territory="UZ"/>
-			<zoneItem type="Asia/Tbilisi" territory="GE"/>
-			<zoneItem type="Asia/Tehran" territory="IR" aliases="Iran"/>
-			<zoneItem type="Asia/Thimphu" territory="BT" aliases="Asia/Thimbu"/>
-			<zoneItem type="Asia/Tokyo" territory="JP" aliases="Japan"/>
-			<zoneItem type="Asia/Ulaanbaatar" territory="MN" aliases="Asia/Ulan_Bator"/>
-			<zoneItem type="Asia/Urumqi" territory="CN"/>
-			<zoneItem type="Asia/Vientiane" territory="LA"/>
-			<zoneItem type="Asia/Vladivostok" territory="RU"/>
-			<zoneItem type="Asia/Yakutsk" territory="RU"/>
-			<zoneItem type="Asia/Yekaterinburg" territory="RU"/>
-			<zoneItem type="Asia/Yerevan" territory="AM"/>
-			<zoneItem type="Atlantic/Azores" territory="PT"/>
-			<zoneItem type="Atlantic/Bermuda" territory="BM"/>
-			<zoneItem type="Atlantic/Canary" territory="ES"/>
-			<zoneItem type="Atlantic/Cape_Verde" territory="CV"/>
-			<zoneItem type="Atlantic/Faeroe" territory="FO" aliases="Atlantic/Faroe"/>
-			<zoneItem type="Atlantic/Jan_Mayen" territory="SJ"/>
-			<zoneItem type="Atlantic/Madeira" territory="PT"/>
-			<zoneItem type="Atlantic/Reykjavik" territory="IS" aliases="Iceland"/>
-			<zoneItem type="Atlantic/South_Georgia" territory="GS"/>
-			<zoneItem type="Atlantic/St_Helena" territory="SH"/>
-			<zoneItem type="Atlantic/Stanley" territory="FK"/>
-			<zoneItem type="Australia/Adelaide" territory="AU" aliases="Australia/South"/>
-			<zoneItem type="Australia/Brisbane" territory="AU" aliases="Australia/Queensland"/>
-			<zoneItem type="Australia/Broken_Hill" territory="AU" aliases="Australia/Yancowinna"/>
-			<zoneItem type="Australia/Currie" territory="AU"/>
-			<zoneItem type="Australia/Darwin" territory="AU" aliases="Australia/North"/>
-			<zoneItem type="Australia/Eucla" territory="AU"/>
-			<zoneItem type="Australia/Hobart" territory="AU" aliases="Australia/Tasmania"/>
-			<zoneItem type="Australia/Lindeman" territory="AU"/>
-			<zoneItem type="Australia/Lord_Howe" territory="AU" aliases="Australia/LHI"/>
-			<zoneItem type="Australia/Melbourne" territory="AU" aliases="Australia/Victoria"/>
-			<zoneItem type="Australia/Perth" territory="AU" aliases="Australia/West"/>
-			<zoneItem type="Australia/Sydney" territory="AU" aliases="Australia/ACT Australia/Canberra Australia/NSW"/>
-			<zoneItem type="Etc/GMT" territory="001" aliases="Etc/GMT+0 Etc/GMT-0 Etc/GMT0 Etc/Greenwich Etc/UCT Etc/UTC Etc/Universal Etc/Zulu GMT GMT+0 GMT-0 GMT0 Greenwich UCT UTC Universal Zulu"/>
-			<zoneItem type="Etc/GMT-1" territory="001"/>
-			<zoneItem type="Etc/GMT-2" territory="001"/>
-			<zoneItem type="Etc/GMT-3" territory="001"/>
-			<zoneItem type="Etc/GMT-4" territory="001"/>
-			<zoneItem type="Etc/GMT-5" territory="001"/>
-			<zoneItem type="Etc/GMT-6" territory="001"/>
-			<zoneItem type="Etc/GMT-7" territory="001"/>
-			<zoneItem type="Etc/GMT-8" territory="001"/>
-			<zoneItem type="Etc/GMT-9" territory="001"/>
-			<zoneItem type="Etc/GMT-10" territory="001"/>
-			<zoneItem type="Etc/GMT-11" territory="001"/>
-			<zoneItem type="Etc/GMT-12" territory="001"/>
-			<zoneItem type="Etc/GMT-13" territory="001"/>
-			<zoneItem type="Etc/GMT-14" territory="001"/>
-			<zoneItem type="Etc/GMT+1" territory="001"/>
-			<zoneItem type="Etc/GMT+2" territory="001"/>
-			<zoneItem type="Etc/GMT+3" territory="001"/>
-			<zoneItem type="Etc/GMT+4" territory="001" aliases="SystemV/AST4"/>
-			<zoneItem type="Etc/GMT+5" territory="001" aliases="EST SystemV/EST5"/>
-			<zoneItem type="Etc/GMT+6" territory="001" aliases="SystemV/CST6"/>
-			<zoneItem type="Etc/GMT+7" territory="001" aliases="MST SystemV/MST7"/>
-			<zoneItem type="Etc/GMT+8" territory="001" aliases="SystemV/PST8"/>
-			<zoneItem type="Etc/GMT+9" territory="001" aliases="SystemV/YST9"/>
-			<zoneItem type="Etc/GMT+10" territory="001" aliases="HST SystemV/HST10"/>
-			<zoneItem type="Etc/GMT+11" territory="001"/>
-			<zoneItem type="Etc/GMT+12" territory="001"/>
-			<zoneItem type="Etc/Unknown" territory="001"/>
-			<zoneItem type="Europe/Amsterdam" territory="NL"/>
-			<zoneItem type="Europe/Andorra" territory="AD"/>
-			<zoneItem type="Europe/Athens" territory="GR"/>
-			<zoneItem type="Europe/Belgrade" territory="RS"/>
-			<zoneItem type="Europe/Berlin" territory="DE"/>
-			<zoneItem type="Europe/Bratislava" territory="SK"/>
-			<zoneItem type="Europe/Brussels" territory="BE"/>
-			<zoneItem type="Europe/Bucharest" territory="RO"/>
-			<zoneItem type="Europe/Budapest" territory="HU"/>
-			<zoneItem type="Europe/Chisinau" territory="MD" aliases="Europe/Tiraspol"/>
-			<zoneItem type="Europe/Copenhagen" territory="DK"/>
-			<zoneItem type="Europe/Dublin" territory="IE" aliases="Eire"/>
-			<zoneItem type="Europe/Gibraltar" territory="GI"/>
-			<zoneItem type="Europe/Guernsey" territory="GG"/>
-			<zoneItem type="Europe/Helsinki" territory="FI"/>
-			<zoneItem type="Europe/Isle_of_Man" territory="IM"/>
-			<zoneItem type="Europe/Istanbul" territory="TR" aliases="Asia/Istanbul Turkey"/>
-			<zoneItem type="Europe/Jersey" territory="JE"/>
-			<zoneItem type="Europe/Kaliningrad" territory="RU"/>
-			<zoneItem type="Europe/Kiev" territory="UA"/>
-			<zoneItem type="Europe/Lisbon" territory="PT" aliases="Portugal"/>
-			<zoneItem type="Europe/Ljubljana" territory="SI"/>
-			<zoneItem type="Europe/London" territory="GB" aliases="Europe/Belfast GB GB-Eire"/>
-			<zoneItem type="Europe/Luxembourg" territory="LU"/>
-			<zoneItem type="Europe/Madrid" territory="ES"/>
-			<zoneItem type="Europe/Malta" territory="MT"/>
-			<zoneItem type="Europe/Mariehamn" territory="AX"/>
-			<zoneItem type="Europe/Minsk" territory="BY"/>
-			<zoneItem type="Europe/Monaco" territory="MC"/>
-			<zoneItem type="Europe/Moscow" territory="RU" aliases="W-SU"/>
-			<zoneItem type="Europe/Oslo" territory="NO"/>
-			<zoneItem type="Europe/Paris" territory="FR"/>
-			<zoneItem type="Europe/Podgorica" territory="ME"/>
-			<zoneItem type="Europe/Prague" territory="CZ"/>
-			<zoneItem type="Europe/Riga" territory="LV"/>
-			<zoneItem type="Europe/Rome" territory="IT"/>
-			<zoneItem type="Europe/Samara" territory="RU"/>
-			<zoneItem type="Europe/San_Marino" territory="SM"/>
-			<zoneItem type="Europe/Sarajevo" territory="BA"/>
-			<zoneItem type="Europe/Simferopol" territory="UA"/>
-			<zoneItem type="Europe/Skopje" territory="MK"/>
-			<zoneItem type="Europe/Sofia" territory="BG"/>
-			<zoneItem type="Europe/Stockholm" territory="SE"/>
-			<zoneItem type="Europe/Tallinn" territory="EE"/>
-			<zoneItem type="Europe/Tirane" territory="AL"/>
-			<zoneItem type="Europe/Uzhgorod" territory="UA"/>
-			<zoneItem type="Europe/Vaduz" territory="LI"/>
-			<zoneItem type="Europe/Vatican" territory="VA"/>
-			<zoneItem type="Europe/Vienna" territory="AT"/>
-			<zoneItem type="Europe/Vilnius" territory="LT"/>
-			<zoneItem type="Europe/Volgograd" territory="RU"/>
-			<zoneItem type="Europe/Warsaw" territory="PL" aliases="Poland"/>
-			<zoneItem type="Europe/Zagreb" territory="HR"/>
-			<zoneItem type="Europe/Zaporozhye" territory="UA"/>
-			<zoneItem type="Europe/Zurich" territory="CH"/>
-			<zoneItem type="Indian/Antananarivo" territory="MG"/>
-			<zoneItem type="Indian/Chagos" territory="IO"/>
-			<zoneItem type="Indian/Christmas" territory="CX"/>
-			<zoneItem type="Indian/Cocos" territory="CC"/>
-			<zoneItem type="Indian/Comoro" territory="KM"/>
-			<zoneItem type="Indian/Kerguelen" territory="TF"/>
-			<zoneItem type="Indian/Mahe" territory="SC"/>
-			<zoneItem type="Indian/Maldives" territory="MV"/>
-			<zoneItem type="Indian/Mauritius" territory="MU"/>
-			<zoneItem type="Indian/Mayotte" territory="YT"/>
-			<zoneItem type="Indian/Reunion" territory="RE"/>
-			<zoneItem type="Pacific/Apia" territory="WS"/>
-			<zoneItem type="Pacific/Auckland" territory="NZ" aliases="NZ"/>
-			<zoneItem type="Pacific/Chatham" territory="NZ" aliases="NZ-CHAT"/>
-			<zoneItem type="Pacific/Easter" territory="CL" aliases="Chile/EasterIsland"/>
-			<zoneItem type="Pacific/Efate" territory="VU"/>
-			<zoneItem type="Pacific/Enderbury" territory="KI"/>
-			<zoneItem type="Pacific/Fakaofo" territory="TK"/>
-			<zoneItem type="Pacific/Fiji" territory="FJ"/>
-			<zoneItem type="Pacific/Funafuti" territory="TV"/>
-			<zoneItem type="Pacific/Galapagos" territory="EC"/>
-			<zoneItem type="Pacific/Gambier" territory="PF"/>
-			<zoneItem type="Pacific/Guadalcanal" territory="SB"/>
-			<zoneItem type="Pacific/Guam" territory="GU"/>
-			<zoneItem type="Pacific/Honolulu" territory="US" aliases="US/Hawaii"/>
-			<zoneItem type="Pacific/Johnston" territory="UM"/>
-			<zoneItem type="Pacific/Kiritimati" territory="KI"/>
-			<zoneItem type="Pacific/Kosrae" territory="FM"/>
-			<zoneItem type="Pacific/Kwajalein" territory="MH" aliases="Kwajalein"/>
-			<zoneItem type="Pacific/Majuro" territory="MH"/>
-			<zoneItem type="Pacific/Marquesas" territory="PF"/>
-			<zoneItem type="Pacific/Midway" territory="UM"/>
-			<zoneItem type="Pacific/Nauru" territory="NR"/>
-			<zoneItem type="Pacific/Niue" territory="NU"/>
-			<zoneItem type="Pacific/Norfolk" territory="NF"/>
-			<zoneItem type="Pacific/Noumea" territory="NC"/>
-			<zoneItem type="Pacific/Pago_Pago" territory="AS" aliases="Pacific/Samoa US/Samoa"/>
-			<zoneItem type="Pacific/Palau" territory="PW"/>
-			<zoneItem type="Pacific/Pitcairn" territory="PN"/>
-			<zoneItem type="Pacific/Ponape" territory="FM"/>
-			<zoneItem type="Pacific/Port_Moresby" territory="PG"/>
-			<zoneItem type="Pacific/Rarotonga" territory="CK"/>
-			<zoneItem type="Pacific/Saipan" territory="MP"/>
-			<zoneItem type="Pacific/Tahiti" territory="PF"/>
-			<zoneItem type="Pacific/Tarawa" territory="KI"/>
-			<zoneItem type="Pacific/Tongatapu" territory="TO"/>
-			<zoneItem type="Pacific/Truk" territory="FM" aliases="Pacific/Yap"/>
-			<zoneItem type="Pacific/Wake" territory="UM"/>
-			<zoneItem type="Pacific/Wallis" territory="WF"/>
-		</zoneFormatting>
+        <zoneFormatting multizone="001 AQ AR AU BR CA CD CL CN EC ES FM GL ID KI KZ MH MN MX MY NZ PF PT RU UA UM US UZ" tzidVersion="2008b">
+            <zoneItem type="Africa/Abidjan" territory="CI"/>
+            <zoneItem type="Africa/Accra" territory="GH"/>
+            <zoneItem type="Africa/Addis_Ababa" territory="ET"/>
+            <zoneItem type="Africa/Algiers" territory="DZ"/>
+            <zoneItem type="Africa/Asmera" territory="ER" aliases="Africa/Asmara"/>
+            <zoneItem type="Africa/Bamako" territory="ML" aliases="Africa/Timbuktu"/>
+            <zoneItem type="Africa/Bangui" territory="CF"/>
+            <zoneItem type="Africa/Banjul" territory="GM"/>
+            <zoneItem type="Africa/Bissau" territory="GW"/>
+            <zoneItem type="Africa/Blantyre" territory="MW"/>
+            <zoneItem type="Africa/Brazzaville" territory="CG"/>
+            <zoneItem type="Africa/Bujumbura" territory="BI"/>
+            <zoneItem type="Africa/Cairo" territory="EG" aliases="Egypt"/>
+            <zoneItem type="Africa/Casablanca" territory="MA"/>
+            <zoneItem type="Africa/Ceuta" territory="ES"/>
+            <zoneItem type="Africa/Conakry" territory="GN"/>
+            <zoneItem type="Africa/Dakar" territory="SN"/>
+            <zoneItem type="Africa/Dar_es_Salaam" territory="TZ"/>
+            <zoneItem type="Africa/Djibouti" territory="DJ"/>
+            <zoneItem type="Africa/Douala" territory="CM"/>
+            <zoneItem type="Africa/El_Aaiun" territory="EH"/>
+            <zoneItem type="Africa/Freetown" territory="SL"/>
+            <zoneItem type="Africa/Gaborone" territory="BW"/>
+            <zoneItem type="Africa/Harare" territory="ZW"/>
+            <zoneItem type="Africa/Johannesburg" territory="ZA"/>
+            <zoneItem type="Africa/Kampala" territory="UG"/>
+            <zoneItem type="Africa/Khartoum" territory="SD"/>
+            <zoneItem type="Africa/Kigali" territory="RW"/>
+            <zoneItem type="Africa/Kinshasa" territory="CD"/>
+            <zoneItem type="Africa/Lagos" territory="NG"/>
+            <zoneItem type="Africa/Libreville" territory="GA"/>
+            <zoneItem type="Africa/Lome" territory="TG"/>
+            <zoneItem type="Africa/Luanda" territory="AO"/>
+            <zoneItem type="Africa/Lubumbashi" territory="CD"/>
+            <zoneItem type="Africa/Lusaka" territory="ZM"/>
+            <zoneItem type="Africa/Malabo" territory="GQ"/>
+            <zoneItem type="Africa/Maputo" territory="MZ"/>
+            <zoneItem type="Africa/Maseru" territory="LS"/>
+            <zoneItem type="Africa/Mbabane" territory="SZ"/>
+            <zoneItem type="Africa/Mogadishu" territory="SO"/>
+            <zoneItem type="Africa/Monrovia" territory="LR"/>
+            <zoneItem type="Africa/Nairobi" territory="KE"/>
+            <zoneItem type="Africa/Ndjamena" territory="TD"/>
+            <zoneItem type="Africa/Niamey" territory="NE"/>
+            <zoneItem type="Africa/Nouakchott" territory="MR"/>
+            <zoneItem type="Africa/Ouagadougou" territory="BF"/>
+            <zoneItem type="Africa/Porto-Novo" territory="BJ"/>
+            <zoneItem type="Africa/Sao_Tome" territory="ST"/>
+            <zoneItem type="Africa/Tripoli" territory="LY" aliases="Libya"/>
+            <zoneItem type="Africa/Tunis" territory="TN"/>
+            <zoneItem type="Africa/Windhoek" territory="NA"/>
+            <zoneItem type="America/Adak" territory="US" aliases="America/Atka US/Aleutian"/>
+            <zoneItem type="America/Anchorage" territory="US" aliases="SystemV/YST9YDT US/Alaska"/>
+            <zoneItem type="America/Anguilla" territory="AI"/>
+            <zoneItem type="America/Antigua" territory="AG"/>
+            <zoneItem type="America/Araguaina" territory="BR"/>
+            <zoneItem type="America/Argentina/La_Rioja" territory="AR"/>
+            <zoneItem type="America/Argentina/Rio_Gallegos" territory="AR"/>
+            <zoneItem type="America/Argentina/San_Juan" territory="AR"/>
+            <zoneItem type="America/Argentina/San_Luis" territory="AR"/>
+            <zoneItem type="America/Argentina/Tucuman" territory="AR"/>
+            <zoneItem type="America/Argentina/Ushuaia" territory="AR"/>
+            <zoneItem type="America/Aruba" territory="AW"/>
+            <zoneItem type="America/Asuncion" territory="PY"/>
+            <zoneItem type="America/Bahia" territory="BR"/>
+            <zoneItem type="America/Barbados" territory="BB"/>
+            <zoneItem type="America/Belem" territory="BR"/>
+            <zoneItem type="America/Belize" territory="BZ"/>
+            <zoneItem type="America/Blanc-Sablon" territory="CA"/>
+            <zoneItem type="America/Boa_Vista" territory="BR"/>
+            <zoneItem type="America/Bogota" territory="CO"/>
+            <zoneItem type="America/Boise" territory="US"/>
+            <zoneItem type="America/Buenos_Aires" territory="AR" aliases="America/Argentina/Buenos_Aires"/>
+            <zoneItem type="America/Cambridge_Bay" territory="CA"/>
+            <zoneItem type="America/Campo_Grande" territory="BR"/>
+            <zoneItem type="America/Cancun" territory="MX"/>
+            <zoneItem type="America/Caracas" territory="VE"/>
+            <zoneItem type="America/Catamarca" territory="AR" aliases="America/Argentina/Catamarca America/Argentina/ComodRivadavia"/>
+            <zoneItem type="America/Cayenne" territory="GF"/>
+            <zoneItem type="America/Cayman" territory="KY"/>
+            <zoneItem type="America/Chicago" territory="US" aliases="CST6CDT SystemV/CST6CDT US/Central"/>
+            <zoneItem type="America/Chihuahua" territory="MX"/>
+            <zoneItem type="America/Coral_Harbour" territory="CA" aliases="America/Atikokan"/>
+            <zoneItem type="America/Cordoba" territory="AR" aliases="America/Argentina/Cordoba America/Rosario"/>
+            <zoneItem type="America/Costa_Rica" territory="CR"/>
+            <zoneItem type="America/Cuiaba" territory="BR"/>
+            <zoneItem type="America/Curacao" territory="AN"/>
+            <zoneItem type="America/Danmarkshavn" territory="GL"/>
+            <zoneItem type="America/Dawson" territory="CA"/>
+            <zoneItem type="America/Dawson_Creek" territory="CA"/>
+            <zoneItem type="America/Denver" territory="US" aliases="MST7MDT SystemV/MST7MDT US/Mountain"/>
+            <zoneItem type="America/Detroit" territory="US" aliases="US/Michigan"/>
+            <zoneItem type="America/Dominica" territory="DM"/>
+            <zoneItem type="America/Edmonton" territory="CA" aliases="Canada/Mountain"/>
+            <zoneItem type="America/Eirunepe" territory="BR"/>
+            <zoneItem type="America/El_Salvador" territory="SV"/>
+            <zoneItem type="America/Fortaleza" territory="BR"/>
+            <zoneItem type="America/Glace_Bay" territory="CA"/>
+            <zoneItem type="America/Godthab" territory="GL"/>
+            <zoneItem type="America/Goose_Bay" territory="CA"/>
+            <zoneItem type="America/Grand_Turk" territory="TC"/>
+            <zoneItem type="America/Grenada" territory="GD"/>
+            <zoneItem type="America/Guadeloupe" territory="GP"/>
+            <zoneItem type="America/Guatemala" territory="GT"/>
+            <zoneItem type="America/Guayaquil" territory="EC"/>
+            <zoneItem type="America/Guyana" territory="GY"/>
+            <zoneItem type="America/Halifax" territory="CA" aliases="Canada/Atlantic SystemV/AST4ADT"/>
+            <zoneItem type="America/Havana" territory="CU" aliases="Cuba"/>
+            <zoneItem type="America/Hermosillo" territory="MX"/>
+            <zoneItem type="America/Indiana/Knox" territory="US" aliases="America/Knox_IN US/Indiana-Starke"/>
+            <zoneItem type="America/Indiana/Marengo" territory="US"/>
+            <zoneItem type="America/Indiana/Petersburg" territory="US"/>
+            <zoneItem type="America/Indiana/Tell_City" territory="US"/>
+            <zoneItem type="America/Indiana/Vevay" territory="US"/>
+            <zoneItem type="America/Indiana/Vincennes" territory="US"/>
+            <zoneItem type="America/Indiana/Winamac" territory="US"/>
+            <zoneItem type="America/Indianapolis" territory="US" aliases="America/Fort_Wayne America/Indiana/Indianapolis US/East-Indiana"/>
+            <zoneItem type="America/Inuvik" territory="CA"/>
+            <zoneItem type="America/Iqaluit" territory="CA"/>
+            <zoneItem type="America/Jamaica" territory="JM" aliases="Jamaica"/>
+            <zoneItem type="America/Jujuy" territory="AR" aliases="America/Argentina/Jujuy"/>
+            <zoneItem type="America/Juneau" territory="US"/>
+            <zoneItem type="America/Kentucky/Monticello" territory="US"/>
+            <zoneItem type="America/La_Paz" territory="BO"/>
+            <zoneItem type="America/Lima" territory="PE"/>
+            <zoneItem type="America/Los_Angeles" territory="US" aliases="PST8PDT SystemV/PST8PDT US/Pacific US/Pacific-New"/>
+            <zoneItem type="America/Louisville" territory="US" aliases="America/Kentucky/Louisville"/>
+            <zoneItem type="America/Maceio" territory="BR"/>
+            <zoneItem type="America/Managua" territory="NI"/>
+            <zoneItem type="America/Manaus" territory="BR" aliases="Brazil/West"/>
+            <zoneItem type="America/Marigot" territory="MF"/>
+            <zoneItem type="America/Martinique" territory="MQ"/>
+            <zoneItem type="America/Mazatlan" territory="MX" aliases="Mexico/BajaSur"/>
+            <zoneItem type="America/Mendoza" territory="AR" aliases="America/Argentina/Mendoza"/>
+            <zoneItem type="America/Menominee" territory="US"/>
+            <zoneItem type="America/Merida" territory="MX"/>
+            <zoneItem type="America/Mexico_City" territory="MX" aliases="Mexico/General"/>
+            <zoneItem type="America/Miquelon" territory="PM"/>
+            <zoneItem type="America/Moncton" territory="CA"/>
+            <zoneItem type="America/Monterrey" territory="MX"/>
+            <zoneItem type="America/Montevideo" territory="UY"/>
+            <zoneItem type="America/Montreal" territory="CA"/>
+            <zoneItem type="America/Montserrat" territory="MS"/>
+            <zoneItem type="America/Nassau" territory="BS"/>
+            <zoneItem type="America/New_York" territory="US" aliases="EST5EDT SystemV/EST5EDT US/Eastern"/>
+            <zoneItem type="America/Nipigon" territory="CA"/>
+            <zoneItem type="America/Nome" territory="US"/>
+            <zoneItem type="America/Noronha" territory="BR" aliases="Brazil/DeNoronha"/>
+            <zoneItem type="America/North_Dakota/Center" territory="US"/>
+            <zoneItem type="America/North_Dakota/New_Salem" territory="US"/>
+            <zoneItem type="America/Panama" territory="PA"/>
+            <zoneItem type="America/Pangnirtung" territory="CA"/>
+            <zoneItem type="America/Paramaribo" territory="SR"/>
+            <zoneItem type="America/Phoenix" territory="US" aliases="US/Arizona"/>
+            <zoneItem type="America/Port_of_Spain" territory="TT"/>
+            <zoneItem type="America/Port-au-Prince" territory="HT"/>
+            <zoneItem type="America/Porto_Velho" territory="BR"/>
+            <zoneItem type="America/Puerto_Rico" territory="PR"/>
+            <zoneItem type="America/Rainy_River" territory="CA"/>
+            <zoneItem type="America/Rankin_Inlet" territory="CA"/>
+            <zoneItem type="America/Recife" territory="BR"/>
+            <zoneItem type="America/Regina" territory="CA" aliases="Canada/East-Saskatchewan Canada/Saskatchewan"/>
+            <zoneItem type="America/Resolute" territory="CA"/>
+            <zoneItem type="America/Rio_Branco" territory="BR" aliases="America/Porto_Acre Brazil/Acre"/>
+            <zoneItem type="America/Santiago" territory="CL" aliases="Chile/Continental"/>
+            <zoneItem type="America/Santo_Domingo" territory="DO"/>
+            <zoneItem type="America/Sao_Paulo" territory="BR" aliases="Brazil/East"/>
+            <zoneItem type="America/Scoresbysund" territory="GL"/>
+            <zoneItem type="America/Shiprock" territory="US" aliases="Navajo"/>
+            <zoneItem type="America/St_Barthelemy" territory="BL"/>
+            <zoneItem type="America/St_Johns" territory="CA" aliases="Canada/Newfoundland"/>
+            <zoneItem type="America/St_Kitts" territory="KN"/>
+            <zoneItem type="America/St_Lucia" territory="LC"/>
+            <zoneItem type="America/St_Thomas" territory="VI" aliases="America/Virgin"/>
+            <zoneItem type="America/St_Vincent" territory="VC"/>
+            <zoneItem type="America/Swift_Current" territory="CA"/>
+            <zoneItem type="America/Tegucigalpa" territory="HN"/>
+            <zoneItem type="America/Thule" territory="GL"/>
+            <zoneItem type="America/Thunder_Bay" territory="CA"/>
+            <zoneItem type="America/Tijuana" territory="MX" aliases="America/Ensenada Mexico/BajaNorte"/>
+            <zoneItem type="America/Toronto" territory="CA" aliases="Canada/Eastern"/>
+            <zoneItem type="America/Tortola" territory="VG"/>
+            <zoneItem type="America/Vancouver" territory="CA" aliases="Canada/Pacific"/>
+            <zoneItem type="America/Whitehorse" territory="CA" aliases="Canada/Yukon"/>
+            <zoneItem type="America/Winnipeg" territory="CA" aliases="Canada/Central"/>
+            <zoneItem type="America/Yakutat" territory="US"/>
+            <zoneItem type="America/Yellowknife" territory="CA"/>
+            <zoneItem type="Antarctica/Casey" territory="AQ"/>
+            <zoneItem type="Antarctica/Davis" territory="AQ"/>
+            <zoneItem type="Antarctica/DumontDUrville" territory="AQ"/>
+            <zoneItem type="Antarctica/Mawson" territory="AQ"/>
+            <zoneItem type="Antarctica/McMurdo" territory="AQ"/>
+            <zoneItem type="Antarctica/Palmer" territory="AQ"/>
+            <zoneItem type="Antarctica/Rothera" territory="AQ"/>
+            <zoneItem type="Antarctica/South_Pole" territory="AQ"/>
+            <zoneItem type="Antarctica/Syowa" territory="AQ"/>
+            <zoneItem type="Antarctica/Vostok" territory="AQ"/>
+            <zoneItem type="Arctic/Longyearbyen" territory="SJ" aliases="Atlantic/Jan_Mayen"/>
+            <zoneItem type="Asia/Aden" territory="YE"/>
+            <zoneItem type="Asia/Almaty" territory="KZ"/>
+            <zoneItem type="Asia/Amman" territory="JO"/>
+            <zoneItem type="Asia/Anadyr" territory="RU"/>
+            <zoneItem type="Asia/Aqtau" territory="KZ"/>
+            <zoneItem type="Asia/Aqtobe" territory="KZ"/>
+            <zoneItem type="Asia/Ashgabat" territory="TM" aliases="Asia/Ashkhabad"/>
+            <zoneItem type="Asia/Baghdad" territory="IQ"/>
+            <zoneItem type="Asia/Bahrain" territory="BH"/>
+            <zoneItem type="Asia/Baku" territory="AZ"/>
+            <zoneItem type="Asia/Bangkok" territory="TH"/>
+            <zoneItem type="Asia/Beirut" territory="LB"/>
+            <zoneItem type="Asia/Bishkek" territory="KG"/>
+            <zoneItem type="Asia/Brunei" territory="BN"/>
+            <zoneItem type="Asia/Calcutta" territory="IN" aliases="Asia/Kolkata"/>
+            <zoneItem type="Asia/Choibalsan" territory="MN"/>
+            <zoneItem type="Asia/Chongqing" territory="CN" aliases="Asia/Chungking"/>
+            <zoneItem type="Asia/Colombo" territory="LK"/>
+            <zoneItem type="Asia/Damascus" territory="SY"/>
+            <zoneItem type="Asia/Dhaka" territory="BD" aliases="Asia/Dacca"/>
+            <zoneItem type="Asia/Dili" territory="TL"/>
+            <zoneItem type="Asia/Dubai" territory="AE"/>
+            <zoneItem type="Asia/Dushanbe" territory="TJ"/>
+            <zoneItem type="Asia/Gaza" territory="PS"/>
+            <zoneItem type="Asia/Harbin" territory="CN"/>
+            <zoneItem type="Asia/Hong_Kong" territory="HK" aliases="Hongkong"/>
+            <zoneItem type="Asia/Hovd" territory="MN"/>
+            <zoneItem type="Asia/Irkutsk" territory="RU"/>
+            <zoneItem type="Asia/Jakarta" territory="ID"/>
+            <zoneItem type="Asia/Jayapura" territory="ID"/>
+            <zoneItem type="Asia/Jerusalem" territory="IL" aliases="Asia/Tel_Aviv Israel"/>
+            <zoneItem type="Asia/Kabul" territory="AF"/>
+            <zoneItem type="Asia/Kamchatka" territory="RU"/>
+            <zoneItem type="Asia/Karachi" territory="PK"/>
+            <zoneItem type="Asia/Kashgar" territory="CN"/>
+            <zoneItem type="Asia/Katmandu" territory="NP"/>
+            <zoneItem type="Asia/Krasnoyarsk" territory="RU"/>
+            <zoneItem type="Asia/Kuala_Lumpur" territory="MY"/>
+            <zoneItem type="Asia/Kuching" territory="MY"/>
+            <zoneItem type="Asia/Kuwait" territory="KW"/>
+            <zoneItem type="Asia/Macau" territory="MO" aliases="Asia/Macao"/>
+            <zoneItem type="Asia/Magadan" territory="RU"/>
+            <zoneItem type="Asia/Makassar" territory="ID" aliases="Asia/Ujung_Pandang"/>
+            <zoneItem type="Asia/Manila" territory="PH"/>
+            <zoneItem type="Asia/Muscat" territory="OM"/>
+            <zoneItem type="Asia/Nicosia" territory="CY" aliases="Europe/Nicosia"/>
+            <zoneItem type="Asia/Novosibirsk" territory="RU"/>
+            <zoneItem type="Asia/Omsk" territory="RU"/>
+            <zoneItem type="Asia/Oral" territory="KZ"/>
+            <zoneItem type="Asia/Phnom_Penh" territory="KH"/>
+            <zoneItem type="Asia/Pontianak" territory="ID"/>
+            <zoneItem type="Asia/Pyongyang" territory="KP"/>
+            <zoneItem type="Asia/Qatar" territory="QA"/>
+            <zoneItem type="Asia/Qyzylorda" territory="KZ"/>
+            <zoneItem type="Asia/Rangoon" territory="MM"/>
+            <zoneItem type="Asia/Riyadh" territory="SA"/>
+            <zoneItem type="Asia/Saigon" territory="VN" aliases="Asia/Ho_Chi_Minh"/>
+            <zoneItem type="Asia/Sakhalin" territory="RU"/>
+            <zoneItem type="Asia/Samarkand" territory="UZ"/>
+            <zoneItem type="Asia/Seoul" territory="KR" aliases="ROK"/>
+            <zoneItem type="Asia/Shanghai" territory="CN" aliases="PRC"/>
+            <zoneItem type="Asia/Singapore" territory="SG" aliases="Singapore"/>
+            <zoneItem type="Asia/Taipei" territory="TW" aliases="ROC"/>
+            <zoneItem type="Asia/Tashkent" territory="UZ"/>
+            <zoneItem type="Asia/Tbilisi" territory="GE"/>
+            <zoneItem type="Asia/Tehran" territory="IR" aliases="Iran"/>
+            <zoneItem type="Asia/Thimphu" territory="BT" aliases="Asia/Thimbu"/>
+            <zoneItem type="Asia/Tokyo" territory="JP" aliases="Japan"/>
+            <zoneItem type="Asia/Ulaanbaatar" territory="MN" aliases="Asia/Ulan_Bator"/>
+            <zoneItem type="Asia/Urumqi" territory="CN"/>
+            <zoneItem type="Asia/Vientiane" territory="LA"/>
+            <zoneItem type="Asia/Vladivostok" territory="RU"/>
+            <zoneItem type="Asia/Yakutsk" territory="RU"/>
+            <zoneItem type="Asia/Yekaterinburg" territory="RU"/>
+            <zoneItem type="Asia/Yerevan" territory="AM"/>
+            <zoneItem type="Atlantic/Azores" territory="PT"/>
+            <zoneItem type="Atlantic/Bermuda" territory="BM"/>
+            <zoneItem type="Atlantic/Canary" territory="ES"/>
+            <zoneItem type="Atlantic/Cape_Verde" territory="CV"/>
+            <zoneItem type="Atlantic/Faeroe" territory="FO" aliases="Atlantic/Faroe"/>
+            <zoneItem type="Atlantic/Madeira" territory="PT"/>
+            <zoneItem type="Atlantic/Reykjavik" territory="IS" aliases="Iceland"/>
+            <zoneItem type="Atlantic/South_Georgia" territory="GS"/>
+            <zoneItem type="Atlantic/St_Helena" territory="SH"/>
+            <zoneItem type="Atlantic/Stanley" territory="FK"/>
+            <zoneItem type="Australia/Adelaide" territory="AU" aliases="Australia/South"/>
+            <zoneItem type="Australia/Brisbane" territory="AU" aliases="Australia/Queensland"/>
+            <zoneItem type="Australia/Broken_Hill" territory="AU" aliases="Australia/Yancowinna"/>
+            <zoneItem type="Australia/Currie" territory="AU"/>
+            <zoneItem type="Australia/Darwin" territory="AU" aliases="Australia/North"/>
+            <zoneItem type="Australia/Eucla" territory="AU"/>
+            <zoneItem type="Australia/Hobart" territory="AU" aliases="Australia/Tasmania"/>
+            <zoneItem type="Australia/Lindeman" territory="AU"/>
+            <zoneItem type="Australia/Lord_Howe" territory="AU" aliases="Australia/LHI"/>
+            <zoneItem type="Australia/Melbourne" territory="AU" aliases="Australia/Victoria"/>
+            <zoneItem type="Australia/Perth" territory="AU" aliases="Australia/West"/>
+            <zoneItem type="Australia/Sydney" territory="AU" aliases="Australia/ACT Australia/Canberra Australia/NSW"/>
+            <zoneItem type="Etc/GMT" territory="001" aliases="Etc/GMT+0 Etc/GMT-0 Etc/GMT0 Etc/Greenwich Etc/UCT Etc/UTC Etc/Universal Etc/Zulu GMT GMT+0 GMT-0 GMT0 Greenwich UCT UTC Universal Zulu"/>
+            <zoneItem type="Etc/GMT-1" territory="001"/>
+            <zoneItem type="Etc/GMT-2" territory="001"/>
+            <zoneItem type="Etc/GMT-3" territory="001"/>
+            <zoneItem type="Etc/GMT-4" territory="001"/>
+            <zoneItem type="Etc/GMT-5" territory="001"/>
+            <zoneItem type="Etc/GMT-6" territory="001"/>
+            <zoneItem type="Etc/GMT-7" territory="001"/>
+            <zoneItem type="Etc/GMT-8" territory="001"/>
+            <zoneItem type="Etc/GMT-9" territory="001"/>
+            <zoneItem type="Etc/GMT-10" territory="001"/>
+            <zoneItem type="Etc/GMT-11" territory="001"/>
+            <zoneItem type="Etc/GMT-12" territory="001"/>
+            <zoneItem type="Etc/GMT-13" territory="001"/>
+            <zoneItem type="Etc/GMT-14" territory="001"/>
+            <zoneItem type="Etc/GMT+1" territory="001"/>
+            <zoneItem type="Etc/GMT+2" territory="001"/>
+            <zoneItem type="Etc/GMT+3" territory="001"/>
+            <zoneItem type="Etc/GMT+4" territory="001" aliases="SystemV/AST4"/>
+            <zoneItem type="Etc/GMT+5" territory="001" aliases="EST SystemV/EST5"/>
+            <zoneItem type="Etc/GMT+6" territory="001" aliases="SystemV/CST6"/>
+            <zoneItem type="Etc/GMT+7" territory="001" aliases="MST SystemV/MST7"/>
+            <zoneItem type="Etc/GMT+8" territory="001" aliases="SystemV/PST8"/>
+            <zoneItem type="Etc/GMT+9" territory="001" aliases="SystemV/YST9"/>
+            <zoneItem type="Etc/GMT+10" territory="001" aliases="HST SystemV/HST10"/>
+            <zoneItem type="Etc/GMT+11" territory="001"/>
+            <zoneItem type="Etc/GMT+12" territory="001"/>
+            <zoneItem type="Etc/Unknown" territory="001"/>
+            <zoneItem type="Europe/Amsterdam" territory="NL"/>
+            <zoneItem type="Europe/Andorra" territory="AD"/>
+            <zoneItem type="Europe/Athens" territory="GR"/>
+            <zoneItem type="Europe/Belgrade" territory="RS"/>
+            <zoneItem type="Europe/Berlin" territory="DE"/>
+            <zoneItem type="Europe/Bratislava" territory="SK"/>
+            <zoneItem type="Europe/Brussels" territory="BE"/>
+            <zoneItem type="Europe/Bucharest" territory="RO"/>
+            <zoneItem type="Europe/Budapest" territory="HU"/>
+            <zoneItem type="Europe/Chisinau" territory="MD" aliases="Europe/Tiraspol"/>
+            <zoneItem type="Europe/Copenhagen" territory="DK"/>
+            <zoneItem type="Europe/Dublin" territory="IE" aliases="Eire"/>
+            <zoneItem type="Europe/Gibraltar" territory="GI"/>
+            <zoneItem type="Europe/Guernsey" territory="GG"/>
+            <zoneItem type="Europe/Helsinki" territory="FI"/>
+            <zoneItem type="Europe/Isle_of_Man" territory="IM"/>
+            <zoneItem type="Europe/Istanbul" territory="TR" aliases="Asia/Istanbul Turkey"/>
+            <zoneItem type="Europe/Jersey" territory="JE"/>
+            <zoneItem type="Europe/Kaliningrad" territory="RU"/>
+            <zoneItem type="Europe/Kiev" territory="UA"/>
+            <zoneItem type="Europe/Lisbon" territory="PT" aliases="Portugal"/>
+            <zoneItem type="Europe/Ljubljana" territory="SI"/>
+            <zoneItem type="Europe/London" territory="GB" aliases="Europe/Belfast GB GB-Eire"/>
+            <zoneItem type="Europe/Luxembourg" territory="LU"/>
+            <zoneItem type="Europe/Madrid" territory="ES"/>
+            <zoneItem type="Europe/Malta" territory="MT"/>
+            <zoneItem type="Europe/Mariehamn" territory="AX"/>
+            <zoneItem type="Europe/Minsk" territory="BY"/>
+            <zoneItem type="Europe/Monaco" territory="MC"/>
+            <zoneItem type="Europe/Moscow" territory="RU" aliases="W-SU"/>
+            <zoneItem type="Europe/Oslo" territory="NO"/>
+            <zoneItem type="Europe/Paris" territory="FR"/>
+            <zoneItem type="Europe/Podgorica" territory="ME"/>
+            <zoneItem type="Europe/Prague" territory="CZ"/>
+            <zoneItem type="Europe/Riga" territory="LV"/>
+            <zoneItem type="Europe/Rome" territory="IT"/>
+            <zoneItem type="Europe/Samara" territory="RU"/>
+            <zoneItem type="Europe/San_Marino" territory="SM"/>
+            <zoneItem type="Europe/Sarajevo" territory="BA"/>
+            <zoneItem type="Europe/Simferopol" territory="UA"/>
+            <zoneItem type="Europe/Skopje" territory="MK"/>
+            <zoneItem type="Europe/Sofia" territory="BG"/>
+            <zoneItem type="Europe/Stockholm" territory="SE"/>
+            <zoneItem type="Europe/Tallinn" territory="EE"/>
+            <zoneItem type="Europe/Tirane" territory="AL"/>
+            <zoneItem type="Europe/Uzhgorod" territory="UA"/>
+            <zoneItem type="Europe/Vaduz" territory="LI"/>
+            <zoneItem type="Europe/Vatican" territory="VA"/>
+            <zoneItem type="Europe/Vienna" territory="AT"/>
+            <zoneItem type="Europe/Vilnius" territory="LT"/>
+            <zoneItem type="Europe/Volgograd" territory="RU"/>
+            <zoneItem type="Europe/Warsaw" territory="PL" aliases="Poland"/>
+            <zoneItem type="Europe/Zagreb" territory="HR"/>
+            <zoneItem type="Europe/Zaporozhye" territory="UA"/>
+            <zoneItem type="Europe/Zurich" territory="CH"/>
+            <zoneItem type="Indian/Antananarivo" territory="MG"/>
+            <zoneItem type="Indian/Chagos" territory="IO"/>
+            <zoneItem type="Indian/Christmas" territory="CX"/>
+            <zoneItem type="Indian/Cocos" territory="CC"/>
+            <zoneItem type="Indian/Comoro" territory="KM"/>
+            <zoneItem type="Indian/Kerguelen" territory="TF"/>
+            <zoneItem type="Indian/Mahe" territory="SC"/>
+            <zoneItem type="Indian/Maldives" territory="MV"/>
+            <zoneItem type="Indian/Mauritius" territory="MU"/>
+            <zoneItem type="Indian/Mayotte" territory="YT"/>
+            <zoneItem type="Indian/Reunion" territory="RE"/>
+            <zoneItem type="Pacific/Apia" territory="WS"/>
+            <zoneItem type="Pacific/Auckland" territory="NZ" aliases="NZ"/>
+            <zoneItem type="Pacific/Chatham" territory="NZ" aliases="NZ-CHAT"/>
+            <zoneItem type="Pacific/Easter" territory="CL" aliases="Chile/EasterIsland"/>
+            <zoneItem type="Pacific/Efate" territory="VU"/>
+            <zoneItem type="Pacific/Enderbury" territory="KI"/>
+            <zoneItem type="Pacific/Fakaofo" territory="TK"/>
+            <zoneItem type="Pacific/Fiji" territory="FJ"/>
+            <zoneItem type="Pacific/Funafuti" territory="TV"/>
+            <zoneItem type="Pacific/Galapagos" territory="EC"/>
+            <zoneItem type="Pacific/Gambier" territory="PF"/>
+            <zoneItem type="Pacific/Guadalcanal" territory="SB"/>
+            <zoneItem type="Pacific/Guam" territory="GU"/>
+            <zoneItem type="Pacific/Honolulu" territory="US" aliases="US/Hawaii"/>
+            <zoneItem type="Pacific/Johnston" territory="UM"/>
+            <zoneItem type="Pacific/Kiritimati" territory="KI"/>
+            <zoneItem type="Pacific/Kosrae" territory="FM"/>
+            <zoneItem type="Pacific/Kwajalein" territory="MH" aliases="Kwajalein"/>
+            <zoneItem type="Pacific/Majuro" territory="MH"/>
+            <zoneItem type="Pacific/Marquesas" territory="PF"/>
+            <zoneItem type="Pacific/Midway" territory="UM"/>
+            <zoneItem type="Pacific/Nauru" territory="NR"/>
+            <zoneItem type="Pacific/Niue" territory="NU"/>
+            <zoneItem type="Pacific/Norfolk" territory="NF"/>
+            <zoneItem type="Pacific/Noumea" territory="NC"/>
+            <zoneItem type="Pacific/Pago_Pago" territory="AS" aliases="Pacific/Samoa US/Samoa"/>
+            <zoneItem type="Pacific/Palau" territory="PW"/>
+            <zoneItem type="Pacific/Pitcairn" territory="PN"/>
+            <zoneItem type="Pacific/Ponape" territory="FM"/>
+            <zoneItem type="Pacific/Port_Moresby" territory="PG"/>
+            <zoneItem type="Pacific/Rarotonga" territory="CK"/>
+            <zoneItem type="Pacific/Saipan" territory="MP"/>
+            <zoneItem type="Pacific/Tahiti" territory="PF"/>
+            <zoneItem type="Pacific/Tarawa" territory="KI"/>
+            <zoneItem type="Pacific/Tongatapu" territory="TO"/>
+            <zoneItem type="Pacific/Truk" territory="FM" aliases="Pacific/Yap"/>
+            <zoneItem type="Pacific/Wake" territory="UM"/>
+            <zoneItem type="Pacific/Wallis" territory="WF"/>
+        </zoneFormatting>
 	</timezoneData>
 	<codeMappings>
 		<territoryCodes type="AA" numeric="958" alpha3="AAA"/>
@@ -4829,7 +4878,7 @@ XXX	Code for transations where no currency is involved
 		<reference type="R1052" uri="http://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population">The figure is from Wikipedia article on English-speaking populations</reference>
 		<reference type="R1053" uri="https://www.cia.gov/cia/publications/factbook/fields/2098.html">Albanian 25.1%</reference>
 		<reference type="R1054" uri="https://www.cia.gov/cia/publications/factbook/geos/rw.html">English is an official language, not widely spoken</reference>
-		<reference type="R1055" uri="http://www.ethnologue.com/show_language.asp?code=mos">Also called M�or�</reference>
+		<reference type="R1055" uri="http://en.wikipedia.org/wiki/Pashto_language">42.6% of population</reference>
 		<reference type="R1056" uri="http://www.joshuaproject.net/peopctry.php?rop3=101703&amp;rog3=MY">[missing]</reference>
 		<reference type="R1057" uri="http://www.ethnologue.com/show_language.asp?code=tpi">4mil 2nd lang speakers, 120k 1st lang, 20k monolinguals. English creole; 40-45% literacy.</reference>
 		<reference type="R1058" uri="http://www.ethnologue.com/show_language.asp?code=hmo">A pidginizatino of Motu; 120k 2nd lang speakers, very few 1st lang.</reference>
@@ -4880,7 +4929,18 @@ XXX	Code for transations where no currency is involved
 		<reference type="R1103" uri="http://www.ethnologue.com/show_language.asp?code=srn">The lingua franca of 80% of the population</reference>
 		<reference type="R1104" uri="http://www.ethnologue.com/show_language.asp?code=bem">[missing]</reference>
 		<reference type="R1105" uri="http://en.wikipedia.org/wiki/Uzbek_language#Writing_systems">[missing]</reference>
-		<reference type="R1106" uri="https://www.cia.gov/cia/publications/factbook/geos/sv.html">CIA Factbook lists spoken language, the entry for Bokm�l only on Svalbard and Jan Mayan is an assumption.</reference>
-		<reference type="R1107" uri="http://en.wikipedia.org/wiki/Volap%C3%BCk">Artificial: 'There are an estimated 20-30 Volap�k speakers in the world today.'; see also http://www.villagevoice.com/arts/0031,lafarge,16942,12.html</reference>
+		<reference type="R1106" uri="http://en.wikipedia.org/wiki/Languages_of_Pakistan">- More than 95% of Pakistanis can speak or understand Urdu as their second or third language</reference>
+		<reference type="R1107" uri="http://en.wikipedia.org/wiki/Pashto_language">15.42% of population</reference>
+		<reference type="R1108" uri="http://www.ethnologue.com/show_language.asp?code=mos">Also called Mòoré</reference>
+		<reference type="R1109" uri="http://www.ethnologue.com/show_country.asp?name=Bahrain">[missing]</reference>
+		<reference type="R1110" uri="http://www.vaestorekisterikeskus.fi/vrk/home.nsf/pages/index_eng">[missing]</reference>
+		<reference type="R1111" uri="http://www.kotus.fi/index.phtml?l=en&amp;s=512">[missing]</reference>
+		<reference type="R1112" uri="http://www.kotus.fi/?l=en&amp;s=207">[missing]</reference>
+		<reference type="R1113" uri="http://www.ethnologue.com/show_country.asp?name=United+Kingdom">[missing]</reference>
+		<reference type="R1114" uri="http://www.ethnologue.com/show_language.asp?code=emk">[missing]</reference>
+		<reference type="R1115" uri="http://www.jewish-languages.org/jewish-malayalam.html">[missing]</reference>
+		<reference type="R1116" uri="https://www.cia.gov/cia/publications/factbook/geos/sv.html">CIA Factbook lists spoken language, the entry for Bokmål only on Svalbard and Jan Mayan is an assumption.</reference>
+		<reference type="R1117" uri="http://en.wikipedia.org/wiki/Volap%C3%BCk">Artificial: 'There are an estimated 20-30 Volapük speakers in the world today.'; see also http://www.villagevoice.com/arts/0031,lafarge,16942,12.html</reference>
+		<reference type="R1118" uri="http://en.wikipedia.org/wiki/Singapore">  English is the first language learned by half the children by the time they reach preschool age</reference>
 	</references>
 </supplementalData>

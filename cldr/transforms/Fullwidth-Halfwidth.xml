@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldmlSupplemental.dtd">
+<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldmlSupplemental.dtd">
 <supplementalData>
 	<transforms>
 		<transform source="Fullwidth" target="Halfwidth" direction="both">
@@ -64,9 +64,9 @@
 			<tRule>９↔'9'; # from FULLWIDTH DIGIT NINE</tRule>
 			<tRule>：↔':'; # from FULLWIDTH COLON</tRule>
 			<tRule>；↔';'; # from FULLWIDTH SEMICOLON</tRule>
-			<tRule>＜↔'←'; # from FULLWIDTH LESS-THAN SIGN</tRule>
+			<tRule>＜↔'&lt;'; # from FULLWIDTH LESS-THAN SIGN</tRule>
 			<tRule>＝↔'='; # from FULLWIDTH EQUALS SIGN</tRule>
-			<tRule>＞↔'→'; # from FULLWIDTH GREATER-THAN SIGN</tRule>
+			<tRule>＞↔'&gt;'; # from FULLWIDTH GREATER-THAN SIGN</tRule>
 			<tRule>？↔'?'; # from FULLWIDTH QUESTION MARK</tRule>
 			<tRule>＠↔'@'; # from FULLWIDTH COMMERCIAL AT</tRule>
 			<tRule>Ａ↔A; # from FULLWIDTH LATIN CAPITAL LETTER A</tRule>
@@ -250,7 +250,7 @@
 			<tRule>￡↔'£'; # from FULLWIDTH POUND SIGN</tRule>
 			<tRule>￢↔'¬'; # from FULLWIDTH NOT SIGN</tRule>
 			<tRule>￣↔'¯'; # from FULLWIDTH MACRON</tRule>
-			<tRule>'\u3000'↔' '; # ideographic space (place this after MACRON)</tRule>
+			<tRule>\u3000↔' '; # ideographic space (place this after MACRON)</tRule>
 			<tRule>￤↔'¦'; # from FULLWIDTH BROKEN BAR</tRule>
 			<tRule>￥↔'¥'; # from FULLWIDTH YEN SIGN</tRule>
 			<tRule>￦↔₩; # from FULLWIDTH WON SIGN</tRule>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldmlSupplemental.dtd">
+<!DOCTYPE supplementalData SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldmlSupplemental.dtd">
 
 <supplementalData>
-	<version number="$Revision: 1.11 $"/>
-	<generation date="$Date: 2007/07/10 20:27:58 $"/>
-	<characters draft="true">
+	<version number="$Revision: 1.15 $"/>
+	<generation date="$Date: 2008/06/12 17:39:05 $"/>
+	<characters draft="unconfirmed">
 		<character-fallback>
 			<character value = " ">
 				<substitute> </substitute>
@@ -111,6 +111,10 @@
 			<character value = "ț">
 				<substitute>ţ</substitute>
 			</character>
+			<character value="־">
+				<substitute>‐</substitute>
+				<substitute>-</substitute>
+			</character>
 			<character value = "٫">
 				<substitute>,</substitute>
 			</character>
@@ -216,6 +220,13 @@
 			</character>
 			<character value = "₱">
 				<substitute>PHP</substitute>
+			</character>
+			<character value = "₲">
+				<substitute>PYG</substitute>
+			</character>
+			<character value = "₵">
+				<substitute>Ȼ</substitute>
+				<substitute>GHS</substitute>
 			</character>
 			<character value = "℀">
 				<substitute>a/c</substitute>

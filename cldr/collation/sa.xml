@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.3 $"/>
-		<generation date="$Date: 2007/07/10 20:27:25 $"/>
+		<version number="$Revision: 1.5 $"/>
+		<generation date="$Date: 2008/06/12 17:39:03 $"/>
 		<language type="sa"/>
 	</identity>
 		<collations  validSubLocales="sa_IN">
 <collation type="standard"
 references="Monier-Williams: Sanskrit-English Dictionary ISBN:8120800656"
-draft="true" alt="proposed">
+draft="unconfirmed" alt="proposed">
 <settings normalization="on"/>
 <rules>
 
@@ -55,7 +55,7 @@ http://www.uni-koeln.de/phil-fak/indologie/tamil/mwreport.html
 Monier-Williams: Sanskrit-English Dictionary 
 http://www.ibiblio.org/sripedia/ebooks/mw/
 http://www.ibiblio.org/sripedia/ebooks/mw/0000/mw__0033.html"
-draft="true" alt="proposed">
+draft="unconfirmed" alt="proposed">
 <settings normalization="on"/>
 <rules>
 <reset>औ</reset>

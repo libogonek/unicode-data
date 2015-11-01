@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.25 $"/>
-		<generation date="$Date: 2007/07/27 22:46:58 $"/>
+		<version number="$Revision: 1.27 $"/>
+		<generation date="$Date: 2008/06/12 17:39:03 $"/>
 		<language type="fi" /> 
 	</identity>
 		<collations  validSubLocales="fi_FI">
@@ -48,7 +48,7 @@
 					<t>Œ</t>
 				</rules>
 			</collation  >
-			<collation type="standard" alt="proposed" draft="true">
+			<collation type="standard" alt="proposed" draft="unconfirmed">
 				<rules>
 					<!-- D and U+0335 -->
 					<reset>D ̵</reset>

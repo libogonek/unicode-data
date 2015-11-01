@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.5/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.6/ldml.dtd">
 <!--
  	Prepared by: R. Hari, Sr. IT Specialist, IBM India Ltd., India
 	Inputs from : Dr. B.L. Mohanty, Lecturer, Eastern Regional Language
@@ -9,8 +9,8 @@
 -->
 <ldml draft = "true">
 	<identity>
-		<version number="$Revision: 1.9 $"/>
-		<generation date="$Date: 2007/07/10 20:27:25 $"/>
+		<version number="$Revision: 1.11 $"/>
+		<generation date="$Date: 2008/06/12 17:39:03 $"/>
 		<language type="or" /> 
 	</identity>
 		<collations  validSubLocales="or_IN">
@@ -30,7 +30,7 @@
 			</collation  >
 <collation type="standard"
 references="Grundy: The Concise Oriya-English Dictionary ISBN:8120616995 http://www.eki.ee/wgrs/rom1_or.pdf"
-draft="true" alt="proposed">
+draft="unconfirmed" alt="proposed">
 <settings normalization="on"/>
 <rules>
 
