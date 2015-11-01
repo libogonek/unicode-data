@@ -2,8 +2,8 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 
 <supplementalData>
-	<version number="$Revision: 1.220 $"/>
-	<generation date="$Date: 2009/06/25 20:24:56 $"/>
+	<version number="$Revision: 4442 $"/>
+	<generation date="$Date: 2009-12-10 09:38:17 -0500 (Thu, 10 Dec 2009) $"/>
 	<cldrVersion version="1.7.1"/>
     <currencyData>
         <fractions>
@@ -3994,7 +3994,7 @@ XXX	Code for transations where no currency is involved
 			<mapZone other="Arabian" territory="QA" type="Asia/Qatar"/>
 			<mapZone other="Arabian" territory="YE" type="Asia/Aden"/>
 			<mapZone other="Argentina" territory="001" type="America/Buenos_Aires"/>
-			<mapZone other="Argentina_Western" territory="001" type="America/Mendoza"/>
+			<mapZone other="Argentina_Western" territory="001" type="America/Argentina/San_Luis"/>
 			<mapZone other="Armenia" territory="001" type="Asia/Yerevan"/>
 			<mapZone other="Ashkhabad" territory="001" type="Asia/Ashgabat"/>
 			<mapZone other="Atlantic" territory="001" type="America/Halifax"/>
@@ -4490,6 +4490,7 @@ XXX	Code for transations where no currency is involved
 			<zoneItem type="Asia/Manila" territory="PH"/>
 			<zoneItem type="Asia/Muscat" territory="OM"/>
 			<zoneItem type="Asia/Nicosia" territory="CY" aliases="Europe/Nicosia"/>
+			<zoneItem type="Asia/Novokuznetsk" territory="RU"/>
 			<zoneItem type="Asia/Novosibirsk" territory="RU"/>
 			<zoneItem type="Asia/Omsk" territory="RU"/>
 			<zoneItem type="Asia/Oral" territory="KZ"/>
@@ -4994,9 +4995,10 @@ XXX	Code for transations where no currency is involved
 			<keyMap type="variableTop" bcp47="vt"/>
 		</mapKeys>
 		<mapTypes type="collation">
-			<typeMap type="digits-after" bcp47="digitaft"/>
+			<typeMap type="dictionary" bcp47="dict"/>
 			<typeMap type="gb2312han" bcp47="gb2312"/>
 			<typeMap type="phonebook" bcp47="phonebk"/>
+			<typeMap type="traditional" bcp47="trad"/>
 		</mapTypes>
 		<mapTypes type="colStrength">
 			<typeMap type="primary" bcp47="level1"/>
@@ -5283,6 +5285,7 @@ XXX	Code for transations where no currency is involved
 			<typeMap type="Asia/Manila" bcp47="phmnl"/>
 			<typeMap type="Asia/Muscat" bcp47="ommct"/>
 			<typeMap type="Asia/Nicosia" bcp47="cynic"/>
+			<typeMap type="Asia/Novokuznetsk" bcp47="runoz"/>
 			<typeMap type="Asia/Novosibirsk" bcp47="ruovb"/>
 			<typeMap type="Asia/Omsk" bcp47="ruoms"/>
 			<typeMap type="Asia/Oral" bcp47="kzura"/>

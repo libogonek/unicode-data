@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
-    <version number="$Revision: 1.24 $"/>
-    <generation date="$Date: 2009/05/05 23:15:57 $"/>
+    <version number="$Revision: 4124 $"/>
+    <generation date="$Date: 2009-05-05 19:15:57 -0400 (Tue, 05 May 2009) $"/>
     <likelySubtags>
       <likelySubtag from="aa" to="aa_Latn_ET"/> <!--{ Afar; ?; ? } => { Afar; Latin; Ethiopia }-->
       <likelySubtag from="ab" to="ab_Cyrl_GE"/> <!--{ Abkhazian; ?; ? } => { Abkhazian; Cyrillic; Georgia }-->

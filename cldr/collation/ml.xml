@@ -10,8 +10,8 @@
 -->
 <ldml draft = "true">
 	<identity>
-		<version number="$Revision: 1.14 $"/>
-		<generation date="$Date: 2009/05/05 23:28:47 $"/>
+		<version number="$Revision: 4126 $"/>
+		<generation date="$Date: 2009-05-05 19:33:13 -0400 (Tue, 05 May 2009) $"/>
 		<language type="ml" />
 	</identity>
 	<collations  validSubLocales="ml_IN">

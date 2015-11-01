@@ -2,8 +2,8 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 
 <supplementalData>
-	<version number="$Revision: 1.19 $"/>
-	<generation date="$Date: 2009/05/05 23:15:57 $"/>
+	<version number="$Revision: 4124 $"/>
+	<generation date="$Date: 2009-05-05 19:15:57 -0400 (Tue, 05 May 2009) $"/>
 	<characters>
 		<character-fallback>
 			<character value = "©">
