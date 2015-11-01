@@ -2,11 +2,11 @@
 <!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.17 $"/>
-		<generation date="$Date: 2005/10/27 09:07:12 $"/>
+		<version number="$Revision: 1.19 $"/>
+		<generation date="$Date: 2006/10/28 19:35:35 $"/>
 		<language type="sr" /> 
 	</identity>
-		<collations  validSubLocales="sr_Cyrl sr_YU sr_Cyrl_YU sr_BA sr_Cyrl_BA">
-      <alias source="ru" path="//ldml/collations"/>
+		<collations  validSubLocales="sr_Cyrl sr_RS sr_Cyrl_RS sr_BA sr_Cyrl_BA sr_Cyrl_ME">
+		<alias source="ru" path="//ldml/collations"/>
 		</collations>
 </ldml>
