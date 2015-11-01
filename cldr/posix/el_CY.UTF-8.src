@@ -79,17 +79,13 @@ upper	<A>;/
 	<GREEK_LETTER_DIGAMMA>;/
 	<GREEK_LETTER_KOPPA>;/
 	<GREEK_LETTER_SAMPI>;/
-	<COPTIC_CAPITAL_LETTER_SHEI>;/
-	<COPTIC_CAPITAL_LETTER_FEI>;/
-	<COPTIC_CAPITAL_LETTER_KHEI>;/
-	<COPTIC_CAPITAL_LETTER_HORI>;/
-	<COPTIC_CAPITAL_LETTER_GANGIA>;/
-	<COPTIC_CAPITAL_LETTER_SHIMA>;/
-	<COPTIC_CAPITAL_LETTER_DEI>;/
 	<GREEK_CAPITAL_THETA_SYMBOL>;/
 	<GREEK_CAPITAL_LETTER_SHO>;/
 	<GREEK_CAPITAL_LUNATE_SIGMA_SYMBOL>;/
 	<GREEK_CAPITAL_LETTER_SAN>;/
+	<GREEK_CAPITAL_REVERSED_LUNATE_SIGMA_SYMBOL>;/
+	<GREEK_CAPITAL_DOTTED_LUNATE_SIGMA_SYMBOL>;/
+	<GREEK_CAPITAL_REVERSED_DOTTED_LUNATE_SIGMA_SYMBOL>;/
 	<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI>;/
 	<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA>;/
 	<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_VARIA>;/
@@ -236,13 +232,6 @@ lower	<a>;/
 	<GREEK_SMALL_LETTER_DIGAMMA>;/
 	<GREEK_SMALL_LETTER_KOPPA>;/
 	<GREEK_SMALL_LETTER_SAMPI>;/
-	<COPTIC_SMALL_LETTER_SHEI>;/
-	<COPTIC_SMALL_LETTER_FEI>;/
-	<COPTIC_SMALL_LETTER_KHEI>;/
-	<COPTIC_SMALL_LETTER_HORI>;/
-	<COPTIC_SMALL_LETTER_GANGIA>;/
-	<COPTIC_SMALL_LETTER_SHIMA>;/
-	<COPTIC_SMALL_LETTER_DEI>;/
 	<GREEK_KAPPA_SYMBOL>;/
 	<GREEK_RHO_SYMBOL>;/
 	<GREEK_LUNATE_SIGMA_SYMBOL>;/
@@ -250,6 +239,7 @@ lower	<a>;/
 	<GREEK_LUNATE_EPSILON_SYMBOL>;/
 	<GREEK_SMALL_LETTER_SHO>;/
 	<GREEK_SMALL_LETTER_SAN>;/
+	<GREEK_RHO_WITH_STROKE_SYMBOL>;/
 	<GREEK_LETTER_SMALL_CAPITAL_GAMMA>;/
 	<GREEK_LETTER_SMALL_CAPITAL_LAMDA>;/
 	<GREEK_LETTER_SMALL_CAPITAL_PI>;/
@@ -645,20 +635,6 @@ graph	<EXCLAMATION_MARK>;/
 	<GREEK_SMALL_LETTER_KOPPA>;/
 	<GREEK_LETTER_SAMPI>;/
 	<GREEK_SMALL_LETTER_SAMPI>;/
-	<COPTIC_CAPITAL_LETTER_SHEI>;/
-	<COPTIC_SMALL_LETTER_SHEI>;/
-	<COPTIC_CAPITAL_LETTER_FEI>;/
-	<COPTIC_SMALL_LETTER_FEI>;/
-	<COPTIC_CAPITAL_LETTER_KHEI>;/
-	<COPTIC_SMALL_LETTER_KHEI>;/
-	<COPTIC_CAPITAL_LETTER_HORI>;/
-	<COPTIC_SMALL_LETTER_HORI>;/
-	<COPTIC_CAPITAL_LETTER_GANGIA>;/
-	<COPTIC_SMALL_LETTER_GANGIA>;/
-	<COPTIC_CAPITAL_LETTER_SHIMA>;/
-	<COPTIC_SMALL_LETTER_SHIMA>;/
-	<COPTIC_CAPITAL_LETTER_DEI>;/
-	<COPTIC_SMALL_LETTER_DEI>;/
 	<GREEK_KAPPA_SYMBOL>;/
 	<GREEK_RHO_SYMBOL>;/
 	<GREEK_LUNATE_SIGMA_SYMBOL>;/
@@ -671,6 +647,10 @@ graph	<EXCLAMATION_MARK>;/
 	<GREEK_CAPITAL_LUNATE_SIGMA_SYMBOL>;/
 	<GREEK_CAPITAL_LETTER_SAN>;/
 	<GREEK_SMALL_LETTER_SAN>;/
+	<GREEK_RHO_WITH_STROKE_SYMBOL>;/
+	<GREEK_CAPITAL_REVERSED_LUNATE_SIGMA_SYMBOL>;/
+	<GREEK_CAPITAL_DOTTED_LUNATE_SIGMA_SYMBOL>;/
+	<GREEK_CAPITAL_REVERSED_DOTTED_LUNATE_SIGMA_SYMBOL>;/
 	<GREEK_LETTER_SMALL_CAPITAL_GAMMA>;/
 	<GREEK_LETTER_SMALL_CAPITAL_LAMDA>;/
 	<GREEK_LETTER_SMALL_CAPITAL_PI>;/
@@ -1110,20 +1090,6 @@ print	<space>;/
 	<GREEK_SMALL_LETTER_KOPPA>;/
 	<GREEK_LETTER_SAMPI>;/
 	<GREEK_SMALL_LETTER_SAMPI>;/
-	<COPTIC_CAPITAL_LETTER_SHEI>;/
-	<COPTIC_SMALL_LETTER_SHEI>;/
-	<COPTIC_CAPITAL_LETTER_FEI>;/
-	<COPTIC_SMALL_LETTER_FEI>;/
-	<COPTIC_CAPITAL_LETTER_KHEI>;/
-	<COPTIC_SMALL_LETTER_KHEI>;/
-	<COPTIC_CAPITAL_LETTER_HORI>;/
-	<COPTIC_SMALL_LETTER_HORI>;/
-	<COPTIC_CAPITAL_LETTER_GANGIA>;/
-	<COPTIC_SMALL_LETTER_GANGIA>;/
-	<COPTIC_CAPITAL_LETTER_SHIMA>;/
-	<COPTIC_SMALL_LETTER_SHIMA>;/
-	<COPTIC_CAPITAL_LETTER_DEI>;/
-	<COPTIC_SMALL_LETTER_DEI>;/
 	<GREEK_KAPPA_SYMBOL>;/
 	<GREEK_RHO_SYMBOL>;/
 	<GREEK_LUNATE_SIGMA_SYMBOL>;/
@@ -1136,6 +1102,10 @@ print	<space>;/
 	<GREEK_CAPITAL_LUNATE_SIGMA_SYMBOL>;/
 	<GREEK_CAPITAL_LETTER_SAN>;/
 	<GREEK_SMALL_LETTER_SAN>;/
+	<GREEK_RHO_WITH_STROKE_SYMBOL>;/
+	<GREEK_CAPITAL_REVERSED_LUNATE_SIGMA_SYMBOL>;/
+	<GREEK_CAPITAL_DOTTED_LUNATE_SIGMA_SYMBOL>;/
+	<GREEK_CAPITAL_REVERSED_DOTTED_LUNATE_SIGMA_SYMBOL>;/
 	<GREEK_LETTER_SMALL_CAPITAL_GAMMA>;/
 	<GREEK_LETTER_SMALL_CAPITAL_LAMDA>;/
 	<GREEK_LETTER_SMALL_CAPITAL_PI>;/
@@ -1518,13 +1488,6 @@ toupper	(<a>,<A>);/
 	(<GREEK_SMALL_LETTER_DIGAMMA>,<GREEK_LETTER_DIGAMMA>);/
 	(<GREEK_SMALL_LETTER_KOPPA>,<GREEK_LETTER_KOPPA>);/
 	(<GREEK_SMALL_LETTER_SAMPI>,<GREEK_LETTER_SAMPI>);/
-	(<COPTIC_SMALL_LETTER_SHEI>,<COPTIC_CAPITAL_LETTER_SHEI>);/
-	(<COPTIC_SMALL_LETTER_FEI>,<COPTIC_CAPITAL_LETTER_FEI>);/
-	(<COPTIC_SMALL_LETTER_KHEI>,<COPTIC_CAPITAL_LETTER_KHEI>);/
-	(<COPTIC_SMALL_LETTER_HORI>,<COPTIC_CAPITAL_LETTER_HORI>);/
-	(<COPTIC_SMALL_LETTER_GANGIA>,<COPTIC_CAPITAL_LETTER_GANGIA>);/
-	(<COPTIC_SMALL_LETTER_SHIMA>,<COPTIC_CAPITAL_LETTER_SHIMA>);/
-	(<COPTIC_SMALL_LETTER_DEI>,<COPTIC_CAPITAL_LETTER_DEI>);/
 	(<GREEK_KAPPA_SYMBOL>,<GREEK_CAPITAL_LETTER_KAPPA>);/
 	(<GREEK_RHO_SYMBOL>,<GREEK_CAPITAL_LETTER_RHO>);/
 	(<GREEK_LUNATE_SIGMA_SYMBOL>,<GREEK_CAPITAL_LUNATE_SIGMA_SYMBOL>);/
@@ -1693,13 +1656,6 @@ tolower	(<A>,<a>);/
 	(<GREEK_LETTER_DIGAMMA>,<GREEK_SMALL_LETTER_DIGAMMA>);/
 	(<GREEK_LETTER_KOPPA>,<GREEK_SMALL_LETTER_KOPPA>);/
 	(<GREEK_LETTER_SAMPI>,<GREEK_SMALL_LETTER_SAMPI>);/
-	(<COPTIC_CAPITAL_LETTER_SHEI>,<COPTIC_SMALL_LETTER_SHEI>);/
-	(<COPTIC_CAPITAL_LETTER_FEI>,<COPTIC_SMALL_LETTER_FEI>);/
-	(<COPTIC_CAPITAL_LETTER_KHEI>,<COPTIC_SMALL_LETTER_KHEI>);/
-	(<COPTIC_CAPITAL_LETTER_HORI>,<COPTIC_SMALL_LETTER_HORI>);/
-	(<COPTIC_CAPITAL_LETTER_GANGIA>,<COPTIC_SMALL_LETTER_GANGIA>);/
-	(<COPTIC_CAPITAL_LETTER_SHIMA>,<COPTIC_SMALL_LETTER_SHIMA>);/
-	(<COPTIC_CAPITAL_LETTER_DEI>,<COPTIC_SMALL_LETTER_DEI>);/
 	(<GREEK_CAPITAL_THETA_SYMBOL>,<GREEK_SMALL_LETTER_THETA>);/
 	(<GREEK_CAPITAL_LETTER_SHO>,<GREEK_SMALL_LETTER_SHO>);/
 	(<GREEK_CAPITAL_LUNATE_SIGMA_SYMBOL>,<GREEK_LUNATE_SIGMA_SYMBOL>);/
@@ -1752,40 +1708,14 @@ tolower	(<A>,<a>);/
 	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_OXIA>,<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_OXIA>);/
 	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI>,<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI>);/
 	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI>,<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI>);/
-	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI>);/
-	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI>);/
 	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_VRACHY>,<GREEK_SMALL_LETTER_ALPHA_WITH_VRACHY>);/
 	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_MACRON>,<GREEK_SMALL_LETTER_ALPHA_WITH_MACRON>);/
 	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_VARIA>,<GREEK_SMALL_LETTER_ALPHA_WITH_VARIA>);/
 	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_OXIA>,<GREEK_SMALL_LETTER_ALPHA_WITH_OXIA>);/
-	(<GREEK_CAPITAL_LETTER_ALPHA_WITH_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ALPHA_WITH_YPOGEGRAMMENI>);/
 	(<GREEK_CAPITAL_LETTER_EPSILON_WITH_VARIA>,<GREEK_SMALL_LETTER_EPSILON_WITH_VARIA>);/
 	(<GREEK_CAPITAL_LETTER_EPSILON_WITH_OXIA>,<GREEK_SMALL_LETTER_EPSILON_WITH_OXIA>);/
 	(<GREEK_CAPITAL_LETTER_ETA_WITH_VARIA>,<GREEK_SMALL_LETTER_ETA_WITH_VARIA>);/
 	(<GREEK_CAPITAL_LETTER_ETA_WITH_OXIA>,<GREEK_SMALL_LETTER_ETA_WITH_OXIA>);/
-	(<GREEK_CAPITAL_LETTER_ETA_WITH_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_ETA_WITH_YPOGEGRAMMENI>);/
 	(<GREEK_CAPITAL_LETTER_IOTA_WITH_VRACHY>,<GREEK_SMALL_LETTER_IOTA_WITH_VRACHY>);/
 	(<GREEK_CAPITAL_LETTER_IOTA_WITH_MACRON>,<GREEK_SMALL_LETTER_IOTA_WITH_MACRON>);/
 	(<GREEK_CAPITAL_LETTER_IOTA_WITH_VARIA>,<GREEK_SMALL_LETTER_IOTA_WITH_VARIA>);/
@@ -1799,7 +1729,6 @@ tolower	(<A>,<a>);/
 	(<GREEK_CAPITAL_LETTER_OMICRON_WITH_OXIA>,<GREEK_SMALL_LETTER_OMICRON_WITH_OXIA>);/
 	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_VARIA>,<GREEK_SMALL_LETTER_OMEGA_WITH_VARIA>);/
 	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_OXIA>,<GREEK_SMALL_LETTER_OMEGA_WITH_OXIA>);/
-	(<GREEK_CAPITAL_LETTER_OMEGA_WITH_PROSGEGRAMMENI>,<GREEK_SMALL_LETTER_OMEGA_WITH_YPOGEGRAMMENI>);/
 	(<OHM_SIGN>,<GREEK_SMALL_LETTER_OMEGA>)
 
 END LC_CTYPE
@@ -1847,48 +1776,47 @@ collating-symbol <X077C>
 collating-symbol <X0782>
 collating-symbol <X0786>
 collating-symbol <X078E>
-collating-symbol <X07AA>
-collating-symbol <X07C0>
-collating-symbol <X07C6>
-collating-symbol <X07EE>
-collating-symbol <X07F6>
-collating-symbol <X080B>
-collating-symbol <X083F>
-collating-symbol <X084D>
-collating-symbol <X0861>
-collating-symbol <X0863>
-collating-symbol <X0865>
-collating-symbol <X0867>
-collating-symbol <X0869>
-collating-symbol <X086B>
-collating-symbol <X08DF>
-collating-symbol <X08E1>
-collating-symbol <X08E9>
-collating-symbol <X08ED>
-collating-symbol <X08EF>
-collating-symbol <X08F5>
-collating-symbol <X08F7>
-collating-symbol <X0985>
-collating-symbol <X0987>
-collating-symbol <X0BA9>
-collating-symbol <X0BB3>
-collating-symbol <X0BBB>
-collating-symbol <X0BBD>
-collating-symbol <X0BBF>
-collating-symbol <X0BC3>
-collating-symbol <X0BC9>
-collating-symbol <X233C>
-collating-symbol <X2370>
-collating-symbol <X2372>
-collating-symbol <X2374>
-collating-symbol <X2376>
-collating-symbol <X2378>
-collating-symbol <X237A>
-collating-symbol <X237C>
-collating-symbol <X237E>
-collating-symbol <X2380>
-collating-symbol <X2382>
-collating-symbol <X2600>
+collating-symbol <X07AC>
+collating-symbol <X07C2>
+collating-symbol <X07C8>
+collating-symbol <X07F2>
+collating-symbol <X07FA>
+collating-symbol <X0813>
+collating-symbol <X086D>
+collating-symbol <X087B>
+collating-symbol <X088F>
+collating-symbol <X0891>
+collating-symbol <X0893>
+collating-symbol <X0895>
+collating-symbol <X0897>
+collating-symbol <X0899>
+collating-symbol <X0927>
+collating-symbol <X0929>
+collating-symbol <X0931>
+collating-symbol <X0935>
+collating-symbol <X0937>
+collating-symbol <X093D>
+collating-symbol <X093F>
+collating-symbol <X09F9>
+collating-symbol <X09FB>
+collating-symbol <X0C6F>
+collating-symbol <X0C79>
+collating-symbol <X0C81>
+collating-symbol <X0C83>
+collating-symbol <X0C85>
+collating-symbol <X0C89>
+collating-symbol <X0C8F>
+collating-symbol <X253C>
+collating-symbol <X257A>
+collating-symbol <X257C>
+collating-symbol <X257E>
+collating-symbol <X2580>
+collating-symbol <X2582>
+collating-symbol <X2584>
+collating-symbol <X2586>
+collating-symbol <X2588>
+collating-symbol <X258A>
+collating-symbol <X258C>
 collating-symbol <X2800>
 collating-symbol <X2A00>
 collating-symbol <X2C00>
@@ -1914,50 +1842,47 @@ collating-symbol <X5200>
 collating-symbol <X5400>
 collating-symbol <X5600>
 collating-symbol <X5800>
-collating-symbol <X5A20>
-collating-symbol <X5A22>
-collating-symbol <X5A24>
-collating-symbol <X5A26>
-collating-symbol <X5A28>
-collating-symbol <X5A2A>
-collating-symbol <X5A2C>
-collating-symbol <X5A2E>
-collating-symbol <X5A30>
-collating-symbol <X5A32>
-collating-symbol <X5A34>
-collating-symbol <X5A36>
-collating-symbol <X5A38>
-collating-symbol <X5A3A>
-collating-symbol <X5A3C>
-collating-symbol <X5A3E>
-collating-symbol <X5A40>
-collating-symbol <X5A42>
-collating-symbol <X5A44>
-collating-symbol <X5A46>
-collating-symbol <X5A48>
-collating-symbol <X5A4A>
-collating-symbol <X5A4C>
-collating-symbol <X5A4E>
-collating-symbol <X5A50>
-collating-symbol <X5A52>
-collating-symbol <X5A54>
-collating-symbol <X5A56>
-collating-symbol <X5A58>
-collating-symbol <X5A5A>
-collating-symbol <X5A5C>
-collating-symbol <X5A5E>
-collating-symbol <X5A60>
-collating-symbol <X5A62>
-collating-symbol <X5A64>
-collating-symbol <X5A66>
-collating-symbol <X5A68>
-collating-symbol <X5A6A>
-collating-symbol <X5A6C>
-collating-symbol <X5A6E>
-collating-symbol <X5A70>
-collating-symbol <X5A72>
-collating-symbol <X5A74>
-collating-symbol <X5A76>
+collating-symbol <X5A00>
+collating-symbol <X5C20>
+collating-symbol <X5C22>
+collating-symbol <X5C24>
+collating-symbol <X5C26>
+collating-symbol <X5C28>
+collating-symbol <X5C2A>
+collating-symbol <X5C2C>
+collating-symbol <X5C2E>
+collating-symbol <X5C30>
+collating-symbol <X5C32>
+collating-symbol <X5C34>
+collating-symbol <X5C36>
+collating-symbol <X5C38>
+collating-symbol <X5C3A>
+collating-symbol <X5C3C>
+collating-symbol <X5C3E>
+collating-symbol <X5C40>
+collating-symbol <X5C42>
+collating-symbol <X5C44>
+collating-symbol <X5C46>
+collating-symbol <X5C48>
+collating-symbol <X5C4A>
+collating-symbol <X5C4C>
+collating-symbol <X5C4E>
+collating-symbol <X5C50>
+collating-symbol <X5C52>
+collating-symbol <X5C54>
+collating-symbol <X5C56>
+collating-symbol <X5C58>
+collating-symbol <X5C5A>
+collating-symbol <X5C5C>
+collating-symbol <X5C5E>
+collating-symbol <X5C60>
+collating-symbol <X5C62>
+collating-symbol <X5C64>
+collating-symbol <X5C66>
+collating-symbol <X5C68>
+collating-symbol <X5C6A>
+collating-symbol <X5C6C>
+collating-symbol <X7ABC>
 
 order_start forward;forward;forward;forward
 
@@ -1998,48 +1923,47 @@ order_start forward;forward;forward;forward
 <X0782>
 <X0786>
 <X078E>
-<X07AA>
-<X07C0>
-<X07C6>
-<X07EE>
-<X07F6>
-<X080B>
-<X083F>
-<X084D>
-<X0861>
-<X0863>
-<X0865>
-<X0867>
-<X0869>
-<X086B>
-<X08DF>
-<X08E1>
-<X08E9>
-<X08ED>
-<X08EF>
-<X08F5>
-<X08F7>
-<X0985>
-<X0987>
-<X0BA9>
-<X0BB3>
-<X0BBB>
-<X0BBD>
-<X0BBF>
-<X0BC3>
-<X0BC9>
-<X233C>
-<X2370>
-<X2372>
-<X2374>
-<X2376>
-<X2378>
-<X237A>
-<X237C>
-<X237E>
-<X2380>
-<X2382>
-<X2600>
+<X07AC>
+<X07C2>
+<X07C8>
+<X07F2>
+<X07FA>
+<X0813>
+<X086D>
+<X087B>
+<X088F>
+<X0891>
+<X0893>
+<X0895>
+<X0897>
+<X0899>
+<X0927>
+<X0929>
+<X0931>
+<X0935>
+<X0937>
+<X093D>
+<X093F>
+<X09F9>
+<X09FB>
+<X0C6F>
+<X0C79>
+<X0C81>
+<X0C83>
+<X0C85>
+<X0C89>
+<X0C8F>
+<X253C>
+<X257A>
+<X257C>
+<X257E>
+<X2580>
+<X2582>
+<X2584>
+<X2586>
+<X2588>
+<X258A>
+<X258C>
 <X2800>
 <X2A00>
 <X2C00>
@@ -2065,50 +1989,47 @@ order_start forward;forward;forward;forward
 <X5400>
 <X5600>
 <X5800>
-<X5A20>
-<X5A22>
-<X5A24>
-<X5A26>
-<X5A28>
-<X5A2A>
-<X5A2C>
-<X5A2E>
-<X5A30>
-<X5A32>
-<X5A34>
-<X5A36>
-<X5A38>
-<X5A3A>
-<X5A3C>
-<X5A3E>
-<X5A40>
-<X5A42>
-<X5A44>
-<X5A46>
-<X5A48>
-<X5A4A>
-<X5A4C>
-<X5A4E>
-<X5A50>
-<X5A52>
-<X5A54>
-<X5A56>
-<X5A58>
-<X5A5A>
-<X5A5C>
-<X5A5E>
-<X5A60>
-<X5A62>
-<X5A64>
-<X5A66>
-<X5A68>
-<X5A6A>
-<X5A6C>
-<X5A6E>
-<X5A70>
-<X5A72>
-<X5A74>
-<X5A76>
+<X5A00>
+<X5C20>
+<X5C22>
+<X5C24>
+<X5C26>
+<X5C28>
+<X5C2A>
+<X5C2C>
+<X5C2E>
+<X5C30>
+<X5C32>
+<X5C34>
+<X5C36>
+<X5C38>
+<X5C3A>
+<X5C3C>
+<X5C3E>
+<X5C40>
+<X5C42>
+<X5C44>
+<X5C46>
+<X5C48>
+<X5C4A>
+<X5C4C>
+<X5C4E>
+<X5C50>
+<X5C52>
+<X5C54>
+<X5C56>
+<X5C58>
+<X5C5A>
+<X5C5C>
+<X5C5E>
+<X5C60>
+<X5C62>
+<X5C64>
+<X5C66>
+<X5C68>
+<X5C6A>
+<X5C6C>
+<X7ABC>
 
 * assignment of characters to weights
 
@@ -2168,449 +2089,437 @@ order_start forward;forward;forward;forward
 <LOW_LINE>                                                                 <X0782>;<X0005>;<X0005>;IGNORE
 <GREEK_PERISPOMENI>                                                        <X0786>;<X0005>;<X0005>;IGNORE
 <HYPHEN-MINUS>                                                             <X078E>;<X0005>;<X0005>;IGNORE
-<COMMA>                                                                    <X07AA>;<X0005>;<X0005>;IGNORE
-<SEMICOLON>                                                                <X07C0>;<X0005>;<X0005>;IGNORE
-<COLON>                                                                    <X07C6>;<X0005>;<X0005>;IGNORE
-<EXCLAMATION_MARK>                                                         <X07EE>;<X0005>;<X0005>;IGNORE
-<QUESTION_MARK>                                                            <X07F6>;<X0005>;<X0005>;IGNORE
-<FULL_STOP>                                                                <X080B>;<X0005>;<X0005>;IGNORE
-<APOSTROPHE>                                                               <X083F>;<X0005>;<X0005>;IGNORE
-<QUOTATION_MARK>                                                           <X084D>;<X0005>;<X0005>;IGNORE
-<LEFT_PARENTHESIS>                                                         <X0861>;<X0005>;<X0005>;IGNORE
-<RIGHT_PARENTHESIS>                                                        <X0863>;<X0005>;<X0005>;IGNORE
-<LEFT_SQUARE_BRACKET>                                                      <X0865>;<X0005>;<X0005>;IGNORE
-<RIGHT_SQUARE_BRACKET>                                                     <X0867>;<X0005>;<X0005>;IGNORE
-<LEFT_CURLY_BRACKET>                                                       <X0869>;<X0005>;<X0005>;IGNORE
-<RIGHT_CURLY_BRACKET>                                                      <X086B>;<X0005>;<X0005>;IGNORE
-<COMMERCIAL_AT>                                                            <X08DF>;<X0005>;<X0005>;IGNORE
-<ASTERISK>                                                                 <X08E1>;<X0005>;<X0005>;IGNORE
-<SOLIDUS>                                                                  <X08E9>;<X0005>;<X0005>;IGNORE
-<REVERSE_SOLIDUS>                                                          <X08ED>;<X0005>;<X0005>;IGNORE
-<AMPERSAND>                                                                <X08EF>;<X0005>;<X0005>;IGNORE
-<NUMBER_SIGN>                                                              <X08F5>;<X0005>;<X0005>;IGNORE
-<PERCENT_SIGN>                                                             <X08F7>;<X0005>;<X0005>;IGNORE
-<GREEK_NUMERAL_SIGN>                                                       <X0985>;<X0005>;<X0005>;IGNORE
-<GREEK_LOWER_NUMERAL_SIGN>                                                 <X0987>;<X0005>;<X0005>;IGNORE
-<GREEK_REVERSED_LUNATE_EPSILON_SYMBOL>                                     <X0BA9>;<X0005>;<X0005>;IGNORE
-<PLUS_SIGN>                                                                <X0BB3>;<X0005>;<X0005>;IGNORE
-<LESS-THAN_SIGN>                                                           <X0BBB>;<X0005>;<X0005>;IGNORE
-<EQUALS_SIGN>                                                              <X0BBD>;<X0005>;<X0005>;IGNORE
-<GREATER-THAN_SIGN>                                                        <X0BBF>;<X0005>;<X0005>;IGNORE
-<VERTICAL_LINE>                                                            <X0BC3>;<X0005>;<X0005>;IGNORE
-<TILDE>                                                                    <X0BC9>;<X0005>;<X0005>;IGNORE
-<DOLLAR_SIGN>                                                              <X233C>;<X0005>;<X0005>;IGNORE
-<zero>                                                                     <X2370>;<X0005>;<X0005>;IGNORE
-<one>                                                                      <X2372>;<X0005>;<X0005>;IGNORE
-<two>                                                                      <X2374>;<X0005>;<X0005>;IGNORE
-<three>                                                                    <X2376>;<X0005>;<X0005>;IGNORE
-<four>                                                                     <X2378>;<X0005>;<X0005>;IGNORE
-<five>                                                                     <X237A>;<X0005>;<X0005>;IGNORE
-<six>                                                                      <X237C>;<X0005>;<X0005>;IGNORE
-<seven>                                                                    <X237E>;<X0005>;<X0005>;IGNORE
-<eight>                                                                    <X2380>;<X0005>;<X0005>;IGNORE
-<nine>                                                                     <X2382>;<X0005>;<X0005>;IGNORE
-<a>                                                                        <X2600>;<X0005>;<X0005>;IGNORE
-<A>                                                                        <X2600>;<X0005>;<X008F>;IGNORE
-<b>                                                                        <X2800>;<X0005>;<X0005>;IGNORE
-<B>                                                                        <X2800>;<X0005>;<X008F>;IGNORE
-<c>                                                                        <X2A00>;<X0005>;<X0005>;IGNORE
-<C>                                                                        <X2A00>;<X0005>;<X008F>;IGNORE
-<d>                                                                        <X2C00>;<X0005>;<X0005>;IGNORE
-<D>                                                                        <X2C00>;<X0005>;<X008F>;IGNORE
-<e>                                                                        <X2E00>;<X0005>;<X0005>;IGNORE
-<E>                                                                        <X2E00>;<X0005>;<X008F>;IGNORE
-<f>                                                                        <X3000>;<X0005>;<X0005>;IGNORE
-<F>                                                                        <X3000>;<X0005>;<X008F>;IGNORE
-<g>                                                                        <X3200>;<X0005>;<X0005>;IGNORE
-<G>                                                                        <X3200>;<X0005>;<X008F>;IGNORE
-<h>                                                                        <X3400>;<X0005>;<X0005>;IGNORE
-<H>                                                                        <X3400>;<X0005>;<X008F>;IGNORE
-<i>                                                                        <X3600>;<X0005>;<X0005>;IGNORE
-<I>                                                                        <X3600>;<X0005>;<X008F>;IGNORE
-<j>                                                                        <X3800>;<X0005>;<X0005>;IGNORE
-<J>                                                                        <X3800>;<X0005>;<X008F>;IGNORE
-<k>                                                                        <X3A00>;<X0005>;<X0005>;IGNORE
-<K>                                                                        <X3A00>;<X0005>;<X008F>;IGNORE
-<l>                                                                        <X3C00>;<X0005>;<X0005>;IGNORE
-<L>                                                                        <X3C00>;<X0005>;<X008F>;IGNORE
-<m>                                                                        <X3E00>;<X0005>;<X0005>;IGNORE
-<M>                                                                        <X3E00>;<X0005>;<X008F>;IGNORE
-<n>                                                                        <X4000>;<X0005>;<X0005>;IGNORE
-<N>                                                                        <X4000>;<X0005>;<X008F>;IGNORE
-<o>                                                                        <X4200>;<X0005>;<X0005>;IGNORE
-<O>                                                                        <X4200>;<X0005>;<X008F>;IGNORE
-<p>                                                                        <X4400>;<X0005>;<X0005>;IGNORE
-<P>                                                                        <X4400>;<X0005>;<X008F>;IGNORE
-<q>                                                                        <X4600>;<X0005>;<X0005>;IGNORE
-<Q>                                                                        <X4600>;<X0005>;<X008F>;IGNORE
-<r>                                                                        <X4800>;<X0005>;<X0005>;IGNORE
-<R>                                                                        <X4800>;<X0005>;<X008F>;IGNORE
-<s>                                                                        <X4A00>;<X0005>;<X0005>;IGNORE
-<S>                                                                        <X4A00>;<X0005>;<X008F>;IGNORE
-<t>                                                                        <X4C00>;<X0005>;<X0005>;IGNORE
-<T>                                                                        <X4C00>;<X0005>;<X008F>;IGNORE
-<u>                                                                        <X4E00>;<X0005>;<X0005>;IGNORE
-<U>                                                                        <X4E00>;<X0005>;<X008F>;IGNORE
-<v>                                                                        <X5000>;<X0005>;<X0005>;IGNORE
-<V>                                                                        <X5000>;<X0005>;<X008F>;IGNORE
-<w>                                                                        <X5200>;<X0005>;<X0005>;IGNORE
-<W>                                                                        <X5200>;<X0005>;<X008F>;IGNORE
-<x>                                                                        <X5400>;<X0005>;<X0005>;IGNORE
-<X>                                                                        <X5400>;<X0005>;<X008F>;IGNORE
-<y>                                                                        <X5600>;<X0005>;<X0005>;IGNORE
-<Y>                                                                        <X5600>;<X0005>;<X008F>;IGNORE
-<z>                                                                        <X5800>;<X0005>;<X0005>;IGNORE
-<Z>                                                                        <X5800>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_ALPHA>                                                 <X5A20>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA>                                               <X5A20>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI>                                      <X5A20>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI>                                    <X5A20>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_OXIA>                             <X5A20>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_OXIA>                           <X5A20>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI>           <X5A20>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI>        <X5A20>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_VARIA>                            <X5A20>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_VARIA>                          <X5A20>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI>          <X5A20>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI>       <X5A20>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI>                      <X5A20>;"<X0005><X0089><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI>                    <X5A20>;"<X0005><X0089><X009B>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI>    <X5A20>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI> <X5A20>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_YPOGEGRAMMENI>                    <X5A20>;"<X0005><X0089><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_PROSGEGRAMMENI>                 <X5A20>;"<X0005><X0089><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA>                                      <X5A20>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA>                                    <X5A20>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_OXIA>                             <X5A20>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_OXIA>                           <X5A20>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI>           <X5A20>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI>        <X5A20>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_VARIA>                            <X5A20>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_VARIA>                          <X5A20>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI>          <X5A20>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI>       <X5A20>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI>                      <X5A20>;"<X0005><X008B><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI>                    <X5A20>;"<X0005><X008B><X009B>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI>    <X5A20>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI> <X5A20>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_YPOGEGRAMMENI>                    <X5A20>;"<X0005><X008B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_PROSGEGRAMMENI>                 <X5A20>;"<X0005><X008B><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_TONOS>                                      <X5A20>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_ALPHA><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_ALPHA_WITH_OXIA>                                       <X5A20>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_ALPHA><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_TONOS>                                    <X5A20>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_ALPHA><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_OXIA>                                     <X5A20>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_ALPHA><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_ALPHA_WITH_OXIA_AND_YPOGEGRAMMENI>                     <X5A20>;"<X0005><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_VARIA>                                      <X5A20>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_VARIA>                                    <X5A20>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_VARIA_AND_YPOGEGRAMMENI>                    <X5A20>;"<X0005><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_VRACHY>                                     <X5A20>;"<X0005><X0091>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_VRACHY>                                   <X5A20>;"<X0005><X0091>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_PERISPOMENI>                                <X5A20>;"<X0005><X009B>";"<X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_PERISPOMENI_AND_YPOGEGRAMMENI>              <X5A20>;"<X0005><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_MACRON>                                     <X5A20>;"<X0005><X00AB>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_MACRON>                                   <X5A20>;"<X0005><X00AB>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ALPHA_WITH_YPOGEGRAMMENI>                              <X5A20>;"<X0005><X00D1><X00E1>";"<X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ALPHA_WITH_PROSGEGRAMMENI>                           <X5A20>;"<X0005><X00D1><X00E1>";"<X008F><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_BETA>                                                  <X5A22>;<X0005>;<X0005>;IGNORE
-<GREEK_BETA_SYMBOL>                                                        <X5A22>;<X0005>;<X0009>;IGNORE
-<GREEK_CAPITAL_LETTER_BETA>                                                <X5A22>;<X0005>;<X008F>;IGNORE
-<MODIFIER_LETTER_SMALL_BETA>                                               <X5A22>;<X0005>;<X0027>;IGNORE
-<GREEK_SUBSCRIPT_SMALL_LETTER_BETA>                                        <X5A22>;<X0005>;<X0029>;IGNORE
-<GREEK_SMALL_LETTER_GAMMA>                                                 <X5A24>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_GAMMA>                                               <X5A24>;<X0005>;<X008F>;IGNORE
-<MODIFIER_LETTER_SMALL_GREEK_GAMMA>                                        <X5A24>;<X0005>;<X0027>;IGNORE
-<GREEK_SUBSCRIPT_SMALL_LETTER_GAMMA>                                       <X5A24>;<X0005>;<X0029>;IGNORE
-<GREEK_LETTER_SMALL_CAPITAL_GAMMA>                                         <X5A26>;<X0005>;<X0005>;IGNORE
-<GREEK_SMALL_LETTER_DELTA>                                                 <X5A28>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_DELTA>                                               <X5A28>;<X0005>;<X008F>;IGNORE
-<MODIFIER_LETTER_SMALL_DELTA>                                              <X5A28>;<X0005>;<X0027>;IGNORE
-<GREEK_SMALL_LETTER_EPSILON>                                               <X5A2A>;<X0005>;<X0005>;IGNORE
-<GREEK_LUNATE_EPSILON_SYMBOL>                                              <X5A2A>;<X0005>;<X0009>;IGNORE
-<GREEK_CAPITAL_LETTER_EPSILON>                                             <X5A2A>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_EPSILON_WITH_PSILI>                                    <X5A2A>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_EPSILON_WITH_PSILI>                                  <X5A2A>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_EPSILON_WITH_PSILI_AND_OXIA>                           <X5A2A>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_EPSILON_WITH_PSILI_AND_OXIA>                         <X5A2A>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_EPSILON_WITH_PSILI_AND_VARIA>                          <X5A2A>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_EPSILON_WITH_PSILI_AND_VARIA>                        <X5A2A>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_EPSILON_WITH_DASIA>                                    <X5A2A>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_EPSILON_WITH_DASIA>                                  <X5A2A>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_EPSILON_WITH_DASIA_AND_OXIA>                           <X5A2A>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_EPSILON_WITH_DASIA_AND_OXIA>                         <X5A2A>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_EPSILON_WITH_DASIA_AND_VARIA>                          <X5A2A>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_EPSILON_WITH_DASIA_AND_VARIA>                        <X5A2A>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_EPSILON_WITH_OXIA>                                     <X5A2A>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_EPSILON><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_EPSILON_WITH_TONOS>                                    <X5A2A>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_EPSILON><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_EPSILON_WITH_OXIA>                                   <X5A2A>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_EPSILON><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_EPSILON_WITH_TONOS>                                  <X5A2A>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_EPSILON><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_EPSILON_WITH_VARIA>                                    <X5A2A>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_EPSILON_WITH_VARIA>                                  <X5A2A>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_DIGAMMA>                                               <X5A2C>;<X0005>;<X0005>;IGNORE
-<GREEK_LETTER_DIGAMMA>                                                     <X5A2C>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_STIGMA>                                                <X5A2E>;<X0005>;<X0005>;IGNORE
-<GREEK_LETTER_STIGMA>                                                      <X5A2E>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_ZETA>                                                  <X5A30>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_ZETA>                                                <X5A30>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_ETA>                                                   <X5A32>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_ETA>                                                 <X5A32>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_PSILI>                                        <X5A32>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI>                                      <X5A32>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_OXIA>                               <X5A32>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_OXIA>                             <X5A32>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI>             <X5A32>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI>          <X5A32>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_VARIA>                              <X5A32>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_VARIA>                            <X5A32>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI>            <X5A32>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI>         <X5A32>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI>                        <X5A32>;"<X0005><X0089><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI>                      <X5A32>;"<X0005><X0089><X009B>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI>      <X5A32>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI>   <X5A32>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_YPOGEGRAMMENI>                      <X5A32>;"<X0005><X0089><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_PROSGEGRAMMENI>                   <X5A32>;"<X0005><X0089><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_DASIA>                                        <X5A32>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA>                                      <X5A32>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_OXIA>                               <X5A32>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_OXIA>                             <X5A32>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI>             <X5A32>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI>          <X5A32>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_VARIA>                              <X5A32>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_VARIA>                            <X5A32>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI>            <X5A32>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI>         <X5A32>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI>                        <X5A32>;"<X0005><X008B><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI>                      <X5A32>;"<X0005><X008B><X009B>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI>      <X5A32>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI>   <X5A32>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_YPOGEGRAMMENI>                      <X5A32>;"<X0005><X008B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_PROSGEGRAMMENI>                   <X5A32>;"<X0005><X008B><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_TONOS>                                        <X5A32>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_ETA><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_ETA_WITH_OXIA>                                         <X5A32>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_ETA><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_ETA_WITH_TONOS>                                      <X5A32>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_ETA><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_ETA_WITH_OXIA>                                       <X5A32>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_ETA><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_ETA_WITH_OXIA_AND_YPOGEGRAMMENI>                       <X5A32>;"<X0005><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_VARIA>                                        <X5A32>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_VARIA>                                      <X5A32>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_VARIA_AND_YPOGEGRAMMENI>                      <X5A32>;"<X0005><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_PERISPOMENI>                                  <X5A32>;"<X0005><X009B>";"<X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_PERISPOMENI_AND_YPOGEGRAMMENI>                <X5A32>;"<X0005><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_ETA_WITH_YPOGEGRAMMENI>                                <X5A32>;"<X0005><X00D1><X00E1>";"<X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_ETA_WITH_PROSGEGRAMMENI>                             <X5A32>;"<X0005><X00D1><X00E1>";"<X008F><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_THETA>                                                 <X5A34>;<X0005>;<X0005>;IGNORE
-<GREEK_THETA_SYMBOL>                                                       <X5A34>;<X0005>;<X0009>;IGNORE
-<GREEK_CAPITAL_LETTER_THETA>                                               <X5A34>;<X0005>;<X008F>;IGNORE
-<GREEK_CAPITAL_THETA_SYMBOL>                                               <X5A34>;<X0005>;<X0093>;IGNORE
-<GREEK_SMALL_LETTER_IOTA>                                                  <X5A36>;<X0005>;<X0005>;<GREEK_SMALL_LETTER_IOTA>
-<GREEK_PROSGEGRAMMENI>                                                     <X5A36>;<X0005>;<X0005>;<GREEK_SMALL_LETTER_IOTA>
-<GREEK_YPOGEGRAMMENI>                                                      <X5A36>;<X0005>;<X0009>;IGNORE
-<GREEK_CAPITAL_LETTER_IOTA>                                                <X5A36>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_PSILI>                                       <X5A36>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI>                                     <X5A36>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_PSILI_AND_OXIA>                              <X5A36>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI_AND_OXIA>                            <X5A36>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_PSILI_AND_VARIA>                             <X5A36>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI_AND_VARIA>                           <X5A36>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_PSILI_AND_PERISPOMENI>                       <X5A36>;"<X0005><X0089><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI_AND_PERISPOMENI>                     <X5A36>;"<X0005><X0089><X009B>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_DASIA>                                       <X5A36>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA>                                     <X5A36>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_DASIA_AND_OXIA>                              <X5A36>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA_AND_OXIA>                            <X5A36>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_DASIA_AND_VARIA>                             <X5A36>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA_AND_VARIA>                           <X5A36>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_DASIA_AND_PERISPOMENI>                       <X5A36>;"<X0005><X008B><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA_AND_PERISPOMENI>                     <X5A36>;"<X0005><X008B><X009B>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_TONOS>                                       <X5A36>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_IOTA><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_IOTA_WITH_OXIA>                                        <X5A36>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_IOTA><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_IOTA_WITH_TONOS>                                     <X5A36>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_IOTA><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_IOTA_WITH_OXIA>                                      <X5A36>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_IOTA><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_IOTA_WITH_VARIA>                                       <X5A36>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_VARIA>                                     <X5A36>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_VRACHY>                                      <X5A36>;"<X0005><X0091>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_VRACHY>                                    <X5A36>;"<X0005><X0091>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_PERISPOMENI>                                 <X5A36>;"<X0005><X009B>";"<X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA>                                   <X5A36>;"<X0005><X009D>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_DIALYTIKA>                                 <X5A36>;"<X0005><X009D>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA-COMBINING_DIAERESIS-COMBINING_ACUTE_ACCENT>       <X5A36>;"<X0005><X009D><X008D>";"<X0005><X0005><X0005>";"<GREEK_SMALL_LETTER_IOTA><COMBINING_DIAERESIS><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_OXIA>                          <X5A36>;"<X0005><X009D><X008D>";"<X0005><X0005><X0005>";"<GREEK_SMALL_LETTER_IOTA><COMBINING_DIAERESIS><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_TONOS>                         <X5A36>;"<X0005><X009D><X008D>";"<X0005><X0005><X0005>";"<GREEK_SMALL_LETTER_IOTA><COMBINING_DIAERESIS><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_VARIA>                         <X5A36>;"<X0005><X009D><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_PERISPOMENI>                   <X5A36>;"<X0005><X009D><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_IOTA_WITH_MACRON>                                      <X5A36>;"<X0005><X00AB>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_IOTA_WITH_MACRON>                                    <X5A36>;"<X0005><X00AB>";"<X008F><X0005>";IGNORE
-<GREEK_LETTER_YOT>                                                         <X5A38>;<X0005>;<X0005>;IGNORE
-<GREEK_SMALL_LETTER_KAPPA>                                                 <X5A3A>;<X0005>;<X0005>;IGNORE
-<GREEK_KAPPA_SYMBOL>                                                       <X5A3A>;<X0005>;<X0009>;IGNORE
-<GREEK_CAPITAL_LETTER_KAPPA>                                               <X5A3A>;<X0005>;<X008F>;IGNORE
-<GREEK_KAI_SYMBOL>                                                         "<X5A3A><X5A20><X5A36>";"<X0005><X0005><X0005>";"<X0009><X0009><X003D>";IGNORE
-<GREEK_SMALL_LETTER_LAMDA>                                                 <X5A3C>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_LAMDA>                                               <X5A3C>;<X0005>;<X008F>;IGNORE
-<GREEK_LETTER_SMALL_CAPITAL_LAMDA>                                         <X5A3E>;<X0005>;<X0005>;IGNORE
-<GREEK_SMALL_LETTER_MU>                                                    <X5A40>;<X0005>;<X0005>;IGNORE
-<MICRO_SIGN>                                                               <X5A40>;<X0005>;<X0009>;IGNORE
-<GREEK_CAPITAL_LETTER_MU>                                                  <X5A40>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_NU>                                                    <X5A42>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_NU>                                                  <X5A42>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_XI>                                                    <X5A44>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_XI>                                                  <X5A44>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_OMICRON>                                               <X5A46>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_OMICRON>                                             <X5A46>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_OMICRON_WITH_PSILI>                                    <X5A46>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMICRON_WITH_PSILI>                                  <X5A46>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMICRON_WITH_PSILI_AND_OXIA>                           <X5A46>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMICRON_WITH_PSILI_AND_OXIA>                         <X5A46>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMICRON_WITH_PSILI_AND_VARIA>                          <X5A46>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMICRON_WITH_PSILI_AND_VARIA>                        <X5A46>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMICRON_WITH_DASIA>                                    <X5A46>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMICRON_WITH_DASIA>                                  <X5A46>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMICRON_WITH_DASIA_AND_OXIA>                           <X5A46>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMICRON_WITH_DASIA_AND_OXIA>                         <X5A46>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMICRON_WITH_DASIA_AND_VARIA>                          <X5A46>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMICRON_WITH_DASIA_AND_VARIA>                        <X5A46>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMICRON_WITH_TONOS>                                    <X5A46>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_OMICRON><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_OMICRON_WITH_OXIA>                                     <X5A46>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_OMICRON><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_OMICRON_WITH_TONOS>                                  <X5A46>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_OMICRON><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_OMICRON_WITH_OXIA>                                   <X5A46>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_OMICRON><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_OMICRON_WITH_VARIA>                                    <X5A46>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMICRON_WITH_VARIA>                                  <X5A46>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_PI>                                                    <X5A48>;<X0005>;<X0005>;IGNORE
-<GREEK_PI_SYMBOL>                                                          <X5A48>;<X0005>;<X0009>;IGNORE
-<GREEK_CAPITAL_LETTER_PI>                                                  <X5A48>;<X0005>;<X008F>;IGNORE
-<GREEK_LETTER_SMALL_CAPITAL_PI>                                            <X5A4A>;<X0005>;<X0005>;IGNORE
-<GREEK_SMALL_LETTER_KOPPA>                                                 <X5A4C>;<X0005>;<X0005>;IGNORE
-<GREEK_LETTER_KOPPA>                                                       <X5A4C>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_ARCHAIC_KOPPA>                                         <X5A4E>;<X0005>;<X0005>;IGNORE
-<GREEK_LETTER_ARCHAIC_KOPPA>                                               <X5A4E>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_RHO>                                                   <X5A50>;<X0005>;<X0005>;IGNORE
-<GREEK_RHO_SYMBOL>                                                         <X5A50>;<X0005>;<X0009>;IGNORE
-<GREEK_CAPITAL_LETTER_RHO>                                                 <X5A50>;<X0005>;<X008F>;IGNORE
-<GREEK_SUBSCRIPT_SMALL_LETTER_RHO>                                         <X5A50>;<X0005>;<X0029>;IGNORE
-<GREEK_SMALL_LETTER_RHO_WITH_PSILI>                                        <X5A50>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_RHO_WITH_DASIA>                                        <X5A50>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_RHO_WITH_DASIA>                                      <X5A50>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
-<GREEK_LETTER_SMALL_CAPITAL_RHO>                                           <X5A52>;<X0005>;<X0005>;IGNORE
-<GREEK_SMALL_LETTER_SIGMA>                                                 <X5A54>;<X0005>;<X0005>;IGNORE
-<GREEK_LUNATE_SIGMA_SYMBOL>                                                <X5A54>;<X0005>;<X0009>;IGNORE
-<GREEK_CAPITAL_LETTER_SIGMA>                                               <X5A54>;<X0005>;<X008F>;IGNORE
-<GREEK_CAPITAL_LUNATE_SIGMA_SYMBOL>                                        <X5A54>;<X0005>;<X0093>;IGNORE
-<GREEK_SMALL_LETTER_FINAL_SIGMA>                                           <X5A54>;<X0005>;<X0031>;IGNORE
-<GREEK_SMALL_LETTER_TAU>                                                   <X5A56>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_TAU>                                                 <X5A56>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_UPSILON>                                               <X5A58>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_UPSILON>                                             <X5A58>;<X0005>;<X008F>;IGNORE
-<GREEK_UPSILON_WITH_HOOK_SYMBOL>                                           <X5A58>;<X0005>;<X0093>;IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_PSILI>                                    <X5A58>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_PSILI_AND_OXIA>                           <X5A58>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_PSILI_AND_VARIA>                          <X5A58>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_PSILI_AND_PERISPOMENI>                    <X5A58>;"<X0005><X0089><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_DASIA>                                    <X5A58>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA>                                  <X5A58>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_DASIA_AND_OXIA>                           <X5A58>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA_AND_OXIA>                         <X5A58>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_DASIA_AND_VARIA>                          <X5A58>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA_AND_VARIA>                        <X5A58>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_DASIA_AND_PERISPOMENI>                    <X5A58>;"<X0005><X008B><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA_AND_PERISPOMENI>                  <X5A58>;"<X0005><X008B><X009B>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_TONOS>                                    <X5A58>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_UPSILON><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_UPSILON_WITH_OXIA>                                     <X5A58>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_UPSILON><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_UPSILON_WITH_OXIA>                                   <X5A58>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_UPSILON><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_UPSILON_WITH_TONOS>                                  <X5A58>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_UPSILON><COMBINING_ACUTE_ACCENT>"
-<GREEK_UPSILON_WITH_ACUTE_AND_HOOK_SYMBOL>                                 <X5A58>;"<X0005><X008D>";"<X0093><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_VARIA>                                    <X5A58>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_UPSILON_WITH_VARIA>                                  <X5A58>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_VRACHY>                                   <X5A58>;"<X0005><X0091>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_UPSILON_WITH_VRACHY>                                 <X5A58>;"<X0005><X0091>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_PERISPOMENI>                              <X5A58>;"<X0005><X009B>";"<X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA>                                <X5A58>;"<X0005><X009D>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_UPSILON_WITH_DIALYTIKA>                              <X5A58>;"<X0005><X009D>";"<X008F><X0005>";IGNORE
-<GREEK_UPSILON_WITH_DIAERESIS_AND_HOOK_SYMBOL>                             <X5A58>;"<X0005><X009D>";"<X0093><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_OXIA>                       <X5A58>;"<X0005><X009D><X008D>";"<X0005><X0005><X0005>";"<GREEK_SMALL_LETTER_UPSILON><COMBINING_DIAERESIS><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_UPSILON-COMBINING_DIAERESIS-COMBINING_ACUTE_ACCENT>    <X5A58>;"<X0005><X009D><X008D>";"<X0005><X0005><X0005>";"<GREEK_SMALL_LETTER_UPSILON><COMBINING_DIAERESIS><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_TONOS>                      <X5A58>;"<X0005><X009D><X008D>";"<X0005><X0005><X0005>";"<GREEK_SMALL_LETTER_UPSILON><COMBINING_DIAERESIS><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_VARIA>                      <X5A58>;"<X0005><X009D><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_PERISPOMENI>                <X5A58>;"<X0005><X009D><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_UPSILON_WITH_MACRON>                                   <X5A58>;"<X0005><X00AB>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_UPSILON_WITH_MACRON>                                 <X5A58>;"<X0005><X00AB>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_PHI>                                                   <X5A5A>;<X0005>;<X0005>;IGNORE
-<GREEK_PHI_SYMBOL>                                                         <X5A5A>;<X0005>;<X0009>;IGNORE
-<GREEK_CAPITAL_LETTER_PHI>                                                 <X5A5A>;<X0005>;<X008F>;IGNORE
-<MODIFIER_LETTER_SMALL_GREEK_PHI>                                          <X5A5A>;<X0005>;<X0027>;IGNORE
-<GREEK_SUBSCRIPT_SMALL_LETTER_PHI>                                         <X5A5A>;<X0005>;<X0029>;IGNORE
-<GREEK_SMALL_LETTER_CHI>                                                   <X5A5C>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_CHI>                                                 <X5A5C>;<X0005>;<X008F>;IGNORE
-<MODIFIER_LETTER_SMALL_CHI>                                                <X5A5C>;<X0005>;<X0027>;IGNORE
-<GREEK_SUBSCRIPT_SMALL_LETTER_CHI>                                         <X5A5C>;<X0005>;<X0029>;IGNORE
-<GREEK_SMALL_LETTER_PSI>                                                   <X5A5E>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_PSI>                                                 <X5A5E>;<X0005>;<X008F>;IGNORE
-<GREEK_LETTER_SMALL_CAPITAL_PSI>                                           <X5A60>;<X0005>;<X0005>;IGNORE
-<GREEK_SMALL_LETTER_OMEGA>                                                 <X5A62>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA>                                               <X5A62>;<X0005>;<X008F>;<GREEK_CAPITAL_LETTER_OMEGA>
-<OHM_SIGN>                                                                 <X5A62>;<X0005>;<X008F>;<GREEK_CAPITAL_LETTER_OMEGA>
-<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI>                                      <X5A62>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI>                                    <X5A62>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_OXIA>                             <X5A62>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_OXIA>                           <X5A62>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI>           <X5A62>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI>        <X5A62>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_VARIA>                            <X5A62>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_VARIA>                          <X5A62>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI>          <X5A62>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI>       <X5A62>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI>                      <X5A62>;"<X0005><X0089><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI>                    <X5A62>;"<X0005><X0089><X009B>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI>    <X5A62>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI> <X5A62>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_YPOGEGRAMMENI>                    <X5A62>;"<X0005><X0089><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PROSGEGRAMMENI>                 <X5A62>;"<X0005><X0089><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA>                                      <X5A62>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA>                                    <X5A62>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_OXIA>                             <X5A62>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_OXIA>                           <X5A62>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI>           <X5A62>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI>        <X5A62>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_VARIA>                            <X5A62>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_VARIA>                          <X5A62>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI>          <X5A62>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI>       <X5A62>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI>                      <X5A62>;"<X0005><X008B><X009B>";"<X0005><X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI>                    <X5A62>;"<X0005><X008B><X009B>";"<X008F><X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI>    <X5A62>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI> <X5A62>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_YPOGEGRAMMENI>                    <X5A62>;"<X0005><X008B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PROSGEGRAMMENI>                 <X5A62>;"<X0005><X008B><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_TONOS>                                      <X5A62>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_OMEGA><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_OMEGA_WITH_OXIA>                                       <X5A62>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_OMEGA><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_OXIA>                                     <X5A62>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_OMEGA><COMBINING_ACUTE_ACCENT>"
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_TONOS>                                    <X5A62>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_OMEGA><COMBINING_ACUTE_ACCENT>"
-<GREEK_SMALL_LETTER_OMEGA_WITH_OXIA_AND_YPOGEGRAMMENI>                     <X5A62>;"<X0005><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_VARIA>                                      <X5A62>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_VARIA>                                    <X5A62>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_VARIA_AND_YPOGEGRAMMENI>                    <X5A62>;"<X0005><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_PERISPOMENI>                                <X5A62>;"<X0005><X009B>";"<X0005><X0005>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_PERISPOMENI_AND_YPOGEGRAMMENI>              <X5A62>;"<X0005><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_OMEGA_WITH_YPOGEGRAMMENI>                              <X5A62>;"<X0005><X00D1><X00E1>";"<X0005><X0005><X00C0>";IGNORE
-<GREEK_CAPITAL_LETTER_OMEGA_WITH_PROSGEGRAMMENI>                           <X5A62>;"<X0005><X00D1><X00E1>";"<X008F><X0005><X00C0>";IGNORE
-<GREEK_SMALL_LETTER_SAMPI>                                                 <X5A64>;<X0005>;<X0005>;IGNORE
-<GREEK_LETTER_SAMPI>                                                       <X5A64>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_SHO>                                                   <X5A66>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_SHO>                                                 <X5A66>;<X0005>;<X008F>;IGNORE
-<GREEK_SMALL_LETTER_SAN>                                                   <X5A68>;<X0005>;<X0005>;IGNORE
-<GREEK_CAPITAL_LETTER_SAN>                                                 <X5A68>;<X0005>;<X008F>;IGNORE
-<COPTIC_SMALL_LETTER_SHEI>                                                 <X5A6A>;<X0005>;<X0005>;IGNORE
-<COPTIC_CAPITAL_LETTER_SHEI>                                               <X5A6A>;<X0005>;<X008F>;IGNORE
-<COPTIC_SMALL_LETTER_FEI>                                                  <X5A6C>;<X0005>;<X0005>;IGNORE
-<COPTIC_CAPITAL_LETTER_FEI>                                                <X5A6C>;<X0005>;<X008F>;IGNORE
-<COPTIC_SMALL_LETTER_KHEI>                                                 <X5A6E>;<X0005>;<X0005>;IGNORE
-<COPTIC_CAPITAL_LETTER_KHEI>                                               <X5A6E>;<X0005>;<X008F>;IGNORE
-<COPTIC_SMALL_LETTER_HORI>                                                 <X5A70>;<X0005>;<X0005>;IGNORE
-<COPTIC_CAPITAL_LETTER_HORI>                                               <X5A70>;<X0005>;<X008F>;IGNORE
-<COPTIC_SMALL_LETTER_GANGIA>                                               <X5A72>;<X0005>;<X0005>;IGNORE
-<COPTIC_CAPITAL_LETTER_GANGIA>                                             <X5A72>;<X0005>;<X008F>;IGNORE
-<COPTIC_SMALL_LETTER_SHIMA>                                                <X5A74>;<X0005>;<X0005>;IGNORE
-<COPTIC_CAPITAL_LETTER_SHIMA>                                              <X5A74>;<X0005>;<X008F>;IGNORE
-<COPTIC_SMALL_LETTER_DEI>                                                  <X5A76>;<X0005>;<X0005>;IGNORE
-<COPTIC_CAPITAL_LETTER_DEI>                                                <X5A76>;<X0005>;<X008F>;IGNORE
+<COMMA>                                                                    <X07AC>;<X0005>;<X0005>;IGNORE
+<SEMICOLON>                                                                <X07C2>;<X0005>;<X0005>;IGNORE
+<COLON>                                                                    <X07C8>;<X0005>;<X0005>;IGNORE
+<EXCLAMATION_MARK>                                                         <X07F2>;<X0005>;<X0005>;IGNORE
+<QUESTION_MARK>                                                            <X07FA>;<X0005>;<X0005>;IGNORE
+<FULL_STOP>                                                                <X0813>;<X0005>;<X0005>;IGNORE
+<APOSTROPHE>                                                               <X086D>;<X0005>;<X0005>;IGNORE
+<QUOTATION_MARK>                                                           <X087B>;<X0005>;<X0005>;IGNORE
+<LEFT_PARENTHESIS>                                                         <X088F>;<X0005>;<X0005>;IGNORE
+<RIGHT_PARENTHESIS>                                                        <X0891>;<X0005>;<X0005>;IGNORE
+<LEFT_SQUARE_BRACKET>                                                      <X0893>;<X0005>;<X0005>;IGNORE
+<RIGHT_SQUARE_BRACKET>                                                     <X0895>;<X0005>;<X0005>;IGNORE
+<LEFT_CURLY_BRACKET>                                                       <X0897>;<X0005>;<X0005>;IGNORE
+<RIGHT_CURLY_BRACKET>                                                      <X0899>;<X0005>;<X0005>;IGNORE
+<COMMERCIAL_AT>                                                            <X0927>;<X0005>;<X0005>;IGNORE
+<ASTERISK>                                                                 <X0929>;<X0005>;<X0005>;IGNORE
+<SOLIDUS>                                                                  <X0931>;<X0005>;<X0005>;IGNORE
+<REVERSE_SOLIDUS>                                                          <X0935>;<X0005>;<X0005>;IGNORE
+<AMPERSAND>                                                                <X0937>;<X0005>;<X0005>;IGNORE
+<NUMBER_SIGN>                                                              <X093D>;<X0005>;<X0005>;IGNORE
+<PERCENT_SIGN>                                                             <X093F>;<X0005>;<X0005>;IGNORE
+<GREEK_NUMERAL_SIGN>                                                       <X09F9>;<X0005>;<X0005>;IGNORE
+<GREEK_LOWER_NUMERAL_SIGN>                                                 <X09FB>;<X0005>;<X0005>;IGNORE
+<GREEK_REVERSED_LUNATE_EPSILON_SYMBOL>                                     <X0C6F>;<X0005>;<X0005>;IGNORE
+<PLUS_SIGN>                                                                <X0C79>;<X0005>;<X0005>;IGNORE
+<LESS-THAN_SIGN>                                                           <X0C81>;<X0005>;<X0005>;IGNORE
+<EQUALS_SIGN>                                                              <X0C83>;<X0005>;<X0005>;IGNORE
+<GREATER-THAN_SIGN>                                                        <X0C85>;<X0005>;<X0005>;IGNORE
+<VERTICAL_LINE>                                                            <X0C89>;<X0005>;<X0005>;IGNORE
+<TILDE>                                                                    <X0C8F>;<X0005>;<X0005>;IGNORE
+<DOLLAR_SIGN>                                                              <X253C>;<X0005>;<X0005>;IGNORE
+<zero>                                                                     <X257A>;<X0005>;<X0005>;IGNORE
+<one>                                                                      <X257C>;<X0005>;<X0005>;IGNORE
+<two>                                                                      <X257E>;<X0005>;<X0005>;IGNORE
+<three>                                                                    <X2580>;<X0005>;<X0005>;IGNORE
+<four>                                                                     <X2582>;<X0005>;<X0005>;IGNORE
+<five>                                                                     <X2584>;<X0005>;<X0005>;IGNORE
+<six>                                                                      <X2586>;<X0005>;<X0005>;IGNORE
+<seven>                                                                    <X2588>;<X0005>;<X0005>;IGNORE
+<eight>                                                                    <X258A>;<X0005>;<X0005>;IGNORE
+<nine>                                                                     <X258C>;<X0005>;<X0005>;IGNORE
+<a>                                                                        <X2800>;<X0005>;<X0005>;IGNORE
+<A>                                                                        <X2800>;<X0005>;<X008F>;IGNORE
+<b>                                                                        <X2A00>;<X0005>;<X0005>;IGNORE
+<B>                                                                        <X2A00>;<X0005>;<X008F>;IGNORE
+<c>                                                                        <X2C00>;<X0005>;<X0005>;IGNORE
+<C>                                                                        <X2C00>;<X0005>;<X008F>;IGNORE
+<d>                                                                        <X2E00>;<X0005>;<X0005>;IGNORE
+<D>                                                                        <X2E00>;<X0005>;<X008F>;IGNORE
+<e>                                                                        <X3000>;<X0005>;<X0005>;IGNORE
+<E>                                                                        <X3000>;<X0005>;<X008F>;IGNORE
+<f>                                                                        <X3200>;<X0005>;<X0005>;IGNORE
+<F>                                                                        <X3200>;<X0005>;<X008F>;IGNORE
+<g>                                                                        <X3400>;<X0005>;<X0005>;IGNORE
+<G>                                                                        <X3400>;<X0005>;<X008F>;IGNORE
+<h>                                                                        <X3600>;<X0005>;<X0005>;IGNORE
+<H>                                                                        <X3600>;<X0005>;<X008F>;IGNORE
+<i>                                                                        <X3800>;<X0005>;<X0005>;IGNORE
+<I>                                                                        <X3800>;<X0005>;<X008F>;IGNORE
+<j>                                                                        <X3A00>;<X0005>;<X0005>;IGNORE
+<J>                                                                        <X3A00>;<X0005>;<X008F>;IGNORE
+<k>                                                                        <X3C00>;<X0005>;<X0005>;IGNORE
+<K>                                                                        <X3C00>;<X0005>;<X008F>;IGNORE
+<l>                                                                        <X3E00>;<X0005>;<X0005>;IGNORE
+<L>                                                                        <X3E00>;<X0005>;<X008F>;IGNORE
+<m>                                                                        <X4000>;<X0005>;<X0005>;IGNORE
+<M>                                                                        <X4000>;<X0005>;<X008F>;IGNORE
+<n>                                                                        <X4200>;<X0005>;<X0005>;IGNORE
+<N>                                                                        <X4200>;<X0005>;<X008F>;IGNORE
+<o>                                                                        <X4400>;<X0005>;<X0005>;IGNORE
+<O>                                                                        <X4400>;<X0005>;<X008F>;IGNORE
+<p>                                                                        <X4600>;<X0005>;<X0005>;IGNORE
+<P>                                                                        <X4600>;<X0005>;<X008F>;IGNORE
+<q>                                                                        <X4800>;<X0005>;<X0005>;IGNORE
+<Q>                                                                        <X4800>;<X0005>;<X008F>;IGNORE
+<r>                                                                        <X4A00>;<X0005>;<X0005>;IGNORE
+<R>                                                                        <X4A00>;<X0005>;<X008F>;IGNORE
+<s>                                                                        <X4C00>;<X0005>;<X0005>;IGNORE
+<S>                                                                        <X4C00>;<X0005>;<X008F>;IGNORE
+<t>                                                                        <X4E00>;<X0005>;<X0005>;IGNORE
+<T>                                                                        <X4E00>;<X0005>;<X008F>;IGNORE
+<u>                                                                        <X5000>;<X0005>;<X0005>;IGNORE
+<U>                                                                        <X5000>;<X0005>;<X008F>;IGNORE
+<v>                                                                        <X5200>;<X0005>;<X0005>;IGNORE
+<V>                                                                        <X5200>;<X0005>;<X008F>;IGNORE
+<w>                                                                        <X5400>;<X0005>;<X0005>;IGNORE
+<W>                                                                        <X5400>;<X0005>;<X008F>;IGNORE
+<x>                                                                        <X5600>;<X0005>;<X0005>;IGNORE
+<X>                                                                        <X5600>;<X0005>;<X008F>;IGNORE
+<y>                                                                        <X5800>;<X0005>;<X0005>;IGNORE
+<Y>                                                                        <X5800>;<X0005>;<X008F>;IGNORE
+<z>                                                                        <X5A00>;<X0005>;<X0005>;IGNORE
+<Z>                                                                        <X5A00>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_ALPHA>                                                 <X5C20>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA>                                               <X5C20>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI>                                      <X5C20>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI>                                    <X5C20>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_OXIA>                             <X5C20>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_OXIA>                           <X5C20>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI>           <X5C20>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI>        <X5C20>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_VARIA>                            <X5C20>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_VARIA>                          <X5C20>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI>          <X5C20>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI>       <X5C20>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI>                      <X5C20>;"<X0005><X0089><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI>                    <X5C20>;"<X0005><X0089><X009B>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI>    <X5C20>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI> <X5C20>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_YPOGEGRAMMENI>                    <X5C20>;"<X0005><X0089><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_PROSGEGRAMMENI>                 <X5C20>;"<X0005><X0089><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA>                                      <X5C20>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA>                                    <X5C20>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_OXIA>                             <X5C20>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_OXIA>                           <X5C20>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI>           <X5C20>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI>        <X5C20>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_VARIA>                            <X5C20>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_VARIA>                          <X5C20>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI>          <X5C20>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI>       <X5C20>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI>                      <X5C20>;"<X0005><X008B><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI>                    <X5C20>;"<X0005><X008B><X009B>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI>    <X5C20>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI> <X5C20>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_YPOGEGRAMMENI>                    <X5C20>;"<X0005><X008B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_PROSGEGRAMMENI>                 <X5C20>;"<X0005><X008B><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_TONOS>                                      <X5C20>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_ALPHA><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_ALPHA_WITH_OXIA>                                       <X5C20>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_ALPHA><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_TONOS>                                    <X5C20>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_ALPHA><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_OXIA>                                     <X5C20>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_ALPHA><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_ALPHA_WITH_OXIA_AND_YPOGEGRAMMENI>                     <X5C20>;"<X0005><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_VARIA>                                      <X5C20>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_VARIA>                                    <X5C20>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_VARIA_AND_YPOGEGRAMMENI>                    <X5C20>;"<X0005><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_VRACHY>                                     <X5C20>;"<X0005><X0091>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_VRACHY>                                   <X5C20>;"<X0005><X0091>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_PERISPOMENI>                                <X5C20>;"<X0005><X009B>";"<X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_PERISPOMENI_AND_YPOGEGRAMMENI>              <X5C20>;"<X0005><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_MACRON>                                     <X5C20>;"<X0005><X00AB>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_MACRON>                                   <X5C20>;"<X0005><X00AB>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ALPHA_WITH_YPOGEGRAMMENI>                              <X5C20>;"<X0005><X00D1><X00E1>";"<X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ALPHA_WITH_PROSGEGRAMMENI>                           <X5C20>;"<X0005><X00D1><X00E1>";"<X008F><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_BETA>                                                  <X5C22>;<X0005>;<X0005>;IGNORE
+<GREEK_BETA_SYMBOL>                                                        <X5C22>;<X0005>;<X0009>;IGNORE
+<GREEK_CAPITAL_LETTER_BETA>                                                <X5C22>;<X0005>;<X008F>;IGNORE
+<MODIFIER_LETTER_SMALL_BETA>                                               <X5C22>;<X0005>;<X0027>;IGNORE
+<GREEK_SUBSCRIPT_SMALL_LETTER_BETA>                                        <X5C22>;<X0005>;<X0029>;IGNORE
+<GREEK_SMALL_LETTER_GAMMA>                                                 <X5C24>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_GAMMA>                                               <X5C24>;<X0005>;<X008F>;IGNORE
+<MODIFIER_LETTER_SMALL_GREEK_GAMMA>                                        <X5C24>;<X0005>;<X0027>;IGNORE
+<GREEK_SUBSCRIPT_SMALL_LETTER_GAMMA>                                       <X5C24>;<X0005>;<X0029>;IGNORE
+<GREEK_LETTER_SMALL_CAPITAL_GAMMA>                                         <X5C26>;<X0005>;<X0005>;IGNORE
+<GREEK_SMALL_LETTER_DELTA>                                                 <X5C28>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_DELTA>                                               <X5C28>;<X0005>;<X008F>;IGNORE
+<MODIFIER_LETTER_SMALL_DELTA>                                              <X5C28>;<X0005>;<X0027>;IGNORE
+<GREEK_SMALL_LETTER_EPSILON>                                               <X5C2A>;<X0005>;<X0005>;IGNORE
+<GREEK_LUNATE_EPSILON_SYMBOL>                                              <X5C2A>;<X0005>;<X0009>;IGNORE
+<GREEK_CAPITAL_LETTER_EPSILON>                                             <X5C2A>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_EPSILON_WITH_PSILI>                                    <X5C2A>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_EPSILON_WITH_PSILI>                                  <X5C2A>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_EPSILON_WITH_PSILI_AND_OXIA>                           <X5C2A>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_EPSILON_WITH_PSILI_AND_OXIA>                         <X5C2A>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_EPSILON_WITH_PSILI_AND_VARIA>                          <X5C2A>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_EPSILON_WITH_PSILI_AND_VARIA>                        <X5C2A>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_EPSILON_WITH_DASIA>                                    <X5C2A>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_EPSILON_WITH_DASIA>                                  <X5C2A>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_EPSILON_WITH_DASIA_AND_OXIA>                           <X5C2A>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_EPSILON_WITH_DASIA_AND_OXIA>                         <X5C2A>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_EPSILON_WITH_DASIA_AND_VARIA>                          <X5C2A>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_EPSILON_WITH_DASIA_AND_VARIA>                        <X5C2A>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_EPSILON_WITH_OXIA>                                     <X5C2A>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_EPSILON><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_EPSILON_WITH_TONOS>                                    <X5C2A>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_EPSILON><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_EPSILON_WITH_OXIA>                                   <X5C2A>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_EPSILON><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_EPSILON_WITH_TONOS>                                  <X5C2A>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_EPSILON><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_EPSILON_WITH_VARIA>                                    <X5C2A>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_EPSILON_WITH_VARIA>                                  <X5C2A>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_DIGAMMA>                                               <X5C2C>;<X0005>;<X0005>;IGNORE
+<GREEK_LETTER_DIGAMMA>                                                     <X5C2C>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_STIGMA>                                                <X5C2E>;<X0005>;<X0005>;IGNORE
+<GREEK_LETTER_STIGMA>                                                      <X5C2E>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_ZETA>                                                  <X5C30>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_ZETA>                                                <X5C30>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_ETA>                                                   <X5C32>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_ETA>                                                 <X5C32>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_PSILI>                                        <X5C32>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI>                                      <X5C32>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_OXIA>                               <X5C32>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_OXIA>                             <X5C32>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI>             <X5C32>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI>          <X5C32>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_VARIA>                              <X5C32>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_VARIA>                            <X5C32>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI>            <X5C32>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI>         <X5C32>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI>                        <X5C32>;"<X0005><X0089><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI>                      <X5C32>;"<X0005><X0089><X009B>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI>      <X5C32>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI>   <X5C32>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_YPOGEGRAMMENI>                      <X5C32>;"<X0005><X0089><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_PROSGEGRAMMENI>                   <X5C32>;"<X0005><X0089><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_DASIA>                                        <X5C32>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA>                                      <X5C32>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_OXIA>                               <X5C32>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_OXIA>                             <X5C32>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI>             <X5C32>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI>          <X5C32>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_VARIA>                              <X5C32>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_VARIA>                            <X5C32>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI>            <X5C32>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI>         <X5C32>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI>                        <X5C32>;"<X0005><X008B><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI>                      <X5C32>;"<X0005><X008B><X009B>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI>      <X5C32>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI>   <X5C32>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_YPOGEGRAMMENI>                      <X5C32>;"<X0005><X008B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_PROSGEGRAMMENI>                   <X5C32>;"<X0005><X008B><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_TONOS>                                        <X5C32>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_ETA><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_ETA_WITH_OXIA>                                         <X5C32>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_ETA><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_ETA_WITH_TONOS>                                      <X5C32>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_ETA><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_ETA_WITH_OXIA>                                       <X5C32>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_ETA><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_ETA_WITH_OXIA_AND_YPOGEGRAMMENI>                       <X5C32>;"<X0005><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_VARIA>                                        <X5C32>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_VARIA>                                      <X5C32>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_VARIA_AND_YPOGEGRAMMENI>                      <X5C32>;"<X0005><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_PERISPOMENI>                                  <X5C32>;"<X0005><X009B>";"<X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_PERISPOMENI_AND_YPOGEGRAMMENI>                <X5C32>;"<X0005><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_ETA_WITH_YPOGEGRAMMENI>                                <X5C32>;"<X0005><X00D1><X00E1>";"<X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_ETA_WITH_PROSGEGRAMMENI>                             <X5C32>;"<X0005><X00D1><X00E1>";"<X008F><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_THETA>                                                 <X5C34>;<X0005>;<X0005>;IGNORE
+<GREEK_THETA_SYMBOL>                                                       <X5C34>;<X0005>;<X0009>;IGNORE
+<GREEK_CAPITAL_LETTER_THETA>                                               <X5C34>;<X0005>;<X008F>;IGNORE
+<GREEK_CAPITAL_THETA_SYMBOL>                                               <X5C34>;<X0005>;<X0093>;IGNORE
+<GREEK_SMALL_LETTER_IOTA>                                                  <X5C36>;<X0005>;<X0005>;<GREEK_SMALL_LETTER_IOTA>
+<GREEK_PROSGEGRAMMENI>                                                     <X5C36>;<X0005>;<X0005>;<GREEK_SMALL_LETTER_IOTA>
+<GREEK_YPOGEGRAMMENI>                                                      <X5C36>;<X0005>;<X0009>;IGNORE
+<GREEK_CAPITAL_LETTER_IOTA>                                                <X5C36>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_PSILI>                                       <X5C36>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI>                                     <X5C36>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_PSILI_AND_OXIA>                              <X5C36>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI_AND_OXIA>                            <X5C36>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_PSILI_AND_VARIA>                             <X5C36>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI_AND_VARIA>                           <X5C36>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_PSILI_AND_PERISPOMENI>                       <X5C36>;"<X0005><X0089><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI_AND_PERISPOMENI>                     <X5C36>;"<X0005><X0089><X009B>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_DASIA>                                       <X5C36>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA>                                     <X5C36>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_DASIA_AND_OXIA>                              <X5C36>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA_AND_OXIA>                            <X5C36>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_DASIA_AND_VARIA>                             <X5C36>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA_AND_VARIA>                           <X5C36>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_DASIA_AND_PERISPOMENI>                       <X5C36>;"<X0005><X008B><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA_AND_PERISPOMENI>                     <X5C36>;"<X0005><X008B><X009B>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_TONOS>                                       <X5C36>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_IOTA><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_IOTA_WITH_OXIA>                                        <X5C36>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_IOTA><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_IOTA_WITH_TONOS>                                     <X5C36>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_IOTA><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_IOTA_WITH_OXIA>                                      <X5C36>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_IOTA><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_IOTA_WITH_VARIA>                                       <X5C36>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_VARIA>                                     <X5C36>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_VRACHY>                                      <X5C36>;"<X0005><X0091>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_VRACHY>                                    <X5C36>;"<X0005><X0091>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_PERISPOMENI>                                 <X5C36>;"<X0005><X009B>";"<X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA>                                   <X5C36>;"<X0005><X009D>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_DIALYTIKA>                                 <X5C36>;"<X0005><X009D>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_OXIA>                          <X5C36>;"<X0005><X009D><X008D>";"<X0005><X0005><X0005>";"<GREEK_SMALL_LETTER_IOTA><COMBINING_DIAERESIS><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_TONOS>                         <X5C36>;"<X0005><X009D><X008D>";"<X0005><X0005><X0005>";"<GREEK_SMALL_LETTER_IOTA><COMBINING_DIAERESIS><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_VARIA>                         <X5C36>;"<X0005><X009D><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_PERISPOMENI>                   <X5C36>;"<X0005><X009D><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_IOTA_WITH_MACRON>                                      <X5C36>;"<X0005><X00AB>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_IOTA_WITH_MACRON>                                    <X5C36>;"<X0005><X00AB>";"<X008F><X0005>";IGNORE
+<GREEK_LETTER_YOT>                                                         <X5C38>;<X0005>;<X0005>;IGNORE
+<GREEK_SMALL_LETTER_KAPPA>                                                 <X5C3A>;<X0005>;<X0005>;IGNORE
+<GREEK_KAPPA_SYMBOL>                                                       <X5C3A>;<X0005>;<X0009>;IGNORE
+<GREEK_CAPITAL_LETTER_KAPPA>                                               <X5C3A>;<X0005>;<X008F>;IGNORE
+<GREEK_KAI_SYMBOL>                                                         "<X5C3A><X5C20><X5C36>";"<X0005><X0005><X0005>";"<X0009><X0009><X003D>";IGNORE
+<GREEK_SMALL_LETTER_LAMDA>                                                 <X5C3C>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_LAMDA>                                               <X5C3C>;<X0005>;<X008F>;IGNORE
+<GREEK_LETTER_SMALL_CAPITAL_LAMDA>                                         <X5C3E>;<X0005>;<X0005>;IGNORE
+<GREEK_SMALL_LETTER_MU>                                                    <X5C40>;<X0005>;<X0005>;IGNORE
+<MICRO_SIGN>                                                               <X5C40>;<X0005>;<X0009>;IGNORE
+<GREEK_CAPITAL_LETTER_MU>                                                  <X5C40>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_NU>                                                    <X5C42>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_NU>                                                  <X5C42>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_XI>                                                    <X5C44>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_XI>                                                  <X5C44>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_OMICRON>                                               <X5C46>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_OMICRON>                                             <X5C46>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_OMICRON_WITH_PSILI>                                    <X5C46>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMICRON_WITH_PSILI>                                  <X5C46>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMICRON_WITH_PSILI_AND_OXIA>                           <X5C46>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMICRON_WITH_PSILI_AND_OXIA>                         <X5C46>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMICRON_WITH_PSILI_AND_VARIA>                          <X5C46>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMICRON_WITH_PSILI_AND_VARIA>                        <X5C46>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMICRON_WITH_DASIA>                                    <X5C46>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMICRON_WITH_DASIA>                                  <X5C46>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMICRON_WITH_DASIA_AND_OXIA>                           <X5C46>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMICRON_WITH_DASIA_AND_OXIA>                         <X5C46>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMICRON_WITH_DASIA_AND_VARIA>                          <X5C46>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMICRON_WITH_DASIA_AND_VARIA>                        <X5C46>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMICRON_WITH_TONOS>                                    <X5C46>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_OMICRON><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_OMICRON_WITH_OXIA>                                     <X5C46>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_OMICRON><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_OMICRON_WITH_TONOS>                                  <X5C46>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_OMICRON><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_OMICRON_WITH_OXIA>                                   <X5C46>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_OMICRON><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_OMICRON_WITH_VARIA>                                    <X5C46>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMICRON_WITH_VARIA>                                  <X5C46>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_PI>                                                    <X5C48>;<X0005>;<X0005>;IGNORE
+<GREEK_PI_SYMBOL>                                                          <X5C48>;<X0005>;<X0009>;IGNORE
+<GREEK_CAPITAL_LETTER_PI>                                                  <X5C48>;<X0005>;<X008F>;IGNORE
+<GREEK_LETTER_SMALL_CAPITAL_PI>                                            <X5C4A>;<X0005>;<X0005>;IGNORE
+<GREEK_SMALL_LETTER_SAN>                                                   <X5C4C>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_SAN>                                                 <X5C4C>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_KOPPA>                                                 <X5C4E>;<X0005>;<X0005>;IGNORE
+<GREEK_LETTER_KOPPA>                                                       <X5C4E>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_ARCHAIC_KOPPA>                                         <X5C50>;<X0005>;<X0005>;IGNORE
+<GREEK_LETTER_ARCHAIC_KOPPA>                                               <X5C50>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_RHO>                                                   <X5C52>;<X0005>;<X0005>;IGNORE
+<GREEK_RHO_SYMBOL>                                                         <X5C52>;<X0005>;<X0009>;IGNORE
+<GREEK_CAPITAL_LETTER_RHO>                                                 <X5C52>;<X0005>;<X008F>;IGNORE
+<GREEK_SUBSCRIPT_SMALL_LETTER_RHO>                                         <X5C52>;<X0005>;<X0029>;IGNORE
+<GREEK_SMALL_LETTER_RHO_WITH_PSILI>                                        <X5C52>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_RHO_WITH_DASIA>                                        <X5C52>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_RHO_WITH_DASIA>                                      <X5C52>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
+<GREEK_LETTER_SMALL_CAPITAL_RHO>                                           <X5C54>;<X0005>;<X0005>;IGNORE
+<GREEK_RHO_WITH_STROKE_SYMBOL>                                             <X5C56>;<X0005>;<X0005>;IGNORE
+<GREEK_SMALL_LETTER_SIGMA>                                                 <X5C58>;<X0005>;<X0005>;IGNORE
+<GREEK_LUNATE_SIGMA_SYMBOL>                                                <X5C58>;<X0005>;<X0009>;IGNORE
+<GREEK_CAPITAL_LETTER_SIGMA>                                               <X5C58>;<X0005>;<X008F>;IGNORE
+<GREEK_CAPITAL_LUNATE_SIGMA_SYMBOL>                                        <X5C58>;<X0005>;<X0093>;IGNORE
+<GREEK_SMALL_LETTER_FINAL_SIGMA>                                           <X5C58>;<X0005>;<X0031>;IGNORE
+<GREEK_CAPITAL_DOTTED_LUNATE_SIGMA_SYMBOL>                                 "<X5C58><X7ABC>";"<X0005><X0005>";"<X0093><X0009>";IGNORE
+<GREEK_CAPITAL_REVERSED_LUNATE_SIGMA_SYMBOL>                               <X5C5A>;<X0005>;<X008F>;IGNORE
+<GREEK_CAPITAL_REVERSED_DOTTED_LUNATE_SIGMA_SYMBOL>                        "<X5C5A><X7ABC>";"<X0005><X0005>";"<X0093><X0009>";IGNORE
+<GREEK_SMALL_LETTER_TAU>                                                   <X5C5C>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_TAU>                                                 <X5C5C>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_UPSILON>                                               <X5C5E>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_UPSILON>                                             <X5C5E>;<X0005>;<X008F>;IGNORE
+<GREEK_UPSILON_WITH_HOOK_SYMBOL>                                           <X5C5E>;<X0005>;<X0093>;IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_PSILI>                                    <X5C5E>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_PSILI_AND_OXIA>                           <X5C5E>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_PSILI_AND_VARIA>                          <X5C5E>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_PSILI_AND_PERISPOMENI>                    <X5C5E>;"<X0005><X0089><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_DASIA>                                    <X5C5E>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA>                                  <X5C5E>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_DASIA_AND_OXIA>                           <X5C5E>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA_AND_OXIA>                         <X5C5E>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_DASIA_AND_VARIA>                          <X5C5E>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA_AND_VARIA>                        <X5C5E>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_DASIA_AND_PERISPOMENI>                    <X5C5E>;"<X0005><X008B><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA_AND_PERISPOMENI>                  <X5C5E>;"<X0005><X008B><X009B>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_TONOS>                                    <X5C5E>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_UPSILON><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_UPSILON_WITH_OXIA>                                     <X5C5E>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_UPSILON><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_UPSILON_WITH_OXIA>                                   <X5C5E>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_UPSILON><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_UPSILON_WITH_TONOS>                                  <X5C5E>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_UPSILON><COMBINING_ACUTE_ACCENT>"
+<GREEK_UPSILON_WITH_ACUTE_AND_HOOK_SYMBOL>                                 <X5C5E>;"<X0005><X008D>";"<X0093><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_VARIA>                                    <X5C5E>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_UPSILON_WITH_VARIA>                                  <X5C5E>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_VRACHY>                                   <X5C5E>;"<X0005><X0091>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_UPSILON_WITH_VRACHY>                                 <X5C5E>;"<X0005><X0091>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_PERISPOMENI>                              <X5C5E>;"<X0005><X009B>";"<X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA>                                <X5C5E>;"<X0005><X009D>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_UPSILON_WITH_DIALYTIKA>                              <X5C5E>;"<X0005><X009D>";"<X008F><X0005>";IGNORE
+<GREEK_UPSILON_WITH_DIAERESIS_AND_HOOK_SYMBOL>                             <X5C5E>;"<X0005><X009D>";"<X0093><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_OXIA>                       <X5C5E>;"<X0005><X009D><X008D>";"<X0005><X0005><X0005>";"<GREEK_SMALL_LETTER_UPSILON><COMBINING_DIAERESIS><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_TONOS>                      <X5C5E>;"<X0005><X009D><X008D>";"<X0005><X0005><X0005>";"<GREEK_SMALL_LETTER_UPSILON><COMBINING_DIAERESIS><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_VARIA>                      <X5C5E>;"<X0005><X009D><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_PERISPOMENI>                <X5C5E>;"<X0005><X009D><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_UPSILON_WITH_MACRON>                                   <X5C5E>;"<X0005><X00AB>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_UPSILON_WITH_MACRON>                                 <X5C5E>;"<X0005><X00AB>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_PHI>                                                   <X5C60>;<X0005>;<X0005>;IGNORE
+<GREEK_PHI_SYMBOL>                                                         <X5C60>;<X0005>;<X0009>;IGNORE
+<GREEK_CAPITAL_LETTER_PHI>                                                 <X5C60>;<X0005>;<X008F>;IGNORE
+<MODIFIER_LETTER_SMALL_GREEK_PHI>                                          <X5C60>;<X0005>;<X0027>;IGNORE
+<GREEK_SUBSCRIPT_SMALL_LETTER_PHI>                                         <X5C60>;<X0005>;<X0029>;IGNORE
+<GREEK_SMALL_LETTER_CHI>                                                   <X5C62>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_CHI>                                                 <X5C62>;<X0005>;<X008F>;IGNORE
+<MODIFIER_LETTER_SMALL_CHI>                                                <X5C62>;<X0005>;<X0027>;IGNORE
+<GREEK_SUBSCRIPT_SMALL_LETTER_CHI>                                         <X5C62>;<X0005>;<X0029>;IGNORE
+<GREEK_SMALL_LETTER_PSI>                                                   <X5C64>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_PSI>                                                 <X5C64>;<X0005>;<X008F>;IGNORE
+<GREEK_LETTER_SMALL_CAPITAL_PSI>                                           <X5C66>;<X0005>;<X0005>;IGNORE
+<GREEK_SMALL_LETTER_OMEGA>                                                 <X5C68>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA>                                               <X5C68>;<X0005>;<X008F>;<GREEK_CAPITAL_LETTER_OMEGA>
+<OHM_SIGN>                                                                 <X5C68>;<X0005>;<X008F>;<GREEK_CAPITAL_LETTER_OMEGA>
+<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI>                                      <X5C68>;"<X0005><X0089>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI>                                    <X5C68>;"<X0005><X0089>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_OXIA>                             <X5C68>;"<X0005><X0089><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_OXIA>                           <X5C68>;"<X0005><X0089><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI>           <X5C68>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI>        <X5C68>;"<X0005><X0089><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_VARIA>                            <X5C68>;"<X0005><X0089><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_VARIA>                          <X5C68>;"<X0005><X0089><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI>          <X5C68>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI>       <X5C68>;"<X0005><X0089><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI>                      <X5C68>;"<X0005><X0089><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI>                    <X5C68>;"<X0005><X0089><X009B>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI>    <X5C68>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI> <X5C68>;"<X0005><X0089><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_YPOGEGRAMMENI>                    <X5C68>;"<X0005><X0089><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PROSGEGRAMMENI>                 <X5C68>;"<X0005><X0089><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA>                                      <X5C68>;"<X0005><X008B>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA>                                    <X5C68>;"<X0005><X008B>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_OXIA>                             <X5C68>;"<X0005><X008B><X008D>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_OXIA>                           <X5C68>;"<X0005><X008B><X008D>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI>           <X5C68>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI>        <X5C68>;"<X0005><X008B><X008D><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_VARIA>                            <X5C68>;"<X0005><X008B><X008F>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_VARIA>                          <X5C68>;"<X0005><X008B><X008F>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI>          <X5C68>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI>       <X5C68>;"<X0005><X008B><X008F><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI>                      <X5C68>;"<X0005><X008B><X009B>";"<X0005><X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI>                    <X5C68>;"<X0005><X008B><X009B>";"<X008F><X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI>    <X5C68>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI> <X5C68>;"<X0005><X008B><X009B><X00D1><X00E1>";"<X008F><X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_YPOGEGRAMMENI>                    <X5C68>;"<X0005><X008B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PROSGEGRAMMENI>                 <X5C68>;"<X0005><X008B><X00D1><X00E1>";"<X008F><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_TONOS>                                      <X5C68>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_OMEGA><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_OMEGA_WITH_OXIA>                                       <X5C68>;"<X0005><X008D>";"<X0005><X0005>";"<GREEK_SMALL_LETTER_OMEGA><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_OXIA>                                     <X5C68>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_OMEGA><COMBINING_ACUTE_ACCENT>"
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_TONOS>                                    <X5C68>;"<X0005><X008D>";"<X008F><X0005>";"<GREEK_CAPITAL_LETTER_OMEGA><COMBINING_ACUTE_ACCENT>"
+<GREEK_SMALL_LETTER_OMEGA_WITH_OXIA_AND_YPOGEGRAMMENI>                     <X5C68>;"<X0005><X008D><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_VARIA>                                      <X5C68>;"<X0005><X008F>";"<X0005><X0005>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_VARIA>                                    <X5C68>;"<X0005><X008F>";"<X008F><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_VARIA_AND_YPOGEGRAMMENI>                    <X5C68>;"<X0005><X008F><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_PERISPOMENI>                                <X5C68>;"<X0005><X009B>";"<X0005><X0005>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_PERISPOMENI_AND_YPOGEGRAMMENI>              <X5C68>;"<X0005><X009B><X00D1><X00E1>";"<X0005><X0005><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_OMEGA_WITH_YPOGEGRAMMENI>                              <X5C68>;"<X0005><X00D1><X00E1>";"<X0005><X0005><X00C0>";IGNORE
+<GREEK_CAPITAL_LETTER_OMEGA_WITH_PROSGEGRAMMENI>                           <X5C68>;"<X0005><X00D1><X00E1>";"<X008F><X0005><X00C0>";IGNORE
+<GREEK_SMALL_LETTER_SAMPI>                                                 <X5C6A>;<X0005>;<X0005>;IGNORE
+<GREEK_LETTER_SAMPI>                                                       <X5C6A>;<X0005>;<X008F>;IGNORE
+<GREEK_SMALL_LETTER_SHO>                                                   <X5C6C>;<X0005>;<X0005>;IGNORE
+<GREEK_CAPITAL_LETTER_SHO>                                                 <X5C6C>;<X0005>;<X008F>;IGNORE
 UNDEFINED                                                                  IGNORE;IGNORE;IGNORE;...
 
 order_end
@@ -2702,11 +2611,11 @@ mon     "<GREEK_CAPITAL_LETTER_IOTA><GREEK_SMALL_LETTER_ALPHA><GREEK_SMALL_LETTE
         "<GREEK_CAPITAL_LETTER_NU><GREEK_SMALL_LETTER_OMICRON><GREEK_SMALL_LETTER_EPSILON><GREEK_SMALL_LETTER_MU><GREEK_SMALL_LETTER_BETA><GREEK_SMALL_LETTER_RHO><GREEK_SMALL_LETTER_IOTA_WITH_TONOS><GREEK_SMALL_LETTER_OMICRON><GREEK_SMALL_LETTER_UPSILON>";/
         "<GREEK_CAPITAL_LETTER_DELTA><GREEK_SMALL_LETTER_EPSILON><GREEK_SMALL_LETTER_KAPPA><GREEK_SMALL_LETTER_EPSILON><GREEK_SMALL_LETTER_MU><GREEK_SMALL_LETTER_BETA><GREEK_SMALL_LETTER_RHO><GREEK_SMALL_LETTER_IOTA_WITH_TONOS><GREEK_SMALL_LETTER_OMICRON><GREEK_SMALL_LETTER_UPSILON>"
 
-d_fmt    "%d<SOLIDUS>%m<SOLIDUS>%Y"
+d_fmt    "%e<SOLIDUS>%m<SOLIDUS>%Y"
 
 t_fmt    "%I:%M:%S %p"
 
-d_t_fmt  "%d %B %Y %I:%M:%S %p %Z"
+d_t_fmt  "%e %B %Y %I:%M:%S %p %Z"
 
 am_pm    "<GREEK_CAPITAL_LETTER_PI><GREEK_CAPITAL_LETTER_MU>";"<GREEK_CAPITAL_LETTER_MU><GREEK_CAPITAL_LETTER_MU>"
 
@@ -2721,9 +2630,9 @@ yesstr   "<GREEK_SMALL_LETTER_NU><GREEK_SMALL_LETTER_ALPHA><GREEK_SMALL_LETTER_I
 
 nostr    "<GREEK_SMALL_LETTER_OMICRON><GREEK_SMALL_LETTER_CHI><GREEK_SMALL_LETTER_IOTA>:<GREEK_SMALL_LETTER_OMICRON_WITH_TONOS><GREEK_SMALL_LETTER_CHI><GREEK_SMALL_LETTER_IOTA>:<GREEK_SMALL_LETTER_OMICRON>:<GREEK_SMALL_LETTER_OMICRON_WITH_TONOS>:<GREEK_CAPITAL_LETTER_OMICRON><GREEK_CAPITAL_LETTER_CHI><GREEK_CAPITAL_LETTER_IOTA>:<GREEK_CAPITAL_LETTER_OMICRON_WITH_TONOS><GREEK_CAPITAL_LETTER_CHI><GREEK_CAPITAL_LETTER_IOTA>:<GREEK_CAPITAL_LETTER_OMICRON>:<GREEK_CAPITAL_LETTER_OMICRON_WITH_TONOS>:no:n:NO:N"
 
-yesexpr  "^([yY]([eE][sS])?)|([<GREEK_SMALL_LETTER_NU><GREEK_CAPITAL_LETTER_NU>]([<GREEK_SMALL_LETTER_ALPHA><GREEK_CAPITAL_LETTER_ALPHA>][<GREEK_SMALL_LETTER_IOTA><GREEK_CAPITAL_LETTER_IOTA>])?)"
+yesexpr  "^(([<GREEK_SMALL_LETTER_NU><GREEK_CAPITAL_LETTER_NU>]([<GREEK_SMALL_LETTER_ALPHA><GREEK_CAPITAL_LETTER_ALPHA>][<GREEK_SMALL_LETTER_IOTA><GREEK_CAPITAL_LETTER_IOTA>])?)|([yY]([eE][sS])?))"
 
-noexpr   "^([nN][oO]?)|([<GREEK_SMALL_LETTER_OMICRON><GREEK_CAPITAL_LETTER_OMICRON><GREEK_SMALL_LETTER_OMICRON_WITH_TONOS><GREEK_CAPITAL_LETTER_OMICRON_WITH_TONOS>]([<GREEK_SMALL_LETTER_CHI><GREEK_CAPITAL_LETTER_CHI>][<GREEK_SMALL_LETTER_IOTA><GREEK_CAPITAL_LETTER_IOTA>])?)"
+noexpr   "^(([<GREEK_SMALL_LETTER_OMICRON><GREEK_CAPITAL_LETTER_OMICRON>]([<GREEK_SMALL_LETTER_CHI><GREEK_CAPITAL_LETTER_CHI>][<GREEK_SMALL_LETTER_IOTA><GREEK_CAPITAL_LETTER_IOTA>])?)|([<GREEK_SMALL_LETTER_OMICRON_WITH_TONOS><GREEK_CAPITAL_LETTER_OMICRON_WITH_TONOS>]([<GREEK_SMALL_LETTER_CHI><GREEK_CAPITAL_LETTER_CHI>][<GREEK_SMALL_LETTER_IOTA><GREEK_CAPITAL_LETTER_IOTA>])?)|([nN]([oO])?))"
 
 
 END LC_MESSAGES

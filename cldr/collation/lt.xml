@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.3/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.18 $"/>
-		<generation date="$Date: 2005/03/18 01:03:36 $"/>
+		<version number="$Revision: 1.21 $"/>
+		<generation date="$Date: 2005/11/30 00:29:06 $"/>
 		<language type="lt" /> 
 	</identity>
 		<collations  validSubLocales="lt_LT">
@@ -16,6 +16,24 @@
 					<t>Č</t>
 					<reset before="primary">J</reset>
 					<p>y</p>
+					<t>Y</t>
+					<reset before="primary">T</reset>
+					<p>š</p>
+					<t>Š</t>
+					<reset before="primary">Ʒ</reset>
+					<p>ž</p>
+					<t>Ž</t>
+				</rules>
+			</collation  >
+			<collation type="standard" draft="true" alt="proposed" >
+				<rules>
+					<reset>̨</reset>
+					<s>̇</s>
+					<reset before="primary">D</reset>
+					<p>č</p>
+					<t>Č</t>
+					<reset>I</reset>
+					<s>y</s>
 					<t>Y</t>
 					<reset before="primary">T</reset>
 					<p>š</p>

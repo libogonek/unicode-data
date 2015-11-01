@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.3/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.19 $"/>
-		<generation date="$Date: 2005/03/18 01:03:36 $"/>
+		<version number="$Revision: 1.21 $"/>
+		<generation date="$Date: 2006/02/08 21:59:56 $"/>
 		<language type="gu" /> 
 	</identity>
 		<collations  validSubLocales="gu_IN">
@@ -16,5 +16,32 @@
 					<p>્</p>
 				</rules>
 			</collation  >
+<collation type="standard" references="http://www.eki.ee/wgrs/rom1_gu.pdf" draft="true" alt="proposed">
+<settings normalization="on"/>
+<rules>
+
+<!--
+The following tailoring is an adjustment of the
+DUCET collation order for ANUSVARA, CANDRABINDU,
+and VISARGA. Instead of being sorted with secondary
+weights, they are collated on primary level before
+the independent vowels. CANDRABINDU is secondary
+different from ANUSVARA.
+-->
+<reset>ૐ</reset>
+<p>ં</p>
+<s>ઁ</s>
+<p>ઃ</p>
+
+<!--
+The following tailoring is an adjustment of the
+DUCET collation order for LLA. Instead of being
+sorted after LA, LLA is sorted after HA.
+-->
+<reset>હ</reset>
+<p>ળ</p>
+
+</rules>
+</collation>
 		</collations>
 </ldml>

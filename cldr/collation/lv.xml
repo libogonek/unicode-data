@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.3/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.18 $"/>
-		<generation date="$Date: 2005/03/18 01:03:36 $"/>
+		<version number="$Revision: 1.20 $"/>
+		<generation date="$Date: 2005/11/30 00:29:22 $"/>
 		<language type="lv" /> 
 	</identity>
 		<collations  validSubLocales="lv_LV">
@@ -18,6 +18,39 @@
 					<reset before="primary">J</reset>
 					<p>y</p>
 					<t>Y</t>
+					<reset before="primary">L</reset>
+					<p>ķ</p>
+					<t>Ķ</t>
+					<reset before="primary">M</reset>
+					<p>ļ</p>
+					<t>Ļ</t>
+					<reset before="primary">O</reset>
+					<p>ņ</p>
+					<t>Ņ</t>
+					<reset before="primary">S</reset>
+					<p>ŗ</p>
+					<t>Ŗ</t>
+					<reset before="primary">T</reset>
+					<p>š</p>
+					<t>Š</t>
+					<reset before="primary">Ʒ</reset>
+					<p>ž</p>
+					<t>Ž</t>
+				</rules>
+			</collation  >
+			<collation type="standard" draft="true" alt="proposed">
+				<rules>
+					<reset before="primary">D</reset>
+					<p>č</p>
+					<t>Č</t>
+					<reset before="primary">H</reset>
+					<p>ģ</p>
+					<t>Ģ</t>
+<!--
+					<reset before="primary">J</reset>
+					<p>y</p>
+					<t>Y</t>
+-->
 					<reset before="primary">L</reset>
 					<p>ķ</p>
 					<t>Ķ</t>

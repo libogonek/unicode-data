@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.3/ldml.dtd">
+<!DOCTYPE ldml SYSTEM "http://www.unicode.org/cldr/dtd/1.4/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 1.18 $"/>
-		<generation date="$Date: 2005/03/18 01:03:36 $"/>
+		<version number="$Revision: 1.21 $"/>
+		<generation date="$Date: 2005/12/07 16:22:24 $"/>
 		<language type="ca" /> 
 	</identity>
 		<collations  validSubLocales="ca_ES">
@@ -22,6 +22,28 @@
 					<t>LL</t>
 					<t>L·L</t>
 				</rules>
+			</collation  >
+			<collation draft="true" alt="proposed" type="standard" >
+				<settings backwards="on"  />
+				<rules>
+					<reset>C</reset>
+					<p>ch</p>
+					<t>cH</t>
+					<t>Ch</t>
+					<t>CH</t>
+					<reset>L</reset>
+					<p>ll</p>
+					<t>l·l</t>
+					<t>lL</t>
+					<t>l·L</t>
+					<t>Ll</t>
+					<t>L·l</t>
+					<t>LL</t>
+					<t>L·L</t>
+				</rules>
+			</collation  >
+			<collation draft="true" alt="cldrbug173" type="standard" >
+				<settings backwards="on"  />
 			</collation  >
 		</collations>
 </ldml>
