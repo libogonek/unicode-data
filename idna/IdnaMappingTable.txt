@@ -1,8 +1,8 @@
-# IdnaMappingTable-6.2.0.txt
-# Date: 2012-06-26 17:39:32 GMT [MD]
+# IdnaMappingTable-6.3.0.txt
+# Date: 2013-09-26 09:00:37 GMT [MD]
 #
 # Unicode IDNA Compatible Preprocessing (UTS #46)
-# Copyright (c) 1991-2012 Unicode, Inc.
+# Copyright (c) 1991-2013 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see http://www.unicode.org/reports/tr46/
 
@@ -891,7 +891,8 @@
 0610..0615    ; valid                                  # 4.0  ARABIC SIGN SALLALLAHOU ALAYHE WASSALLAM..ARABIC SMALL HIGH TAH
 0616..061A    ; valid                                  # 5.1  ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH..ARABIC SMALL KASRA
 061B          ; valid                  ;      ; NV8    # 1.1  ARABIC SEMICOLON
-061C..061D    ; disallowed                             # NA   <reserved-061C>..<reserved-061D>
+061C          ; disallowed                             # 6.3  ARABIC LETTER MARK
+061D          ; disallowed                             # NA   <reserved-061D>
 061E          ; valid                  ;      ; NV8    # 4.1  ARABIC TRIPLE DOT PUNCTUATION MARK
 061F          ; valid                  ;      ; NV8    # 1.1  ARABIC QUESTION MARK
 0620          ; valid                                  # 6.0  ARABIC LETTER KASHMIRI YEH
@@ -2222,7 +2223,8 @@
 2060          ; ignored                                # 3.2  WORD JOINER
 2061..2063    ; disallowed                             # 3.2  FUNCTION APPLICATION..INVISIBLE SEPARATOR
 2064          ; ignored                                # 5.1  INVISIBLE PLUS
-2065..2069    ; disallowed                             # NA   <reserved-2065>..<reserved-2069>
+2065          ; disallowed                             # NA   <reserved-2065>
+2066..2069    ; disallowed                             # 6.3  LEFT-TO-RIGHT ISOLATE..POP DIRECTIONAL ISOLATE
 206A..206F    ; disallowed                             # 1.1  INHIBIT SYMMETRIC SWAPPING..NOMINAL DIGIT SHAPES
 2070          ; mapped                 ; 0030          # 1.1  SUPERSCRIPT ZERO
 2071          ; mapped                 ; 0069          # 3.2  SUPERSCRIPT LATIN SMALL LETTER I

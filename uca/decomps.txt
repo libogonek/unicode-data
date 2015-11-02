@@ -1,15 +1,11 @@
-# decomps-6.2.0.txt
-# Date: 2012-09-13, 00:23:00 GMT [KW]
+# decomps-6.3.0.txt
+# Date: 2012-11-27, 14:49:43 GMT [KW]
 #
-# This file is an informative contributory data file for
-#   the Unicode Collation Algorithm.
+# This file lists decompositions used in generating the Default Unicode Collation Element Table
+#   (DUCET) for the Unicode Collation Algorithm
 #
 # Copyright (c) 2001-2012 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
-#
-# This file lists decompositions used when generating the 
-#   Default Unicode Collation Element Table (DUCET)
-#   for the Unicode Collation Algorithm
 #
 # See UTS #10, Unicode Collation Algorithm, for more information.
 #
