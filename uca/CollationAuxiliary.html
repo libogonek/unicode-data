@@ -14,7 +14,7 @@
 <table class="header">
   <tbody><tr>
     <td class="icon"><a href="http://www.unicode.org">
-    <img alt="[Unicode]" src="http://www.unicode.org/webscripts/logo60s2.gif" align="middle" border="0" height="33" width="34"></a>&nbsp;&nbsp;<a class="bar" href="http://www.unicode.org/unicode/reports/tr10/tr10-24.html">Unicode 
+    <img alt="[Unicode]" src="http://www.unicode.org/webscripts/logo60s2.gif" align="middle" border="0" height="33" width="34"></a>&nbsp;&nbsp;<a class="bar" href="http://www.unicode.org/reports/tr10/">Unicode 
     Collation Algorithm</a></td>
   </tr>
   <tr>
@@ -23,20 +23,25 @@
 </tbody></table>
 <div class="body">
   <h1>UCA Auxiliary Files</h1>
-  <h2 align="center" >Version 6.1.0<br>
-2012-02-02</h2>
-  <p>The files in this directory provide remapping and tailoring data for the UCA Version 6.1.0 DUCET weights, for use with CLDR. These files are large, and thus packaged in zip format to save download time. </p>
+  <h2 align="center">Version 6.2.0<br>2012-09-12</h2>
+  <p>The files in this directory provide remapping and tailoring data for the UCA Version 6.2.0 DUCET weights, for use with CLDR.
+  These files are large, and thus packaged in zip format to save download time.</p>
+  <p>Comments with DUCET-style weights in files other than allkeys_CLDR.txt use the weights defined in allkeys_CLDR.txt.</p>
   <ul>
-    <li><strong>FractionalUCA</strong> - Files that provide a remapping of UCA DUCET weights for use with CLDR. The weight values are also modified to provide variable-width weights for compression.
+    <li> <strong>allkeys_CLDR</strong> - A file that provides a remapping of UCA DUCET weights for use with CLDR. </li>
+    <li><strong>FractionalUCA</strong> - Files that provide a remapping of UCA DUCET weights for use with CLDR. The weight values are also modified to provide variable-width weights for compression. 
       <ul>
         <li>FractionalUCA_summary.txt - provides an overview of the weight assignments</li>
         <li>FractionalUCA.txt - provides the full data table</li>
         <li>FractionalUCA_SHORT.txt - <em>omits comment information for compactness</em></li>
       </ul>
     </li>
-    <li>
-    <strong>allkeys_CLDR</strong> - A file that provides a remapping of UCA DUCET weights for use with CLDR. </li>
-    <li><strong>UCA_Rules</strong> - Files that provide the information in FractionalUCA as a set of comparison rules, for use with CLDR and other environments. These rules provide the relative values for different characters without being tied to particular weights. The &quot;DUCET&quot; version of the tables uses the untailored DUCET values.
+    <li><strong>UCA_Rules</strong> - Files that provide the information in FractionalUCA as a set of comparison rules, for use with CLDR and other environments.
+	These rules provide the relative values for different characters without being tied to particular weights.
+	There may be some minor differences in the resulting ordering compared to the allkeys_CLDR. 
+	For example, "&amp;D &lt;&lt;&lt; ǲ / z" will create a sequence of two CEs for ǲ.
+	The tertiary difference (for the syntax &lt;&lt;&lt;) is produced by incrementing the tertiary weight on the first CE.
+	This may not correspond to how tertiary differences are distributed across the two CEs by the DUCET.
       <ul>
         <li>UCA_Rules.txt - rules<em> (CLDR short syntax)</em></li>
         <li>UCA_Rules.xml - rules<em> (CLDR XML syntax)</em></li>
@@ -46,7 +51,7 @@
         <li>UCA_Rules_NoCE.xml - rules omitting  the (remapped) DUCET value, for more effective comparison across versions<em> (CLDR XML syntax)</em></li>
       </ul>
     </li>
-    <li><strong>CollationTest_CLDR</strong> - The CLDR versions of the CollationTest files, which use the tailorings for CLDR. For information on the format, see <a href="http://unicode.org/Public/UCA/6.1.0/CollationTest.html">CollationTest.html</a>.
+    <li><strong>CollationTest_CLDR</strong> - The CLDR versions of the CollationTest files, which use the tailorings for CLDR. For information on the format, see <a href="CollationTest.html">CollationTest.html</a>.
       <ul>
         <li>CollationTest_CLDR_NON_IGNORABLE_SHORT.txt</li>
         <li>CollationTest_CLDR_NON_IGNORABLE.txt</li>
@@ -55,13 +60,14 @@
       </ul>
     </li>
   </ul>
+  <hr>
   <h2><a name="cldr_tailoring"></a>CLDR Tailoring</h2>
   <p>Starting from version 1.9, CLDR allowed the tailoring of the root locale, allowing it to be different from DUCET.</p>
   <p>The ordering in the root locale is used by all other locales by default. However, there is separate collation tailoring also in root, with the keyword &ldquo;ducet&rdquo;, that tailors the modified DUCET back to the original, if required. Using that keyword, the locale ID &ldquo;und-u-co-ducet&rdquo; allows access to the original DUCET.</p>
   <p>The root locale ordering is tailored in the following ways:</p>
-  <h3><strong><a name="grouping_classes_of_characters"></a>Grouping classes of characters</strong></h3>
-  <p>The6.1.0 DUCET ordering puts characters into the following ordering:
-  </p>
+
+  <h3><a name="grouping_classes_of_characters"></a>Grouping classes of characters</h3>
+  <p>As of Version 6.1.0, the DUCET puts characters into the following ordering:</p>
   <ul>
     <li>First &quot;common characters&quot;: whitespace, punctuation, general symbols, some numbers, currency symbols, and other numbers.</li>
     <li>Then &quot;script characters&quot;: Latin, Greek, and the rest of the scripts.</li>
@@ -72,7 +78,7 @@
     <li>whitespace, punctuation, general symbols, currency symbols, and numbers.</li>
   </ul>
   <p>What the regrouping allows is for users to parametrically reorder the groups. For example, users can reorder numbers after all scripts, or reorder Greek before Latin.</p>
-  <p>The relative order within each of these groups still matches the DUCET. Symbols, punctuation, and numbers that are grouped with a particular script stay with that script. The differences from the 6.1.0 DUCET order are:</p>
+  <p>The relative order within each of these groups still matches the DUCET. Symbols, punctuation, and numbers that are grouped with a particular script stay with that script. The differences between CLDR and the DUCET order are:</p>
   <ol>
     <li>CLDR groups the numbers together after currency symbols, instead of splitting them with some before and some after. 
     Thus the following are put <em>after</em> currencies and just before all the other numbers.
@@ -89,30 +95,41 @@
       </ol>
     </li>
   </ol>
-  <h3><a name="non_variable_symbols"></a><strong>Non-variable</strong> symbols</h3>
-  <p>There are two options in the UCA for symbols and punctuation: <em>non-ignorable, </em>or<em> shifted</em>. 
-  With the <em>shifted</em> option, almost all symbols and punctuation are ignored&%x2014;except at a fourth level. 
-  The root locale ordering is modified so that symbols are not affected by the <em>shifted</em> option. 
+
+  <h3><a name="non_variable_symbols"></a>Non-variable symbols</h3>
+  <p>There are multiple <a href="http://www.unicode.org/reports/tr10/#Variable_Weighting">Variable-Weighting</a> options
+  in the UCA for symbols and punctuation, including <em>non-ignorable</em> and <em>shifted</em>. 
+  With the <em>shifted</em> option, almost all symbols and punctuation are ignored—except at a fourth level. 
+  The CLDR root locale ordering is modified so that symbols are not affected by the <em>shifted</em> option.
+  That is, by default, symbols are not “variable” in CLDR.
   So <em>shifted</em> only causes whitespace and punctuation to be ignored, but not symbols (like ♥). 
-  This tailoring in the root locale corresponds to the new <a href="http://www.unicode.org/reports/tr10/tr10-24.html#Variable_Weighting">Variable_Weighting</a> 
-  option <strong>IgnoreSP</strong>.
-  The old behavior can be specified with a locale ID using the &quot;vt&quot; keyword, to set the Variable section to 
+  The DUCET behavior can be specified with a locale ID using the &quot;vt&quot; keyword, to set the Variable section to 
   include all of the symbols below it, or be set parametrically where implementations allow access.</p>
   <p>See also:</p>
   <ul>
     <li><a href="http://www.unicode.org/reports/tr35#Key_Type_Definitions">Key Type Definitions</a> under &ldquo;Collation parameters&rdquo;</li>
     <li><a href="http://www.unicode.org/charts/collation/">http://www.unicode.org/charts/collation/</a></li>
   </ul>
-  <p><a name="tailored_noncharacter_weights"></a><strong>Tailored noncharacter weights</strong></p>
-  <p>The code point U+FFFF is tailored to have a primary weight higher than all other characters. This allows reliable specification of a range, such as &ldquo;Sch&rdquo; ≤ X ≤ &ldquo;Sch\uFFFF&rdquo; to include all strings starting with &quot;sch&quot; or equivalent.</p>
-  <p>The code point U+FFFE is tailored to have a primary weight lower than all other characters (but greater than zero). 
-  It is also not affected by <a href="http://www.unicode.org/reports/tr10/tr10-24.html#Variable_Weighting">Variable Weighting</a>. 
-  This allows for <a href="http://unicode.org/reports/tr10/tr10-24.html#Interleaved_Levels">Interleaved_Levels</a> within code point space.</p>
-  <p>In CLDR, these values are not further tailorable, and nothing can tailor to them. That is, neither can occur in a collation rule: for example, the following rules are illegal:</p>
+
+  <h3><a name="tibetan_contractions"></a>Additional contractions for Tibetan</h3>
+  <p>Ten contractions are added for Tibetan:
+  Two to fulfill <a href="http://www.unicode.org/reports/tr10/#WF5">well-formedness condition 5</a>,
+  and eight more to preserve the default order for Tibetan.
+  For details see <i>UTS #10, Section 3.6.4, <a href="http://www.unicode.org/reports/tr10/#Well_Formed_DUCET">Well-Formedness of the DUCET</a></i>.</p>
+
+  <h3><a name="tailored_noncharacter_weights"></a>Tailored noncharacter weights</h3>
+  <p>The code point U+FFFF is tailored to have a primary weight higher than all other characters. This allows the reliable specification of a range, such as &ldquo;Sch&rdquo; ≤ X ≤ &ldquo;Sch\uFFFF&rdquo;, to include all strings starting with &quot;sch&quot; or equivalent.</p>
+  <p>The code point U+FFFE produces a CE with special minimal weights on all levels, regardless of alternate handling. This allows for <a href="http://unicode.org/reports/tr10/#Merging_Sort_Keys">Merging Sort Keys</a> within code point space. For example, when sorting names in a database, a sortable string can be formed with <em>last_name</em> + '\uFFFE' + <em>first_name</em>. These strings would sort properly, without ever comparing the last part of a last name with the first part of another first name.</p>
+  <p>In CLDR, so as to maintain the <em>highest</em> and <em>lowest</em> status,
+  these values are not further tailorable, and nothing can tailor to them.
+  That is, neither can occur in a collation rule: for example, the following rules are illegal:</p>
   <p><code>&amp; \uFFFF &lt; x</code></p>
   <p><code>&amp; x &lt;\uFFFF</code></p>
+  <hr>
+
   <h2><a name="file_formats"></a>File Formats</h2>
   <p>The file formats may change between versions of the UCA. The formats for Version 6.0.0 and beyond are as follows. As usual, text after a # is a comment.</p>
+
   <h3>FractionalUCA_summary.txt</h3>
   <p>The lines are all comments, giving an overview of the weight structure. Lines are tab delimited, for use with spreadsheets. Most are in the format:</p>
   <p># position fractional-weight Script General-category Codepoint Name</p>
@@ -136,15 +153,22 @@
   the primary weight, secondary weight, and tertiary weight. The tertiary weight actually consists of two components: 
   the top two bits (0xC0) are used for the <em>case level</em>, and should be masked off where a case level is not used.</p>
   <p>A weight is either empty (meaning a zero or ignorable weight) or is a sequence of one or more bytes. The bytes are interpreted as a &quot;fraction&quot;, meaning that the ordering is 04 &lt; 05 05 &lt; 06. The weights are constructed so that no weight is an initial subsequence of another: that is, having both the weights 05 and 05 05 is illegal. The above line consists of all ignorable weights.</p>
+  <p>The vertical bar (“|”) character is used to indicate context, as in:</p>
   </blockquote>
+<pre>006C | 00B7; [, DB A9, 05]</pre>
+<blockquote> This example indicates  that if U+00B7 appears immediately after U+006C, it is given the corresponding collation element instead. This syntax is equivalent to the following contraction, but is more efficient.  </blockquote>
+<pre>006C 00B7; <em>CE(006C)</em> [, DB A9, 05]
+</pre>
+
+Single-byte primary weights are given to particularly frequent characters, such as space, digits, and a-z. Most characters are given two-byte weights, while relatively infrequent characters are given three-byte weights. For example:
 <p>...<br>
     <code>0009; [03 05, 05, 05]	# Zyyy Cc	[0100.0020.0002]	* &lt;CHARACTER TABULATION&gt;<br>
     ...<br>
     1B60; [06 14 0C, 05, 05]	# Bali Po	[0111.0020.0002]	* BALINESE PAMENENG<br>
     ...<br>
-    0031; [14, 05, 05]	# Zyyy Nd	[149B.0020.0002]	* DIGIT ONE</code></p>
+  0031; [14, 05, 05]	# Zyyy Nd	[149B.0020.0002]	* DIGIT ONE</code></p>
 <blockquote>
-  <p>Single-byte weights are given to particularly frequent characters, such as space, digits, and a-z. Most characters are given two-byte weights, while relatively infrequent characters are given three-byte weights. The assignment of 2 vs 3 bytes does not reflect importance, or exact frequency.</p>
+  <p>The assignment of 2 vs 3 bytes does not reflect importance, or exact frequency.</p>
 </blockquote>
 <p><code># SPECIAL MAX/MIN COLLATION ELEMENTS</code></p>
 <p><code>FFFE; [02, 02, 02]     # Special LOWEST primary, for merge/interleaving<br>
@@ -245,7 +269,101 @@
 <p>Provides the same rule set in CLDR XML format. For more information, see <a href="http://unicode.org/reports/tr35/">LDML</a>.</p>
 <h3>UCA_Rules_NoCE.txt</h3>
 <p>Omits the (remapped) DUCET value, for more effective comparison across versions.</p>
-<p>&nbsp;</p>
+<hr>
+<h2>Implicit Fractional Weight Generation</h2>
+<p>In the UCA, implicit weights are given to characters such as CJK ideographs and unassigned code points. The implicit fractional  weights in FractionalUCA.txt have a different generation algorithm. It is important to match the exact algorithm  so that the weights for compatibility decomposable characters match. </p>
+<p>The fractional weights for implicit collation elements are between 3 and 4 bytes long. </p>
+<p>The algorithm for implicit fractional weight generation is expressed here in pseudocode:</p>
+<pre>int getImplicit(int cp) {
+ cp += swapCJK(cp) + 1;
+ int last0 = cp - min4Boundary;
+ if (last0 &lt; 0) {
+   int last1 = cp / final3Count;
+   last0 = cp % final3Count;</pre>
+<pre>   int last2 = last1 / medialCount;
+   last1 %= medialCount;</pre>
+<pre>   last0 = minTrail + last0*final3Multiplier; // spread out, leaving gap at start
+   last1 = minTrail + last1; // offset
+   last2 = min3Primary + last2; // offset</pre>
+<pre>   return (last2 &lt;&lt; 24) + (last1 &lt;&lt; 16) + (last0 &lt;&lt; 8);
+ } else {
+   int last1 = last0 / final4Count;
+   last0 %= final4Count;</pre>
+<pre>   int last2 = last1 / medialCount;
+   last1 %= medialCount;</pre>
+<pre>   int last3 = last2 / medialCount;
+   last2 %= medialCount;</pre>
+<pre>   last0 = minTrail + last0*final4Multiplier; // spread out, leaving gap at start 
+   last1 = minTrail + last1; // offset
+   last2 = minTrail + last2; // offset
+   last3 = min4Primary + last3; // offset</pre>
+<pre>   return (last3 &lt;&lt; 24) + (last2 &lt;&lt; 16) + (last1 &lt;&lt; 8) + last0;
+ }
+}</pre>
+<pre>static public int divideAndRoundUp(int a, int b) {
+   return 1 + (a-1)/b;
+}<br>
+// The constants for the boundaries of CJK characters vary from release to release. 
+// They are of the form CJK*BASE and CJK*LIMIT, and may be expanded to new blocks as well.</pre>
+<pre>int 
+CJK_BASE = 0x4E00,
+CJK_LIMIT = 0x9FCC+1,</pre>
+<pre>CJK_COMPAT_USED_BASE = 0xFA0E,
+CJK_COMPAT_USED_LIMIT = 0xFA2F+1,</pre>
+<pre>CJK_A_BASE = 0x3400,
+CJK_A_LIMIT = 0x4DB5+1,
+CJK_B_BASE = 0x20000,
+CJK_B_LIMIT = 0x2A6D6+1,</pre>
+<pre>CJK_C_BASE = 0x2A700,
+CJK_C_LIMIT = 0x2B734+1,</pre>
+<pre>CJK_D_BASE = 0x2B740,
+CJK_D_LIMIT = 0x2B81D+1,</pre>
+<pre>MAX_INPUT = 0x220001,
+NON_CJK_OFFSET = 0x110000,</pre>
+<pre>min3Primary = 0xE0,
+max4Primary = 0xE4,
+minTrail = 0x04,
+maxTrail = 0xFE,
+gap3 = 1,
+primaries3count = 1,</pre>
+<pre>final3Multiplier = gap3 + 1,
+final3Count = (maxTrail - minTrail + 1) / final3Multiplier,
+max3Trail = minTrail + (final3Count - 1) * final3Multiplier,</pre>
+<pre>medialCount = (maxTrail - minTrail + 1),
+threeByteCount = medialCount * final3Count,
+primariesAvailable = max4Primary - min3Primary + 1,
+primaries4count = primariesAvailable - primaries3count,</pre>
+<pre>min3ByteCoverage = primaries3count * threeByteCount,
+min4Primary = min3Primary + primaries3count,
+min4Boundary = min3ByteCoverage,
+ </pre>
+<pre>totalNeeded = MAX_INPUT - min4Boundary,
+neededPerPrimaryByte = divideAndRoundUp(totalNeeded, primaries4count),</pre>
+<pre>neededPerFinalByte = divideAndRoundUp(neededPerPrimaryByte, medialCount * medialCount),</pre>
+<pre>gap4 = (maxTrail - minTrail - 1) / neededPerFinalByte,</pre>
+<pre>final4Multiplier = gap4 + 1,
+final4Count = neededPerFinalByte;</pre>
+<pre>int swapCJK(int i) {
+   if (i &gt;= CJK_BASE) {
+   if (i &lt; CJK_LIMIT)              return i - CJK_BASE;
+   if (i &lt; CJK_COMPAT_USED_BASE)   return i + NON_CJK_OFFSET;
+   if (i &lt; CJK_COMPAT_USED_LIMIT)  return i - CJK_COMPAT_USED_BASE 
+                                          + (CJK_LIMIT - CJK_BASE);
+   if (i &lt; CJK_B_BASE)             return i + NON_CJK_OFFSET;
+   if (i &lt; CJK_B_LIMIT)            return i; // non-BMP-CJK
+   if (i &lt; CJK_C_BASE)             return i + NON_CJK_OFFSET;
+   if (i &lt; CJK_C_LIMIT)            return i; // non-BMP-CJK
+   if (i &lt; CJK_D_BASE)             return i + NON_CJK_OFFSET;
+   if (i &lt; CJK_D_LIMIT)            return i; // non-BMP-CJK
+     return i + NON_CJK_OFFSET;  // non-CJK
+   }
+   if (i &lt; CJK_A_BASE)             return i + NON_CJK_OFFSET;
+   if (i &lt; CJK_A_LIMIT)            return i - CJK_A_BASE
+                                          + (CJK_LIMIT - CJK_BASE) 
+                                          + (CJK_COMPAT_USED_LIMIT - CJK_COMPAT_USED_BASE);
+     return i + NON_CJK_OFFSET; // non-CJK
+   }</pre>
+<pre>&nbsp;</pre>
 </div>
 
 </body></html>

@@ -1,8 +1,8 @@
-# IdnaMappingTable-6.1.0.txt
-# Date: 2011-12-15 17:07:41 GMT [MD]
+# IdnaMappingTable-6.2.0.txt
+# Date: 2012-06-26 17:39:32 GMT [MD]
 #
 # Unicode IDNA Compatible Preprocessing (UTS #46)
-# Copyright (c) 1991-2011 Unicode, Inc.
+# Copyright (c) 1991-2012 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see http://www.unicode.org/reports/tr46/
 
@@ -2279,7 +2279,8 @@
 20B2..20B5    ; valid                  ;      ; NV8    # 4.1  GUARANI SIGN..CEDI SIGN
 20B6..20B8    ; valid                  ;      ; NV8    # 5.2  LIVRE TOURNOIS SIGN..TENGE SIGN
 20B9          ; valid                  ;      ; NV8    # 6.0  INDIAN RUPEE SIGN
-20BA..20CF    ; disallowed                             # NA   <reserved-20BA>..<reserved-20CF>
+20BA          ; valid                  ;      ; NV8    # 6.2  TURKISH LIRA SIGN
+20BB..20CF    ; disallowed                             # NA   <reserved-20BB>..<reserved-20CF>
 20D0..20E1    ; valid                  ;      ; NV8    # 1.1  COMBINING LEFT HARPOON ABOVE..COMBINING LEFT RIGHT ARROW ABOVE
 20E2..20E3    ; valid                  ;      ; NV8    # 3.0  COMBINING ENCLOSING SCREEN..COMBINING ENCLOSING KEYCAP
 20E4..20EA    ; valid                  ;      ; NV8    # 3.2  COMBINING ENCLOSING UPWARD POINTING TRIANGLE..COMBINING LEFTWARDS ARROW OVERLAY

@@ -1,13 +1,13 @@
 <collation>
 <!--
 # File:        UCA_Rules_SHORT.xml
-# UCA Version: 6.1.0
-# UCD Version: 6.1.0
-# Generated:   2012-01-03, 21:53:26 GMT [MD]
+# UCA Version: 6.2.0
+# UCD Version: 6.2.0
+# Generated:   2012-09-21, 19:14:35 GMT [MD]
 # For a description of the format and usage, see CollationAuxiliary.html
 
 -->
-<base uca='6.1.0/6.1.0'/>
+<base uca='6.2.0/6.2.0'/>
 <rules>
 <reset/><position at="last tertiary ignorable"/>
 
@@ -3363,6 +3363,32 @@ p<variableTop/>
   <p>&#x26FD;</p>
   <p>&#x26FE;</p>
   <p>&#x26FF;</p>
+  <p>&#x1F1E6;</p>
+  <p>&#x1F1E7;</p>
+  <p>&#x1F1E8;</p>
+  <p>&#x1F1E9;</p>
+  <p>&#x1F1EA;</p>
+  <p>&#x1F1EB;</p>
+  <p>&#x1F1EC;</p>
+  <p>&#x1F1ED;</p>
+  <p>&#x1F1EE;</p>
+  <p>&#x1F1EF;</p>
+  <p>&#x1F1F0;</p>
+  <p>&#x1F1F1;</p>
+  <p>&#x1F1F2;</p>
+  <p>&#x1F1F3;</p>
+  <p>&#x1F1F4;</p>
+  <p>&#x1F1F5;</p>
+  <p>&#x1F1F6;</p>
+  <p>&#x1F1F7;</p>
+  <p>&#x1F1F8;</p>
+  <p>&#x1F1F9;</p>
+  <p>&#x1F1FA;</p>
+  <p>&#x1F1FB;</p>
+  <p>&#x1F1FC;</p>
+  <p>&#x1F1FD;</p>
+  <p>&#x1F1FE;</p>
+  <p>&#x1F1FF;</p>
   <p>&#x2701;</p>
   <p>&#x2702;</p>
   <p>&#x2703;</p>
@@ -6319,6 +6345,7 @@ p<variableTop/>
   <p>&#x20B7;</p>
   <p>&#x20B8;</p>
   <p>&#x20B9;</p>
+  <p>&#x20BA;</p>
   <p>&#x20A8;</p>
   <p>&#xFDFC;</p>
   <p>&#x9F4;</p>
@@ -7472,8 +7499,7 @@ p<variableTop/>
   <t>&#x24D0;</t>
   <t>A</t>
   <t>&#xFF21;</t>
-  <t>&#x1F1E6;</t>
-<x>  <t>&#x214D;</t><extend>/s</extend></x>
+<x>  <t>&#x214D;</t><extend>/S</extend></x>
 <x>  <t>&#xA732;</t><extend>A</extend></x>
 <x>  <t>&#xA734;</t><extend>O</extend></x>
 <x>  <t>&#xA736;</t><extend>U</extend></x>
@@ -7508,8 +7534,8 @@ p<variableTop/>
 <x>  <t>&#xE6;</t><extend>e</extend></x>
 <x>  <i>&#x1DD4;</i><extend>e</extend></x>
 <x>  <t>&#xA73B;</t><extend>v</extend></x>
-<x>  <t>&#xC6;</t><extend>e</extend></x>
-<x>  <t>&#xA73A;</t><extend>v</extend></x>
+<x>  <t>&#xC6;</t><extend>E</extend></x>
+<x>  <t>&#xA73A;</t><extend>V</extend></x>
 <x>  <t>&#x1D2D;</t><extend>e</extend></x>
   <p>&#x1D00;</p>
   <p>&#x2C65;</p>
@@ -7546,7 +7572,6 @@ p<variableTop/>
   <t>&#x24D1;</t>
   <t>B</t>
   <t>&#xFF22;</t>
-  <t>&#x1F1E7;</t>
   <t>&#x212C;</t>
   <i>&#x1D401;</i>
   <i>&#x1D435;</i>
@@ -7603,7 +7628,6 @@ p<variableTop/>
   <t>C</t>
   <t>&#xFF23;</t>
   <t>&#x216D;</t>
-  <i>&#x1F1E8;</i>
   <t>&#x2102;</t>
   <i>&#x212D;</i>
   <i>&#x1D402;</i>
@@ -7633,7 +7657,7 @@ p<variableTop/>
 <x>  <t>&#x33C6;</t><extend>&#x2215;kg</extend></x>
 <x>  <t>&#x1F191;</t><extend>L</extend></x>
 <x>  <t>&#x33C7;</t><extend>o.</extend></x>
-<x>  <t>&#x1F192;</t><extend>Ool</extend></x>
+<x>  <t>&#x1F192;</t><extend>OOL</extend></x>
   <p>&#x1D04;</p>
   <p>&#x23C;</p>
   <t>&#x23B;</t>
@@ -7677,7 +7701,6 @@ p<variableTop/>
 <x>  <t>&#x110;</t><extend>&#x335;</extend></x>
   <t>&#xFF24;</t>
   <t>&#x216E;</t>
-  <i>&#x1F1E9;</i>
 <x>  <t>&#x1F2;</t><extend>z</extend></x>
 <x>  <t>&#x1F1;</t><extend>Z</extend></x>
 <x>  <t>&#x1C5;</t><extend>z&#x30C;</extend></x>
@@ -7750,7 +7773,6 @@ p<variableTop/>
   <t>&#x24D4;</t>
   <t>E</t>
   <t>&#xFF25;</t>
-  <t>&#x1F1EA;</t>
   <t>&#x2130;</t>
   <i>&#x1D404;</i>
   <i>&#x1D438;</i>
@@ -7827,8 +7849,7 @@ p<variableTop/>
   <t>&#x24D5;</t>
   <t>F</t>
   <t>&#xFF26;</t>
-  <t>&#x1F1EB;</t>
-<x>  <t>&#x213B;</t><extend>Ax</extend></x>
+<x>  <t>&#x213B;</t><extend>AX</extend></x>
   <t>&#x2131;</t>
   <i>&#x1D405;</i>
   <i>&#x1D439;</i>
@@ -7848,7 +7869,7 @@ p<variableTop/>
 <x>  <t>&#x3399;</t><extend>m</extend></x>
   <t>&#x1F135;</t>
   <i>&#x1F175;</i>
-<x>  <t>&#x1F193;</t><extend>Ree</extend></x>
+<x>  <t>&#x1F193;</t><extend>REE</extend></x>
   <s>&#xA77C;</s>
   <t>&#xA77B;</t>
   <p>&#xA730;</p>
@@ -7879,7 +7900,6 @@ p<variableTop/>
   <t>&#x24D6;</t>
   <t>G</t>
   <t>&#xFF27;</t>
-  <t>&#x1F1EC;</t>
 <x>  <t>&#xA7A0;</t><extend>&#x20EB;</extend></x>
   <t>&#x1D406;</t>
   <i>&#x1D43A;</i>
@@ -7947,7 +7967,6 @@ p<variableTop/>
   <t>H</t>
 <x>  <t>&#x126;</t><extend>&#x335;</extend></x>
   <t>&#xFF28;</t>
-  <t>&#x1F1ED;</t>
   <t>&#x210B;</t>
   <i>&#x210C;</i>
   <i>&#x210D;</i>
@@ -8018,12 +8037,11 @@ p<variableTop/>
   <t>I</t>
   <t>&#xFF29;</t>
   <t>&#x2160;</t>
-  <i>&#x1F1EE;</i>
-<x>  <t>&#x2161;</t><extend>I</extend></x>
+<x>  <t>&#x2161;</t><extend>i</extend></x>
 <x>  <t>&#x2162;</t><extend>Ii</extend></x>
 <x>  <t>&#x132;</t><extend>J</extend></x>
-<x>  <t>&#x2163;</t><extend>V</extend></x>
-<x>  <t>&#x2168;</t><extend>X</extend></x>
+<x>  <t>&#x2163;</t><extend>v</extend></x>
+<x>  <t>&#x2168;</t><extend>x</extend></x>
   <t>&#x2110;</t>
   <i>&#x2111;</i>
   <i>&#x1D408;</i>
@@ -8084,7 +8102,6 @@ p<variableTop/>
   <t>&#x24D9;</t>
   <t>J</t>
   <t>&#xFF2A;</t>
-  <t>&#x1F1EF;</t>
   <t>&#x1D409;</t>
   <i>&#x1D43D;</i>
   <i>&#x1D471;</i>
@@ -8135,7 +8152,6 @@ p<variableTop/>
   <t>&#x24DA;</t>
   <t>K</t>
   <t>&#xFF2B;</t>
-  <t>&#x1F1F0;</t>
 <x>  <t>&#xA7A2;</t><extend>&#x20EB;</extend></x>
   <t>&#x1D40A;</t>
   <i>&#x1D43E;</i>
@@ -8214,7 +8230,6 @@ p<variableTop/>
 <x>  <t>&#x141;</t><extend>&#x335;</extend></x>
   <t>&#xFF2C;</t>
   <t>&#x216C;</t>
-  <i>&#x1F1F1;</i>
 <x>  <t>&#x1C8;</t><extend>j</extend></x>
 <x>  <t>&#x1C7;</t><extend>J</extend></x>
 <x>  <t>&#x1EFA;</t><extend>L</extend></x>
@@ -8242,7 +8257,7 @@ p<variableTop/>
   <t>&#x1D38;</t>
   <i>&#x1F13B;</i>
   <i>&#x1F17B;</i>
-<x>  <t>&#x32CF;</t><extend>Td</extend></x>
+<x>  <t>&#x32CF;</t><extend>TD</extend></x>
   <s>l&#xB7;</s>
   <i>l&#x387;</i>
   <i>&#x140;</i>
@@ -8297,7 +8312,6 @@ p<variableTop/>
   <t>M</t>
   <t>&#xFF2D;</t>
   <t>&#x216F;</t>
-  <i>&#x1F1F2;</i>
   <t>&#x2133;</t>
   <i>&#x1D40C;</i>
   <i>&#x1D440;</i>
@@ -8374,7 +8388,6 @@ p<variableTop/>
   <t>&#x24DD;</t>
   <t>N</t>
   <t>&#xFF2E;</t>
-  <t>&#x1F1F3;</t>
 <x>  <t>&#xA7A4;</t><extend>&#x20EB;</extend></x>
 <x>  <t>&#x1CB;</t><extend>j</extend></x>
 <x>  <t>&#x1CA;</t><extend>J</extend></x>
@@ -8405,7 +8418,7 @@ p<variableTop/>
   <t>&#x1D3A;</t>
   <i>&#x1F13D;</i>
   <i>&#x1F17D;</i>
-<x>  <t>&#x1F195;</t><extend>Ew</extend></x>
+<x>  <t>&#x1F195;</t><extend>EW</extend></x>
 <x>  <t>&#x1F196;</t><extend>G</extend></x>
   <p>&#x274;</p>
   <t>&#x1DE1;</t>
@@ -8450,7 +8463,6 @@ p<variableTop/>
   <t>O</t>
 <x>  <t>&#xD8;</t><extend>&#x338;</extend></x>
   <t>&#xFF2F;</t>
-  <t>&#x1F1F4;</t>
 <x>  <t>&#xA74E;</t><extend>O</extend></x>
   <t>&#x1D40E;</t>
   <i>&#x1D442;</i>
@@ -8476,7 +8488,7 @@ p<variableTop/>
   <i>&#x1F17E;</i>
 <x>  <t>&#x1F197;</t><extend>K</extend></x>
 <x>  <s>&#x153;</s><extend>e</extend></x>
-<x>  <t>&#x152;</t><extend>e</extend></x>
+<x>  <t>&#x152;</t><extend>E</extend></x>
 <x>  <t>&#xA7F9;</t><extend>e</extend></x>
   <p>&#x1D0F;</p>
   <p>&#x1D11;</p>
@@ -8524,7 +8536,6 @@ p<variableTop/>
   <t>&#x24DF;</t>
   <t>P</t>
   <t>&#xFF30;</t>
-  <t>&#x1F1F5;</t>
   <t>&#x2119;</t>
   <i>&#x1D40F;</i>
   <i>&#x1D443;</i>
@@ -8556,10 +8567,10 @@ p<variableTop/>
 <x>  <t>&#x33A9;</t><extend>a</extend></x>
 <x>  <t>&#x1F18C;</t><extend>A</extend></x>
 <x>  <t>&#x33D7;</t><extend>H</extend></x>
-<x>  <t>&#x33D9;</t><extend>Pm</extend></x>
-<x>  <t>&#x1F14E;</t><extend>Pv</extend></x>
+<x>  <t>&#x33D9;</t><extend>PM</extend></x>
+<x>  <t>&#x1F14E;</t><extend>PV</extend></x>
 <x>  <t>&#x33DA;</t><extend>R</extend></x>
-<x>  <t>&#x3250;</t><extend>Te</extend></x>
+<x>  <t>&#x3250;</t><extend>TE</extend></x>
   <p>&#x1D18;</p>
   <p>&#x1D7D;</p>
   <t>&#x2C63;</t>
@@ -8596,7 +8607,6 @@ p<variableTop/>
   <t>&#x24E0;</t>
   <t>Q</t>
   <t>&#xFF31;</t>
-  <t>&#x1F1F6;</t>
   <t>&#x211A;</t>
   <i>&#x1D410;</i>
   <i>&#x1D444;</i>
@@ -8643,7 +8653,6 @@ p<variableTop/>
   <t>&#x24E1;</t>
   <t>R</t>
   <t>&#xFF32;</t>
-  <t>&#x1F1F7;</t>
 <x>  <t>&#xA7A6;</t><extend>&#x20EB;</extend></x>
   <t>&#x211B;</t>
   <i>&#x211C;</i>
@@ -8722,7 +8731,6 @@ p<variableTop/>
   <t>&#x24E2;</t>
   <t>S</t>
   <t>&#xFF33;</t>
-  <t>&#x1F1F8;</t>
 <x>  <t>&#xA7A8;</t><extend>&#x20EB;</extend></x>
   <t>&#x1D412;</t>
   <i>&#x1D446;</i>
@@ -8747,11 +8755,11 @@ p<variableTop/>
   <i>&#x1F182;</i>
 <x>  <t>&#x1F18D;</t><extend>A</extend></x>
 <x>  <t>&#x1F14C;</t><extend>D</extend></x>
-<x>  <t>&#x1F198;</t><extend>Os</extend></x>
+<x>  <t>&#x1F198;</t><extend>OS</extend></x>
 <x>  <t>&#x1F14D;</t><extend>S</extend></x>
 <x>  <t>&#x33DC;</t><extend>v</extend></x>
 <x>  <s>&#xDF;</s><extend>s</extend></x>
-<x>  <t>&#x1E9E;</t><extend>s</extend></x>
+<x>  <t>&#x1E9E;</t><extend>S</extend></x>
   <s>&#x17F;</s>
   <i>&#x1DE5;</i>
   <i>&#xA785;</i>
@@ -8798,8 +8806,7 @@ p<variableTop/>
   <t>&#x24E3;</t>
   <t>T</t>
   <t>&#xFF34;</t>
-  <t>&#x1F1F9;</t>
-<x>  <t>&#x2121;</t><extend>El</extend></x>
+<x>  <t>&#x2121;</t><extend>EL</extend></x>
 <x>  <t>&#xA728;</t><extend>z</extend></x>
   <t>&#x1D413;</t>
   <i>&#x1D447;</i>
@@ -8860,7 +8867,6 @@ p<variableTop/>
   <t>&#x24E4;</t>
   <t>U</t>
   <t>&#xFF35;</t>
-  <t>&#x1F1FA;</t>
   <t>&#x1D414;</t>
   <i>&#x1D448;</i>
   <i>&#x1D47C;</i>
@@ -8934,10 +8940,9 @@ p<variableTop/>
   <t>V</t>
   <t>&#xFF36;</t>
   <t>&#x2164;</t>
-  <i>&#x1F1FB;</i>
-<x>  <t>&#x2165;</t><extend>I</extend></x>
+<x>  <t>&#x2165;</t><extend>i</extend></x>
 <x>  <t>&#x2166;</t><extend>Ii</extend></x>
-<x>  <t>&#x2167;</t><extend>Iii</extend></x>
+<x>  <t>&#x2167;</t><extend>IIi</extend></x>
 <x>  <t>&#xA760;</t><extend>Y</extend></x>
   <t>&#x1D415;</t>
   <i>&#x1D449;</i>
@@ -8993,7 +8998,6 @@ p<variableTop/>
   <t>&#x24E6;</t>
   <t>W</t>
   <t>&#xFF37;</t>
-  <t>&#x1F1FC;</t>
   <t>&#x1D416;</t>
   <i>&#x1D44A;</i>
   <i>&#x1D47E;</i>
@@ -9044,8 +9048,7 @@ p<variableTop/>
   <t>X</t>
   <t>&#xFF38;</t>
   <t>&#x2169;</t>
-  <i>&#x1F1FD;</i>
-<x>  <t>&#x216A;</t><extend>I</extend></x>
+<x>  <t>&#x216A;</t><extend>i</extend></x>
 <x>  <t>&#x216B;</t><extend>Ii</extend></x>
   <t>&#x1D417;</t>
   <i>&#x1D44B;</i>
@@ -9085,7 +9088,6 @@ p<variableTop/>
   <t>&#x24E8;</t>
   <t>Y</t>
   <t>&#xFF39;</t>
-  <t>&#x1F1FE;</t>
   <t>&#x1D418;</t>
   <i>&#x1D44C;</i>
   <i>&#x1D480;</i>
@@ -9133,7 +9135,6 @@ p<variableTop/>
   <t>&#x24E9;</t>
   <t>Z</t>
   <t>&#xFF3A;</t>
-  <t>&#x1F1FF;</t>
   <t>&#x2124;</t>
   <i>&#x2128;</i>
   <i>&#x1D419;</i>
@@ -13497,281 +13498,51 @@ p<variableTop/>
   <p>&#x10A33;</p>
   <p>&#x10A3F;</p>
   <p>&#xE01;</p>
-<x>  <t>&#xE40;&#xE01;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE01;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE01;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE01;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE01;</t><extend>&#xE44;</extend></x>
   <p>&#xE02;</p>
-<x>  <t>&#xE40;&#xE02;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE02;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE02;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE02;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE02;</t><extend>&#xE44;</extend></x>
   <p>&#xE03;</p>
-<x>  <t>&#xE40;&#xE03;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE03;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE03;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE03;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE03;</t><extend>&#xE44;</extend></x>
   <p>&#xE04;</p>
-<x>  <t>&#xE40;&#xE04;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE04;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE04;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE04;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE04;</t><extend>&#xE44;</extend></x>
   <p>&#xE05;</p>
-<x>  <t>&#xE40;&#xE05;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE05;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE05;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE05;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE05;</t><extend>&#xE44;</extend></x>
   <p>&#xE06;</p>
-<x>  <t>&#xE40;&#xE06;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE06;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE06;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE06;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE06;</t><extend>&#xE44;</extend></x>
   <p>&#xE07;</p>
-<x>  <t>&#xE40;&#xE07;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE07;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE07;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE07;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE07;</t><extend>&#xE44;</extend></x>
   <p>&#xE08;</p>
-<x>  <t>&#xE40;&#xE08;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE08;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE08;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE08;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE08;</t><extend>&#xE44;</extend></x>
   <p>&#xE09;</p>
-<x>  <t>&#xE40;&#xE09;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE09;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE09;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE09;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE09;</t><extend>&#xE44;</extend></x>
   <p>&#xE0A;</p>
-<x>  <t>&#xE40;&#xE0A;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE0A;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE0A;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE0A;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE0A;</t><extend>&#xE44;</extend></x>
   <p>&#xE0B;</p>
-<x>  <t>&#xE40;&#xE0B;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE0B;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE0B;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE0B;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE0B;</t><extend>&#xE44;</extend></x>
   <p>&#xE0C;</p>
-<x>  <t>&#xE40;&#xE0C;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE0C;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE0C;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE0C;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE0C;</t><extend>&#xE44;</extend></x>
   <p>&#xE0D;</p>
-<x>  <t>&#xE40;&#xE0D;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE0D;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE0D;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE0D;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE0D;</t><extend>&#xE44;</extend></x>
   <p>&#xE0E;</p>
-<x>  <t>&#xE40;&#xE0E;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE0E;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE0E;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE0E;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE0E;</t><extend>&#xE44;</extend></x>
   <p>&#xE0F;</p>
-<x>  <t>&#xE40;&#xE0F;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE0F;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE0F;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE0F;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE0F;</t><extend>&#xE44;</extend></x>
   <p>&#xE10;</p>
-<x>  <t>&#xE40;&#xE10;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE10;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE10;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE10;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE10;</t><extend>&#xE44;</extend></x>
   <p>&#xE11;</p>
-<x>  <t>&#xE40;&#xE11;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE11;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE11;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE11;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE11;</t><extend>&#xE44;</extend></x>
   <p>&#xE12;</p>
-<x>  <t>&#xE40;&#xE12;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE12;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE12;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE12;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE12;</t><extend>&#xE44;</extend></x>
   <p>&#xE13;</p>
-<x>  <t>&#xE40;&#xE13;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE13;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE13;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE13;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE13;</t><extend>&#xE44;</extend></x>
   <p>&#xE14;</p>
-<x>  <t>&#xE40;&#xE14;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE14;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE14;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE14;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE14;</t><extend>&#xE44;</extend></x>
   <p>&#xE15;</p>
-<x>  <t>&#xE40;&#xE15;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE15;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE15;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE15;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE15;</t><extend>&#xE44;</extend></x>
   <p>&#xE16;</p>
-<x>  <t>&#xE40;&#xE16;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE16;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE16;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE16;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE16;</t><extend>&#xE44;</extend></x>
   <p>&#xE17;</p>
-<x>  <t>&#xE40;&#xE17;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE17;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE17;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE17;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE17;</t><extend>&#xE44;</extend></x>
   <p>&#xE18;</p>
-<x>  <t>&#xE40;&#xE18;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE18;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE18;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE18;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE18;</t><extend>&#xE44;</extend></x>
   <p>&#xE19;</p>
-<x>  <t>&#xE40;&#xE19;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE19;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE19;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE19;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE19;</t><extend>&#xE44;</extend></x>
   <p>&#xE1A;</p>
-<x>  <t>&#xE40;&#xE1A;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE1A;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE1A;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE1A;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE1A;</t><extend>&#xE44;</extend></x>
   <p>&#xE1B;</p>
-<x>  <t>&#xE40;&#xE1B;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE1B;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE1B;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE1B;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE1B;</t><extend>&#xE44;</extend></x>
   <p>&#xE1C;</p>
-<x>  <t>&#xE40;&#xE1C;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE1C;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE1C;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE1C;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE1C;</t><extend>&#xE44;</extend></x>
   <p>&#xE1D;</p>
-<x>  <t>&#xE40;&#xE1D;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE1D;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE1D;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE1D;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE1D;</t><extend>&#xE44;</extend></x>
   <p>&#xE1E;</p>
-<x>  <t>&#xE40;&#xE1E;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE1E;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE1E;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE1E;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE1E;</t><extend>&#xE44;</extend></x>
   <p>&#xE1F;</p>
-<x>  <t>&#xE40;&#xE1F;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE1F;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE1F;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE1F;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE1F;</t><extend>&#xE44;</extend></x>
   <p>&#xE20;</p>
-<x>  <t>&#xE40;&#xE20;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE20;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE20;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE20;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE20;</t><extend>&#xE44;</extend></x>
   <p>&#xE21;</p>
-<x>  <t>&#xE40;&#xE21;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE21;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE21;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE21;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE21;</t><extend>&#xE44;</extend></x>
   <p>&#xE22;</p>
-<x>  <t>&#xE40;&#xE22;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE22;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE22;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE22;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE22;</t><extend>&#xE44;</extend></x>
   <p>&#xE23;</p>
-<x>  <t>&#xE40;&#xE23;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE23;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE23;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE23;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE23;</t><extend>&#xE44;</extend></x>
   <p>&#xE24;</p>
-<x>  <t>&#xE40;&#xE24;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE24;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE24;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE24;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE24;</t><extend>&#xE44;</extend></x>
   <p>&#xE25;</p>
-<x>  <t>&#xE40;&#xE25;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE25;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE25;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE25;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE25;</t><extend>&#xE44;</extend></x>
   <p>&#xE26;</p>
-<x>  <t>&#xE40;&#xE26;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE26;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE26;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE26;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE26;</t><extend>&#xE44;</extend></x>
   <p>&#xE27;</p>
-<x>  <t>&#xE40;&#xE27;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE27;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE27;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE27;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE27;</t><extend>&#xE44;</extend></x>
   <p>&#xE28;</p>
-<x>  <t>&#xE40;&#xE28;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE28;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE28;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE28;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE28;</t><extend>&#xE44;</extend></x>
   <p>&#xE29;</p>
-<x>  <t>&#xE40;&#xE29;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE29;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE29;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE29;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE29;</t><extend>&#xE44;</extend></x>
   <p>&#xE2A;</p>
-<x>  <t>&#xE40;&#xE2A;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE2A;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE2A;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE2A;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE2A;</t><extend>&#xE44;</extend></x>
   <p>&#xE2B;</p>
-<x>  <t>&#xE40;&#xE2B;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE2B;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE2B;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE2B;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE2B;</t><extend>&#xE44;</extend></x>
   <p>&#xE2C;</p>
-<x>  <t>&#xE40;&#xE2C;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE2C;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE2C;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE2C;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE2C;</t><extend>&#xE44;</extend></x>
   <p>&#xE2D;</p>
-<x>  <t>&#xE40;&#xE2D;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE2D;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE2D;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE2D;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE2D;</t><extend>&#xE44;</extend></x>
   <p>&#xE2E;</p>
-<x>  <t>&#xE40;&#xE2E;</t><extend>&#xE40;</extend></x>
-<x>  <t>&#xE41;&#xE2E;</t><extend>&#xE41;</extend></x>
-<x>  <t>&#xE42;&#xE2E;</t><extend>&#xE42;</extend></x>
-<x>  <t>&#xE43;&#xE2E;</t><extend>&#xE43;</extend></x>
-<x>  <t>&#xE44;&#xE2E;</t><extend>&#xE44;</extend></x>
   <p>&#xE2F;</p>
   <p>&#xE30;</p>
   <p>&#xE31;</p>
@@ -13793,180 +13564,35 @@ p<variableTop/>
   <p>&#xE45;</p>
   <p>&#xEDE;</p>
   <p>&#xE81;</p>
-<x>  <t>&#xEC0;&#xE81;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE81;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE81;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE81;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE81;</t><extend>&#xEC4;</extend></x>
   <p>&#xE82;</p>
-<x>  <t>&#xEC0;&#xE82;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE82;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE82;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE82;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE82;</t><extend>&#xEC4;</extend></x>
   <p>&#xE84;</p>
-<x>  <t>&#xEC0;&#xE84;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE84;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE84;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE84;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE84;</t><extend>&#xEC4;</extend></x>
   <p>&#xE87;</p>
-<x>  <t>&#xEC0;&#xE87;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE87;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE87;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE87;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE87;</t><extend>&#xEC4;</extend></x>
   <p>&#xE88;</p>
-<x>  <t>&#xEC0;&#xE88;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE88;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE88;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE88;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE88;</t><extend>&#xEC4;</extend></x>
   <p>&#xEAA;</p>
-<x>  <t>&#xEC0;&#xEAA;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xEAA;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xEAA;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xEAA;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xEAA;</t><extend>&#xEC4;</extend></x>
   <p>&#xE8A;</p>
-<x>  <t>&#xEC0;&#xE8A;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE8A;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE8A;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE8A;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE8A;</t><extend>&#xEC4;</extend></x>
   <p>&#xEDF;</p>
   <p>&#xE8D;</p>
-<x>  <t>&#xEC0;&#xE8D;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE8D;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE8D;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE8D;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE8D;</t><extend>&#xEC4;</extend></x>
   <p>&#xE94;</p>
-<x>  <t>&#xEC0;&#xE94;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE94;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE94;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE94;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE94;</t><extend>&#xEC4;</extend></x>
   <p>&#xE95;</p>
-<x>  <t>&#xEC0;&#xE95;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE95;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE95;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE95;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE95;</t><extend>&#xEC4;</extend></x>
   <p>&#xE96;</p>
-<x>  <t>&#xEC0;&#xE96;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE96;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE96;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE96;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE96;</t><extend>&#xEC4;</extend></x>
   <p>&#xE97;</p>
-<x>  <t>&#xEC0;&#xE97;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE97;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE97;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE97;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE97;</t><extend>&#xEC4;</extend></x>
   <p>&#xE99;</p>
-<x>  <t>&#xEC0;&#xE99;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE99;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE99;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE99;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE99;</t><extend>&#xEC4;</extend></x>
   <p>&#xE9A;</p>
-<x>  <t>&#xEC0;&#xE9A;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE9A;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE9A;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE9A;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE9A;</t><extend>&#xEC4;</extend></x>
   <p>&#xE9B;</p>
-<x>  <t>&#xEC0;&#xE9B;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE9B;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE9B;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE9B;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE9B;</t><extend>&#xEC4;</extend></x>
   <p>&#xE9C;</p>
-<x>  <t>&#xEC0;&#xE9C;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE9C;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE9C;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE9C;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE9C;</t><extend>&#xEC4;</extend></x>
   <p>&#xE9D;</p>
-<x>  <t>&#xEC0;&#xE9D;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE9D;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE9D;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE9D;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE9D;</t><extend>&#xEC4;</extend></x>
   <p>&#xE9E;</p>
-<x>  <t>&#xEC0;&#xE9E;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE9E;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE9E;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE9E;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE9E;</t><extend>&#xEC4;</extend></x>
   <p>&#xE9F;</p>
-<x>  <t>&#xEC0;&#xE9F;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xE9F;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xE9F;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xE9F;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xE9F;</t><extend>&#xEC4;</extend></x>
   <p>&#xEA1;</p>
-<x>  <t>&#xEC0;&#xEA1;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xEA1;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xEA1;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xEA1;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xEA1;</t><extend>&#xEC4;</extend></x>
   <p>&#xEA2;</p>
-<x>  <t>&#xEC0;&#xEA2;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xEA2;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xEA2;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xEA2;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xEA2;</t><extend>&#xEC4;</extend></x>
   <p>&#xEA3;</p>
-<x>  <t>&#xEC0;&#xEA3;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xEA3;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xEA3;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xEA3;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xEA3;</t><extend>&#xEC4;</extend></x>
   <p>&#xEA5;</p>
-<x>  <t>&#xEC0;&#xEA5;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xEA5;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xEA5;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xEA5;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xEA5;</t><extend>&#xEC4;</extend></x>
   <p>&#xEA7;</p>
-<x>  <t>&#xEC0;&#xEA7;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xEA7;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xEA7;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xEA7;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xEA7;</t><extend>&#xEC4;</extend></x>
   <p>&#xEAB;</p>
-<x>  <t>&#xEC0;&#xEAB;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xEAB;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xEAB;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xEAB;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xEAB;</t><extend>&#xEC4;</extend></x>
 <x>  <t>&#xEDC;</t><extend>&#xE99;</extend></x>
-<x>  <t>&#xEC0;&#xEDC;</t><extend>&#xE99;&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xEDC;</t><extend>&#xE99;&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xEDC;</t><extend>&#xE99;&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xEDC;</t><extend>&#xE99;&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xEDC;</t><extend>&#xE99;&#xEC4;</extend></x>
 <x>  <t>&#xEDD;</t><extend>&#xEA1;</extend></x>
-<x>  <t>&#xEC0;&#xEDD;</t><extend>&#xEA1;&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xEDD;</t><extend>&#xEA1;&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xEDD;</t><extend>&#xEA1;&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xEDD;</t><extend>&#xEA1;&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xEDD;</t><extend>&#xEA1;&#xEC4;</extend></x>
   <p>&#xEAD;</p>
-<x>  <t>&#xEC0;&#xEAD;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xEAD;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xEAD;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xEAD;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xEAD;</t><extend>&#xEC4;</extend></x>
   <p>&#xEAE;</p>
-<x>  <t>&#xEC0;&#xEAE;</t><extend>&#xEC0;</extend></x>
-<x>  <t>&#xEC1;&#xEAE;</t><extend>&#xEC1;</extend></x>
-<x>  <t>&#xEC2;&#xEAE;</t><extend>&#xEC2;</extend></x>
-<x>  <t>&#xEC3;&#xEAE;</t><extend>&#xEC3;</extend></x>
-<x>  <t>&#xEC4;&#xEAE;</t><extend>&#xEC4;</extend></x>
   <p>&#xEAF;</p>
   <p>&#xEB0;</p>
   <p>&#xEB1;</p>
@@ -13988,293 +13614,53 @@ p<variableTop/>
   <p>&#xEC3;</p>
   <p>&#xEC4;</p>
   <p>&#xAA80;</p>
-<x>  <t>&#xAAB5;&#xAA80;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA80;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA80;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA80;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA80;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA81;</p>
-<x>  <t>&#xAAB5;&#xAA81;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA81;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA81;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA81;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA81;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA82;</p>
-<x>  <t>&#xAAB5;&#xAA82;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA82;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA82;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA82;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA82;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA83;</p>
-<x>  <t>&#xAAB5;&#xAA83;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA83;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA83;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA83;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA83;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA84;</p>
-<x>  <t>&#xAAB5;&#xAA84;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA84;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA84;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA84;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA84;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA85;</p>
-<x>  <t>&#xAAB5;&#xAA85;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA85;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA85;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA85;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA85;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA86;</p>
-<x>  <t>&#xAAB5;&#xAA86;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA86;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA86;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA86;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA86;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA87;</p>
-<x>  <t>&#xAAB5;&#xAA87;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA87;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA87;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA87;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA87;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA88;</p>
-<x>  <t>&#xAAB5;&#xAA88;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA88;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA88;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA88;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA88;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA89;</p>
-<x>  <t>&#xAAB5;&#xAA89;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA89;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA89;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA89;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA89;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA8A;</p>
-<x>  <t>&#xAAB5;&#xAA8A;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA8A;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA8A;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA8A;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA8A;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA8B;</p>
-<x>  <t>&#xAAB5;&#xAA8B;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA8B;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA8B;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA8B;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA8B;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA8C;</p>
-<x>  <t>&#xAAB5;&#xAA8C;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA8C;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA8C;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA8C;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA8C;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA8D;</p>
-<x>  <t>&#xAAB5;&#xAA8D;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA8D;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA8D;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA8D;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA8D;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA8E;</p>
-<x>  <t>&#xAAB5;&#xAA8E;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA8E;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA8E;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA8E;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA8E;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA8F;</p>
-<x>  <t>&#xAAB5;&#xAA8F;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA8F;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA8F;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA8F;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA8F;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA90;</p>
-<x>  <t>&#xAAB5;&#xAA90;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA90;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA90;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA90;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA90;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA91;</p>
-<x>  <t>&#xAAB5;&#xAA91;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA91;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA91;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA91;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA91;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA92;</p>
-<x>  <t>&#xAAB5;&#xAA92;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA92;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA92;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA92;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA92;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA93;</p>
-<x>  <t>&#xAAB5;&#xAA93;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA93;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA93;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA93;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA93;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA94;</p>
-<x>  <t>&#xAAB5;&#xAA94;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA94;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA94;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA94;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA94;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA95;</p>
-<x>  <t>&#xAAB5;&#xAA95;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA95;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA95;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA95;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA95;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA96;</p>
-<x>  <t>&#xAAB5;&#xAA96;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA96;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA96;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA96;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA96;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA97;</p>
-<x>  <t>&#xAAB5;&#xAA97;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA97;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA97;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA97;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA97;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA98;</p>
-<x>  <t>&#xAAB5;&#xAA98;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA98;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA98;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA98;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA98;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA99;</p>
-<x>  <t>&#xAAB5;&#xAA99;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA99;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA99;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA99;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA99;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA9A;</p>
-<x>  <t>&#xAAB5;&#xAA9A;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA9A;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA9A;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA9A;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA9A;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA9B;</p>
-<x>  <t>&#xAAB5;&#xAA9B;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA9B;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA9B;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA9B;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA9B;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA9C;</p>
-<x>  <t>&#xAAB5;&#xAA9C;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA9C;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA9C;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA9C;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA9C;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA9D;</p>
-<x>  <t>&#xAAB5;&#xAA9D;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA9D;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA9D;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA9D;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA9D;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA9E;</p>
-<x>  <t>&#xAAB5;&#xAA9E;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA9E;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA9E;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA9E;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA9E;</t><extend>&#xAABC;</extend></x>
   <p>&#xAA9F;</p>
-<x>  <t>&#xAAB5;&#xAA9F;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAA9F;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAA9F;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAA9F;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAA9F;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAA0;</p>
-<x>  <t>&#xAAB5;&#xAAA0;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAA0;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAA0;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAA0;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAA0;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAA1;</p>
-<x>  <t>&#xAAB5;&#xAAA1;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAA1;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAA1;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAA1;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAA1;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAA2;</p>
-<x>  <t>&#xAAB5;&#xAAA2;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAA2;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAA2;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAA2;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAA2;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAA3;</p>
-<x>  <t>&#xAAB5;&#xAAA3;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAA3;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAA3;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAA3;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAA3;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAA4;</p>
-<x>  <t>&#xAAB5;&#xAAA4;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAA4;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAA4;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAA4;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAA4;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAA5;</p>
-<x>  <t>&#xAAB5;&#xAAA5;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAA5;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAA5;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAA5;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAA5;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAA6;</p>
-<x>  <t>&#xAAB5;&#xAAA6;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAA6;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAA6;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAA6;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAA6;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAA7;</p>
-<x>  <t>&#xAAB5;&#xAAA7;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAA7;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAA7;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAA7;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAA7;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAA8;</p>
-<x>  <t>&#xAAB5;&#xAAA8;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAA8;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAA8;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAA8;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAA8;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAA9;</p>
-<x>  <t>&#xAAB5;&#xAAA9;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAA9;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAA9;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAA9;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAA9;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAAA;</p>
-<x>  <t>&#xAAB5;&#xAAAA;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAAA;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAAA;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAAA;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAAA;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAAB;</p>
-<x>  <t>&#xAAB5;&#xAAAB;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAAB;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAAB;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAAB;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAAB;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAAC;</p>
-<x>  <t>&#xAAB5;&#xAAAC;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAAC;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAAC;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAAC;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAAC;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAAD;</p>
-<x>  <t>&#xAAB5;&#xAAAD;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAAD;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAAD;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAAD;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAAD;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAAE;</p>
-<x>  <t>&#xAAB5;&#xAAAE;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAAE;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAAE;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAAE;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAAE;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAAF;</p>
-<x>  <t>&#xAAB5;&#xAAAF;</t><extend>&#xAAB5;</extend></x>
-<x>  <t>&#xAAB6;&#xAAAF;</t><extend>&#xAAB6;</extend></x>
-<x>  <t>&#xAAB9;&#xAAAF;</t><extend>&#xAAB9;</extend></x>
-<x>  <t>&#xAABB;&#xAAAF;</t><extend>&#xAABB;</extend></x>
-<x>  <t>&#xAABC;&#xAAAF;</t><extend>&#xAABC;</extend></x>
   <p>&#xAAB0;</p>
   <p>&#xAAB1;</p>
   <p>&#xAAB2;</p>
@@ -14357,11 +13743,19 @@ p<variableTop/>
   <s>&#xF6A;</s>
   <p>&#xFB2;</p>
 <x>  <t>&#xFB2;&#xF71;</t><extend>&#xF71;</extend></x>
+<x>  <t>&#xFB2;&#xF71;&#xF72;</t><extend>&#xF71;&#xF72;</extend></x>
+<x>  <i>&#xFB2;&#xF73;</i><extend>&#xF71;&#xF72;</extend></x>
+<x>  <t>&#xFB2;&#xF71;&#xF74;</t><extend>&#xF71;&#xF74;</extend></x>
+<x>  <i>&#xFB2;&#xF75;</i><extend>&#xF71;&#xF74;</extend></x>
   <s>&#xFBC;</s>
   <p>&#xF6C;</p>
   <p>&#xF63;</p>
   <p>&#xFB3;</p>
 <x>  <t>&#xFB3;&#xF71;</t><extend>&#xF71;</extend></x>
+<x>  <t>&#xFB3;&#xF71;&#xF72;</t><extend>&#xF71;&#xF72;</extend></x>
+<x>  <i>&#xFB3;&#xF73;</i><extend>&#xF71;&#xF72;</extend></x>
+<x>  <t>&#xFB3;&#xF71;&#xF74;</t><extend>&#xF71;&#xF74;</extend></x>
+<x>  <i>&#xFB3;&#xF75;</i><extend>&#xF71;&#xF74;</extend></x>
   <p>&#xF64;</p>
   <p>&#xFB4;</p>
   <p>&#xF65;</p>
@@ -24533,4 +23927,629 @@ p<variableTop/>
   <i>&#x2FA1D;</i>
 <reset/><position at="last trailing"/>
   <p><codepoint hex="FFFF"/></p>
+<reset/>&#xE01;&#xE40;<i>&#xE40;&#xE01;</i>
+<reset/>&#xE01;&#xE41;<i>&#xE41;&#xE01;</i>
+<reset/>&#xE01;&#xE42;<i>&#xE42;&#xE01;</i>
+<reset/>&#xE01;&#xE43;<i>&#xE43;&#xE01;</i>
+<reset/>&#xE01;&#xE44;<i>&#xE44;&#xE01;</i>
+<reset/>&#xE02;&#xE40;<i>&#xE40;&#xE02;</i>
+<reset/>&#xE02;&#xE41;<i>&#xE41;&#xE02;</i>
+<reset/>&#xE02;&#xE42;<i>&#xE42;&#xE02;</i>
+<reset/>&#xE02;&#xE43;<i>&#xE43;&#xE02;</i>
+<reset/>&#xE02;&#xE44;<i>&#xE44;&#xE02;</i>
+<reset/>&#xE03;&#xE40;<i>&#xE40;&#xE03;</i>
+<reset/>&#xE03;&#xE41;<i>&#xE41;&#xE03;</i>
+<reset/>&#xE03;&#xE42;<i>&#xE42;&#xE03;</i>
+<reset/>&#xE03;&#xE43;<i>&#xE43;&#xE03;</i>
+<reset/>&#xE03;&#xE44;<i>&#xE44;&#xE03;</i>
+<reset/>&#xE04;&#xE40;<i>&#xE40;&#xE04;</i>
+<reset/>&#xE04;&#xE41;<i>&#xE41;&#xE04;</i>
+<reset/>&#xE04;&#xE42;<i>&#xE42;&#xE04;</i>
+<reset/>&#xE04;&#xE43;<i>&#xE43;&#xE04;</i>
+<reset/>&#xE04;&#xE44;<i>&#xE44;&#xE04;</i>
+<reset/>&#xE05;&#xE40;<i>&#xE40;&#xE05;</i>
+<reset/>&#xE05;&#xE41;<i>&#xE41;&#xE05;</i>
+<reset/>&#xE05;&#xE42;<i>&#xE42;&#xE05;</i>
+<reset/>&#xE05;&#xE43;<i>&#xE43;&#xE05;</i>
+<reset/>&#xE05;&#xE44;<i>&#xE44;&#xE05;</i>
+<reset/>&#xE06;&#xE40;<i>&#xE40;&#xE06;</i>
+<reset/>&#xE06;&#xE41;<i>&#xE41;&#xE06;</i>
+<reset/>&#xE06;&#xE42;<i>&#xE42;&#xE06;</i>
+<reset/>&#xE06;&#xE43;<i>&#xE43;&#xE06;</i>
+<reset/>&#xE06;&#xE44;<i>&#xE44;&#xE06;</i>
+<reset/>&#xE07;&#xE40;<i>&#xE40;&#xE07;</i>
+<reset/>&#xE07;&#xE41;<i>&#xE41;&#xE07;</i>
+<reset/>&#xE07;&#xE42;<i>&#xE42;&#xE07;</i>
+<reset/>&#xE07;&#xE43;<i>&#xE43;&#xE07;</i>
+<reset/>&#xE07;&#xE44;<i>&#xE44;&#xE07;</i>
+<reset/>&#xE08;&#xE40;<i>&#xE40;&#xE08;</i>
+<reset/>&#xE08;&#xE41;<i>&#xE41;&#xE08;</i>
+<reset/>&#xE08;&#xE42;<i>&#xE42;&#xE08;</i>
+<reset/>&#xE08;&#xE43;<i>&#xE43;&#xE08;</i>
+<reset/>&#xE08;&#xE44;<i>&#xE44;&#xE08;</i>
+<reset/>&#xE09;&#xE40;<i>&#xE40;&#xE09;</i>
+<reset/>&#xE09;&#xE41;<i>&#xE41;&#xE09;</i>
+<reset/>&#xE09;&#xE42;<i>&#xE42;&#xE09;</i>
+<reset/>&#xE09;&#xE43;<i>&#xE43;&#xE09;</i>
+<reset/>&#xE09;&#xE44;<i>&#xE44;&#xE09;</i>
+<reset/>&#xE0A;&#xE40;<i>&#xE40;&#xE0A;</i>
+<reset/>&#xE0A;&#xE41;<i>&#xE41;&#xE0A;</i>
+<reset/>&#xE0A;&#xE42;<i>&#xE42;&#xE0A;</i>
+<reset/>&#xE0A;&#xE43;<i>&#xE43;&#xE0A;</i>
+<reset/>&#xE0A;&#xE44;<i>&#xE44;&#xE0A;</i>
+<reset/>&#xE0B;&#xE40;<i>&#xE40;&#xE0B;</i>
+<reset/>&#xE0B;&#xE41;<i>&#xE41;&#xE0B;</i>
+<reset/>&#xE0B;&#xE42;<i>&#xE42;&#xE0B;</i>
+<reset/>&#xE0B;&#xE43;<i>&#xE43;&#xE0B;</i>
+<reset/>&#xE0B;&#xE44;<i>&#xE44;&#xE0B;</i>
+<reset/>&#xE0C;&#xE40;<i>&#xE40;&#xE0C;</i>
+<reset/>&#xE0C;&#xE41;<i>&#xE41;&#xE0C;</i>
+<reset/>&#xE0C;&#xE42;<i>&#xE42;&#xE0C;</i>
+<reset/>&#xE0C;&#xE43;<i>&#xE43;&#xE0C;</i>
+<reset/>&#xE0C;&#xE44;<i>&#xE44;&#xE0C;</i>
+<reset/>&#xE0D;&#xE40;<i>&#xE40;&#xE0D;</i>
+<reset/>&#xE0D;&#xE41;<i>&#xE41;&#xE0D;</i>
+<reset/>&#xE0D;&#xE42;<i>&#xE42;&#xE0D;</i>
+<reset/>&#xE0D;&#xE43;<i>&#xE43;&#xE0D;</i>
+<reset/>&#xE0D;&#xE44;<i>&#xE44;&#xE0D;</i>
+<reset/>&#xE0E;&#xE40;<i>&#xE40;&#xE0E;</i>
+<reset/>&#xE0E;&#xE41;<i>&#xE41;&#xE0E;</i>
+<reset/>&#xE0E;&#xE42;<i>&#xE42;&#xE0E;</i>
+<reset/>&#xE0E;&#xE43;<i>&#xE43;&#xE0E;</i>
+<reset/>&#xE0E;&#xE44;<i>&#xE44;&#xE0E;</i>
+<reset/>&#xE0F;&#xE40;<i>&#xE40;&#xE0F;</i>
+<reset/>&#xE0F;&#xE41;<i>&#xE41;&#xE0F;</i>
+<reset/>&#xE0F;&#xE42;<i>&#xE42;&#xE0F;</i>
+<reset/>&#xE0F;&#xE43;<i>&#xE43;&#xE0F;</i>
+<reset/>&#xE0F;&#xE44;<i>&#xE44;&#xE0F;</i>
+<reset/>&#xE10;&#xE40;<i>&#xE40;&#xE10;</i>
+<reset/>&#xE10;&#xE41;<i>&#xE41;&#xE10;</i>
+<reset/>&#xE10;&#xE42;<i>&#xE42;&#xE10;</i>
+<reset/>&#xE10;&#xE43;<i>&#xE43;&#xE10;</i>
+<reset/>&#xE10;&#xE44;<i>&#xE44;&#xE10;</i>
+<reset/>&#xE11;&#xE40;<i>&#xE40;&#xE11;</i>
+<reset/>&#xE11;&#xE41;<i>&#xE41;&#xE11;</i>
+<reset/>&#xE11;&#xE42;<i>&#xE42;&#xE11;</i>
+<reset/>&#xE11;&#xE43;<i>&#xE43;&#xE11;</i>
+<reset/>&#xE11;&#xE44;<i>&#xE44;&#xE11;</i>
+<reset/>&#xE12;&#xE40;<i>&#xE40;&#xE12;</i>
+<reset/>&#xE12;&#xE41;<i>&#xE41;&#xE12;</i>
+<reset/>&#xE12;&#xE42;<i>&#xE42;&#xE12;</i>
+<reset/>&#xE12;&#xE43;<i>&#xE43;&#xE12;</i>
+<reset/>&#xE12;&#xE44;<i>&#xE44;&#xE12;</i>
+<reset/>&#xE13;&#xE40;<i>&#xE40;&#xE13;</i>
+<reset/>&#xE13;&#xE41;<i>&#xE41;&#xE13;</i>
+<reset/>&#xE13;&#xE42;<i>&#xE42;&#xE13;</i>
+<reset/>&#xE13;&#xE43;<i>&#xE43;&#xE13;</i>
+<reset/>&#xE13;&#xE44;<i>&#xE44;&#xE13;</i>
+<reset/>&#xE14;&#xE40;<i>&#xE40;&#xE14;</i>
+<reset/>&#xE14;&#xE41;<i>&#xE41;&#xE14;</i>
+<reset/>&#xE14;&#xE42;<i>&#xE42;&#xE14;</i>
+<reset/>&#xE14;&#xE43;<i>&#xE43;&#xE14;</i>
+<reset/>&#xE14;&#xE44;<i>&#xE44;&#xE14;</i>
+<reset/>&#xE15;&#xE40;<i>&#xE40;&#xE15;</i>
+<reset/>&#xE15;&#xE41;<i>&#xE41;&#xE15;</i>
+<reset/>&#xE15;&#xE42;<i>&#xE42;&#xE15;</i>
+<reset/>&#xE15;&#xE43;<i>&#xE43;&#xE15;</i>
+<reset/>&#xE15;&#xE44;<i>&#xE44;&#xE15;</i>
+<reset/>&#xE16;&#xE40;<i>&#xE40;&#xE16;</i>
+<reset/>&#xE16;&#xE41;<i>&#xE41;&#xE16;</i>
+<reset/>&#xE16;&#xE42;<i>&#xE42;&#xE16;</i>
+<reset/>&#xE16;&#xE43;<i>&#xE43;&#xE16;</i>
+<reset/>&#xE16;&#xE44;<i>&#xE44;&#xE16;</i>
+<reset/>&#xE17;&#xE40;<i>&#xE40;&#xE17;</i>
+<reset/>&#xE17;&#xE41;<i>&#xE41;&#xE17;</i>
+<reset/>&#xE17;&#xE42;<i>&#xE42;&#xE17;</i>
+<reset/>&#xE17;&#xE43;<i>&#xE43;&#xE17;</i>
+<reset/>&#xE17;&#xE44;<i>&#xE44;&#xE17;</i>
+<reset/>&#xE18;&#xE40;<i>&#xE40;&#xE18;</i>
+<reset/>&#xE18;&#xE41;<i>&#xE41;&#xE18;</i>
+<reset/>&#xE18;&#xE42;<i>&#xE42;&#xE18;</i>
+<reset/>&#xE18;&#xE43;<i>&#xE43;&#xE18;</i>
+<reset/>&#xE18;&#xE44;<i>&#xE44;&#xE18;</i>
+<reset/>&#xE19;&#xE40;<i>&#xE40;&#xE19;</i>
+<reset/>&#xE19;&#xE41;<i>&#xE41;&#xE19;</i>
+<reset/>&#xE19;&#xE42;<i>&#xE42;&#xE19;</i>
+<reset/>&#xE19;&#xE43;<i>&#xE43;&#xE19;</i>
+<reset/>&#xE19;&#xE44;<i>&#xE44;&#xE19;</i>
+<reset/>&#xE1A;&#xE40;<i>&#xE40;&#xE1A;</i>
+<reset/>&#xE1A;&#xE41;<i>&#xE41;&#xE1A;</i>
+<reset/>&#xE1A;&#xE42;<i>&#xE42;&#xE1A;</i>
+<reset/>&#xE1A;&#xE43;<i>&#xE43;&#xE1A;</i>
+<reset/>&#xE1A;&#xE44;<i>&#xE44;&#xE1A;</i>
+<reset/>&#xE1B;&#xE40;<i>&#xE40;&#xE1B;</i>
+<reset/>&#xE1B;&#xE41;<i>&#xE41;&#xE1B;</i>
+<reset/>&#xE1B;&#xE42;<i>&#xE42;&#xE1B;</i>
+<reset/>&#xE1B;&#xE43;<i>&#xE43;&#xE1B;</i>
+<reset/>&#xE1B;&#xE44;<i>&#xE44;&#xE1B;</i>
+<reset/>&#xE1C;&#xE40;<i>&#xE40;&#xE1C;</i>
+<reset/>&#xE1C;&#xE41;<i>&#xE41;&#xE1C;</i>
+<reset/>&#xE1C;&#xE42;<i>&#xE42;&#xE1C;</i>
+<reset/>&#xE1C;&#xE43;<i>&#xE43;&#xE1C;</i>
+<reset/>&#xE1C;&#xE44;<i>&#xE44;&#xE1C;</i>
+<reset/>&#xE1D;&#xE40;<i>&#xE40;&#xE1D;</i>
+<reset/>&#xE1D;&#xE41;<i>&#xE41;&#xE1D;</i>
+<reset/>&#xE1D;&#xE42;<i>&#xE42;&#xE1D;</i>
+<reset/>&#xE1D;&#xE43;<i>&#xE43;&#xE1D;</i>
+<reset/>&#xE1D;&#xE44;<i>&#xE44;&#xE1D;</i>
+<reset/>&#xE1E;&#xE40;<i>&#xE40;&#xE1E;</i>
+<reset/>&#xE1E;&#xE41;<i>&#xE41;&#xE1E;</i>
+<reset/>&#xE1E;&#xE42;<i>&#xE42;&#xE1E;</i>
+<reset/>&#xE1E;&#xE43;<i>&#xE43;&#xE1E;</i>
+<reset/>&#xE1E;&#xE44;<i>&#xE44;&#xE1E;</i>
+<reset/>&#xE1F;&#xE40;<i>&#xE40;&#xE1F;</i>
+<reset/>&#xE1F;&#xE41;<i>&#xE41;&#xE1F;</i>
+<reset/>&#xE1F;&#xE42;<i>&#xE42;&#xE1F;</i>
+<reset/>&#xE1F;&#xE43;<i>&#xE43;&#xE1F;</i>
+<reset/>&#xE1F;&#xE44;<i>&#xE44;&#xE1F;</i>
+<reset/>&#xE20;&#xE40;<i>&#xE40;&#xE20;</i>
+<reset/>&#xE20;&#xE41;<i>&#xE41;&#xE20;</i>
+<reset/>&#xE20;&#xE42;<i>&#xE42;&#xE20;</i>
+<reset/>&#xE20;&#xE43;<i>&#xE43;&#xE20;</i>
+<reset/>&#xE20;&#xE44;<i>&#xE44;&#xE20;</i>
+<reset/>&#xE21;&#xE40;<i>&#xE40;&#xE21;</i>
+<reset/>&#xE21;&#xE41;<i>&#xE41;&#xE21;</i>
+<reset/>&#xE21;&#xE42;<i>&#xE42;&#xE21;</i>
+<reset/>&#xE21;&#xE43;<i>&#xE43;&#xE21;</i>
+<reset/>&#xE21;&#xE44;<i>&#xE44;&#xE21;</i>
+<reset/>&#xE22;&#xE40;<i>&#xE40;&#xE22;</i>
+<reset/>&#xE22;&#xE41;<i>&#xE41;&#xE22;</i>
+<reset/>&#xE22;&#xE42;<i>&#xE42;&#xE22;</i>
+<reset/>&#xE22;&#xE43;<i>&#xE43;&#xE22;</i>
+<reset/>&#xE22;&#xE44;<i>&#xE44;&#xE22;</i>
+<reset/>&#xE23;&#xE40;<i>&#xE40;&#xE23;</i>
+<reset/>&#xE23;&#xE41;<i>&#xE41;&#xE23;</i>
+<reset/>&#xE23;&#xE42;<i>&#xE42;&#xE23;</i>
+<reset/>&#xE23;&#xE43;<i>&#xE43;&#xE23;</i>
+<reset/>&#xE23;&#xE44;<i>&#xE44;&#xE23;</i>
+<reset/>&#xE24;&#xE40;<i>&#xE40;&#xE24;</i>
+<reset/>&#xE24;&#xE41;<i>&#xE41;&#xE24;</i>
+<reset/>&#xE24;&#xE42;<i>&#xE42;&#xE24;</i>
+<reset/>&#xE24;&#xE43;<i>&#xE43;&#xE24;</i>
+<reset/>&#xE24;&#xE44;<i>&#xE44;&#xE24;</i>
+<reset/>&#xE25;&#xE40;<i>&#xE40;&#xE25;</i>
+<reset/>&#xE25;&#xE41;<i>&#xE41;&#xE25;</i>
+<reset/>&#xE25;&#xE42;<i>&#xE42;&#xE25;</i>
+<reset/>&#xE25;&#xE43;<i>&#xE43;&#xE25;</i>
+<reset/>&#xE25;&#xE44;<i>&#xE44;&#xE25;</i>
+<reset/>&#xE26;&#xE40;<i>&#xE40;&#xE26;</i>
+<reset/>&#xE26;&#xE41;<i>&#xE41;&#xE26;</i>
+<reset/>&#xE26;&#xE42;<i>&#xE42;&#xE26;</i>
+<reset/>&#xE26;&#xE43;<i>&#xE43;&#xE26;</i>
+<reset/>&#xE26;&#xE44;<i>&#xE44;&#xE26;</i>
+<reset/>&#xE27;&#xE40;<i>&#xE40;&#xE27;</i>
+<reset/>&#xE27;&#xE41;<i>&#xE41;&#xE27;</i>
+<reset/>&#xE27;&#xE42;<i>&#xE42;&#xE27;</i>
+<reset/>&#xE27;&#xE43;<i>&#xE43;&#xE27;</i>
+<reset/>&#xE27;&#xE44;<i>&#xE44;&#xE27;</i>
+<reset/>&#xE28;&#xE40;<i>&#xE40;&#xE28;</i>
+<reset/>&#xE28;&#xE41;<i>&#xE41;&#xE28;</i>
+<reset/>&#xE28;&#xE42;<i>&#xE42;&#xE28;</i>
+<reset/>&#xE28;&#xE43;<i>&#xE43;&#xE28;</i>
+<reset/>&#xE28;&#xE44;<i>&#xE44;&#xE28;</i>
+<reset/>&#xE29;&#xE40;<i>&#xE40;&#xE29;</i>
+<reset/>&#xE29;&#xE41;<i>&#xE41;&#xE29;</i>
+<reset/>&#xE29;&#xE42;<i>&#xE42;&#xE29;</i>
+<reset/>&#xE29;&#xE43;<i>&#xE43;&#xE29;</i>
+<reset/>&#xE29;&#xE44;<i>&#xE44;&#xE29;</i>
+<reset/>&#xE2A;&#xE40;<i>&#xE40;&#xE2A;</i>
+<reset/>&#xE2A;&#xE41;<i>&#xE41;&#xE2A;</i>
+<reset/>&#xE2A;&#xE42;<i>&#xE42;&#xE2A;</i>
+<reset/>&#xE2A;&#xE43;<i>&#xE43;&#xE2A;</i>
+<reset/>&#xE2A;&#xE44;<i>&#xE44;&#xE2A;</i>
+<reset/>&#xE2B;&#xE40;<i>&#xE40;&#xE2B;</i>
+<reset/>&#xE2B;&#xE41;<i>&#xE41;&#xE2B;</i>
+<reset/>&#xE2B;&#xE42;<i>&#xE42;&#xE2B;</i>
+<reset/>&#xE2B;&#xE43;<i>&#xE43;&#xE2B;</i>
+<reset/>&#xE2B;&#xE44;<i>&#xE44;&#xE2B;</i>
+<reset/>&#xE2C;&#xE40;<i>&#xE40;&#xE2C;</i>
+<reset/>&#xE2C;&#xE41;<i>&#xE41;&#xE2C;</i>
+<reset/>&#xE2C;&#xE42;<i>&#xE42;&#xE2C;</i>
+<reset/>&#xE2C;&#xE43;<i>&#xE43;&#xE2C;</i>
+<reset/>&#xE2C;&#xE44;<i>&#xE44;&#xE2C;</i>
+<reset/>&#xE2D;&#xE40;<i>&#xE40;&#xE2D;</i>
+<reset/>&#xE2D;&#xE41;<i>&#xE41;&#xE2D;</i>
+<reset/>&#xE2D;&#xE42;<i>&#xE42;&#xE2D;</i>
+<reset/>&#xE2D;&#xE43;<i>&#xE43;&#xE2D;</i>
+<reset/>&#xE2D;&#xE44;<i>&#xE44;&#xE2D;</i>
+<reset/>&#xE2E;&#xE40;<i>&#xE40;&#xE2E;</i>
+<reset/>&#xE2E;&#xE41;<i>&#xE41;&#xE2E;</i>
+<reset/>&#xE2E;&#xE42;<i>&#xE42;&#xE2E;</i>
+<reset/>&#xE2E;&#xE43;<i>&#xE43;&#xE2E;</i>
+<reset/>&#xE2E;&#xE44;<i>&#xE44;&#xE2E;</i>
+<reset/>&#xEDE;&#xEC0;<i>&#xEC0;&#xEDE;</i>
+<reset/>&#xEDE;&#xEC1;<i>&#xEC1;&#xEDE;</i>
+<reset/>&#xEDE;&#xEC2;<i>&#xEC2;&#xEDE;</i>
+<reset/>&#xEDE;&#xEC3;<i>&#xEC3;&#xEDE;</i>
+<reset/>&#xEDE;&#xEC4;<i>&#xEC4;&#xEDE;</i>
+<reset/>&#xE81;&#xEC0;<i>&#xEC0;&#xE81;</i>
+<reset/>&#xE81;&#xEC1;<i>&#xEC1;&#xE81;</i>
+<reset/>&#xE81;&#xEC2;<i>&#xEC2;&#xE81;</i>
+<reset/>&#xE81;&#xEC3;<i>&#xEC3;&#xE81;</i>
+<reset/>&#xE81;&#xEC4;<i>&#xEC4;&#xE81;</i>
+<reset/>&#xE82;&#xEC0;<i>&#xEC0;&#xE82;</i>
+<reset/>&#xE82;&#xEC1;<i>&#xEC1;&#xE82;</i>
+<reset/>&#xE82;&#xEC2;<i>&#xEC2;&#xE82;</i>
+<reset/>&#xE82;&#xEC3;<i>&#xEC3;&#xE82;</i>
+<reset/>&#xE82;&#xEC4;<i>&#xEC4;&#xE82;</i>
+<reset/>&#xE84;&#xEC0;<i>&#xEC0;&#xE84;</i>
+<reset/>&#xE84;&#xEC1;<i>&#xEC1;&#xE84;</i>
+<reset/>&#xE84;&#xEC2;<i>&#xEC2;&#xE84;</i>
+<reset/>&#xE84;&#xEC3;<i>&#xEC3;&#xE84;</i>
+<reset/>&#xE84;&#xEC4;<i>&#xEC4;&#xE84;</i>
+<reset/>&#xE87;&#xEC0;<i>&#xEC0;&#xE87;</i>
+<reset/>&#xE87;&#xEC1;<i>&#xEC1;&#xE87;</i>
+<reset/>&#xE87;&#xEC2;<i>&#xEC2;&#xE87;</i>
+<reset/>&#xE87;&#xEC3;<i>&#xEC3;&#xE87;</i>
+<reset/>&#xE87;&#xEC4;<i>&#xEC4;&#xE87;</i>
+<reset/>&#xE88;&#xEC0;<i>&#xEC0;&#xE88;</i>
+<reset/>&#xE88;&#xEC1;<i>&#xEC1;&#xE88;</i>
+<reset/>&#xE88;&#xEC2;<i>&#xEC2;&#xE88;</i>
+<reset/>&#xE88;&#xEC3;<i>&#xEC3;&#xE88;</i>
+<reset/>&#xE88;&#xEC4;<i>&#xEC4;&#xE88;</i>
+<reset/>&#xEAA;&#xEC0;<i>&#xEC0;&#xEAA;</i>
+<reset/>&#xEAA;&#xEC1;<i>&#xEC1;&#xEAA;</i>
+<reset/>&#xEAA;&#xEC2;<i>&#xEC2;&#xEAA;</i>
+<reset/>&#xEAA;&#xEC3;<i>&#xEC3;&#xEAA;</i>
+<reset/>&#xEAA;&#xEC4;<i>&#xEC4;&#xEAA;</i>
+<reset/>&#xE8A;&#xEC0;<i>&#xEC0;&#xE8A;</i>
+<reset/>&#xE8A;&#xEC1;<i>&#xEC1;&#xE8A;</i>
+<reset/>&#xE8A;&#xEC2;<i>&#xEC2;&#xE8A;</i>
+<reset/>&#xE8A;&#xEC3;<i>&#xEC3;&#xE8A;</i>
+<reset/>&#xE8A;&#xEC4;<i>&#xEC4;&#xE8A;</i>
+<reset/>&#xEDF;&#xEC0;<i>&#xEC0;&#xEDF;</i>
+<reset/>&#xEDF;&#xEC1;<i>&#xEC1;&#xEDF;</i>
+<reset/>&#xEDF;&#xEC2;<i>&#xEC2;&#xEDF;</i>
+<reset/>&#xEDF;&#xEC3;<i>&#xEC3;&#xEDF;</i>
+<reset/>&#xEDF;&#xEC4;<i>&#xEC4;&#xEDF;</i>
+<reset/>&#xE8D;&#xEC0;<i>&#xEC0;&#xE8D;</i>
+<reset/>&#xE8D;&#xEC1;<i>&#xEC1;&#xE8D;</i>
+<reset/>&#xE8D;&#xEC2;<i>&#xEC2;&#xE8D;</i>
+<reset/>&#xE8D;&#xEC3;<i>&#xEC3;&#xE8D;</i>
+<reset/>&#xE8D;&#xEC4;<i>&#xEC4;&#xE8D;</i>
+<reset/>&#xE94;&#xEC0;<i>&#xEC0;&#xE94;</i>
+<reset/>&#xE94;&#xEC1;<i>&#xEC1;&#xE94;</i>
+<reset/>&#xE94;&#xEC2;<i>&#xEC2;&#xE94;</i>
+<reset/>&#xE94;&#xEC3;<i>&#xEC3;&#xE94;</i>
+<reset/>&#xE94;&#xEC4;<i>&#xEC4;&#xE94;</i>
+<reset/>&#xE95;&#xEC0;<i>&#xEC0;&#xE95;</i>
+<reset/>&#xE95;&#xEC1;<i>&#xEC1;&#xE95;</i>
+<reset/>&#xE95;&#xEC2;<i>&#xEC2;&#xE95;</i>
+<reset/>&#xE95;&#xEC3;<i>&#xEC3;&#xE95;</i>
+<reset/>&#xE95;&#xEC4;<i>&#xEC4;&#xE95;</i>
+<reset/>&#xE96;&#xEC0;<i>&#xEC0;&#xE96;</i>
+<reset/>&#xE96;&#xEC1;<i>&#xEC1;&#xE96;</i>
+<reset/>&#xE96;&#xEC2;<i>&#xEC2;&#xE96;</i>
+<reset/>&#xE96;&#xEC3;<i>&#xEC3;&#xE96;</i>
+<reset/>&#xE96;&#xEC4;<i>&#xEC4;&#xE96;</i>
+<reset/>&#xE97;&#xEC0;<i>&#xEC0;&#xE97;</i>
+<reset/>&#xE97;&#xEC1;<i>&#xEC1;&#xE97;</i>
+<reset/>&#xE97;&#xEC2;<i>&#xEC2;&#xE97;</i>
+<reset/>&#xE97;&#xEC3;<i>&#xEC3;&#xE97;</i>
+<reset/>&#xE97;&#xEC4;<i>&#xEC4;&#xE97;</i>
+<reset/>&#xE99;&#xEC0;<i>&#xEC0;&#xE99;</i>
+<reset/>&#xE99;&#xEC1;<i>&#xEC1;&#xE99;</i>
+<reset/>&#xE99;&#xEC2;<i>&#xEC2;&#xE99;</i>
+<reset/>&#xE99;&#xEC3;<i>&#xEC3;&#xE99;</i>
+<reset/>&#xE99;&#xEC4;<i>&#xEC4;&#xE99;</i>
+<reset/>&#xE9A;&#xEC0;<i>&#xEC0;&#xE9A;</i>
+<reset/>&#xE9A;&#xEC1;<i>&#xEC1;&#xE9A;</i>
+<reset/>&#xE9A;&#xEC2;<i>&#xEC2;&#xE9A;</i>
+<reset/>&#xE9A;&#xEC3;<i>&#xEC3;&#xE9A;</i>
+<reset/>&#xE9A;&#xEC4;<i>&#xEC4;&#xE9A;</i>
+<reset/>&#xE9B;&#xEC0;<i>&#xEC0;&#xE9B;</i>
+<reset/>&#xE9B;&#xEC1;<i>&#xEC1;&#xE9B;</i>
+<reset/>&#xE9B;&#xEC2;<i>&#xEC2;&#xE9B;</i>
+<reset/>&#xE9B;&#xEC3;<i>&#xEC3;&#xE9B;</i>
+<reset/>&#xE9B;&#xEC4;<i>&#xEC4;&#xE9B;</i>
+<reset/>&#xE9C;&#xEC0;<i>&#xEC0;&#xE9C;</i>
+<reset/>&#xE9C;&#xEC1;<i>&#xEC1;&#xE9C;</i>
+<reset/>&#xE9C;&#xEC2;<i>&#xEC2;&#xE9C;</i>
+<reset/>&#xE9C;&#xEC3;<i>&#xEC3;&#xE9C;</i>
+<reset/>&#xE9C;&#xEC4;<i>&#xEC4;&#xE9C;</i>
+<reset/>&#xE9D;&#xEC0;<i>&#xEC0;&#xE9D;</i>
+<reset/>&#xE9D;&#xEC1;<i>&#xEC1;&#xE9D;</i>
+<reset/>&#xE9D;&#xEC2;<i>&#xEC2;&#xE9D;</i>
+<reset/>&#xE9D;&#xEC3;<i>&#xEC3;&#xE9D;</i>
+<reset/>&#xE9D;&#xEC4;<i>&#xEC4;&#xE9D;</i>
+<reset/>&#xE9E;&#xEC0;<i>&#xEC0;&#xE9E;</i>
+<reset/>&#xE9E;&#xEC1;<i>&#xEC1;&#xE9E;</i>
+<reset/>&#xE9E;&#xEC2;<i>&#xEC2;&#xE9E;</i>
+<reset/>&#xE9E;&#xEC3;<i>&#xEC3;&#xE9E;</i>
+<reset/>&#xE9E;&#xEC4;<i>&#xEC4;&#xE9E;</i>
+<reset/>&#xE9F;&#xEC0;<i>&#xEC0;&#xE9F;</i>
+<reset/>&#xE9F;&#xEC1;<i>&#xEC1;&#xE9F;</i>
+<reset/>&#xE9F;&#xEC2;<i>&#xEC2;&#xE9F;</i>
+<reset/>&#xE9F;&#xEC3;<i>&#xEC3;&#xE9F;</i>
+<reset/>&#xE9F;&#xEC4;<i>&#xEC4;&#xE9F;</i>
+<reset/>&#xEA1;&#xEC0;<i>&#xEC0;&#xEA1;</i>
+<reset/>&#xEA1;&#xEC1;<i>&#xEC1;&#xEA1;</i>
+<reset/>&#xEA1;&#xEC2;<i>&#xEC2;&#xEA1;</i>
+<reset/>&#xEA1;&#xEC3;<i>&#xEC3;&#xEA1;</i>
+<reset/>&#xEA1;&#xEC4;<i>&#xEC4;&#xEA1;</i>
+<reset/>&#xEA2;&#xEC0;<i>&#xEC0;&#xEA2;</i>
+<reset/>&#xEA2;&#xEC1;<i>&#xEC1;&#xEA2;</i>
+<reset/>&#xEA2;&#xEC2;<i>&#xEC2;&#xEA2;</i>
+<reset/>&#xEA2;&#xEC3;<i>&#xEC3;&#xEA2;</i>
+<reset/>&#xEA2;&#xEC4;<i>&#xEC4;&#xEA2;</i>
+<reset/>&#xEA3;&#xEC0;<i>&#xEC0;&#xEA3;</i>
+<reset/>&#xEA3;&#xEC1;<i>&#xEC1;&#xEA3;</i>
+<reset/>&#xEA3;&#xEC2;<i>&#xEC2;&#xEA3;</i>
+<reset/>&#xEA3;&#xEC3;<i>&#xEC3;&#xEA3;</i>
+<reset/>&#xEA3;&#xEC4;<i>&#xEC4;&#xEA3;</i>
+<reset/>&#xEA5;&#xEC0;<i>&#xEC0;&#xEA5;</i>
+<reset/>&#xEA5;&#xEC1;<i>&#xEC1;&#xEA5;</i>
+<reset/>&#xEA5;&#xEC2;<i>&#xEC2;&#xEA5;</i>
+<reset/>&#xEA5;&#xEC3;<i>&#xEC3;&#xEA5;</i>
+<reset/>&#xEA5;&#xEC4;<i>&#xEC4;&#xEA5;</i>
+<reset/>&#xEA7;&#xEC0;<i>&#xEC0;&#xEA7;</i>
+<reset/>&#xEA7;&#xEC1;<i>&#xEC1;&#xEA7;</i>
+<reset/>&#xEA7;&#xEC2;<i>&#xEC2;&#xEA7;</i>
+<reset/>&#xEA7;&#xEC3;<i>&#xEC3;&#xEA7;</i>
+<reset/>&#xEA7;&#xEC4;<i>&#xEC4;&#xEA7;</i>
+<reset/>&#xEAB;&#xEC0;<i>&#xEC0;&#xEAB;</i>
+<reset/>&#xEAB;&#xEC1;<i>&#xEC1;&#xEAB;</i>
+<reset/>&#xEAB;&#xEC2;<i>&#xEC2;&#xEAB;</i>
+<reset/>&#xEAB;&#xEC3;<i>&#xEC3;&#xEAB;</i>
+<reset/>&#xEAB;&#xEC4;<i>&#xEC4;&#xEAB;</i>
+<reset/>&#xEDC;&#xEC0;<i>&#xEC0;&#xEDC;</i>
+<reset/>&#xEDC;&#xEC1;<i>&#xEC1;&#xEDC;</i>
+<reset/>&#xEDC;&#xEC2;<i>&#xEC2;&#xEDC;</i>
+<reset/>&#xEDC;&#xEC3;<i>&#xEC3;&#xEDC;</i>
+<reset/>&#xEDC;&#xEC4;<i>&#xEC4;&#xEDC;</i>
+<reset/>&#xEDD;&#xEC0;<i>&#xEC0;&#xEDD;</i>
+<reset/>&#xEDD;&#xEC1;<i>&#xEC1;&#xEDD;</i>
+<reset/>&#xEDD;&#xEC2;<i>&#xEC2;&#xEDD;</i>
+<reset/>&#xEDD;&#xEC3;<i>&#xEC3;&#xEDD;</i>
+<reset/>&#xEDD;&#xEC4;<i>&#xEC4;&#xEDD;</i>
+<reset/>&#xEAD;&#xEC0;<i>&#xEC0;&#xEAD;</i>
+<reset/>&#xEAD;&#xEC1;<i>&#xEC1;&#xEAD;</i>
+<reset/>&#xEAD;&#xEC2;<i>&#xEC2;&#xEAD;</i>
+<reset/>&#xEAD;&#xEC3;<i>&#xEC3;&#xEAD;</i>
+<reset/>&#xEAD;&#xEC4;<i>&#xEC4;&#xEAD;</i>
+<reset/>&#xEAE;&#xEC0;<i>&#xEC0;&#xEAE;</i>
+<reset/>&#xEAE;&#xEC1;<i>&#xEC1;&#xEAE;</i>
+<reset/>&#xEAE;&#xEC2;<i>&#xEC2;&#xEAE;</i>
+<reset/>&#xEAE;&#xEC3;<i>&#xEC3;&#xEAE;</i>
+<reset/>&#xEAE;&#xEC4;<i>&#xEC4;&#xEAE;</i>
+<reset/>&#xAA80;&#xAAB5;<i>&#xAAB5;&#xAA80;</i>
+<reset/>&#xAA80;&#xAAB6;<i>&#xAAB6;&#xAA80;</i>
+<reset/>&#xAA80;&#xAAB9;<i>&#xAAB9;&#xAA80;</i>
+<reset/>&#xAA80;&#xAABB;<i>&#xAABB;&#xAA80;</i>
+<reset/>&#xAA80;&#xAABC;<i>&#xAABC;&#xAA80;</i>
+<reset/>&#xAA81;&#xAAB5;<i>&#xAAB5;&#xAA81;</i>
+<reset/>&#xAA81;&#xAAB6;<i>&#xAAB6;&#xAA81;</i>
+<reset/>&#xAA81;&#xAAB9;<i>&#xAAB9;&#xAA81;</i>
+<reset/>&#xAA81;&#xAABB;<i>&#xAABB;&#xAA81;</i>
+<reset/>&#xAA81;&#xAABC;<i>&#xAABC;&#xAA81;</i>
+<reset/>&#xAA82;&#xAAB5;<i>&#xAAB5;&#xAA82;</i>
+<reset/>&#xAA82;&#xAAB6;<i>&#xAAB6;&#xAA82;</i>
+<reset/>&#xAA82;&#xAAB9;<i>&#xAAB9;&#xAA82;</i>
+<reset/>&#xAA82;&#xAABB;<i>&#xAABB;&#xAA82;</i>
+<reset/>&#xAA82;&#xAABC;<i>&#xAABC;&#xAA82;</i>
+<reset/>&#xAA83;&#xAAB5;<i>&#xAAB5;&#xAA83;</i>
+<reset/>&#xAA83;&#xAAB6;<i>&#xAAB6;&#xAA83;</i>
+<reset/>&#xAA83;&#xAAB9;<i>&#xAAB9;&#xAA83;</i>
+<reset/>&#xAA83;&#xAABB;<i>&#xAABB;&#xAA83;</i>
+<reset/>&#xAA83;&#xAABC;<i>&#xAABC;&#xAA83;</i>
+<reset/>&#xAA84;&#xAAB5;<i>&#xAAB5;&#xAA84;</i>
+<reset/>&#xAA84;&#xAAB6;<i>&#xAAB6;&#xAA84;</i>
+<reset/>&#xAA84;&#xAAB9;<i>&#xAAB9;&#xAA84;</i>
+<reset/>&#xAA84;&#xAABB;<i>&#xAABB;&#xAA84;</i>
+<reset/>&#xAA84;&#xAABC;<i>&#xAABC;&#xAA84;</i>
+<reset/>&#xAA85;&#xAAB5;<i>&#xAAB5;&#xAA85;</i>
+<reset/>&#xAA85;&#xAAB6;<i>&#xAAB6;&#xAA85;</i>
+<reset/>&#xAA85;&#xAAB9;<i>&#xAAB9;&#xAA85;</i>
+<reset/>&#xAA85;&#xAABB;<i>&#xAABB;&#xAA85;</i>
+<reset/>&#xAA85;&#xAABC;<i>&#xAABC;&#xAA85;</i>
+<reset/>&#xAA86;&#xAAB5;<i>&#xAAB5;&#xAA86;</i>
+<reset/>&#xAA86;&#xAAB6;<i>&#xAAB6;&#xAA86;</i>
+<reset/>&#xAA86;&#xAAB9;<i>&#xAAB9;&#xAA86;</i>
+<reset/>&#xAA86;&#xAABB;<i>&#xAABB;&#xAA86;</i>
+<reset/>&#xAA86;&#xAABC;<i>&#xAABC;&#xAA86;</i>
+<reset/>&#xAA87;&#xAAB5;<i>&#xAAB5;&#xAA87;</i>
+<reset/>&#xAA87;&#xAAB6;<i>&#xAAB6;&#xAA87;</i>
+<reset/>&#xAA87;&#xAAB9;<i>&#xAAB9;&#xAA87;</i>
+<reset/>&#xAA87;&#xAABB;<i>&#xAABB;&#xAA87;</i>
+<reset/>&#xAA87;&#xAABC;<i>&#xAABC;&#xAA87;</i>
+<reset/>&#xAA88;&#xAAB5;<i>&#xAAB5;&#xAA88;</i>
+<reset/>&#xAA88;&#xAAB6;<i>&#xAAB6;&#xAA88;</i>
+<reset/>&#xAA88;&#xAAB9;<i>&#xAAB9;&#xAA88;</i>
+<reset/>&#xAA88;&#xAABB;<i>&#xAABB;&#xAA88;</i>
+<reset/>&#xAA88;&#xAABC;<i>&#xAABC;&#xAA88;</i>
+<reset/>&#xAA89;&#xAAB5;<i>&#xAAB5;&#xAA89;</i>
+<reset/>&#xAA89;&#xAAB6;<i>&#xAAB6;&#xAA89;</i>
+<reset/>&#xAA89;&#xAAB9;<i>&#xAAB9;&#xAA89;</i>
+<reset/>&#xAA89;&#xAABB;<i>&#xAABB;&#xAA89;</i>
+<reset/>&#xAA89;&#xAABC;<i>&#xAABC;&#xAA89;</i>
+<reset/>&#xAA8A;&#xAAB5;<i>&#xAAB5;&#xAA8A;</i>
+<reset/>&#xAA8A;&#xAAB6;<i>&#xAAB6;&#xAA8A;</i>
+<reset/>&#xAA8A;&#xAAB9;<i>&#xAAB9;&#xAA8A;</i>
+<reset/>&#xAA8A;&#xAABB;<i>&#xAABB;&#xAA8A;</i>
+<reset/>&#xAA8A;&#xAABC;<i>&#xAABC;&#xAA8A;</i>
+<reset/>&#xAA8B;&#xAAB5;<i>&#xAAB5;&#xAA8B;</i>
+<reset/>&#xAA8B;&#xAAB6;<i>&#xAAB6;&#xAA8B;</i>
+<reset/>&#xAA8B;&#xAAB9;<i>&#xAAB9;&#xAA8B;</i>
+<reset/>&#xAA8B;&#xAABB;<i>&#xAABB;&#xAA8B;</i>
+<reset/>&#xAA8B;&#xAABC;<i>&#xAABC;&#xAA8B;</i>
+<reset/>&#xAA8C;&#xAAB5;<i>&#xAAB5;&#xAA8C;</i>
+<reset/>&#xAA8C;&#xAAB6;<i>&#xAAB6;&#xAA8C;</i>
+<reset/>&#xAA8C;&#xAAB9;<i>&#xAAB9;&#xAA8C;</i>
+<reset/>&#xAA8C;&#xAABB;<i>&#xAABB;&#xAA8C;</i>
+<reset/>&#xAA8C;&#xAABC;<i>&#xAABC;&#xAA8C;</i>
+<reset/>&#xAA8D;&#xAAB5;<i>&#xAAB5;&#xAA8D;</i>
+<reset/>&#xAA8D;&#xAAB6;<i>&#xAAB6;&#xAA8D;</i>
+<reset/>&#xAA8D;&#xAAB9;<i>&#xAAB9;&#xAA8D;</i>
+<reset/>&#xAA8D;&#xAABB;<i>&#xAABB;&#xAA8D;</i>
+<reset/>&#xAA8D;&#xAABC;<i>&#xAABC;&#xAA8D;</i>
+<reset/>&#xAA8E;&#xAAB5;<i>&#xAAB5;&#xAA8E;</i>
+<reset/>&#xAA8E;&#xAAB6;<i>&#xAAB6;&#xAA8E;</i>
+<reset/>&#xAA8E;&#xAAB9;<i>&#xAAB9;&#xAA8E;</i>
+<reset/>&#xAA8E;&#xAABB;<i>&#xAABB;&#xAA8E;</i>
+<reset/>&#xAA8E;&#xAABC;<i>&#xAABC;&#xAA8E;</i>
+<reset/>&#xAA8F;&#xAAB5;<i>&#xAAB5;&#xAA8F;</i>
+<reset/>&#xAA8F;&#xAAB6;<i>&#xAAB6;&#xAA8F;</i>
+<reset/>&#xAA8F;&#xAAB9;<i>&#xAAB9;&#xAA8F;</i>
+<reset/>&#xAA8F;&#xAABB;<i>&#xAABB;&#xAA8F;</i>
+<reset/>&#xAA8F;&#xAABC;<i>&#xAABC;&#xAA8F;</i>
+<reset/>&#xAA90;&#xAAB5;<i>&#xAAB5;&#xAA90;</i>
+<reset/>&#xAA90;&#xAAB6;<i>&#xAAB6;&#xAA90;</i>
+<reset/>&#xAA90;&#xAAB9;<i>&#xAAB9;&#xAA90;</i>
+<reset/>&#xAA90;&#xAABB;<i>&#xAABB;&#xAA90;</i>
+<reset/>&#xAA90;&#xAABC;<i>&#xAABC;&#xAA90;</i>
+<reset/>&#xAA91;&#xAAB5;<i>&#xAAB5;&#xAA91;</i>
+<reset/>&#xAA91;&#xAAB6;<i>&#xAAB6;&#xAA91;</i>
+<reset/>&#xAA91;&#xAAB9;<i>&#xAAB9;&#xAA91;</i>
+<reset/>&#xAA91;&#xAABB;<i>&#xAABB;&#xAA91;</i>
+<reset/>&#xAA91;&#xAABC;<i>&#xAABC;&#xAA91;</i>
+<reset/>&#xAA92;&#xAAB5;<i>&#xAAB5;&#xAA92;</i>
+<reset/>&#xAA92;&#xAAB6;<i>&#xAAB6;&#xAA92;</i>
+<reset/>&#xAA92;&#xAAB9;<i>&#xAAB9;&#xAA92;</i>
+<reset/>&#xAA92;&#xAABB;<i>&#xAABB;&#xAA92;</i>
+<reset/>&#xAA92;&#xAABC;<i>&#xAABC;&#xAA92;</i>
+<reset/>&#xAA93;&#xAAB5;<i>&#xAAB5;&#xAA93;</i>
+<reset/>&#xAA93;&#xAAB6;<i>&#xAAB6;&#xAA93;</i>
+<reset/>&#xAA93;&#xAAB9;<i>&#xAAB9;&#xAA93;</i>
+<reset/>&#xAA93;&#xAABB;<i>&#xAABB;&#xAA93;</i>
+<reset/>&#xAA93;&#xAABC;<i>&#xAABC;&#xAA93;</i>
+<reset/>&#xAA94;&#xAAB5;<i>&#xAAB5;&#xAA94;</i>
+<reset/>&#xAA94;&#xAAB6;<i>&#xAAB6;&#xAA94;</i>
+<reset/>&#xAA94;&#xAAB9;<i>&#xAAB9;&#xAA94;</i>
+<reset/>&#xAA94;&#xAABB;<i>&#xAABB;&#xAA94;</i>
+<reset/>&#xAA94;&#xAABC;<i>&#xAABC;&#xAA94;</i>
+<reset/>&#xAA95;&#xAAB5;<i>&#xAAB5;&#xAA95;</i>
+<reset/>&#xAA95;&#xAAB6;<i>&#xAAB6;&#xAA95;</i>
+<reset/>&#xAA95;&#xAAB9;<i>&#xAAB9;&#xAA95;</i>
+<reset/>&#xAA95;&#xAABB;<i>&#xAABB;&#xAA95;</i>
+<reset/>&#xAA95;&#xAABC;<i>&#xAABC;&#xAA95;</i>
+<reset/>&#xAA96;&#xAAB5;<i>&#xAAB5;&#xAA96;</i>
+<reset/>&#xAA96;&#xAAB6;<i>&#xAAB6;&#xAA96;</i>
+<reset/>&#xAA96;&#xAAB9;<i>&#xAAB9;&#xAA96;</i>
+<reset/>&#xAA96;&#xAABB;<i>&#xAABB;&#xAA96;</i>
+<reset/>&#xAA96;&#xAABC;<i>&#xAABC;&#xAA96;</i>
+<reset/>&#xAA97;&#xAAB5;<i>&#xAAB5;&#xAA97;</i>
+<reset/>&#xAA97;&#xAAB6;<i>&#xAAB6;&#xAA97;</i>
+<reset/>&#xAA97;&#xAAB9;<i>&#xAAB9;&#xAA97;</i>
+<reset/>&#xAA97;&#xAABB;<i>&#xAABB;&#xAA97;</i>
+<reset/>&#xAA97;&#xAABC;<i>&#xAABC;&#xAA97;</i>
+<reset/>&#xAA98;&#xAAB5;<i>&#xAAB5;&#xAA98;</i>
+<reset/>&#xAA98;&#xAAB6;<i>&#xAAB6;&#xAA98;</i>
+<reset/>&#xAA98;&#xAAB9;<i>&#xAAB9;&#xAA98;</i>
+<reset/>&#xAA98;&#xAABB;<i>&#xAABB;&#xAA98;</i>
+<reset/>&#xAA98;&#xAABC;<i>&#xAABC;&#xAA98;</i>
+<reset/>&#xAA99;&#xAAB5;<i>&#xAAB5;&#xAA99;</i>
+<reset/>&#xAA99;&#xAAB6;<i>&#xAAB6;&#xAA99;</i>
+<reset/>&#xAA99;&#xAAB9;<i>&#xAAB9;&#xAA99;</i>
+<reset/>&#xAA99;&#xAABB;<i>&#xAABB;&#xAA99;</i>
+<reset/>&#xAA99;&#xAABC;<i>&#xAABC;&#xAA99;</i>
+<reset/>&#xAA9A;&#xAAB5;<i>&#xAAB5;&#xAA9A;</i>
+<reset/>&#xAA9A;&#xAAB6;<i>&#xAAB6;&#xAA9A;</i>
+<reset/>&#xAA9A;&#xAAB9;<i>&#xAAB9;&#xAA9A;</i>
+<reset/>&#xAA9A;&#xAABB;<i>&#xAABB;&#xAA9A;</i>
+<reset/>&#xAA9A;&#xAABC;<i>&#xAABC;&#xAA9A;</i>
+<reset/>&#xAA9B;&#xAAB5;<i>&#xAAB5;&#xAA9B;</i>
+<reset/>&#xAA9B;&#xAAB6;<i>&#xAAB6;&#xAA9B;</i>
+<reset/>&#xAA9B;&#xAAB9;<i>&#xAAB9;&#xAA9B;</i>
+<reset/>&#xAA9B;&#xAABB;<i>&#xAABB;&#xAA9B;</i>
+<reset/>&#xAA9B;&#xAABC;<i>&#xAABC;&#xAA9B;</i>
+<reset/>&#xAA9C;&#xAAB5;<i>&#xAAB5;&#xAA9C;</i>
+<reset/>&#xAA9C;&#xAAB6;<i>&#xAAB6;&#xAA9C;</i>
+<reset/>&#xAA9C;&#xAAB9;<i>&#xAAB9;&#xAA9C;</i>
+<reset/>&#xAA9C;&#xAABB;<i>&#xAABB;&#xAA9C;</i>
+<reset/>&#xAA9C;&#xAABC;<i>&#xAABC;&#xAA9C;</i>
+<reset/>&#xAA9D;&#xAAB5;<i>&#xAAB5;&#xAA9D;</i>
+<reset/>&#xAA9D;&#xAAB6;<i>&#xAAB6;&#xAA9D;</i>
+<reset/>&#xAA9D;&#xAAB9;<i>&#xAAB9;&#xAA9D;</i>
+<reset/>&#xAA9D;&#xAABB;<i>&#xAABB;&#xAA9D;</i>
+<reset/>&#xAA9D;&#xAABC;<i>&#xAABC;&#xAA9D;</i>
+<reset/>&#xAA9E;&#xAAB5;<i>&#xAAB5;&#xAA9E;</i>
+<reset/>&#xAA9E;&#xAAB6;<i>&#xAAB6;&#xAA9E;</i>
+<reset/>&#xAA9E;&#xAAB9;<i>&#xAAB9;&#xAA9E;</i>
+<reset/>&#xAA9E;&#xAABB;<i>&#xAABB;&#xAA9E;</i>
+<reset/>&#xAA9E;&#xAABC;<i>&#xAABC;&#xAA9E;</i>
+<reset/>&#xAA9F;&#xAAB5;<i>&#xAAB5;&#xAA9F;</i>
+<reset/>&#xAA9F;&#xAAB6;<i>&#xAAB6;&#xAA9F;</i>
+<reset/>&#xAA9F;&#xAAB9;<i>&#xAAB9;&#xAA9F;</i>
+<reset/>&#xAA9F;&#xAABB;<i>&#xAABB;&#xAA9F;</i>
+<reset/>&#xAA9F;&#xAABC;<i>&#xAABC;&#xAA9F;</i>
+<reset/>&#xAAA0;&#xAAB5;<i>&#xAAB5;&#xAAA0;</i>
+<reset/>&#xAAA0;&#xAAB6;<i>&#xAAB6;&#xAAA0;</i>
+<reset/>&#xAAA0;&#xAAB9;<i>&#xAAB9;&#xAAA0;</i>
+<reset/>&#xAAA0;&#xAABB;<i>&#xAABB;&#xAAA0;</i>
+<reset/>&#xAAA0;&#xAABC;<i>&#xAABC;&#xAAA0;</i>
+<reset/>&#xAAA1;&#xAAB5;<i>&#xAAB5;&#xAAA1;</i>
+<reset/>&#xAAA1;&#xAAB6;<i>&#xAAB6;&#xAAA1;</i>
+<reset/>&#xAAA1;&#xAAB9;<i>&#xAAB9;&#xAAA1;</i>
+<reset/>&#xAAA1;&#xAABB;<i>&#xAABB;&#xAAA1;</i>
+<reset/>&#xAAA1;&#xAABC;<i>&#xAABC;&#xAAA1;</i>
+<reset/>&#xAAA2;&#xAAB5;<i>&#xAAB5;&#xAAA2;</i>
+<reset/>&#xAAA2;&#xAAB6;<i>&#xAAB6;&#xAAA2;</i>
+<reset/>&#xAAA2;&#xAAB9;<i>&#xAAB9;&#xAAA2;</i>
+<reset/>&#xAAA2;&#xAABB;<i>&#xAABB;&#xAAA2;</i>
+<reset/>&#xAAA2;&#xAABC;<i>&#xAABC;&#xAAA2;</i>
+<reset/>&#xAAA3;&#xAAB5;<i>&#xAAB5;&#xAAA3;</i>
+<reset/>&#xAAA3;&#xAAB6;<i>&#xAAB6;&#xAAA3;</i>
+<reset/>&#xAAA3;&#xAAB9;<i>&#xAAB9;&#xAAA3;</i>
+<reset/>&#xAAA3;&#xAABB;<i>&#xAABB;&#xAAA3;</i>
+<reset/>&#xAAA3;&#xAABC;<i>&#xAABC;&#xAAA3;</i>
+<reset/>&#xAAA4;&#xAAB5;<i>&#xAAB5;&#xAAA4;</i>
+<reset/>&#xAAA4;&#xAAB6;<i>&#xAAB6;&#xAAA4;</i>
+<reset/>&#xAAA4;&#xAAB9;<i>&#xAAB9;&#xAAA4;</i>
+<reset/>&#xAAA4;&#xAABB;<i>&#xAABB;&#xAAA4;</i>
+<reset/>&#xAAA4;&#xAABC;<i>&#xAABC;&#xAAA4;</i>
+<reset/>&#xAAA5;&#xAAB5;<i>&#xAAB5;&#xAAA5;</i>
+<reset/>&#xAAA5;&#xAAB6;<i>&#xAAB6;&#xAAA5;</i>
+<reset/>&#xAAA5;&#xAAB9;<i>&#xAAB9;&#xAAA5;</i>
+<reset/>&#xAAA5;&#xAABB;<i>&#xAABB;&#xAAA5;</i>
+<reset/>&#xAAA5;&#xAABC;<i>&#xAABC;&#xAAA5;</i>
+<reset/>&#xAAA6;&#xAAB5;<i>&#xAAB5;&#xAAA6;</i>
+<reset/>&#xAAA6;&#xAAB6;<i>&#xAAB6;&#xAAA6;</i>
+<reset/>&#xAAA6;&#xAAB9;<i>&#xAAB9;&#xAAA6;</i>
+<reset/>&#xAAA6;&#xAABB;<i>&#xAABB;&#xAAA6;</i>
+<reset/>&#xAAA6;&#xAABC;<i>&#xAABC;&#xAAA6;</i>
+<reset/>&#xAAA7;&#xAAB5;<i>&#xAAB5;&#xAAA7;</i>
+<reset/>&#xAAA7;&#xAAB6;<i>&#xAAB6;&#xAAA7;</i>
+<reset/>&#xAAA7;&#xAAB9;<i>&#xAAB9;&#xAAA7;</i>
+<reset/>&#xAAA7;&#xAABB;<i>&#xAABB;&#xAAA7;</i>
+<reset/>&#xAAA7;&#xAABC;<i>&#xAABC;&#xAAA7;</i>
+<reset/>&#xAAA8;&#xAAB5;<i>&#xAAB5;&#xAAA8;</i>
+<reset/>&#xAAA8;&#xAAB6;<i>&#xAAB6;&#xAAA8;</i>
+<reset/>&#xAAA8;&#xAAB9;<i>&#xAAB9;&#xAAA8;</i>
+<reset/>&#xAAA8;&#xAABB;<i>&#xAABB;&#xAAA8;</i>
+<reset/>&#xAAA8;&#xAABC;<i>&#xAABC;&#xAAA8;</i>
+<reset/>&#xAAA9;&#xAAB5;<i>&#xAAB5;&#xAAA9;</i>
+<reset/>&#xAAA9;&#xAAB6;<i>&#xAAB6;&#xAAA9;</i>
+<reset/>&#xAAA9;&#xAAB9;<i>&#xAAB9;&#xAAA9;</i>
+<reset/>&#xAAA9;&#xAABB;<i>&#xAABB;&#xAAA9;</i>
+<reset/>&#xAAA9;&#xAABC;<i>&#xAABC;&#xAAA9;</i>
+<reset/>&#xAAAA;&#xAAB5;<i>&#xAAB5;&#xAAAA;</i>
+<reset/>&#xAAAA;&#xAAB6;<i>&#xAAB6;&#xAAAA;</i>
+<reset/>&#xAAAA;&#xAAB9;<i>&#xAAB9;&#xAAAA;</i>
+<reset/>&#xAAAA;&#xAABB;<i>&#xAABB;&#xAAAA;</i>
+<reset/>&#xAAAA;&#xAABC;<i>&#xAABC;&#xAAAA;</i>
+<reset/>&#xAAAB;&#xAAB5;<i>&#xAAB5;&#xAAAB;</i>
+<reset/>&#xAAAB;&#xAAB6;<i>&#xAAB6;&#xAAAB;</i>
+<reset/>&#xAAAB;&#xAAB9;<i>&#xAAB9;&#xAAAB;</i>
+<reset/>&#xAAAB;&#xAABB;<i>&#xAABB;&#xAAAB;</i>
+<reset/>&#xAAAB;&#xAABC;<i>&#xAABC;&#xAAAB;</i>
+<reset/>&#xAAAC;&#xAAB5;<i>&#xAAB5;&#xAAAC;</i>
+<reset/>&#xAAAC;&#xAAB6;<i>&#xAAB6;&#xAAAC;</i>
+<reset/>&#xAAAC;&#xAAB9;<i>&#xAAB9;&#xAAAC;</i>
+<reset/>&#xAAAC;&#xAABB;<i>&#xAABB;&#xAAAC;</i>
+<reset/>&#xAAAC;&#xAABC;<i>&#xAABC;&#xAAAC;</i>
+<reset/>&#xAAAD;&#xAAB5;<i>&#xAAB5;&#xAAAD;</i>
+<reset/>&#xAAAD;&#xAAB6;<i>&#xAAB6;&#xAAAD;</i>
+<reset/>&#xAAAD;&#xAAB9;<i>&#xAAB9;&#xAAAD;</i>
+<reset/>&#xAAAD;&#xAABB;<i>&#xAABB;&#xAAAD;</i>
+<reset/>&#xAAAD;&#xAABC;<i>&#xAABC;&#xAAAD;</i>
+<reset/>&#xAAAE;&#xAAB5;<i>&#xAAB5;&#xAAAE;</i>
+<reset/>&#xAAAE;&#xAAB6;<i>&#xAAB6;&#xAAAE;</i>
+<reset/>&#xAAAE;&#xAAB9;<i>&#xAAB9;&#xAAAE;</i>
+<reset/>&#xAAAE;&#xAABB;<i>&#xAABB;&#xAAAE;</i>
+<reset/>&#xAAAE;&#xAABC;<i>&#xAABC;&#xAAAE;</i>
+<reset/>&#xAAAF;&#xAAB5;<i>&#xAAB5;&#xAAAF;</i>
+<reset/>&#xAAAF;&#xAAB6;<i>&#xAAB6;&#xAAAF;</i>
+<reset/>&#xAAAF;&#xAAB9;<i>&#xAAB9;&#xAAAF;</i>
+<reset/>&#xAAAF;&#xAABB;<i>&#xAABB;&#xAAAF;</i>
+<reset/>&#xAAAF;&#xAABC;<i>&#xAABC;&#xAAAF;</i>
 </rules></collation>

@@ -1,4 +1,4 @@
-# Date: 2012-02-02, 21:24:00 GMT [KW]
+# Date: 2012-06-06, 21:58:00 GMT [KW]
 #
 # Unicode Collation Algorithm
 # Copyright (c) 1991-2012 Unicode, Inc.
