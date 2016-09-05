@@ -1,7 +1,7 @@
-# Date: 2015-06-16, 20:24:00 GMT [KW]
-#
 # Unicode Collation Algorithm
-# Copyright (c) 1991-2015 Unicode, Inc.
+# Date: 2016-06-20, 20:31:00 GMT [KW]
+# © 2016 Unicode®, Inc.
+# Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 #
 # See: http://www.unicode.org/reports/tr10/
