@@ -1,22 +1,21 @@
-# VerticalOrientation-16.txt
-# Date: 2016-07-23, 01:00:00 GMT [EM, KI, LI]
+# VerticalOrientation-17.txt
+# Date: 2016-10-20, 07:00:00 GMT [EM, KI, LI]
 # © 2016 Unicode®, Inc.
 # Unicode and the Unicode Logo are registered trademarks of
 # Unicode, Inc. in the U.S. and other countries.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 #
-# Note: This data file accompanies Revision 16 of Unicode Technical
-# Report #50, which has the status of Proposed Update. The approved
-# version of this data file will appear in the subsequent Revision 17.
+# Note: This data file accompanies Revision 17 of Unicode Technical
+# Report #50, which has approved status.
 #
 # Vertical_Orientation (vo) Property
 #
 # This file defines the Vertical_Orientation property. The file is not
 # formally part of the Unicode Character Database.
 #
-# For documentation, see Revision 16 of
+# For documentation, see Revision 17 of
 # Unicode Technical Report #50: Unicode Vertical Text Layout,
-# at http://www.unicode.org/reports/tr50/tr50-16.html
+# at http://www.unicode.org/reports/tr50/tr50-17.html
 #
 # The character repertoire of this revision is the repertoire of
 # Unicode Version 9.0.
