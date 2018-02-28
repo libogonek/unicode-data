@@ -1,6 +1,9 @@
-This directory contains the data files for Revision 14 of UTR #25: Unicode Support for Mathematics.
+© 2017 Unicode®, Inc.
+Unicode and the Unicode Logo are registered trademarks of
+Unicode, Inc. in the U.S. and other countries.
+For terms of use, see http://www.unicode.org/terms_of_use.html
 
-Starting with this revision, MathClassEx.docx has been replaced with MathClassEx.html, and all data
-files have LF line endings and no BOM.
+This directory contains the data files for Revision 15 of
+Unicode Technical Report #25: Unicode Support for Mathematics.
 
-For more information, see http://www.unicode.org/reports/tr25/tr25-14.pdf.
+For more information, see http://www.unicode.org/reports/tr25/tr25-15.pdf.
