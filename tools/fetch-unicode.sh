@@ -11,6 +11,7 @@ tools/fetch-ucd.sh $REV
 tools/fetch-uca.sh $REV
 tools/fetch-uts39.sh $REV
 tools/fetch-uts46.sh $REV
+tools/fetch-uts51.sh $REV
 
 git commit -S -m "Unicode $REV"
 git tag -m "Unicode $REV" ucd-$REV
